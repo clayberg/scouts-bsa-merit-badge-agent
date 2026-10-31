@@ -51,7 +51,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor What)",
+        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -70,7 +70,13 @@
           "1. Discuss with your counselor what citizenship in the community means and what it takes to be a good citizen in your community",
           "2. Discuss the rights, duties, and obligations of citizenship, and explain how you can demonstrate good citizenship in your community, Scouting unit, place of worship, or school"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A person fulfills community citizenship simply by residing within city boundaries and avoiding criminal behavior.",
@@ -253,7 +259,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(1) Structured Technical Study & Explanation Matrix (Chief Government Buildings)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -265,12 +271,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Chief government buildings such as your city hall, county courthouse, and public works/services facilities"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Chief government buildings such as your city hall, county courthouse, and public works/services facilities"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
@@ -322,7 +338,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(2) Structured Technical Study & Explanation Matrix (Fire Station Police Station and)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -334,12 +350,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Fire station, police station, and hospital nearest your home"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Fire station, police station, and hospital nearest your home"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
@@ -392,7 +418,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(3) Structured Technical Study & Explanation Matrix (Parks Playgrounds Recreation Areas and)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -404,12 +430,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Parks, playgrounds, recreation areas, and trails"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Parks, playgrounds, recreation areas, and trails"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
@@ -462,7 +498,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(4) Structured Technical Study & Explanation Matrix (Historical or Other Interesting)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -474,12 +510,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Historical or other interesting points of interest"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Historical or other interesting points of interest"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
@@ -526,7 +572,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 2a Quantitative Field Observation & Activity Log (Electronic Mapping Tool or Paper)",
+            "table_title": "Req 2a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -551,7 +597,14 @@
               "3. (2a(3)) Parks, playgrounds, recreation areas, and trails",
               "4. (2a(4)) Historical or other interesting points of interest"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -589,7 +642,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p007_img1.png",
           "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-          "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+          "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 2a (Using an electronic mapping tool or paper map, locate and pinpoint the following services), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -609,7 +665,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Organization of Your Local or)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -628,7 +684,13 @@
               "1. Chart the organization of your local or state government.",
               "2. Show the top offices and tell whether they are elected or appointed."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -667,7 +729,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p015_img1.png",
           "title": "Req 2b: Charting Local Government Structure",
           "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-          "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+          "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 2b (Chart the organization of your local or state government. Show the top offices and tell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -714,7 +779,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 2 Quantitative Field Observation & Activity Log (Electronic Mapping Tool or Paper)",
+        "table_title": "Req 2 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -735,7 +800,14 @@
           "1. (2a) Using an electronic mapping tool or paper map, locate and pinpoint the following services and landmarks in your community",
           "2. (2b) Chart the organization of your local or state government"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every municipal leader with executive decision power is chosen through direct public election by registered voters.",
@@ -916,7 +988,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (In-person Meeting of Your City)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -935,7 +1007,13 @@
               "1. Attend an in-person meeting of your city, town, or county council or school board, local court session",
               "2. OR another state or local governmental meeting approved in advance by your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)",
           "common_misconception_pair": {
@@ -973,7 +1051,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
           "workbook_diagram_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
-          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system."
+          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 3a (Attend an in-person meeting of your city, town, or county council or school board, local), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -993,7 +1074,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Issues Discussed at the Meeting)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Objective Local News Reporting",
@@ -1005,12 +1086,22 @@
               "Opinion-Based Newspaper Editorials"
             ],
             "row_labels": [
-              "1. Choose one of the issues discussed at the meeting where a difference of opinions was expressed, and explain to your counselor why you agree with one opinion more than you do another one"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Choose one of the issues discussed at the meeting where a difference of opinions was expressed, and explain to your counselor why you agree with one opinion more than you do another one"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Objective Local News Reporting",
+              "Opinion-Based Newspaper Editorials"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)",
           "common_misconception_pair": {
@@ -1048,7 +1139,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
           "workbook_diagram_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
-          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system."
+          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 3b (Choose one of the issues discussed at the meeting where a difference of opinions was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1099,7 +1193,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (In-person Meeting of Your City)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Objective Local News Reporting",
@@ -1118,7 +1212,12 @@
           "1. (3a) In-person Meeting of Your City",
           "2. (3b) Issues Discussed At The Meeting"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Comparison Dimension",
+          "Objective Local News Reporting",
+          "Opinion-Based Newspaper Editorials"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Public council meetings are purely ceremonial gatherings where officials rubber-stamp decisions already settled in private.",
@@ -1276,7 +1375,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Out Which Branch of Local)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1288,12 +1387,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find out which branch of local government is responsible for this issue"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Find out which branch of local government is responsible for this issue"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1331,7 +1440,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p025_img1.png",
           "workbook_diagram_caption": "Citizens discuss local issues around a conference table at a public town committee meeting.",
-          "workbook_visual_caption": "Citizens discuss local issues around a conference table at a public town committee meeting."
+          "workbook_visual_caption": "Citizens discuss local issues around a conference table at a public town committee meeting.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 4a (Find out which branch of local government is responsible for this issue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1347,7 +1459,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Person from the Branch of)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1366,19 +1478,20 @@
               "1. With your counselor's and a parent or guardian's approval, interview one person from the branch of government you identified in requirement 4",
               "2. Ask what is being done about this issue and how young people can help"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
             "misconception": "Interviewing a government official means advocating aggressively for a personal political outcome.",
             "fact": "The civic interview is an information-gathering dialogue designed to understand administrative processes and operational constraints."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Citizenship in the Community Req 4b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Citizenship in the Community Merit Badge Hub (Req 4b)",
@@ -1410,7 +1523,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
           "title": "Req 4b: Interviewing a Local Government Official",
           "workbook_diagram_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
-          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system."
+          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 4b (With your counselor's and a parent or guardian's approval, interview one person from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1421,7 +1537,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (You Have Learned)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1433,12 +1549,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Share what you have learned with your counselor"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Share what you have learned with your counselor"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1476,7 +1602,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p023_img1.png",
           "workbook_diagram_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
-          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system."
+          "workbook_visual_caption": "A courtroom session in progress shows citizens participating in the local judicial system.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 4c (Share what you have learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1503,7 +1632,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Issue That Is Important)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1524,7 +1653,12 @@
           "2. (4b) Interviewing a Local Government Official",
           "3. (4c) Share what you have learned with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The mayor personally manages and directly resolves all neighborhood infrastructure problems and civic complaints.",
@@ -1702,7 +1836,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Movie That Shows How the)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1721,18 +1855,19 @@
           "1. With the approval of your counselor and a parent or guardian, watch a movie that shows how the actions of one individual or group of individuals can have a positive effect on a community",
           "2. Discuss with your counselor what you learned from the movie about what it means to be a valuable and concerned member of the community"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Effective community improvement depicted in movies results from solitary heroic actions without broader public cooperation.",
         "fact": "Meaningful civic achievements require building cooperative coalitions, educating the public, and sustaining collective community action."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Citizenship in the Community Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Citizenship in the Community Merit Badge Hub (Req 5)",
@@ -1903,7 +2038,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Services Such As the Library)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1922,7 +2057,13 @@
           "1. List some of the services (such as the library, recreation center, public transportation, and public safety) your community provides that are funded by taxpayers",
           "2. Tell your counselor why these services are important to your community"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Public municipal services generate sufficient internal user fees to operate without subsidization from taxpayer revenues.",
@@ -2109,7 +2250,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Charitable Organizations Outside of Scouting)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2121,12 +2262,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify three charitable organizations outside of Scouting that interest you and bring people in your community together to work for the good of your community"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify three charitable organizations outside of Scouting that interest you and bring people in your community together to work for the good of your community"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
@@ -2164,7 +2315,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p031_img1.png",
           "workbook_diagram_caption": "Diverse residents assemble to collaborate on local volunteer projects and public service.",
-          "workbook_visual_caption": "Diverse residents assemble to collaborate on local volunteer projects and public service."
+          "workbook_visual_caption": "Diverse residents assemble to collaborate on local volunteer projects and public service.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 7a (Identify three charitable organizations outside of Scouting that interest you and bring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2196,7 +2350,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Organizations You Chose for Requirement)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2215,7 +2369,13 @@
               "1. Pick ONE of the organizations you chose for requirement 7",
               "2. Using a variety of resources (including newspapers, flyers and other literature, the internet, volunteers, and employees of the organization), find out more about this organization"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
@@ -2253,7 +2413,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p028_img1.png",
           "workbook_diagram_caption": "Youth volunteers serve food in a charitable kitchen to support community members.",
-          "workbook_visual_caption": "Youth volunteers serve food in a charitable kitchen to support community members."
+          "workbook_visual_caption": "Youth volunteers serve food in a charitable kitchen to support community members.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 7b (Pick ONE of the organizations you chose for requirement 7(a). Using a variety of resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2269,7 +2432,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Contact the Organization You Chose)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2290,19 +2453,20 @@
               "2. While working on this merit badge, volunteer at least eight hours of your time for the organization",
               "3. After your volunteer experience is over, discuss what you have learned with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
             "misconception": "Scouts may count service hours completed for school graduation or court mandates toward this badge.",
             "fact": "The service hours must be dedicated explicitly to fulfilling this requirement with advance counselor and parental approval."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Citizenship in the Community Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Citizenship in the Community Merit Badge Hub (Req 7c)",
@@ -2333,7 +2497,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p028_img1.png",
           "workbook_diagram_caption": "Youth volunteers serve food in a charitable kitchen to support community members.",
-          "workbook_visual_caption": "Youth volunteers serve food in a charitable kitchen to support community members."
+          "workbook_visual_caption": "Youth volunteers serve food in a charitable kitchen to support community members.",
+          "socratic_questions": [
+            "For citizenship in the community Requirement 7c (With your counselor's and your parent or guardian's approval, contact the organization you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2404,7 +2571,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Charitable Organizations Outside of Scouting)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2425,7 +2592,12 @@
           "2. (7b) Organizations You Chose for Requirement",
           "3. (7c) Contact The Organization You Chose"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Charitable organizations operate without formal corporate structure, professional management, or rigorous financial accounting systems.",
@@ -2603,7 +2775,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Citizenship in the Community Origins and Evolution)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2628,7 +2800,13 @@
           "4. and the challenges it faces",
           "5. Stage your presentation in front of your counselor or a group, such as your patrol or a class at school"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A community presentation should function exclusively as promotional tourism marketing that ignores local problems.",

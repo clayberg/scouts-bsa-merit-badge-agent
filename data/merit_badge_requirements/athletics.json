@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Athletics Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter during athletics activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter during athletics activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 57, p. 59)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p003_img1.png",
           "workbook_diagram_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports.",
-          "workbook_visual_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports."
+          "workbook_visual_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports.",
+          "socratic_questions": [
+            "For athletics Requirement 1a (Explain to your counselor the most likely hazards you may encounter during athletics), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,7 +125,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -124,12 +137,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while participating in athletics events, including sprains, strains, contusions, abrasions, blisters, dehydration, heat reactions, and concussions"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while participating in athletics events, including sprains, strains, contusions, abrasions, blisters, dehydration, heat reactions, and concussions"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 57, p. 59)",
           "common_misconception_pair": {
@@ -167,7 +190,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p056_img1.png",
           "workbook_diagram_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports.",
-          "workbook_visual_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports."
+          "workbook_visual_caption": "An elastic compression bandage stabilizes an injured ankle to treat a sprain during sports.",
+          "socratic_questions": [
+            "For athletics Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -206,7 +232,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Athletics Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -225,7 +251,13 @@
           "1. (1a) Athletics Hazards and First Aid",
           "2. (1b) Emergency First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Painful muscle pulls should be vigorously stretched immediately after the injury occurs.",
@@ -253,7 +285,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Environmental Hazards: Extreme heat humidity and severe lightning storms present severe risks to outdoor athletes.",
+        "Environmental Hazards: Extreme heat, humidity and severe lightning storms present severe risks to outdoor athletes.",
         "Tendon Protection: Acute sprains demand immediate rest ice compression and elevation to control internal swelling.",
         "Fluid Balance: Dehydration degrades aerobic performance and increases the risk of dangerous heat exhaustion.",
         "Blister Prevention: Clean synthetic socks reduce friction on damp skin to stop painful hot spots."
@@ -274,7 +306,7 @@
         "right_header": "Req 1b: Sports First Aid Protocols",
         "left_points": [
           "(1a) Athletic Hazards and Prevention: Anticipating environmental hazards like lightning, extreme heat, and uneven terrain prevents severe athletic injuries. Proactive mitigation includes inspecting grounds and scheduling hydration breaks.",
-          "Environmental Hazards: Extreme heat humidity and severe lightning storms present severe risks to outdoor athletes."
+          "Environmental Hazards: Extreme heat, humidity and severe lightning storms present severe risks to outdoor athletes."
         ],
         "right_points": [
           "(1b) Sports First Aid Protocols: Proper first aid stabilizes sprains, strains, fractures, and environmental illnesses until professional medical personnel take charge. Soft tissue injuries rely on rest, ice, compression, and elevation.",
@@ -288,7 +320,7 @@
           },
           {
             "attribute": "Tendon Protection",
-            "left": "Environmental Hazards: Extreme heat humidity and severe lightning storms present severe risks to outdoor athletes.",
+            "left": "Environmental Hazards: Extreme heat, humidity and severe lightning storms present severe risks to outdoor athletes.",
             "right": "Fluid Balance: Dehydration degrades aerobic performance and increases the risk of dangerous heat exhaustion."
           },
           {
@@ -392,7 +424,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Discuss Having Physical Examination)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -413,7 +445,12 @@
               "2. Discuss why overall health, immunizations, medications, allergies, and medical history are covered during an examination.",
               "3. Tell your counselor when you last underwent a physical examination."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 7, p. 11)",
           "common_misconception_pair": {
@@ -451,7 +488,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p007_img1.png",
           "workbook_diagram_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
-          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic."
+          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
+          "socratic_questions": [
+            "For athletics Requirement 2a (Discuss the importance of having a physical examination each year. Discuss why overall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -471,7 +511,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (You Maintain Good Health Habits)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -483,12 +523,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how you maintain good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful substances"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how you maintain good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful substances"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 7, p. 11)",
           "common_misconception_pair": {
@@ -526,7 +576,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p007_img1.png",
           "workbook_diagram_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
-          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic."
+          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
+          "socratic_questions": [
+            "For athletics Requirement 2b (Explain how you maintain good health habits, especially during training, and how the use of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -542,7 +595,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Elements of A Nutritious Balanced)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -554,12 +607,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the elements of a nutritious, balanced diet, and explain what you do to maintain a healthy diet"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the elements of a nutritious, balanced diet, and explain what you do to maintain a healthy diet"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 7, p. 11)",
           "common_misconception_pair": {
@@ -597,7 +660,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p007_img1.png",
           "workbook_diagram_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
-          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic."
+          "workbook_visual_caption": "A physician examines a young athlete during an annual physical checkup in a medical clinic.",
+          "socratic_questions": [
+            "For athletics Requirement 2c (Describe the elements of a nutritious, balanced diet, and explain what you do to maintain a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -636,7 +702,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Discuss Having Physical Examination)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -657,7 +723,12 @@
           "2. (2b) You Maintain Good Health Habits",
           "3. (2c) Elements of A Nutritious Balanced"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Healthy youth athletes without obvious symptoms do not need annual preventive physical examinations.",
@@ -824,7 +895,7 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -836,14 +907,20 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With guidance from your counselor, establish a personal training program suited to the activity you have chosen.",
+              "1. With guidance from your counselor, establish a personal training program suited to the activity",
               "2. Follow this training program for three months."
             ],
             "rows": [
-              "1. With guidance from your counselor, establish a personal training program suited to the activity you have chosen.",
+              "1. With guidance from your counselor, establish a personal training program suited to the activity",
               "2. Follow this training program for three months."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)",
           "common_misconception_pair": {
@@ -882,7 +959,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p012_img1.png",
           "title": "Req 3a: Three Month Training Plan",
           "workbook_diagram_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
-          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout."
+          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
+          "socratic_questions": [
+            "For athletics Requirement 3a (With guidance from your counselor, establish a personal training program suited to the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -898,7 +978,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Tracking Method to Monitor Your)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -910,12 +990,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Use a chart or other tracking method to monitor your progress during this time"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Use a chart or other tracking method to monitor your progress during this time"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)",
           "common_misconception_pair": {
@@ -954,7 +1044,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p019_img1.png",
           "title": "Req 3b: Progress Chart and Tracking",
           "workbook_diagram_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
-          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout."
+          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
+          "socratic_questions": [
+            "For athletics Requirement 3b (Use a chart or other tracking method to monitor your progress during this time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -970,7 +1063,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Equipment Necessary to Participate in)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -982,12 +1075,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the equipment necessary to participate in this activity and the appropriate clothing for the activity and the time of year"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the equipment necessary to participate in this activity and the appropriate clothing for the activity and the time of year"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)",
           "common_misconception_pair": {
@@ -1026,7 +1129,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p019_img1.png",
           "title": "Req 3c: Required Equipment and Attire",
           "workbook_diagram_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
-          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout."
+          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
+          "socratic_questions": [
+            "For athletics Requirement 3c (Explain to your counselor the equipment necessary to participate in this activity and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1042,7 +1148,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (End of Three Months)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1061,7 +1167,13 @@
               "1. At the end of three months, review your records from requirement 3(b), and discuss with your counselor what progress you have made during training",
               "2. Tell how your development has affected you mentally and physically"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 35)",
           "common_misconception_pair": {
@@ -1099,7 +1211,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p019_img1.png",
           "workbook_diagram_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
-          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout."
+          "workbook_visual_caption": "A young athlete performs bodyweight squats to strengthen leg muscles during a workout.",
+          "socratic_questions": [
+            "For athletics Requirement 3d (At the end of three months, review your records from requirement 3(b), and discuss with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1142,7 +1257,7 @@
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Athletic Activity That Interests You)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1154,18 +1269,24 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. (3a) With guidance from your counselor, establish a personal training program suited to the activity you have chosen",
+          "1. (3a) With guidance from your counselor, establish a personal training program suited to the activity",
           "2. (3b) Use a chart or other tracking method to monitor your progress during this time",
           "3. (3c) Required Equipment and Attire",
           "4. (3d) Three Month Progress Review"
         ],
         "rows": [
-          "1. (3a) With guidance from your counselor, establish a personal training program suited to the activity you have chosen",
+          "1. (3a) With guidance from your counselor, establish a personal training program suited to the activity",
           "2. (3b) Use a chart or other tracking method to monitor your progress during this time",
           "3. (3c) Required Equipment and Attire",
           "4. (3d) Three Month Progress Review"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Training at maximum intensity every single day produces the fastest performance gains.",
@@ -1193,7 +1314,7 @@
         }
       ],
       "pamphlet_excerpts": [
-        "Program Design: Structured conditioning schedules balance aerobic volume anaerobic intervals and mandatory muscular rest days.",
+        "Program Design: Structured conditioning schedules balance aerobic volume, anaerobic intervals and mandatory muscular rest days.",
         "Progress Documentation: Tracking daily workout repetitions running times and perceived exertion highlights measurable physical improvements.",
         "Footwear Selection: Activity specific athletic shoes support the foot arch and absorb damaging ground impact.",
         "Quarterly Assessment: Comparing initial baseline metrics with final performance data reveals specific areas of physiological adaptation."
@@ -1332,7 +1453,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Athletic Activities)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1344,12 +1465,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the rules for two athletic activities, one of which is the activity you chose for requirement 3"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the rules for two athletic activities, one of which is the activity you chose for requirement 3"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)",
           "common_misconception_pair": {
@@ -1387,7 +1518,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p016_img1.png",
           "workbook_diagram_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
-          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine."
+          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
+          "socratic_questions": [
+            "For athletics Requirement 4a (Explain the rules for two athletic activities, one of which is the activity you chose for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1403,7 +1537,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Discuss the Importance of Warming)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1415,12 +1549,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the importance of warming up and cooling down before and after each training session or event"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the importance of warming up and cooling down before and after each training session or event"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)",
           "common_misconception_pair": {
@@ -1458,7 +1602,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p016_img1.png",
           "workbook_diagram_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
-          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine."
+          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
+          "socratic_questions": [
+            "For athletics Requirement 4b (Discuss the importance of warming up and cooling down before and after each training), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1474,7 +1621,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4c Technical Comparison Matrix (Athletics Careers and Pathways)",
+            "table_title": "Req 4c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Amateur Athletic Competition Standards",
@@ -1486,12 +1633,22 @@
               "Professional Athletic Career Standards"
             ],
             "row_labels": [
-              "1. Explain to your counselor what an amateur athlete is and the differences between an amateur and a professional athlete"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor what an amateur athlete is and the differences between an amateur and a professional athlete"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Amateur Athletic Competition Standards",
+              "Professional Athletic Career Standards"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)",
           "common_misconception_pair": {
@@ -1529,7 +1686,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p016_img1.png",
           "workbook_diagram_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
-          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine."
+          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
+          "socratic_questions": [
+            "For athletics Requirement 4c (Explain to your counselor what an amateur athlete is and the differences between an amateur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1553,7 +1713,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Discuss the Traits)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1572,7 +1732,13 @@
               "1. Discuss the traits and importance of good sportsmanship.",
               "2. Tell what role sportsmanship plays in both individual and group athletic activities."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 48)",
           "common_misconception_pair": {
@@ -1610,7 +1776,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p016_img1.png",
           "workbook_diagram_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
-          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine."
+          "workbook_visual_caption": "A youth performs jump rope exercises in a gymnasium as part of an athletic warm-up routine.",
+          "socratic_questions": [
+            "For athletics Requirement 4d (Discuss the traits and importance of good sportsmanship. Tell what role sportsmanship plays), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1648,7 +1817,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Athletic Rules and Sportsmanship",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never bypass the cooldown phase after vigorous sprinting, as abrupt cessation of activity can trigger blood pooling and fainting.",
@@ -1657,7 +1826,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Athletics Careers and Pathways)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Amateur Athletic Competition Standards",
@@ -1680,7 +1849,13 @@
           "3. (4c) Athletics Careers and Pathways",
           "4. (4d) Discuss The Traits"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Amateur Athletic Competition Standards",
+          "Professional Athletic Career Standards"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Holding long static stretches while muscles are cold is the best way to warm up.",
@@ -1836,7 +2011,7 @@
         {
           "sub_id": "5a",
           "label": "(a)",
-          "text": "Option A, Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash.",
+          "text": "Option A, Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash (b) Option B, Long-Distance Running.",
           "resources": [
             {
               "title": "How to Sprint (video)",
@@ -1847,13 +2022,13 @@
             {
               "sub_id": "5a(1)",
               "label": "(1)",
-              "text": "100-meter dash.",
+              "text": "100-meter dash (2) 200-meter dash (b) Option B, Long-Distance Running.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(1) Structured Technical Study & Explanation Matrix (100-meter Dash)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1865,12 +2040,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 100-meter dash"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 100-meter dash"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -1900,7 +2085,7 @@
               ],
               "id": "5a(1)",
               "sub_req_label": "5a(1)",
-              "sub_req_text": "100-meter dash.",
+              "sub_req_text": "100-meter dash (2) 200-meter dash (b) Option B, Long-Distance Running.",
               "topic_title": "Req 5a(1): One Hundred Meter Dash Mechanics",
               "pamphlet_summary": "One Hundred Meter Dash Mechanics: Runners explode from starting blocks with a low drive angle and gradually transition into an upright sprint posture over the first thirty meters. Maximum velocity requires high knee drive, powerful arm swings, and striking the track on the balls of the feet (p. 20).",
               "pamphlet_excerpts": [
@@ -1916,13 +2101,13 @@
             {
               "sub_id": "5a(2)",
               "label": "(2)",
-              "text": "200-meter dash.",
+              "text": "200-meter dash (b) Option B, Long-Distance Running.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(2) Structured Technical Study & Explanation Matrix (200-meter Dash)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1934,12 +2119,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 200-meter dash"
+                  "1. Req 5a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 200-meter dash"
+                  "1. Req 5a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -1969,7 +2164,7 @@
               ],
               "id": "5a(2)",
               "sub_req_label": "5a(2)",
-              "sub_req_text": "200-meter dash.",
+              "sub_req_text": "200-meter dash (b) Option B, Long-Distance Running.",
               "topic_title": "Req 5a(2): Two Hundred Meter Curve Sprinting",
               "pamphlet_summary": "Two Hundred Meter Curve Sprinting: Sprinting around the curve requires leaning slightly inward from the ankles while maintaining rapid stride cadence and full shoulder rotation. Once reaching the straightaway, the runner focuses on relaxing the upper body while driving forward toward the finish line (p. 22).",
               "pamphlet_excerpts": [
@@ -1986,7 +2181,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Sprinting 100-meter Dash 200-meter)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2005,7 +2200,13 @@
               "1. (5a(1)) 100-meter Dash",
               "2. (5a(2)) 200-meter Dash"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -2035,7 +2236,7 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Option A, Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash.",
+          "sub_req_text": "Option A, Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash (b) Option B, Long-Distance Running.",
           "topic_title": "Req 5a: Sprinting Speed and Mechanics",
           "pamphlet_summary": "Sprinting demands maximum explosive speed, proper sprint mechanics, and fast acceleration out of the blocks. Tracking the 100-meter and 200-meter dash demonstrates improvements in stride turnover.",
           "pamphlet_excerpts": [
@@ -2043,12 +2244,15 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/athletics_req_5_topic_visual.png",
           "workbook_diagram_caption": "Complete The Activities in FOUR procedures and verification checkpoints for Athletics Requirement 5.",
-          "workbook_visual_caption": "Complete The Activities in FOUR procedures and verification checkpoints for Athletics Requirement 5."
+          "workbook_visual_caption": "Complete The Activities in FOUR procedures and verification checkpoints for Athletics Requirement 5.",
+          "socratic_questions": [
+            "For athletics Requirement 5a (Option A, Sprinting. Do ALL of the following: (1) 100-meter dash (2) 200-meter dash (b)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
-          "text": "Option B, Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run.",
+          "text": "Option B, Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run (c) Option C, Long Jump OR High Jump.",
           "resources": [
             {
               "title": "Improving Your Running Form (video)",
@@ -2059,13 +2263,13 @@
             {
               "sub_id": "5b(1)",
               "label": "(1)",
-              "text": "3k run.",
+              "text": "3k run (2) 5k run (c) Option C, Long Jump OR High Jump.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(1) Structured Technical Study & Explanation Matrix (Athletics Requirement 5b(1) Techniques)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2077,12 +2281,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Athletics Requirement 5b(1) Techniques"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Athletics Requirement 5b(1) Techniques"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2112,7 +2326,7 @@
               ],
               "id": "5b(1)",
               "sub_req_label": "5b(1)",
-              "sub_req_text": "3k run.",
+              "sub_req_text": "3k run (2) 5k run (c) Option C, Long Jump OR High Jump.",
               "topic_title": "Req 5b(1): Three Kilometer Endurance Running Pace",
               "pamphlet_summary": "Three Kilometer Endurance Running Pace: Sustaining a three-kilometer pace requires maintaining an even split across every kilometer rather than surging during the opening laps. Runners utilize upright posture, relaxed shoulders, and rhythmic belly breathing to preserve oxygen throughout the distance (p. 28).",
               "pamphlet_excerpts": [
@@ -2128,13 +2342,13 @@
             {
               "sub_id": "5b(2)",
               "label": "(2)",
-              "text": "5k run.",
+              "text": "5k run (c) Option C, Long Jump OR High Jump.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(2) Structured Technical Study & Explanation Matrix (Athletics Requirement 5b(2) Techniques)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2146,12 +2360,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Athletics Requirement 5b(2) Techniques"
+                  "1. Req 5b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Athletics Requirement 5b(2) Techniques"
+                  "1. Req 5b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2181,7 +2405,7 @@
               ],
               "id": "5b(2)",
               "sub_req_label": "5b(2)",
-              "sub_req_text": "5k run.",
+              "sub_req_text": "5k run (c) Option C, Long Jump OR High Jump.",
               "topic_title": "Req 5b(2): Five Kilometer Aerobic Pacing Strategy",
               "pamphlet_summary": "Five Kilometer Aerobic Pacing Strategy: Completing a five-kilometer run requires establishing an efficient stride cadence and monitoring exertion during the middle miles. Proper hydration, gradual pace buildup, and a controlled finishing kick ensure continuous aerobic progress (p. 30).",
               "pamphlet_excerpts": [
@@ -2198,7 +2422,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Long-Distance Running)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2217,7 +2441,13 @@
               "1. (5b(1)) Athletics Requirement 5b(1) Techniques",
               "2. (5b(2)) Athletics Requirement 5b(2) Techniques"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -2247,7 +2477,7 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Option B, Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run.",
+          "sub_req_text": "Option B, Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run (c) Option C, Long Jump OR High Jump.",
           "topic_title": "Req 5b: Long Distance Endurance Running",
           "pamphlet_summary": "Distance running builds cardiovascular endurance, efficient breathing rhythms, and mental stamina over 3k and 5k courses. Proper pacing strategies prevent premature exhaustion during long races.",
           "pamphlet_excerpts": [
@@ -2255,12 +2485,15 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5b (Option B, Long-Distance Running. Do ALL of the following: (1) 3k run (2) 5k run (c) Option), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
-          "text": "Option C, Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries)",
+          "text": "Option C, Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries) (d) Option D, Swimming.",
           "resources": [],
           "children": [
             {
@@ -2281,7 +2514,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(1) Structured Technical Study & Explanation Matrix (Running Long Jump OR Running)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2293,12 +2526,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Running long jump OR running high jump (best of three tries)"
+                  "1. Req 5c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Running long jump OR running high jump (best of three tries)"
+                  "1. Req 5c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2344,7 +2587,7 @@
             {
               "sub_id": "5c(2)",
               "label": "(2)",
-              "text": "Standing long jump OR standing high jump (best of three tries)",
+              "text": "Standing long jump OR standing high jump (best of three tries) (d) Option D, Swimming.",
               "resources": [
                 {
                   "title": "Standing Long Jump (video)",
@@ -2359,7 +2602,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(2) Structured Technical Study & Explanation Matrix (Standing Long Jump OR Standing)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2371,12 +2614,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Standing long jump OR standing high jump (best of three tries)"
+                  "1. Req 5c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Standing long jump OR standing high jump (best of three tries)"
+                  "1. Req 5c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2406,7 +2659,7 @@
               ],
               "id": "5c(2)",
               "sub_req_label": "5c(2)",
-              "sub_req_text": "Standing long jump OR standing high jump (best of three tries)",
+              "sub_req_text": "Standing long jump OR standing high jump (best of three tries) (d) Option D, Swimming.",
               "topic_title": "Req 5c(2): Standing Long Jump Explosive Technique",
               "pamphlet_summary": "Standing Long Jump Explosive Technique: Generating distance from a stationary stance requires a coordinated deep knee bend, backward arm swing, and forceful two-foot extension. The jumper drives both arms forward and pulls the knees toward the chest before extending the feet forward into the landing (p. 36).",
               "pamphlet_excerpts": [
@@ -2423,7 +2676,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Long Jump OR High Jump)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2442,7 +2695,13 @@
               "1. (5c(1)) Running Long Jump OR Running",
               "2. (5c(2)) Standing Long Jump OR Standing"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -2472,7 +2731,7 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "Option C, Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries)",
+          "sub_req_text": "Option C, Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running high jump (best of three tries) (2) Standing long jump OR standing high jump (best of three tries) (d) Option D, Swimming.",
           "topic_title": "Req 5c: Jumping Power and Technique",
           "pamphlet_summary": "Long jump and high jump require the conversion of horizontal velocity into explosive vertical lift. Practicing approach strides and takeoff mechanics yields greater height and distance.",
           "pamphlet_excerpts": [
@@ -2480,18 +2739,21 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5c (Option C, Long Jump OR High Jump. Do ALL of the following: (1) Running long jump OR running), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
           "label": "(d)",
-          "text": "Option D, Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim.",
+          "text": "Option D, Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
           "resources": [],
           "children": [
             {
               "sub_id": "5d(1)",
               "label": "(1)",
-              "text": "100-meter swim.",
+              "text": "100-meter swim (2) 200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
               "resources": [
                 {
                   "title": "How to Swim Laps (video)",
@@ -2502,7 +2764,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(1) Structured Technical Study & Explanation Matrix (Athletics 100-meter Principles)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2514,12 +2776,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 100-meter swim"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 100-meter swim"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2549,7 +2821,7 @@
               ],
               "id": "5d(1)",
               "sub_req_label": "5d(1)",
-              "sub_req_text": "100-meter swim.",
+              "sub_req_text": "100-meter swim (2) 200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
               "topic_title": "Req 5d(1): One Hundred Meter Freestyle Swimming",
               "pamphlet_summary": "One Hundred Meter Freestyle Swimming: Swimmers balance a steady, high-cadence flutter kick with strong high-elbow underwater pulls and streamlined bilateral breathing. Tight flip turns and explosive underwater dolphin kicks off each wall preserve momentum across the four pool lengths (p. 40).",
               "pamphlet_excerpts": [
@@ -2565,7 +2837,7 @@
             {
               "sub_id": "5d(2)",
               "label": "(2)",
-              "text": "200-meter swim.",
+              "text": "200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
               "resources": [
                 {
                   "title": "Best Way to Swim a 200m (video)",
@@ -2576,7 +2848,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(2) Structured Technical Study & Explanation Matrix (Athletics 200-meter Principles)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2588,12 +2860,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 200-meter swim"
+                  "1. Req 5d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 200-meter swim"
+                  "1. Req 5d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2623,7 +2905,7 @@
               ],
               "id": "5d(2)",
               "sub_req_label": "5d(2)",
-              "sub_req_text": "200-meter swim.",
+              "sub_req_text": "200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
               "topic_title": "Req 5d(2): Two Hundred Meter Freestyle Strategy",
               "pamphlet_summary": "Two Hundred Meter Freestyle Strategy: Managing a two-hundred-meter swim demands an even stroke rate, relaxed recovery phase, and steady breathing rhythm throughout eight pool lengths. Conserving energy through a relaxed two-beat or four-beat kick early allows a strong push over the final fifty meters (p. 42).",
               "pamphlet_excerpts": [
@@ -2640,7 +2922,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Swimming 100-meter 200-meter)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2659,7 +2941,13 @@
               "1. (5d(1)) Athletics 100-meter Principles",
               "2. (5d(2)) Athletics 200-meter Principles"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -2689,7 +2977,7 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Option D, Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim.",
+          "sub_req_text": "Option D, Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim (e) Option E, Pull-Ups AND Push-Ups.",
           "topic_title": "Req 5d: Competitive Swimming Performance",
           "pamphlet_summary": "Swimming tests full-body muscular endurance, rhythmic breathing, and low-impact cardiovascular conditioning. Recording 100-meter and 200-meter swim times reveals improvements in stroke efficiency and kick power.",
           "pamphlet_excerpts": [
@@ -2697,18 +2985,21 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5d (Option D, Swimming. Do ALL of the following: (1) 100-meter swim (2) 200-meter swim (e)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
           "label": "(e)",
-          "text": "Option E, Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes.",
+          "text": "Option E, Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes (f) Option F, Baseball Throw.",
           "resources": [],
           "children": [
             {
               "sub_id": "5e(1)",
               "label": "(1)",
-              "text": "Pull-ups in two minutes.",
+              "text": "Pull-ups in two minutes (2) Push-ups in two minutes (f) Option F, Baseball Throw.",
               "resources": [
                 {
                   "title": "How to Do a Pull-Up (video)",
@@ -2719,7 +3010,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5e(1) Structured Technical Study & Explanation Matrix (Pull-ups in Two Minutes)",
+                "table_title": "Req 5e",
                 "headers": [
                   "Req 5e(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2731,12 +3022,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Pull-ups in two minutes"
+                  "1. Req 5e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Pull-ups in two minutes"
+                  "1. Req 5e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5e(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2766,7 +3067,7 @@
               ],
               "id": "5e(1)",
               "sub_req_label": "5e(1)",
-              "sub_req_text": "Pull-ups in two minutes.",
+              "sub_req_text": "Pull-ups in two minutes (2) Push-ups in two minutes (f) Option F, Baseball Throw.",
               "topic_title": "Req 5e(1): Timed Pull Up Assessment Standards",
               "pamphlet_summary": "Timed Pull Up Assessment Standards: Proper pull-up repetitions require starting from a complete dead hang with arms fully extended and pulling until the chin clears the bar. Scouts should avoid swinging, kipping, or dropping rapidly, using a controlled tempo to prevent premature grip exhaustion (p. 44).",
               "pamphlet_excerpts": [
@@ -2782,7 +3083,7 @@
             {
               "sub_id": "5e(2)",
               "label": "(2)",
-              "text": "Push-ups in two minutes.",
+              "text": "Push-ups in two minutes (f) Option F, Baseball Throw.",
               "resources": [
                 {
                   "title": "How to Do a Push-Up (video)",
@@ -2793,7 +3094,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5e(2) Structured Technical Study & Explanation Matrix (Push-ups in Two Minutes)",
+                "table_title": "Req 5e",
                 "headers": [
                   "Req 5e(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2805,12 +3106,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Push-ups in two minutes"
+                  "1. Req 5e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Push-ups in two minutes"
+                  "1. Req 5e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5e(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -2840,7 +3151,7 @@
               ],
               "id": "5e(2)",
               "sub_req_label": "5e(2)",
-              "sub_req_text": "Push-ups in two minutes.",
+              "sub_req_text": "Push-ups in two minutes (f) Option F, Baseball Throw.",
               "topic_title": "Req 5e(2): Timed Push Up Evaluation Standards",
               "pamphlet_summary": "Timed Push Up Evaluation Standards: Each repetition begins in a rigid plank position and lowers until the elbows form a ninety-degree angle before pressing back up to full arm lockout. Maintaining a straight back and pacing steady repetitions over two minutes prevents abdominal sagging and triceps burnout (p. 46).",
               "pamphlet_excerpts": [
@@ -2857,7 +3168,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Pull-Ups AND Push-Ups)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2876,7 +3187,13 @@
               "1. (5e(1)) Pull-ups in Two Minutes",
               "2. (5e(2)) Push-ups in Two Minutes"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -2906,7 +3223,7 @@
           ],
           "id": "5e",
           "sub_req_label": "5e",
-          "sub_req_text": "Option E, Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes.",
+          "sub_req_text": "Option E, Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2) Push-ups in two minutes (f) Option F, Baseball Throw.",
           "topic_title": "Req 5e: Upper Body Calisthenics Testing",
           "pamphlet_summary": "Pull-ups and push-ups measure relative upper body strength and core stabilization under standardized time limits. Consistent bodyweight calisthenics build muscular endurance in the back, chest, and arms.",
           "pamphlet_excerpts": [
@@ -2914,12 +3231,15 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5e (Option E, Pull-Ups AND Push-Ups. Do ALL of the following: (1) Pull-ups in two minutes (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
           "label": "(f)",
-          "text": "Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance)",
+          "text": "Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance) (g) Option G, Basketball Shooting.",
           "resources": [
             {
               "title": "How to Throw a Baseball (video)",
@@ -2936,7 +3256,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5f(1) Structured Technical Study & Explanation Matrix (Baseball Throw for Accuracy Throws)",
+                "table_title": "Req 5f",
                 "headers": [
                   "Req 5f(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2957,7 +3277,13 @@
                   "2. ages 13 to 15, 30 feet",
                   "3. ages 16 to 17, 40 feet"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5f(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3003,13 +3329,13 @@
             {
               "sub_id": "5f(2)",
               "label": "(2)",
-              "text": "Baseball throw for distance, five throws (total distance)",
+              "text": "Baseball throw for distance, five throws (total distance) (g) Option G, Basketball Shooting.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5f(2) Structured Technical Study & Explanation Matrix (Baseball Throw for Distance Five)",
+                "table_title": "Req 5f",
                 "headers": [
                   "Req 5f(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3021,12 +3347,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Baseball throw for distance, five throws (total distance)"
+                  "1. Req 5f(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5f(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5f(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Baseball throw for distance, five throws (total distance)"
+                  "1. Req 5f(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5f(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5f(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5f(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3056,7 +3392,7 @@
               ],
               "id": "5f(2)",
               "sub_req_label": "5f(2)",
-              "sub_req_text": "Baseball throw for distance, five throws (total distance)",
+              "sub_req_text": "Baseball throw for distance, five throws (total distance) (g) Option G, Basketball Shooting.",
               "topic_title": "Req 5f(2): Maximum Distance Baseball Throwing Technique",
               "pamphlet_summary": "Maximum Distance Baseball Throwing Technique: Achieving maximum throwing distance requires a rhythmic crow-hop approach to generate forward momentum before planting the front leg. The thrower rotates the hips aggressively, releases the ball at approximately thirty to thirty-five degrees, and executes a full follow-through (p. 52).",
               "pamphlet_excerpts": [
@@ -3073,7 +3409,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Baseball Throw)",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3092,7 +3428,13 @@
               "1. (5f(1)) Baseball Throw for Accuracy Throws",
               "2. (5f(2)) Baseball Throw for Distance Five"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -3122,7 +3464,7 @@
           ],
           "id": "5f",
           "sub_req_label": "5f",
-          "sub_req_text": "Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance)",
+          "sub_req_text": "Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance) (g) Option G, Basketball Shooting.",
           "topic_title": "Req 5f: Baseball Throwing Accuracy",
           "pamphlet_summary": "Baseball throwing tests rotational power, shoulder coordination, and targeting accuracy at age-appropriate distances. Proper follow-through mechanics protect the throwing elbow while hitting target bullseyes.",
           "pamphlet_excerpts": [
@@ -3130,12 +3472,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p032_img1.png",
           "workbook_diagram_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
-          "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill."
+          "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
+          "socratic_questions": [
+            "For athletics Requirement 5f (Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5g",
           "label": "(g)",
-          "text": "Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.",
+          "text": "Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line (h) Option H, Football Kick OR Soccer Kick.",
           "resources": [
             {
               "title": "How to Shoot a Free Throw (video)",
@@ -3160,7 +3505,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5g(1) Structured Technical Study & Explanation Matrix (Basketball Shot for Accuracy Free-throw)",
+                "table_title": "Req 5g",
                 "headers": [
                   "Req 5g(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3172,12 +3517,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Basketball shot for accuracy, 10 free-throw shots"
+                  "1. Req 5g(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5g(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5g(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Basketball shot for accuracy, 10 free-throw shots"
+                  "1. Req 5g(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5g(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5g(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5g(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3223,7 +3578,7 @@
             {
               "sub_id": "5g(2)",
               "label": "(2)",
-              "text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.",
+              "text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line (h) Option H, Football Kick OR Soccer Kick.",
               "resources": [],
               "children": [
                 {
@@ -3249,7 +3604,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(a) Structured Technical Study & Explanation Matrix (Left-side Layup)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3261,12 +3616,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Left-side layup"
+                      "1. Req 5g(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Left-side layup"
+                      "1. Req 5g(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3306,7 +3671,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(b) Structured Technical Study & Explanation Matrix (Right-side Layup)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3318,12 +3683,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Right-side layup"
+                      "1. Req 5g(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Right-side layup"
+                      "1. Req 5g(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3363,7 +3738,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(c) Structured Technical Study & Explanation Matrix (Left Side of Hoop Along)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3375,12 +3750,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Left side of hoop, along the key line"
+                      "1. Req 5g(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Left side of hoop, along the key line"
+                      "1. Req 5g(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3421,7 +3806,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(d) Structured Technical Study & Explanation Matrix (Right Side of Hoop Along)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(d) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3433,12 +3818,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Right side of hoop, along the key line"
+                      "1. Req 5g(2)(d) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(d) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(d) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Right side of hoop, along the key line"
+                      "1. Req 5g(2)(d) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(d) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(d) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(d) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3479,7 +3874,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(e) Structured Technical Study & Explanation Matrix (Key Line and Free-throw Line)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(e) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3491,12 +3886,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Where key line and free-throw line meet, left side"
+                      "1. Req 5g(2)(e) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(e) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(e) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Where key line and free-throw line meet, left side"
+                      "1. Req 5g(2)(e) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(e) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(e) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(e) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3536,7 +3941,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(f) Structured Technical Study & Explanation Matrix (Key Line and Free-throw Line)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(f) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3548,12 +3953,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Where key line and free-throw line meet, left side"
+                      "1. Req 5g(2)(f) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(f) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(f) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Where key line and free-throw line meet, left side"
+                      "1. Req 5g(2)(f) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(f) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(f) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(f) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3593,7 +4008,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(g) Structured Technical Study & Explanation Matrix (Top of the Key)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(g) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3605,12 +4020,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Top of the key"
+                      "1. Req 5g(2)(g) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(g) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(g) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Top of the key"
+                      "1. Req 5g(2)(g) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(g) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(g) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(g) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3650,7 +4075,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5g(2)(h) Structured Technical Study & Explanation Matrix (Spot Along the Three-point Line)",
+                    "table_title": "Req 5g",
                     "headers": [
                       "Req 5g(2)(h) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3662,12 +4087,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Another spot along the three-point line"
+                      "1. Req 5g(2)(h) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(h) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(h) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Another spot along the three-point line"
+                      "1. Req 5g(2)(h) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5g(2)(h) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5g(2)(h) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5g(2)(h) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3688,7 +4123,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5g(2) Structured Technical Study & Explanation Matrix (Basketball Throw for Skill and)",
+                "table_title": "Req 5g",
                 "headers": [
                   "Req 5g(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3719,7 +4154,13 @@
                   "7. (5g(2)(g)) Top of the key",
                   "8. (5g(2)(h)) Another spot along the three-point line"
                 ],
-                "min_rows": 8
+                "min_rows": 8,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5g(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3749,7 +4190,7 @@
               ],
               "id": "5g(2)",
               "sub_req_label": "5g(2)",
-              "sub_req_text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.",
+              "sub_req_text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line (h) Option H, Football Kick OR Soccer Kick.",
               "topic_title": "Req 5g(2): Basketball Floor Agility Shooting Circuit",
               "pamphlet_summary": "Basketball Floor Agility Shooting Circuit: Executing the multi-spot shooting drill requires rapid footwork, controlled dribbling, and squaring the shoulders toward the basket from different floor angles. Scouts move swiftly through layups and perimeter key locations while maintaining shooting rhythm and balance (p. 56).",
               "pamphlet_excerpts": [
@@ -3767,7 +4208,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5g Structured Technical Study & Explanation Matrix (Basketball Shooting)",
+            "table_title": "Req 5g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3786,7 +4227,13 @@
               "1. (5g(1)) Basketball shot for accuracy, 10 free-throw shots",
               "2. (5g(2)) Basketball Throw for Skill and Agility"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -3816,7 +4263,7 @@
           ],
           "id": "5g",
           "sub_req_label": "5g",
-          "sub_req_text": "Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.",
+          "sub_req_text": "Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line (h) Option H, Football Kick OR Soccer Kick.",
           "topic_title": "Req 5g: Basketball Shooting and Agility",
           "pamphlet_summary": "Basketball shooting drills evaluate fingertip touch, footwork, and balance during free throws and game-speed agility layups. Repetitive shooting routines reinforce motor memory and free-throw percentage.",
           "pamphlet_excerpts": [
@@ -3824,12 +4271,15 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5g (Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5h",
           "label": "(h)",
-          "text": "Option H, Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance)",
+          "text": "Option H, Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance) (i) Option I, Weight Training.",
           "resources": [],
           "children": [
             {
@@ -3846,7 +4296,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5h(1) Structured Technical Study & Explanation Matrix (Goals from the 10-yard Line)",
+                "table_title": "Req 5h",
                 "headers": [
                   "Req 5h(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3858,12 +4308,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Goals from the 10-yard line, eight kicks"
+                  "1. Req 5h(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5h(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5h(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Goals from the 10-yard line, eight kicks"
+                  "1. Req 5h(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5h(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5h(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5h(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3909,7 +4369,7 @@
             {
               "sub_id": "5h(2)",
               "label": "(2)",
-              "text": "Football kick or soccer kick for distance, five kicks (total distance)",
+              "text": "Football kick or soccer kick for distance, five kicks (total distance) (i) Option I, Weight Training.",
               "resources": [
                 {
                   "title": "Kick a Football Field Goal (video)",
@@ -3920,7 +4380,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5h(2) Structured Technical Study & Explanation Matrix (Football Kick or Soccer Kick)",
+                "table_title": "Req 5h",
                 "headers": [
                   "Req 5h(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3932,12 +4392,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Football kick or soccer kick for distance, five kicks (total distance)"
+                  "1. Req 5h(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5h(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5h(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Football kick or soccer kick for distance, five kicks (total distance)"
+                  "1. Req 5h(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5h(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5h(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5h(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -3967,7 +4437,7 @@
               ],
               "id": "5h(2)",
               "sub_req_label": "5h(2)",
-              "sub_req_text": "Football kick or soccer kick for distance, five kicks (total distance)",
+              "sub_req_text": "Football kick or soccer kick for distance, five kicks (total distance) (i) Option I, Weight Training.",
               "topic_title": "Req 5h(2): Distance Kicking Technique and Execution",
               "pamphlet_summary": "Distance Kicking Technique and Execution: Achieving maximum distance on five measured kicks relies on a long approach stride, explosive hip extension, and a complete follow-through toward the target line (p. 51).",
               "pamphlet_excerpts": [
@@ -3984,7 +4454,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5h Structured Technical Study & Explanation Matrix (Football Kick OR Soccer Kick)",
+            "table_title": "Req 5h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4003,7 +4473,13 @@
               "1. (5h(1)) Goals From The 10-yard Line",
               "2. (5h(2)) Football Kick or Soccer Kick"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -4033,7 +4509,7 @@
           ],
           "id": "5h",
           "sub_req_label": "5h",
-          "sub_req_text": "Option H, Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance)",
+          "sub_req_text": "Option H, Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard line, eight kicks (2) Football kick or soccer kick for distance, five kicks (total distance) (i) Option I, Weight Training.",
           "topic_title": "Req 5h: Kicking Accuracy and Distance",
           "pamphlet_summary": "Kicking for goals and distance requires hip flexibility, plant-foot stability, and crisp ball contact. Practicing spot kicks sharpens lower-body coordination and leg drive.",
           "pamphlet_excerpts": [
@@ -4041,18 +4517,21 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5h (Option H, Football Kick OR Soccer Kick. Do ALL of the following: (1) Goals from the 10-yard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5i",
           "label": "(i)",
-          "text": "Option I, Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions.",
+          "text": "Option I, Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each.",
           "resources": [],
           "children": [
             {
               "sub_id": "5i(1)",
               "label": "(1)",
-              "text": "Chest/bench press, two sets of 15 repetitions.",
+              "text": "Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each.",
               "resources": [
                 {
                   "title": "How to Bench Press (video)",
@@ -4063,7 +4542,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5i(1) Structured Technical Study & Explanation Matrix (Chest/bench Press Two Sets of)",
+                "table_title": "Req 5i",
                 "headers": [
                   "Req 5i(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4075,12 +4554,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Chest/bench press, two sets of 15 repetitions"
+                  "1. Req 5i(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5i(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5i(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Chest/bench press, two sets of 15 repetitions"
+                  "1. Req 5i(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5i(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5i(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5i(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -4110,7 +4599,7 @@
               ],
               "id": "5i(1)",
               "sub_req_label": "5i(1)",
-              "sub_req_text": "Chest/bench press, two sets of 15 repetitions.",
+              "sub_req_text": "Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each.",
               "topic_title": "Req 5i(1): Bench Press Resistance Training Form",
               "pamphlet_summary": "Bench Press Resistance Training Form: Performing fifteen bench press repetitions requires maintaining five points of contact with the bench and floor while exhaling during the upward push (p. 55).",
               "pamphlet_excerpts": [
@@ -4127,7 +4616,7 @@
             {
               "sub_id": "5i(2)",
               "label": "(2)",
-              "text": "Leg curls, two sets of 15 repetitions.",
+              "text": "Leg curls, two sets of 15 repetitions each.",
               "resources": [
                 {
                   "title": "How to Do Leg Curls (video)",
@@ -4138,7 +4627,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5i(2) Structured Technical Study & Explanation Matrix (Leg Curls Two Sets of)",
+                "table_title": "Req 5i",
                 "headers": [
                   "Req 5i(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4150,12 +4639,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Leg curls, two sets of 15 repetitions"
+                  "1. Req 5i(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5i(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5i(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Leg curls, two sets of 15 repetitions"
+                  "1. Req 5i(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5i(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5i(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5i(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
@@ -4185,7 +4684,7 @@
               ],
               "id": "5i(2)",
               "sub_req_label": "5i(2)",
-              "sub_req_text": "Leg curls, two sets of 15 repetitions.",
+              "sub_req_text": "Leg curls, two sets of 15 repetitions each.",
               "topic_title": "Req 5i(2): Leg Curl Hamstring Exercise Execution",
               "pamphlet_summary": "Leg Curl Hamstring Exercise Execution: Completing two sets of fifteen leg curls builds hamstring strength through a controlled contraction without letting the weight plates slam between repetitions (p. 56).",
               "pamphlet_excerpts": [
@@ -4203,7 +4702,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5i Structured Technical Study & Explanation Matrix (Weight Training)",
+            "table_title": "Req 5i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4222,7 +4721,13 @@
               "1. (5i(1)) Chest/bench press, two sets of 15 repetitions",
               "2. (5i(2)) Leg curls, two sets of 15 repetitions"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
           "common_misconception_pair": {
@@ -4252,7 +4757,7 @@
           ],
           "id": "5i",
           "sub_req_label": "5i",
-          "sub_req_text": "Option I, Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions.",
+          "sub_req_text": "Option I, Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15 repetitions each (2) Leg curls, two sets of 15 repetitions each.",
           "topic_title": "Req 5i: Weight Training and Resistance",
           "pamphlet_summary": "Weight training develops muscular hypertrophy and bone density through controlled resistance on compound movements. Following structured sets and repetitions reinforces proper posture and lifting safety.",
           "pamphlet_excerpts": [
@@ -4260,7 +4765,10 @@
           ],
           "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
           "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+          "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+          "socratic_questions": [
+            "For athletics Requirement 5i (Option I, Weight Training. Do ALL of the following: (1) Chest/bench press, two sets of 15), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4355,7 +4863,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Activities Improvement Three-month Period)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4386,7 +4894,13 @@
           "7. (5g) Basketball Shooting",
           "8. (5h) Football Kick OR Soccer Kick"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Athletes can only build athletic fitness by specializing exclusively in a single competitive movement.",
@@ -4553,7 +5067,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Conducting A Sports Meet or)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4572,7 +5086,13 @@
               "1. Prepare plans for conducting a sports meet or field day that includes 10 activities, at least five of which must come from the groups mentioned in requirement 5",
               "2. Outline the duties of each official needed and list the equipment the meet will require"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 50, p. 52)",
           "common_misconception_pair": {
@@ -4611,7 +5131,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p050_img1.png",
           "title": "Req 6a: Sports Meet Planning and Equipment",
           "workbook_diagram_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet.",
-          "workbook_visual_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet."
+          "workbook_visual_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet.",
+          "socratic_questions": [
+            "For athletics Requirement 6a (Prepare plans for conducting a sports meet or field day that includes 10 activities, at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -4631,7 +5154,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Serve As An Official or)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4650,19 +5173,20 @@
               "1. With your parent or guardian's and counselor's approval, serve as an official or volunteer at a sports meet to observe officials in action",
               "2. Tell your counselor about your responsibilities at the meet and discuss what you learned"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 50, p. 52)",
           "common_misconception_pair": {
             "misconception": "Volunteering at an athletic meet is passive and requires no knowledge of sports rules.",
             "fact": "Volunteer marshals protect competing athletes by keeping walkways clear of bags and unauthorized spectators."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Athletics Req 6b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Athletics Merit Badge Hub (Req 6b)",
@@ -4694,7 +5218,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p050_img1.png",
           "title": "Req 6b: Serving as Meet Official",
           "workbook_diagram_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet.",
-          "workbook_visual_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet."
+          "workbook_visual_caption": "An event official in a yellow jacket raises his hand to signal participants at a track meet.",
+          "socratic_questions": [
+            "For athletics Requirement 6b (With your parent or guardian's and counselor's approval, serve as an official or volunteer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4729,7 +5256,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Conducting A Sports Meet or)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4748,7 +5275,12 @@
           "1. (6a) Prepare plans for conducting a sports meet or field day that includes 10 activities, at least five of which must come from the groups mentioned in requirement 5",
           "2. (6b) With your parent or guardian's and counselor's approval, serve as an official or volunteer at a sports meet to observe officials in action"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A successful sports meet can be organized spontaneously on the day of the event.",
@@ -4943,7 +5475,13 @@
               "3. Learn about training, education, expenses, job outlook, salary, and advancement.",
               "4. Discuss your findings and career interest with your counselor."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 45)",
           "common_misconception_pair": {
@@ -4981,7 +5519,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p019_img2.png",
           "workbook_diagram_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising.",
-          "workbook_visual_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising."
+          "workbook_visual_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising.",
+          "socratic_questions": [
+            "For athletics Requirement 7a (Explore three careers related to athletics. Research one career area by interviewing an), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -4997,7 +5538,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Area of Athletics Could Contribute)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5018,7 +5559,13 @@
               "2. Research education, costs, and organizations related to this activity.",
               "3. Discuss your findings and goals with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 21, p. 45)",
           "common_misconception_pair": {
@@ -5056,7 +5603,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/athletics_p019_img2.png",
           "workbook_diagram_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising.",
-          "workbook_visual_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising."
+          "workbook_visual_caption": "An athlete bends forward to touch his toes and stretch his hamstrings before exercising.",
+          "socratic_questions": [
+            "For athletics Requirement 7b (Explore how an area of athletics could contribute to a hobby or healthy lifestyle. Research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5110,7 +5660,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Working in athletics is limited exclusively to being a paid professional competitive player.",

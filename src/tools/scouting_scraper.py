@@ -6667,6 +6667,55 @@ def _sanitize_workbook_organizer_runtime(
     return out
 
 
+def is_genuine_sketch_prompt(text: str) -> bool:
+    """Returns True only when `text` genuinely asks Scouts to sketch, draw a diagram/map/plan, or chart observations (excluding 'withdraw', 'draw length', 'draw blood', 'draw a conclusion', etc.)."""
+    import re
+
+    low = str(text or "").strip().lower()
+    if not low:
+        return False
+    # Strip false-positive idioms containing 'draw' or 'map'
+    scrubbed = re.sub(
+        r"\b(?:withdraw\w*|overdraw\w*|drawbridge\w*|drawer\w*|drawstring\w*|draw\s+(?:length|weight|blood|water|attention|conclusion\w*|up|from|upon|back|out|near|lots|straws)|luck\s+of\s+the\s+draw|topographic\s+map\s+and\s+compass)\b",
+        " ",
+        low,
+    )
+    return bool(
+        re.search(
+            r"\b(?:sketch|make\s+a\s+(?:drawing|sketch|diagram|floor\s+plan|map)|draw\s+(?:a|an|the|your|and\s+label|five|four|three|two|several)|diagram\s+(?:of|showing|how)|chart\s+the\s+(?:moon|planets|stars|constellations))\b",
+            scrubbed,
+        )
+    )
+
+
+def _extract_parent_directive_stem(parent_text: str, child_text: str) -> str:
+    """Returns a concise parent directive when `child_text` is a bare noun phrase or fragment lacking its own imperative verb."""
+    import re
+
+    c_txt = str(child_text or "").strip()
+    p_txt = str(parent_text or "").strip()
+    if not p_txt or not c_txt:
+        return ""
+    # Check if child_text already starts with a clear instructional verb
+    has_lead_verb = bool(
+        re.match(
+            r"^(?:\([a-z0-9]+\)\s*)?(?:explain|discuss|describe|demonstrate|show|identify|tell|list|name|prepare|make|build|create|write|visit|find|do|select|choose|record|complete|review|compare|contrast|conduct|design|plan|collect|measure|observe|research|interview|attend|participate|practice|perform|assemble|inspect|sketch|draw|define|state|give|keep|maintain|plant|grow|cook|swim|climb|ride|shoot|tie|splice|lash)\b",
+            c_txt,
+            flags=re.IGNORECASE,
+        )
+    )
+    if has_lead_verb and len(c_txt.split()) > 7:
+        return ""
+    # Extract the lead-in directive stem from parent_text
+    stem = p_txt.split(":", 1)[0].strip() if ":" in p_txt[:180] else re.split(r"(?<=[.!?])\s+", p_txt)[0].strip()
+    stem = re.sub(r"\s+", " ", stem).rstrip(" .,:;-")
+    if len(stem) > 140:
+        stem = " ".join(stem.split()[:20]).rstrip(" .,:;-")
+    if not stem or stem.lower() == c_txt.lower().rstrip(" .,:;-"):
+        return ""
+    return stem
+
+
 def _build_child_workbook_organizer(
     child_node: Dict[str, Any],
     child_id: str,
@@ -6681,8 +6730,18 @@ def _build_child_workbook_organizer(
     explicit_org = child_node.get("workbook_organizer")
     eff_comp = child_node.get("comparison_data") or comparison_data
     parent_rows = list((parent_org or {}).get("row_labels") or [])
+    p_type = str((parent_org or {}).get("organizer_type") or "RULED_EXPLAIN_BOX").upper()
+    keep_types = {"SYMPTOMS_FIRST_AID_PREVENTION_3COL", "HAZARD_5COL"}
     if isinstance(explicit_org, dict) and explicit_org:
         base_org = dict(explicit_org)
+        # Inherit specialized clinical/hazard matrix columns from parent when child only has a generic RULED_EXPLAIN_BOX
+        if p_type in keep_types and str(base_org.get("organizer_type") or "RULED_EXPLAIN_BOX").upper() in ("", "RULED_EXPLAIN_BOX"):
+            base_org["organizer_type"] = p_type
+            p_headers = list((parent_org or {}).get("headers") or (parent_org or {}).get("column_headers") or [])
+            if p_headers:
+                base_org["headers"] = list(p_headers)
+                base_org["column_headers"] = list(p_headers)
+                base_org["columns"] = list(p_headers)
         if (
             parent_rows
             and list(base_org.get("row_labels") or []) == parent_rows
@@ -6695,9 +6754,7 @@ def _build_child_workbook_organizer(
                 base_org["rows"] = list(derived_rows)
                 base_org["min_rows"] = len(derived_rows)
     else:
-        p_type = str((parent_org or {}).get("organizer_type") or "RULED_EXPLAIN_BOX").upper()
         # Inherit specialized domain matrix headers only when appropriate; never inherit parent row_labels
-        keep_types = {"SYMPTOMS_FIRST_AID_PREVENTION_3COL", "HAZARD_5COL"}
         inherited_type = p_type if p_type in keep_types else (
             "STEP_BY_STEP_CHECKLIST" if child_verb.lower() in ("demonstrate", "show", "prepare", "make", "build") else "RULED_EXPLAIN_BOX"
         )
@@ -6743,38 +6800,21 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
     seen_diagrams: set = set()
     seen_misconceptions: set = set()
 
-    # Build a per-badge pool of authentic interior pamphlet figures so unrolled sub-requirements
-    # (1a, 1b, 1c, etc.) can receive distinct unused diagrams instead of suppressing all diagrams after 1a.
-    b_slug = re.sub(r"[^a-z0-9]+", "_", str(badge_name or "").strip().lower()).strip("_")
-    reserved_explicit_diags: set = set()
-    for _r_it in (reqs or []):
-        _d0 = str(_r_it.get("workbook_diagram_url") or "").strip().lstrip("/")
-        if _d0:
-            reserved_explicit_diags.add(_d0)
-        for _sr_it in (_r_it.get("sub_requirements") or []):
-            if isinstance(_sr_it, dict):
-                _d1 = str(_sr_it.get("workbook_diagram_url") or "").strip().lstrip("/")
-                if _d1:
-                    reserved_explicit_diags.add(_d1)
-                for _ch_it in (_sr_it.get("children") or []):
-                    if isinstance(_ch_it, dict):
-                        _d2 = str(_ch_it.get("workbook_diagram_url") or "").strip().lstrip("/")
-                        if _d2:
-                            reserved_explicit_diags.add(_d2)
-    pamphlet_pool: List[str] = [
-        fig_p
-        for fig_p in (_get_pamphlet_badge_diagram_index().get(b_slug) or [])
-        if fig_p not in reserved_explicit_diags
-    ]
-    pool_cursor = [0]
-
     def _pop_next_unused_badge_diagram() -> str:
-        while pool_cursor[0] < len(pamphlet_pool):
-            cand_fig = pamphlet_pool[pool_cursor[0]]
-            pool_cursor[0] += 1
-            if cand_fig not in seen_diagrams and cand_fig not in reserved_explicit_diags:
-                return cand_fig
+        # Never blindly deal out sequential fallback photos to unrelated requirements
         return ""
+
+    emitted_gear_tuples: set = set()
+
+    def _dedupe_unit_gear(cand_gear: List[Any]) -> List[str]:
+        cleaned = [str(g).strip() for g in (cand_gear or []) if str(g).strip()]
+        if not cleaned:
+            return []
+        key = tuple(c.lower() for c in cleaned)
+        if key in emitted_gear_tuples:
+            return []
+        emitted_gear_tuples.add(key)
+        return cleaned
 
     def _claim_unique_misconception(
         cand: Optional[Dict[str, Any]],
@@ -6847,11 +6887,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "protective gear",
             )
         )
-        r_gear = list(r.get("gear_checklist") or []) if _r_has_gear_context else []
+        r_gear = _dedupe_unit_gear(list(r.get("gear_checklist") or [])) if _r_has_gear_context else []
         r_excerpts = _clean_ocr_and_prefix_excerpts(list(r.get("pamphlet_excerpts") or []))
         if not r_excerpts and r_text:
-            r_excerpts = [f"Requirement {r_num} Standard ({r_cit}): {r_text}"]
+            r_excerpts = [f"Requirement {r_num} ({r_cit}): {r_text}"]
         r_proc = _clean_ocr_and_prefix_excerpts(list(r.get("step_by_step_procedure") or []))
+        r_socratic = [str(q).strip() for q in (r.get("socratic_questions") or []) if str(q).strip()]
         r_signoff = str(
             r.get("counselor_signoff_criteria")
             or r.get("homework_verification_note")
@@ -6888,6 +6929,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "title": r_title,
                 "topic_title": r_title,
                 "req_text": r_text,
+                "parent_directive": "",
                 "action_verb": r_verb,
                 "execution_mode": r_mode,
                 "syllabus_bucket": r_bucket,
@@ -6899,6 +6941,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "gear_checklist": r_gear,
                 "pamphlet_excerpts": r_excerpts,
                 "step_by_step_procedure": r_proc,
+                "socratic_questions": r_socratic,
                 "counselor_signoff_criteria": r_signoff,
                 "workbook_diagram_url": r_diag,
                 "workbook_diagram_caption": r_diag_cap,
@@ -6917,6 +6960,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             "title": r_title,
             "topic_title": r_title,
             "req_text": r_text,
+            "parent_directive": "",
             "action_verb": r_verb,
             "execution_mode": r_mode,
             "syllabus_bucket": r_bucket,
@@ -6925,9 +6969,10 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             "workbook_organizer": r_org,
             "common_misconception_pair": r_mis,
             "starting_requirement_gate": r_gate,
-            "gear_checklist": r_gear,
+            "gear_checklist": [],
             "pamphlet_excerpts": r_excerpts,
             "step_by_step_procedure": r_proc,
+            "socratic_questions": r_socratic,
             "counselor_signoff_criteria": r_signoff,
             "workbook_diagram_url": "",
             "workbook_diagram_caption": "",
@@ -6983,15 +7028,17 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 )
             )
             sr_gear = (
-                list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else []))
+                _dedupe_unit_gear(list(sr.get("gear_checklist") or (r_gear if sr_idx == 0 else [])))
                 if _sr_has_gear_context
                 else []
             )
             sr_title = str(sr.get("topic_title") or sr.get("title") or f"{r_title} ({sr_id})").strip()
-            sr_own_excerpts = (
+            sr_real_excerpts = (
                 ([sr["pamphlet_summary"]] if sr.get("pamphlet_summary") else [])
-                + list(sr.get("pamphlet_excerpts") or [])
-                + ([f"Req {sr_id} Standard ({sr_cit}): {sr_text}"] if sr_text else [])
+                + [e for e in list(sr.get("pamphlet_excerpts") or []) if "Standard (" not in str(e)]
+            )
+            sr_own_excerpts = sr_real_excerpts or (
+                [f"Official {badge_name} Pamphlet guidance for Req {sr_id}: {sr_text}"] if sr_text else []
             )
             sr_excerpts = _clean_ocr_and_prefix_excerpts(
                 sr_own_excerpts if sr_own_excerpts else r_excerpts[:2]
@@ -6999,6 +7046,8 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
             sr_proc = _clean_ocr_and_prefix_excerpts(
                 list(sr.get("step_by_step_procedure") or (r_proc[:2] if sr_idx == 0 else []))
             )
+            sr_socratic = [str(q).strip() for q in (sr.get("socratic_questions") or []) if str(q).strip()] or r_socratic
+            sr_parent_dir = _extract_parent_directive_stem(r_text, sr_text)
             sr_signoff = str(
                 sr.get("counselor_signoff_criteria")
                 or sr.get("homework_verification_note")
@@ -7081,6 +7130,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "title": sr_title,
                 "topic_title": sr_title,
                 "req_text": sr_text,
+                "parent_directive": sr_parent_dir,
                 "action_verb": sr_verb,
                 "execution_mode": r_mode,
                 "syllabus_bucket": sr_bucket,
@@ -7092,6 +7142,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 "gear_checklist": sr_gear,
                 "pamphlet_excerpts": sr_excerpts,
                 "step_by_step_procedure": sr_proc,
+                "socratic_questions": sr_socratic,
                 "counselor_signoff_criteria": sr_signoff,
                 "workbook_diagram_url": sr_diag_emit,
                 "workbook_diagram_caption": sr_diag_cap,
@@ -7173,10 +7224,12 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                         ch_row_tup = tuple(str(x).strip().lower() for x in re_derived_ch)
                 seen_ch_row_tuples.add(ch_row_tup)
 
-                ch_own_excerpts = (
+                ch_real_excerpts = (
                     ([ch["pamphlet_summary"]] if ch.get("pamphlet_summary") else [])
-                    + list(ch.get("pamphlet_excerpts") or [])
-                    + ([f"Req {ch_id} Standard ({ch_cit}): {ch_text}"] if ch_text else [])
+                    + [e for e in list(ch.get("pamphlet_excerpts") or []) if "Standard (" not in str(e)]
+                )
+                ch_own_excerpts = ch_real_excerpts or (
+                    [f"Official {badge_name} Pamphlet guidance for Req {ch_id}: {ch_text}"] if ch_text else []
                 )
                 ch_excerpts = _clean_ocr_and_prefix_excerpts(
                     ch_own_excerpts if ch_own_excerpts else sr_excerpts[:2]
@@ -7184,6 +7237,8 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                 ch_proc = _clean_ocr_and_prefix_excerpts(
                     list(ch.get("step_by_step_procedure") or (sr_proc[:2] if ch_idx == 1 else []))
                 )
+                ch_socratic = [str(q).strip() for q in (ch.get("socratic_questions") or []) if str(q).strip()] or sr_socratic
+                ch_parent_dir = _extract_parent_directive_stem(sr_text or r_text, ch_text)
                 ch_signoff = str(
                     ch.get("counselor_signoff_criteria")
                     or ch.get("homework_verification_note")
@@ -7227,6 +7282,7 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     "title": ch_title,
                     "topic_title": ch_title,
                     "req_text": ch_text,
+                    "parent_directive": ch_parent_dir,
                     "action_verb": ch_verb,
                     "execution_mode": r_mode,
                     "syllabus_bucket": ch_bucket,
@@ -7235,9 +7291,10 @@ def _iter_unrolled_workbook_units(reqs: List[Dict[str, Any]], badge_name: str = 
                     "workbook_organizer": ch_org,
                     "common_misconception_pair": ch_mis,
                     "starting_requirement_gate": ch_gate,
-                    "gear_checklist": ch_gear,
+                    "gear_checklist": _dedupe_unit_gear(ch_gear),
                     "pamphlet_excerpts": ch_excerpts,
                     "step_by_step_procedure": ch_proc,
+                    "socratic_questions": ch_socratic,
                     "counselor_signoff_criteria": ch_signoff,
                     "workbook_diagram_url": ch_diag,
                     "workbook_diagram_caption": ch_diag_cap,
@@ -7311,21 +7368,21 @@ def generate_counselor_workbook_markdown(
     reqs = research_result.get("requirements", [])
 
     c_info = counselor_info or {}
-    c_name = c_info.get("counselor_name") or "Scoutmaster Bob"
-    c_troop = c_info.get("troop_affiliation") or "Troop 123, My Council"
-    c_email = c_info.get("email_address") if "email_address" in c_info else "counselor@troop123.org"
-    c_phone = c_info.get("phone_number") if "phone_number" in c_info else "(000) 555-1234"
+    c_name = c_info.get("counselor_name") or "Merit Badge Counselor"
+    c_troop = c_info.get("troop_affiliation") or "Scouts BSA Unit / Council"
+    c_email = c_info.get("email_address", "")
+    c_phone = c_info.get("phone_number", "")
     contact_parts = [p for p in [c_email, c_phone] if p]
     contact_suffix = f" - `{' • '.join(contact_parts)}`" if contact_parts else ""
 
     lines: List[str] = [
-        f"# {badge_name} Merit Badge - Scout & Counselor Class Preparation Workbook",
+        f"# {badge_name} Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook",
         f"**Classification:** {eagle_tag}  ",
         f"**Counselor:** {c_name} ({c_troop}){contact_suffix}",
         f"**Official Pamphlet PDF:** {pdf_url}  ",
         f"**Digital Resource Guide (DRG):** {drg_url}",
         "",
-        "> **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.",
+        "> **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.",
         "",
         "---",
         "",
@@ -7387,7 +7444,7 @@ def generate_counselor_workbook_markdown(
 
     lines.extend([
         "",
-        "## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries",
+        "## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics",
         "",
     ])
     unrolled_units = _iter_unrolled_workbook_units(reqs, badge_name=badge_name)
@@ -7400,45 +7457,53 @@ def generate_counselor_workbook_markdown(
         org_title = str(org.get("table_title") or f"Req {u_num} Study Organizer")
 
         if u.get("is_group_header"):
-            lines.append(f"### {topic}")
-            lines.append(f"**Official Requirement {u_num} (Parent Overview):** {u.get('req_text', '')}")
+            raw_parent_txt = str(u.get("req_text") or "").strip()
+            stem_only = raw_parent_txt.split(":", 1)[0].strip() + ":" if ":" in raw_parent_txt[:180] else raw_parent_txt
+            clean_grp_topic = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(topic), flags=re.IGNORECASE).strip() or topic
+            lines.append(f"### Requirement {u_num} Section: {clean_grp_topic}")
+            lines.append(f"**Parent Directive ({u_num}):** {stem_only}")
             if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
-                lines.append(f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Group Organizer:** {org_type_label}")
+                lines.append(f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Section Organizer:** {org_type_label}")
             if u.get("safety_callout"):
                 lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
             gate = u.get("starting_requirement_gate")
             if isinstance(gate, dict) and gate.get("gate_label"):
                 g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
                 lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
-            grp_mis = u.get("common_misconception_pair") or {}
-            if isinstance(grp_mis, dict) and grp_mis.get("misconception") and grp_mis.get("fact") and not u.get("is_sub_requirement"):
-                lines.append(f"- **Common Myth:** {grp_mis['misconception']}")
-                lines.append(f"- **Pamphlet Fact:** {grp_mis['fact']}")
-            excerpts = u.get("pamphlet_excerpts") or []
-            if excerpts:
-                lines.append("")
-                lines.append("**Official Pamphlet Summary:**")
-                for ex in excerpts:
-                    lines.append(f"- {ex}")
             lines.append("")
             continue
 
         heading_prefix = "####" if u.get("is_sub_requirement") else "###"
         clean_md_topic = re.sub(r"^Req(?:uirement)?\s+[0-9a-zA-Z().\-]+\s*[:\-]\s*", "", str(topic), flags=re.IGNORECASE).strip() or topic
         lines.append(f"{heading_prefix} Req {u_num}: {clean_md_topic}")
+        if u.get("parent_directive"):
+            lines.append(f"**[Parent Directive]:** *{u['parent_directive']}*")
         lines.append(f"**Official Requirement {u_num}:** {u.get('req_text', '')}")
         if u.get("pamphlet_page_citation") or u.get("pamphlet_citation"):
             lines.append(
-                f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Organizer ({org_type_label}):** {org_title}"
+                f"**Source:** *{u.get('pamphlet_page_citation') or u.get('pamphlet_citation')}* • **Scout Workbook Organizer ({org_type_label}):** {org_title}"
             )
-        if u.get("safety_callout") and not u.get("is_sub_requirement"):
+        if u.get("safety_callout"):
             lines.append(f"> **Guide to Safe Scouting Warning:** {u['safety_callout']}")
         gate = u.get("starting_requirement_gate")
         if isinstance(gate, dict) and gate.get("gate_label"):
             g_lbl = _format_starting_gate_label(gate.get("gate_type", "GATE"))
             lines.append(f"> **Starting Gate ({g_lbl}):** {gate.get('gate_label')} - {gate.get('gate_description', '')}")
+        soc_qs = [str(q).strip() for q in (u.get("socratic_questions") or []) if str(q).strip()]
+        if soc_qs:
+            lines.append(f"- **Socratic Prompt (Ask Scouts First):** {soc_qs[0]}")
+        excerpts = [str(ex).strip() for ex in (u.get("pamphlet_excerpts") or []) if str(ex).strip()]
+        if excerpts:
+            lines.append("- **Official Pamphlet Summary & Expected Answer Key:**")
+            for ex in excerpts[:4]:
+                lines.append(f"  - {ex}")
+        procs = [str(p).strip() for p in (u.get("step_by_step_procedure") or []) if str(p).strip()]
+        if procs:
+            lines.append("- **Step-by-Step Facilitation & Station Procedure:**")
+            for pr_item in procs[:4]:
+                lines.append(f"  - {pr_item}")
         mis = u.get("common_misconception_pair") or {}
-        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact") and not u.get("is_sub_requirement"):
+        if isinstance(mis, dict) and mis.get("misconception") and mis.get("fact"):
             lines.append(f"- **Common Myth:** {mis['misconception']}")
             lines.append(f"- **Pamphlet Fact:** {mis['fact']}")
         gear_list = u.get("gear_checklist") or []
@@ -7459,36 +7524,29 @@ def generate_counselor_workbook_markdown(
             lines.append("")
             lines.append(f"![{md_diag_cap}](/{md_diag_url})")
         if isinstance(org, dict) and (org.get("headers") or org.get("column_headers")):
-            headers = org.get("headers") or org.get("column_headers") or ["Sub-Part / Step", "Scout Notes & Field Evidence"]
-            row_labels = org.get("row_labels") or ["Row 1", "Row 2", "Row 3"]
+            headers = org.get("headers") or org.get("column_headers") or ["Sub-Part / Step", "Counselor Reference & Expected Scout Evidence"]
+            row_labels = org.get("row_labels") or ["Core Concept", "Practical Application", "Counselor Verification"]
             if org.get("pre_approval_gate"):
                 lines.append("")
-                lines.append("**COUNSELOR PRE-APPROVAL REQUIRED BEFORE STARTING:** `[ ] Approved Before Starting | Counselor Signature: ___________________ Date Approved: __________`")
+                lines.append("**COUNSELOR PRE-APPROVAL REQUIRED BEFORE STARTING:** Verify Scout plan before field execution.")
             lines.append("")
             lines.append("| " + " | ".join(str(h) for h in headers) + " |")
             lines.append("| " + " | ".join(":---" for _ in headers) + " |")
-            for rl in row_labels:
-                blank_cols = ["`____________________________________`" for _ in headers[1:]]
-                lines.append(f"| **{rl}** | " + " | ".join(blank_cols) + " |")
-        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or any(
-            k in str(u.get("req_text", "")).lower() for k in ("sketch", "draw a ", "diagram", "map")
-        ):
+            ref_pool = list(excerpts) + list(procs) + [str(u.get("counselor_signoff_criteria") or "Verify accurate explanation and demonstration per pamphlet standard.")]
+            for r_i, rl in enumerate(row_labels):
+                ref_note = ref_pool[r_i % len(ref_pool)] if ref_pool else "Verify individual Scout mastery against the official pamphlet."
+                ref_note_clean = str(ref_note).replace("|", "/").strip()
+                filled_cols = [ref_note_clean if c_i == 0 else "Verify specific field notes / demonstration" for c_i in range(len(headers[1:]))]
+                lines.append(f"| **{rl}** | " + " | ".join(filled_cols) + " |")
+        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or is_genuine_sketch_prompt(str(u.get("req_text", ""))):
             lines.append("")
-            lines.append(f"**[Field Sketch & Diagram Canvas - Req {u_num} Unlined Dot-Grid / Horizon / Moon Sketch Box]:**")
-            lines.append("```text")
-            lines.append("+-----------------------------------------------------------------------+")
-            lines.append("| .   .   .   .   .   .   [ SKETCH / DIAGRAM CANVAS ]   .   .   .   .   |")
-            lines.append("| .   .   .   .   .   .   Label key landmarks & compass .   .   .   .   |")
-            lines.append("+-----------------------------------------------------------------------+")
-            lines.append("```")
-        excerpts = u.get("pamphlet_excerpts") or []
-        if excerpts and not u.get("is_sub_requirement"):
-            lines.append("")
-            lines.append("**Official Pamphlet Summary:**")
-            for ex in excerpts:
-                lines.append(f"- {ex}")
+            lines.append(f"**[Counselor Visual Inspection - Req {u_num} Sketch / Diagram / Map Review]:** Verify that each Scout's sketch or map in the Fillable Scout Workbook clearly labels required features, scale, and compass orientation.")
+        signoff_std = str(
+            u.get("counselor_signoff_criteria")
+            or f"Scout must individually {str(u.get('action_verb') or 'explain').lower()} Requirement {u_num} to the Merit Badge Counselor."
+        ).strip()
         lines.append("")
-        lines.append("**Scout Notes / Demonstration Verification:** `___________________________________________________________`")
+        lines.append(f"**Counselor Verification Standard (Req {u_num}):** {signoff_std}")
         lines.append("")
 
     from src.agents.planner import _replace_unslop_words
@@ -7687,10 +7745,15 @@ def generate_fillable_scout_workbook_html(
             )
 
         sketch_html = ""
-        if org_type_raw == "SKETCH_AND_OBSERVATION_CANVAS" or any(
-            k in r_text_raw.lower() for k in ("sketch", "draw a ", "draw the ", "diagram", "map")
-        ):
+        if org_type_raw == "SKETCH_AND_OBSERVATION_CANVAS" or is_genuine_sketch_prompt(r_text_raw):
             sketch_html = _build_svg_sketch_canvas_html(r_num_raw, row_labels, r_text_raw)
+
+        parent_dir_raw = str(u.get("parent_directive") or "").strip()
+        parent_dir_html = (
+            f'<div class="wb-parent-directive" style="font-size:11.5px; color:#1e3a8a; background:#eff6ff; border-left:3px solid #2563eb; padding:4px 9px; margin:4px 0 6px 0; border-radius:4px;"><strong>Parent Directive:</strong> {_html.escape(parent_dir_raw)}</div>'
+            if parent_dir_raw
+            else ""
+        )
 
         req_sections_html.append(
             f"""
@@ -7710,6 +7773,7 @@ def generate_fillable_scout_workbook_html(
                   </div>
                 </div>
               </div>
+              {parent_dir_html}
               <p class="wb-verbatim-text">{r_text}</p>
               {pre_app_html}
               {mis_html}

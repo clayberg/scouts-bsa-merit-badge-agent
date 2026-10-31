@@ -165,7 +165,7 @@ gcloud builds submit --config=cloudbuild.yaml --project="${GOOGLE_CLOUD_PROJECT}
     ```
 
 ### Playbook F: Emergency FinOps budget freeze & zero-code model deprecation cutover (`config/models.yaml`)
-- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `5,625` pre-bundled visual assets across `149` badges (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
+- **Emergency Live Image Freeze**: `FinOpsBudgetPlugin` (`max_budget_usd = $1.00`) automatically steps down `DARK_SLATE` (`STUDIO`) requests to `WARM_CREAM` (`BEAUTIFIED`) using the `5,607` pre-bundled visual assets across `149` badges (`$0.00` image cost). To freeze opt-in `$0.08` Nano Banana studio calls during a budget freeze without redeploying code, set `DISABLE_LIVE_IMAGE_GENERATION=true` or `MAX_WORKFLOW_BUDGET_USD=0.25` in Cloud Run environment variables.
 - **Zero-Code Model Deprecation Cutover**:
   1. Update `primary_model` or `fast_model` in `config/models.yaml` (or set `BSA_REASONING_MODEL` / `BSA_FAST_MODEL` environment variables).
   2. Run `.venv/bin/python3 scripts/run_eval.py` to verify `Recall@3 == 1.0000`, `0` requirement drift, and `100%` AABB slide geometry conformance on the new model.

@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safe Swim Defense and Rescue Preparation)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -55,23 +55,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense"
+          "1. Qualified Leadership",
+          "2. Safe Water Depth",
+          "3. Buddy System Pairing"
         ],
         "rows": [
-          "1. Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense"
+          "1. Qualified Leadership",
+          "2. Safe Water Depth",
+          "3. Buddy System Pairing"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A certified lifeguard on duty eliminates the need for adult troop supervision.",
         "fact": "Designated adult supervisors must hold current training in both Safe Swim Defense and CPR."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 1)",
@@ -228,7 +233,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Earn the Swimming)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -240,24 +245,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Earn the Swimming merit badge"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Earn the Swimming merit badge"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)",
           "common_misconception_pair": {
             "misconception": "Recreational swimming experience substitutes for formal Swimming merit badge completion records.",
             "fact": "Swimming merit badge requirements validate survival floating and deep water surface entry skills."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 2a)",
@@ -288,7 +298,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p007_img1.png",
           "workbook_diagram_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing.",
-          "workbook_visual_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing."
+          "workbook_visual_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing.",
+          "socratic_questions": [
+            "For lifesaving Requirement 2a (Earn the Swimming merit badge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -299,7 +312,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Continuously for Yards)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -311,12 +324,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)",
           "common_misconception_pair": {
@@ -354,7 +377,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p057_img1.png",
           "workbook_diagram_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing.",
-          "workbook_visual_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing."
+          "workbook_visual_caption": "A rescuer pushes a large blue buoyant pad toward a swimmer needing.",
+          "socratic_questions": [
+            "For lifesaving Requirement 2b (Swim continuously for 400 yards using each of the following strokes in a strong manner, in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -381,7 +407,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Prerequisite Swimming Endurance Check)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -400,18 +426,19 @@
           "1. (2a) Earn The Swimming",
           "2. (2b) Continuously for Yards"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Passing the First Class swim test fulfills the prerequisite swimming endurance requirement.",
         "fact": "Lifesaving candidate prerequisites mandate verified stroke mechanics alongside continuous aerobic swimming stamina."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 2)",
@@ -568,7 +595,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Common Drowning Situations)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -580,12 +607,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river currents, rip currents, and medical emergencies"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river currents, rip currents, and medical emergencies"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
@@ -623,7 +660,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p012_img1.png",
           "workbook_diagram_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
-          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely."
+          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 3a (Common drowning situations and how to avoid them, such as unfenced residential pools, drop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -639,7 +679,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Persons in the Water)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -651,12 +691,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How to identify persons in the water who need assistance"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How to identify persons in the water who need assistance"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
@@ -694,7 +744,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p019_img1.png",
           "workbook_diagram_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
-          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely."
+          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 3b (How to identify persons in the water who need assistance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -705,7 +758,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Order of Methods in Water)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -717,12 +770,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The order of methods in water rescue"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The order of methods in water rescue"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
@@ -760,7 +823,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p019_img1.png",
           "workbook_diagram_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
-          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely."
+          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 3c (The order of methods in water rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -771,7 +837,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Rescue Techniques Vary Depending)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -783,12 +849,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How rescue techniques vary depending on the setting and the condition of the person needing assistance"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How rescue techniques vary depending on the setting and the condition of the person needing assistance"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
@@ -826,7 +902,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p019_img1.png",
           "workbook_diagram_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
-          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely."
+          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 3d (How rescue techniques vary depending on the setting and the condition of the person needing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -837,7 +916,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Situations for Which in-water Rescues)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -849,12 +928,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Situations for which in-water rescues should not be undertaken"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Situations for which in-water rescues should not be undertaken"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)",
           "common_misconception_pair": {
@@ -892,7 +981,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p019_img1.png",
           "workbook_diagram_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
-          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely."
+          "workbook_visual_caption": "A distressed swimmer waves for assistance while struggling to remain afloat safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 3e (Situations for which in-water rescues should not be undertaken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -923,7 +1015,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Common Drowning Situations)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -948,7 +1040,13 @@
           "4. (3d) Rescue Techniques Vary Depending",
           "5. (3e) Situations for Which In-water Rescues"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Drowning victims always splash violently and call for help before slipping underwater.",
@@ -1130,7 +1228,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Reaching Rescues Using Various)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1142,12 +1240,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Demonstrate \"reaching\" rescues using various items such as arm, leg, towels, shirts, paddles, poles"
+          "1. Rescuer Stance Anchoring",
+          "2. Rigid Tool Extension",
+          "3. Improvised Reaching Gear"
         ],
         "rows": [
-          "1. Demonstrate \"reaching\" rescues using various items such as arm, leg, towels, shirts, paddles, poles"
+          "1. Rescuer Stance Anchoring",
+          "2. Rigid Tool Extension",
+          "3. Improvised Reaching Gear"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standing upright provides maximum balance when reaching toward a struggling swimmer from shore.",
@@ -1325,7 +1433,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Throwing Rescues Using Various)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1344,7 +1452,13 @@
           "1. Demonstrate \"throwing\" rescues using various items such as a line, ring buoy, rescue bag, and free-floating support.",
           "2. Successfully place at least one such aid within reach of a practice victim 25 feet from shore."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The primary goal during throwing rescues is hitting the victim directly with the heavy buoy.",
@@ -1522,7 +1636,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (View in-person or on Video)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1541,18 +1655,19 @@
           "1. With your counselor's approval, view in-person or on video a rowing rescue performed using a rowboat, canoe, kayak, or stand up paddleboard",
           "2. Discuss with your counselor how effectively and efficiently the rescue was performed"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Kayaks and canoes provide stable platforms for dragging panicked victims over high gunwales.",
         "fact": "Rowing rescues allow responders to reach distant swimmers rapidly without personal water entry."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Lifesaving Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Lifesaving Merit Badge Hub (Req 6)",
@@ -1719,7 +1834,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Various Used Aids Rescue)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1738,7 +1853,13 @@
           "1. List various items that can be used as aids in a \"go\" rescue.",
           "2. Explain why buoyant aids are preferred."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any floating household item serves identically to specialized rescue tubes during swimming assists.",
@@ -1901,7 +2022,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Aid to A Subject)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1913,12 +2034,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)",
           "common_misconception_pair": {
@@ -1956,7 +2087,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p056_img2.png",
           "workbook_diagram_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube.",
-          "workbook_visual_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube."
+          "workbook_visual_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube.",
+          "socratic_questions": [
+            "For lifesaving Requirement 8a (Present one aid to a subject, release it, and swim at a safe distance as the subject moves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -1967,7 +2101,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Separate Rescue Present the Other)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1979,12 +2113,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In a separate rescue, present the other aid to a subject and use it to tow the subject to safety"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In a separate rescue, present the other aid to a subject and use it to tow the subject to safety"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)",
           "common_misconception_pair": {
@@ -2023,7 +2167,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p056_img2.png",
           "title": "Req 8b: Buoyant Aid Towing Rescue",
           "workbook_diagram_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube.",
-          "workbook_visual_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube."
+          "workbook_visual_caption": "A lifeguard swims toward a subject while towing a buoyant rescue tube.",
+          "socratic_questions": [
+            "For lifesaving Requirement 8b (In a separate rescue, present the other aid to a subject and use it to tow the subject to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2054,7 +2201,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Rescues of A Conscious Practice)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2073,7 +2220,13 @@
           "1. (8a) Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety",
           "2. (8b) In a separate rescue, present the other aid to a subject and use it to tow the subject to safety"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Towing a subject requires holding their body directly with an arm across their torso.",
@@ -2246,7 +2399,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Discuss Remove Heavy Clothing)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2267,7 +2420,13 @@
           "2. Remove street clothes in 20 seconds or less, enter the water, and approach a conscious practice subject 30 feet from shore in deep water",
           "3. Speak to the subject and use a nonbuoyant aid, such as a shirt or towel, to tow the subject to safety"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Removing shoes and pants wastes critical time that should be spent swimming toward victims.",
@@ -2449,7 +2608,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist (Discuss Avoiding Contact Active)",
+        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2461,12 +2620,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and-wait techniques"
+          "1. Defensive Stop Distance",
+          "2. Lead and Wait",
+          "3. Reversal Body Positioning"
         ],
         "rows": [
-          "1. Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and-wait techniques"
+          "1. Defensive Stop Distance",
+          "2. Lead and Wait",
+          "3. Reversal Body Positioning"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Swimming directly into physical contact with a panicking victim demonstrates decisive rescue competence.",
@@ -2629,7 +2798,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Armpit Tow for A Calm)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2641,12 +2810,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)",
           "common_misconception_pair": {
@@ -2684,7 +2863,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p030_img1.png",
           "workbook_diagram_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline.",
-          "workbook_visual_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline."
+          "workbook_visual_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline.",
+          "socratic_questions": [
+            "For lifesaving Requirement 11a (Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -2695,7 +2877,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Cross-chest Carry for An Exhausted)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2707,12 +2889,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform a cross-chest carry for an exhausted, responsive subject treading water"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform a cross-chest carry for an exhausted, responsive subject treading water"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)",
           "common_misconception_pair": {
@@ -2750,7 +2942,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p030_img1.png",
           "workbook_diagram_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline.",
-          "workbook_visual_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline."
+          "workbook_visual_caption": "A tired swimmer conserves stamina using an easy resting stroke toward shoreline.",
+          "socratic_questions": [
+            "For lifesaving Requirement 11b (Perform a cross-chest carry for an exhausted, responsive subject treading water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2777,7 +2972,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Nonequipment Rescues for A Conscious)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2796,7 +2991,13 @@
           "1. (11a) Armpit Tow for A Calm",
           "2. (11b) Cross-chest Carry for An Exhausted"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Non-equipment contact carries should always be chosen before using buoyant tubes or lines.",
@@ -2974,7 +3175,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 12 Hands-On Skill Station & EDGE Verification Checklist (Deep Water Show How to)",
+        "table_title": "Req 12 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2993,7 +3194,13 @@
           "1. In deep water, show how to escape from a victim's grasp on your wrist.",
           "2. Repeat for front and rear holds about the head and shoulders."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fighting victim grasp holds on the surface with raw physical strength works best.",
@@ -3156,7 +3363,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 13a Structured Technical Study & Explanation Matrix (Equipment Assist Using A Buoyant)",
+            "table_title": "Req 13a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 13a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3168,12 +3375,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform an equipment assist using a buoyant aid"
+              "1. Req 13a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform an equipment assist using a buoyant aid"
+              "1. Req 13a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 13a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
@@ -3211,7 +3428,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p067_img1.png",
           "workbook_diagram_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
-          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water."
+          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
+          "socratic_questions": [
+            "For lifesaving Requirement 13a (Perform an equipment assist using a buoyant aid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "13b",
@@ -3222,7 +3442,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 13b Structured Technical Study & Explanation Matrix (Front Approach and Wrist Tow)",
+            "table_title": "Req 13b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 13b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3234,16 +3454,26 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform a front approach and wrist tow"
+              "1. Req 13b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform a front approach and wrist tow"
+              "1. Req 13b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 13b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
-            "misconception": "Rescuers should grab the hair or clothing to roll an unconscious subject over.",
+            "misconception": "Rescuers should grab the hair or clothing to roll an unconscious subject without completing the full BSA pamphlet procedure.",
             "fact": "Pulling the far wrist rotates the subject along their body axis without neck strain."
           },
           "starting_requirement_gate": null,
@@ -3277,7 +3507,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p067_img1.png",
           "workbook_diagram_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
-          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water."
+          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
+          "socratic_questions": [
+            "For lifesaving Requirement 13b (Perform a front approach and wrist tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "13c",
@@ -3288,7 +3521,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 13c Structured Technical Study & Explanation Matrix (Rear Approach and Armpit Tow)",
+            "table_title": "Req 13c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 13c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3300,12 +3533,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform a rear approach and armpit tow"
+              "1. Req 13c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform a rear approach and armpit tow"
+              "1. Req 13c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 13c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 13c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 13c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)",
           "common_misconception_pair": {
@@ -3343,7 +3586,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p067_img1.png",
           "workbook_diagram_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
-          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water."
+          "workbook_visual_caption": "A rescuer uses a flexible buoyant tube to support a floating victim in water.",
+          "socratic_questions": [
+            "For lifesaving Requirement 13c (Perform a rear approach and armpit tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -3365,7 +3611,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 13 Structured Technical Study & Explanation Matrix (Rescues for An Unconscious Practice)",
+        "table_title": "Req 13 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 13 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3386,7 +3632,13 @@
           "2. (13b) Front Approach and Wrist Tow",
           "3. (13c) Rear Approach and Armpit Tow"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 13 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Unconscious subjects should be approached from the front with standard head up crawl.",
@@ -3554,7 +3806,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 14a Structured Technical Study & Explanation Matrix (Recover A 10-pound Weight)",
+            "table_title": "Req 14a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 14a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3566,12 +3818,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive"
+              "1. Req 14a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 14a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 14a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive"
+              "1. Req 14a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 14a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 14a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 14a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
@@ -3609,7 +3871,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p032_img1.png",
           "workbook_diagram_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario.",
-          "workbook_visual_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario."
+          "workbook_visual_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario.",
+          "socratic_questions": [
+            "For lifesaving Requirement 14a (Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "14b",
@@ -3625,7 +3890,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 14b Structured Technical Study & Explanation Matrix (Repeat Using A Headfirst Surface)",
+            "table_title": "Req 14b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 14b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3637,12 +3902,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repeat using a headfirst surface dive"
+              "1. Req 14b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 14b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 14b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repeat using a headfirst surface dive"
+              "1. Req 14b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 14b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 14b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 14b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
@@ -3680,7 +3955,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p032_img1.png",
           "workbook_diagram_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario.",
-          "workbook_visual_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario."
+          "workbook_visual_caption": "A motionless submerged victim demonstrates a passive drowning emergency scenario.",
+          "socratic_questions": [
+            "For lifesaving Requirement 14b (Repeat using a headfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3711,7 +3989,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 14 Structured Technical Study & Explanation Matrix (Discuss Respond Victim Submerges)",
+        "table_title": "Req 14 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 14 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3730,7 +4008,13 @@
           "1. (14a) Recover A 10-pound Weight",
           "2. (14b) Repeat Using A Headfirst Surface"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 14 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Feetfirst dives are slower and less effective than headfirst dives in dark water.",
@@ -3902,7 +4186,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 15a Structured Technical Study & Explanation Matrix (Discuss the Causes Signs and)",
+            "table_title": "Req 15a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 15a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3914,12 +4198,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the causes, signs, and symptoms of a spinal injury"
+              "1. Req 15a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the causes, signs, and symptoms of a spinal injury"
+              "1. Req 15a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 15a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
@@ -3958,7 +4252,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p083_img1.png",
           "title": "Req 15a: Spinal Injury Causes and Signs",
           "workbook_diagram_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
-          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings."
+          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
+          "socratic_questions": [
+            "For lifesaving Requirement 15a (Discuss the causes, signs, and symptoms of a spinal injury), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "15b",
@@ -3969,7 +4266,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 15b Structured Technical Study & Explanation Matrix (Support A Faceup Subject in)",
+            "table_title": "Req 15b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 15b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3981,12 +4278,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Support a faceup subject in calm water of standing depth"
+              "1. Req 15b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Support a faceup subject in calm water of standing depth"
+              "1. Req 15b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 15b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
@@ -4025,7 +4332,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p083_img1.png",
           "title": "Req 15b: Faceup in-Line Water Support",
           "workbook_diagram_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
-          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings."
+          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
+          "socratic_questions": [
+            "For lifesaving Requirement 15b (Support a faceup subject in calm water of standing depth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "15c",
@@ -4036,7 +4346,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 15c Structured Technical Study & Explanation Matrix (Turn A Subject from A)",
+            "table_title": "Req 15c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 15c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4048,12 +4358,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support"
+              "1. Req 15c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support"
+              "1. Req 15c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 15c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 15c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 15c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)",
           "common_misconception_pair": {
@@ -4092,7 +4412,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p083_img1.png",
           "title": "Req 15c: Facedown to Faceup Turn",
           "workbook_diagram_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
-          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings."
+          "workbook_visual_caption": "A detailed anatomical sketch shows jellyfish tentacles capable of inflicting stings.",
+          "socratic_questions": [
+            "For lifesaving Requirement 15c (Turn a subject from a facedown to a faceup position in water of standing depth while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4123,7 +4446,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 15 Hands-On Skill Station & EDGE Verification Checklist (Management of A Spinal Injury)",
+        "table_title": "Req 15 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -4144,7 +4467,13 @@
           "2. (15b) Support a faceup subject in calm water of standing depth",
           "3. (15c) Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Spinal injury victims should be pulled rapidly out of water before stabilizing their spine.",
@@ -4307,7 +4636,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 16a Structured Technical Study & Explanation Matrix (Recognize the Need for Rescue)",
+            "table_title": "Req 16a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 16a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4319,12 +4648,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how to recognize the need for rescue breathing and CPR"
+              "1. Req 16a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 16a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 16a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how to recognize the need for rescue breathing and CPR"
+              "1. Req 16a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 16a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 16a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 16a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -4362,7 +4701,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p079_img1.png",
           "workbook_diagram_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely.",
-          "workbook_visual_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely."
+          "workbook_visual_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 16a (Describe how to recognize the need for rescue breathing and CPR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "16b",
@@ -4373,7 +4715,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 16b Hands-On Skill Station & EDGE Verification Checklist (CPR Knowledge and Skills Including)",
+            "table_title": "Req 16b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4385,12 +4727,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider"
+              "1. Req 16b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 16b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 16b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider"
+              "1. Req 16b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 16b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 16b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -4429,7 +4781,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/lifesaving_p079_img1.png",
           "title": "Req 16b: Mannequin CPR and Rescue Breathing",
           "workbook_diagram_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely.",
-          "workbook_visual_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely."
+          "workbook_visual_caption": "A lifeguard crouches at pools ide to help two young swimmers exit the water safely.",
+          "socratic_questions": [
+            "For lifesaving Requirement 16b (Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4456,7 +4811,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 16 Hands-On Skill Station & EDGE Verification Checklist (Knowledge of Resuscitation Procedure)",
+        "table_title": "Req 16 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -4475,7 +4830,13 @@
           "1. (16a) Describe how to recognize the need for rescue breathing and CPR",
           "2. (16b) Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Rescuers must check for a pulse for thirty seconds before initiating chest compressions.",
@@ -4653,7 +5014,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 17 Structured Technical Study & Explanation Matrix (Discuss Causes Prevention and Treatment)",
+        "table_title": "Req 17 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 17 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4665,12 +5026,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. With your counselor, discuss causes, prevention, and treatment of other injuries or illnesses that could occur while swimming or boating"
+          "1. Hypothermia Rewarming Protocol",
+          "2. Dehydration Prevention Discipline",
+          "3. Heat Exhaustion Recognition"
         ],
         "rows": [
-          "1. With your counselor, discuss causes, prevention, and treatment of other injuries or illnesses that could occur while swimming or boating"
+          "1. Hypothermia Rewarming Protocol",
+          "2. Dehydration Prevention Discipline",
+          "3. Heat Exhaustion Recognition"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 17 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Drinking hot coffee or rubbing frostbitten skin rapidly warms hypothermic aquatic casualties.",

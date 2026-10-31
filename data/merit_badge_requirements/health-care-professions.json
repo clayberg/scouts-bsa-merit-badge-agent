@@ -61,7 +61,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -73,12 +73,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
@@ -116,7 +126,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p003_img1.png",
           "workbook_diagram_caption": "A doctor in a white coat examines patient documentation and clinical notes.",
-          "workbook_visual_caption": "A doctor in a white coat examines patient documentation and clinical notes."
+          "workbook_visual_caption": "A doctor in a white coat examines patient documentation and clinical notes.",
+          "socratic_questions": [
+            "For health care professions Requirement 1a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -156,7 +169,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -168,12 +181,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
@@ -211,7 +234,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p016_img1.png",
           "workbook_diagram_caption": "A doctor in a white coat examines patient documentation and clinical notes.",
-          "workbook_visual_caption": "A doctor in a white coat examines patient documentation and clinical notes."
+          "workbook_visual_caption": "A doctor in a white coat examines patient documentation and clinical notes.",
+          "socratic_questions": [
+            "For health care professions Requirement 1b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -317,7 +343,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think allopathic and osteopathic physicians attend entirely different lengths of residency training.",
@@ -512,7 +544,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -524,12 +556,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)",
           "common_misconception_pair": {
@@ -567,7 +609,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p007_img1.png",
           "workbook_diagram_caption": "A medical professional smiles while consulting with a young pediatric patient.",
-          "workbook_visual_caption": "A medical professional smiles while consulting with a young pediatric patient."
+          "workbook_visual_caption": "A medical professional smiles while consulting with a young pediatric patient.",
+          "socratic_questions": [
+            "For health care professions Requirement 2a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -615,7 +660,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -627,12 +672,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)",
           "common_misconception_pair": {
@@ -670,7 +725,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p027_img2.png",
           "workbook_diagram_caption": "A medical professional smiles while consulting with a young pediatric patient.",
-          "workbook_visual_caption": "A medical professional smiles while consulting with a young pediatric patient."
+          "workbook_visual_caption": "A medical professional smiles while consulting with a young pediatric patient.",
+          "socratic_questions": [
+            "For health care professions Requirement 2b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -788,7 +846,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Physician assistants must work with a supervising physician physically present in the examination room.",
@@ -979,7 +1043,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -991,12 +1055,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)",
           "common_misconception_pair": {
@@ -1034,7 +1108,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p052_img1.png",
           "workbook_diagram_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb.",
-          "workbook_visual_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb."
+          "workbook_visual_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb.",
+          "socratic_questions": [
+            "For health care professions Requirement 3a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1078,7 +1155,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1090,12 +1167,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)",
           "common_misconception_pair": {
@@ -1133,7 +1220,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p052_img1.png",
           "workbook_diagram_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb.",
-          "workbook_visual_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb."
+          "workbook_visual_caption": "Diagnostic ultrasound technology visualizes fetal development inside the womb.",
+          "socratic_questions": [
+            "For health care professions Requirement 3b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1243,7 +1333,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Occupational therapy focuses primarily on helping adult patients find employment and workplace accommodations.",
@@ -1434,7 +1530,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1446,12 +1542,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Briefly describe to your counselor the roles these professionals play in the delivery of health care"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)",
           "common_misconception_pair": {
@@ -1489,7 +1595,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p050_img1.png",
           "workbook_diagram_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility.",
-          "workbook_visual_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility."
+          "workbook_visual_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility.",
+          "socratic_questions": [
+            "For health care professions Requirement 4a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1533,7 +1642,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Health Care Professions Careers and Pathways)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1545,12 +1654,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe to your counselor the educational and licensing requirements for the professionals you selected"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)",
           "common_misconception_pair": {
@@ -1588,7 +1707,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p050_img1.png",
           "workbook_diagram_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility.",
-          "workbook_visual_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility."
+          "workbook_visual_caption": "Advanced prosthetic limbs developed by engineers enable athletic mobility.",
+          "socratic_questions": [
+            "For health care professions Requirement 4b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1698,7 +1820,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Radiologic technologists interpret radiographs and provide definitive diagnostic reports directly to visiting patients.",
@@ -1868,12 +1996,22 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Why did they choose their particular career"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Why did they choose their particular career"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -1911,7 +2049,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5a (Why did they choose their particular career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1922,7 +2063,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (They Most Like About Their)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1934,12 +2075,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What do they most like about their job"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What do they most like about their job"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -1978,7 +2129,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "title": "Req 5b: Most Rewarding Job Aspects",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5b (What do they most like about their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1989,7 +2143,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Are Their Biggest Challenges)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2001,12 +2155,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What are their biggest challenges in doing their job"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What are their biggest challenges in doing their job"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -2044,7 +2208,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5c (What are their biggest challenges in doing their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2055,7 +2222,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Tools/instruments Used Jobs)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2067,12 +2234,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the tools/instruments that may be used in their jobs"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the tools/instruments that may be used in their jobs"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -2110,7 +2287,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5d (Identify the tools/instruments that may be used in their jobs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2133,12 +2313,22 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. What has been the most surprising aspect of their career"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What has been the most surprising aspect of their career"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -2176,7 +2366,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5e (What has been the most surprising aspect of their career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
@@ -2187,7 +2380,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Continuing Education)",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2199,12 +2392,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What continuing education requirements are required to maintain certification"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What continuing education requirements are required to maintain certification"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)",
           "common_misconception_pair": {
@@ -2242,7 +2445,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/health_care_professions_p010_img1.png",
           "workbook_diagram_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
-          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care."
+          "workbook_visual_caption": "A team of healthcare providers collaborates to deliver quality patient care.",
+          "socratic_questions": [
+            "For health care professions Requirement 5f (What continuing education requirements are required to maintain certification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2296,7 +2502,12 @@
           "5. (5e) What has been the most surprising aspect of their career",
           "6. (5f) What continuing education requirements are required to maintain certification"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A healthcare workplace visit allows Scouts to perform basic diagnostic procedures on actual patients.",
@@ -2474,7 +2685,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2486,12 +2697,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath"
+          "1. Historic Ethical Covenant",
+          "2. Primum Non Nocere Principle",
+          "3. Modern Declaration Updates"
         ],
         "rows": [
-          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath"
+          "1. Historic Ethical Covenant",
+          "2. Primum Non Nocere Principle",
+          "3. Modern Declaration Updates"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The Hippocratic Oath is a legally binding contract enforced by federal criminal courts.",
@@ -2668,7 +2889,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Role of Confidentiality Between A)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2687,7 +2908,13 @@
           "1. Describe the role of confidentiality between a patient and the health care provider.",
           "2. What is HIPAA?"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Healthcare workers can freely discuss interesting patient cases with family members as long as they omit names.",
@@ -2868,7 +3095,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Medical Advancement or Discovery That)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2887,7 +3114,13 @@
           "1. Identify a medical advancement or discovery that has been in the news recently.",
           "2. Discuss with your counselor how this can affect patient care."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A new medical discovery reported in the news is immediately available at local neighborhood pharmacies.",
@@ -3055,7 +3288,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Serve As A Volunteer)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3074,7 +3307,12 @@
           "1. With your parent or guardian's and counselor's approval, serve as a volunteer at a health-related event or facility in your community (e.g., blood drive, health fair, blood pressure screening event)",
           "2. Report to your counselor what you did and learned from the experience"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scout volunteers at community blood drives are permitted to insert intravenous needles into blood donors.",

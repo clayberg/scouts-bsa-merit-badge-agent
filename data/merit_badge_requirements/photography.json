@@ -41,7 +41,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Photography Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -60,7 +60,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while working with photography and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
               "2. Explain how you would prepare for exposure to environmental situations such as weather, sun, and water"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)",
           "common_misconception_pair": {
@@ -98,7 +104,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p003_img1.png",
           "workbook_diagram_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation.",
-          "workbook_visual_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation."
+          "workbook_visual_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation.",
+          "socratic_questions": [
+            "For photography Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -114,7 +123,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -126,24 +135,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 33, p. 63)",
           "common_misconception_pair": {
             "misconception": "Deleting photo location data from phone settings eliminates all personal digital risks.",
             "fact": "Online photographs containing embedded EXIF location coordinates can expose home addresses publicly."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Photography Req 1b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Photography Merit Badge Hub (Req 1b)",
@@ -174,7 +188,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p033_img1.png",
           "workbook_diagram_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation.",
-          "workbook_visual_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation."
+          "workbook_visual_caption": "An owl glides across an outdoor audience during a live wildlife photography presentation.",
+          "socratic_questions": [
+            "For photography Requirement 1b (View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -213,7 +230,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Photography Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -232,7 +249,12 @@
           "1. (1a) Photography Hazards and First Aid",
           "2. (1b) View The Personal Safety Awareness"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Looking through an electronic viewfinder keeps a photographer aware of surrounding physical hazards.",
@@ -408,7 +430,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Natural Light Ambient/existing Low)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -420,12 +442,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Light, natural light (ambient/existing), low light (such as at night), and artificial light (such as from a flash)"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Light, natural light (ambient/existing), low light (such as at night), and artificial light (such as from a flash)"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -463,12 +495,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p007_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2a (Light, natural light (ambient/existing), low light (such as at night), and artificial light), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Exposure, aperture (f-stops), shutter speed, ISO.",
+          "text": "Exposure, aperture (f-stops), shutter speed, ISO (c) Depth of field.",
           "resources": [
             {
               "title": "ISO, Shutter Speed, and Aperture Explained | Exposure Basics for Beginners (video)",
@@ -483,7 +518,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Exposure Aperture F-stops Shutter Speed)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -495,12 +530,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Exposure, aperture (f-stops), shutter speed, ISO"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Exposure, aperture (f-stops), shutter speed, ISO"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -530,7 +575,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Exposure, aperture (f-stops), shutter speed, ISO.",
+          "sub_req_text": "Exposure, aperture (f-stops), shutter speed, ISO (c) Depth of field.",
           "topic_title": "Req 2b: Exposure Triangle Fundamentals",
           "pamphlet_summary": "Exposure balances three interrelated camera settings known universally as the exposure triangle. Adjusting one setting requires compensating with another setting to preserve balanced tonal values.",
           "pamphlet_excerpts": [
@@ -538,7 +583,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2b (Exposure, aperture (f-stops), shutter speed, ISO (c) Depth of field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -554,7 +602,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Depth of Field)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -566,12 +614,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Depth of field"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Depth of field"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -609,12 +667,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2c (Depth of field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
           "label": "(d)",
-          "text": "Composition, rule of thirds, leading lines, framing, depth.",
+          "text": "Composition, rule of thirds, leading lines, framing, depth (e) Angle of view (f) Stop action and blur motion.",
           "resources": [
             {
               "title": "Basic Photography | Composition: The Only Rules You Need to Know (video)",
@@ -633,7 +694,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Composition Rule of Thirds Leading)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -645,12 +706,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Composition, rule of thirds, leading lines, framing, depth"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Composition, rule of thirds, leading lines, framing, depth"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -680,7 +751,7 @@
           ],
           "id": "2d",
           "sub_req_label": "2d",
-          "sub_req_text": "Composition, rule of thirds, leading lines, framing, depth.",
+          "sub_req_text": "Composition, rule of thirds, leading lines, framing, depth (e) Angle of view (f) Stop action and blur motion.",
           "topic_title": "Req 2d: Visual Composition and Framing",
           "pamphlet_summary": "Composition arranges scene elements to guide the viewer eyes through the photographic image. Techniques like leading lines and framing create illusionary visual depth within two-dimensional pictures.",
           "pamphlet_excerpts": [
@@ -688,12 +759,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2d (Composition, rule of thirds, leading lines, framing, depth (e) Angle of view (f) Stop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
           "label": "(e)",
-          "text": "Angle of view.",
+          "text": "Angle of view (f) Stop action and blur motion.",
           "resources": [
             {
               "title": "Angle of View and Framing (video)",
@@ -704,7 +778,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Angle of View)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -716,12 +790,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Angle of view"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Angle of view"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -751,7 +835,7 @@
           ],
           "id": "2e",
           "sub_req_label": "2e",
-          "sub_req_text": "Angle of view.",
+          "sub_req_text": "Angle of view (f) Stop action and blur motion.",
           "topic_title": "Req 2e: Camera Viewpoint and Perspective",
           "pamphlet_summary": "Angle of view changes how relationships between foreground and background elements appear. Varying camera height alters subject dominance, visual impact, and viewer perspective dramatically.",
           "pamphlet_excerpts": [
@@ -759,7 +843,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2e (Angle of view (f) Stop action and blur motion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2f",
@@ -779,7 +866,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2f Structured Technical Study & Explanation Matrix (Stop Action and Blur Motion)",
+            "table_title": "Req 2f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -791,12 +878,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stop action and blur motion"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Stop action and blur motion"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -834,7 +931,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2f (Stop action and blur motion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2g",
@@ -850,7 +950,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2g Structured Technical Study & Explanation Matrix (Decisive Moment Action or Expression)",
+            "table_title": "Req 2g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -862,12 +962,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Decisive moment (action or expression captured by the photographer)"
+              "1. Req 2g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Decisive moment (action or expression captured by the photographer)"
+              "1. Req 2g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -905,7 +1015,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p022_img1.png",
           "workbook_diagram_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
-          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images."
+          "workbook_visual_caption": "Bright fireworks illuminate the night sky as spectators capture long-exposure images.",
+          "socratic_questions": [
+            "For photography Requirement 2g (Decisive moment (action or expression captured by the photographer)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -988,7 +1101,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Elements and Terms Can Affect)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1017,7 +1130,13 @@
           "6. (2f) Stop Action and Blur Motion",
           "7. (2g) Decisive Moment Action or Expression"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern digital cameras automatically correct poor lighting without affecting image detail or noise.",
@@ -1198,7 +1317,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Basic Parts and Operation)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1217,7 +1336,13 @@
           "1. Explain the basic parts and operation of a camera.",
           "2. Explain how an exposure is made when you take a picture."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Camera lenses contain the digital sensor chips that convert light into electronic files.",
@@ -1380,7 +1505,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Subject from Two Different Angles)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1392,12 +1517,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Photograph one subject from two different angles or perspectives"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Photograph one subject from two different angles or perspectives"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
           "common_misconception_pair": {
@@ -1435,7 +1570,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p031_img1.png",
           "workbook_diagram_caption": "A low ground perspective documents compassionate community care under an overpass.",
-          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass."
+          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass.",
+          "socratic_questions": [
+            "For photography Requirement 4a (Photograph one subject from two different angles or perspectives), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1446,7 +1584,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Subject from Two Different Light)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1458,12 +1596,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Photograph one subject from two different light sources, artificial and natural"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Photograph one subject from two different light sources, artificial and natural"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
           "common_misconception_pair": {
@@ -1501,7 +1649,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p031_img1.png",
           "workbook_diagram_caption": "A low ground perspective documents compassionate community care under an overpass.",
-          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass."
+          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass.",
+          "socratic_questions": [
+            "For photography Requirement 4b (Photograph one subject from two different light sources, artificial and natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1512,7 +1663,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Subject with Two Different Depth)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1524,12 +1675,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Photograph one subject with two different depth of fields"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Photograph one subject with two different depth of fields"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
           "common_misconception_pair": {
@@ -1567,7 +1728,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p031_img1.png",
           "workbook_diagram_caption": "A low ground perspective documents compassionate community care under an overpass.",
-          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass."
+          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass.",
+          "socratic_questions": [
+            "For photography Requirement 4c (Photograph one subject with two different depth of fields), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1578,7 +1742,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Subject with Two Different Compositional)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1590,12 +1754,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Photograph one subject with two different compositional techniques"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Photograph one subject with two different compositional techniques"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 31, p. 37)",
           "common_misconception_pair": {
@@ -1633,7 +1807,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p031_img1.png",
           "workbook_diagram_caption": "A low ground perspective documents compassionate community care under an overpass.",
-          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass."
+          "workbook_visual_caption": "A low ground perspective documents compassionate community care under an overpass.",
+          "socratic_questions": [
+            "For photography Requirement 4d (Photograph one subject with two different compositional techniques), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1660,7 +1837,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Then Share Your Work)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1683,7 +1860,13 @@
           "3. (4c) Subject With Two Different Depth",
           "4. (4d) Subject With Two Different Compositional"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Taking two photos from different heights produces identical spatial relationships between objects.",
@@ -1835,13 +2018,13 @@
         {
           "sub_id": "5a",
           "label": "(a)",
-          "text": "Close-up of a person.",
+          "text": "Close-up of a person (b) Two to three people interacting (c) Action shot (d) Animal shot (e) Nature shot.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Close-up of A Person)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1853,12 +2036,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Close-up of a person"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Close-up of a person"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -1888,7 +2081,7 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Close-up of a person.",
+          "sub_req_text": "Close-up of a person (b) Two to three people interacting (c) Action shot (d) Animal shot (e) Nature shot.",
           "topic_title": "Req 5a: Individual Portrait Headshot Photography",
           "pamphlet_summary": "Close-up portraits require precise focus on the subject eyes and flattering soft illumination. Photographers utilize moderate telephoto focal lengths to avoid unflattering facial perspective distortion.",
           "pamphlet_excerpts": [
@@ -1896,18 +2089,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5a (Close-up of a person (b) Two to three people interacting (c) Action shot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
-          "text": "Two to three people interacting.",
+          "text": "Two to three people interacting (c) Action shot (d) Animal shot (e) Nature shot.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (People Interacting)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1919,12 +2115,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Two to three people interacting"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Two to three people interacting"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -1954,7 +2160,7 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Two to three people interacting.",
+          "sub_req_text": "Two to three people interacting (c) Action shot (d) Animal shot (e) Nature shot.",
           "topic_title": "Req 5b: Multi Person Interactive Grouping",
           "pamphlet_summary": "Photographing multiple interacting individuals requires tracking shared eye contact, conversation, and body language. The photographer positions the frame to capture reactive expressions without disrupting group dynamics.",
           "pamphlet_excerpts": [
@@ -1962,18 +2168,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5b (Two to three people interacting (c) Action shot (d) Animal shot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
-          "text": "Action shot.",
+          "text": "Action shot (d) Animal shot (e) Nature shot.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Action Shot)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1985,12 +2194,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Action shot"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Action shot"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -2020,7 +2239,7 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "Action shot.",
+          "sub_req_text": "Action shot (d) Animal shot (e) Nature shot.",
           "topic_title": "Req 5c: Fast Action Sports Photography",
           "pamphlet_summary": "Action photography captures peak athletic performance using high shutter speeds and burst modes. Anticipating movement paths enables the photographer to frame compositions before athletes enter.",
           "pamphlet_excerpts": [
@@ -2028,18 +2247,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5c (Action shot (d) Animal shot (e) Nature shot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
           "label": "(d)",
-          "text": "Animal shot.",
+          "text": "Animal shot (e) Nature shot.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Animal Shot)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2051,12 +2273,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Animal shot"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Animal shot"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -2086,7 +2318,7 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Animal shot.",
+          "sub_req_text": "Animal shot (e) Nature shot.",
           "topic_title": "Req 5d: Wildlife and Domestic Animals",
           "pamphlet_summary": "Wildlife and domestic animal photography requires immense patience, low angles, and silent operations. Photographers focus on animal eyes while respecting natural habitats and ethical boundaries.",
           "pamphlet_excerpts": [
@@ -2094,7 +2326,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5d (Animal shot (e) Nature shot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2105,7 +2340,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Nature Shot)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2117,12 +2352,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Nature shot"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Nature shot"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -2160,7 +2405,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5e (Nature shot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
@@ -2171,7 +2419,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Picture of A Person Candid)",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2183,12 +2431,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Picture of a person, candid, posed, or camera-aware"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Picture of a person, candid, posed, or camera-aware"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 37, p. 39)",
           "common_misconception_pair": {
@@ -2226,7 +2484,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p038_img1.png",
           "workbook_diagram_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
-          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens."
+          "workbook_visual_caption": "A photographer uses an air blower bulb to remove dust safely from the front element of a camera lens.",
+          "socratic_questions": [
+            "For photography Requirement 5f (Picture of a person, candid, posed, or camera-aware), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -2248,7 +2509,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Then Share Your Work)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2275,7 +2536,13 @@
           "5. (5e) Nature Shot",
           "6. (5f) Picture of A Person Candid"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A single standard focal length lens is equally suitable for wildlife, action, and portraits.",
@@ -2433,7 +2700,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Photography Crop Principles)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2445,12 +2712,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Crop your photograph"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Crop your photograph"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -2488,7 +2765,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p043_img1.png",
           "workbook_diagram_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
-          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen."
+          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
+          "socratic_questions": [
+            "For photography Requirement 6a (Crop your photograph), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2499,7 +2779,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Exposure or Make A Color)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2511,12 +2791,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Adjust the exposure or make a color correction"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Adjust the exposure or make a color correction"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -2554,7 +2844,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p043_img1.png",
           "workbook_diagram_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
-          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen."
+          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
+          "socratic_questions": [
+            "For photography Requirement 6b (Adjust the exposure or make a color correction), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2565,7 +2858,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (You Could Improve Your Picture)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2577,12 +2870,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show another way you could improve your picture for impact"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show another way you could improve your picture for impact"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -2620,7 +2923,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p043_img1.png",
           "workbook_diagram_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
-          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen."
+          "workbook_visual_caption": "A Scout reviews and edits a bright action photograph of a kayaker on his desktop computer screen.",
+          "socratic_questions": [
+            "For photography Requirement 6c (Show another way you could improve your picture for impact), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2647,7 +2953,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Software Allows You to Enhance)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2668,7 +2974,13 @@
           "2. (6b) Exposure or Make A Color",
           "3. (6c) You Could Improve Your Picture"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Digital editing exists solely to salvage severely out-of-focus or ruined photographic exposures.",
@@ -2831,7 +3143,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Images You)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2843,12 +3155,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Plan the images you need to photograph for your photo story"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Plan the images you need to photograph for your photo story"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)",
           "common_misconception_pair": {
@@ -2886,7 +3208,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/photography_p010_img1.png",
           "workbook_diagram_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
-          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression."
+          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
+          "socratic_questions": [
+            "For photography Requirement 7a (Plan the images you need to photograph for your photo story), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2897,7 +3222,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Get Your Counselor's Input)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2909,12 +3234,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Share your plan with your counselor, and get your counselor's input and approval before you proceed"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Share your plan with your counselor, and get your counselor's input and approval before you proceed"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)",
           "common_misconception_pair": {
@@ -2953,7 +3288,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/photography_p010_img1.png",
           "title": "Req 7b: Counselor Review and Plan Approval",
           "workbook_diagram_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
-          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression."
+          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
+          "socratic_questions": [
+            "For photography Requirement 7b (Share your plan with your counselor, and get your counselor's input and approval before you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2969,7 +3307,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Images That Best Tell Your)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2990,7 +3328,13 @@
               "2. Arrange your images in order and mount the prints on a poster board, OR create an electronic presentation.",
               "3. Share your visual story with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Photography Merit Badge Pamphlet (p. 10, p. 53)",
           "common_misconception_pair": {
@@ -3029,7 +3373,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/photography_p010_img1.png",
           "title": "Req 7c: Sequencing Eight to Twelve Images",
           "workbook_diagram_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
-          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression."
+          "workbook_visual_caption": "A historic nineteenth-century studio portrait captures timeless formal expression.",
+          "socratic_questions": [
+            "For photography Requirement 7c (Select eight to 12 images that best tell your story. Arrange your images in order and mount), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3060,7 +3407,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Images Other Than Those Created)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3081,7 +3428,13 @@
           "2. (7b) Share your plan with your counselor, and get your counselor's input and approval before you proceed",
           "3. (7c) Select eight to 12 images that best tell your story"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A photo story consists simply of random pretty pictures gathered from one event.",
@@ -3272,14 +3625,20 @@
         "row_labels": [
           "1. Identify three career opportunities in photography.",
           "2. Pick one and explain to your counselor how to prepare for such a career.",
-          "3. Discuss what education and training are required, and why this profession might interest you."
+          "3. Discuss what education and training are required, and why this profession might interest"
         ],
         "rows": [
           "1. Identify three career opportunities in photography.",
           "2. Pick one and explain to your counselor how to prepare for such a career.",
-          "3. Discuss what education and training are required, and why this profession might interest you."
+          "3. Discuss what education and training are required, and why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Professional photographers spend all their working hours solely operating cameras outdoors.",

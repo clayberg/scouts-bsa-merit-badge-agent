@@ -1,5 +1,25 @@
 [
   {
+    "id": "895dc3d8283cbb",
+    "badge_name": "artificial intelligence",
+    "req_number": "cover",
+    "req_numbers": [
+      "cover"
+    ],
+    "topic": "artificial intelligence Merit Badge Official Emblem",
+    "caption": "Official Scouting America artificial intelligence Merit Badge embroidered emblem.",
+    "description": "Official Scouting America artificial intelligence Merit Badge embroidered emblem.",
+    "keywords": [
+      "artificial intelligence",
+      "emblem",
+      "merit badge"
+    ],
+    "source_type": "OFFICIAL_BADGE_ASSET",
+    "image_url": "/assets/merit_badges/artificial_intelligence.png",
+    "image_path": "assets/merit_badges/artificial_intelligence.png",
+    "image_id": "895dc3d8283cbb"
+  },
+  {
     "image_id": "a224bf8cd5bbc3",
     "badge_name": "Artificial Intelligence",
     "req_number": "1",
@@ -7,14 +27,15 @@
     "title": "Foundations of Artificial Intelligence Concepts",
     "description": "Illustrated panels explain neural networks, algorithmic decision trees, and machine learning principles.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_1_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_1_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Illustrated panels explain neural networks, algorithmic decision trees, and machine learning principles.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Foundations of Artificial Intelligence Concepts"
   },
   {
     "image_id": "b2e22de5c2bfae",
@@ -22,16 +43,17 @@
     "req_number": "1",
     "slide_title": "Natural Language Processing and Robotics",
     "title": "Natural Language Processing and Robotics",
-    "description": "Reference panels detail natural language processing, speech recognition algorithms, and robotic vision sensors.",
+    "description": "Instructional Artificial Intelligence visual for Requirement 1 illustrating Natural Language Processing and Robotics with labeled components and safety checkpoints.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_1_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_1_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
-    "caption": "Reference panels detail natural language processing, speech recognition algorithms, and robotic vision sensors.",
-    "vision_verified": true
+    "caption": "Instructional Artificial Intelligence visual for Requirement 1 illustrating Natural Language Processing and Robotics with labeled components and safety checkpoints.",
+    "vision_verified": true,
+    "topic": "Natural Language Processing and Robotics"
   },
   {
     "image_id": "970fb71e689ecb",
@@ -41,14 +63,15 @@
     "title": "Machine Learning Algorithm Outdoor Lecture",
     "description": "An instructor explains neural network flowchart diagrams on an outdoor chalkboard to attentive uniformed Scouts.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_2_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_2_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "An instructor explains neural network flowchart diagrams on an outdoor chalkboard to attentive uniformed Scouts.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Machine Learning Algorithm Outdoor Lecture"
   },
   {
     "image_id": "5af4cf5a4687e3",
@@ -58,14 +81,15 @@
     "title": "Machine Learning Pipeline and Applications",
     "description": "Diagram panels depict training dataset collection, autonomous drone navigation, and facial recognition scanning.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_2_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_2_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Diagram panels depict training dataset collection, autonomous drone navigation, and facial recognition scanning.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Machine Learning Pipeline and Applications"
   },
   {
     "image_id": "7130b7d4f42a7a",
@@ -75,14 +99,15 @@
     "title": "Robotic Arm Programming Demonstration",
     "description": "Scouts monitor an automated robotic arm and laptop software interface inside an engineering laboratory setup.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_3_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_3_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts monitor an automated robotic arm and laptop software interface inside an engineering laboratory setup.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Robotic Arm Programming Demonstration"
   },
   {
     "image_id": "50b1f42764653c",
@@ -92,14 +117,15 @@
     "title": "Sensors and Actuators in Robotics",
     "description": "Diagrams categorize robotic sensors, mechanical actuators, and reinforcement learning loops for autonomous systems.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_3_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_3_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Diagrams categorize robotic sensors, mechanical actuators, and reinforcement learning loops for autonomous systems.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Sensors and Actuators in Robotics"
   },
   {
     "image_id": "40a009efb409ed",
@@ -109,14 +135,15 @@
     "title": "Holographic Data Visualization in Camp",
     "description": "Scouts interact with a glowing holographic digital display showing complex machine learning datasets at camp.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_4_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_4_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts interact with a glowing holographic digital display showing complex machine learning datasets at camp.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Holographic Data Visualization in Camp"
   },
   {
     "image_id": "05094b65e5adee",
@@ -126,14 +153,15 @@
     "title": "Ethical AI and Data Privacy",
     "description": "Illustrated sections address data privacy safeguards, algorithmic bias accountability, and AI ethics.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_4_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_4_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Illustrated sections address data privacy safeguards, algorithmic bias accountability, and AI ethics.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Ethical AI and Data Privacy"
   },
   {
     "image_id": "da693e8281e778",
@@ -143,14 +171,15 @@
     "title": "Computer Vision Facial Recognition Analysis",
     "description": "Scouts observe real-time computer vision software detecting human faces with digital bounding boxes on a monitor.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_5_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_5_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts observe real-time computer vision software detecting human faces with digital bounding boxes on a monitor.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Computer Vision Facial Recognition Analysis"
   },
   {
     "image_id": "3cb192b425755a",
@@ -160,14 +189,15 @@
     "title": "Societal Impacts of Autonomous Technologies",
     "description": "Illustrated scenarios explore the societal impact of autonomous driving, healthcare robotics, and algorithmic fairness.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_5_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_5_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Illustrated scenarios explore the societal impact of autonomous driving, healthcare robotics, and algorithmic fairness.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Societal Impacts of Autonomous Technologies"
   },
   {
     "image_id": "e81276ccd48d80",
@@ -177,14 +207,15 @@
     "title": "Search and Rescue Drone Interface",
     "description": "Scouts study an illuminated tactical map displaying simulated drone search and rescue coordinates on a high-tech console.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_6_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_6_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts study an illuminated tactical map displaying simulated drone search and rescue coordinates on a high-tech console.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Search and Rescue Drone Interface"
   },
   {
     "image_id": "9ced2576bfb325",
@@ -194,14 +225,15 @@
     "title": "Practical AI Applications Across Industries",
     "description": "Panels highlight practical artificial intelligence uses including search drones, smart farming, and healthcare.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_6_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_6_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Panels highlight practical artificial intelligence uses including search drones, smart farming, and healthcare.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Practical AI Applications Across Industries"
   },
   {
     "image_id": "404d2324aaa7ca",
@@ -211,14 +243,15 @@
     "title": "Field Testing Autonomous Drone Systems",
     "description": "Uniformed Scouts operate a rugged field tablet connected to solar panels beside an autonomous reconnaissance drone.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_7_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_7_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Uniformed Scouts operate a rugged field tablet connected to solar panels beside an autonomous reconnaissance drone.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Field Testing Autonomous Drone Systems"
   },
   {
     "image_id": "924fc8074ec35b",
@@ -228,14 +261,15 @@
     "title": "Artificial Intelligence in Emergency Services",
     "description": "Graphic panels depict thermal search drones locating lost hikers and intelligent diagnostic tools aiding first responders.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_7_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_7_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Graphic panels depict thermal search drones locating lost hikers and intelligent diagnostic tools aiding first responders.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Artificial Intelligence in Emergency Services"
   },
   {
     "image_id": "3a8bd0123a8d80",
@@ -245,14 +279,15 @@
     "title": "Field Deployment of Sensor Hardware",
     "description": "Scouts configure sensor software on a field laptop while inspecting a miniature autonomous rover on the ground.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_8_nano_hero.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_8_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts configure sensor software on a field laptop while inspecting a miniature autonomous rover on the ground.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Field Deployment of Sensor Hardware"
   },
   {
     "image_id": "5765b79248ca4a",
@@ -262,13 +297,122 @@
     "title": "Human-AI Collaboration and Ethics Framework",
     "description": "Panels illustrate data pipeline architecture, ethical algorithmic safeguards, and collaborative human-computer workflows.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "🎨 Nano Banana Topic Visual",
+    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/artificial_intelligence_req_8_topic_visual.png",
     "image_url": "/assets/ai_illustrations/artificial_intelligence_req_8_topic_visual.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Panels illustrate data pipeline architecture, ethical algorithmic safeguards, and collaborative human-computer workflows.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Human-AI Collaboration and Ethics Framework"
+  },
+  {
+    "id": "436f103fd4b94b",
+    "badge_name": "artificial intelligence",
+    "req_number": "1",
+    "req_numbers": [
+      "1"
+    ],
+    "topic": "Foundational Artificial Intelligence Terminology: System Classification",
+    "caption": "System Classification diagram illustrating how artificial intelligence systems process external inputs to execute rational actions toward defined objectives.",
+    "description": "System Classification diagram illustrating how artificial intelligence systems process external inputs to execute rational actions toward defined objectives.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p003_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p003_img1.png",
+    "image_id": "436f103fd4b94b"
+  },
+  {
+    "id": "62d7b0e37d9686",
+    "badge_name": "artificial intelligence",
+    "req_number": "4",
+    "req_numbers": [
+      "4"
+    ],
+    "topic": "Artificial Intelligence Ethics Governance: Data Imbalance",
+    "caption": "Data Imbalance diagram illustrating how skewed training corpora cause predictive algorithms to deliver systematically unequal demographic categorization outcomes.",
+    "description": "Data Imbalance diagram illustrating how skewed training corpora cause predictive algorithms to deliver systematically unequal demographic categorization outcomes.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p004_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p004_img1.png",
+    "image_id": "62d7b0e37d9686"
+  },
+  {
+    "id": "b344eee48bf32a",
+    "badge_name": "artificial intelligence",
+    "req_number": "5",
+    "req_numbers": [
+      "5"
+    ],
+    "topic": "Synthetic Media Deepfake Security: Generative Synthesis",
+    "caption": "Generative Synthesis diagram illustrating how deep learning models clone biological voice signatures by mapping vocal timbre and cadence.",
+    "description": "Generative Synthesis diagram illustrating how deep learning models clone biological voice signatures by mapping vocal timbre and cadence.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p005_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p005_img1.png",
+    "image_id": "b344eee48bf32a"
+  },
+  {
+    "id": "6f509ced2b90c8",
+    "badge_name": "artificial intelligence",
+    "req_number": "6",
+    "req_numbers": [
+      "6"
+    ],
+    "topic": "Generative Prompt Engineering Competencies: Supervised Tuning",
+    "caption": "Supervised Tuning diagram illustrating how neural networks adjust synaptic weights using backpropagation algorithms across massive text corpora collections.",
+    "description": "Supervised Tuning diagram illustrating how neural networks adjust synaptic weights using backpropagation algorithms across massive text corpora collections.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p006_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p006_img1.png",
+    "image_id": "6f509ced2b90c8"
+  },
+  {
+    "id": "10a4bdc9ff4de9",
+    "badge_name": "artificial intelligence",
+    "req_number": "2",
+    "req_numbers": [
+      "2"
+    ],
+    "topic": "Applied Machine Intelligence Systems: Household Algorithms",
+    "caption": "Household Algorithms diagram illustrating how smart thermostats utilize predictive modeling techniques to regulate residential heating cycles and efficiency.",
+    "description": "Household Algorithms diagram illustrating how smart thermostats utilize predictive modeling techniques to regulate residential heating cycles and efficiency.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p007_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
+    "image_id": "10a4bdc9ff4de9"
+  },
+  {
+    "id": "881b8c5e6b1695",
+    "badge_name": "artificial intelligence",
+    "req_number": "3",
+    "req_numbers": [
+      "3"
+    ],
+    "topic": "Deterministic Automation Engineering Fundamentals: Mechanical Repetition",
+    "caption": "Mechanical Repetition diagram illustrating how factory pick and place robots follow static coordinate scripts to package manufactured consumer goods.",
+    "description": "Mechanical Repetition diagram illustrating how factory pick and place robots follow static coordinate scripts to package manufactured consumer goods.",
+    "keywords": [
+      "artificial intelligence"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/artificial_intelligence_p012_img1.png",
+    "image_path": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
+    "image_id": "881b8c5e6b1695"
   }
 ]

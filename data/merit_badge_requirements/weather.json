@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Meteorology, Weather vs. Climate & Industry Impacts)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -70,7 +70,13 @@
           "3. Discuss how the weather affects farmers, sailors, aviators, and the outdoor construction industry",
           "4. Tell why weather forecasts are important to each of these groups"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Weather and climate mean the exact same atmospheric condition over short durations.",
@@ -259,7 +265,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Hazardous Weather Rules & Watch vs. Warning)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Severe Weather Watch Conditions",
@@ -280,7 +286,13 @@
           "2. Give the safety rules for each when outdoors and explain the difference between a severe weather watch and a warning.",
           "3. Discuss the safety rules with your family."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Severe Weather Watch Conditions",
+          "Severe Weather Warning Actions"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A weather watch means severe weather is currently striking your immediate location.",
@@ -465,7 +477,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Outdoor Forecast & Emergency Warning Sources)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -484,7 +496,13 @@
           "1. Identify at least two sources of weather forecasts that can be used to prepare for hikes, overnight camping, and other outdoor activities",
           "2. Name two sources of emergency weather warnings both at home and during outdoor Scout functions"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Cellular smartphone weather applications provide foolproof warning alerts during catastrophic backcountry storms.",
@@ -664,17 +682,17 @@
       "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 29, p. 30)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Technical Comparison Matrix (High & Low Pressure Systems & Frontal Cross Sections)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. Explain the difference between high and low pressure systems in the atmosphere",
@@ -686,7 +704,13 @@
           "2. Tell which is related to good and to poor weather",
           "3. Draw cross sections of a cold front and a warm front, showing the location and movements of the cold and warm air"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Air masses mix together smoothly and immediately whenever high and low pressure systems meet.",
@@ -871,7 +895,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Wind, Rain, Lightning & Hail Formation)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -883,12 +907,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Tell what causes wind, why it rains, and how lightning and hail are formed"
+          "1. Pressure Gradient Winds",
+          "2. Precipitation Condensation Triggers",
+          "3. Charge Separation Dynamics"
         ],
         "rows": [
-          "1. Tell what causes wind, why it rains, and how lightning and hail are formed"
+          "1. Pressure Gradient Winds",
+          "2. Precipitation Condensation Triggers",
+          "3. Charge Separation Dynamics"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Lightning strikes from cloud to ground exclusively without traveling upward or through cloud channels.",
@@ -1065,7 +1099,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Low, Middle & Upper Cloud Classification)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1084,7 +1118,13 @@
           "1. Identify and describe clouds in the low, middle, and upper levels of the atmosphere.",
           "2. Relate these to specific types of weather."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All high altitude clouds produce active surface rain and heavy localized snowstorms.",
@@ -1265,7 +1305,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Water Cycle Diagram & Hydrologic Processes)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1284,7 +1324,13 @@
           "1. Draw a diagram of the water cycle and label its major processes.",
           "2. Explain the water cycle to your counselor."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Evaporation from oceans is the only process that returns moisture to the atmosphere.",
@@ -1465,7 +1511,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Human Activities, Acid Rain & Climate Impacts)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1477,12 +1523,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people"
+          "1. Urban Island Effects",
+          "2. Forest Canopy Removal",
+          "3. Particulate Cloud Seeding"
         ],
         "rows": [
-          "1. Identify some human activities that can alter the environment, and describe how they affect the climate and people"
+          "1. Urban Island Effects",
+          "2. Forest Canopy Removal",
+          "3. Particulate Cloud Seeding"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Human land development and industrial emissions affect only indoor air quality without altering climates.",
@@ -1663,7 +1719,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Earth's Axial Tilt & Regional Climate Zones)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1675,12 +1731,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area"
+          "1. Axial Tilt Constant",
+          "2. Equatorial Solar Intensity",
+          "3. Polar Oblique Diffusion"
         ],
         "rows": [
-          "1. Describe how the tilt of Earth's axis helps determine the climate of a region near the equator, near the poles, and across the area"
+          "1. Axial Tilt Constant",
+          "2. Equatorial Solar Intensity",
+          "3. Polar Oblique Diffusion"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Earth experiences hot summer weather because the planet orbits physically closer to the Sun.",
@@ -1836,7 +1902,7 @@
         {
           "sub_id": "10a",
           "label": "(a)",
-          "text": "Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and television stations, NOAA Weather Radio All Hazards, and internet sources (with your parent or guardian's permission). Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds. Be sure to make a note of any morning dew or frost. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned.",
+          "text": "Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and television stations, NOAA Weather Radio All Hazards, and internet sources (with your parent or guardian's permission). Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds. Be sure to make a note of any morning dew or frost. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned out.",
           "resources": [
             {
               "title": "Weather 101: Build Your Own Wind Vane! (video)",
@@ -1859,7 +1925,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 10a Hands-On Skill Station & EDGE Verification Checklist (Instruments Wind Vane Anemometer Rain)",
+            "table_title": "Req 10a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1884,19 +1950,20 @@
               "4. Be sure to make a note of any morning dew or frost",
               "5. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
             "misconception": "Placing a rain gauge right next to an exterior house wall ensures accurate readings.",
             "fact": "Rain gauges must be elevated above ground level to eliminate splashing from surrounding soil."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Weather Req 10a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Weather Merit Badge Hub (Req 10a)",
@@ -1919,7 +1986,7 @@
           ],
           "id": "10a",
           "sub_req_label": "10a",
-          "sub_req_text": "Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and television stations, NOAA Weather Radio All Hazards, and internet sources (with your parent or guardian's permission). Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds. Be sure to make a note of any morning dew or frost. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned.",
+          "sub_req_text": "Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer. Keep a daily weather log for one week using information from this instrument as well as from other sources such as local radio and television stations, NOAA Weather Radio All Hazards, and internet sources (with your parent or guardian's permission). Record the following information at the same time every day: wind direction and speed, temperature, precipitation, and types of clouds. Be sure to make a note of any morning dew or frost. In the log, also list the weather forecasts from radio or television at the same time each day and show how the weather really turned out.",
           "topic_title": "Req 10a: Meteorological Instrument Fabrication and Logging",
           "pamphlet_summary": "Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.",
           "pamphlet_excerpts": [
@@ -1927,7 +1994,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/weather_p048_img1.png",
           "workbook_diagram_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane.",
-          "workbook_visual_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane."
+          "workbook_visual_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane.",
+          "socratic_questions": [
+            "For weather Requirement 10a (Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -1943,7 +2013,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10b Structured Technical Study & Explanation Matrix (National Weather Service Office or)",
+            "table_title": "Req 10b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1964,7 +2034,12 @@
               "2. Find out what type of weather is most dangerous or damaging to your community",
               "3. Determine how severe weather and flood warnings reach the homes in your community"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 10b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)",
           "common_misconception_pair": {
@@ -2003,7 +2078,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/weather_p048_img1.png",
           "title": "Req 10b: Visit Weather Office or Meteorologist",
           "workbook_diagram_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane.",
-          "workbook_visual_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane."
+          "workbook_visual_caption": "Scout wearing safety glasses cutting an aluminum arrow vane and tail fin to construct a directional wind vane.",
+          "socratic_questions": [
+            "For weather Requirement 10b (Visit a National Weather Service office or talk with a local radio or television), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2046,7 +2124,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist (Weather Instrument & Daily Observation Log)",
+        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2065,7 +2143,12 @@
           "1. (10a) Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer",
           "2. (10b) Visit a National Weather Service office or talk with a local radio or television weathercaster, private meteorologist, local agricultural extension service officer, or university meteorology instructor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Homebuilt weather instruments provide identical precision and sensor responsiveness as certified airport meteorological stations.",
@@ -2242,7 +2325,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Five-Minute Outdoor Weather Safety Briefing)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2261,7 +2344,13 @@
           "1. Give a talk of at least five minutes to a group (such as your unit or a Cub Scout pack) explaining the outdoor safety rules in the event of lightning, flash floods, and tornadoes",
           "2. Before your talk, share your outline with your counselor for approval"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Rubber shoe soles protect an outdoor hiker from being struck by lethal cloud to ground lightning.",
@@ -2473,7 +2562,12 @@
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All professional weather careers consist entirely of on air television news broadcasts.",

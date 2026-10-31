@@ -48,7 +48,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Identifying Characteristics of Six Species)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -71,7 +71,13 @@
           "3. Show markings, color patterns, or other characteristics that are important in the identification of each of the four species.",
           "4. Discuss the habits and habitats of all 10 species."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Salamanders are classified as lizards because both share an elongated body shape and four legs.",
@@ -244,7 +250,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -263,7 +269,13 @@
           "1. Discuss with your counselor the approximate number of species and general geographic distribution of reptiles and amphibians in the United States",
           "2. Prepare a list of the most common species found in your local area or state"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Reptiles and amphibians maintain uniform species diversity across all fifty states regardless of regional climate.",
@@ -420,7 +432,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Amphibians and reptiles.",
+          "text": "Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.",
           "resources": [
             {
               "title": "Reptiles vs Amphibians: (video)",
@@ -435,7 +447,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Amphibians and Reptiles)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -447,12 +459,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Amphibians and reptiles"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Amphibians and reptiles"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -482,7 +504,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Amphibians and reptiles.",
+          "sub_req_text": "Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.",
           "topic_title": "Req 3a: Amphibian and Reptile Distinctions",
           "pamphlet_summary": "Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.",
           "pamphlet_excerpts": [
@@ -490,12 +512,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 3a (Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Alligators and crocodiles.",
+          "text": "Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.",
           "resources": [
             {
               "title": "Alligator or Crocodile - What's the Difference? (video)",
@@ -506,7 +531,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Alligators and Crocodiles)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -518,12 +543,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Alligators and crocodiles"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Alligators and crocodiles"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -553,7 +588,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Alligators and crocodiles.",
+          "sub_req_text": "Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.",
           "topic_title": "Req 3b: Alligator and Crocodile Comparisons",
           "pamphlet_summary": "Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida.",
           "pamphlet_excerpts": [
@@ -561,12 +596,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 3b (Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Toads and frogs.",
+          "text": "Toads and frogs (d) Snakes and lizards.",
           "resources": [
             {
               "title": "Differences Between Frogs & Toads (video)",
@@ -585,7 +623,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Toads and Frogs)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -597,12 +635,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Toads and frogs"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Toads and frogs"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -632,7 +680,7 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Toads and frogs.",
+          "sub_req_text": "Toads and frogs (d) Snakes and lizards.",
           "topic_title": "Req 3c: Toad and Frog Characteristics",
           "pamphlet_summary": "True toads feature stout bodies adapted for short hops and terrestrial burrowing away from water. Frogs possess slender torsos and extensive webbing between digits for explosive swimming.",
           "pamphlet_excerpts": [
@@ -640,7 +688,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 3c (Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -656,7 +707,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Snakes and Lizards)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -668,12 +719,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Snakes and lizards"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Snakes and lizards"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -711,7 +772,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 3d (Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -762,7 +826,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Main Differences Between A Amphibians)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Moist Permeable Skin of Amphibians",
@@ -785,7 +849,13 @@
           "3. (3c) Toads and Frogs",
           "4. (3d) Snakes and Lizards"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Moist Permeable Skin of Amphibians",
+          "Dry Keratinized Scales of Reptiles"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Toads, frogs, lizards, and salamanders all belong to the same single vertebrate taxonomic class.",
@@ -970,7 +1040,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Reptiles and Amphibians Are An)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -993,7 +1063,13 @@
           "3. List three species of reptiles and three species of amphibians found in your local area that are not protected.",
           "4. Discuss the food habits of all 10 species."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Removing predatory snakes and bullfrogs from an ecosystem produces no measurable effect on rodent or insect numbers.",
@@ -1178,24 +1254,34 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Reptiles Reproduce to How Amphibians)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
-          "Comparison Dimension",
-          "Gelatinous Aquatic Eggs and Metamorphosis",
-          "Amniotic Shelled Eggs and Direct Development"
+          "Req 5 Comparison Criterion",
+          "Reptiles Characteristics & Standards",
+          "Reproduce Characteristics & Standards"
         ],
         "column_headers": [
-          "Comparison Dimension",
-          "Gelatinous Aquatic Eggs and Metamorphosis",
-          "Amniotic Shelled Eggs and Direct Development"
+          "Req 5 Comparison Criterion",
+          "Reptiles Characteristics & Standards",
+          "Reproduce Characteristics & Standards"
         ],
         "row_labels": [
-          "1. Compare how reptiles reproduce to how amphibians reproduce"
+          "1. Amniotic Cleidoic Membranes",
+          "2. Anuran External Amplexus",
+          "3. Aquatic Larval Metamorphosis"
         ],
         "rows": [
-          "1. Compare how reptiles reproduce to how amphibians reproduce"
+          "1. Amniotic Cleidoic Membranes",
+          "2. Anuran External Amplexus",
+          "3. Aquatic Larval Metamorphosis"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Comparison Criterion",
+          "Reptiles Characteristics & Standards",
+          "Reproduce Characteristics & Standards"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All reptiles and amphibians must return directly to open water pools to deposit their eggs.",
@@ -1363,7 +1449,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Observation Describe How Snakes Move)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1386,7 +1472,13 @@
           "3. Resources: How Snakes Move!",
           "4. (They Don't Just Slither!) (video) How Do Snakes Move?"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Snakes walk forward on the ground by pushing downward with the tips of their flexible ribs.",
@@ -1559,7 +1651,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Detail Six Venomous Snakes)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1580,7 +1672,13 @@
           "2. Describe their habits and geographic range.",
           "3. Tell what you should do in case of a bite by a venomous species."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Venomous snakebites should be treated immediately with tourniquets, ice packs, and sharp knife suction incisions.",
@@ -1743,7 +1841,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 8a Quantitative Field Observation & Activity Log (Custody of One or More)",
+            "table_title": "Req 8a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1770,19 +1868,21 @@
               "4. or keep the eggs of a reptile from the time of laying until hatching",
               "5. or keep the eggs of an amphibian from the time of laying until their transformation into tadpoles (frogs) or larvae (salamanders)"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Pet store turtles and lizards do not carry bacteria if their enclosure glass looks clean.",
             "fact": "Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Reptile and Amphibian Study Req 8a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Reptile and Amphibian Study Merit Badge Hub (Req 8a)",
@@ -1814,7 +1914,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png",
           "title": "Req 8a: One-Month Custodial Animal Care",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 8a (Take custody of one or more reptiles or amphibians in a manner approved by your counselor.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -1825,7 +1928,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Reptile or Amphibian That You)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -1850,7 +1953,13 @@
               "4. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting",
               "5. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -1888,7 +1997,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png",
           "workbook_diagram_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8.",
-          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8."
+          "workbook_visual_caption": "Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following reference figure for Requirement 8.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 8b (Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1915,7 +2027,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 8 Quantitative Field Observation & Activity Log (Custody of One or More)",
+        "table_title": "Req 8 Quantitative Field Observation & Activity Log",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1934,18 +2046,19 @@
           "1. (8a) Take custody of one or more reptiles or amphibians in a manner approved by your counselor",
           "2. (8b) Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school)"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A small glass jar with dry gravel and garden lettuce provides adequate long term housing for amphibians.",
         "fact": "Reptiles and amphibians require strict environmental thermal gradients and supplemental calcium to prevent fatal metabolic bone disease."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Reptile and Amphibian Study Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Reptile and Amphibian Study Merit Badge Hub (Req 8)",
@@ -2096,7 +2209,7 @@
         {
           "sub_id": "9a",
           "label": "(a)",
-          "text": "Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings.",
+          "text": "Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings and from where.",
           "resources": [
             {
               "title": "Frog Sounds: Why They Make Them (Examples) (video)",
@@ -2107,7 +2220,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Night Three Kinds of Toads)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2128,7 +2241,13 @@
               "2. Imitate the song of each for your counselor.",
               "3. Stalk each with a flashlight and discover how each sings."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2158,7 +2277,7 @@
           ],
           "id": "9a",
           "sub_req_label": "9a",
-          "sub_req_text": "Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings.",
+          "sub_req_text": "Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings and from where.",
           "topic_title": "Req 9a: Nocturnal Anuran Acoustic Stalking",
           "pamphlet_summary": "Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.",
           "pamphlet_excerpts": [
@@ -2166,7 +2285,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/reptile_and_amphibian_study_req_9_topic_visual.png",
           "workbook_diagram_caption": "Scouts record nocturnal amphibian sightings in field journals beside detailed illustrations of local frog species.",
-          "workbook_visual_caption": "Scouts record nocturnal amphibian sightings in field journals beside detailed illustrations of local frog species."
+          "workbook_visual_caption": "Scouts record nocturnal amphibian sightings in field journals beside detailed illustrations of local frog species.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 9a (Identify at night three kinds of toads or frogs by their voices. Imitate the song of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -2186,7 +2308,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Sight Eight Species of Reptiles)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2198,12 +2320,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify by sight eight species of reptiles or amphibians"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify by sight eight species of reptiles or amphibians"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2241,7 +2373,10 @@
           ],
           "workbook_diagram_url": "assets/images/reptile_and_amphibian_study_req_9_nano_hero.png",
           "workbook_diagram_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.",
-          "workbook_visual_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians."
+          "workbook_visual_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 9b (Identify by sight eight species of reptiles or amphibians), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -2252,7 +2387,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Visual Aids Give A Brief)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2264,12 +2399,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Using visual aids, give a brief talk to a small group on three different reptiles and amphibians"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using visual aids, give a brief talk to a small group on three different reptiles and amphibians"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2307,7 +2452,10 @@
           ],
           "workbook_diagram_url": "assets/images/reptile_and_amphibian_study_req_9_nano_hero.png",
           "workbook_diagram_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.",
-          "workbook_visual_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians."
+          "workbook_visual_caption": "Scouts use flashlights and headlamps during a nighttime field expedition to locate nocturnal forest amphibians.",
+          "socratic_questions": [
+            "For reptile and amphibian study Requirement 9c (Using visual aids, give a brief talk to a small group on three different reptiles and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2342,7 +2490,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Night Three Kinds of Toads)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2363,7 +2511,13 @@
           "2. (9b) Sight Eight Species of Reptiles",
           "3. (9c) Visual Aids Give A Brief"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Frogs and toads vocalize randomly by expelling air outwards past their lips without using vocal sacs.",
@@ -2536,7 +2690,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Superstitions or False Beliefs About)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2555,7 +2709,13 @@
           "1. Tell five superstitions or false beliefs about reptiles and amphibians and give a correct explanation",
           "2. Give seven examples of unusual behavior or other true facts about reptiles and amphibians"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Milk snakes enter dairy barns at night to suck fresh milk directly from cows.",

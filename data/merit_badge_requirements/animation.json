@@ -22,7 +22,7 @@
         {
           "sub_id": "1a",
           "label": "(a)",
-          "text": "In your own words, describe to your counselor what animation.",
+          "text": "In your own words, describe to your counselor what animation is.",
           "resources": [
             {
               "title": "What Is Animation? (video)",
@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Own Words)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In your own words, describe to your counselor what animation"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In your own words, describe to your counselor what animation"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
@@ -80,7 +90,7 @@
           ],
           "id": "1a",
           "sub_req_label": "1a",
-          "sub_req_text": "In your own words, describe to your counselor what animation.",
+          "sub_req_text": "In your own words, describe to your counselor what animation is.",
           "topic_title": "Req 1a: Core Mechanics of Visual Motion",
           "pamphlet_summary": "Animation relies on the brain retaining an image for a fraction of a second after it disappears. This physiological trait allows sequential still pictures to appear as continuous fluid motion.",
           "pamphlet_excerpts": [
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/animation_p003_img1.png",
           "workbook_diagram_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed.",
-          "workbook_visual_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed."
+          "workbook_visual_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed.",
+          "socratic_questions": [
+            "For animation Requirement 1a (In your own words, describe to your counselor what animation is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -108,7 +121,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Animation Origins and Evolution)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -120,12 +133,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor a brief history of animation"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor a brief history of animation"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
@@ -163,7 +186,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/animation_p021_img2.png",
           "workbook_diagram_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed.",
-          "workbook_visual_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed."
+          "workbook_visual_caption": "Magic lanterns projected early painted glass slides before modern motion pictures existed.",
+          "socratic_questions": [
+            "For animation Requirement 1b (Discuss with your counselor a brief history of animation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -198,7 +224,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Animation Origins and Evolution)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -217,7 +243,13 @@
           "1. (1a) Own Words",
           "2. (1b) Animation Origins and Evolution"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe animation is simply moving pictures rather than a sequential series of static images creating an illusion.",
@@ -326,10 +358,10 @@
       "estimated_minutes": 15,
       "homework_verification_note": "Check that the Scout describes each required detail accurately with supporting notes in their workbook for Animation Requirement 1 (animation definition and historical origins) across all 2 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/animation_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Panels depict optical zoetropes, flip book sketches, stop-motion armature puppets, and modern digital animation workstation software.",
+      "workbook_diagram_caption": "Panels depict optical zoetropes, flipbook sketches, stop-motion armature puppets, and modern digital animation workstation software.",
       "number": "1",
       "description": "General Knowledge. Do the following: (a) In your own words, describe to your counselor what animation is. (b) Discuss with your counselor a brief history of animation.",
-      "workbook_visual_caption": "Panels depict optical zoetropes, flip book sketches, stop-motion armature puppets, and modern digital animation workstation software.",
+      "workbook_visual_caption": "Panels depict optical zoetropes, flipbook sketches, stop-motion armature puppets, and modern digital animation workstation software.",
       "pamphlet_summary": "Animation creates the illusion of motion through rapid sequential display of static artwork or physical models. Early optical toys like the phenakistoscope established the persistence of vision before film projectors standardized cinematic frame rates.",
       "socratic_questions": [
         "How does the speed of frame playback influence whether our brains perceive individual drawings or continuous motion?",
@@ -398,7 +430,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Principles of Animation)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -417,7 +449,13 @@
           "1. Principles of Animation",
           "2. Choose five of the following 12 principles of animation, and discuss how each one makes an animation appear more believable: squash and stretch, anticipation"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think squash and stretch means altering an object's overall volume when distorting it.",
@@ -598,7 +636,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3a(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)",
+                "table_title": "Req 3a",
                 "headers": [
                   "Req 3a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -610,12 +648,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program"
+                  "1. Req 3a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program"
+                  "1. Req 3a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -667,7 +715,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3a(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)",
+                "table_title": "Req 3a",
                 "headers": [
                   "Req 3a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -679,12 +727,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Create the animation"
+                  "1. Req 3a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Create the animation"
+                  "1. Req 3a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -736,7 +794,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3a(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)",
+                "table_title": "Req 3a",
                 "headers": [
                   "Req 3a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -755,7 +813,13 @@
                   "1. Share your animations with your counselor.",
                   "2. Explain how you created each one, and discuss any improvements that could be made."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -802,7 +866,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Technique Plan Your Animation Using)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -823,7 +887,13 @@
               "2. (3a(2)) Create the animation",
               "3. (3a(3)) Share your animations with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
           "common_misconception_pair": {
@@ -861,7 +931,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/animation_p012_img1.png",
           "workbook_diagram_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.",
-          "workbook_visual_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso."
+          "workbook_visual_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.",
+          "socratic_questions": [
+            "For animation Requirement 3a (Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -869,15 +942,15 @@
           "text": "Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.",
           "resources": [
             {
-              "title": "How to Make a Flip book (video)",
+              "title": "How to Make a Flipbook (video)",
               "url": "https://youtu.be/Un-BdBSOGKY?si=VYoP1vpGjMei_OY-"
             },
             {
-              "title": "How to Make Flip book Animation Machine at Home (video)",
+              "title": "How to Make Flipbook Animation Machine at Home (video)",
               "url": "https://youtu.be/4WLU50bsNOY?si=CmQ60SH6rck6eDQj"
             },
             {
-              "title": "FlipAnim: How to Make Flip book Animations Online (website)",
+              "title": "FlipAnim: How to Make Flipbook Animations Online (website)",
               "url": "https://flipanim.com/"
             }
           ],
@@ -891,7 +964,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3b(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches and/or)",
+                "table_title": "Req 3b",
                 "headers": [
                   "Req 3b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -903,12 +976,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Plan your animation using thumbnail sketches and/or layout drawings"
+                  "1. Req 3b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Plan your animation using thumbnail sketches and/or layout drawings"
+                  "1. Req 3b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -960,7 +1043,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3b(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)",
+                "table_title": "Req 3b",
                 "headers": [
                   "Req 3b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -972,12 +1055,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Create the animation"
+                  "1. Req 3b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Create the animation"
+                  "1. Req 3b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 3b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 3b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -1029,7 +1122,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 3b(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)",
+                "table_title": "Req 3b",
                 "headers": [
                   "Req 3b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1048,7 +1141,13 @@
                   "1. Share your animations with your counselor.",
                   "2. Explain how you created each one, and discuss any improvements that could be made."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 3b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
               "common_misconception_pair": {
@@ -1095,7 +1194,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Technique Plan Your Animation Using)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1116,7 +1215,13 @@
               "2. (3b(2)) Create the animation",
               "3. (3b(3)) Share your animations with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)",
           "common_misconception_pair": {
@@ -1154,7 +1259,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/animation_p044_img1.png",
           "workbook_diagram_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.",
-          "workbook_visual_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso."
+          "workbook_visual_caption": "Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.",
+          "socratic_questions": [
+            "For animation Requirement 3b (Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1171,15 +1279,15 @@
           "url": "https://youtu.be/gPurQv4rC1E?si=VvVgSOBGPVPSOZTF"
         },
         {
-          "title": "How to Make a Flip book (video)",
+          "title": "How to Make a Flipbook (video)",
           "url": "https://youtu.be/Un-BdBSOGKY?si=VYoP1vpGjMei_OY-"
         },
         {
-          "title": "How to Make Flip book Animation Machine at Home (video)",
+          "title": "How to Make Flipbook Animation Machine at Home (video)",
           "url": "https://youtu.be/4WLU50bsNOY?si=CmQ60SH6rck6eDQj"
         },
         {
-          "title": "FlipAnim: How to Make Flip book Animations Online (website)",
+          "title": "FlipAnim: How to Make Flipbook Animations Online (website)",
           "url": "https://flipanim.com/"
         }
       ],
@@ -1201,7 +1309,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Animation Techniques)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1220,18 +1328,19 @@
           "1. (3a) Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program",
           "2. (3b) Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices believe animators immediately draw straight ahead without planning key poses or storyboards.",
         "fact": "Professional animators rely on detailed thumbnail storyboards and keyframe poses to establish motion timing."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Animation Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Animation Merit Badge Hub (Req 3)",
@@ -1317,13 +1426,13 @@
           "A. Identify key character poses and note the exact frame numbers for timing purposes",
           "B. Automatically convert live actors into clay stop-motion puppets without modeling",
           "C. Eliminate the need for thumbnail sketches, storyboards, or layout drawings",
-          "D. Increase the playback resolution of a paper flip book to 4K video"
+          "D. Increase the playback resolution of a paper flipbook to 4K video"
         ],
         "choices": [
           "A. Identify key character poses and note the exact frame numbers for timing purposes",
           "B. Automatically convert live actors into clay stop-motion puppets without modeling",
           "C. Eliminate the need for thumbnail sketches, storyboards, or layout drawings",
-          "D. Increase the playback resolution of a paper flip book to 4K video"
+          "D. Increase the playback resolution of a paper flipbook to 4K video"
         ],
         "correct_index": 0,
         "correct_letter": "A",
@@ -1404,7 +1513,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Tour An Animation Studio)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1423,7 +1532,13 @@
               "1. Tour an animation studio or a business where animation is used, either in person, via video, or via the internet.",
               "2. Share what you have learned with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
@@ -1461,7 +1576,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/animation_p030_img1.png",
           "workbook_diagram_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history.",
-          "workbook_visual_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history."
+          "workbook_visual_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history.",
+          "socratic_questions": [
+            "For animation Requirement 4a (Tour an animation studio or a business where animation is used, either in person, via), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1481,7 +1599,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1493,12 +1611,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)",
           "common_misconception_pair": {
@@ -1537,7 +1665,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/animation_p030_img1.png",
           "title": "Req 4b: Everyday and Future Animation Uses",
           "workbook_diagram_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history.",
-          "workbook_visual_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history."
+          "workbook_visual_caption": "Walt Disney founded one of the most influential animation and entertainment studios in history.",
+          "socratic_questions": [
+            "For animation Requirement 4b (Discuss with your counselor how animation might be used in the future to make your life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1584,7 +1715,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Animation in Our World)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1603,7 +1734,12 @@
           "1. (4a) Tour an animation studio or a business where animation is used, either in person, via video, or via the internet",
           "2. (4b) Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People frequently assume animation is only utilized for commercial entertainment films and Saturday morning cartoons.",
@@ -1803,7 +1939,13 @@
           "3. Pick one and find out about the education, training, and experience required for this profession.",
           "4. Discuss your findings with your counselor."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Aspiring artists often assume animation studios hire generalists who perform every phase of production.",
@@ -1892,13 +2034,13 @@
         "scenario_prompt": "How does an organization like NASA use professional animators in its space and science programs?",
         "question": "How does an organization like NASA use professional animators in its space and science programs?",
         "options": [
-          "A. To replace spacecraft propulsion engineers with hand-drawn flip book artists",
+          "A. To replace spacecraft propulsion engineers with hand-drawn flipbook artists",
           "B. To design theatrical movie posters for commercial airline terminals",
           "C. To eliminate the need for telescopes and satellite sensors in orbit",
           "D. To visualize scientific data, preview space missions, and explain research findings to the public"
         ],
         "choices": [
-          "A. To replace spacecraft propulsion engineers with hand-drawn flip book artists",
+          "A. To replace spacecraft propulsion engineers with hand-drawn flipbook artists",
           "B. To design theatrical movie posters for commercial airline terminals",
           "C. To eliminate the need for telescopes and satellite sensors in orbit",
           "D. To visualize scientific data, preview space missions, and explain research findings to the public"
@@ -2010,13 +2152,13 @@
         "A. Identify key character poses and note the exact frame numbers for timing purposes",
         "B. Automatically convert live actors into clay stop-motion puppets without modeling",
         "C. Eliminate the need for thumbnail sketches, storyboards, or layout drawings",
-        "D. Increase the playback resolution of a paper flip book to 4K video"
+        "D. Increase the playback resolution of a paper flipbook to 4K video"
       ],
       "choices": [
         "A. Identify key character poses and note the exact frame numbers for timing purposes",
         "B. Automatically convert live actors into clay stop-motion puppets without modeling",
         "C. Eliminate the need for thumbnail sketches, storyboards, or layout drawings",
-        "D. Increase the playback resolution of a paper flip book to 4K video"
+        "D. Increase the playback resolution of a paper flipbook to 4K video"
       ],
       "correct_index": 0,
       "correct_letter": "A",
@@ -2053,13 +2195,13 @@
       "scenario_prompt": "How does an organization like NASA use professional animators in its space and science programs?",
       "question": "How does an organization like NASA use professional animators in its space and science programs?",
       "options": [
-        "A. To replace spacecraft propulsion engineers with hand-drawn flip book artists",
+        "A. To replace spacecraft propulsion engineers with hand-drawn flipbook artists",
         "B. To design theatrical movie posters for commercial airline terminals",
         "C. To eliminate the need for telescopes and satellite sensors in orbit",
         "D. To visualize scientific data, preview space missions, and explain research findings to the public"
       ],
       "choices": [
-        "A. To replace spacecraft propulsion engineers with hand-drawn flip book artists",
+        "A. To replace spacecraft propulsion engineers with hand-drawn flipbook artists",
         "B. To design theatrical movie posters for commercial airline terminals",
         "C. To eliminate the need for telescopes and satellite sensors in orbit",
         "D. To visualize scientific data, preview space missions, and explain research findings to the public"

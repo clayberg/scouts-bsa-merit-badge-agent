@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Outline on What A Family)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -68,7 +68,13 @@
           "2. Tell why families are important to individuals and to society.",
           "3. Discuss how the actions of one member can affect other members."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Families only consist of parents and children living under one traditional roof.",
@@ -241,7 +247,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Several Reasons Why You Are)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -253,12 +259,21 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor"
+          "1. Emotional Support",
+          "2. Shared Labor",
+          "3. Positive Example"
         ],
         "rows": [
-          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor"
+          "1. Emotional Support",
+          "2. Shared Labor",
+          "3. Positive Example"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Children only contribute to a family when they earn income or drive cars.",
@@ -452,7 +467,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 3 Quantitative Field Observation & Activity Log (Regular Home Duties or Chores)",
+        "table_title": "Req 3 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -475,7 +490,13 @@
           "2. Keep a record of how often you do each of them.",
           "3. Discuss with your counselor the effect your chores had on your family."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Completing chores for one week is enough if you write down projections later.",
@@ -652,7 +673,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Decide on and Carry Out)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -671,18 +692,19 @@
           "1. With the approval of your parent or guardian and your counselor, decide on and carry out an individual project that you would do around the home that would benefit your family",
           "2. After completion, discuss the objective or goal and the results of the project with your family and then your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A routine weekly chore like taking out the trash qualifies as an individual project.",
         "fact": "An individual project must be a unique, planned endeavor outside regular daily chores that creates lasting value."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Family Life Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Family Life Merit Badge Hub (Req 4)",
@@ -834,7 +856,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Objective or Goal of the)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -846,12 +868,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The objective or goal of the project"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The objective or goal of the project"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
@@ -890,18 +922,21 @@
           "workbook_diagram_url": "assets/pamphlet_images/family_life_p020_img1.png",
           "title": "Req 5a: Project Objective and Goal",
           "workbook_diagram_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
-          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores."
+          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
+          "socratic_questions": [
+            "For family life Requirement 5a (The objective or goal of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
-          "text": "How individual members of your family participated.",
+          "text": "How individual members of your family participated (c) The results of the project.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Individual Members of Your Family)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -913,12 +948,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How individual members of your family participated"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How individual members of your family participated"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
@@ -948,7 +993,7 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "How individual members of your family participated.",
+          "sub_req_text": "How individual members of your family participated (c) The results of the project.",
           "topic_title": "Req 5b: Member Participation and Roles",
           "pamphlet_summary": "Documenting how each person contributed highlights the importance of equitable work sharing and age-appropriate assignment. Effective leadership acknowledges varied capabilities and ensures nobody feels excluded or overwhelmed.",
           "pamphlet_excerpts": [
@@ -956,7 +1001,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/family_life_p020_img1.png",
           "workbook_diagram_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
-          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores."
+          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
+          "socratic_questions": [
+            "For family life Requirement 5b (How individual members of your family participated (c) The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -967,7 +1015,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Results of the Project)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -979,12 +1027,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The results of the project"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The results of the project"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)",
           "common_misconception_pair": {
@@ -1022,7 +1080,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/family_life_p020_img1.png",
           "workbook_diagram_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
-          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores."
+          "workbook_visual_caption": "A young Scout vacuums the floor inside his home to complete assigned household chores.",
+          "socratic_questions": [
+            "For family life Requirement 5c (The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1049,7 +1110,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Out A Project That Involves)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1070,7 +1131,12 @@
           "2. (5b) How individual members of your family participated",
           "3. (5c) The results of the project"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The Scout can do the entire project alone and credit the family later.",
@@ -1237,7 +1303,7 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Discuss Family Meeting)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1249,12 +1315,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor how to plan and carry out a family meeting"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor how to plan and carry out a family meeting"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -1292,7 +1368,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
           "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-          "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+          "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+          "socratic_questions": [
+            "For family life Requirement 6a (Discuss with your counselor how to plan and carry out a family meeting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1314,7 +1393,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(1) Structured Technical Study & Explanation Matrix (Living the Principles)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1326,12 +1405,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How living the principles of the Scout Oath and Scout Law contributes to your family life"
+                  "1. Req 6b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. How living the principles of the Scout Oath and Scout Law contributes to your family life"
+                  "1. Req 6b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1412,7 +1501,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(2) Structured Technical Study & Explanation Matrix (Greatest Dangers and Addictions Facing)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1424,12 +1513,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. The greatest dangers and addictions facing youth in today's society"
+                  "1. Req 6b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. The greatest dangers and addictions facing youth in today's society"
+                  "1. Req 6b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1481,7 +1580,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(3) Structured Technical Study & Explanation Matrix (Discuss Bodily Changes Affect)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1493,24 +1592,29 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature"
+                  "1. Req 6b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature"
+                  "1. Req 6b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
                 "misconception": "Bodily changes during puberty affect only physical appearance and height rather than influencing emotional reactions, risk assessment, and behavioral choices.",
                 "fact": "Surging hormones and ongoing adolescent brain development directly alter emotional responses and impulse control, requiring youth to pause and evaluate the long-term consequences of their actions before making impulsive choices."
               },
-              "starting_requirement_gate": {
-                "gate_type": "PARENT_CONSENT_GATE",
-                "gate_label": "Parent/Guardian Consent & Review",
-                "gate_description": "Review and complete Family Life Req 6b(3) with your parent or guardian's approval in compliance with BSA Youth Protection.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Family Life Merit Badge Hub (Req 6b(3))",
@@ -1564,7 +1668,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(4) Structured Technical Study & Explanation Matrix (Personal and Family Finances)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1576,12 +1680,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Personal and family finances"
+                  "1. Req 6b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Personal and family finances"
+                  "1. Req 6b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1638,7 +1752,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(5) Structured Technical Study & Explanation Matrix (Crisis Situation Within Your Family)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1650,12 +1764,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A crisis situation within your family and whom you can turn to for support during these situations"
+                  "1. Req 6b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A crisis situation within your family and whom you can turn to for support during these situations"
+                  "1. Req 6b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1701,7 +1825,7 @@
             {
               "sub_id": "6b(6)",
               "label": "(6)",
-              "text": "The effect of technology on your family.",
+              "text": "The effect of technology on your family (7) Good etiquette and manners.",
               "resources": [
                 {
                   "title": "Evolving Technology: Will Family Life Ever Be the Same Again? (video)",
@@ -1712,7 +1836,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(6) Structured Technical Study & Explanation Matrix (Technology on Your Family)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1724,12 +1848,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. The effect of technology on your family"
+                  "1. Req 6b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. The effect of technology on your family"
+                  "1. Req 6b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1759,7 +1893,7 @@
               ],
               "id": "6b(6)",
               "sub_req_label": "6b(6)",
-              "sub_req_text": "The effect of technology on your family.",
+              "sub_req_text": "The effect of technology on your family (7) Good etiquette and manners.",
               "topic_title": "Req 6b(6): Technology Impact on Family Communication",
               "pamphlet_summary": "Technology Impact On Family Communication: The handbook highlights how digital devices, streaming entertainment, and social media can facilitate connection while also causing interpersonal alienation, poor sleep, and dinner-table distractions. Families are encouraged to establish collaborative device-free zones, screen-time curfews, and clear digital safety rules that build face-to-face interaction (p. 54).",
               "pamphlet_excerpts": [
@@ -1786,7 +1920,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(7) Structured Technical Study & Explanation Matrix (Etiquette and Manners)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1798,12 +1932,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Good etiquette and manners"
+                  "1. Req 6b(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Good etiquette and manners"
+                  "1. Req 6b(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
@@ -1850,7 +1994,7 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Meeting Agenda That Includes)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1879,19 +2023,20 @@
               "6. (6b(6)) Technology on Your Family",
               "7. (6b(7)) Etiquette and Manners"
             ],
-            "min_rows": 7
+            "min_rows": 7,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
             "misconception": "Agendas should be kept secret until the meeting begins to elicit spontaneous answers.",
             "fact": "Sharing agendas in advance allows relatives to reflect thoughtfully and gather relevant information before discussions begin."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Family Life Req 6b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Family Life Merit Badge Hub (Req 6b)",
@@ -1922,7 +2067,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
           "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-          "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+          "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+          "socratic_questions": [
+            "For family life Requirement 6b (Prepare a meeting agenda that includes the following topics, review it with your parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2005,7 +2153,7 @@
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Note Some of the Issues)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2024,18 +2172,19 @@
           "1. (6a) Discuss Family Meeting",
           "2. (6b) Meeting Agenda That Includes"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A family meeting is merely a lecture where parents discipline children for wrongdoing.",
         "fact": "Family meetings are collaborative conferences where all relatives participate equally in problem solving and planning."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Family Life Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Family Life Merit Badge Hub (Req 6)",
@@ -2210,7 +2359,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2222,23 +2371,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family"
+          "1. Moral Leadership",
+          "2. Protective Oversight",
+          "3. Resource Provision"
         ],
         "rows": [
-          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family"
+          "1. Moral Leadership",
+          "2. Protective Oversight",
+          "3. Resource Provision"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Being an effective parent simply means giving children everything they want without rules.",
         "fact": "Effective guardians balance warm emotional nurture with firm boundaries, accountability, and essential life skill training."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Family Life Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Family Life Merit Badge Hub (Req 7)",

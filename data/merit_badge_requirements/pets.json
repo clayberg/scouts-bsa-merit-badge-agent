@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Evidence That You Have Cared)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Get approval before you start.",
           "3. Note: Work done for other merit badges cannot be used for this requirement."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts can retroactively record pet care duties completed months prior to meeting their counselor.",
@@ -237,7 +243,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Words or More About the)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -260,7 +266,13 @@
           "3. Tell why you have this kind of pet.",
           "4. Give local laws, if any, relating to the pet you keep."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Commercial table scraps provide balanced nutrition and eliminate the need for commercial pet diets.",
@@ -428,7 +440,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (You Have Read A Book)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -447,18 +459,19 @@
           "1. Show that you have read a book or pamphlet, approved by your counselor, about your kind of pet.",
           "2. Discuss with your counselor what you have learned from what you read."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Casual internet forums and video blogs offer the same scientific accuracy as peer-reviewed literature.",
         "fact": "Counselor-approved published books offer vetted veterinary knowledge verified by professional animal care specialists."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Pets Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Pets Merit Badge Hub (Req 3)",
@@ -615,7 +628,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Pet in A Pet)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -627,12 +640,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show your pet in a pet show"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show your pet in a pet show"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
@@ -670,7 +693,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pets_p021_img2.png",
           "workbook_diagram_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.",
-          "workbook_visual_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat."
+          "workbook_visual_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.",
+          "socratic_questions": [
+            "For pets Requirement 4a (Show your pet in a pet show), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -690,7 +716,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Train A Pet)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -702,12 +728,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Train a pet in three or more tricks or special abilities"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Train a pet in three or more tricks or special abilities"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
@@ -745,7 +781,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pets_p021_img2.png",
           "workbook_diagram_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.",
-          "workbook_visual_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat."
+          "workbook_visual_caption": "A boy pours clean litter into a tray to maintain clean sanitation for a pet cat.",
+          "socratic_questions": [
+            "For pets Requirement 4b (Train a pet in three or more tricks or special abilities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -780,7 +819,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Pet in A Pet)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -799,7 +838,13 @@
           "1. (4a) Pet in A Pet",
           "2. (4b) Train A Pet"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Effective animal training requires physical punishment and aggressive dominance to enforce obedience.",
@@ -985,19 +1030,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
             "misconception": "Entering animal care professions requires only affection for animals without rigorous science coursework.",
             "fact": "Animal careers require substantial mastery of chemistry, mammalian anatomy, pharmacology, and behavioral biology."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Pets Req 5a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Pets Merit Badge Hub (Req 5a)",
@@ -1028,7 +1074,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pets_p020_img1.png",
           "workbook_diagram_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.",
-          "workbook_visual_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines."
+          "workbook_visual_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.",
+          "socratic_questions": [
+            "For pets Requirement 5a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1039,7 +1088,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1053,16 +1102,22 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle",
               "2. Research any training needed, expenses, and organizations that promote or support it",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued",
+              "3. Discuss with your counselor what short-term and long-term goals",
               "4. Resource: Animal Hobbies (video)"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle",
               "2. Research any training needed, expenses, and organizations that promote or support it",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued",
+              "3. Discuss with your counselor what short-term and long-term goals",
               "4. Resource: Animal Hobbies (video)"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)",
           "common_misconception_pair": {
@@ -1101,7 +1156,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/pets_p020_img1.png",
           "title": "Req 5b: Lifelong Pet Hobbies and Lifestyles",
           "workbook_diagram_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.",
-          "workbook_visual_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines."
+          "workbook_visual_caption": "A young tabby kitten feeds on dry kibble from a bowl during daily feeding routines.",
+          "socratic_questions": [
+            "For pets Requirement 5b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1151,7 +1209,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Veterinary medicine is the only viable professional vocation within the domestic pet industry.",

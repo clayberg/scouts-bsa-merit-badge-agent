@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Citizenship in the World Means)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -59,12 +59,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen"
+          "1. Universal Human Rights",
+          "2. Global Interdependence",
+          "3. Civic Engagement"
         ],
         "rows": [
-          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen"
+          "1. Universal Human Rights",
+          "2. Global Interdependence",
+          "3. Civic Engagement"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "World citizenship requires allegiance to a single world government that replaces individual nation states.",
@@ -249,7 +259,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Becomes A Citizen in the)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Citizenship Acquired by Birthright",
@@ -268,7 +278,13 @@
           "1. Explain how one becomes a citizen in the United States, and explain the rights, duties, and obligations of U.S. citizenship",
           "2. Discuss the similarities and differences between the rights, duties, and obligations of U.S. citizens and the citizens of two other countries"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Citizenship Acquired by Birthright",
+          "Citizenship Gained Through Legal Naturalization"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every country in the world grants automatic birthright citizenship to infants born within its physical borders.",
@@ -431,7 +447,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Current World Event in Relation)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -450,7 +466,13 @@
               "1. Pick a current world event",
               "2. In relation to this current event, discuss with your counselor how a country's national interest and its relationship with other countries might affect areas"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)",
           "common_misconception_pair": {
@@ -488,7 +510,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p012_img1.png",
           "workbook_diagram_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort.",
-          "workbook_visual_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort."
+          "workbook_visual_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 3a (Pick a current world event. In relation to this current event, discuss with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -516,7 +541,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Foreign Country and Discuss)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -528,12 +553,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Select a foreign country and discuss with your counselor how its geography, natural resources, and climate influence its economy and its global partnerships with other countries"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Select a foreign country and discuss with your counselor how its geography, natural resources, and climate influence its economy and its global partnerships with other countries"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)",
           "common_misconception_pair": {
@@ -571,7 +606,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p033_img1.png",
           "workbook_diagram_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort.",
-          "workbook_visual_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort."
+          "workbook_visual_caption": "Refugees carry sacks of relief provisions during an international humanitarian aid effort.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 3b (Select a foreign country and discuss with your counselor how its geography, natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -605,7 +643,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: National Interest and Global Dynamics",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -614,7 +652,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Current World Event in Relation)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -633,7 +671,13 @@
           "1. (3a) Pick a current world event",
           "2. (3b) Select a foreign country and discuss with your counselor how its geography, natural resources, and climate influence its economy and its global partnerships with other countries"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "National interest refers exclusively to military conquest and the expansion of armed territorial bases.",
@@ -804,7 +848,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (International Law)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -823,7 +867,13 @@
               "1. Explain international law and how it differs from national law.",
               "2. Explain the role of international law and how international law can be used as a tool for conflict resolution."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
           "common_misconception_pair": {
@@ -861,7 +911,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
           "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 4a (Explain international law and how it differs from national law. Explain the role of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -893,7 +946,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Resources Such As Major Daily)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -914,19 +967,20 @@
               "2. Explain what you have learned",
               "3. Include in your discussion an explanation of why countries must cooperate in order for world trade and global competition to thrive"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
           "common_misconception_pair": {
             "misconception": "Import tariffs are paid directly by exporting foreign governments rather than domestic importing companies.",
             "fact": "Domestic buyers pay import tariffs directly to national customs agencies when foreign goods cross borders."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Citizenship in the World Req 4b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Citizenship in the World Merit Badge Hub (Req 4b)",
@@ -957,7 +1011,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
           "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 4b (Using resources such as major daily newspapers, the internet (with your parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -983,7 +1040,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(1) Structured Technical Study & Explanation Matrix (United Nations and United Nations)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -995,12 +1052,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. United Nations and United Nations Children's Fund (UNICEF)"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. United Nations and United Nations Children's Fund (UNICEF)"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1061,7 +1128,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(2) Structured Technical Study & Explanation Matrix (International Court of Justice the)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1073,12 +1140,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. International Court of Justice (The World Court)"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. International Court of Justice (The World Court)"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1125,7 +1202,7 @@
             {
               "sub_id": "4c(3)",
               "label": "(3)",
-              "text": "International Criminal Police Organization (Interpol)",
+              "text": "International Criminal Police Organization (Interpol) (4) World Organization of the Scout Movement (5) World Health Organization (WHO) (6) Amnesty International.",
               "resources": [
                 {
                   "title": "What Is the INTERPOL? (video)",
@@ -1140,7 +1217,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(3) Structured Technical Study & Explanation Matrix (International Criminal Police Organization Interpol)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1152,12 +1229,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. International Criminal Police Organization (Interpol)"
+                  "1. Req 4c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. International Criminal Police Organization (Interpol)"
+                  "1. Req 4c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1187,7 +1274,7 @@
               ],
               "id": "4c(3)",
               "sub_req_label": "4c(3)",
-              "sub_req_text": "International Criminal Police Organization (Interpol)",
+              "sub_req_text": "International Criminal Police Organization (Interpol) (4) World Organization of the Scout Movement (5) World Health Organization (WHO) (6) Amnesty International.",
               "topic_title": "Req 4c(3): Interpol Global Police Communications",
               "pamphlet_summary": "Interpol Global Police Communications: Interpol facilitates cross-border police cooperation by managing secure communications networks, databases, and Red Notices to help law enforcement agencies track transnational criminals. The handbook explains that Interpol assists national authorities in combating organized crime, terrorism, and human trafficking without exercising direct policing power (p. 51).",
               "pamphlet_excerpts": [
@@ -1203,7 +1290,7 @@
             {
               "sub_id": "4c(4)",
               "label": "(4)",
-              "text": "World Organization of the Scout Movement.",
+              "text": "World Organization of the Scout Movement (5) World Health Organization (WHO) (6) Amnesty International.",
               "resources": [
                 {
                   "title": "World Organization Scout Movement (WOSM) (video)",
@@ -1218,7 +1305,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(4) Structured Technical Study & Explanation Matrix (World Organization of the Scout)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1230,12 +1317,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. World Organization of the Scout Movement"
+                  "1. Req 4c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. World Organization of the Scout Movement"
+                  "1. Req 4c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1265,7 +1362,7 @@
               ],
               "id": "4c(4)",
               "sub_req_label": "4c(4)",
-              "sub_req_text": "World Organization of the Scout Movement.",
+              "sub_req_text": "World Organization of the Scout Movement (5) World Health Organization (WHO) (6) Amnesty International.",
               "topic_title": "Req 4c(4): World Organization of Scout Movement",
               "pamphlet_summary": "World Organization of Scout Movement: The World Organization of the Scout Movement unites millions of youth and adult volunteers across more than one hundred sixty national Scout organizations through shared values found in the Scout Promise and Law. Scouts explore how the organization builds international friendship and community service through global gatherings such as the World Scout Jamboree (p. 52).",
               "pamphlet_excerpts": [
@@ -1281,7 +1378,7 @@
             {
               "sub_id": "4c(5)",
               "label": "(5)",
-              "text": "World Health Organization (WHO)",
+              "text": "World Health Organization (WHO) (6) Amnesty International.",
               "resources": [
                 {
                   "title": "The WHO Explained (video)",
@@ -1296,7 +1393,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(5) Structured Technical Study & Explanation Matrix (World Health Organization)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1308,12 +1405,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. World Health Organization"
+                  "1. Req 4c(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. World Health Organization"
+                  "1. Req 4c(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1343,7 +1450,7 @@
               ],
               "id": "4c(5)",
               "sub_req_label": "4c(5)",
-              "sub_req_text": "World Health Organization (WHO)",
+              "sub_req_text": "World Health Organization (WHO) (6) Amnesty International.",
               "topic_title": "Req 4c(5): World Health Organization Public Health",
               "pamphlet_summary": "World Health Organization Public Health: The World Health Organization directs international public health efforts by establishing global safety guidelines, monitoring disease outbreaks, and coordinating vaccination initiatives. Handbook guidelines detail the agency's leadership in eradicating smallpox and responding to cross-border health emergencies (p. 53).",
               "pamphlet_excerpts": [
@@ -1374,7 +1481,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(6) Structured Technical Study & Explanation Matrix (Amnesty International)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1386,12 +1493,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Amnesty International"
+                  "1. Req 4c(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Amnesty International"
+                  "1. Req 4c(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1452,7 +1569,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(7) Structured Technical Study & Explanation Matrix (International Federation of Red Cross)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1464,12 +1581,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. International Federation of Red Cross and Red Crescent Societies (IFRC)"
+                  "1. Req 4c(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. International Federation of Red Cross and Red Crescent Societies (IFRC)"
+                  "1. Req 4c(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1515,7 +1642,7 @@
             {
               "sub_id": "4c(8)",
               "label": "(8)",
-              "text": "Cooperative for American Relief Everywhere (CARE)",
+              "text": "Cooperative for American Relief Everywhere (CARE) (9) European Union.",
               "resources": [
                 {
                   "title": "CARE International (video)",
@@ -1530,7 +1657,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(8) Structured Technical Study & Explanation Matrix (Cooperative for American Relief Everywhere)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(8) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1542,12 +1669,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Cooperative for American Relief Everywhere (CARE)"
+                  "1. Req 4c(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(8) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Cooperative for American Relief Everywhere (CARE)"
+                  "1. Req 4c(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(8) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(8) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1577,7 +1714,7 @@
               ],
               "id": "4c(8)",
               "sub_req_label": "4c(8)",
-              "sub_req_text": "Cooperative for American Relief Everywhere (CARE)",
+              "sub_req_text": "Cooperative for American Relief Everywhere (CARE) (9) European Union.",
               "topic_title": "Req 4c(8): CARE Global Poverty Alleviation Programs",
               "pamphlet_summary": "CARE Global Poverty Alleviation Programs: CARE works as an international humanitarian agency dedicated to fighting global poverty and delivering emergency aid to vulnerable populations. The pamphlet traces its evolution from sending postwar relief food packages to supporting long-term community development, clean water access, and economic opportunities for women and girls (p. 56).",
               "pamphlet_excerpts": [
@@ -1608,7 +1745,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(9) Structured Technical Study & Explanation Matrix (European Union)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(9) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1620,12 +1757,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. European Union"
+                  "1. Req 4c(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(9) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. European Union"
+                  "1. Req 4c(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(9) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(9) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
@@ -1672,7 +1819,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Organizations and Describe Their Role)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1705,7 +1852,13 @@
               "8. (4c(8)) Cooperative for American Relief Everywhere (CARE)",
               "9. (4c(9)) European Union"
             ],
-            "min_rows": 9
+            "min_rows": 9,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
           "common_misconception_pair": {
@@ -1743,7 +1896,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
           "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+          "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 4c (Select TWO of the following organizations and describe their role in the world. (1) United), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1870,7 +2026,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (International Law)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1891,7 +2047,12 @@
           "2. (4b) Resources Such As Major Daily",
           "3. (4c) Organizations and Describe Their Role"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A global international police department possesses legal authority to enforce international court rulings inside any nation.",
@@ -2059,7 +2220,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 5a Technical Comparison Matrix (Discuss the Differences Between Constitutional)",
+            "table_title": "Req 5a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Limited Constitutional Government Systems",
@@ -2071,12 +2232,22 @@
               "Unchecked Nonconstitutional Authoritarian Regimes"
             ],
             "row_labels": [
-              "1. Discuss the differences between constitutional and nonconstitutional governments"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the differences between constitutional and nonconstitutional governments"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Limited Constitutional Government Systems",
+              "Unchecked Nonconstitutional Authoritarian Regimes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -2114,7 +2285,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p024_img1.png",
           "workbook_diagram_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
-          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law."
+          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 5a (Discuss the differences between constitutional and nonconstitutional governments), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2130,7 +2304,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Governments Currently in Power)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2142,12 +2316,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name at least five different types of governments currently in power in the world"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name at least five different types of governments currently in power in the world"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -2185,7 +2369,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p024_img1.png",
           "workbook_diagram_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
-          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law."
+          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 5b (Name at least five different types of governments currently in power in the world), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2205,7 +2392,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (World Map Countries)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2217,12 +2404,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show on a world map countries that use each of these five different forms of government"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show on a world map countries that use each of these five different forms of government"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -2260,7 +2457,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p024_img1.png",
           "workbook_diagram_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
-          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law."
+          "workbook_visual_caption": "A legal volume topped with a wooden gavel illustrates the foundation of constitutional law.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 5c (Show on a world map countries that use each of these five different forms of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2299,7 +2499,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Discuss the Differences Between Constitutional)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Limited Constitutional Government Systems",
@@ -2320,7 +2520,13 @@
           "2. (5b) Governments Currently in Power",
           "3. (5c) World Map Countries"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Limited Constitutional Government Systems",
+          "Unchecked Nonconstitutional Authoritarian Regimes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every country that writes and adopts a constitution operates as a genuine constitutional democracy.",
@@ -2487,7 +2693,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Government Is Represented Abroad)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2499,12 +2705,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how a government is represented abroad and how the United States government is accredited to international organizations"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how a government is represented abroad and how the United States government is accredited to international organizations"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2542,7 +2758,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p084_img1.png",
           "workbook_diagram_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
-          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event."
+          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 6a (Explain how a government is represented abroad and how the United States government is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2570,7 +2789,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Roles Foreign Relations Ambassador)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2582,12 +2801,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the roles of the following in the conduct of foreign relations: ambassador, consul, Bureau of Global Public Affairs, United States and Foreign Commercial Service"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the roles of the following in the conduct of foreign relations: ambassador, consul, Bureau of Global Public Affairs, United States and Foreign Commercial Service"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2625,7 +2854,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p084_img1.png",
           "workbook_diagram_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
-          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event."
+          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 6b (Describe the roles of the following in the conduct of foreign relations: ambassador,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2649,7 +2881,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Passport and Visa for International)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2661,12 +2893,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the purpose of a passport and visa for international travel"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the purpose of a passport and visa for international travel"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2704,7 +2946,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p084_img1.png",
           "workbook_diagram_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
-          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event."
+          "workbook_visual_caption": "An official diplomat shakes hands with a visiting cultural leader during a diplomatic event.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 6c (Explain the purpose of a passport and visa for international travel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2754,7 +2999,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 6: Foreign Representation and Diplomacy",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -2763,7 +3008,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Government Is Represented Abroad)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2784,7 +3029,13 @@
           "2. (6b) Roles Foreign Relations Ambassador",
           "3. (6c) Passport and Visa for International"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Holding a valid national passport guarantees automatic, unconditional entry into any foreign destination.",
@@ -2951,7 +3202,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Website of the U S)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2974,7 +3225,13 @@
               "3. State Department",
               "4. Learn more about an issue you find interesting that is discussed on this website"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)",
           "common_misconception_pair": {
@@ -3012,7 +3269,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p009_img1.png",
           "workbook_diagram_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
-          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop."
+          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 7a (Visit the website of the U. S. State Department. Learn more about an issue you find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3036,7 +3296,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Website of An International News)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3055,7 +3315,13 @@
               "1. Visit the website of an international news organization or foreign government, OR examine a foreign newspaper available at your local library, bookstore, or newsstand",
               "2. Find a news story about a human right realized in the United States that is not recognized in another country"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)",
           "common_misconception_pair": {
@@ -3093,7 +3359,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p009_img1.png",
           "workbook_diagram_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
-          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop."
+          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 7b (Visit the website of an international news organization or foreign government, OR examine a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -3113,7 +3382,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Student or Scout from Another)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3125,12 +3394,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit with a student or Scout from another country and discuss the typical values, holidays, ethnic foods, and traditions practiced or enjoyed there"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Visit with a student or Scout from another country and discuss the typical values, holidays, ethnic foods, and traditions practiced or enjoyed there"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)",
           "common_misconception_pair": {
@@ -3168,7 +3447,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p009_img1.png",
           "workbook_diagram_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
-          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop."
+          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 7c (Visit with a student or Scout from another country and discuss the typical values,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -3208,7 +3490,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (World Organization of the Scouting)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3227,7 +3509,13 @@
               "1. Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as the World Scout Jamboree, World Scout Moot, World Scout Congress, Jamboree Over The Air, or Jamboree Over The Internet",
               "2. Attendance at a national or regional Jamboree sponsored by a WOSM-National Scout Organization is also allowed"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)",
           "common_misconception_pair": {
@@ -3265,7 +3553,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p009_img1.png",
           "workbook_diagram_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
-          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop."
+          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 7d (Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
@@ -3285,7 +3576,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (International Event in Your Area)",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3297,12 +3588,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Participate in or attend an international event in your area, such as an ethnic festival, concert, or play"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Participate in or attend an international event in your area, such as an ethnic festival, concert, or play"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)",
           "common_misconception_pair": {
@@ -3340,7 +3641,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p009_img1.png",
           "workbook_diagram_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
-          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop."
+          "workbook_visual_caption": "A student searches international diplomatic news and foreign policy reports on a laptop.",
+          "socratic_questions": [
+            "For citizenship in the world Requirement 7e (Participate in or attend an international event in your area, such as an ethnic festival,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3427,7 +3731,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Permission Have Learned Website)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3441,18 +3745,23 @@
         "row_labels": [
           "1. (7a) Website of The U S",
           "2. (7b) Website of An International News",
-          "3. (7c) Student or Scout From Another",
+          "3. (7c) Student or Scout",
           "4. (7d) World Organization of The Scouting",
           "5. (7e) International Event in Your Area"
         ],
         "rows": [
           "1. (7a) Website of The U S",
           "2. (7b) Website of An International News",
-          "3. (7c) Student or Scout From Another",
+          "3. (7c) Student or Scout",
           "4. (7d) World Organization of The Scouting",
           "5. (7e) International Event in Your Area"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Experiencing foreign cultures requires international air travel to distant overseas destinations.",

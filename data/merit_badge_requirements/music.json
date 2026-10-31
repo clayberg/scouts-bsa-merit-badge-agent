@@ -51,7 +51,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Simple Song or Hymn Chosen)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -70,7 +70,13 @@
           "1. Sing or play a simple song or hymn chosen by your counselor, using good technique, phrasing, tone, rhythm, and dynamics.",
           "2. Read all the signs and terms of the score."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think singing loudly proves strong vocal technique and tone control.",
@@ -247,7 +253,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (General Groups of Musical Instruments)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -266,7 +272,13 @@
           "1. Name the five general groups of musical instruments.",
           "2. Create an illustration that shows how tones are generated and how instruments produce sound."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe instrument volume depends entirely on how hard someone strikes or blows.",
@@ -424,7 +436,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Live Performance)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -449,7 +461,12 @@
               "4. If it was a live performance, describe the setting and the reaction of the audience",
               "5. Discuss your thoughts about the music"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -487,7 +504,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png",
           "workbook_diagram_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
-          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution."
+          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
+          "socratic_questions": [
+            "For music Requirement 3a (Attend a live performance, or listen to three hours of recordings from any two of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -498,7 +518,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Adult Member of Your Family)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -513,17 +533,23 @@
               "1. Interview an adult member of your family about music",
               "2. Find out what the most popular music was when he or she was your age",
               "3. Find out what his or her favorite music is now, and listen to three of your relative's favorite tunes with him",
-              "4. How do those favorites sound to you",
+              "4. How do those favorites sound",
               "5. Had you ever heard any of them"
             ],
             "rows": [
               "1. Interview an adult member of your family about music",
               "2. Find out what the most popular music was when he or she was your age",
               "3. Find out what his or her favorite music is now, and listen to three of your relative's favorite tunes with him",
-              "4. How do those favorites sound to you",
+              "4. How do those favorites sound",
               "5. Had you ever heard any of them"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -561,7 +587,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png",
           "workbook_diagram_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
-          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution."
+          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
+          "socratic_questions": [
+            "For music Requirement 3b (Interview an adult member of your family about music. Find out what the most popular music), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -572,7 +601,7 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Serve for Six Months)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -584,12 +613,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -627,7 +666,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png",
           "workbook_diagram_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
-          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution."
+          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
+          "socratic_questions": [
+            "For music Requirement 3c (Serve for six months as a member of a school band, choir, or other organized musical group,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -638,7 +680,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (People Who Are Important)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -657,7 +699,13 @@
               "1. List five people who are important in the history of American music and explain to your counselor why they continue to be influential.",
               "2. Include at least one composer, one performer, one innovator, and one person born more than 100 years ago."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -695,7 +743,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p012_img1.png",
           "workbook_diagram_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
-          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution."
+          "workbook_visual_caption": "Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.",
+          "socratic_questions": [
+            "For music Requirement 3d (List five people who are important in the history of American music and explain to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -717,7 +768,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Live Performance)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -740,7 +791,12 @@
           "3. (3c) Serve for Six Months",
           "4. (3d) People Who Are Important"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Listeners frequently think distinct musical genres developed in isolation without mutual artistic influence.",
@@ -898,7 +954,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Teach Three Songs)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -917,7 +973,13 @@
               "1. Teach three songs to a group of people.",
               "2. Lead them in singing the songs, using proper hand motions."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -955,7 +1017,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For music Requirement 4a (Teach three songs to a group of people. Lead them in singing the songs, using proper hand), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -966,7 +1031,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Compose and Write the Score)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -978,12 +1043,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -1021,18 +1096,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For music Requirement 4b (Compose and write the score for a piece of music of 12 measures or more, and play this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Make a traditional instrument and learn to play.",
+          "text": "Make a traditional instrument and learn to play it.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist (Traditional Instrument and Learn)",
+            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1044,12 +1122,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a traditional instrument and learn to play"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a traditional instrument and learn to play"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -1079,7 +1167,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Make a traditional instrument and learn to play.",
+          "sub_req_text": "Make a traditional instrument and learn to play it.",
           "topic_title": "Req 4c: Traditional Instrument Crafting and Playing",
           "pamphlet_summary": "Constructing traditional folk instruments like cigar box guitars or pan flutes demonstrates physical acoustic principles firsthand. Learning to play the finished instrument requires mastering tuning, finger placement, and resonance control.",
           "pamphlet_excerpts": [
@@ -1087,7 +1175,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/music_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For music Requirement 4c (Make a traditional instrument and learn to play it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1109,7 +1200,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Teach Three Songs)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1130,7 +1221,13 @@
           "2. (4b) Compose and Write The Score",
           "3. (4c) Traditional Instrument and Learn"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novice leaders assume conducting merely means waving hands along with the rhythm of the words.",
@@ -1303,7 +1400,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Intellectual Property)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1322,7 +1419,13 @@
           "1. Define for your counselor intellectual property (IP).",
           "2. Explain how to properly obtain and share recorded music."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts sometimes think downloading music from unauthorized file-sharing websites is harmless if not resold.",
@@ -1508,19 +1611,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
             "misconception": "Students often think natural musical talent alone replaces formal training and business knowledge.",
             "fact": "Sustained music careers require disciplined practice, business contract literacy, and technical audio proficiency."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Music Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Music Merit Badge Hub (Req 6a)",
@@ -1551,12 +1655,15 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/music_req_6_topic_visual.png",
           "workbook_diagram_caption": "Illustrated panels show careers in sound engineering, music teaching, live performance, and musical composition.",
-          "workbook_visual_caption": "Illustrated panels show careers in sound engineering, music teaching, live performance, and musical composition."
+          "workbook_visual_caption": "Illustrated panels show careers in sound engineering, music teaching, live performance, and musical composition.",
+          "socratic_questions": [
+            "For music Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Music Hobbies (video)",
@@ -1567,7 +1674,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1581,14 +1688,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Music Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -1618,7 +1731,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 6b: Amateur Music Hobby Development",
           "pamphlet_summary": "Pursuing music as a hobby involves investing in quality instruments, home practice equipment, and community group memberships. Organizations like civic choruses and bluegrass associations offer workshops and jamming sessions for recreational players.",
           "pamphlet_excerpts": [
@@ -1627,7 +1740,10 @@
           "workbook_diagram_url": "assets/images/music_req_6_nano_hero.png",
           "title": "Req 6b: Lifelong Amateur Music Hobbies",
           "workbook_diagram_caption": "Scouts interview an audio engineer seated beside studio recording microphones, headphones, and computer equipment.",
-          "workbook_visual_caption": "Scouts interview an audio engineer seated beside studio recording microphones, headphones, and computer equipment."
+          "workbook_visual_caption": "Scouts interview an audio engineer seated beside studio recording microphones, headphones, and computer equipment.",
+          "socratic_questions": [
+            "For music Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1681,7 +1797,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People often believe professional music careers are limited strictly to famous touring recording artists.",

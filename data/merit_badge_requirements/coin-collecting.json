@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Understand How Coins Are Made)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -68,7 +68,13 @@
           "2. Core principles and practical standards for Coin Manufacturing and Active Mint Facilities",
           "3. Mint facilities are located"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe all United States Mint facilities strike circulating coins for general retail commerce.",
@@ -245,7 +251,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Obverse Reverse Reeding Clad)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -257,12 +263,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set"
+          "1. Obverse Face Definition",
+          "2. Reverse Face Features",
+          "3. Reeded Edge Purpose"
         ],
         "rows": [
-          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set"
+          "1. Obverse Face Definition",
+          "2. Reverse Face Features",
+          "3. Reeded Edge Purpose"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novice collectors frequently confuse type sets with complete date sets across long series runs.",
@@ -435,7 +451,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Collection and the Benefits Drawbacks)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -447,12 +463,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method"
+          "1. Cardboard Flip Economy",
+          "2. Hard Plastic Capsule",
+          "3. Cabinet Drawer Display"
         ],
         "rows": [
-          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method"
+          "1. Cardboard Flip Economy",
+          "2. Hard Plastic Capsule",
+          "3. Cabinet Drawer Display"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Soft plastic vinyl sleeves protect coins better than stiff archival cardboard and mylar holders.",
@@ -610,7 +636,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (One-cent Coin from the Year)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -629,7 +655,13 @@
               "1. Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and 2008) and a one-cent coin from the year group 2010-present",
               "2. Explain how and why the one-cent coins issued in 2009 were different from either of the other two year groups"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -667,7 +699,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4a (Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -678,7 +713,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Five-cent Coins)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -697,7 +732,13 @@
               "1. Collect two five-cent coins, one from each of these year groups: 1959-2003 and 2006-present.",
               "2. Explain how and why the five-cent coins issued in 2004-2005 were different from either of the other two year groups."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -735,7 +776,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4b (Collect two five-cent coins, one from each of these year groups: 1959-2003 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -746,7 +790,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Ten-cent Coin from 1965-present)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -758,12 +802,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Collect a ten-cent coin from 1965-present"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Collect a ten-cent coin from 1965-present"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -801,7 +855,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4c (Collect a ten-cent coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -825,7 +882,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Twenty-five-cent Coin from 1965-1998)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -844,7 +901,13 @@
               "1. Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State Quarter®/territories Program 1999-2009, two designs from the America",
               "2. Explain the purpose of each of those programs"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -882,7 +945,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4d (Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -893,7 +959,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Half Dollar Coin from 1965-present)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -905,12 +971,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Collect a half dollar coin from 1965-present"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Collect a half dollar coin from 1965-present"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -948,7 +1024,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4e (Collect a half dollar coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -972,7 +1051,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Dollar Coin)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -997,7 +1076,13 @@
               "4. Core principles and practical standards for Modern Small Dollar Coin Series",
               "5. Core principles and practical standards for Modern Small Dollar Coin Series"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)",
           "common_misconception_pair": {
@@ -1035,7 +1120,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p032_img5.png",
           "workbook_diagram_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
-          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch."
+          "workbook_visual_caption": "The reverse of a Peace dollar features an eagle perched above an olive branch.",
+          "socratic_questions": [
+            "For coin collecting Requirement 4f (Collect a dollar coin from each of the following design groups: Susan B. Anthony), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1077,7 +1165,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: United States Coin Design Features",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1086,7 +1174,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Features Designer Name Designer Initials)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1113,7 +1201,13 @@
           "5. (4e) Half Dollar Coin From 1965-present",
           "6. (4f) Dollar Coin"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Artistic engravings on United States coins always place the designer name prominently in full letters.",
@@ -1286,7 +1380,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1307,7 +1401,13 @@
           "2. Core principles and practical standards for United States Bicentennial Coinage Designs",
           "3. Bicentennial"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The United States Mint struck standard circulating coins with normal single-year dates during calendar year 1975.",
@@ -1484,7 +1584,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (People Depicted on Current Currency)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1503,7 +1603,13 @@
           "1. Identify for your counselor the people depicted on current currency: $1, $2, $5, $10, $20, $50, and $100 notes.",
           "2. Explain where United States currency is printed."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every historical portrait featured on United States paper currency portrays an elected American president.",
@@ -1655,13 +1761,13 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination.",
+          "text": "Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination of each.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (World Coins)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1680,7 +1786,13 @@
               "1. Collect and identify for your counselor 20 different world coins from at least seven different countries.",
               "2. Identify the country, major design elements, and denomination."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -1710,7 +1822,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination.",
+          "sub_req_text": "Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination of each.",
           "topic_title": "Req 7a: World Coin Collection Survey",
           "pamphlet_summary": "Assembling twenty world coins from seven different countries requires identifying international denominations, symbols, and issuing authorities. Collectors consult world coin catalogs to decipher non-Latin scripts, regnal years, and national heraldry.",
           "pamphlet_excerpts": [
@@ -1718,18 +1830,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
           "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+          "socratic_questions": [
+            "For coin collecting Requirement 7a (Collect and identify for your counselor 20 different world coins from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination.",
+          "text": "Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination of each.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (World Paper Money)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1748,7 +1863,13 @@
               "1. Collect and identify for your counselor 20 different world paper money from at least seven different countries.",
               "2. Identify the country, major design elements, and denomination."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -1778,7 +1899,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination.",
+          "sub_req_text": "Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination of each.",
           "topic_title": "Req 7b: International Banknote Classification Studies",
           "pamphlet_summary": "World paper money displays varied national heroes, wildlife, architecture, and innovative anti-counterfeiting security features. Collecting banknotes from multiple nations highlights diverse monetary policies and modern printing substrates like durable polymers.",
           "pamphlet_excerpts": [
@@ -1786,12 +1907,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
           "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+          "socratic_questions": [
+            "For coin collecting Requirement 7b (Collect and identify for your counselor 20 different world paper money from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
           "label": "(c)",
-          "text": "Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use.",
+          "text": "Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use of each.",
           "resources": [
             {
               "title": "Exonumia (Tokens and Medals) (website)",
@@ -1802,7 +1926,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Tokens and/or Medals Identify the)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1821,7 +1945,13 @@
               "1. Collect and identify for your counselor 20 different tokens and/or medals.",
               "2. Identify the issuer and use."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -1851,7 +1981,7 @@
           ],
           "id": "7c",
           "sub_req_label": "7c",
-          "sub_req_text": "Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use.",
+          "sub_req_text": "Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use of each.",
           "topic_title": "Req 7c: Exonumia Token and Medal",
           "pamphlet_summary": "Exonumia encompasses non-governmental issues including transit tokens, civil war store cards, commemorative medallions, and merchant trade scrip. Studying tokens reveals local community commercial history, private enterprise needs, and specialized die-striking methods.",
           "pamphlet_excerpts": [
@@ -1860,7 +1990,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
           "title": "Req 7c: Tokens and Commemorative Medals",
           "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+          "socratic_questions": [
+            "For coin collecting Requirement 7c (Collect and identify for your counselor 20 different tokens and/or medals. Identify the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -1871,7 +2004,7 @@
             {
               "sub_id": "7d(1)",
               "label": "(1)",
-              "text": "Attend a coin show.",
+              "text": "Attend a coin show (2) Attend a coin club meeting (3) Tour a U.",
               "resources": [
                 {
                   "title": "National and Regional Coin Shows for Collectors (website)",
@@ -1882,7 +2015,7 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7d(1) Structured Technical Study & Explanation Matrix (Coin Collecting Coin Principles)",
+                "table_title": "Req 7d",
                 "headers": [
                   "Req 7d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1894,12 +2027,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Attend a coin show"
+                  "1. Req 7d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Attend a coin show"
+                  "1. Req 7d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "columns": [
+                  "Req 7d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
@@ -1929,7 +2071,7 @@
               ],
               "id": "7d(1)",
               "sub_req_label": "7d(1)",
-              "sub_req_text": "Attend a coin show.",
+              "sub_req_text": "Attend a coin show (2) Attend a coin club meeting (3) Tour a U.",
               "topic_title": "Req 7d(1): Coin Show Attendance and Etiquette",
               "pamphlet_summary": "Coin Show Attendance and Etiquette: Visiting a commercial coin bourse allows collectors to observe trading etiquette, inspect dealer inventories, and examine certified coins displayed under specialized lighting. Scouts should always ask permission before handling items and hold raw pieces strictly by their edges (p. 45).",
               "pamphlet_excerpts": [
@@ -1945,7 +2087,7 @@
             {
               "sub_id": "7d(2)",
               "label": "(2)",
-              "text": "Attend a coin club meeting.",
+              "text": "Attend a coin club meeting (3) Tour a U.",
               "resources": [
                 {
                   "title": "Local Coin Club Directory (website)",
@@ -1956,7 +2098,7 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7d(2) Structured Technical Study & Explanation Matrix (Coin Club Meeting)",
+                "table_title": "Req 7d",
                 "headers": [
                   "Req 7d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1968,12 +2110,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Attend a coin club meeting"
+                  "1. Req 7d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Attend a coin club meeting"
+                  "1. Req 7d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "columns": [
+                  "Req 7d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
@@ -2003,7 +2154,7 @@
               ],
               "id": "7d(2)",
               "sub_req_label": "7d(2)",
-              "sub_req_text": "Attend a coin club meeting.",
+              "sub_req_text": "Attend a coin club meeting (3) Tour a U.",
               "topic_title": "Req 7d(2): Local Coin Club Meeting Participation",
               "pamphlet_summary": "Local Coin Club Meeting Participation: Local numismatic clubs offer educational presentations, member auctions, and show-and-tell sessions that introduce collectors to specialized collecting fields. Participating in a meeting gives Scouts direct access to knowledgeable mentors who share preservation advice and grading insights (p. 44).",
               "pamphlet_excerpts": [
@@ -2030,7 +2181,7 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7d(3) Structured Technical Study & Explanation Matrix (Tour A U S Mint)",
+                "table_title": "Req 7d",
                 "headers": [
                   "Req 7d(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2051,7 +2202,12 @@
                   "2. Core principles and practical standards for Core principles and practical standards for Coin Shows and Numismatic Fieldwork",
                   "3. Mint facility or museum"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "columns": [
+                  "Req 7d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
@@ -2116,7 +2272,7 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7d(4) Structured Technical Study & Explanation Matrix (Tour A Virtual Exhibit)",
+                "table_title": "Req 7d",
                 "headers": [
                   "Req 7d(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2128,12 +2284,21 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor"
+                  "1. Req 7d(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor"
+                  "1. Req 7d(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7d(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7d(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "columns": [
+                  "Req 7d(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
@@ -2185,7 +2350,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (You Experienced Attend A Coin)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2208,7 +2373,12 @@
               "3. (7d(3)) Tour A U S Mint",
               "4. (7d(4)) Tour A Virtual Exhibit"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -2251,7 +2421,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
           "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+          "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+          "socratic_questions": [
+            "For coin collecting Requirement 7d (Complete one of the following and report to your counselor what you experienced: (1) Attend), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2302,7 +2475,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (World Coins)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2325,7 +2498,12 @@
           "3. (7c) Collect and identify for your counselor 20 different tokens and/or medals",
           "4. (7d) Coin Shows and Numismatic Fieldwork"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Numismatic collecting focuses exclusively on circulating legal tender coins issued within the United States.",

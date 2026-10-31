@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Exploration Adventure Travel Trekking)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,16 +45,26 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define exploration and explain how it differs from adventure travel, trekking or hiking, tour-group trips, or recreational outdoor adventure trips"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Define exploration and explain how it differs from adventure travel, trekking or hiking, tour-group trips, or recreational outdoor adventure trips"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 13, p. 67)",
           "common_misconception_pair": {
-            "misconception": "Hiking an unmarked wilderness trail counts as exploration because the route feels completely new to you.",
+            "misconception": "Hiking an unmarked wilderness trail counts as exploration because the route feels completely new without completing the full BSA pamphlet procedure.",
             "fact": "True exploration generates documented scientific findings that inform the broader global scientific community."
           },
           "starting_requirement_gate": null,
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p003_img1.png",
           "workbook_diagram_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition.",
-          "workbook_visual_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition."
+          "workbook_visual_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition.",
+          "socratic_questions": [
+            "For exploration Requirement 1a (Define exploration and explain how it differs from adventure travel, trekking or hiking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Approaches to Exploration)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how approaches to exploration may differ if it occurs in the ocean, in space, in a jungle, or in a science lab in a city"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how approaches to exploration may differ if it occurs in the ocean, in space, in a jungle, or in a science lab in a city"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 13, p. 67)",
           "common_misconception_pair": {
@@ -159,7 +182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p013_img1.png",
           "workbook_diagram_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition.",
-          "workbook_visual_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition."
+          "workbook_visual_caption": "Two researchers carefully excavate fossilized specimens at an arid desert field expedition.",
+          "socratic_questions": [
+            "For exploration Requirement 1b (Explain how approaches to exploration may differ if it occurs in the ocean, in space, in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -190,7 +216,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (General Knowledge)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -209,7 +235,13 @@
           "1. (1a) Exploration Adventure Travel Trekking",
           "2. (1b) Approaches to Exploration"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Exploration is simply traveling to an exotic wilderness location to experience personal adventure.",
@@ -394,7 +426,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Exploration Origins and Evolution)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -415,7 +447,13 @@
           "2. Discuss with your counselor the history of exploration",
           "3. Select a field of study with a history of exploration to illustrate the importance of exploration in the development"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Historical exploration was driven solely by individual bravado rather than disciplined technical methodologies.",
@@ -578,7 +616,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Important for Exploration)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -590,12 +628,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Why it is important for exploration to have a scientific basis"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Why it is important for exploration to have a scientific basis"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 18, p. 35)",
           "common_misconception_pair": {
@@ -633,7 +681,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p012_img1.png",
           "workbook_diagram_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
-          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration."
+          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
+          "socratic_questions": [
+            "For exploration Requirement 3a (Why it is important for exploration to have a scientific basis), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -649,7 +700,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Explorers Have Aided in Our)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -661,12 +712,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How explorers have aided in our understanding of our world"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How explorers have aided in our understanding of our world"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 18, p. 35)",
           "common_misconception_pair": {
@@ -705,7 +766,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p018_img1.png",
           "title": "Req 3b: Expanding Global Human Understanding",
           "workbook_diagram_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
-          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration."
+          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
+          "socratic_questions": [
+            "For exploration Requirement 3b (How explorers have aided in our understanding of our world), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -716,7 +780,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (You Think)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -735,7 +799,13 @@
               "1. What you think it takes to be an explorer Resources: Why Is It Important To Explore?",
               "2. (video) Greatest Explorers in History (video)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 18, p. 35)",
           "common_misconception_pair": {
@@ -773,7 +843,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p018_img1.png",
           "workbook_diagram_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
-          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration."
+          "workbook_visual_caption": "A molecular model of the DNA double helix illustrates scientific genetic exploration.",
+          "socratic_questions": [
+            "For exploration Requirement 3c (What you think it takes to be an explorer Resources: Why Is It Important To Explore?), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -804,7 +877,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Exploration Important Discuss Important)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -825,7 +898,13 @@
           "2. (3b) How explorers have aided in our understanding of our world",
           "3. (3c) What you think it takes to be an explorer Resources: Why Is It Important To Explore"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "An explorer must primarily be a fearless physical athlete rather than a patient researcher.",
@@ -1000,7 +1079,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Learn About A Living Explorer)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1021,7 +1100,13 @@
               "2. Create a short report or presentation (verbal, written, or multimedia slide presentation) on this individual's objectives",
               "3. Share what you have learned with your counselor and unit"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 55, p. 70)",
           "common_misconception_pair": {
@@ -1059,7 +1144,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p055_img2.png",
           "workbook_diagram_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
-          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions."
+          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 4a (Learn about a living explorer. Create a short report or presentation (verbal, written, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1079,7 +1167,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Learn About An Actual Scientific)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1102,7 +1190,13 @@
               "3. Share what you have learned with your counselor and unit.",
               "4. Tell how the information gained from this expedition helped scientists answer important questions."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 55, p. 70)",
           "common_misconception_pair": {
@@ -1140,7 +1234,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p055_img2.png",
           "workbook_diagram_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
-          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions."
+          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 4b (Learn about an actual scientific exploration expedition. Gather information about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1164,7 +1261,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Learn About Types of Exploration)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1183,7 +1280,13 @@
               "1. Learn about types of exploration that may take place in a laboratory or scientific research facility",
               "2. Explain to your counselor how laboratory research and exploration are similar to field research and exploration"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 55, p. 70)",
           "common_misconception_pair": {
@@ -1221,7 +1324,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p055_img2.png",
           "workbook_diagram_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
-          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions."
+          "workbook_visual_caption": "A wide-brimmed sun hat provides essential UV protection for researchers on field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 4c (Learn about types of exploration that may take place in a laboratory or scientific research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1280,7 +1386,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Real-Life Exploration)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1301,7 +1407,13 @@
           "2. (4b) Learn About An Actual Scientific",
           "3. (4c) Learn About Types of Exploration"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Exploration ended during the Victorian era and all living explorers are merely recreational adventurers.",
@@ -1476,7 +1588,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Person or Via the Internet)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1495,19 +1607,20 @@
               "1. With your parent or guardian's permission and counselor's approval, visit either in person or via the internet an exploration sponsoring organization",
               "2. Find out what type(s) of exploration the organization supports"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 73, p. 79)",
           "common_misconception_pair": {
             "misconception": "Exploration societies exist solely as private social dining clubs for wealthy global travelers.",
             "fact": "These institutions distribute peer-reviewed research grants, publish academic journals, and set international conservation safety standards."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Exploration Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Exploration Merit Badge Hub (Req 5a)",
@@ -1538,7 +1651,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p049_img1.png",
           "workbook_diagram_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program.",
-          "workbook_visual_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program."
+          "workbook_visual_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program.",
+          "socratic_questions": [
+            "For exploration Requirement 5a (With your parent or guardian's permission and counselor's approval, visit either in person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1549,7 +1665,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Permission Person Internet Science)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1568,7 +1684,13 @@
               "1. With permission and approval, visit either in person or via the internet a science lab, astronomical observatory, medical research facility, or similar site",
               "2. Learn what exploration is done in this facility"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 73, p. 79)",
           "common_misconception_pair": {
@@ -1606,7 +1728,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p049_img1.png",
           "workbook_diagram_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program.",
-          "workbook_visual_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program."
+          "workbook_visual_caption": "Youth explorers swim near an inflatable expedition boat during a marine adventure program.",
+          "socratic_questions": [
+            "For exploration Requirement 5b (With permission and approval, visit either in person or via the internet a science lab,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1645,7 +1770,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Exploration in Lab and Field)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1664,7 +1789,12 @@
           "1. (5a) Person or Via The Internet",
           "2. (5b) Permission Person Internet Science"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Expedition sponsors simply hand cash to explorers without demanding formal project milestones or accountability.",
@@ -1837,7 +1967,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Objectives Establish Goals)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1849,12 +1979,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the objectives (establish goals)"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the objectives (establish goals)"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -1892,7 +2032,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6a (Identify the objectives (establish goals)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1916,7 +2059,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Mission Create An Expedition Agenda)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1937,7 +2080,13 @@
               "2. Create an expedition agenda or schedule.",
               "3. List potential documents or permits needed."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -1975,7 +2124,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6b (Plan the mission. Create an expedition agenda or schedule. List potential documents or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1991,7 +2143,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 6c Quantitative Field Observation & Activity Log (Budget and Plan for Adequate)",
+            "table_title": "Req 6c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2012,7 +2164,14 @@
               "1. Budget and plan for adequate financial resources.",
               "2. Estimate costs for travel, equipment, accommodations, meals, permits or licenses, and other expedition expenses."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2050,7 +2209,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6c (Budget and plan for adequate financial resources. Estimate costs for travel, equipment,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2061,7 +2223,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Equipment and Supplies Required for)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2073,12 +2235,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Determine equipment and supplies required for personal and mission needs for the length of the expedition"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Determine equipment and supplies required for personal and mission needs for the length of the expedition"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2117,7 +2289,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "title": "Req 6d: Personal and Mission Equipment",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6d (Determine equipment and supplies required for personal and mission needs for the length of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2128,7 +2303,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Communication and Transportation)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2147,7 +2322,13 @@
               "1. Determine communication and transportation needs.",
               "2. Plan how to keep in contact with your base or the outside world, and determine how you will communicate with each other on-site."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2185,7 +2366,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6e (Determine communication and transportation needs. Plan how to keep in contact with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
@@ -2201,7 +2385,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6f Structured Technical Study & Explanation Matrix (Exploration Hazards and First Aid)",
+            "table_title": "Req 6f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2220,7 +2404,13 @@
               "1. Establish safety and first-aid procedures (including planning for medical evacuation).",
               "2. Identify the hazards that explorers could encounter on the expedition and establish procedures to prevent or avoid those hazards."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2258,7 +2448,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6f (Establish safety and first-aid procedures (including planning for medical evacuation).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6g",
@@ -2274,7 +2467,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6g Structured Technical Study & Explanation Matrix (Team Selection Identify Who Is)",
+            "table_title": "Req 6g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2293,7 +2486,13 @@
               "1. Determine team selection.",
               "2. Identify who is essential for the expedition to be successful and what skills are required by the expedition leader."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2332,7 +2531,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "title": "Req 6g: Team Selection and Roles",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6g (Determine team selection. Identify who is essential for the expedition to be successful and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6h",
@@ -2348,7 +2550,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6h Structured Technical Study & Explanation Matrix (Establish Detailed Recordkeeping Documentation Procedures)",
+            "table_title": "Req 6h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2367,7 +2569,13 @@
               "1. Establish detailed record keeping (documentation) procedures.",
               "2. Plan the interpretation and sharing of information at the conclusion of the expedition."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 54, p. 57)",
           "common_misconception_pair": {
@@ -2405,7 +2613,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p056_img1.png",
           "workbook_diagram_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
-          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field."
+          "workbook_visual_caption": "An outdoor explorer checks a handheld mobile device to verify route coordinates in the field.",
+          "socratic_questions": [
+            "For exploration Requirement 6h (Establish detailed recordkeeping (documentation) procedures. Plan the interpretation and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2460,7 +2671,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 6 Quantitative Field Observation & Activity Log (Exploration Hazards and First Aid)",
+        "table_title": "Req 6 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2493,7 +2704,14 @@
           "7. (6g) Determine team selection",
           "8. (6h) Establish detailed recordkeeping (documentation) procedures"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Expedition planning can remain flexible and vague since field conditions will inevitably change everything.",
@@ -2651,7 +2869,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Preparations Under the Supervision)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2663,12 +2881,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Make your preparations under the supervision of a trained expedition leader, expedition planner, or other qualified adult experienced in exploration"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make your preparations under the supervision of a trained expedition leader, expedition planner, or other qualified adult experienced in exploration"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 63, p. 72)",
           "common_misconception_pair": {
@@ -2706,7 +2934,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p062_img1.png",
           "workbook_diagram_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
-          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions."
+          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 7a (Make your preparations under the supervision of a trained expedition leader, expedition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2717,7 +2948,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Listed in Requirement to Guide)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2740,7 +2971,13 @@
               "3. Discuss with your counselor why you chose each item and how it will be of value on the expedition.",
               "4. Determine who should go on the expedition."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 63, p. 72)",
           "common_misconception_pair": {
@@ -2778,7 +3015,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p062_img1.png",
           "workbook_diagram_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
-          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions."
+          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 7b (Use the steps listed in requirement 6 to guide your preparations. List the items of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2794,7 +3034,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Pre-expedition Check Covering)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2815,7 +3055,13 @@
               "2. With your counselor, walk through the Scouting America SAFE Checklist for your expedition.",
               "3. Ensure that all foreseeable hazards for your expedition are adequately addressed."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 63, p. 72)",
           "common_misconception_pair": {
@@ -2853,7 +3099,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p062_img1.png",
           "workbook_diagram_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
-          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions."
+          "workbook_visual_caption": "A medical alert tag and health questionnaire record vital allergies before field expeditions.",
+          "socratic_questions": [
+            "For exploration Requirement 7c (Conduct a pre-expedition check, covering the steps in requirement 6, and share the results), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2880,7 +3129,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Expedition Permission Actual Expedition)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2901,7 +3150,12 @@
           "2. (7b) Listed in Requirement to Guide",
           "3. (7c) Pre-expedition Check Covering"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pre-expedition checks are simple formality drills that can be conducted quickly in five minutes.",
@@ -3069,7 +3323,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Supervision Counselor-approved Qualified Person)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3081,24 +3335,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's permission and under the supervision of your counselor or a counselor-approved qualified person, use the planning steps you"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your parent or guardian's permission and under the supervision of your counselor or a counselor-approved qualified person, use the planning steps you"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
             "misconception": "Once in the field, explorers can abandon their predetermined schedule whenever an interesting distraction arises.",
             "fact": "Scientific missions maintain strict operational discipline to ensure all research targets are systematically achieved within safe daylight hours."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Exploration Req 8a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Exploration Merit Badge Hub (Req 8a)",
@@ -3130,7 +3389,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p066_img1.png",
           "title": "Req 8a: Executing Field Expedition Objectives",
           "workbook_diagram_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
-          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook."
+          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
+          "socratic_questions": [
+            "For exploration Requirement 8a (With your parent or guardian's permission and under the supervision of your counselor or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3150,7 +3412,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3171,7 +3433,13 @@
               "2. Explain how you applied the Outdoor Code, Leave No Trace, and Tread Lightly",
               "3. principles during your expedition"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
@@ -3209,7 +3477,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p066_img1.png",
           "workbook_diagram_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
-          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook."
+          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
+          "socratic_questions": [
+            "For exploration Requirement 8b (Discuss with your counselor about the vital role of outdoor ethics in exploration,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3220,7 +3491,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (You Return Compile)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3243,7 +3514,13 @@
               "3. The post-expedition report must be at least one page and no more than three",
               "4. one page can be photos, graphs, or figures"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
@@ -3281,7 +3558,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p066_img1.png",
           "workbook_diagram_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
-          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook."
+          "workbook_visual_caption": "A field researcher sits on a hillside recording environmental observations in a notebook.",
+          "socratic_questions": [
+            "For exploration Requirement 8c (After you return, compile a report on the results of your expedition and how you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3312,7 +3592,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3333,7 +3613,12 @@
           "2. (8b) Leave No Trace and Outdoor Ethics",
           "3. (8c) You Return Compile"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The expedition ends the moment the team packs up their field camp and returns home.",
@@ -3468,7 +3753,7 @@
           "fact": "An expedition is incomplete until the data is organized, specimens are curated, and the formal report is shared."
         },
         {
-          "misconception": "Field researchers should erase or omit anomalous sensor readings that do not fit their expected trend line.",
+          "misconception": "Field researchers should erase or omit anomalous sensor readings that do not fit their expected trendline.",
           "fact": "All raw measurements must be preserved in permanent ink, with anomalies noted alongside environmental or instrument observations."
         },
         {
@@ -3537,19 +3822,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 31, p. 63)",
           "common_misconception_pair": {
             "misconception": "Field exploration careers involve continuous exotic travel without repetitive desk-bound data analysis duties.",
             "fact": "Professional researchers spend substantial time writing grant proposals, analyzing statistical data, and publishing findings in university laboratories."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Exploration Req 9a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Exploration Merit Badge Hub (Req 9a)",
@@ -3580,12 +3866,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p031_img1.png",
           "workbook_diagram_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel.",
-          "workbook_visual_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel."
+          "workbook_visual_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel.",
+          "socratic_questions": [
+            "For exploration Requirement 9a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Ready to Dive Into the Adventure of a Lifetime? Become a PADI Scuba Diver (video)",
@@ -3604,7 +3893,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3618,14 +3907,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Exploration Merit Badge Pamphlet (p. 31, p. 63)",
           "common_misconception_pair": {
@@ -3655,7 +3950,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 9b: Avocational Exploration and Citizen Science",
           "pamphlet_summary": "Scouts can channel exploration skills into lifelong hobbies like amateur caving, scuba reef surveying, or meteorological storm tracking. Engaging with organized societies connects hobbyists with experienced mentors, certified safety courses, and collective field expeditions.",
           "pamphlet_excerpts": [
@@ -3664,7 +3959,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/exploration_p031_img1.png",
           "title": "Req 9b: Pursuing Exploration as a Hobby",
           "workbook_diagram_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel.",
-          "workbook_visual_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel."
+          "workbook_visual_caption": "A marine researcher peers out from the open hatch of a deep-sea submersible vessel.",
+          "socratic_questions": [
+            "For exploration Requirement 9b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3734,7 +4032,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "One can simply apply for a job called 'Professional Explorer' right out of school.",

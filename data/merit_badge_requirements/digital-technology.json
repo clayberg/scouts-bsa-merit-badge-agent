@@ -43,7 +43,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -55,12 +55,21 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+          "1. Cyberbullying Reporting",
+          "2. Location Privacy",
+          "3. Password Security"
         ],
         "rows": [
-          "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+          "1. Cyberbullying Reporting",
+          "2. Location Privacy",
+          "3. Password Security"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Digital safety guidelines only apply when connecting to public networks outside the home.",
@@ -240,7 +249,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Digital Technology Origins and Evolution)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -259,7 +268,13 @@
               "1. Give a brief history of the changes in digital technology over time",
               "2. Discuss with your counselor how digital technology in your lifetime compares with that of your parent's, grandparent's, or other adult's lifetime"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -297,7 +312,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p007_img1.png",
           "workbook_diagram_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device.",
-          "workbook_visual_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device."
+          "workbook_visual_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device.",
+          "socratic_questions": [
+            "For digital technology Requirement 2a (Give a brief history of the changes in digital technology over time. Discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -313,7 +331,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Computers or Devices You Imagine)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -325,12 +343,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what kinds of computers or devices you imagine might be available when you are an adult"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe what kinds of computers or devices you imagine might be available when you are an adult"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -368,7 +396,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p017_img1.png",
           "workbook_diagram_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device.",
-          "workbook_visual_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device."
+          "workbook_visual_caption": "Mathematician William Ought red invented the slide rule, an early analog calculating device.",
+          "socratic_questions": [
+            "For digital technology Requirement 2b (Describe what kinds of computers or devices you imagine might be available when you are an), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -398,7 +429,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Digital Technology Evolution History",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -407,7 +438,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Digital Technology Origins and Evolution)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -426,7 +457,13 @@
           "1. (2a) Digital Technology Origins and Evolution",
           "2. (2b) Computers or Devices You Imagine"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Early mainframes possessed computational architectures fundamentally identical to modern portable smartphones.",
@@ -597,7 +634,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Text Sound and Pictures Are)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -609,12 +646,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor how text, sound, and pictures are digitized for storage"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor how text, sound, and pictures are digitized for storage"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
@@ -653,7 +700,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p012_img1.png",
           "title": "Req 3a: Digitizing Text, Sound, and Pictures",
           "workbook_diagram_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
-          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing."
+          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
+          "socratic_questions": [
+            "For digital technology Requirement 3a (Explain to your counselor how text, sound, and pictures are digitized for storage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -669,7 +719,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Lossy and Lossless Data Compression)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Lossless File Compression Methods",
@@ -681,12 +731,22 @@
               "Lossy Media Compression Formats"
             ],
             "row_labels": [
-              "1. Describe the difference between lossy and lossless data compression, and give an example where each might be used"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the difference between lossy and lossless data compression, and give an example where each might be used"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Lossless File Compression Methods",
+              "Lossy Media Compression Formats"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
@@ -724,7 +784,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p022_img1.png",
           "workbook_diagram_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
-          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing."
+          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
+          "socratic_questions": [
+            "For digital technology Requirement 3b (Describe the difference between lossy and lossless data compression, and give an example), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -740,7 +803,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Digital Devices and How They)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -752,12 +815,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe two digital devices and how they are made more useful by their programming"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe two digital devices and how they are made more useful by their programming"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
@@ -795,7 +868,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p022_img1.png",
           "workbook_diagram_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
-          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing."
+          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
+          "socratic_questions": [
+            "For digital technology Requirement 3c (Describe two digital devices and how they are made more useful by their programming), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -815,24 +891,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3d Technical Comparison Matrix (Discuss the Similarities)",
+            "table_title": "Req 3d Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Lossless File Compression Methods",
-              "Lossy Media Compression Formats"
+              "Platform Attribute",
+              "Desktop & Laptop Computers (General-Purpose Architecture)",
+              "Mobile Devices & Gaming Consoles (Embedded/Specialized Systems)"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Lossless File Compression Methods",
-              "Lossy Media Compression Formats"
+              "Platform Attribute",
+              "Desktop & Laptop Computers (General-Purpose Architecture)",
+              "Mobile Devices & Gaming Consoles (Embedded/Specialized Systems)"
             ],
             "row_labels": [
-              "1. Discuss the similarities and differences between computers, mobile devices, and gaming consoles"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the similarities and differences between computers, mobile devices, and gaming consoles"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Platform Attribute",
+              "Desktop & Laptop Computers (General-Purpose Architecture)",
+              "Mobile Devices & Gaming Consoles (Embedded/Specialized Systems)"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
@@ -870,7 +956,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p022_img1.png",
           "workbook_diagram_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
-          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing."
+          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
+          "socratic_questions": [
+            "For digital technology Requirement 3d (Discuss the similarities and differences between computers, mobile devices, and gaming consoles), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -886,24 +975,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3e Technical Comparison Matrix (Computer Network)",
+            "table_title": "Req 3e Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Lossless File Compression Methods",
-              "Lossy Media Compression Formats"
+              "Req 3e Comparison Criterion",
+              "Computer Characteristics & Standards",
+              "Network Characteristics & Standards"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Lossless File Compression Methods",
-              "Lossy Media Compression Formats"
+              "Req 3e Comparison Criterion",
+              "Computer Characteristics & Standards",
+              "Network Characteristics & Standards"
             ],
             "row_labels": [
-              "1. Explain what a computer network is and the difference between a local area network (LAN) versus a wide area network (WAN)"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a computer network is and the difference between a local area network (LAN) versus a wide area network (WAN)"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Comparison Criterion",
+              "Computer Characteristics & Standards",
+              "Network Characteristics & Standards"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 22, p. 26)",
           "common_misconception_pair": {
@@ -941,7 +1040,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p022_img1.png",
           "workbook_diagram_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
-          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing."
+          "workbook_visual_caption": "An operator works beside large room-sized computer systems that powered early digital computing.",
+          "socratic_questions": [
+            "For digital technology Requirement 3e (Explain what a computer network is and the difference between a local area network (LAN)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -983,7 +1085,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Digital Data Processing Fundamentals",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -992,7 +1094,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Text Sound and Pictures Are)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Lossless File Compression Methods",
@@ -1017,7 +1119,13 @@
           "4. (3d) Discuss the similarities and differences between computers, mobile devices, and gaming consoles",
           "5. (3e) Explain what a computer network is and the difference between a local area network (LAN) versus a wide area network (WAN)"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Lossless File Compression Methods",
+          "Lossy Media Compression Formats"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Digital audio files store continuous sound waves directly onto storage media without sampling.",
@@ -1173,7 +1281,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute.",
+          "text": "Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute it.",
           "resources": [
             {
               "title": "How Computers Work (video)",
@@ -1192,7 +1300,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Software Application or App)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1204,12 +1312,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
@@ -1239,7 +1357,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute.",
+          "sub_req_text": "Explain what a program or software application or \"app\" is and how a computer uses a CPU and memory to execute it.",
           "topic_title": "Req 4a: Software Application Execution Architecture",
           "pamphlet_summary": "Scouts explain how compiled software instructions move from storage into RAM for rapid execution by the CPU. The lesson details register storage, instruction cycles, and processing bottlenecks.",
           "pamphlet_excerpts": [
@@ -1247,12 +1365,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 4a (Explain what a program or software application or \"app\" is and how a computer uses a CPU), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Name four software programs or mobile apps you or your family use, and explain how each one helps.",
+          "text": "Name four software programs or mobile apps you or your family use, and explain how each one helps you.",
           "resources": [
             {
               "title": "Understandng Software Applications (video)",
@@ -1263,7 +1384,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Software Programs or Mobile Apps)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1275,12 +1396,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name four software programs or mobile apps you or your family use, and explain how each one helps"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name four software programs or mobile apps you or your family use, and explain how each one helps"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
@@ -1310,7 +1441,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Name four software programs or mobile apps you or your family use, and explain how each one helps.",
+          "sub_req_text": "Name four software programs or mobile apps you or your family use, and explain how each one helps you.",
           "topic_title": "Req 4b: Everyday Software Utility Analysis",
           "pamphlet_summary": "Scouts examine four common applications, such as web browsers, spreadsheets, navigation maps, and word processors. They explain how underlying computational algorithms deliver specific real-world benefits.",
           "pamphlet_excerpts": [
@@ -1318,7 +1449,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 4b (Name four software programs or mobile apps you or your family use, and explain how each one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1334,7 +1468,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Malware Protect Digital Devices)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1346,12 +1480,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what malware is, and explain how to protect your digital devices and the information stored on them"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe what malware is, and explain how to protect your digital devices and the information stored on them"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
@@ -1389,7 +1533,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 4c (Describe what malware is, and explain how to protect your digital devices and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1400,7 +1547,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Barcode RFID Along Data)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1412,12 +1559,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a barcode, a QR code, and an RFID tag are along with the data they contain and two or more examples where each is used"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a barcode, a QR code, and an RFID tag are along with the data they contain and two or more examples where each is used"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 66)",
           "common_misconception_pair": {
@@ -1455,7 +1612,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 4d (Explain what a barcode, a QR code, and an RFID tag are along with the data they contain and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1489,7 +1649,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Software Architecture and Security",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1498,7 +1658,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Software Application or App)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1521,7 +1681,13 @@
           "3. (4c) Malware Protect Digital Devices",
           "4. (4d) Barcode RFID Along Data"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Computer applications run directly inside secondary storage hard drives without using system RAM.",
@@ -1696,7 +1862,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Data Can Be Transferred)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1708,12 +1874,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe at least two different ways data can be transferred through the internet"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe at least two different ways data can be transferred through the internet"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
@@ -1751,7 +1927,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p059_img1.png",
           "workbook_diagram_caption": "A web browser displays the official my.Scouting portal login page for accessing online services.",
-          "workbook_visual_caption": "A web browser displays the official my.Scouting portal login page for accessing online services."
+          "workbook_visual_caption": "A web browser displays the official my.Scouting portal login page for accessing online services.",
+          "socratic_questions": [
+            "For digital technology Requirement 5a (Describe at least two different ways data can be transferred through the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1762,7 +1941,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Internet Search Engine)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1781,19 +1960,20 @@
               "1. Using an internet search engine (with a parent or guardian's permission), find ideas from at least three different websites about how to conduct a troop court of honor or campfire program",
               "2. Present the ideas to your counselor and explain how you used a search engine to find this information"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Search engines index every existing webpage simultaneously in real time without crawling databases.",
             "fact": "Effective search queries use boolean quotation operators to locate exact strings across web archives."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 5b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 5b)",
@@ -1824,7 +2004,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p059_img1.png",
           "workbook_diagram_caption": "A web browser displays the official my. Scouting portal login page for accessing online services.",
-          "workbook_visual_caption": "A web browser displays the official my. Scouting portal login page for accessing online services."
+          "workbook_visual_caption": "A web browser displays the official my. Scouting portal login page for accessing online services.",
+          "socratic_questions": [
+            "For digital technology Requirement 5b (Using an internet search engine (with a parent or guardian's permission), find ideas from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1840,7 +2023,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Web Browser to Connect)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1859,19 +2042,20 @@
               "1. Use a web browser to connect to an HTTPS (secure) website (with your parent or guardian's permission)",
               "2. Explain to your counselor how to tell whether the site's security certificate can be trusted, and what it means to use this kind of connection"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "The padlock icon guarantees that a website content is honest, accurate, and completely trustworthy.",
             "fact": "Transport Layer Security encrypts plaintext HTTP traffic using asymmetric public and private key pairs."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 5c)",
@@ -1902,7 +2086,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p059_img1.png",
           "workbook_diagram_caption": "A web browser displays the official my. Scouting portal login page for accessing online services.",
-          "workbook_visual_caption": "A web browser displays the official my. Scouting portal login page for accessing online services."
+          "workbook_visual_caption": "A web browser displays the official my. Scouting portal login page for accessing online services.",
+          "socratic_questions": [
+            "For digital technology Requirement 5c (Use a web browser to connect to an HTTPS (secure) website (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1941,7 +2128,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Data Can Be Transferred)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1962,7 +2149,12 @@
           "2. (5b) Internet Search Engine",
           "3. (5c) Web Browser to Connect"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All internet web traffic routes exclusively through orbiting commercial satellites across space.",
@@ -2134,7 +2326,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 6a Quantitative Field Observation & Activity Log (Spreadsheet or Database Program Develop)",
+            "table_title": "Req 6a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2155,7 +2347,14 @@
               "1. Using a spreadsheet or database program, develop a food budget for a patrol weekend campout OR create a troop roster that includes the name, rank, patrol, and telephone number of each Scout",
               "2. Show your counselor that you can sort the roster by each of the following categories: rank, patrol, and alphabetically by name"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -2193,7 +2392,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p050_img1.png",
           "workbook_diagram_caption": "Computer graphics software renders a 3D wireframe mesh model of a sports car chassis and body.",
-          "workbook_visual_caption": "Computer graphics software renders a 3D wireframe mesh model of a sports car chassis and body."
+          "workbook_visual_caption": "Computer graphics software renders a 3D wireframe mesh model of a sports car chassis and body.",
+          "socratic_questions": [
+            "For digital technology Requirement 6a (Using a spreadsheet or database program, develop a food budget for a patrol weekend campout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2204,7 +2406,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Word Processor Write A Draft)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2223,7 +2425,13 @@
               "1. Using a word processor, write a draft letter inviting the parents or guardians of your troop's Scouts to a troop event.",
               "2. Resource: Word Processing Tutorial (video)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -2261,7 +2469,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6b (Using a word processor, write a draft letter inviting the parents or guardians of your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2277,7 +2488,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Graphics Campsite Flyer Upcoming)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2289,12 +2500,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Using a graphics program, design and draw a campsite plan for your troop OR create a flyer for an upcoming troop event, incorporating text and some type of visual such as a photograph or an illustration"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using a graphics program, design and draw a campsite plan for your troop OR create a flyer for an upcoming troop event, incorporating text and some type of visual such as a photograph or an illustration"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -2332,7 +2553,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6c (Using a graphics program, design and draw a campsite plan for your troop OR create a flyer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2348,7 +2572,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Presentation Software Program Develop)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2367,19 +2591,20 @@
               "1. Using a presentation software program, develop a report about a topic approved by your counselor",
               "2. For your presentation, create at least five slides, with each one incorporating text and some type of visual such as a photograph or an illustration"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Professional presentations should contain complete paragraph transcripts on every visual slide displayed.",
             "fact": "Effective presentation slides limit text density to keep audience focus centered on speaker remarks."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Digital Technology Req 6d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 6d)",
@@ -2410,7 +2635,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6d (Using a presentation software program, develop a report about a topic approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2426,7 +2654,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Digital Device Take A Picture)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2445,7 +2673,13 @@
               "1. Using a digital device, take a picture of a troop activity.",
               "2. Send or transfer this image to a device where it can be shared with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -2483,7 +2717,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6e (Using a digital device, take a picture of a troop activity. Send or transfer this image to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
@@ -2499,7 +2736,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist (Digital Recording of Your Voice)",
+            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2511,12 +2748,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a digital recording of your voice, transfer the file to a different device, and have your counselor play back the recording"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a digital recording of your voice, transfer the file to a different device, and have your counselor play back the recording"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -2554,7 +2801,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6f (Make a digital recording of your voice, transfer the file to a different device, and have), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6g",
@@ -2570,7 +2820,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6g Structured Technical Study & Explanation Matrix (Blog Online Journal Scouting)",
+            "table_title": "Req 6g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2595,19 +2845,20 @@
               "4. You need not post the blog to the internet",
               "5. however, if you choose to go live with your blog, you must first share it with your parent or guardian AND counselor AND get their approval"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Online blogs publish entries instantly without requiring underlying web servers or databases.",
             "fact": "Static blog generators compile markdown articles into static HTML pages for reliable server hosting."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 6g with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 6g)",
@@ -2638,7 +2889,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6g (Create a blog and use it as an online journal of your Scouting activities, including group), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6h",
@@ -2654,7 +2908,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6h Structured Technical Study & Explanation Matrix (Webpage for Your Troop Patrol)",
+            "table_title": "Req 6h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2679,19 +2933,20 @@
               "4. You need not post the page to the internet",
               "5. however, if you decide to do so, you must first share the webpage with your parent or guardian AND counselor AND get their approval"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Creating a functional webpage requires expensive commercial software rather than standard text markup.",
             "fact": "Hypertext Markup Language provides semantic structure, while Cascading Style Sheets define visual presentation styles."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 6h with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 6h)",
@@ -2722,7 +2977,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p049_img1.png",
           "workbook_diagram_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
-          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer."
+          "workbook_visual_caption": "A user enters data and operates productivity software applications on a portable laptop computer.",
+          "socratic_questions": [
+            "For digital technology Requirement 6h (Create a webpage for your troop, patrol, school, or place of worship. Include at least), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2773,7 +3031,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Project You Complete Copy)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -2804,7 +3062,12 @@
           "7. (6g) Blog Online Journal Scouting",
           "8. (6h) Webpage for Your Troop Patrol"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Editing a file on a cloud drive provides a detached offline disaster recovery backup.",
@@ -2976,7 +3239,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Protections and Why They Exist)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2988,12 +3251,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor each of these protections and why they exist: copyright, patents, trademarks, and trade secrets"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor each of these protections and why they exist: copyright, patents, trademarks, and trade secrets"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
@@ -3031,7 +3304,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p078_img1.png",
           "workbook_diagram_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
-          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works."
+          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
+          "socratic_questions": [
+            "For digital technology Requirement 7a (Explain to your counselor each of these protections and why they exist: copyright, patents,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3047,7 +3323,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Permissible to Accept A Free)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3059,12 +3335,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain when it is permissible to accept a free copy of a program from a friend"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain when it is permissible to accept a free copy of a program from a friend"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
@@ -3102,7 +3388,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p078_img1.png",
           "workbook_diagram_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
-          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works."
+          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
+          "socratic_questions": [
+            "For digital technology Requirement 7b (Explain when it is permissible to accept a free copy of a program from a friend), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -3118,7 +3407,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Discuss with Your Counselor An)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3130,24 +3419,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor an article or (with your parent or guardian's permission) a report on the internet about a recent legal case involving an intellectual property dispute"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor an article or (with your parent or guardian's permission) a report on the internet about a recent legal case involving an intellectual property dispute"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 80, p. 81)",
           "common_misconception_pair": {
             "misconception": "Nonprofit educational use grants automatic total immunity from all federal copyright infringement claims.",
             "fact": "Legal fair use defenses depend on educational purpose, nature of work, and market impact."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 7c)",
@@ -3179,7 +3473,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p078_img1.png",
           "title": "Req 7c: Intellectual Property Case Discussion",
           "workbook_diagram_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
-          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works."
+          "workbook_visual_caption": "A printed copyright notice explains legal prohibitions against unauthorized reproduction of works.",
+          "socratic_questions": [
+            "For digital technology Requirement 7c (Discuss with your counselor an article or (with your parent or guardian's permission) a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3214,7 +3511,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Protections and Why They Exist)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3235,7 +3532,12 @@
           "2. (7b) Explain when it is permissible to accept a free copy of a program from a friend",
           "3. (7c) Intellectual Property Case Discussion"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Purchasing commercial software conveys complete underlying copyright ownership of that code base.",
@@ -3411,7 +3713,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Important to Properly Dispose of)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3430,7 +3732,13 @@
               "1. Describe why it is important to properly dispose of digital technology.",
               "2. List at least three hazardous chemicals that could be used to create digital devices or used inside a digital device."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -3469,7 +3777,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p074_img1.png",
           "title": "Req 8a: Hazardous Chemicals in Electronics",
           "workbook_diagram_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
-          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling."
+          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
+          "socratic_questions": [
+            "For digital technology Requirement 8a (Describe why it is important to properly dispose of digital technology. List at least three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3485,7 +3796,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Important to Use A Certified)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3497,12 +3808,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor why it is important to use a certified recycler of digital technology hardware or devices"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor why it is important to use a certified recycler of digital technology hardware or devices"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -3540,7 +3861,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p074_img1.png",
           "workbook_diagram_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
-          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling."
+          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
+          "socratic_questions": [
+            "For digital technology Requirement 8b (Explain to your counselor why it is important to use a certified recycler of digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3556,7 +3880,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Internet Search for An Organization)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3577,7 +3901,13 @@
               "2. Find out what happens to that waste.",
               "3. Share with your counselor what you found."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -3615,7 +3945,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p074_img1.png",
           "workbook_diagram_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
-          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling."
+          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
+          "socratic_questions": [
+            "For digital technology Requirement 8c (Do an internet search for an organization that collects discarded digital technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -3631,7 +3964,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Recycling Center That Disposes of)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3652,7 +3985,12 @@
               "2. Find out what happens to that waste.",
               "3. Share what you learned with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -3691,7 +4029,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p074_img1.png",
           "title": "Req 8d: Visiting an Electronics Recycling Center",
           "workbook_diagram_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
-          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling."
+          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
+          "socratic_questions": [
+            "For digital technology Requirement 8d (Visit a recycling center that disposes of digital technology hardware or devices. Find out), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -3707,7 +4048,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Battery Recycling Center Near You)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3726,7 +4067,13 @@
               "1. Find a battery recycling center near you and find out what it does to recycle batteries.",
               "2. Share what you have learned with your counselor about the proper methods for recycling batteries."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -3764,7 +4111,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p074_img1.png",
           "workbook_diagram_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
-          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling."
+          "workbook_visual_caption": "A collection of household batteries illustrates items that require specialized disposal and recycling.",
+          "socratic_questions": [
+            "For digital technology Requirement 8e (Find a battery recycling center near you and find out what it does to recycle batteries.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3811,7 +4161,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Important to Properly Dispose of)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3836,7 +4186,12 @@
           "4. (8d) Visit a recycling center that disposes of digital technology hardware or devices",
           "5. (8e) Find a battery recycling center near you and find out what it does to recycle batteries"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Discarded electronic circuit boards dissolve harmlessly when buried in standard municipal landfill waste.",
@@ -4030,19 +4385,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71)",
           "common_misconception_pair": {
             "misconception": "Software development careers consist entirely of writing repetitive website code without collaboration.",
             "fact": "Cloud architects design distributed infrastructure requiring expertise in virtualization, storage networks, and systems security."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Digital Technology Req 9a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Digital Technology Merit Badge Hub (Req 9a)",
@@ -4073,12 +4429,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p056_img1.png",
           "workbook_diagram_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet.",
-          "workbook_visual_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet."
+          "workbook_visual_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet.",
+          "socratic_questions": [
+            "For digital technology Requirement 9a (Explore careers related to the Digital Technology merit badge. Research one career to learn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Tech Hobbies: The Best Technology Hobbies You Need to Try (video)",
@@ -4093,7 +4452,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4107,14 +4466,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Digital Technology Merit Badge Pamphlet (p. 63, p. 71)",
           "common_misconception_pair": {
@@ -4144,7 +4509,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from the Digital Technology merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 9b: Digital Technology Technical Hobbies",
           "pamphlet_summary": "Scouts examine how digital knowledge unlocks creative hobbies such as robotics, digital audio workstations, or home automation. They estimate basic starter tool expenses, explore hobby clubs, and identify community learning groups.",
           "pamphlet_excerpts": [
@@ -4153,7 +4518,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/digital_technology_p056_img1.png",
           "title": "Req 9b: Technology Skills for Personal Hobbies",
           "workbook_diagram_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet.",
-          "workbook_visual_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet."
+          "workbook_visual_caption": "Rows of server racks in a modern data center house network infrastructure that powers the internet.",
+          "socratic_questions": [
+            "For digital technology Requirement 9b (Explore how you could use knowledge and skills from the Digital Technology merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4215,7 +4583,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Entering a software engineering career requires no formal technical training or project portfolio.",

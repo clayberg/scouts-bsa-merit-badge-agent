@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Gardening Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p003_img1.png",
           "workbook_diagram_caption": "Water streams from a sports bottle, highlighting hydration while working.",
-          "workbook_visual_caption": "Water streams from a sports bottle, highlighting hydration while working."
+          "workbook_visual_caption": "Water streams from a sports bottle, highlighting hydration while working.",
+          "socratic_questions": [
+            "For gardening Requirement 1a (Explain to your counselor the most likely hazards associated with gardening and what you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)",
           "common_misconception_pair": {
@@ -160,7 +183,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p043_img1.png",
           "title": "Req 1b: First Aid for Garden Injuries",
           "workbook_diagram_caption": "Water streams from a sports bottle, highlighting hydration while working.",
-          "workbook_visual_caption": "Water streams from a sports bottle, highlighting hydration while working."
+          "workbook_visual_caption": "Water streams from a sports bottle, highlighting hydration while working.",
+          "socratic_questions": [
+            "For gardening Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -182,7 +208,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Gardening Hazard Management Protocol",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Keep rake tines turned down toward the soil surface and store all cutting blades sheathed or hung securely.",
@@ -191,7 +217,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Gardening Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -210,7 +236,13 @@
           "1. (1a) Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
           "2. (1b) First Aid for Garden Injuries"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gardening tools cause minimal bodily injury because manual soil cultivation requires little mechanical force.",
@@ -386,7 +418,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Vegetables Three from Seeds)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -398,12 +430,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Grow six vegetables, three from seeds and three from seedlings, through harvest"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Grow six vegetables, three from seeds and three from seedlings, through harvest"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -441,7 +483,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p007_img1.png",
           "workbook_diagram_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
-          "workbook_visual_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management."
+          "workbook_visual_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
+          "socratic_questions": [
+            "For gardening Requirement 2a (Grow six vegetables, three from seeds and three from seedlings, through harvest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -461,7 +506,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Flowers Three from Seeds)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -473,12 +518,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Grow six flowers, three from seeds and three from seedlings, through flowering"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Grow six flowers, three from seeds and three from seedlings, through flowering"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -516,7 +571,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p044_img1.png",
           "workbook_diagram_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
-          "workbook_visual_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management."
+          "workbook_visual_caption": "Violet and hyacinth plants grow in clay pots for indoor plant management.",
+          "socratic_questions": [
+            "For gardening Requirement 2b (Grow six flowers, three from seeds and three from seedlings, through flowering), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -550,7 +608,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Vegetable and Flower Production",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -559,7 +617,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Discuss Your Observations Throughout the)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -578,7 +636,13 @@
           "1. (2a) Vegetables Three From Seeds",
           "2. (2b) Flowers Three From Seeds"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Indoor vegetable seedlings can move straight into full outdoor sun without intermediate acclimation.",
@@ -735,7 +799,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Three root or tuber crops.",
+          "text": "Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits.",
           "resources": [
             {
               "title": "Taro (video)",
@@ -754,7 +818,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Root or Tuber Crops)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -766,12 +830,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Three root or tuber crops"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Three root or tuber crops"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -801,7 +875,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Three root or tuber crops.",
+          "sub_req_text": "Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits.",
           "topic_title": "Req 3a: Root and Tuber Nutrition",
           "pamphlet_summary": "Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.",
           "pamphlet_excerpts": [
@@ -809,12 +883,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p012_img1.png",
           "workbook_diagram_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
-          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening."
+          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
+          "socratic_questions": [
+            "For gardening Requirement 3a (Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Three vegetables that bear above the ground.",
+          "text": "Three vegetables that bear above the ground (c) Three fruits.",
           "resources": [
             {
               "title": "Lettuce (video)",
@@ -833,7 +910,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Vegetables That Bear Above the)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -845,12 +922,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Three vegetables that bear above the ground"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Three vegetables that bear above the ground"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -880,7 +967,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Three vegetables that bear above the ground.",
+          "sub_req_text": "Three vegetables that bear above the ground (c) Three fruits.",
           "topic_title": "Req 3b: Aboveground Vegetable Dietary Value",
           "pamphlet_summary": "Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.",
           "pamphlet_excerpts": [
@@ -889,7 +976,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p041_img1.png",
           "title": "Req 3b: Vegetables Bearing Above Ground",
           "workbook_diagram_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
-          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening."
+          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
+          "socratic_questions": [
+            "For gardening Requirement 3b (Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -913,7 +1003,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Gardening Fruits Principles)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -925,12 +1015,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Three fruits"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Three fruits"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -968,7 +1068,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p041_img1.png",
           "workbook_diagram_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
-          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening."
+          "workbook_visual_caption": "Essential tools like a trowel, cultivator, and stakes support gardening.",
+          "socratic_questions": [
+            "For gardening Requirement 3c (Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1027,7 +1130,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Nutritional Value)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1048,7 +1151,13 @@
           "2. (3b) Three vegetables that bear above the ground",
           "3. (3c) Three fruits"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All vegetables possess identical vitamin profiles regardless of whether roots or leaves are eaten.",
@@ -1221,7 +1330,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Seeds for Germination Determine the)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1242,7 +1351,13 @@
           "2. Determine the percentage of seeds that germinate.",
           "3. Explain why you think some did not germinate."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every commercial seed within a packet is guaranteed to produce a viable seedling.",
@@ -1415,7 +1530,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (County Extension Office Local University)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1434,7 +1549,12 @@
           "1. Visit your county extension office, local university, agricultural college, nursery, farm, botanical garden, or arboretum.",
           "2. Report on what you learned."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Agricultural extension services exist solely to assist large commercial farming corporations.",
@@ -1616,7 +1736,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Honeybees Are Used in Pollinating)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1635,7 +1755,13 @@
           "1. Explain to your counselor how and why honeybees are used in pollinating food crops and the problems that face the bee population today.",
           "2. Discuss what the impact to humanity would be if there were no pollinators."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wind and self pollination can easily replace bee pollination for all commercial fruit crops.",
@@ -1812,7 +1938,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Garden Pests Insects Diseased Plants)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1833,7 +1959,13 @@
           "2. Recommend two solutions for each pest.",
           "3. At least one of the two solutions must be an organic method."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Broad spectrum synthetic pesticides should be sprayed immediately at the first sight of insects.",
@@ -1996,7 +2128,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist (Compost Bin)",
+            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2008,12 +2140,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a compost bin and maintain it for 90 days"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a compost bin and maintain it for 90 days"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2051,7 +2192,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8a (Build a compost bin and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2067,7 +2211,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist (Vermicompost Bin Worm Compost Bin)",
+            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2079,12 +2223,21 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a vermicompost bin (worm compost bin) and maintain it for 90 days"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a vermicompost bin (worm compost bin) and maintain it for 90 days"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2122,7 +2275,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8b (Build a vermicompost bin (worm compost bin) and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -2142,7 +2298,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist (Hydroponic Garden Containing Three Vegetables)",
+            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2161,7 +2317,12 @@
               "1. Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants.",
               "2. Maintain this garden through harvest or flowering, or for 90 days."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2199,7 +2360,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8c (Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -2215,7 +2379,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist (Water Garden Either in A)",
+            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2234,7 +2398,12 @@
               "1. Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep",
               "2. Maintain the water garden for 90 days"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2273,7 +2442,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "title": "Req 8d: Aquatic Container or Pond Garden",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8d (Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -2293,7 +2465,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Honey Super)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2312,7 +2484,13 @@
               "1. Prepare a honey super for use on a hive or colony.",
               "2. Remove a filled honey super from the hive or colony and prepare the honey for sale."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2350,7 +2528,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8e (Prepare a honey super for use on a hive or colony. Remove a filled honey super from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8f",
@@ -2374,7 +2555,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8f Structured Technical Study & Explanation Matrix (Garden of Your Own Using)",
+            "table_title": "Req 8f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2393,7 +2574,12 @@
               "1. Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier",
               "2. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 8f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)",
           "common_misconception_pair": {
@@ -2436,7 +2622,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p028_img2.png",
           "workbook_diagram_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
-          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping."
+          "workbook_visual_caption": "A flowering crape myrtle tree adds bright red blooms to home landscaping.",
+          "socratic_questions": [
+            "For gardening Requirement 8f (Grow a garden of your own using soil from seed or plantings to harvest or for 90 days,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2499,7 +2688,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Weekly Observations Discuss the Results)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2526,7 +2715,12 @@
           "5. (8e) Prepare a honey super for use on a hive or colony",
           "6. (8f) Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Organic matter decomposes into nutrient rich humus just as quickly without moisture or aeration.",
@@ -2726,7 +2920,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
@@ -2764,12 +2964,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p065_img1.png",
           "workbook_diagram_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
-          "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems."
+          "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
+          "socratic_questions": [
+            "For gardening Requirement 9a (Identify three career opportunities that would use skills and knowledge in gardening. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Benefits of Gardening as a Hobby and Why You Should Be a Gardener (video)",
@@ -2780,7 +2983,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2794,14 +2997,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)",
           "common_misconception_pair": {
@@ -2831,7 +3040,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 9b: Gardening for Personal Wellness",
           "pamphlet_summary": "Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise.",
           "pamphlet_excerpts": [
@@ -2840,7 +3049,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/gardening_p065_img1.png",
           "title": "Req 9b: Gardening for Lifelong Health",
           "workbook_diagram_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
-          "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems."
+          "workbook_visual_caption": "A microscopic view shows nematodes that inhabit garden soil ecosystems.",
+          "socratic_questions": [
+            "For gardening Requirement 9b (Identify how you might use the skills and knowledge in gardening to pursue a personal hobby), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2898,7 +3110,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Horticultural professions consist solely of unskilled manual tasks with no professional certifications.",

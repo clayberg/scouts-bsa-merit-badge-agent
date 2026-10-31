@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Camping Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -49,12 +49,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
@@ -92,7 +102,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p003_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Camping Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Camping Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Camping Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For camping Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,7 +125,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss Important Aware Weather)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -131,7 +144,13 @@
               "1. Discuss with your counselor why it is important to be aware of weather conditions before and during your camping activities.",
               "2. Tell how you can prepare should the weather turn bad during your camp outs."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
@@ -169,7 +188,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p011_img1.png",
           "workbook_diagram_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills.",
-          "workbook_visual_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills."
+          "workbook_visual_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills.",
+          "socratic_questions": [
+            "For camping Requirement 1b (Discuss with your counselor why it is important to be aware of weather conditions before), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -193,7 +215,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -205,12 +227,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)",
           "common_misconception_pair": {
@@ -248,7 +280,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p011_img1.png",
           "workbook_diagram_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills.",
-          "workbook_visual_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills."
+          "workbook_visual_caption": "A dome tent stands pitched on an open hillside beneath sunny skies and distant hills.",
+          "socratic_questions": [
+            "For camping Requirement 1c (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -299,7 +334,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Camping Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -320,7 +355,13 @@
           "2. (1b) Discuss Important Aware Weather",
           "3. (1c) Emergency First Aid and Prevention"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginner campers believe hypothermia occurs only when temperatures drop below freezing.",
@@ -506,7 +547,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -525,7 +566,13 @@
           "1. Learn the Leave No Trace Seven Principles and the Outdoor Code, and explain what they mean.",
           "2. Write a personal and group plan for implementing these principles on your next outing."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts think burying apple cores and food scraps protects wilderness ecosystems from trash accumulation.",
@@ -677,7 +724,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Compass.",
+          "text": "Compass (b) GPS receiver (c) Smartphone with a GPS app.",
           "resources": [
             {
               "title": "How to Use a Compass (video)",
@@ -688,7 +735,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Camping Compass Principles)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -700,12 +747,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Orienting with a Magnetic Compass"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Orienting with a Magnetic Compass"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -735,7 +792,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Compass.",
+          "sub_req_text": "Compass (b) GPS receiver (c) Smartphone with a GPS app.",
           "topic_title": "Req 3a: Magnetic Compass Wilderness Orientation",
           "pamphlet_summary": "An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain.",
           "pamphlet_excerpts": [
@@ -743,12 +800,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p012_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Camping Requirement 3 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Camping Requirement 3 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Camping Requirement 3 field procedures and safety checks.",
+          "socratic_questions": [
+            "For camping Requirement 3a (Compass (b) GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "GPS receiver.",
+          "text": "GPS receiver (c) Smartphone with a GPS app.",
           "resources": [
             {
               "title": "Using a GPS with a Map and Compass (video)",
@@ -759,7 +819,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Camping Receiver Principles)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -771,12 +831,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. GPS receiver"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. GPS receiver"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -806,7 +876,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "GPS receiver.",
+          "sub_req_text": "GPS receiver (c) Smartphone with a GPS app.",
           "topic_title": "Req 3b: Handheld GPS Receiver Navigation",
           "pamphlet_summary": "Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather.",
           "pamphlet_excerpts": [
@@ -814,7 +884,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p045_img1.png",
           "workbook_diagram_caption": "An orienteering compass rests upon a detailed topographic map for route navigation.",
-          "workbook_visual_caption": "An orienteering compass rests upon a detailed topographic map for route navigation."
+          "workbook_visual_caption": "An orienteering compass rests upon a detailed topographic map for route navigation.",
+          "socratic_questions": [
+            "For camping Requirement 3b (GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -830,7 +903,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Smartphone with A GPS App)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -842,12 +915,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Smartphone with a GPS app"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Smartphone with a GPS app"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -885,7 +968,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p045_img1.png",
           "workbook_diagram_caption": "An orienteering compass rests upon a detailed topographic map for route navigation.",
-          "workbook_visual_caption": "An orienteering compass rests upon a detailed topographic map for route navigation."
+          "workbook_visual_caption": "An orienteering compass rests upon a detailed topographic map for route navigation.",
+          "socratic_questions": [
+            "For camping Requirement 3c (Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -928,7 +1014,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Written Plan for An Overnight)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -949,7 +1035,13 @@
           "2. (3b) Camping Receiver Principles",
           "3. (3c) Smartphone With A GPS App"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Hikers believe electronic satellite receivers make printed topographical paper maps obsolete in the backcountry.",
@@ -1112,7 +1204,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (Duty Roster Showing)",
+            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1131,7 +1223,13 @@
               "1. Make a duty roster showing how your patrol is organized for an actual overnight campout.",
               "2. List assignments for each member."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
@@ -1169,7 +1267,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p027_img1.png",
           "workbook_diagram_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores.",
-          "workbook_visual_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores."
+          "workbook_visual_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores.",
+          "socratic_questions": [
+            "For camping Requirement 4a (Make a duty roster showing how your patrol is organized for an actual overnight campout.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1180,7 +1281,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Help Webelos Unit Area)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1192,12 +1293,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning, equipment needs, general planning, and setting up camp"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning, equipment needs, general planning, and setting up camp"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)",
           "common_misconception_pair": {
@@ -1235,7 +1346,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p027_img1.png",
           "workbook_diagram_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores.",
-          "workbook_visual_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores."
+          "workbook_visual_caption": "Scouts in uniform sit beside a whiteboard to assign camp responsibilities and chores.",
+          "socratic_questions": [
+            "For camping Requirement 4b (Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1257,7 +1371,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Duty Roster Showing)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1276,7 +1390,12 @@
           "1. (4a) Duty Roster Showing",
           "2. (4b) Help Webelos Unit Area"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume natural leaders should handle all cooking duties while newer members wash pots.",
@@ -1433,7 +1552,7 @@
         {
           "sub_id": "5a",
           "label": "(a)",
-          "text": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.",
+          "text": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.\"",
           "resources": [
             {
               "title": "Cold Weather Gear (website)",
@@ -1448,7 +1567,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Clothing You Would Need for)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1461,13 +1580,19 @@
             ],
             "row_labels": [
               "1. Prepare a list of clothing you would need for overnight camp outs in both warm and cold weather.",
-              "2. Explain the term \"layering."
+              "2. Explain the term \"layering.\""
             ],
             "rows": [
               "1. Prepare a list of clothing you would need for overnight camp outs in both warm and cold weather.",
-              "2. Explain the term \"layering."
+              "2. Explain the term \"layering.\""
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
@@ -1497,7 +1622,7 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.",
+          "sub_req_text": "Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term \"layering.\"",
           "topic_title": "Req 5a: Thermal Layering Clothing System",
           "pamphlet_summary": "The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.",
           "pamphlet_excerpts": [
@@ -1506,7 +1631,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p029_img3.png",
           "title": "Req 5a: Warm and Cold Weather Layering",
           "workbook_diagram_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
-          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails."
+          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
+          "socratic_questions": [
+            "For camping Requirement 5a (Prepare a list of clothing you would need for overnight campouts in both warm and cold), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1522,7 +1650,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Discuss Footwear)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1534,12 +1662,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
@@ -1577,7 +1715,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p029_img3.png",
           "workbook_diagram_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
-          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails."
+          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
+          "socratic_questions": [
+            "For camping Requirement 5b (Discuss footwear for different kinds of weather and how the right footwear is important for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1593,7 +1734,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Care and Storage of Camping)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1605,12 +1746,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the proper care and storage of camping equipment (clothing, footwear, bedding)"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the proper care and storage of camping equipment (clothing, footwear, bedding)"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
@@ -1648,7 +1799,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p029_img3.png",
           "workbook_diagram_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
-          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails."
+          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
+          "socratic_questions": [
+            "For camping Requirement 5c (Explain the proper care and storage of camping equipment (clothing, footwear, bedding)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1668,7 +1822,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Basic Essentials Necessary for Any)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1680,12 +1834,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. List the Scout Basic Essentials necessary for any campout, and explain why each item is needed"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. List the Scout Basic Essentials necessary for any campout, and explain why each item is needed"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
@@ -1724,7 +1888,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p029_img3.png",
           "title": "Req 5d: Scout Basic Essentials for Campouts",
           "workbook_diagram_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
-          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails."
+          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
+          "socratic_questions": [
+            "For camping Requirement 5d (List the Scout Basic Essentials necessary for any campout, and explain why each item is needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -1735,7 +1902,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Yourself to Your Scoutmaster)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1754,7 +1921,13 @@
               "1. Present yourself to your Scoutmaster with your pack for inspection.",
               "2. Be correctly clothed and equipped for an overnight campout."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)",
           "common_misconception_pair": {
@@ -1792,7 +1965,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p029_img3.png",
           "workbook_diagram_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
-          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails."
+          "workbook_visual_caption": "A plastic bag of dried fruits and nuts provides quick nutritional energy on trails.",
+          "socratic_questions": [
+            "For camping Requirement 5e (Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1839,7 +2015,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Clothing You Would Need for)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1864,7 +2040,12 @@
           "4. (5d) List the Scout Basic Essentials necessary for any campout, and explain why each item is needed",
           "5. (5e) Present yourself to your Scoutmaster with your pack for inspection"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novice campers believe heavy cotton denim jeans provide ideal warm protection during wet campouts.",
@@ -2036,7 +2217,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Features of Four Types of)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2055,7 +2236,13 @@
               "1. Describe the features of four types of tents, when and where they could be used, and how to care for tents.",
               "2. Working with another Scout, pitch a tent."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
@@ -2094,7 +2281,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p037_img1.png",
           "title": "Req 6a: Tent Types, Care, and Pitching",
           "workbook_diagram_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
-          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp."
+          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
+          "socratic_questions": [
+            "For camping Requirement 6a (Describe the features of four types of tents, when and where they could be used, and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2114,7 +2304,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Discuss the Importance of Camp)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2133,7 +2323,13 @@
               "1. Discuss the importance of camp sanitation and tell why water treatment is essential.",
               "2. Then demonstrate two ways to treat water."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
@@ -2171,7 +2367,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p037_img1.png",
           "workbook_diagram_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
-          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp."
+          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
+          "socratic_questions": [
+            "For camping Requirement 6b (Discuss the importance of camp sanitation and tell why water treatment is essential. Then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2191,7 +2390,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Factors to Be Considered in)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2203,12 +2402,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the factors to be considered in deciding where to pitch your tent"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the factors to be considered in deciding where to pitch your tent"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
@@ -2247,12 +2456,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p037_img1.png",
           "title": "Req 6c: Selecting a Safe Tent Site",
           "workbook_diagram_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
-          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp."
+          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
+          "socratic_questions": [
+            "For camping Requirement 6c (Describe the factors to be considered in deciding where to pitch your tent), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
           "label": "(d)",
-          "text": "Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages.",
+          "text": "Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages of each.",
           "resources": [
             {
               "title": "How to Choose a Backpack (video)",
@@ -2263,7 +2475,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6d Technical Comparison Matrix (Internal- and External-frame Packs Discuss)",
+            "table_title": "Req 6d Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Body Hugging Internal Frame Packs",
@@ -2282,7 +2494,13 @@
               "1. Tell the difference between internal- and external-frame packs.",
               "2. Discuss the advantages and disadvantages."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Body Hugging Internal Frame Packs",
+              "Ventilated External Frame Trail Packs"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
@@ -2312,7 +2530,7 @@
           ],
           "id": "6d",
           "sub_req_label": "6d",
-          "sub_req_text": "Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages.",
+          "sub_req_text": "Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages of each.",
           "topic_title": "Req 6d: Backpack Frame System Selection",
           "pamphlet_summary": "External-frame packs provide elevated lash points and excellent ventilation for heavy gear loads on level trails. Internal-frame packs hug the body closely to provide superior balance along rough, uneven mountain trails.",
           "pamphlet_excerpts": [
@@ -2320,7 +2538,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p037_img1.png",
           "workbook_diagram_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
-          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp."
+          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
+          "socratic_questions": [
+            "For camping Requirement 6d (Tell the difference between internal- and external-frame packs. Discuss the advantages and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2348,7 +2569,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist (Discuss the Types of Sleeping)",
+            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2369,7 +2590,13 @@
               "2. Explain the proper care of your sleeping bag and how to keep it dry.",
               "3. Make a comfortable ground bed."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)",
           "common_misconception_pair": {
@@ -2407,7 +2634,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p037_img1.png",
           "workbook_diagram_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
-          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp."
+          "workbook_visual_caption": "A pitched canvas wall tent provides spacious and durable group shelter at summer camp.",
+          "socratic_questions": [
+            "For camping Requirement 6e (Discuss the types of sleeping bags and what kind would be suitable for different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2474,7 +2704,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (Features of Four Types of)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Body Hugging Internal Frame Packs",
@@ -2499,7 +2729,13 @@
           "4. (6d) Tell the difference between internal- and external-frame packs",
           "5. (6e) Discuss the types of sleeping bags and what kind would be suitable for different conditions"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Body Hugging Internal Frame Packs",
+          "Ventilated External Frame Trail Packs"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe crystal-clear wilderness streams provide water that is safe to drink without treatment.",
@@ -2662,7 +2898,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist (Checklist of Personal and Patrol)",
+            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2674,12 +2910,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a checklist of personal and patrol gear that will be needed"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a checklist of personal and patrol gear that will be needed"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
@@ -2717,7 +2963,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p042_img1.png",
           "workbook_diagram_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking.",
-          "workbook_visual_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking."
+          "workbook_visual_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking.",
+          "socratic_questions": [
+            "For camping Requirement 7a (Make a checklist of personal and patrol gear that will be needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2733,7 +2982,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Own Gear)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2752,7 +3001,13 @@
               "1. Pack your own gear and your share of the patrol equipment and food for proper carrying",
               "2. Show that your pack is right for quickly getting what is needed first, and that it has been assembled properly for comfort, weight, balance, size, and neatness"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)",
           "common_misconception_pair": {
@@ -2790,7 +3045,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p042_img1.png",
           "workbook_diagram_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking.",
-          "workbook_visual_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking."
+          "workbook_visual_caption": "Compact metal pots and serving utensils nest together for efficient camp cooking.",
+          "socratic_questions": [
+            "For camping Requirement 7b (Pack your own gear and your share of the patrol equipment and food for proper carrying.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2817,7 +3075,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Overnight Campout)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2836,7 +3094,12 @@
           "1. (7a) Checklist of Personal and Patrol",
           "2. (7b) Own Gear"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Campers believe heavy gear should be packed at the very bottom of a backpack.",
@@ -2999,7 +3262,7 @@
             {
               "sub_id": "8a(1)",
               "label": "(1)",
-              "text": "Using a propane or butane/propane stove.",
+              "text": "Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel.",
               "resources": [
                 {
                   "title": "How to Use a Propane Stove (video)",
@@ -3010,7 +3273,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(1) Structured Technical Study & Explanation Matrix (Propane or Butane/propane Stove)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3022,12 +3285,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using a propane or butane/propane stove"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Using a propane or butane/propane stove"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
@@ -3057,7 +3330,7 @@
               ],
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
-              "sub_req_text": "Using a propane or butane/propane stove.",
+              "sub_req_text": "Using a propane or butane/propane stove (2) Using a liquid fuel stove (3) Proper storage of extra fuel.",
               "topic_title": "Req 8a(1): Canister Stove Operation and Safety",
               "pamphlet_summary": "Canister Stove Operation and Safety: Scouts operate pressurized canister stoves on a level ground surface after inspecting the rubber O-ring gasket for cracks or dirt. Lighting requires holding a lit match or spark igniter above the burner head before cracking the fuel valve open slightly (p. 58).",
               "pamphlet_excerpts": [
@@ -3073,7 +3346,7 @@
             {
               "sub_id": "8a(2)",
               "label": "(2)",
-              "text": "Using a liquid fuel stove.",
+              "text": "Using a liquid fuel stove (3) Proper storage of extra fuel.",
               "resources": [
                 {
                   "title": "How to Use a Liquid Fuel Stove (video)",
@@ -3084,7 +3357,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(2) Structured Technical Study & Explanation Matrix (Liquid Fuel Stove)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3096,12 +3369,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using a liquid fuel stove"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Using a liquid fuel stove"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
@@ -3131,7 +3414,7 @@
               ],
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
-              "sub_req_text": "Using a liquid fuel stove.",
+              "sub_req_text": "Using a liquid fuel stove (3) Proper storage of extra fuel.",
               "topic_title": "Req 8a(2): Liquid Fuel Stove Field Operation",
               "pamphlet_summary": "Liquid Fuel Stove Field Operation: Liquid fuel stoves require white gas poured through a filtered funnel into the tank, leaving an air pocket for pressurization. Pumping the plunger builds tank pressure, while preheating the generator tube vaporizes liquid fuel into a clean blue flame (p. 59).",
               "pamphlet_excerpts": [
@@ -3153,7 +3436,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(3) Structured Technical Study & Explanation Matrix (Storage of Extra Fuel)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3165,12 +3448,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Proper storage of extra fuel"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Proper storage of extra fuel"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
@@ -3217,7 +3510,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Safety Procedures for Using A)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3238,7 +3531,13 @@
               "2. (8a(2)) Liquid Fuel Stove",
               "3. (8a(3)) Storage of Extra Fuel"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
@@ -3277,7 +3576,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
           "title": "Req 8a: Propane and Liquid Fuel Safety",
           "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+          "socratic_questions": [
+            "For camping Requirement 8a (Explain the safety procedures for: (1) Using a propane or butane/propane stove (2) Using a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3293,7 +3595,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 8b Technical Comparison Matrix (Discuss the Advantages and Disadvantages)",
+            "table_title": "Req 8b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Pressurized Canister Gas Camp Stoves",
@@ -3305,12 +3607,22 @@
               "Refillable Liquid Fuel Backpacking Stoves"
             ],
             "row_labels": [
-              "1. Discuss the advantages and disadvantages of different types of lightweight cooking stoves"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the advantages and disadvantages of different types of lightweight cooking stoves"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Pressurized Canister Gas Camp Stoves",
+              "Refillable Liquid Fuel Backpacking Stoves"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
@@ -3348,7 +3660,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
           "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+          "socratic_questions": [
+            "For camping Requirement 8b (Discuss the advantages and disadvantages of different types of lightweight cooking stoves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3364,7 +3679,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist (Camp Menu Explain How the)",
+            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3387,7 +3702,13 @@
               "3. Give recipes and make a food list for your patrol.",
               "4. Plan two breakfasts, three lunches, and two suppers."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
@@ -3426,7 +3747,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
           "title": "Req 8c: Camp and Backpacking Menu Planning",
           "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+          "socratic_questions": [
+            "For camping Requirement 8c (Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -3437,7 +3761,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Camping in the Outdoors)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3456,7 +3780,13 @@
               "1. While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for your patrol from the meals you have planned for requirement 8",
               "2. At least one of those meals must be a trail meal requiring the use of a lightweight stove"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
           "common_misconception_pair": {
@@ -3494,7 +3824,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
           "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+          "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+          "socratic_questions": [
+            "For camping Requirement 8d (While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3533,7 +3866,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 8 Technical Comparison Matrix (Safety Procedures for Using A)",
+        "table_title": "Req 8 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Pressurized Canister Gas Camp Stoves",
@@ -3556,7 +3889,13 @@
           "3. (8c) Prepare a camp menu",
           "4. (8d) Outdoor Patrol Meal Preparation"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Pressurized Canister Gas Camp Stoves",
+          "Refillable Liquid Fuel Backpacking Stoves"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Campers assume camp stoves can be safely operated inside tent vestibules during rainstorms.",
@@ -3719,7 +4058,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Camp for at Least Nights)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3744,7 +4083,12 @@
               "4. Each night must be spent either under the sky, in a tent you have pitched yourself",
               "5. Nights spent in indoor lock-in events, cabin camping, hotel stays, or other covered accommodations do not count toward the 20 nights"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
@@ -3782,12 +4126,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
           "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+          "socratic_questions": [
+            "For camping Requirement 9a (Camp for at least 20 nights at designated Scouting activities or events. One long-term), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet.",
+          "text": "On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet or more.",
           "resources": [],
           "children": [
             {
@@ -3804,7 +4151,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(1) Structured Technical Study & Explanation Matrix (Hike Up A Mountain Gaining)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3816,12 +4163,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Hike up a mountain, gaining at least 1,000 vertical feet"
+                  "1. Req 9b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Hike up a mountain, gaining at least 1,000 vertical feet"
+                  "1. Req 9b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -3878,7 +4235,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(2) Structured Technical Study & Explanation Matrix (Backpack Snowshoe or Cross-country Ski)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3890,12 +4247,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Backpack, snowshoe, or cross-country ski for at least 4 miles"
+                  "1. Req 9b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Backpack, snowshoe, or cross-country ski for at least 4 miles"
+                  "1. Req 9b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -3952,7 +4319,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(3) Structured Technical Study & Explanation Matrix (Bike Trip of at Least)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3964,12 +4331,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Take a bike trip of at least 15 miles or at least four hours"
+                  "1. Req 9b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Take a bike trip of at least 15 miles or at least four hours"
+                  "1. Req 9b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -4027,7 +4404,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(4) Structured Technical Study & Explanation Matrix (Nonmotorized Trip on the Water)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4039,12 +4416,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Take a nonmotorized trip on the water of at least four hours or 5 miles"
+                  "1. Req 9b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Take a nonmotorized trip on the water of at least four hours or 5 miles"
+                  "1. Req 9b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -4101,7 +4488,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(5) Structured Technical Study & Explanation Matrix (Out An Overnight Snow Camping)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4113,12 +4500,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Plan and carry out an overnight snow camping experience"
+                  "1. Req 9b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Plan and carry out an overnight snow camping experience"
+                  "1. Req 9b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -4164,7 +4561,7 @@
             {
               "sub_id": "9b(6)",
               "label": "(6)",
-              "text": "Rappel down a rappel route of 30 feet.",
+              "text": "Rappel down a rappel route of 30 feet or more.",
               "resources": [
                 {
                   "title": "How to Rapel (video)",
@@ -4175,7 +4572,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 9b(6) Structured Technical Study & Explanation Matrix (Rappel Down A Rappel Route)",
+                "table_title": "Req 9b",
                 "headers": [
                   "Req 9b(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4187,12 +4584,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Rappel down a rappel route of 30 feet"
+                  "1. Req 9b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Rappel down a rappel route of 30 feet"
+                  "1. Req 9b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 9b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 9b(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 9b(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
@@ -4222,7 +4629,7 @@
               ],
               "id": "9b(6)",
               "sub_req_label": "9b(6)",
-              "sub_req_text": "Rappel down a rappel route of 30 feet.",
+              "sub_req_text": "Rappel down a rappel route of 30 feet or more.",
               "topic_title": "Req 9b(6): Thirty Foot Supervised Backcountry Rappel",
               "pamphlet_summary": "Thirty Foot Supervised Backcountry Rappel: Scouts descend a designated thirty-foot vertical rock or tower face using approved climbing webbing, harnesses, and friction devices under direct adult supervision. BSA policy mandates an independent top-rope belay system operated by a trained instructor to protect the rappeller (p. 85).",
               "pamphlet_excerpts": [
@@ -4239,7 +4646,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Camping Experiences You)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4266,7 +4673,13 @@
               "5. (9b(5)) Out An Overnight Snow Camping",
               "6. (9b(6)) Rappel Down A Rappel Route"
             ],
-            "min_rows": 6
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
@@ -4296,7 +4709,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet.",
+          "sub_req_text": "On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet or more.",
           "topic_title": "Req 9b: Backcountry Outdoor Adventure Challenges",
           "pamphlet_summary": "Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements.",
           "pamphlet_excerpts": [
@@ -4304,7 +4717,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
           "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+          "socratic_questions": [
+            "For camping Requirement 9b (On any of these camping experiences, you must do TWO of the following, only with proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -4320,7 +4736,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Camping Experiences Perform A Conservation)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4339,7 +4755,13 @@
               "1. On any of these camping experiences, perform a conservation project approved by the landowner or land managing agency.",
               "2. This can be done alone or with others."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
           "common_misconception_pair": {
@@ -4377,7 +4799,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
           "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+          "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+          "socratic_questions": [
+            "For camping Requirement 9c (On any of these camping experiences, perform a conservation project approved by the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4428,7 +4853,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Experience in Camping)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4441,15 +4866,20 @@
         ],
         "row_labels": [
           "1. (9a) Camp for At Least Nights",
-          "2. (9b) Camping Experiences You",
+          "2. (9b) Camping Experiences",
           "3. (9c) Camping Experiences Perform A Conservation"
         ],
         "rows": [
           "1. (9a) Camp for At Least Nights",
-          "2. (9b) Camping Experiences You",
+          "2. (9b) Camping Experiences",
           "3. (9c) Camping Experiences Perform A Conservation"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe family vacations in hotel cabins count toward the twenty camping nights requirement.",
@@ -4622,7 +5052,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Discuss How the Things You)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4641,7 +5071,13 @@
           "1. Discuss how the things you did to earn this badge have taught you about personal health and safety, survival, public health, conservation, and good citizenship",
           "2. In your discussion, tell how Scout spirit and the Scout Oath and Scout Law apply to camping and outdoor ethics"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe outdoor skills have no practical relevance once they return to urban life.",

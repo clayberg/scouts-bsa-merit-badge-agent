@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Words Genealogy Ancestor and Descendant)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor what the words genealogy, ancestor, and descendant mean"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor what the words genealogy, ancestor, and descendant mean"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p003_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
-          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements."
+          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
+          "socratic_questions": [
+            "For genealogy Requirement 1a (Explain to your counselor what the words genealogy, ancestor, and descendant mean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Family Tree Is and What)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a family tree is and what information would be kept there"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a family tree is and what information would be kept there"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
@@ -159,7 +182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p027_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
-          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements."
+          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
+          "socratic_questions": [
+            "For genealogy Requirement 1b (Explain what a family tree is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -175,7 +201,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 1c Quantitative Field Observation & Activity Log (Family Information Would Kept)",
+            "table_title": "Req 1c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -189,12 +215,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Explain what a family group record is and what information would be kept there"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a family group record is and what information would be kept there"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)",
           "common_misconception_pair": {
@@ -232,7 +269,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p027_img1.png",
           "workbook_diagram_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
-          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements."
+          "workbook_visual_caption": "Vintage community newspapers offer genealogical obituaries and announcements.",
+          "socratic_questions": [
+            "For genealogy Requirement 1c (Explain what a family group record is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -258,7 +298,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Foundational Genealogical Terminology and Records",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -267,7 +307,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 1 Quantitative Field Observation & Activity Log (Words Genealogy Ancestor and Descendant)",
+        "table_title": "Req 1 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -290,7 +330,14 @@
           "2. (1b) Explain what a family tree is and what information would be kept there",
           "3. (1c) Explain what a family group record is and what information would be kept there"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think genealogy consists solely of collecting interesting folklore and unverified family stories.",
@@ -453,7 +500,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Timeline for Yourself)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -472,7 +519,13 @@
               "1. Create a timeline for yourself or for a relative.",
               "2. Then write a short biography based on that timeline."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
@@ -510,7 +563,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p007_img1.png",
           "workbook_diagram_caption": "A family silhouette at the beach represents generations and family lineage.",
-          "workbook_visual_caption": "A family silhouette at the beach represents generations and family lineage."
+          "workbook_visual_caption": "A family silhouette at the beach represents generations and family lineage.",
+          "socratic_questions": [
+            "For genealogy Requirement 2a (Create a timeline for yourself or for a relative. Then write a short biography based on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -526,7 +582,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 2b Quantitative Field Observation & Activity Log (Journal for Six Weeks You)",
+            "table_title": "Req 2b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -547,7 +603,14 @@
               "1. Keep a journal for six weeks.",
               "2. You must write in it at least once a week."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)",
           "common_misconception_pair": {
@@ -585,7 +648,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p010_img1.png",
           "workbook_diagram_caption": "A family silhouette at the beach represents generations and family lineage.",
-          "workbook_visual_caption": "A family silhouette at the beach represents generations and family lineage."
+          "workbook_visual_caption": "A family silhouette at the beach represents generations and family lineage.",
+          "socratic_questions": [
+            "For genealogy Requirement 2b (Keep a journal for six weeks. You must write in it at least once a week), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -616,7 +682,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 2 Quantitative Field Observation & Activity Log (Timeline for Yourself)",
+        "table_title": "Req 2 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -631,13 +697,20 @@
         ],
         "row_labels": [
           "1. (2a) Timeline for Yourself",
-          "2. (2b) Journal for Six Weeks You"
+          "2. (2b) Journal for Six Weeks"
         ],
         "rows": [
           "1. (2a) Timeline for Yourself",
-          "2. (2b) Journal for Six Weeks You"
+          "2. (2b) Journal for Six Weeks"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Writers often think personal biographies require extensive speculation about ancestors' secret inner feelings.",
@@ -810,7 +883,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 3 Quantitative Field Observation & Activity Log (Help Choose A Relative)",
+        "table_title": "Req 3 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -831,7 +904,13 @@
           "1. With your parent or guardian's help, choose a relative or a family acquaintance you can interview in person, by telephone, or by email or letter",
           "2. Record the information you collect so you do not forget it"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Interviewers assume oral recollections are always completely accurate regarding specific historical dates and spellings.",
@@ -999,7 +1078,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Physical Genealogical Resources and Where)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1011,12 +1090,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
@@ -1055,7 +1144,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4a: Physical Genealogical Resource Types",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
-          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+          "socratic_questions": [
+            "For genealogy Requirement 4a (Name three types of physical genealogical resources and where you can find them, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1071,7 +1163,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Digital Genealogical Resources and Where)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1083,12 +1175,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
@@ -1127,7 +1229,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4b: Digital Genealogical Resource Types",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
-          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+          "socratic_questions": [
+            "For genealogy Requirement 4b (Name three types of digital genealogical resources and where you can find them, and explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1138,7 +1243,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4c Quantitative Field Observation & Activity Log (Obtain at Least One Genealogical)",
+            "table_title": "Req 4c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1152,12 +1257,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
@@ -1195,18 +1311,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
-          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+          "socratic_questions": [
+            "For genealogy Requirement 4c (Obtain at least one genealogical document that supports an event that is or can be recorded), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
-          "text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement.",
+          "text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c).",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (You Found It and How)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1218,12 +1337,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how you found it and how you would evaluate the genealogical information you found for requirement"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how you found it and how you would evaluate the genealogical information you found for requirement"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
@@ -1253,7 +1382,7 @@
           ],
           "id": "4d",
           "sub_req_label": "4d",
-          "sub_req_text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement.",
+          "sub_req_text": "Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c).",
           "topic_title": "Req 4d: Source Provenance and Reliability Analysis",
           "pamphlet_summary": "Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event.",
           "pamphlet_excerpts": [
@@ -1262,7 +1391,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "title": "Req 4d: Finding and Evaluating Source Evidence",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
-          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+          "socratic_questions": [
+            "For genealogy Requirement 4d (Tell how you found it and how you would evaluate the genealogical information you found for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1278,7 +1410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4e Quantitative Field Observation & Activity Log (Likely Place)",
+            "table_title": "Req 4e Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1292,12 +1424,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)",
           "common_misconception_pair": {
@@ -1335,7 +1478,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p020_img1.png",
           "workbook_diagram_caption": "A death certificate provides primary vital statistics for ancestral research.",
-          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research."
+          "workbook_visual_caption": "A death certificate provides primary vital statistics for ancestral research.",
+          "socratic_questions": [
+            "For genealogy Requirement 4e (Tell a likely place to find these type of genealogical records: marriage record, census), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1361,7 +1507,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Genealogical Source Analysis and Evaluation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1370,7 +1516,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Physical Genealogical Resources and Where)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1397,7 +1543,14 @@
           "4. (4d) Tell how you found it and how you would evaluate the genealogical information you found for requirement",
           "5. (4e) Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Researchers assume that digitized online family trees represent verified, flawless primary source evidence.",
@@ -1560,7 +1713,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Genealogical or Lineage Society)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1572,12 +1725,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A genealogical or lineage society"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A genealogical or lineage society"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
@@ -1615,7 +1778,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
-          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+          "socratic_questions": [
+            "For genealogy Requirement 5a (A genealogical or lineage society), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1631,7 +1797,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Genealogy Careers and Pathways)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1643,12 +1809,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A professional genealogist (someone who gets paid for doing genealogical research)"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A professional genealogist (someone who gets paid for doing genealogical research)"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
@@ -1686,7 +1862,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
-          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+          "socratic_questions": [
+            "For genealogy Requirement 5b (A professional genealogist (someone who gets paid for doing genealogical research)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1702,7 +1881,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Surname Organization Such As Your)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1714,12 +1893,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A surname organization, such as your family's organization"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A surname organization, such as your family's organization"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
@@ -1758,7 +1947,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "title": "Req 5c: Surname and Family Organizations",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
-          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+          "socratic_questions": [
+            "For genealogy Requirement 5c (A surname organization, such as your family's organization), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1774,7 +1966,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Genealogical Educational Facility or Institution)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1786,12 +1978,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A genealogical educational facility or institution"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A genealogical educational facility or institution"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
@@ -1829,7 +2031,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
-          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+          "socratic_questions": [
+            "For genealogy Requirement 5d (A genealogical educational facility or institution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -1845,7 +2050,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 5e Quantitative Field Observation & Activity Log (Genealogical Record Repository)",
+            "table_title": "Req 5e Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1859,12 +2064,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. A genealogical record repository of any type"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A genealogical record repository of any type"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)",
           "common_misconception_pair": {
@@ -1902,7 +2118,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p025_img1.png",
           "workbook_diagram_caption": "A federal census schedule provides household names, ages, and relationships.",
-          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships."
+          "workbook_visual_caption": "A federal census schedule provides household names, ages, and relationships.",
+          "socratic_questions": [
+            "For genealogy Requirement 5e (A genealogical record repository of any type (courthouse, genealogical library, state or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1945,7 +2164,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 5 Quantitative Field Observation & Activity Log (Genealogy Careers and Pathways)",
+        "table_title": "Req 5 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1972,7 +2191,14 @@
           "4. (5d) A genealogical educational facility or institution",
           "5. (5e) A genealogical record repository of any type"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inquirers expect archival staff to conduct free, comprehensive family tree research upon request.",
@@ -2145,7 +2371,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Begin Your Family Tree by)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2164,7 +2390,13 @@
           "1. Begin your family tree by listing yourself and include at least two additional generations",
           "2. You may complete this requirement by using the chart provided in the Genealogy merit badge pamphlet or the genealogy software program of your choice"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often write married surnames on pedigree charts instead of the mother's maiden surname.",
@@ -2337,7 +2569,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 7 Quantitative Field Observation & Activity Log (Family Group Record Form Listing)",
+        "table_title": "Req 7 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2360,18 +2592,20 @@
           "2. On another family group record form, show your parent or guardian and his or her brothers and sisters as the children.",
           "3. This requirement may be completed using the chart provided or the genealogy software program of your choice."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices often omit siblings who died young from family group sheets, thinking they do not matter.",
         "fact": "Recording every child who was born prevents misidentifying surviving siblings and clarifies census household tallies."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Genealogy Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Genealogy Merit Badge Hub (Req 7)",
@@ -2528,7 +2762,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Computers and the Internet)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2540,12 +2774,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the effect computers and the internet are having on the world of genealogy"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the effect computers and the internet are having on the world of genealogy"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
@@ -2583,7 +2827,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
-          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records."
+          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records.",
+          "socratic_questions": [
+            "For genealogy Requirement 8a (Explain the effect computers and the internet are having on the world of genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2599,7 +2846,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Photography Including Microfilming Has Influenced)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2611,12 +2858,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how photography (including microfilming) has influenced genealogy"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how photography (including microfilming) has influenced genealogy"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
@@ -2654,7 +2911,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
-          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records."
+          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records.",
+          "socratic_questions": [
+            "For genealogy Requirement 8b (Explain how photography (including microfilming) has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -2678,7 +2938,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 8c Quantitative Field Observation & Activity Log (Indexing Works and How That)",
+            "table_title": "Req 8c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2692,12 +2952,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Explain how record indexing works and how that has influenced genealogy"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how record indexing works and how that has influenced genealogy"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)",
           "common_misconception_pair": {
@@ -2736,7 +3007,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/genealogy_p021_img1.png",
           "title": "Req 8c: Record Indexing Systems and Search",
           "workbook_diagram_caption": "A handwritten church christening log preserves historical baptism records.",
-          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records."
+          "workbook_visual_caption": "A handwritten church christening log preserves historical baptism records.",
+          "socratic_questions": [
+            "For genealogy Requirement 8c (Explain how record indexing works and how that has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2766,7 +3040,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 8: Technological Advancements in Genealogy",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -2775,7 +3049,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 8 Quantitative Field Observation & Activity Log (Computers and the Internet)",
+        "table_title": "Req 8 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2798,7 +3072,14 @@
           "2. (8b) Explain how photography (including microfilming) has influenced genealogy",
           "3. (8c) Explain how record indexing works and how that has influenced genealogy"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume artificial intelligence and computers can automatically build a 100 percent accurate family tree.",
@@ -2966,7 +3247,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Discuss What You Have Learned)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2978,12 +3259,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss what you have learned about your family and your family members through your genealogical research"
+          "1. Identity Discovery",
+          "2. Migration Tracking",
+          "3. Heirloom Appreciation"
         ],
         "rows": [
-          "1. Discuss what you have learned about your family and your family members through your genealogical research"
+          "1. Identity Discovery",
+          "2. Migration Tracking",
+          "3. Heirloom Appreciation"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts think genealogical research is finished as soon as names and dates fill every blank.",

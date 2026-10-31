@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Discuss How You Can Better)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -49,12 +49,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how you can better understand people, places, institutions, history, and geography as a result of collecting stamps"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how you can better understand people, places, institutions, history, and geography as a result of collecting stamps"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 12, p. 13)",
           "common_misconception_pair": {
@@ -92,7 +102,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p003_img1.png",
           "workbook_diagram_caption": "Commemorative stamps depict civil rights history and influential leaders.",
-          "workbook_visual_caption": "Commemorative stamps depict civil rights history and influential leaders."
+          "workbook_visual_caption": "Commemorative stamps depict civil rights history and influential leaders.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 1a (Discuss how you can better understand people, places, institutions, history, and geography), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,7 +125,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Stamp Collecting Origins and Evolution)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -131,7 +144,13 @@
               "1. Briefly describe some aspects of the history, growth, and development of the United States postal system.",
               "2. Tell how it is different from postal systems in other countries."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 12, p. 13)",
           "common_misconception_pair": {
@@ -169,7 +188,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p013_img2.png",
           "workbook_diagram_caption": "Commemorative stamps depict civil rights history and influential leaders.",
-          "workbook_visual_caption": "Commemorative stamps depict civil rights history and influential leaders."
+          "workbook_visual_caption": "Commemorative stamps depict civil rights history and influential leaders.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 1b (Briefly describe some aspects of the history, growth, and development of the United States), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -203,7 +225,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Postal History and World Heritage",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -212,7 +234,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Stamp Collecting Origins and Evolution)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -231,7 +253,13 @@
           "1. (1a) Discuss How You Can Better",
           "2. (1b) Stamp Collecting Origins and Evolution"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe postage stamps serve solely as prepaid shipping receipts without educational value.",
@@ -408,7 +436,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Topical Stamp Collecting)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -427,7 +455,13 @@
           "1. Define topical stamp collecting.",
           "2. Name and describe three other types of stamp collections."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe all collectors must collect every stamp issued by their native country.",
@@ -579,7 +613,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Perforated and imperforate stamps.",
+          "text": "Perforated and imperforate stamps (b) Mint and used stamps (c) Sheet, booklet, and coil stamps.",
           "resources": [
             {
               "title": "American Perforate and Imperforate Stamps (video)",
@@ -594,7 +628,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Perforated and Imperforate Stamps)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -606,12 +640,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perforated and imperforate stamps"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perforated and imperforate stamps"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -641,7 +685,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Perforated and imperforate stamps.",
+          "sub_req_text": "Perforated and imperforate stamps (b) Mint and used stamps (c) Sheet, booklet, and coil stamps.",
           "topic_title": "Req 3a: Perforated and Imperforate Varieties",
           "pamphlet_summary": "Early issues were imperforate and required separation with scissors or shears before postal clerks sold them. Perforated stamps utilize punched pinholes that allow individual stamps to separate cleanly along rows.",
           "pamphlet_excerpts": [
@@ -649,12 +693,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p012_img1.png",
           "workbook_diagram_caption": "An open stamp album displays neatly organized postage stamps from world history.",
-          "workbook_visual_caption": "An open stamp album displays neatly organized postage stamps from world history."
+          "workbook_visual_caption": "An open stamp album displays neatly organized postage stamps from world history.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3a (Perforated and imperforate stamps (b) Mint and used stamps (c) Sheet, booklet, and coil stamps), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Mint and used stamps.",
+          "text": "Mint and used stamps (c) Sheet, booklet, and coil stamps.",
           "resources": [
             {
               "title": "The Characteristics of Used Stamps Can Affect How You Collect (website)",
@@ -665,7 +712,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Mint and Used Stamps)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -677,12 +724,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Mint and used stamps"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Mint and used stamps"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -712,7 +769,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Mint and used stamps.",
+          "sub_req_text": "Mint and used stamps (c) Sheet, booklet, and coil stamps.",
           "topic_title": "Req 3b: Mint and Used Specimens",
           "pamphlet_summary": "A mint stamp exists in unused state with intact gum and pristine paper surfaces. Used stamps exhibit cancellation lines, postmarks, or obliterations applied by postal facilities during transit.",
           "pamphlet_excerpts": [
@@ -720,7 +777,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3b (Mint and used stamps (c) Sheet, booklet, and coil stamps), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -736,7 +796,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Sheet Booklet and Coil Stamps)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -748,12 +808,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Sheet, booklet, and coil stamps"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sheet, booklet, and coil stamps"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -791,12 +861,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3c (Sheet, booklet, and coil stamps), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
           "label": "(d)",
-          "text": "Numbers on plate block, booklet, coil, or marginal markings.",
+          "text": "Numbers on plate block, booklet, coil, or marginal markings (e) Overprint and surcharge (f) Metered mail.",
           "resources": [
             {
               "title": "First US Commemorative Stamp Booklet (video)",
@@ -807,7 +880,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Numbers on Plate Block Booklet)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -819,12 +892,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Numbers on plate block, booklet, coil, or marginal markings"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Numbers on plate block, booklet, coil, or marginal markings"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -854,7 +937,7 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Numbers on plate block, booklet, coil, or marginal markings.",
+          "sub_req_text": "Numbers on plate block, booklet, coil, or marginal markings (e) Overprint and surcharge (f) Metered mail.",
           "topic_title": "Req 3d: Plate Numbers Marginal Markings",
           "pamphlet_summary": "Printing plates contain engraved numbers, copyright notices, and color registration marks on sheet margins. Collectors retain blocks of four or more stamps attached to this selvage to authenticate cylinder production.",
           "pamphlet_excerpts": [
@@ -862,12 +945,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3d (Numbers on plate block, booklet, coil, or marginal markings (e) Overprint and surcharge (f)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
           "label": "(e)",
-          "text": "Overprint and surcharge.",
+          "text": "Overprint and surcharge (f) Metered mail.",
           "resources": [
             {
               "title": "Precancels, Overprints, and Occupations (video)",
@@ -882,7 +968,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Overprint and Surcharge)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -894,12 +980,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Overprint and surcharge"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Overprint and surcharge"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -929,7 +1025,7 @@
           ],
           "id": "3e",
           "sub_req_label": "3e",
-          "sub_req_text": "Overprint and surcharge.",
+          "sub_req_text": "Overprint and surcharge (f) Metered mail.",
           "topic_title": "Req 3e: Overprints and Postal Surcharges",
           "pamphlet_summary": "An overprint adds text or graphics to an existing stamp to change its administrative function. When the text revalues the stamp with a new face amount, it is termed a surcharge.",
           "pamphlet_excerpts": [
@@ -937,7 +1033,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3e (Overprint and surcharge (f) Metered mail), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
@@ -957,7 +1056,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Metered Mail)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -969,12 +1068,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Metered mail"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Metered mail"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -1012,12 +1121,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3f (Metered mail), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
           "label": "(g)",
-          "text": "Definitive, commemorative, semipostal, and airmail stamps.",
+          "text": "Definitive, commemorative, semipostal, and airmail stamps (h) Cancellation and postmark (i) First day cover.",
           "resources": [
             {
               "title": "A Crash Course on U.S. Stamp Categories (video)",
@@ -1040,7 +1152,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Definitive Commemorative Semipostal and Airmail)",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1052,12 +1164,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Definitive, commemorative, semipostal, and airmail stamps"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Definitive, commemorative, semipostal, and airmail stamps"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -1087,7 +1209,7 @@
           ],
           "id": "3g",
           "sub_req_label": "3g",
-          "sub_req_text": "Definitive, commemorative, semipostal, and airmail stamps.",
+          "sub_req_text": "Definitive, commemorative, semipostal, and airmail stamps (h) Cancellation and postmark (i) First day cover.",
           "topic_title": "Req 3g: Definitive Commemorative Semipostal Classes",
           "pamphlet_summary": "Definitive issues remain on sale for years in standard denominations for everyday postal needs. Commemoratives honor historical events for limited periods, while semipostals collect extra charitable funds.",
           "pamphlet_excerpts": [
@@ -1095,12 +1217,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3g (Definitive, commemorative, semipostal, and airmail stamps (h) Cancellation and postmark (i)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3h",
           "label": "(h)",
-          "text": "Cancellation and postmark.",
+          "text": "Cancellation and postmark (i) First day cover.",
           "resources": [
             {
               "title": "Postmarks and Cancels (video)",
@@ -1111,7 +1236,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3h Structured Technical Study & Explanation Matrix (Cancellation and Postmark)",
+            "table_title": "Req 3h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1123,12 +1248,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cancellation and postmark"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Cancellation and postmark"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -1158,7 +1293,7 @@
           ],
           "id": "3h",
           "sub_req_label": "3h",
-          "sub_req_text": "Cancellation and postmark.",
+          "sub_req_text": "Cancellation and postmark (i) First day cover.",
           "topic_title": "Req 3h: Cancellation and Postmark Markings",
           "pamphlet_summary": "The postmark records the post office location, date, and time of mailing on the letter. The cancellation consists of ink bars or cork designs that deface the stamp to prevent reuse.",
           "pamphlet_excerpts": [
@@ -1166,7 +1301,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3h (Cancellation and postmark (i) First day cover), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3i",
@@ -1182,7 +1320,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3i Structured Technical Study & Explanation Matrix (Day Cover)",
+            "table_title": "Req 3i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1194,12 +1332,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. First day cover"
+              "1. Req 3i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3i Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. First day cover"
+              "1. Req 3i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3i Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -1237,7 +1385,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3i (First day cover), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3j",
@@ -1253,7 +1404,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3j Structured Technical Study & Explanation Matrix (Postal Stationery Aerogramme Stamped Envelope)",
+            "table_title": "Req 3j Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3j Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1265,12 +1416,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Postal stationery (aerogramme, stamped envelope, and postal card)"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Postal stationery (aerogramme, stamped envelope, and postal card)"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3j Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 33)",
           "common_misconception_pair": {
@@ -1308,7 +1469,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img1.png",
           "workbook_diagram_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
-          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps."
+          "workbook_visual_caption": "A commemorative first day cover envelope features canceled scouting stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 3j (Postal stationery (aerogramme, stamped envelope, and postal card)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1399,7 +1563,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Perforated and Imperforate Stamps B)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1430,7 +1594,13 @@
           "7. (3g) Definitive Commemorative Semi postal and Airmail",
           "8. (3h) Cancellation and Postmark"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners frequently assume scissors were originally used to create jagged perforation teeth on purpose.",
@@ -1605,7 +1775,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (Standard Catalog for Several Different)",
+            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1624,7 +1794,13 @@
               "1. Demonstrate the use of ONE standard catalog for several different stamp issues.",
               "2. Explain why catalog value can vary from the corresponding purchase price."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
@@ -1662,7 +1838,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p037_img1.png",
           "workbook_diagram_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower.",
-          "workbook_visual_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower."
+          "workbook_visual_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 4a (Demonstrate the use of ONE standard catalog for several different stamp issues. Explain why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1678,7 +1857,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Condition Used Stamp Illustrate)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1697,7 +1876,13 @@
               "1. Explain the meaning of the term condition as used to describe a stamp.",
               "2. Show examples that illustrate the different factors that affect a stamp's value."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
@@ -1735,7 +1920,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p037_img1.png",
           "workbook_diagram_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower.",
-          "workbook_visual_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower."
+          "workbook_visual_caption": "A one cent Pilgrim Tercentenary commemorative stamp portrays the Mayflower.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 4b (Explain the meaning of the term condition as used to describe a stamp. Show examples that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1778,7 +1966,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Standard Catalog for Several Different)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1797,7 +1985,13 @@
           "1. (4a) Standard Catalog for Several Different",
           "2. (4b) Condition Used Stamp Illustrate"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices believe catalog numbers represent immutable cash prices dealers must pay to sellers.",
@@ -1949,7 +2143,7 @@
         {
           "sub_id": "5a",
           "label": "(a)",
-          "text": "Stamp tongs.",
+          "text": "Stamp tongs (b) Water and tray (c) Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge.",
           "resources": [
             {
               "title": "Stamp Collecting Tools Ep3 - Top 3 Everyday Use Tools for the Philatelist (video)",
@@ -1964,7 +2158,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Stamp Tongs)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1976,12 +2170,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stamp tongs"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Stamp tongs"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2011,7 +2215,7 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Stamp tongs.",
+          "sub_req_text": "Stamp tongs (b) Water and tray (c) Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge.",
           "topic_title": "Req 5a: Spade Tip Stamp Tongs",
           "pamphlet_summary": "Stamp tongs feature smooth, rounded or spade-shaped tips designed to lift fragile paper without puncturing. They isolate stamps from corrosive skin oils, dirt, and moisture present on human fingers.",
           "pamphlet_excerpts": [
@@ -2019,12 +2223,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5a (Stamp tongs (b) Water and tray (c) Magnifiers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
-          "text": "Water and tray.",
+          "text": "Water and tray (c) Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves.",
           "resources": [
             {
               "title": "How to Soak Postage Stamps off Paper (video)",
@@ -2035,7 +2242,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Water and Tray)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2047,12 +2254,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Water and tray"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Water and tray"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2082,7 +2299,7 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Water and tray.",
+          "sub_req_text": "Water and tray (c) Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves.",
           "topic_title": "Req 5b: Water Soaking and Trays",
           "pamphlet_summary": "Soaking stamps in lukewarm water dissolves water-soluble adhesives to release paper backing from used envelopes. A drying book or blotter press prevents curled edges as the damp paper dries flat.",
           "pamphlet_excerpts": [
@@ -2090,12 +2307,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5b (Water and tray (c) Magnifiers (d) Hinges and stamp mounts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
-          "text": "Magnifiers.",
+          "text": "Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "resources": [
             {
               "title": "Stamp Collecting Tools Ep3 - Top 3 Everyday Use Tools for the Philatelist (video)",
@@ -2106,7 +2326,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Stamp Collecting Magnifiers Principles)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2118,12 +2338,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Magnifiers"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Magnifiers"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2153,7 +2383,7 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "Magnifiers.",
+          "sub_req_text": "Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "topic_title": "Req 5c: Magnifying Loupes and Lenses",
           "pamphlet_summary": "Magnifiers ranging from five to ten power enlarge engraved line patterns and surface details. Philatelists use them to identify printing methods, repair work, hidden secret marks, and hairline plate varieties.",
           "pamphlet_excerpts": [
@@ -2161,12 +2391,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5c (Magnifiers (d) Hinges and stamp mounts (e) Perforation gauge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
           "label": "(d)",
-          "text": "Hinges and stamp mounts.",
+          "text": "Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "resources": [
             {
               "title": "How to Trim Self-Adhesive Stamps for Mounts (video)",
@@ -2177,7 +2410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Hinges and Stamp)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2189,12 +2422,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Hinges and stamp mounts"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Hinges and stamp mounts"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2224,7 +2467,7 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Hinges and stamp mounts.",
+          "sub_req_text": "Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "topic_title": "Req 5d: Hinges and Protective Mounts",
           "pamphlet_summary": "Folded glassine hinges attach inexpensive used stamps to paper album pages with light moisture. Mint stamps require clear inert plastic mounts to preserve fragile gum without adhesive contact.",
           "pamphlet_excerpts": [
@@ -2232,12 +2475,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5d (Hinges and stamp mounts (e) Perforation gauge (f) Glassine envelopes and cover sleeves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
           "label": "(e)",
-          "text": "Perforation gauge.",
+          "text": "Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "resources": [
             {
               "title": "How to Use a Perforation Gauge (video)",
@@ -2248,7 +2494,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Perforation Gauge)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2260,12 +2506,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perforation gauge"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perforation gauge"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2295,7 +2551,7 @@
           ],
           "id": "5e",
           "sub_req_label": "5e",
-          "sub_req_text": "Perforation gauge.",
+          "sub_req_text": "Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "topic_title": "Req 5e: Perforation Gauge Measurement",
           "pamphlet_summary": "A perforation gauge measures the standard number of perforation indentations within a two-centimeter span. Identifying exact gauge measurements differentiates identical-looking stamps issued across different rotary or flat plate printings.",
           "pamphlet_excerpts": [
@@ -2303,12 +2559,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5e (Perforation gauge (f) Glassine envelopes and cover sleeves (g) Watermark fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
           "label": "(f)",
-          "text": "Glassine envelopes and cover sleeves.",
+          "text": "Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "resources": [
             {
               "title": "Even Stamp Collectors Need the Right Tools (video)",
@@ -2319,7 +2578,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Glassine Envelopes and Cover Sleeves)",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2331,12 +2590,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Glassine envelopes and cover sleeves"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Glassine envelopes and cover sleeves"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2366,7 +2635,7 @@
           ],
           "id": "5f",
           "sub_req_label": "5f",
-          "sub_req_text": "Glassine envelopes and cover sleeves.",
+          "sub_req_text": "Glassine envelopes and cover sleeves (g) Watermark fluid.",
           "topic_title": "Req 5f: Glassine Envelopes and Sleeves",
           "pamphlet_summary": "Glassine envelopes are manufactured from acid-free, smooth translucent paper that resists grease and air pollutants. Clear archival plastic cover sleeves protect historical postal envelopes from physical handling and airborne particulate debris.",
           "pamphlet_excerpts": [
@@ -2374,7 +2643,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5f (Glassine envelopes and cover sleeves (g) Watermark fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5g",
@@ -2390,7 +2662,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5g Structured Technical Study & Explanation Matrix (Watermark Fluid)",
+            "table_title": "Req 5g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2402,12 +2674,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Watermark fluid"
+              "1. Req 5g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Watermark fluid"
+              "1. Req 5g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 55, p. 56)",
           "common_misconception_pair": {
@@ -2445,7 +2727,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p055_img1.png",
           "workbook_diagram_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
-          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper."
+          "workbook_visual_caption": "Metal stamp tongs prevent oily fingerprints from damaging delicate paper.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 5g (Watermark fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2496,7 +2781,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Stamp Collector's Tools A Stamp)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2525,7 +2810,13 @@
           "6. (5f) Glassine Envelopes and Cover Sleeves",
           "7. (5g) Watermark Fluid"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners think stamp tongs are interchangeable with common sharp household cosmetic tweezers.",
@@ -2688,7 +2979,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Stamp Album)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2707,7 +2998,13 @@
               "1. Show a stamp album and how to mount stamps with or without hinges.",
               "2. Show at least ONE page that displays several stamps."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
@@ -2745,7 +3042,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p032_img1.png",
           "workbook_diagram_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps.",
-          "workbook_visual_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps."
+          "workbook_visual_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 6a (Show a stamp album and how to mount stamps with or without hinges. Show at least ONE page), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2761,7 +3061,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Discuss at Least THREE Ways)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2773,12 +3073,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss at least THREE ways you can help to preserve stamps, covers, and albums in first-class condition"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss at least THREE ways you can help to preserve stamps, covers, and albums in first-class condition"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
@@ -2816,7 +3126,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p032_img1.png",
           "workbook_diagram_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps.",
-          "workbook_visual_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps."
+          "workbook_visual_caption": "A historic envelope combines the Apollo 8 Earth rise stamp with soil stamps.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 6b (Discuss at least THREE ways you can help to preserve stamps, covers, and albums in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2851,7 +3164,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Stamp Album)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2870,7 +3183,13 @@
           "1. (6a) Stamp Album",
           "2. (6b) Discuss At Least THREE Ways"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often store albums flat in damp basements or hot unventilated attic spaces.",
@@ -3045,7 +3364,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Stamp Cancellation or Cachet)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3057,12 +3376,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Design a stamp, cancellation, or cachet"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Design a stamp, cancellation, or cachet"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
@@ -3100,7 +3429,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7a (Design a stamp, cancellation, or cachet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3124,7 +3456,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Post Office Stamp Club or)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3143,7 +3475,12 @@
               "1. Visit a post office, stamp club, or stamp show with an experienced collector.",
               "2. Explain what you saw and learned."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
@@ -3182,7 +3519,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "title": "Req 7b: Visiting Stamp Shows or Clubs",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7b (Visit a post office, stamp club, or stamp show with an experienced collector. Explain what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -3198,7 +3538,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Interesting Article from A Stamp)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3210,24 +3550,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write a review of an interesting article from a stamp newspaper, magazine, book, or website (with your parent or guardian's permission)"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Write a review of an interesting article from a stamp newspaper, magazine, book, or website (with your parent or guardian's permission)"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
             "misconception": "Beginners often think stamp magazines only print basic lists of newly issued stamps.",
             "fact": "Philatelic literature publishes scholarly research on rates, routes, counterfeit detection, and production errors."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Stamp Collecting Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Stamp Collecting Merit Badge Hub (Req 7c)",
@@ -3258,7 +3603,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7c (Write a review of an interesting article from a stamp newspaper, magazine, book, or website), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -3274,7 +3622,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Famous Stamp-related Personality or the)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3286,12 +3634,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Research and report on a famous stamp-related personality or the history behind a particular stamp"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Research and report on a famous stamp-related personality or the history behind a particular stamp"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
@@ -3330,7 +3688,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "title": "Req 7d: Researching Famous Stamp History",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7d (Research and report on a famous stamp-related personality or the history behind a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
@@ -3346,7 +3707,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Taken to Produce A Stamp)",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3365,7 +3726,13 @@
               "1. Describe the steps taken to produce a stamp.",
               "2. Include the methods of printing, types of paper, perforation styles, and how they are gummed."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
@@ -3403,7 +3770,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7e (Describe the steps taken to produce a stamp. Include the methods of printing, types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
@@ -3419,7 +3789,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7f Structured Technical Study & Explanation Matrix (Two- to Three-page Display Involving)",
+            "table_title": "Req 7f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3438,7 +3808,13 @@
               "1. Prepare a two- to three-page display involving stamps",
               "2. Using ingenuity, as well as clippings, drawings, etc., tell a story about the stamps and how they relate to history, geography, or a favorite topic of yours"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 22, p. 63)",
           "common_misconception_pair": {
@@ -3476,7 +3852,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p063_img1.png",
           "workbook_diagram_caption": "A commemorative postmark design honors a historical railway hub.",
-          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub."
+          "workbook_visual_caption": "A commemorative postmark design honors a historical railway hub.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 7f (Prepare a two- to three-page display involving stamps. Using ingenuity, as well as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3543,7 +3922,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Stamp Cancellation or Cachet)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3570,7 +3949,12 @@
           "5. (7e) Describe the steps taken to produce a stamp",
           "6. (7f) Prepare a two- to three-page display involving stamps"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often assume modern postage stamps are printed on ordinary office printing equipment.",
@@ -3733,7 +4117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Collection of or More Different)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3745,12 +4129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A collection of 250 or more different stamps from at least 15 countries"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A collection of 250 or more different stamps from at least 15 countries"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -3788,18 +4182,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img3.png",
           "workbook_diagram_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
-          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila."
+          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 8a (A collection of 250 or more different stamps from at least 15 countries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
           "label": "(b)",
-          "text": "A collection of a stamp from each of 50 different countries, mounted on maps to show the location.",
+          "text": "A collection of a stamp from each of 50 different countries, mounted on maps to show the location of each.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Collection of A Stamp)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3811,12 +4208,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A collection of a stamp from each of 50 different countries, mounted on maps to show the location"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A collection of a stamp from each of 50 different countries, mounted on maps to show the location"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -3846,7 +4253,7 @@
           ],
           "id": "8b",
           "sub_req_label": "8b",
-          "sub_req_text": "A collection of a stamp from each of 50 different countries, mounted on maps to show the location.",
+          "sub_req_text": "A collection of a stamp from each of 50 different countries, mounted on maps to show the location of each.",
           "topic_title": "Req 8b: Map Mounted Country Collection",
           "pamphlet_summary": "Mounting fifty representative stamps directly onto regional maps illustrates the physical locations of issuing sovereign nations. This cartographic display connects national emblems and leaders to their respective territories and capitals.",
           "pamphlet_excerpts": [
@@ -3854,7 +4261,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img3.png",
           "workbook_diagram_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
-          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila."
+          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 8b (A collection of a stamp from each of 50 different countries, mounted on maps to show the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3865,7 +4275,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Collection of or More Different)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3877,12 +4287,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A collection of 100 or more different stamps from either one country or a group of closely related countries"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A collection of 100 or more different stamps from either one country or a group of closely related countries"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -3920,7 +4340,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img3.png",
           "workbook_diagram_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
-          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila."
+          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 8c (A collection of 100 or more different stamps from either one country or a group of closely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -3931,7 +4354,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Collection of or More Different)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3950,7 +4373,13 @@
               "1. A collection of 75 or more different stamps on a single topic",
               "2. (Some interesting topics include Scouting, birds, insects, the Olympics, sports, flowers, animals, ships, holidays, trains, famous people, space, and medicine.) Stamps may be from different countries"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -3988,7 +4417,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img3.png",
           "workbook_diagram_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
-          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila."
+          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 8d (A collection of 75 or more different stamps on a single topic. (Some interesting topics), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -3999,7 +4431,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Collection of Postal Items Discovered)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4018,7 +4450,12 @@
               "1. A collection of postal items discovered in your mail by monitoring it over a period of 30 days.",
               "2. Include at least five different types listed in requirement 3."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Stamp Collecting Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -4056,7 +4493,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/stamp_collecting_p023_img3.png",
           "workbook_diagram_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
-          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila."
+          "workbook_visual_caption": "A collector first day cover marks the 1959 World Scout Jamboree in Manila.",
+          "socratic_questions": [
+            "For stamp collecting Requirement 8e (A collection of postal items discovered in your mail by monitoring it over a period of 30), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4083,7 +4523,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Purchased or Homemade Album)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4108,7 +4548,13 @@
           "4. (8d) Collection of or More Different",
           "5. (8e) Collection of Postal Items Discovered"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often assume a collection must consist of expensive antique stamps to qualify for completion.",

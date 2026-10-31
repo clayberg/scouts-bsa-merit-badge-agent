@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Own Words Define Entrepreneurship)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -70,7 +70,13 @@
           "3. Core principles and practical standards for Defining Entrepreneurship and Economic Impact",
           "4. Core principles and practical standards for Defining Entrepreneurship and Economic Impact"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Starting any independent business guarantees immediate wealth and eliminates workplace supervision.",
@@ -251,7 +257,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Having Good Skills)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -263,12 +269,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem"
+          "1. Direct Communication Value",
+          "2. Financial Math Literacy",
+          "3. Adaptive Decision Execution"
         ],
         "rows": [
-          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem"
+          "1. Direct Communication Value",
+          "2. Financial Math Literacy",
+          "3. Adaptive Decision Execution"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Entrepreneurs only need charisma and creative vision rather than rigorous arithmetic competencies.",
@@ -436,7 +452,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Individual Who Has Started A)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -459,7 +475,12 @@
           "3. Find out how the entrepreneur raised the capital (money) to start the business, examples of successes and challenges faced",
           "4. Discuss with your counselor what you have learned"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every successful business founder holds an advanced academic degree in corporate administration.",
@@ -632,7 +653,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Think of As Many Ideas)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -653,7 +674,13 @@
           "2. From your list, select three ideas you believe represent the best opportunities",
           "3. Choose one of these and explain to your counselor why you selected it and why you feel it can be successful"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The first business idea that comes to mind is usually the most profitable.",
@@ -817,7 +844,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(1) Structured Technical Study & Explanation Matrix (Product or Service to Be)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -829,12 +856,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Describe the product or service to be offered"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Describe the product or service to be offered"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -896,7 +933,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(2) Structured Technical Study & Explanation Matrix (Goals for Your Business)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -908,12 +945,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify goals for your business"
+                  "1. Req 5a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify goals for your business"
+                  "1. Req 5a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -965,7 +1012,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(3) Structured Technical Study & Explanation Matrix (You Can Make Enough)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -977,12 +1024,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain how you can make enough of the product or perform the service to meet your goals"
+                  "1. Req 5a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain how you can make enough of the product or perform the service to meet your goals"
+                  "1. Req 5a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1039,7 +1096,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(4) Structured Technical Study & Explanation Matrix (Potential Liability Risks for Your)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1051,12 +1108,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify and describe the potential liability risks for your product or service"
+                  "1. Req 5a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify and describe the potential liability risks for your product or service"
+                  "1. Req 5a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1118,7 +1185,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(5) Structured Technical Study & Explanation Matrix (License If Any You)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1130,12 +1197,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Determine what type of license, if any, you might need in order to sell or make your product or service"
+                  "1. Req 5a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Determine what type of license, if any, you might need in order to sell or make your product or service"
+                  "1. Req 5a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1182,7 +1259,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Product or Service Describe the)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1207,7 +1284,13 @@
               "4. (5a(4)) Identify and describe the potential liability risks for your product or service",
               "5. (5a(5)) Determine what type of license, if any, you might need in order to sell or make your product or service"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
           "common_misconception_pair": {
@@ -1246,7 +1329,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
           "title": "Req 5a: Product or Service Offering",
           "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+          "socratic_questions": [
+            "For entrepreneurship Requirement 5a (Product or Service (1) Describe the product or service to be offered. (2) Identify goals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1268,7 +1354,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(1) Structured Technical Study & Explanation Matrix (People Who Would Buy Your)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1280,12 +1366,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify the types of people who would buy your product or service"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify the types of people who would buy your product or service"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1347,7 +1443,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(2) Structured Technical Study & Explanation Matrix (Business's Competitors and Describe Their)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1359,12 +1455,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify your business's competitors, and describe their strengths and weaknesses"
+                  "1. Req 5b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify your business's competitors, and describe their strengths and weaknesses"
+                  "1. Req 5b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1426,7 +1532,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(3) Structured Technical Study & Explanation Matrix (Product or Service Unique)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1438,12 +1544,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Describe what makes your product or service unique"
+                  "1. Req 5b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Describe what makes your product or service unique"
+                  "1. Req 5b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1490,7 +1606,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Market Analysis)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1511,7 +1627,13 @@
               "2. (5b(2)) Identify your business's competitors, and describe their strengths and weaknesses",
               "3. (5b(3)) Describe what makes your product or service unique"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
           "common_misconception_pair": {
@@ -1549,7 +1671,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
           "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+          "socratic_questions": [
+            "For entrepreneurship Requirement 5b (Market Analysis (1) Identify the types of people who would buy your product or service. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1575,7 +1700,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(1) Structured Technical Study & Explanation Matrix (Much Money You)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1587,12 +1712,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Determine how much money you will need to start your business, and identify how you will obtain the money"
+                  "1. Req 5c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Determine how much money you will need to start your business, and identify how you will obtain the money"
+                  "1. Req 5c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1649,7 +1784,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(2) Hands-On Skill Station & EDGE Verification Checklist (Cost of Offering Your Product)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -1661,12 +1796,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Determine the cost of offering your product or service and the price you will charge in order to make a profit"
+                  "1. Req 5c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Determine the cost of offering your product or service and the price you will charge in order to make a profit"
+                  "1. Req 5c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1723,7 +1868,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(3) Structured Technical Study & Explanation Matrix (Will Happen with the Money)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1735,12 +1880,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Describe what will happen with the money you make from the sales of your product or service"
+                  "1. Req 5c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Describe what will happen with the money you make from the sales of your product or service"
+                  "1. Req 5c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1787,7 +1942,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Financial Determine How Much Money)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1799,16 +1954,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. (5c(1)) Much Money You",
+              "1. (5c(1)) Much Money",
               "2. (5c(2)) Cost of Offering Your Product",
               "3. (5c(3)) Will Happen With The Money"
             ],
             "rows": [
-              "1. (5c(1)) Much Money You",
+              "1. (5c(1)) Much Money",
               "2. (5c(2)) Cost of Offering Your Product",
               "3. (5c(3)) Will Happen With The Money"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
           "common_misconception_pair": {
@@ -1846,7 +2007,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
           "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+          "socratic_questions": [
+            "For entrepreneurship Requirement 5c (Financial (1) Determine how much money you will need to start your business, and identify), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1868,7 +2032,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(1) Structured Technical Study & Explanation Matrix (Business You Will Handle Yourself)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1880,12 +2044,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Determine what parts of the business you will handle yourself, and describe your qualifications"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Determine what parts of the business you will handle yourself, and describe your qualifications"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -1937,7 +2111,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(2) Structured Technical Study & Explanation Matrix (Whether You Will Need Additional)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1956,7 +2130,13 @@
                   "1. Determine whether you will need additional help to operate your business.",
                   "2. If you will need help, describe the responsibilities and qualifications needed for the personnel who will fill each role."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -2003,7 +2183,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Personnel Business Will Handle)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2022,7 +2202,13 @@
               "1. (5d(1)) Business You Will Handle Yourself",
               "2. (5d(2)) Whether You Will Need Additional"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
           "common_misconception_pair": {
@@ -2060,7 +2246,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
           "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+          "socratic_questions": [
+            "For entrepreneurship Requirement 5d (Personnel (1) Determine what parts of the business you will handle yourself, and describe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2091,7 +2280,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5e(1) Structured Technical Study & Explanation Matrix (You Will Use to Promote)",
+                "table_title": "Req 5e",
                 "headers": [
                   "Req 5e(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2103,12 +2292,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Describe the methods you will use to promote your business to potential customers"
+                  "1. Req 5e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Describe the methods you will use to promote your business to potential customers"
+                  "1. Req 5e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5e(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -2165,7 +2364,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5e(2) Structured Technical Study & Explanation Matrix (You Will Utilize the Internet)",
+                "table_title": "Req 5e",
                 "headers": [
                   "Req 5e(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2177,12 +2376,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain how you will utilize the internet and social media to increase awareness of your product or service"
+                  "1. Req 5e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain how you will utilize the internet and social media to increase awareness of your product or service"
+                  "1. Req 5e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5e(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -2251,7 +2460,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5e(3) Structured Technical Study & Explanation Matrix (Promotional Flyer or Poster)",
+                "table_title": "Req 5e",
                 "headers": [
                   "Req 5e(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2263,12 +2472,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Design a promotional flyer or poster for your product or service"
+                  "1. Req 5e(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Design a promotional flyer or poster for your product or service"
+                  "1. Req 5e(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5e(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5e(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5e(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
@@ -2315,7 +2534,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Promotion and Marketing)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2336,7 +2555,13 @@
               "2. (5e(2)) You Will Utilize The Internet",
               "3. (5e(3)) Promotional Flyer or Poster"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
           "common_misconception_pair": {
@@ -2374,7 +2599,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
           "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+          "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+          "socratic_questions": [
+            "For entrepreneurship Requirement 5e (Promotion and Marketing (1) Describe the methods you will use to promote your business to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2497,7 +2725,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Written Business Plan for Your)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2522,7 +2750,13 @@
           "4. (5d) Personnel (1) Determine what parts of the business you will handle yourself, and describe your qualifications",
           "5. (5e) Promotion and Marketing (1) Describe the methods you will use to promote your business to potential customers"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Business plans are purely decorative documents created solely to satisfy lending bank paperwork.",
@@ -2703,7 +2937,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (You Believe Your Business Idea)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2726,7 +2960,13 @@
           "3. How would you overcome any failures?",
           "4. Discuss with your counselor any ethical questions you might face and how you would deal with them."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Cutting product quality in secret is an acceptable tactic to preserve profit margins.",

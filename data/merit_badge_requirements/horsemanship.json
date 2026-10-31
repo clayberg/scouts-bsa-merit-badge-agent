@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Safety Precautions You)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the safety precautions you should take when handling and caring for a horse"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the safety precautions you should take when handling and caring for a horse"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 25, p. 54)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p003_img1.png",
           "workbook_diagram_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring.",
-          "workbook_visual_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring."
+          "workbook_visual_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring.",
+          "socratic_questions": [
+            "For horsemanship Requirement 1a (Describe the safety precautions you should take when handling and caring for a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Fire Safety Precautions You)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the fire safety precautions you should take in a barn and around horses"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the fire safety precautions you should take in a barn and around horses"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 25, p. 54)",
           "common_misconception_pair": {
@@ -159,7 +182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p024_img1.png",
           "workbook_diagram_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring.",
-          "workbook_visual_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring."
+          "workbook_visual_caption": "A young Scout wearing an equestrian helmet rides a paint horse inside a ring.",
+          "socratic_questions": [
+            "For horsemanship Requirement 1b (Describe the fire safety precautions you should take in a barn and around horses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -181,7 +207,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Equine Handling and Fire Safety",
-      "action_verb": "Demonstrate",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never wrap lead ropes or reins around fingers, hands, or wrists under any circumstance.",
@@ -190,7 +216,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safety Precautions You)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -202,14 +228,20 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. (1a) Safety Precautions You",
-          "2. (1b) Fire Safety Precautions You"
+          "1. (1a) Safety Precautions",
+          "2. (1b) Fire Safety Precautions"
         ],
         "rows": [
-          "1. (1a) Safety Precautions You",
-          "2. (1b) Fire Safety Precautions You"
+          "1. (1a) Safety Precautions",
+          "2. (1b) Fire Safety Precautions"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Horses see directly behind themselves and welcome unexpected approaches from the rear stall entrance.",
@@ -395,7 +427,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Horse and Discuss the Function)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -407,12 +439,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Name 15 parts of a horse and discuss the function of each with your counselor"
+          "1. Withers Ridge Function",
+          "2. Hock Joint Purpose",
+          "3. Frog Shock Dissipation"
         ],
         "rows": [
-          "1. Name 15 parts of a horse and discuss the function of each with your counselor"
+          "1. Withers Ridge Function",
+          "2. Hock Joint Purpose",
+          "3. Frog Shock Dissipation"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The equine hock bends forward in the same anatomical direction as human knee joints.",
@@ -589,7 +631,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Breeds of Horses Explain the)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -608,7 +650,13 @@
           "1. Name four breeds of horses.",
           "2. Explain the special features for which each breed is known."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All horse breeds possess identical bone density and muscle composition for athletic tasks.",
@@ -781,7 +829,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Symptoms of Colic)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -800,7 +848,13 @@
           "1. Describe the symptoms of colic.",
           "2. Name and describe four other horse health problems."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Colic is a single digestive illness easily treated by feeding extra dry hay.",
@@ -977,7 +1031,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Equine Conformation and Lameness Signs)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Temporary Lameness From Pain or Injury",
@@ -996,7 +1050,13 @@
           "1. Explain what conformation is and why it is important.",
           "2. Explain the difference between lameness and unsoundness."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Temporary Lameness From Pain or Injury",
+          "Permanent Structural Defects of Unsoundness"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every conformational blemish inevitably renders an athletic horse permanently lame and unrideable.",
@@ -1169,7 +1229,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Hoof Care and Why A)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1181,12 +1241,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the importance of hoof care and why a horse might need to wear shoes"
+          "1. Farrier Trimming Interval",
+          "2. Sole Protection Need",
+          "3. Therapeutic Farriery Value"
         ],
         "rows": [
-          "1. Explain the importance of hoof care and why a horse might need to wear shoes"
+          "1. Farrier Trimming Interval",
+          "2. Sole Protection Need",
+          "3. Therapeutic Farriery Value"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wild horses naturally wear shoes to survive outside domestication and human care.",
@@ -1363,7 +1433,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Groom A Horse Including Picking)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1375,12 +1445,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Demonstrate how to groom a horse, including picking hooves and caring for a horse after a ride"
+          "1. Curry Comb Circulars",
+          "2. Dandy Brush Flick",
+          "3. Body Brush Finish"
         ],
         "rows": [
-          "1. Demonstrate how to groom a horse, including picking hooves and caring for a horse after a ride"
+          "1. Curry Comb Circulars",
+          "2. Dandy Brush Flick",
+          "3. Body Brush Finish"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Stabling a sweaty horse immediately after hard work is acceptable if food is available.",
@@ -1558,7 +1638,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Much to Feed A Horse)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1570,12 +1650,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain how to determine what and how much to feed a horse and why the amount and kind of feed are changed according to the activity level and the breed of horse"
+          "1. Forage Foundation Requirement",
+          "2. Weight Based Rationing",
+          "3. Water Hydration Baseline"
         ],
         "rows": [
-          "1. Explain how to determine what and how much to feed a horse and why the amount and kind of feed are changed according to the activity level and the breed of horse"
+          "1. Forage Foundation Requirement",
+          "2. Weight Based Rationing",
+          "3. Water Hydration Baseline"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Horses thrive best on an exclusive diet of sweet grain without grass or hay.",
@@ -1738,7 +1828,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Saddle and Bridle That You)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1750,12 +1840,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name 10 parts of the saddle and bridle that you will use, and explain how to care for this equipment"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name 10 parts of the saddle and bridle that you will use, and explain how to care for this equipment"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)",
           "common_misconception_pair": {
@@ -1793,7 +1893,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p012_img1.png",
           "workbook_diagram_caption": "Two alert horses walk alongside each other across a grassy open field.",
-          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field."
+          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field.",
+          "socratic_questions": [
+            "For horsemanship Requirement 9a (Name 10 parts of the saddle and bridle that you will use, and explain how to care for this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -1813,7 +1916,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9b Hands-On Skill Station & EDGE Verification Checklist (Saddle and Bridle A Horse)",
+            "table_title": "Req 9b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1825,12 +1928,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to properly saddle and bridle a horse"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to properly saddle and bridle a horse"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)",
           "common_misconception_pair": {
@@ -1868,7 +1981,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p012_img1.png",
           "workbook_diagram_caption": "Two alert horses walk alongside each other across a grassy open field.",
-          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field."
+          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field.",
+          "socratic_questions": [
+            "For horsemanship Requirement 9b (Show how to properly saddle and bridle a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -1896,7 +2012,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9c Hands-On Skill Station & EDGE Verification Checklist (Dismount A Horse)",
+            "table_title": "Req 9c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1908,12 +2024,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to safely mount and dismount a horse"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to safely mount and dismount a horse"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)",
           "common_misconception_pair": {
@@ -1951,7 +2077,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p012_img1.png",
           "workbook_diagram_caption": "Two alert horses walk alongside each other across a grassy open field.",
-          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field."
+          "workbook_visual_caption": "Two alert horses walk alongside each other across a grassy open field.",
+          "socratic_questions": [
+            "For horsemanship Requirement 9c (Demonstrate how to safely mount and dismount a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2002,7 +2131,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (Saddle and Bridle That You)",
+        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2014,16 +2143,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. (9a) Saddle and Bridle That You",
+          "1. (9a) Saddle and Bridle",
           "2. (9b) Saddle and Bridle A Horse",
           "3. (9c) Dismount A Horse"
         ],
         "rows": [
-          "1. (9a) Saddle and Bridle That You",
+          "1. (9a) Saddle and Bridle",
           "2. (9b) Saddle and Bridle A Horse",
           "3. (9c) Dismount A Horse"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "One universal saddle tree fits every equine back shape without pinching delicate spine bones.",
@@ -2201,7 +2336,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist (Approach and Lead A Horse)",
+        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2213,12 +2348,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Explain and demonstrate how to approach and lead a horse safely from a stall, corral, or field and how to tie the horse securely"
+          "1. Approach Shoulder Line",
+          "2. Lead Position Guide",
+          "3. Quick Release Hitch"
         ],
         "rows": [
-          "1. Explain and demonstrate how to approach and lead a horse safely from a stall, corral, or field and how to tie the horse securely"
+          "1. Approach Shoulder Line",
+          "2. Lead Position Guide",
+          "3. Quick Release Hitch"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Horses should be tied securely with multiple square knots directly to loose fence boards.",
@@ -2381,7 +2526,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Walk the Horse in A)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2393,12 +2538,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Walk the horse in a straight line for 60 feet"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Walk the horse in a straight line for 60 feet"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2437,7 +2592,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "title": "Req 11a: Straight Sixty-Foot Walk",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11a (Walk the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -2448,7 +2606,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Walk the Horse in A)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2460,12 +2618,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Walk the horse in a half-circle of not more than 16 feet in radius"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Walk the horse in a half-circle of not more than 16 feet in radius"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2504,7 +2672,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "title": "Req 11b: Sixteen-Foot Radius Walk Half-Circle",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11b (Walk the horse in a half-circle of not more than 16 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11c",
@@ -2520,7 +2691,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11c Structured Technical Study & Explanation Matrix (Trot or Jog the Horse)",
+            "table_title": "Req 11c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2532,12 +2703,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Trot or jog the horse in a straight line for 60 feet"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Trot or jog the horse in a straight line for 60 feet"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2575,7 +2756,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11c (Trot or jog the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11d",
@@ -2591,7 +2775,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11d Structured Technical Study & Explanation Matrix (Trot or Jog the Horse)",
+            "table_title": "Req 11d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2603,12 +2787,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Trot or jog the horse in a half-circle of not more than 30 feet in radius"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Trot or jog the horse in a half-circle of not more than 30 feet in radius"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2646,7 +2840,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11d (Trot or jog the horse in a half-circle of not more than 30 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11e",
@@ -2662,7 +2859,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11e Structured Technical Study & Explanation Matrix (Halt Straight)",
+            "table_title": "Req 11e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2674,12 +2871,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Halt straight"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Halt straight"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2717,7 +2924,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11e (Halt straight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11f",
@@ -2733,7 +2943,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11f Structured Technical Study & Explanation Matrix (Back Up Straight Four Paces)",
+            "table_title": "Req 11f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2745,12 +2955,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Back up straight four paces"
+              "1. Req 11f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Back up straight four paces"
+              "1. Req 11f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2788,7 +3008,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11f (Back up straight four paces), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11g",
@@ -2804,7 +3027,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11g Structured Technical Study & Explanation Matrix (Halt and Dismount)",
+            "table_title": "Req 11g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2816,12 +3039,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Halt and dismount"
+              "1. Req 11g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Halt and dismount"
+              "1. Req 11g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)",
           "common_misconception_pair": {
@@ -2859,7 +3092,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p073_img1.png",
           "workbook_diagram_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
-          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle."
+          "workbook_visual_caption": "A rider demonstrates balanced upright posture while seated in the saddle.",
+          "socratic_questions": [
+            "For horsemanship Requirement 11g (Halt and dismount), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2905,7 +3141,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 11: Equine Gaits and Maneuver Demonstrations",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Wear an ASTM/SEI approved equestrian safety helmet with chin strap securely fastened.",
@@ -2914,7 +3150,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Level Ground Continuously)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2943,7 +3179,13 @@
           "6. (11f) Back up straight four paces",
           "7. (11g) Halt and dismount"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pulling hard on reins is the only way to steer and stop a horse.",
@@ -3138,19 +3380,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 17, p. 49)",
           "common_misconception_pair": {
             "misconception": "Anyone with horse experience can practice veterinary medicine without specialized medical university degrees.",
             "fact": "Equine veterinary medicine requires extensive postgraduate clinical training and passing state licensing board examinations."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Horsemanship Req 12a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Horsemanship Merit Badge Hub (Req 12a)",
@@ -3181,12 +3424,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p017_img1.png",
           "workbook_diagram_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise.",
-          "workbook_visual_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise."
+          "workbook_visual_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise.",
+          "socratic_questions": [
+            "For horsemanship Requirement 12a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "12b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "United States Pony Club (video)",
@@ -3201,7 +3447,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 12b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 12b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 12b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3215,14 +3461,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 12b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Horsemanship Merit Badge Pamphlet (p. 17, p. 49)",
           "common_misconception_pair": {
@@ -3252,7 +3504,7 @@
           ],
           "id": "12b",
           "sub_req_label": "12b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 12b: Lifelong Horsemanship and Hobby Pursuits",
           "pamphlet_summary": "Explore how horsemanship skills support lifelong recreational trail riding, mounted games, and horse show competition hobbies. Identify local pony clubs, breed associations, boarding expenses, and volunteer opportunities with therapeutic riding centers.",
           "pamphlet_excerpts": [
@@ -3261,7 +3513,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/horsemanship_p017_img1.png",
           "title": "Req 12b: Lifelong Equestrian Hobbies and Fitness",
           "workbook_diagram_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise.",
-          "workbook_visual_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise."
+          "workbook_visual_caption": "A spotted horse trots briskly forward during an outdoor riding arena exercise.",
+          "socratic_questions": [
+            "For horsemanship Requirement 12b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3323,7 +3578,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Equine careers are limited exclusively to riding racehorses in professional tracks.",

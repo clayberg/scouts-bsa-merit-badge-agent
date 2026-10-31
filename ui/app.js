@@ -5031,7 +5031,12 @@ function renderActiveSlide(idx) {
       notesEl.innerHTML = coverNotesHtml;
       syncAdaptiveFacilitatorHeadings(coverNotes, null, true);
       const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
-      if (fsTeleContent) fsTeleContent.innerHTML = coverNotesHtml;
+      if (fsTeleContent) {
+        fsTeleContent.innerHTML =
+          typeof formatPresenterConsoleCardsHtml === "function"
+            ? formatPresenterConsoleCardsHtml(coverNotes, null, true)
+            : coverNotesHtml;
+      }
       if (typeof window.syncNotesPolishProvenancePill === "function") {
         window.syncNotesPolishProvenancePill({
           isPolished: Boolean(res._polishedCoverNotes),
@@ -5853,7 +5858,11 @@ function renderActiveSlide(idx) {
   }
   const fsTeleContent = document.getElementById("fullscreen-teleprompter-content");
   if (fsTeleContent) {
-    fsTeleContent.innerHTML = formattedNotes || "<em>No speaker notes for this slide.</em>";
+    const darkTeleHtml =
+      typeof formatPresenterConsoleCardsHtml === "function"
+        ? formatPresenterConsoleCardsHtml(slide.presenter_notes || "", slide, false)
+        : formattedNotes;
+    fsTeleContent.innerHTML = darkTeleHtml || "<em>No speaker notes for this slide.</em>";
   }
 
   if (imgEl && !imgEl.dataset.fitBound) {
@@ -5985,10 +5994,18 @@ function decorateFacilitatorInlineMarkup(rawLine) {
   decorated = decorated
     .replace(/\*{1,2}([^*\n]{2,110}?)\*{2}/g, "<strong>$1</strong>")
     .replace(/\*{2}([^*\n]{2,110}?)\*{1,2}/g, "<strong>$1</strong>");
+  // Render Myth vs. BSA Pamphlet Fact as a clear two-row visual contrast block
   decorated = decorated.replace(
-    /\[Expected Answer:\s*([^\]]+)\]/gi,
-    '<div class="m3-expected-answer-box"><strong>✓ Expected Answer:</strong> $1</div>'
+    /Myth:\s*([^|]+)\|\s*BSA\s+Pamphlet\s+Fact:\s*(.+)$/i,
+    '<div class="m3-myth-fact-contrast" style="display:grid; gap:4px; margin-top:4px;"><div style="padding:4px 8px; border-radius:5px; background:rgba(239,68,68,0.12); border-left:3px solid #EF4444;"><strong>✗ Common Myth:</strong> $1</div><div style="padding:4px 8px; border-radius:5px; background:rgba(16,185,129,0.14); border-left:3px solid #10B981;"><strong>✓ BSA Pamphlet Fact:</strong> $2</div></div>'
   );
+  // Promote [Expected Answer: ...] to the top of the answer key block for instant counselor scanability
+  const expMatch = decorated.match(/\[Expected Answer:\s*([^\]]+)\]/i);
+  if (expMatch) {
+    const expBox = `<div class="m3-expected-answer-box" style="margin-bottom:6px;"><strong>✓ Expected Answer:</strong> ${expMatch[1]}</div>`;
+    const remainder = decorated.replace(expMatch[0], "").trim();
+    decorated = remainder ? `${expBox}<div>${remainder}</div>` : expBox;
+  }
   decorated = decorated.replace(
     /\[((?!PACING\s*&\s*MODALITY\]|ASK\s+SCOUTS(?:\s+FIRST)?\]|EXPECTED\s+PAMPHLET\s+ANSWER\s+KEY\]|COMMON\s+MISCONCEPTION\s+TO\s+CORRECT\]|DEMONSTRATION\s*&\s*SIGN-OFF\s+RUBRIC\]|SAY\]|DEMONSTRATE\])[^\]]{3,160})\]/gi,
     '<span class="m3-stage-cue-pill">🎬 [$1]</span>'
@@ -6343,6 +6360,8 @@ function renderMarkdownToStyledHtml(md) {
   let inList = false;
   let inTable = false;
   let tableHeaderDone = false;
+  let inCodeFence = false;
+  let codeFenceLines = [];
 
   const closeList = () => {
     if (inList) {
@@ -6357,10 +6376,33 @@ function renderMarkdownToStyledHtml(md) {
       tableHeaderDone = false;
     }
   };
+  const closeCodeFence = () => {
+    if (inCodeFence) {
+      out.push(`<pre class="wb-code-block" style="background:#F8FAFC; border:1px solid #CBD5E1; border-radius:6px; padding:8px 12px; font-family:var(--font-mono); font-size:0.84rem; overflow-x:auto;"><code>${escapeHtml(codeFenceLines.join("\n"))}</code></pre>`);
+      inCodeFence = false;
+      codeFenceLines = [];
+    }
+  };
 
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i];
     const trimmed = raw.trim();
+
+    if (trimmed.startsWith("```")) {
+      closeList();
+      closeTable();
+      if (inCodeFence) {
+        closeCodeFence();
+      } else {
+        inCodeFence = true;
+        codeFenceLines = [];
+      }
+      continue;
+    }
+    if (inCodeFence) {
+      codeFenceLines.push(raw);
+      continue;
+    }
 
     if (!trimmed) {
       closeList();
@@ -6440,6 +6482,7 @@ function renderMarkdownToStyledHtml(md) {
 
   closeList();
   closeTable();
+  closeCodeFence();
   return out.join("\n");
 }
 
@@ -8604,14 +8647,14 @@ function bindCounselorToolkitActions() {
     }
     rootEl.querySelectorAll('.wb-index-chip input[type="checkbox"]').forEach((cb) => {
       cb.addEventListener("change", () => {
-        const grp = cb.closest(".wb-index-parent-group");
+        const grp = cb.closest(".wb-index-parent-group, .wb-index-group");
         if (!grp) return;
         const allBoxes = grp.querySelectorAll('.wb-index-chip input[type="checkbox"]');
         let checkedCount = 0;
         allBoxes.forEach((b) => {
           if (b.checked) checkedCount += 1;
         });
-        const cntEl = grp.querySelector(".wb-index-parent-count");
+        const cntEl = grp.querySelector(".wb-index-parent-count, .wb-index-group-count");
         if (cntEl) {
           cntEl.textContent = `${checkedCount}/${allBoxes.length} Done`;
         }
@@ -11169,11 +11212,17 @@ function syncPresenterViewWindow() {
   const dockNotes = document.getElementById("pc-dock-notes-body");
   const dockNext = document.getElementById("pc-dock-next-slide");
   const dockTimer = document.getElementById("pc-dock-timer");
+  const dockPacingBadge = document.getElementById("pc-dock-pacing-badge");
   const prevBtn = document.getElementById("btn-pc-prev-slide");
   const nextBtn = document.getElementById("btn-pc-next-slide");
 
   if (dockTitle) dockTitle.textContent = payload.slideTitle;
   if (dockMeta) dockMeta.textContent = payload.upNextKickerLabel;
+  if (dockPacingBadge) {
+    const rawCurrNotes = String((state.activeSlideIdx === -1 ? state.currentResult?._polishedCoverNotes || state.currentResult?._defaultCoverNotes : slides[state.activeSlideIdx]?.presenter_notes) || "");
+    const mPace = rawCurrNotes.match(/\[PACING\s*&\s*MODALITY\]\s*([^.\n]{3,65})/i);
+    dockPacingBadge.textContent = mPace ? `⏱️ ${mPace[1].trim()}` : `⏱️ ${payload.activeCueCount || 3} Cues`;
+  }
   if (dockNotes) {
     dockNotes.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
     const scale = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.86;
@@ -11387,17 +11436,27 @@ function openPresenterViewWindow() {
       border-radius: 9px;
       line-height: 1.5;
     }
-    .m3-pc-cue-card-say {
+    .m3-pc-cue-card-say,
+    .m3-pc-cue-card-pacing {
       background: rgba(30, 58, 138, 0.36);
       border-left: 3.5px solid #60A5FA;
     }
-    .m3-pc-cue-card-demo {
+    .m3-pc-cue-card-demo,
+    .m3-pc-cue-card-rubric {
       background: rgba(120, 53, 15, 0.36);
       border-left: 3.5px solid #FBBF24;
     }
     .m3-pc-cue-card-ask {
       background: rgba(6, 78, 59, 0.36);
       border-left: 3.5px solid #34D399;
+    }
+    .m3-pc-cue-card-answer {
+      background: rgba(15, 118, 110, 0.36);
+      border-left: 3.5px solid #2DD4BF;
+    }
+    .m3-pc-cue-card-myth {
+      background: rgba(127, 29, 29, 0.38);
+      border-left: 3.5px solid #F87171;
     }
     .m3-pc-cue-kicker {
       font-size: 0.66rem;
@@ -11406,9 +11465,13 @@ function openPresenterViewWindow() {
       text-transform: uppercase;
       margin-bottom: 4px;
     }
-    .m3-pc-cue-card-say .m3-pc-cue-kicker { color: #93C5FD; }
-    .m3-pc-cue-card-demo .m3-pc-cue-kicker { color: #FCD34D; }
+    .m3-pc-cue-card-say .m3-pc-cue-kicker,
+    .m3-pc-cue-card-pacing .m3-pc-cue-kicker { color: #93C5FD; }
+    .m3-pc-cue-card-demo .m3-pc-cue-kicker,
+    .m3-pc-cue-card-rubric .m3-pc-cue-kicker { color: #FCD34D; }
     .m3-pc-cue-card-ask .m3-pc-cue-kicker { color: #6EE7B7; }
+    .m3-pc-cue-card-answer .m3-pc-cue-kicker { color: #5EEAD4; }
+    .m3-pc-cue-card-myth .m3-pc-cue-kicker { color: #FCA5A5; }
     .m3-stage-cue-pill {
       display: inline-block;
       font-size: 0.78rem;
@@ -13770,6 +13833,14 @@ function bindEnhancedWorkbenchAndAdminFeatures() {
     const q = (ev.target.value || "").trim().toLowerCase();
     const previewEl = document.getElementById("workbook-markdown-preview");
     if (!previewEl || !state.currentResult) return;
+    const fillableBtn = document.getElementById("btn-workbook-open-fillable-html");
+    const liveFillableSections = previewEl.querySelectorAll(".wb-req-section, .wb-card, section[data-req-id]");
+    if (fillableBtn?.classList.contains("active") && liveFillableSections.length > 0) {
+      liveFillableSections.forEach((sec) => {
+        sec.style.display = !q || sec.textContent.toLowerCase().includes(q) ? "" : "none";
+      });
+      return;
+    }
     ["btn-workbook-view-default", "btn-workbook-open-fillable-html", "btn-workbook-open-cpp"].forEach((id) => {
       const btnEl = document.getElementById(id);
       if (btnEl) {

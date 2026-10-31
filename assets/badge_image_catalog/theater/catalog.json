@@ -1,5 +1,25 @@
 [
   {
+    "id": "e0357ce8c63cce",
+    "badge_name": "theater",
+    "req_number": "cover",
+    "req_numbers": [
+      "cover"
+    ],
+    "topic": "theater Merit Badge Official Emblem",
+    "caption": "Official Scouting America theater Merit Badge embroidered emblem.",
+    "description": "Official Scouting America theater Merit Badge embroidered emblem.",
+    "keywords": [
+      "theater",
+      "emblem",
+      "merit badge"
+    ],
+    "source_type": "OFFICIAL_BADGE_ASSET",
+    "image_url": "/assets/merit_badges/theater.png",
+    "image_path": "assets/merit_badges/theater.png",
+    "image_id": "e0357ce8c63cce"
+  },
+  {
     "image_id": "253311dc69b5fa",
     "badge_name": "Theater",
     "req_number": "1",
@@ -7,14 +27,15 @@
     "title": "Actor Operating Vintage Stage Projector",
     "description": "An actor operates vintage lighting machinery to create theatrical effects.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "📐 Official Pamphlet / Topic Figure",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p017_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p017_img1.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "An actor operates vintage lighting machinery to create theatrical effects.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Actor Operating Vintage Stage Projector"
   },
   {
     "image_id": "0866ac4c4cf821",
@@ -24,14 +45,15 @@
     "title": "Scout Writing Play Script Outdoors",
     "description": "A Scout writes dialogue for an original one-act drama at summer camp.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "📐 Official Pamphlet / Topic Figure",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p024_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p024_img1.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "A Scout writes dialogue for an original one-act drama at summer camp.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Scout Writing Play Script Outdoors"
   },
   {
     "image_id": "d2d22d2090c35d",
@@ -41,14 +63,15 @@
     "title": "Scout Performing Outdoor Pantomime Exercise",
     "description": "A youth performs pantomime gestures without props during drama practice.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "📐 Official Pamphlet / Topic Figure",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p027_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p027_img1.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "A youth performs pantomime gestures without props during drama practice.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Scout Performing Outdoor Pantomime Exercise"
   },
   {
     "image_id": "40692d1cda9ebb",
@@ -58,14 +81,15 @@
     "title": "Director Directing Play Rehearsal Performance",
     "description": "A student director enthusiastically directs cast members in rehearsal.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "📐 Official Pamphlet / Topic Figure",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p048_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p048_img1.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "A student director enthusiastically directs cast members in rehearsal.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Director Directing Play Rehearsal Performance"
   },
   {
     "image_id": "5da11947dd0593",
@@ -75,14 +99,15 @@
     "title": "Theater Technician Operating Lighting Console",
     "description": "A lighting technician programs stage lighting cues on a dimmer board.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "📐 Official Pamphlet / Topic Figure",
+    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p076_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p076_img1.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "A lighting technician programs stage lighting cues on a dimmer board.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Theater Technician Operating Lighting Console"
   },
   {
     "image_id": "7d9c746b4c0302",
@@ -92,14 +117,15 @@
     "title": "Playwright Typing Script on Laptop",
     "description": "A student types out character dialogue and stage directions on a laptop.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "🔄 Official Pamphlet Alternate #1 (Req 2)",
+    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #1 (Req 2)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p032_img2.png",
     "image_url": "/assets/pamphlet_images/theater_p032_img2.png",
     "custom_prompt": "",
     "is_alternate": true,
     "alternate_rank": 1,
     "caption": "A student types out character dialogue and stage directions on a laptop.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Playwright Typing Script on Laptop"
   },
   {
     "image_id": "1bdb8cd79b6471",
@@ -109,14 +135,15 @@
     "title": "Character Actor in Costume Pantomiming",
     "description": "An actor uses expressive facial gestures and body language in pantomime.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "🔄 Official Pamphlet Alternate #1 (Req 4)",
+    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #1 (Req 4)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p037_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p037_img1.png",
     "custom_prompt": "",
     "is_alternate": true,
     "alternate_rank": 1,
     "caption": "An actor uses expressive facial gestures and body language in pantomime.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Character Actor in Costume Pantomiming"
   },
   {
     "image_id": "2339c9a3e56bed",
@@ -126,14 +153,15 @@
     "title": "Youth Rehearsing One Act Play",
     "description": "An aspiring playwright rehearses emotional character acting outdoors.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "🔄 Official Pamphlet Alternate #2 (Req 2)",
+    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #2 (Req 2)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p026_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p026_img1.png",
     "custom_prompt": "",
     "is_alternate": true,
     "alternate_rank": 2,
     "caption": "An aspiring playwright rehearses emotional character acting outdoors.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Youth Rehearsing One Act Play"
   },
   {
     "image_id": "a02556807a2ad7",
@@ -143,14 +171,15 @@
     "title": "Sample One Act Play Script Cover",
     "description": "A printed one-act play script illustrates proper title page formatting.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "🔄 Official Pamphlet Alternate #2 (Req 4)",
+    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #2 (Req 4)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/theater_p029_img1.png",
     "image_url": "/assets/pamphlet_images/theater_p029_img1.png",
     "custom_prompt": "",
     "is_alternate": true,
     "alternate_rank": 2,
     "caption": "A printed one-act play script illustrates proper title page formatting.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Sample One Act Play Script Cover"
   },
   {
     "image_id": "ac6226ae177214",
@@ -160,14 +189,15 @@
     "title": "Dramatic Theater Production And Directing",
     "description": "Illustrated panels depict actors performing, set designers sketching backdrops, and youth directing theatrical rehearsals.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/theater_req_1_nano_hero.png",
     "image_url": "/assets/ai_illustrations/theater_req_1_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Illustrated panels depict actors performing, set designers sketching backdrops, and youth directing theatrical rehearsals.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Dramatic Theater Production And Directing"
   },
   {
     "image_id": "2031740381de02",
@@ -177,14 +207,15 @@
     "title": "Outdoor Script Reading And Blocking",
     "description": "Scouts gather around a table in the woods to annotate a theatrical play script and character cues.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/theater_req_2_nano_hero.png",
     "image_url": "/assets/ai_illustrations/theater_req_2_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts gather around a table in the woods to annotate a theatrical play script and character cues.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Outdoor Script Reading And Blocking"
   },
   {
     "image_id": "e226fd53df54e5",
@@ -194,14 +225,15 @@
     "title": "Community Stage Costume Rehearsal",
     "description": "Youth actors rehearse scene dialogue while trying on theatrical costumes in front of a handmade rustic stage.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/theater_req_3_nano_hero.png",
     "image_url": "/assets/ai_illustrations/theater_req_3_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Youth actors rehearse scene dialogue while trying on theatrical costumes in front of a handmade rustic stage.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Community Stage Costume Rehearsal"
   },
   {
     "image_id": "e4920ef140f123",
@@ -211,14 +243,15 @@
     "title": "Theatrical Prop And Costume Management",
     "description": "A Scout organizes costume garments and equipment bags outside a camping tent for an upcoming performance.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/theater_req_4_nano_hero.png",
     "image_url": "/assets/ai_illustrations/theater_req_4_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "A Scout organizes costume garments and equipment bags outside a camping tent for an upcoming performance.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Theatrical Prop And Costume Management"
   },
   {
     "image_id": "53842f9b9fa4a9",
@@ -228,13 +261,158 @@
     "title": "Outdoor Stage Blocking And Orientation",
     "description": "Scouts stand on an outdoor stage learning stage direction terminology between marked left and right wings.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "🍌 Nano Banana Hero",
+    "source_label": "\ud83c\udf4c Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/theater_req_5_nano_hero.png",
     "image_url": "/assets/ai_illustrations/theater_req_5_nano_hero.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Scouts stand on an outdoor stage learning stage direction terminology between marked left and right wings.",
-    "vision_verified": true
+    "vision_verified": true,
+    "topic": "Outdoor Stage Blocking And Orientation"
+  },
+  {
+    "id": "3cf0b5271d4301",
+    "badge_name": "theater",
+    "req_number": "1",
+    "req_numbers": [
+      "1"
+    ],
+    "topic": "Dramatic Literature and Performance Critique: Dramatic Text Analysis",
+    "caption": "Dramatic Text Analysis diagram illustrating how reading full scripts reveals internal character motivations and thematic structure before performance.",
+    "description": "Dramatic Text Analysis diagram illustrating how reading full scripts reveals internal character motivations and thematic structure before performance.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/theater_p003_img1.png",
+    "image_path": "assets/pamphlet_images/theater_p003_img1.png",
+    "image_id": "3cf0b5271d4301"
+  },
+  {
+    "id": "f2c388616e704c",
+    "badge_name": "theater",
+    "req_number": "2",
+    "req_numbers": [
+      "2"
+    ],
+    "topic": "One Act Script Composition: Protagonist Objective Setup",
+    "caption": "Protagonist Objective Setup diagram illustrating how central characters must pursue clear, urgent objectives that encounter immediate resistance.",
+    "description": "Protagonist Objective Setup diagram illustrating how central characters must pursue clear, urgent objectives that encounter immediate resistance.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/theater_p007_img1.png",
+    "image_path": "assets/pamphlet_images/theater_p007_img1.png",
+    "image_id": "f2c388616e704c"
+  },
+  {
+    "id": "95332f419d6ead",
+    "badge_name": "theater",
+    "req_number": "3",
+    "req_numbers": [
+      "3"
+    ],
+    "topic": "Theater Safety and Production Specialization: Backstage Hazard Identification",
+    "caption": "Backstage Hazard Identification diagram illustrating how technicians must keep wings free of cables, loose lumber, and unweighted scenic flats.",
+    "description": "Backstage Hazard Identification diagram illustrating how technicians must keep wings free of cables, loose lumber, and unweighted scenic flats.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "PAMPHLET_FIGURE",
+    "image_url": "/assets/pamphlet_images/theater_p012_img1.png",
+    "image_path": "assets/pamphlet_images/theater_p012_img1.png",
+    "image_id": "95332f419d6ead"
+  },
+  {
+    "id": "10ad3de32f35d6",
+    "badge_name": "theater",
+    "req_number": "1",
+    "req_numbers": [
+      "1"
+    ],
+    "topic": "Theater Req 1 See or read three full-length plays",
+    "caption": "See or read three full-length plays procedures and verification checkpoints for Theater Requirement 1.",
+    "description": "See or read three full-length plays procedures and verification checkpoints for Theater Requirement 1.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "image_url": "/assets/ai_illustrations/theater_req_1_topic_visual.png",
+    "image_path": "assets/ai_illustrations/theater_req_1_topic_visual.png",
+    "image_id": "10ad3de32f35d6"
+  },
+  {
+    "id": "74a2b85aa60473",
+    "badge_name": "theater",
+    "req_number": "2",
+    "req_numbers": [
+      "2"
+    ],
+    "topic": "Theater Req 2 Write a one-act play",
+    "caption": "Write a one-act play procedures and verification checkpoints for Theater Requirement 2.",
+    "description": "Write a one-act play procedures and verification checkpoints for Theater Requirement 2.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "image_url": "/assets/ai_illustrations/theater_req_2_topic_visual.png",
+    "image_path": "assets/ai_illustrations/theater_req_2_topic_visual.png",
+    "image_id": "74a2b85aa60473"
+  },
+  {
+    "id": "4bef0c658898cd",
+    "badge_name": "theater",
+    "req_number": "3",
+    "req_numbers": [
+      "3"
+    ],
+    "topic": "Theater Req 3 Safety Precautions",
+    "caption": "Safety Precautions procedures and verification checkpoints for Theater Requirement 3.",
+    "description": "Safety Precautions procedures and verification checkpoints for Theater Requirement 3.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "image_url": "/assets/ai_illustrations/theater_req_3_topic_visual.png",
+    "image_path": "assets/ai_illustrations/theater_req_3_topic_visual.png",
+    "image_id": "4bef0c658898cd"
+  },
+  {
+    "id": "233bd36edd25cf",
+    "badge_name": "theater",
+    "req_number": "4",
+    "req_numbers": [
+      "4"
+    ],
+    "topic": "Theater Req 4 Mime or pantomime",
+    "caption": "Mime or pantomime procedures and verification checkpoints for Theater Requirement 4.",
+    "description": "Mime or pantomime procedures and verification checkpoints for Theater Requirement 4.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "image_url": "/assets/ai_illustrations/theater_req_4_topic_visual.png",
+    "image_path": "assets/ai_illustrations/theater_req_4_topic_visual.png",
+    "image_id": "233bd36edd25cf"
+  },
+  {
+    "id": "69b860fbc5c3fb",
+    "badge_name": "theater",
+    "req_number": "5",
+    "req_numbers": [
+      "5"
+    ],
+    "topic": "Theater Req 5 Proscenium arch, central or arena staging",
+    "caption": "Proscenium arch, central or arena staging procedures and verification checkpoints for Theater Requirement 5.",
+    "description": "Proscenium arch, central or arena staging procedures and verification checkpoints for Theater Requirement 5.",
+    "keywords": [
+      "theater"
+    ],
+    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "image_url": "/assets/ai_illustrations/theater_req_5_topic_visual.png",
+    "image_path": "assets/ai_illustrations/theater_req_5_topic_visual.png",
+    "image_id": "69b860fbc5c3fb"
   }
 ]

@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safety Rules for Metalwork Discuss)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Discuss how to be safe while working with metal.",
           "3. Discuss with your counselor the additional safety rules that apply to the metal work option you choose for requirement 5."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Synthetic athletic shirts provide adequate comfort and protection inside a hot metalworking shop.",
@@ -231,7 +237,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Nonferrous Alloys Used by pre-Iron)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -250,7 +256,13 @@
               "1. Name two nonferrous alloys used by pre-Iron Age metal workers.",
               "2. Name the metals that are combined to form these alloys."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
@@ -288,7 +300,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p007_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
-          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component."
+          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
+          "socratic_questions": [
+            "For metalwork Requirement 2a (Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -304,7 +319,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Ferrous Alloys Used by Modern)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -316,12 +331,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name three ferrous alloys used by modern metalworkers"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name three ferrous alloys used by modern metalworkers"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
@@ -359,7 +384,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
-          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component."
+          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
+          "socratic_questions": [
+            "For metalwork Requirement 2b (Name three ferrous alloys used by modern metalworkers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -379,7 +407,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Work-harden A Metal)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -391,12 +419,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how to work-harden a metal"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how to work-harden a metal"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
@@ -434,7 +472,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
-          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component."
+          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
+          "socratic_questions": [
+            "For metalwork Requirement 2c (Describe how to work-harden a metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -458,7 +499,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Anneal A Nonferrous and A)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -470,12 +511,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how to anneal a nonferrous and a ferrous metal"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how to anneal a nonferrous and a ferrous metal"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)",
           "common_misconception_pair": {
@@ -514,7 +565,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img1.png",
           "title": "Req 2d: Annealing Nonferrous and Ferrous Metals",
           "workbook_diagram_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
-          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component."
+          "workbook_visual_caption": "A gloved craftsman uses a gas torch flame to heat and anneal a curved metal component.",
+          "socratic_questions": [
+            "For metalwork Requirement 2d (Describe how to anneal a nonferrous and a ferrous metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -573,7 +627,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Native Metal Malleable Metallurgy Alloy)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -596,7 +650,13 @@
           "3. (2c) Describe how to work-harden a metal",
           "4. (2d) Describe how to anneal a nonferrous and a ferrous metal"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pure elemental metals consistently perform better in mechanical applications than blended metal alloys.",
@@ -759,7 +819,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Work-harden A Piece of 26-)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -780,7 +840,13 @@
               "2. Put a 45-degree bend in the metal, then heavily peen the area along the bend line to work-harden it.",
               "3. Note the amount of effort that is required to overcome the yield point in this unworked piece of metal."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
@@ -818,7 +884,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p012_img1.png",
           "workbook_diagram_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation.",
-          "workbook_visual_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation."
+          "workbook_visual_caption": "A slab of raw native copper mineral exhibits characteristic green surface oxidation.",
+          "socratic_questions": [
+            "For metalwork Requirement 3a (Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -829,7 +898,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Soften the Work-hardened Piece)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -848,7 +917,13 @@
               "1. Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend.",
               "2. Note the amount of effort that is required to overcome the yield point."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
@@ -886,7 +961,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p022_img1.png",
           "workbook_diagram_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake.",
-          "workbook_visual_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake."
+          "workbook_visual_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake.",
+          "socratic_questions": [
+            "For metalwork Requirement 3b (Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -902,7 +980,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist (Temper Color Index from A)",
+            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -921,7 +999,13 @@
               "1. Make a temper color index from a flat piece of steel.",
               "2. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)",
           "common_misconception_pair": {
@@ -960,7 +1044,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p022_img1.png",
           "title": "Req 3c: Steel Temper Colors and Center Punch",
           "workbook_diagram_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake.",
-          "workbook_visual_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake."
+          "workbook_visual_caption": "A curved sheet metal piece is shaped against a specialized wooden forming block stake.",
+          "socratic_questions": [
+            "For metalwork Requirement 3c (Make a temper color index from a flat piece of steel. Using hand tools, make and temper a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -991,7 +1078,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Work-Hardening and Annealing Sheet Metal)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1012,7 +1099,13 @@
           "2. (3b) Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend",
           "3. (3c) Make a temper color index from a flat piece of steel"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Heating steel until it glows bright red guarantees an ideal final tool hardness.",
@@ -1215,7 +1308,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
@@ -1253,12 +1352,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p087_img1.png",
           "workbook_diagram_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
-          "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse."
+          "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
+          "socratic_questions": [
+            "For metalwork Requirement 4a (Identify three career opportunities that would use skills and knowledge in metalworking.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Why Blacksmithing? (video)",
@@ -1277,7 +1379,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1291,14 +1393,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)",
           "common_misconception_pair": {
@@ -1328,7 +1436,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 4b: Metalcraft Hobby and Guilds",
           "pamphlet_summary": "Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops.",
           "pamphlet_excerpts": [
@@ -1337,7 +1445,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p087_img1.png",
           "title": "Req 4b: Personal Metalworking Hobby Planning",
           "workbook_diagram_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
-          "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse."
+          "workbook_visual_caption": "A worker wearing a yellow hard hat inspects long structural metal studs in a warehouse.",
+          "socratic_questions": [
+            "For metalwork Requirement 4b (Identify how you might use the skills and knowledge in metalworking to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1411,7 +1522,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Metal fabrication careers rely strictly on manual muscle rather than advanced technical science.",
@@ -1580,7 +1697,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5a(1) Structured Technical Study & Explanation Matrix (Basic Sheet Metalworking Tools)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Req 5a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1592,12 +1709,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Name and describe the use of the basic sheet metalworking tools"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Name and describe the use of the basic sheet metalworking tools"
+                  "1. Req 5a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -1649,7 +1776,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 5a(2) Structured Technical Study & Explanation Matrix (Objects to Make from Sheet)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Sketch / Diagram Element",
                   "Required Labels & Dimensions",
@@ -1668,7 +1795,13 @@
                   "1. Create a sketch of two objects to make from sheet metal.",
                   "2. Include each component's dimensions on your sketch, which need not be to scale."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Sketch / Diagram Element",
+                  "Required Labels & Dimensions",
+                  "Field Observations & Counselor Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -1745,7 +1878,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5a(3)(a) Structured Technical Study & Explanation Matrix (Object Also Must Include)",
+                    "table_title": "Req 5a",
                     "headers": [
                       "Req 5a(3)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1757,12 +1890,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. One object also must include at least one riveted component"
+                      "1. Req 5a(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5a(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5a(3)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. One object also must include at least one riveted component"
+                      "1. Req 5a(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5a(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5a(3)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5a(3)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -1808,7 +1951,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5a(3)(b) Structured Technical Study & Explanation Matrix (You Do Not Make Your)",
+                    "table_title": "Req 5a",
                     "headers": [
                       "Req 5a(3)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1820,12 +1963,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation"
+                      "1. Req 5a(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5a(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5a(3)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation"
+                      "1. Req 5a(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5a(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5a(3)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5a(3)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -1847,7 +2000,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5a(3) Hands-On Skill Station & EDGE Verification Checklist (Objects Out of 24- or)",
+                "table_title": "Req 5a",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -1872,19 +2025,20 @@
                   "4. One object also must include at least one riveted component",
                   "5. If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation"
                 ],
-                "min_rows": 5
+                "min_rows": 5,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
                 "misconception": "Higher gauge numbers indicate thicker and stiffer metal sheets.",
                 "fact": "Sheet metal gauge numbers operate inversely, meaning 24-gauge metal is thicker and heavier than 26-gauge metal."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Metalwork Req 5a(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5a(3))",
@@ -1925,7 +2079,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Sheet Metal Mechanic/Tinsmith)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -1946,19 +2100,20 @@
               "2. (5a(2)) Create a sketch of two objects to make from sheet metal",
               "3. (5a(3)) Make two objects out of 24- or 26-gauge sheet metal"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Flat sheet metal corners can be folded into box shapes without calculating bend allowances.",
             "fact": "Metal stretches and compresses along bends, requiring precise layout calculations to achieve accurate dimensions."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Metalwork Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5a)",
@@ -1989,7 +2144,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/metalwork_req_5_topic_visual.png",
           "workbook_diagram_caption": "After Completing The First Four procedures and verification checkpoints for Metalwork Requirement 5.",
-          "workbook_visual_caption": "After Completing The First Four procedures and verification checkpoints for Metalwork Requirement 5."
+          "workbook_visual_caption": "After Completing The First Four procedures and verification checkpoints for Metalwork Requirement 5.",
+          "socratic_questions": [
+            "For metalwork Requirement 5a (Option A, Sheet Metal Mechanic/Tinsmith. Do ALL of the following: (1) Name and describe the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2011,7 +2169,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(1) Structured Technical Study & Explanation Matrix (Silversmith's Basic Tools)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2023,12 +2181,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Name and describe the use of a silversmith's basic tools"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Name and describe the use of a silversmith's basic tools"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -2080,7 +2248,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 5b(2) Structured Technical Study & Explanation Matrix (Objects to Make from Sheet)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Sketch / Diagram Element",
                   "Required Labels & Dimensions",
@@ -2099,7 +2267,13 @@
                   "1. Create a sketch of two objects to make from sheet silver.",
                   "2. Include each component's dimensions on your sketch, which need not be to scale."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Sketch / Diagram Element",
+                  "Required Labels & Dimensions",
+                  "Field Observations & Counselor Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -2181,7 +2355,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5b(3)(a) Structured Technical Study & Explanation Matrix (Object Must Include A Sawed)",
+                    "table_title": "Req 5b",
                     "headers": [
                       "Req 5b(3)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2193,12 +2367,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. At least one object must include a sawed component you have made yourself"
+                      "1. Req 5b(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. At least one object must include a sawed component you have made yourself"
+                      "1. Req 5b(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5b(3)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2243,7 +2427,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5b(3)(b) Structured Technical Study & Explanation Matrix (Object Must Include A Sunken)",
+                    "table_title": "Req 5b",
                     "headers": [
                       "Req 5b(3)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2255,12 +2439,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. At least one object must include a sunken part you have made yourself"
+                      "1. Req 5b(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. At least one object must include a sunken part you have made yourself"
+                      "1. Req 5b(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5b(3)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2305,7 +2499,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5b(3)(c) Structured Technical Study & Explanation Matrix (Polish Your Objects)",
+                    "table_title": "Req 5b",
                     "headers": [
                       "Req 5b(3)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2317,12 +2511,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Clean and polish your objects"
+                      "1. Req 5b(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Clean and polish your objects"
+                      "1. Req 5b(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5b(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5b(3)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5b(3)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2343,7 +2547,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(3) Structured Technical Study & Explanation Matrix (Objects Out of 18- or)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2364,19 +2568,20 @@
                   "2. (5b(3)(b)) Object Must Include A Sunken",
                   "3. (5b(3)(c)) Polish Your Objects"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
                 "misconception": "Silver solder can bridge wide gaps between loosely fitted metal pieces like hot glue.",
                 "fact": "Hard solder flows by capillary action and requires seam edges to make flush, gap-free contact across the entire joint."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Metalwork Req 5b(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5b(3))",
@@ -2417,7 +2622,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Silversmith Silversmith's Basic Tools)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2438,19 +2643,20 @@
               "2. (5b(2)) Create a sketch of two objects to make from sheet silver",
               "3. (5b(3)) Make two objects out of 18- or 20-gauge sheet copper"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Silver sheet can be hammered repeatedly into deep bowls without periodic heat treatment.",
             "fact": "Sterling silver work-hardens rapidly under hammer blows and fractures unless annealed to dull red."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Metalwork Req 5b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5b)",
@@ -2481,7 +2687,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p049_img2.png",
           "workbook_diagram_caption": "A specialized chasing hammer with a flared handle provides fine control for silversmiths.",
-          "workbook_visual_caption": "A specialized chasing hammer with a flared handle provides fine control for silversmiths."
+          "workbook_visual_caption": "A specialized chasing hammer with a flared handle provides fine control for silversmiths.",
+          "socratic_questions": [
+            "For metalwork Requirement 5b (Option B, Silversmith. Do ALL of the following: (1) Name and describe the use of a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2503,7 +2712,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(1) Structured Technical Study & Explanation Matrix (Basic Parts of A Two-piece)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2522,7 +2731,13 @@
                   "1. Name and describe the use of the basic parts of a two-piece mold.",
                   "2. Name at least three different types of molds."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -2574,7 +2789,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 5c(2) Structured Technical Study & Explanation Matrix (Objects to Cast in Metal)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Sketch / Diagram Element",
                   "Required Labels & Dimensions",
@@ -2593,7 +2808,13 @@
                   "1. Create a sketch of two objects to cast in metal.",
                   "2. Include each component's dimensions on your sketch, which need not be to scale."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Sketch / Diagram Element",
+                  "Required Labels & Dimensions",
+                  "Field Observations & Counselor Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -2670,7 +2891,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 5c(3)(a) Hands-On Skill Station & EDGE Verification Checklist (Lead-free Pewter Make A Casting)",
+                    "table_title": "Req 5c",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -2682,12 +2903,22 @@
                       "Buddy / Counselor Sign-Off Notes"
                     ],
                     "row_labels": [
-                      "1. Using lead-free pewter, make a casting using a mold provided by your counselor"
+                      "1. Req 5c(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5c(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5c(3)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Using lead-free pewter, make a casting using a mold provided by your counselor"
+                      "1. Req 5c(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5c(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5c(3)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2727,7 +2958,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 5c(3)(b) Hands-On Skill Station & EDGE Verification Checklist (Lead-free Pewter Make A Casting)",
+                    "table_title": "Req 5c",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -2739,12 +2970,22 @@
                       "Buddy / Counselor Sign-Off Notes"
                     ],
                     "row_labels": [
-                      "1. Using lead-free pewter, make a casting using the mold that you have made"
+                      "1. Req 5c(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5c(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5c(3)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Using lead-free pewter, make a casting using the mold that you have made"
+                      "1. Req 5c(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5c(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5c(3)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2765,7 +3006,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(3) Hands-On Skill Station & EDGE Verification Checklist (Molds One Using A Pattern)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2784,19 +3025,20 @@
                   "1. (5c(3)(a)) Lead-free Pewter Make A Casting",
                   "2. (5c(3)(b)) Lead-free Pewter Make A Casting"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
                 "misconception": "Molten metal will flow into a closed sand cavity even if no air vents or risers are provided.",
                 "fact": "Trapped air and expanding steam generate back pressure that stops incoming liquid metal and blows gas pockets into the casting unless vented."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Metalwork Req 5c(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5c(3))",
@@ -2836,7 +3078,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Founder Basic Two-piece Mold)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2857,19 +3099,20 @@
               "2. (5c(2)) Objects to Cast in Metal",
               "3. (5c(3)) Molds One Using A Pattern"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Moisture inside casting sand is completely harmless when molten bronze is poured.",
             "fact": "Excess moisture vaporizes instantaneously into steam, creating violent explosions that blow molten metal out."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Metalwork Req 5c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5c)",
@@ -2900,7 +3143,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p018_img1.png",
           "workbook_diagram_caption": "A student wearing safety glasses carefully pours liquid metal from a handled ladle pot.",
-          "workbook_visual_caption": "A student wearing safety glasses carefully pours liquid metal from a handled ladle pot."
+          "workbook_visual_caption": "A student wearing safety glasses carefully pours liquid metal from a handled ladle pot.",
+          "socratic_questions": [
+            "For metalwork Requirement 5c (Option C, Founder. Do ALL of the following: (1) Name and describe the use of the basic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2922,7 +3168,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(1) Structured Technical Study & Explanation Matrix (Blacksmith's Basic Tools)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2934,12 +3180,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Name and describe the use of a blacksmith's basic tools"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Name and describe the use of a blacksmith's basic tools"
+                  "1. Req 5d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5d(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -2991,7 +3247,7 @@
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
                 "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 5d(2) Hands-On Skill Station & EDGE Verification Checklist (Objects to Hot-forge Include Each)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Sketch / Diagram Element",
                   "Required Labels & Dimensions",
@@ -3010,7 +3266,13 @@
                   "1. Make a sketch of two objects to hot-forge.",
                   "2. Include each component's dimensions on your sketch, which need not be to scale."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Sketch / Diagram Element",
+                  "Required Labels & Dimensions",
+                  "Field Observations & Counselor Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -3091,25 +3353,35 @@
                     "fact": "Forging a taper as a square profile first maintains the internal integrity of the steel and prevents the tip from splitting."
                   },
                   "workbook_organizer": {
-                    "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                    "table_title": "Req 5d(3)(a) Structured Technical Study & Explanation Matrix (Out by Forging A Taper)",
+                    "organizer_type": "RULED_EXPLAIN_BOX",
+                    "table_title": "Req 5d",
                     "headers": [
-                      "Sketch / Diagram Element",
-                      "Required Labels & Dimensions",
-                      "Field Observations & Counselor Notes"
+                      "Req 5d(3)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
                     ],
                     "column_headers": [
-                      "Sketch / Diagram Element",
-                      "Required Labels & Dimensions",
-                      "Field Observations & Counselor Notes"
+                      "Req 5d(3)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Draw out by forging a taper"
+                      "1. Req 5d(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Draw out by forging a taper"
+                      "1. Req 5d(3)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(3)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3154,7 +3426,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(3)(b) Structured Technical Study & Explanation Matrix (Horn of the Anvil by)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(3)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3166,12 +3438,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Use the horn of the anvil by forging a U -shaped bend"
+                      "1. Req 5d(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Use the horn of the anvil by forging a U -shaped bend"
+                      "1. Req 5d(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(3)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3217,7 +3499,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(3)(c) Structured Technical Study & Explanation Matrix (Form A Decorative Twist)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(3)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3229,12 +3511,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Form a decorative twist in a piece of square steel"
+                      "1. Req 5d(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Form a decorative twist in a piece of square steel"
+                      "1. Req 5d(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(3)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3279,7 +3571,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(3)(d) Structured Technical Study & Explanation Matrix (Edge of the Anvil to)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(3)(d) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3291,12 +3583,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Use the edge of the anvil to bend metal by forging an L -shaped bend"
+                      "1. Req 5d(3)(d) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(d) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(d) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Use the edge of the anvil to bend metal by forging an L -shaped bend"
+                      "1. Req 5d(3)(d) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(3)(d) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(3)(d) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(3)(d) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3317,17 +3619,17 @@
               ],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 5d(3) Structured Technical Study & Explanation Matrix (Low-carbon Steel at Least 1/4)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 5d",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 5d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 5d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
                   "1. Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper",
@@ -3341,7 +3643,13 @@
                   "3. Form a decorative twist in a piece of square steel",
                   "4. Use the edge of the anvil to bend metal by forging an L -shaped bend"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
@@ -3418,7 +3726,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(4)(a) Structured Technical Study & Explanation Matrix (Include A Decorative Twist)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(4)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3430,12 +3738,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Include a decorative twist on one object"
+                      "1. Req 5d(4)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Include a decorative twist on one object"
+                      "1. Req 5d(4)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(4)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3480,7 +3798,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(4)(b) Structured Technical Study & Explanation Matrix (Include A Hammer-riveted Joint)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(4)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3492,12 +3810,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Include a hammer-riveted joint in one object"
+                      "1. Req 5d(4)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Include a hammer-riveted joint in one object"
+                      "1. Req 5d(4)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(4)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3542,7 +3870,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 5d(4)(c) Structured Technical Study & Explanation Matrix (Preserve Your Work from Oxidation)",
+                    "table_title": "Req 5d",
                     "headers": [
                       "Req 5d(4)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3554,12 +3882,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Preserve your work from oxidation"
+                      "1. Req 5d(4)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Preserve your work from oxidation"
+                      "1. Req 5d(4)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 5d(4)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 5d(4)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 5d(4)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -3580,7 +3918,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5d(4) Structured Technical Study & Explanation Matrix (Low-carbon Steel at Least 1/4)",
+                "table_title": "Req 5d",
                 "headers": [
                   "Req 5d(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3601,19 +3939,20 @@
                   "2. (5d(4)(b)) Include A Hammer-riveted Joint",
                   "3. (5d(4)(c)) Preserve Your Work From Oxidation"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5d(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
               "common_misconception_pair": {
                 "misconception": "Forged project components can be cut and bent cold as long as the decorative elements are heated in the forge.",
                 "fact": "Both required projects must be shaped hot from quarter-inch stock using the anvil and hammer to demonstrate proper blacksmithing skill."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Metalwork Req 5d(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5d(4))",
@@ -3652,17 +3991,17 @@
           ],
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5d Hands-On Skill Station & EDGE Verification Checklist (Blacksmith Blacksmith's Basic Tools)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (5d(1)) Name and describe the use of a blacksmith's basic tools",
@@ -3676,19 +4015,20 @@
               "3. (5d(3)) Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper",
               "4. (5d(4)) Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
           "common_misconception_pair": {
             "misconception": "Blacksmiths strike steel when cold to avoid burning the iron away in flames.",
             "fact": "Forging cold steel causes severe internal fractures and ruins hammer faces and anvil edges."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Metalwork Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5d)",
@@ -3719,7 +4059,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/metalwork_p024_img2.png",
           "workbook_diagram_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.",
-          "workbook_visual_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer."
+          "workbook_visual_caption": "A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.",
+          "socratic_questions": [
+            "For metalwork Requirement 5d (Option D, Blacksmith. Do ALL of the following: (1) Name and describe the use of a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3769,17 +4112,17 @@
       "pamphlet_page_citation": "Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)",
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Completing Sheet Metal Mechanic/Tinsmith)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (5a) Sheet Metal Mechanic/Tinsmith",
@@ -3793,18 +4136,19 @@
           "3. (5c) Founder Basic Two-piece Mold",
           "4. (5d) Blacksmith Blacksmith's Basic Tools"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All four metalwork options share identical tooling and follow the same assembly techniques.",
         "fact": "Sheet metal relies on mechanical folding, silversmithing on raising, foundry on pouring, and blacksmithing on forging."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Metalwork Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Metalwork Merit Badge Hub (Req 5)",

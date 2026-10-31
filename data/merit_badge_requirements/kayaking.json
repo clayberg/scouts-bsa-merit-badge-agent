@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Kayaking Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -49,24 +49,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
             "misconception": "Small river dams are safe to paddle over during normal water flow.",
             "fact": "Low head dams create powerful reverse roller currents that trap kayaks beneath the surface."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Kayaking Merit Badge Hub (Req 1a)",
@@ -97,7 +102,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p003_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Kayaking Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Kayaking Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Kayaking Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For kayaking Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -125,7 +133,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention Symptoms and First-aid Treatment)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -137,12 +145,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
@@ -180,7 +198,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p019_img1.png",
           "workbook_diagram_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp.",
-          "workbook_visual_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp."
+          "workbook_visual_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp.",
+          "socratic_questions": [
+            "For kayaking Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -196,7 +217,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -215,7 +236,13 @@
               "1. Review the Scouting America Safety Afloat policy.",
               "2. Explain to your counselor how this applies to kayaking."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
@@ -253,7 +280,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p019_img1.png",
           "workbook_diagram_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp.",
-          "workbook_visual_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp."
+          "workbook_visual_caption": "Rescuers insulate a shivering hypothermia victim on shore using a warm tarp.",
+          "socratic_questions": [
+            "For kayaking Requirement 1c (Review the Scouting America Safety Afloat policy. Explain to your counselor how this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -295,7 +325,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: Kayaking Safety and Hazard Management",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never paddle downriver toward strainers, fallen logs, or low head dams where trapped hydraulic currents can pin hulls.",
@@ -304,7 +334,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Kayaking Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -325,18 +355,19 @@
           "2. (1b) Prevention Symptoms and First-aid Treatment",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers can rely on swimming ability alone without assessing water temperatures.",
         "fact": "Cold water shock triggers involuntary gasping reflex within seconds of sudden immersion."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Kayaking Merit Badge Hub (Req 1)",
@@ -508,7 +539,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (BSA Swimmer Test and Water Readiness)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -527,18 +558,19 @@
           "1. Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test.",
           "2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers wearing life jackets do not need to pass aquatics swimming tests.",
         "fact": "The jump into deep water proves a swimmer can handle disorienting accidental immersion."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Kayaking Merit Badge Hub (Req 2)",
@@ -695,7 +727,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (Characteristics of Life Jackets)",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -714,7 +746,13 @@
               "1. Review the characteristics of lifejackets most appropriate for kayaking and understand why one must always be worn while paddling.",
               "2. Then demonstrate how to select and fit a lifejacket for kayaking."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
           "common_misconception_pair": {
@@ -752,7 +790,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p012_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Kayaking Requirement 3 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Kayaking Requirement 3 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Kayaking Requirement 3 field procedures and safety checks.",
+          "socratic_questions": [
+            "For kayaking Requirement 3a (Review the characteristics of life jackets most appropriate for kayaking and understand why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -776,7 +817,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Safety Equipment Such As A)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -788,12 +829,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)",
           "common_misconception_pair": {
@@ -832,7 +883,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p013_img1.png",
           "title": "Req 3b: Essential Kayaking Safety Gear",
           "workbook_diagram_caption": "A float plan form outlines trip details and emergency contacts before paddling.",
-          "workbook_visual_caption": "A float plan form outlines trip details and emergency contacts before paddling."
+          "workbook_visual_caption": "A float plan form outlines trip details and emergency contacts before paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 3b (Review the importance of safety equipment such as a signal device, extra paddle, sponge,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -871,7 +925,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Characteristics of Life Jackets)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -890,7 +944,13 @@
           "1. (3a) Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling",
           "2. (3b) Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any life jacket labeled adult size fits every paddler safely on the water.",
@@ -1058,7 +1118,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Out the Major)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1070,12 +1130,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name and point out the major parts of a kayak"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name and point out the major parts of a kayak"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
@@ -1113,7 +1183,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p033_img1.png",
           "workbook_diagram_caption": "Swimmers prepare proper lifejacket equipment before participating in paddling.",
-          "workbook_visual_caption": "Swimmers prepare proper lifejacket equipment before participating in paddling."
+          "workbook_visual_caption": "Swimmers prepare proper lifejacket equipment before participating in paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 4a (Name and point out the major parts of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1129,7 +1202,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4b Technical Comparison Matrix (Recreational Whitewater and Sea or)",
+            "table_title": "Req 4b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Long Straight-Tracking Touring Kayaks",
@@ -1148,7 +1221,13 @@
               "1. Review the differences in the design between recreational, white water, and sea or touring kayaks.",
               "2. Include how length, width, stability, and rocker are involved in the design of each type."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Long Straight-Tracking Touring Kayaks",
+              "Short High-Rocker Whitewater Kayaks"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
@@ -1187,7 +1266,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p033_img1.png",
           "title": "Req 4b: Recreational Whitewater and Sea Designs",
           "workbook_diagram_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
-          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling."
+          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1203,7 +1285,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Care Maintenance and Storage)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1215,12 +1297,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the care, maintenance, and storage of a kayak"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the care, maintenance, and storage of a kayak"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)",
           "common_misconception_pair": {
@@ -1258,7 +1350,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p033_img1.png",
           "workbook_diagram_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
-          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling."
+          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 4c (Explain the care, maintenance, and storage of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1284,7 +1379,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Kayak Characteristics and Care Fundamentals",
-      "action_verb": "Demonstrate",
+      "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never drag composite or plastic kayaks across abrasive gravel or concrete boat ramps during transport.",
@@ -1293,7 +1388,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Out the Major)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Long Straight-Tracking Touring Kayaks",
@@ -1314,7 +1409,13 @@
           "2. (4b) Review the differences in the design between recreational, whitewater, and sea or touring kayaks",
           "3. (4c) Explain the care, maintenance, and storage of a kayak"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Long Straight-Tracking Touring Kayaks",
+          "Short High-Rocker Whitewater Kayaks"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A long sea kayak turns just as quickly as a short whitewater boat.",
@@ -1471,7 +1572,7 @@
         {
           "sub_id": "5a",
           "label": "(a)",
-          "text": "Correct methods for the use of a kayak paddle.",
+          "text": "Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and maintenance of a paddle.",
           "resources": [
             {
               "title": "How to Hold a Kayak Paddle (video)",
@@ -1486,7 +1587,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Kayaking Kayak Principles)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1498,12 +1599,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Correct methods for the use of a kayak paddle"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Correct methods for the use of a kayak paddle"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
@@ -1533,7 +1644,7 @@
           ],
           "id": "5a",
           "sub_req_label": "5a",
-          "sub_req_text": "Correct methods for the use of a kayak paddle.",
+          "sub_req_text": "Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and maintenance of a paddle.",
           "topic_title": "Req 5a: Kayak Paddle Usage Mechanics",
           "pamphlet_summary": "Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue.",
           "pamphlet_excerpts": [
@@ -1541,12 +1652,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 5a (Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
           "label": "(b)",
-          "text": "Parts of a paddle.",
+          "text": "Parts of a paddle (c) The care and maintenance of a paddle.",
           "resources": [
             {
               "title": "Kayak Paddles (website)",
@@ -1557,7 +1671,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Kayaking Requirement 5b Techniques)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1569,12 +1683,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Parts of a paddle"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Parts of a paddle"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
@@ -1604,7 +1728,7 @@
           ],
           "id": "5b",
           "sub_req_label": "5b",
-          "sub_req_text": "Parts of a paddle.",
+          "sub_req_text": "Parts of a paddle (c) The care and maintenance of a paddle.",
           "topic_title": "Req 5b: Double Bladed Paddle Anatomy",
           "pamphlet_summary": "Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water.",
           "pamphlet_excerpts": [
@@ -1612,7 +1736,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p033_img1.png",
           "workbook_diagram_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
-          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling."
+          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 5b (Parts of a paddle (c) The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1628,7 +1755,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Care and Maintenance)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1640,12 +1767,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The care and maintenance of a paddle"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The care and maintenance of a paddle"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)",
           "common_misconception_pair": {
@@ -1683,7 +1820,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p033_img1.png",
           "workbook_diagram_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
-          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling."
+          "workbook_visual_caption": "Swimmers prepare proper life jacket equipment before participating in paddling.",
+          "socratic_questions": [
+            "For kayaking Requirement 5c (The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1722,7 +1862,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Discuss Kayak Care Maintenance)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1743,7 +1883,13 @@
           "2. (5b) Kayaking Requirement 5b Techniques",
           "3. (5c) Care and Maintenance"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers must squeeze the paddle shaft tightly with both hands for maximum power.",
@@ -1911,7 +2057,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Capsize and Perform A Wet)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1923,12 +2069,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Safely capsize and perform a wet exit"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Safely capsize and perform a wet exit"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -1966,7 +2122,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p054_img1.png",
           "workbook_diagram_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
-          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool."
+          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
+          "socratic_questions": [
+            "For kayaking Requirement 6a (Safely capsize and perform a wet exit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1994,7 +2153,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Reenter the Kayak with Assistance)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2006,12 +2165,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Reenter the kayak with assistance from a buddy boat"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Reenter the kayak with assistance from a buddy boat"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -2049,7 +2218,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p054_img1.png",
           "workbook_diagram_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
-          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool."
+          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
+          "socratic_questions": [
+            "For kayaking Requirement 6b (Reenter the kayak with assistance from a buddy boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2065,7 +2237,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist (Kayak-over-kayak Rescue)",
+            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2077,12 +2249,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate a kayak-over-kayak rescue"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate a kayak-over-kayak rescue"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -2120,7 +2302,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p054_img1.png",
           "workbook_diagram_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
-          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool."
+          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
+          "socratic_questions": [
+            "For kayaking Requirement 6c (Demonstrate a kayak-over-kayak rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2136,7 +2321,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist (HELP Position)",
+            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2148,12 +2333,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate the HELP position"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate the HELP position"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -2191,7 +2386,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p054_img1.png",
           "workbook_diagram_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
-          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool."
+          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
+          "socratic_questions": [
+            "For kayaking Requirement 6d (Demonstrate the HELP position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2207,7 +2405,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Capsize the Kayak)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2219,12 +2417,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -2262,7 +2470,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p054_img1.png",
           "workbook_diagram_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
-          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool."
+          "workbook_visual_caption": "A kayaker demonstrates a controlled wet exit maneuver inside a training pool.",
+          "socratic_questions": [
+            "For kayaking Requirement 6e (Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2313,7 +2524,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Equipped Kayak with An Open)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2338,7 +2549,13 @@
           "4. (6d) HELP Position",
           "5. (6e) Capsize The Kayak"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A capsized kayaker should immediately abandon the boat and swim to distant shore.",
@@ -2495,7 +2712,7 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Forward stroke.",
+          "text": "Forward stroke (b) Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke.",
           "resources": [
             {
               "title": "Kayak Forward Stroke (video)",
@@ -2506,7 +2723,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Forward Stroke)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2518,12 +2735,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Forward stroke"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Forward stroke"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2553,7 +2780,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Forward stroke.",
+          "sub_req_text": "Forward stroke (b) Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke.",
           "topic_title": "Req 7a: Forward Propulsion Power Stroke",
           "pamphlet_summary": "Execute forward strokes by winding the torso and planting the blade near the footpegs. Pull the boat past the blade using core abdominal unwinding, releasing at the hip line.",
           "pamphlet_excerpts": [
@@ -2561,12 +2788,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7a (Forward stroke (b) Backstroke (c) Forward sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Backstroke.",
+          "text": "Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.",
           "resources": [
             {
               "title": "Kayak Reverse Stroke (video)",
@@ -2577,7 +2807,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Kayaking Backstroke Principles)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2589,12 +2819,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Backstroke"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Backstroke"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2624,7 +2864,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Backstroke.",
+          "sub_req_text": "Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.",
           "topic_title": "Req 7b: Reverse Backstroke Execution Mechanics",
           "pamphlet_summary": "The backstroke stops forward momentum and propels the kayak backward using the blade reverse face. Rotate shoulders to plant the blade aft and push forward smoothly toward your knees.",
           "pamphlet_excerpts": [
@@ -2632,12 +2872,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7b (Backstroke (c) Forward sweep (d) Reverse sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
           "label": "(c)",
-          "text": "Forward sweep.",
+          "text": "Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.",
           "resources": [
             {
               "title": "Kayak Sweep Strokes (video)",
@@ -2648,7 +2891,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Forward Sweep)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2660,12 +2903,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Forward sweep"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Forward sweep"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2695,7 +2948,7 @@
           ],
           "id": "7c",
           "sub_req_label": "7c",
-          "sub_req_text": "Forward sweep.",
+          "sub_req_text": "Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.",
           "topic_title": "Req 7c: Forward Sweep Turning Stroke",
           "pamphlet_summary": "The forward sweep turns the kayak away from the stroke side through a wide semi circle. Plant the blade near the bow stem and sweep in a wide lateral arc toward stern.",
           "pamphlet_excerpts": [
@@ -2703,12 +2956,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7c (Forward sweep (d) Reverse sweep (e) Draw stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
           "label": "(d)",
-          "text": "Reverse sweep.",
+          "text": "Reverse sweep (e) Draw stroke (f) Stern draw.",
           "resources": [
             {
               "title": "Kayak Reverse Stroke (video)",
@@ -2719,7 +2975,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Reverse Sweep)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2731,12 +2987,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Reverse sweep"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Reverse sweep"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2766,7 +3032,7 @@
           ],
           "id": "7d",
           "sub_req_label": "7d",
-          "sub_req_text": "Reverse sweep.",
+          "sub_req_text": "Reverse sweep (e) Draw stroke (f) Stern draw.",
           "topic_title": "Req 7d: Reverse Sweep Turning Mechanics",
           "pamphlet_summary": "Reverse sweeps rotate the kayak bow toward the paddling side from a stationary or moving position. Reach back toward the stern deck and sweep a wide outward arc toward the bow.",
           "pamphlet_excerpts": [
@@ -2774,12 +3040,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7d (Reverse sweep (e) Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
           "label": "(e)",
-          "text": "Draw stroke.",
+          "text": "Draw stroke (f) Stern draw.",
           "resources": [
             {
               "title": "Kayak Draw Stroke, in Water Recovery (video)",
@@ -2789,25 +3058,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Kayaking Stroke Principles)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Draw stroke"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Draw stroke"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2837,7 +3116,7 @@
           ],
           "id": "7e",
           "sub_req_label": "7e",
-          "sub_req_text": "Draw stroke.",
+          "sub_req_text": "Draw stroke (f) Stern draw.",
           "topic_title": "Req 7e: Lateral Draw Stroke Technique",
           "pamphlet_summary": "The draw stroke moves the kayak sideways toward an approaching dock, buddy boat, or shoreline. Reach out broadside, immerse the blade vertically, and draw water directly inward toward your hip.",
           "pamphlet_excerpts": [
@@ -2845,7 +3124,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7e (Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
@@ -2860,25 +3142,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 7f Structured Technical Study & Explanation Matrix (Kayaking Stern Principles)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 7f Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stern draw"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Stern draw"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
           "common_misconception_pair": {
@@ -2916,7 +3208,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p075_img1.png",
           "workbook_diagram_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
-          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water."
+          "workbook_visual_caption": "A paddler executes a forward power stroke to propel the kayak across the water.",
+          "socratic_questions": [
+            "For kayaking Requirement 7f (Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2958,17 +3253,17 @@
       "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Solo Paddler Use A Properly)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (7a) Forward Stroke",
@@ -2986,7 +3281,13 @@
           "5. (7e) Kayaking Stroke Principles",
           "6. (7f) Kayaking Stern Principles"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddling harder with arms provides greater forward momentum than smooth torso rotation.",
@@ -3154,7 +3455,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Straight Line for to Boat)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3166,12 +3467,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3209,7 +3520,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img2.png",
           "workbook_diagram_caption": "Proper hand spacing and grip technique ensure efficient forward paddling strokes.",
-          "workbook_visual_caption": "Proper hand spacing and grip technique ensure efficient forward paddling strokes."
+          "workbook_visual_caption": "Proper hand spacing and grip technique ensure efficient forward paddling strokes.",
+          "socratic_questions": [
+            "For kayaking Requirement 8a (Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3225,7 +3539,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Pivot from A Stationary Position)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3237,12 +3551,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3280,7 +3604,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8b (Spin or pivot from a stationary position 180 degrees (half circle) to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3296,7 +3623,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Move Abeam to the Right)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3308,12 +3635,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Move abeam to the right 10 feet and to the left 10 feet"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Move abeam to the right 10 feet and to the left 10 feet"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3351,7 +3688,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8c (Move abeam to the right 10 feet and to the left 10 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -3367,7 +3707,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Stop the Boat in One)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3379,12 +3719,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stop the boat in one boat length"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Stop the boat in one boat length"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3423,7 +3773,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "title": "Req 8d: Stopping Within One Boat Length",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8d (Stop the boat in one boat length), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -3434,7 +3787,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3446,12 +3799,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. While maintaining forward motion, turn the kayak 90 degrees to the right and left"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. While maintaining forward motion, turn the kayak 90 degrees to the right and left"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3490,7 +3853,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "title": "Req 8e: Ninety-Degree Turns Under Momentum",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8e (While maintaining forward motion, turn the kayak 90 degrees to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8f",
@@ -3506,7 +3872,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8f Structured Technical Study & Explanation Matrix (Move the Kayak Backward)",
+            "table_title": "Req 8f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3518,12 +3884,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes"
+              "1. Req 8f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes"
+              "1. Req 8f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3561,7 +3937,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8f (Move the kayak backward three to four boat lengths using appropriate and effective reverse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8g",
@@ -3572,7 +3951,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8g Structured Technical Study & Explanation Matrix (Kayak in A Buoyed Figure)",
+            "table_title": "Req 8g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3584,12 +3963,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart"
+              "1. Req 8g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart"
+              "1. Req 8g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)",
           "common_misconception_pair": {
@@ -3627,7 +4016,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/kayaking_p067_img1.png",
           "workbook_diagram_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
-          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers."
+          "workbook_visual_caption": "A kayaker grips the paddle shaft firmly while preparing for precise stroke maneuvers.",
+          "socratic_questions": [
+            "For kayaking Requirement 8g (Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3670,7 +4062,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Solo Paddler Use A Properly)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3699,7 +4091,13 @@
           "6. (8f) Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes",
           "7. (8g) Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Kayaks stop instantly as soon as the paddler stops making forward paddling strokes.",

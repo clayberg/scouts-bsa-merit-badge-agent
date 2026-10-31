@@ -79,7 +79,7 @@ Every multi-agent curriculum synthesis run is verified against the canonical 7-s
 1. `PamphletResearchAgent` (extracts canonical requirements and computes SHA-256 baseline lock)
 2. `DeepResearchEnrichmentAgent` (invokes `WebSearchGroundingAgent` via `AgentTool` isolation + `ResearchCoverageCriticAgent` loop)
 3. `SlideContentPlannerAgent` (synthesizes 12-archetype storyboard and 5-Part Facilitator Guide notes)
-4. `SlideBeautifierAgent` (applies `DeckStyleConfig` and attaches verified assets from the 5,625-image curriculum catalog (6,064 total files))
+4. `SlideBeautifierAgent` (applies `DeckStyleConfig` and attaches verified assets from the 5,607-image curriculum catalog (6,064 total files))
 5. `FastMCPConfirmationGate` (verifies HMAC-SHA256 `HITLConfirmationToken`)
 6. `PowerPointBuilderAgent` (compiles `13.333" x 7.5"` OpenXML `.pptx` with `_compute_fitting_font_size()`)
 7. `BSABrandAndSafetyReviewAgent` (executes Stage 1 `<10ms` AABB geometry check and Stage 2 visual/curriculum audit inside bounded `LoopAgent(max_iterations=3)`)

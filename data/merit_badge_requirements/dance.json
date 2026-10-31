@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Dance Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,7 +56,13 @@
               "1. Explain to your counselor how you can prevent injuries while participating in dancing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
               "2. Explain what you need to take into consideration before trying potentially dangerous moves including but not limited to jumps, flips, and lifts"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p003_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For dance Requirement 1a (Explain to your counselor how you can prevent injuries while participating in dancing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -114,7 +123,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist (Warm-up Prior to Dancing Activities)",
+            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -133,7 +142,13 @@
               "1. Explain to your counselor how to appropriately warm-up prior to dancing activities to protect joints and prevent injury.",
               "2. Demonstrate three dance warm-ups."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
@@ -171,7 +186,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p003_img1.png",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For dance Requirement 1b (Explain to your counselor how to appropriately warm-up prior to dancing activities to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -191,7 +209,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (You Know First Aid for)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -203,12 +221,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries that could occur while dancing, including cuts, scratches, abrasions, concussions, blisters, sprains, stress fractures, tendonitis, and back injuries"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries that could occur while dancing, including cuts, scratches, abrasions, concussions, blisters, sprains, stress fractures, tendonitis, and back injuries"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
@@ -247,7 +275,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p003_img1.png",
           "title": "Req 1c: First Aid for Dance Injuries",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For dance Requirement 1c (Show that you know first aid for injuries that could occur while dancing, including cuts,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -263,7 +294,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Wearing the Right Clothing and)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -275,12 +306,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 4-9",
           "common_misconception_pair": {
@@ -319,7 +360,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p003_img1.png",
           "title": "Req 1d: Appropriate Dance Footwear and Attire",
           "workbook_diagram_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
-          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks."
+          "workbook_visual_caption": "Scouts and counselor demonstrate Dance Requirement 1 field procedures and safety checks.",
+          "socratic_questions": [
+            "For dance Requirement 1d (Explain the importance of wearing the right clothing and gear for dance, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 1: Dance Injury Prevention Protocols",
@@ -357,7 +401,14 @@
           "3. (1c) First Aid for Dance Injuries",
           "4. (1d) Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Condition / Emergency",
+          "Recognizable Signs & Symptoms",
+          "Step-by-Step First-Aid Care",
+          "Field Prevention Standard"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Static stretching prior to dancing fully protects tendons and ligaments from strain injuries.",
@@ -527,7 +578,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Elements of Dance Describe the)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -546,7 +597,13 @@
           "1. Elements of Dance.",
           "2. Describe the 5 Elements of dance: Body, Action (Relationships), Space, Time, and Energy."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dance elements only apply to classical theatrical ballet rather than social or street styles.",
@@ -704,7 +761,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Acrobatics/Acro Dance.",
+          "text": "Acrobatics/Acro Dance (b) Aerial (Silks, Hoop, etc.",
           "resources": [
             {
               "title": "Acrobatics/Acro Dance (website)",
@@ -715,7 +772,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Acrobatics/Acro Dance)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -727,12 +784,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Acrobatics/Acro Dance"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Acrobatics/Acro Dance"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -762,7 +829,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Acrobatics/Acro Dance.",
+          "sub_req_text": "Acrobatics/Acro Dance (b) Aerial (Silks, Hoop, etc.",
           "topic_title": "Req 3a: Acrobatic Dance Technique Fundamentals",
           "pamphlet_summary": "Acrobatic dance combines classical dance technique with acrobatic elements and balance tricks. Performers master strength, flexibility, and transitional choreography across solo or group routines.",
           "pamphlet_excerpts": [
@@ -770,12 +837,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3a (Acrobatics/Acro Dance (b) Aerial (Silks, Hoop, etc), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Aerial (Silks, Hoop, etc.)",
+          "text": "Aerial (Silks, Hoop, etc.) (c) Ballet (d) Ballroom dances (e) Breakdancing (f) Clogging.",
           "resources": [
             {
               "title": "Aerial Dance (website)",
@@ -786,7 +856,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Aerial Silks Hoop Etc)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -798,12 +868,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Aerial Silks and Hoop"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Aerial Silks and Hoop"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -833,7 +913,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Aerial (Silks, Hoop, etc.)",
+          "sub_req_text": "Aerial (Silks, Hoop, etc.) (c) Ballet (d) Ballroom dances (e) Breakdancing (f) Clogging.",
           "topic_title": "Req 3b: Aerial Apparatus Performance Methods",
           "pamphlet_summary": "Aerial dance utilizes suspended apparatus like fabrics, ropes, and hoops to execute three-dimensional choreography. Dancers develop superior core strength, grip endurance, and spatial orientation above ground.",
           "pamphlet_excerpts": [
@@ -841,12 +921,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3b (Aerial (Silks, Hoop, etc.) (c) Ballet (d) Ballroom dances), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Ballet.",
+          "text": "Ballet (d) Ballroom dances (e) Breakdancing (f) Clogging.",
           "resources": [
             {
               "title": "Ballet (website)",
@@ -861,7 +944,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Dance Ballet Principles)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -873,12 +956,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Classical and Contemporary Ballet"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Classical and Contemporary Ballet"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -908,7 +1001,7 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Ballet.",
+          "sub_req_text": "Ballet (d) Ballroom dances (e) Breakdancing (f) Clogging.",
           "topic_title": "Req 3c: Classical Ballet Technique Traditions",
           "pamphlet_summary": "Ballet features formalized terminology, external hip rotation, and precise geometrical lines. Dancers perform rigorous barre exercises, center adagios, and allegro jumps alone or partnered.",
           "pamphlet_excerpts": [
@@ -916,12 +1009,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3c (Ballet (d) Ballroom dances (e) Breakdancing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
           "label": "(d)",
-          "text": "Ballroom dances.",
+          "text": "Ballroom dances (e) Breakdancing (f) Clogging.",
           "resources": [
             {
               "title": "Ballroom dances (website)",
@@ -936,7 +1032,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Ballroom Dances)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -948,12 +1044,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ballroom dances"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Ballroom dances"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -983,7 +1089,7 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Ballroom dances.",
+          "sub_req_text": "Ballroom dances (e) Breakdancing (f) Clogging.",
           "topic_title": "Req 3d: Ballroom Partner Dance Dynamics",
           "pamphlet_summary": "Ballroom dance encompasses standard and smooth partnership dances performed across social and competitive ballrooms. Couplets maintain structured frames, footwork tracking, and counter-body movement positions across the floor.",
           "pamphlet_excerpts": [
@@ -991,12 +1097,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3d (Ballroom dances (e) Breakdancing (f) Clogging), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
           "label": "(e)",
-          "text": "Breakdancing.",
+          "text": "Breakdancing (f) Clogging.",
           "resources": [
             {
               "title": "Breakdancing (website)",
@@ -1011,7 +1120,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Dance Breakdancing Principles)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1023,12 +1132,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Breakdancing"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Breakdancing"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1058,7 +1177,7 @@
           ],
           "id": "3e",
           "sub_req_label": "3e",
-          "sub_req_text": "Breakdancing.",
+          "sub_req_text": "Breakdancing (f) Clogging.",
           "topic_title": "Req 3e: Breakdancing Urban Movement Vocabulary",
           "pamphlet_summary": "Breakdancing features toprock, downrock, power moves, and stylistic freezes set to percussive breaks. Breakers balance explosive upper-body athleticism, musicality, and inventive footwork in cipher circles.",
           "pamphlet_excerpts": [
@@ -1066,7 +1185,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3e (Breakdancing (f) Clogging), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
@@ -1086,7 +1208,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Dance Clogging Principles)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1098,12 +1220,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Percussive Appalachian Clogging"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Percussive Appalachian Clogging"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1141,12 +1273,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3f (Clogging), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
           "label": "(g)",
-          "text": "Contemporary/Modern dance.",
+          "text": "Contemporary/Modern dance (h) Country-Western.",
           "resources": [
             {
               "title": "Contemporary dance (website)",
@@ -1161,7 +1296,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Contemporary/Modern Dance)",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1173,12 +1308,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Contemporary/Modern dance"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Contemporary/Modern dance"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1208,7 +1353,7 @@
           ],
           "id": "3g",
           "sub_req_label": "3g",
-          "sub_req_text": "Contemporary/Modern dance.",
+          "sub_req_text": "Contemporary/Modern dance (h) Country-Western.",
           "topic_title": "Req 3g: Contemporary Modern Dance Expression",
           "pamphlet_summary": "Contemporary and modern dance emphasize expressive torso articulation, floor transitions, gravity release, and recovery. Dancers explore abstract thematic narratives through both disciplined techniques and structured improvisations.",
           "pamphlet_excerpts": [
@@ -1216,7 +1361,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3g (Contemporary/Modern dance (h) Country-Western), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3h",
@@ -1236,7 +1384,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3h Structured Technical Study & Explanation Matrix (Dance Country-Western Principles)",
+            "table_title": "Req 3h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1248,12 +1396,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Country-Western"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Country-Western"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1291,12 +1449,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3h (Country-Western), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3i",
           "label": "(i)",
-          "text": "Folk & Traditional/Cultural.",
+          "text": "Folk & Traditional/Cultural (j) Hip Hop (k) Jazz (l) Latin dances (m) Square dances.",
           "resources": [
             {
               "title": "Folk dance (website)",
@@ -1315,7 +1476,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3i Structured Technical Study & Explanation Matrix (Folk Traditional/Cultural)",
+            "table_title": "Req 3i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1327,12 +1488,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Folk & Traditional/Cultural"
+              "1. Req 3i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3i Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Folk & Traditional/Cultural"
+              "1. Req 3i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3i Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1362,7 +1533,7 @@
           ],
           "id": "3i",
           "sub_req_label": "3i",
-          "sub_req_text": "Folk & Traditional/Cultural.",
+          "sub_req_text": "Folk & Traditional/Cultural (j) Hip Hop (k) Jazz (l) Latin dances (m) Square dances.",
           "topic_title": "Req 3i: Folk Traditional Cultural Heritage",
           "pamphlet_summary": "Folk and traditional dances celebrate cultural heritage, communal rites, and geographic lineage through shared choreographies. Participants often dance in circles, chains, or lines without requiring specialized theatrical backgrounds.",
           "pamphlet_excerpts": [
@@ -1370,12 +1541,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3i (Folk & Traditional/Cultural (j) Hip Hop (k) Jazz), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3j",
           "label": "(j)",
-          "text": "Hip Hop.",
+          "text": "Hip Hop (k) Jazz (l) Latin dances (m) Square dances (n) Swing dance.",
           "resources": [
             {
               "title": "Hip Hop (website)",
@@ -1386,7 +1560,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3j Structured Technical Study & Explanation Matrix (Hip Hop)",
+            "table_title": "Req 3j Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3j Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1398,12 +1572,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Urban Hip Hop Choreography"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Urban Hip Hop Choreography"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3j Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1433,7 +1617,7 @@
           ],
           "id": "3j",
           "sub_req_label": "3j",
-          "sub_req_text": "Hip Hop.",
+          "sub_req_text": "Hip Hop (k) Jazz (l) Latin dances (m) Square dances (n) Swing dance.",
           "topic_title": "Req 3j: Hip Hop Street Dance",
           "pamphlet_summary": "Hip hop dance encompasses diverse urban street styles developed alongside hip hop music and community culture. Dancers ground their weight, isolate muscle complexes, and emphasize bounce, groove, and syncopation.",
           "pamphlet_excerpts": [
@@ -1441,7 +1625,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3j (Hip Hop (k) Jazz (l) Latin dances), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3k",
@@ -1457,7 +1644,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3k Structured Technical Study & Explanation Matrix (Dance Jazz Principles)",
+            "table_title": "Req 3k Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3k Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1469,12 +1656,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Rhythmic Theatrical Jazz Dance"
+              "1. Req 3k Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3k Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3k Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Rhythmic Theatrical Jazz Dance"
+              "1. Req 3k Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3k Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3k Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3k Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1512,12 +1709,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3k (Jazz), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3l",
           "label": "(l)",
-          "text": "Latin dances.",
+          "text": "Latin dances (m) Square dances (n) Swing dance (o) Tap dance.",
           "resources": [
             {
               "title": "Latin Dances (website)",
@@ -1528,7 +1728,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3l Structured Technical Study & Explanation Matrix (Latin Dances)",
+            "table_title": "Req 3l Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3l Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1540,12 +1740,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Latin dances"
+              "1. Req 3l Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3l Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3l Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Latin dances"
+              "1. Req 3l Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3l Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3l Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3l Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1575,7 +1785,7 @@
           ],
           "id": "3l",
           "sub_req_label": "3l",
-          "sub_req_text": "Latin dances.",
+          "sub_req_text": "Latin dances (m) Square dances (n) Swing dance (o) Tap dance.",
           "topic_title": "Req 3l: Latin Partner Dance Rhythms",
           "pamphlet_summary": "Latin dances display rhythmic hip action, detailed partner connections, and syncopated foot placements. Couples execute figures in dances like rumba, cha-cha, and salsa with expressive musical timing.",
           "pamphlet_excerpts": [
@@ -1583,12 +1793,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3l (Latin dances (m) Square dances (n) Swing dance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3m",
           "label": "(m)",
-          "text": "Square dances.",
+          "text": "Square dances (n) Swing dance (o) Tap dance.",
           "resources": [
             {
               "title": "Square Dance (website)",
@@ -1599,7 +1812,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3m Structured Technical Study & Explanation Matrix (Square Dances)",
+            "table_title": "Req 3m Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3m Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1611,12 +1824,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Square dances"
+              "1. Req 3m Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3m Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3m Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Square dances"
+              "1. Req 3m Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3m Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3m Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3m Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1646,7 +1869,7 @@
           ],
           "id": "3m",
           "sub_req_label": "3m",
-          "sub_req_text": "Square dances.",
+          "sub_req_text": "Square dances (n) Swing dance (o) Tap dance.",
           "topic_title": "Req 3m: American Square Dance Figures",
           "pamphlet_summary": "Square dancing features four couples arranged in a square executing directional patterns called in real time. Dancers cooperate as a community unit, building social bonding and rapid spatial orientation.",
           "pamphlet_excerpts": [
@@ -1654,12 +1877,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3m (Square dances (n) Swing dance (o) Tap dance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3n",
           "label": "(n)",
-          "text": "Swing dance.",
+          "text": "Swing dance (o) Tap dance.",
           "resources": [
             {
               "title": "Swing dance (website)",
@@ -1674,7 +1900,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3n Structured Technical Study & Explanation Matrix (Swing Dance)",
+            "table_title": "Req 3n Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3n Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1686,12 +1912,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Swing dance"
+              "1. Req 3n Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3n Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3n Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Swing dance"
+              "1. Req 3n Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3n Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3n Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3n Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1721,7 +1957,7 @@
           ],
           "id": "3n",
           "sub_req_label": "3n",
-          "sub_req_text": "Swing dance.",
+          "sub_req_text": "Swing dance (o) Tap dance.",
           "topic_title": "Req 3n: Swing Dance Partner Connection",
           "pamphlet_summary": "Swing dance encompasses energetic partner styles like Lindy Hop, Charleston, and East Coast Swing. Dancers communicate through elastic arm tension and compression, improvising dynamic syncopations to swing jazz.",
           "pamphlet_excerpts": [
@@ -1729,7 +1965,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3n (Swing dance (o) Tap dance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3o",
@@ -1745,7 +1984,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3o Structured Technical Study & Explanation Matrix (Tap Dance)",
+            "table_title": "Req 3o Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3o Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1757,12 +1996,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Percussive Metal Soled Tap"
+              "1. Req 3o Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3o Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3o Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Percussive Metal Soled Tap"
+              "1. Req 3o Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3o Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3o Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3o Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 16-21",
           "common_misconception_pair": {
@@ -1800,7 +2049,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 3o (Tap dance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 3: Global Dance Style Survey",
@@ -1813,7 +2065,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Styles of Dance Name and)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1858,7 +2110,13 @@
           "14. (3n) Swing dance",
           "15. (3o) Core principles and practical standards for Percussive Metal Soled Tap"
         ],
-        "min_rows": 15
+        "min_rows": 15,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All formal dance styles require partner connection and rigid classical posture standards.",
@@ -2022,7 +2280,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Dance Origins and Evolution)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2034,12 +2292,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Give a brief history, including its origin, how it came to be in the United States if it originated elsewhere, and where in the world/country it is most often performed"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Give a brief history, including its origin, how it came to be in the United States if it originated elsewhere, and where in the world/country it is most often performed"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2077,18 +2345,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p004_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4a (Give a brief history, including its origin, how it came to be in the United States if it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Name/describe different variations of this style of dancing.",
+          "text": "Name/describe different variations of this style of dancing, if any.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Name/describe Different Variations of This)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2100,12 +2371,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name/describe different variations of this style of dancing"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name/describe different variations of this style of dancing"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2135,7 +2416,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Name/describe different variations of this style of dancing.",
+          "sub_req_text": "Name/describe different variations of this style of dancing, if any.",
           "topic_title": "Req 4b: Stylistic Variations Within Genres",
           "pamphlet_summary": "Dance genres evolve into diverse substyles shaped by regional communities, competitive formats, and creative fusions. Documenting stylistic variations provides a nuanced understanding of a genre broad artistic spectrum.",
           "pamphlet_excerpts": [
@@ -2143,7 +2424,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4b (Name/describe different variations of this style of dancing, if any), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -2154,7 +2438,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Specific Types of Dance Steps/moves)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2175,7 +2459,13 @@
               "2. Does this dance tell a story through movement",
               "3. If so, please"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2213,7 +2503,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4c (Name some specific types of dance steps/moves particular to this type of dance. Does this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -2224,7 +2517,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Include Information)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2236,12 +2529,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Include information on at least one person who became well-known performing, teaching, or choreographing this type of dance"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Include information on at least one person who became well-known performing, teaching, or choreographing this type of dance"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2279,7 +2582,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4d (Include information on at least one person who became well-known performing, teaching, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -2290,7 +2596,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Note If Anyone with A)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2309,7 +2615,13 @@
               "1. Note if anyone with a physical disability (such a person with hearing or sight impairment or a person who uses a wheelchair) could participate in this type of dancing",
               "2. What accommodations would that person need to participate"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2348,7 +2660,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "title": "Req 4e: Adaptive Dance and Inclusion",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4e (Note if anyone with a physical disability (such a person with hearing or sight impairment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -2359,7 +2674,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Place Near You/in Your State)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2378,7 +2693,13 @@
               "1. Locate and share a place near you/in your state where you could watch or participate in this type of dance as a part of a performance, competition, or class",
               "2. Find out when and where this is offered and what the cost would be to watch or participate"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2416,7 +2737,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4f (Locate and share a place near you/in your state where you could watch or participate in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4g",
@@ -2427,7 +2751,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4g Structured Technical Study & Explanation Matrix (Performance of This Type of)",
+            "table_title": "Req 4g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2446,7 +2770,13 @@
               "1. Watch a performance of this type of dance and discuss with your counselor.",
               "2. (While viewing an in-person performance is preferable, a recorded performance may also be permitted.)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -2485,7 +2815,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p008_img1.png",
           "title": "Req 4g: Live or Recorded Performance Analysis",
           "workbook_diagram_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
-          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques."
+          "workbook_visual_caption": "Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.",
+          "socratic_questions": [
+            "For dance Requirement 4g (Watch a performance of this type of dance and discuss with your counselor. (While viewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 4: Dance Historical Research Analysis",
@@ -2498,7 +2831,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Dance Origins and Evolution)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2527,7 +2860,13 @@
           "6. (4f) Local Dance Venues and Studios",
           "7. (4g) Watch a performance of this type of dance and discuss with your counselor"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Historical dance research only covers ancient dates rather than cultural context and modern adaptations.",
@@ -2720,7 +3059,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Learn A Dance)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2743,7 +3082,13 @@
               "3. The dance may be solo, group, or partner dance and can use a memorized choreographed routine or an improvised dance.",
               "4. It should be a minimum of 2 minutes long or several shorter dances that add up to at least 2 minutes."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -2781,7 +3126,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p005_img1.png",
           "workbook_diagram_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
-          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo."
+          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
+          "socratic_questions": [
+            "For dance Requirement 5a (Learn a dance. Use at least THREE types of warm-ups prior to your routine to prepare), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2792,7 +3140,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Dance for Your Counselor or)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2813,7 +3161,13 @@
               "2. Describe to your counselor what precautions you took to avoid injury before and during your performance",
               "3. Name or describe the 3 different dance moves that you learned, the 3 different warm-ups you chose, and the 5 Elements"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -2852,7 +3206,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p014_img1.png",
           "title": "Req 5b: Live or Recorded Dance Display",
           "workbook_diagram_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
-          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo."
+          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
+          "socratic_questions": [
+            "For dance Requirement 5b (Perform the dance for your counselor or submit a video of your performance to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 5: Choreography Learning Performance Execution",
@@ -2865,7 +3222,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Learn and Perform A Dance)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2884,7 +3241,13 @@
           "1. (5a) Learn a dance",
           "2. (5b) Perform the dance for your counselor or submit a video of your performance to your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts can master and perform complex dance routines safely without preceding physical rehearsals.",
@@ -3036,13 +3399,13 @@
       "req_number": "6",
       "topic_heading": "Careers",
       "lead_text": "Careers. Do ONE of the following:",
-      "req_text": "Careers. Do ONE of the following: (a) Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
+      "req_text": "Careers. Do ONE of the following: (a) Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
       "resources": [],
       "sub_requirements": [
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
+          "text": "Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
           "resources": [
             {
               "title": "15 Great Dance Related Jobs for Dancers (website)",
@@ -3075,28 +3438,29 @@
             "row_labels": [
               "1. Explore careers related to Dance",
               "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement",
-              "3. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview",
+              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
             "rows": [
               "1. Explore careers related to Dance",
               "2. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement",
-              "3. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview",
+              "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
             "misconception": "Professional dancers cannot transition into viable long-term careers once stage performing ends.",
             "fact": "Dance careers encompass clinical dance movement therapy, university professorships, and commercial artistic direction."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Dance Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Dance Test Lab Hub (Req 6a)",
@@ -3119,7 +3483,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
+          "sub_req_text": "Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.",
           "topic_title": "Req 6a: Professional Dance Career Research",
           "pamphlet_summary": "Professional dance pathways require specialized conservatory training, degrees in dance education, or clinical therapy certifications. Scouts examine daily duties, financial expectations, physical demands, and career longevity within dance fields.",
           "pamphlet_excerpts": [
@@ -3127,12 +3491,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dance_p014_img1.png",
           "workbook_diagram_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
-          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo."
+          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
+          "socratic_questions": [
+            "For dance Requirement 6a (Explore careers related to Dance. Research one career to learn about the training and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "How Dance Can Unleash Your Inner Joy (video)",
@@ -3147,7 +3514,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3161,14 +3528,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from dance to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from dance to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Dance Test Lab Resource Guide, pp. 34-39",
           "common_misconception_pair": {
@@ -3198,7 +3571,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 6b: Recreational Dance Hobby Pathways",
           "pamphlet_summary": "Pursuing dance as a recreational hobby enriches adult life through community clubs, fitness, and artistic joy. Scouts explore amateur dance societies, affordable local workshops, and community events that nurture ongoing participation.",
           "pamphlet_excerpts": [
@@ -3207,7 +3580,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dance_p014_img1.png",
           "title": "Req 6b: Lifelong Recreational Dance Hobbies",
           "workbook_diagram_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
-          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo."
+          "workbook_visual_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
+          "socratic_questions": [
+            "For dance Requirement 6b (Explore how you could use knowledge and skills from dance to pursue a hobby. Research any), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 6: Dance Careers Recreational Pathways",
@@ -3243,7 +3619,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dance training prepares individuals exclusively for competitive commercial stage performance careers.",
@@ -3355,7 +3736,7 @@
       "workbook_diagram_url": "assets/pamphlet_images/dance_p014_img1.png",
       "workbook_diagram_caption": "Dancers rehearsing eight-count choreography synchronized to musical tempo.",
       "number": "6",
-      "description": "Careers. Do ONE of the following: (a) Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include , with your parent or guardian's permission , an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
+      "description": "Careers. Do ONE of the following: (a) Explore careers related to Dance. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. (b) Explore how you could use knowledge and skills from dance to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
       "source_url": "https://www.scouting.org/skills/merit-badges/test-lab/dance/#req-6",
       "local_grounding_spec": {
         "site_requirement": "Approved Dance demonstration area for Requirement 6",
@@ -3413,7 +3794,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Survey Below)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3425,12 +3806,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete the survey below to complete the test lab requirements"
+          "1. Feedback Value",
+          "2. Data Integrity",
+          "3. Curriculum Enhancement"
         ],
         "rows": [
-          "1. Complete the survey below to complete the test lab requirements"
+          "1. Feedback Value",
+          "2. Data Integrity",
+          "3. Curriculum Enhancement"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Evaluation surveys are scored tests that determine whether a Scout passes or fails.",

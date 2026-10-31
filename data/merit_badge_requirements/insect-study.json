@@ -41,7 +41,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Insect Study Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -53,12 +53,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards associated with exposure to ants and bees and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards associated with exposure to ants and bees and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)",
           "common_misconception_pair": {
@@ -96,7 +106,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p003_img1.png",
           "workbook_diagram_caption": "An adult cicada displays clear membranous wings and distinct compound eyes.",
-          "workbook_visual_caption": "An adult cicada displays clear membranous wings and distinct compound eyes."
+          "workbook_visual_caption": "An adult cicada displays clear membranous wings and distinct compound eyes.",
+          "socratic_questions": [
+            "For insect study Requirement 1a (Explain to your counselor the most likely hazards associated with exposure to ants and bees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -116,7 +129,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -128,12 +141,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the prevention of and treatment for health concerns that could occur while working with ants and bees, including insect bites and anaphylactic shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the prevention of and treatment for health concerns that could occur while working with ants and bees, including insect bites and anaphylactic shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)",
           "common_misconception_pair": {
@@ -172,7 +195,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p027_img1.png",
           "title": "Req 1b: Preventing and Treating Insect Bites",
           "workbook_diagram_caption": "An adult cicada displays clear membranous wings and distinct compound eyes.",
-          "workbook_visual_caption": "An adult cicada displays clear membranous wings and distinct compound eyes."
+          "workbook_visual_caption": "An adult cicada displays clear membranous wings and distinct compound eyes.",
+          "socratic_questions": [
+            "For insect study Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while working), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -215,7 +241,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Insect Study Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -234,7 +260,13 @@
           "1. (1a) Explain to your counselor the most likely hazards associated with exposure to ants and bees and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
           "2. (1b) Discuss the prevention of and treatment for health concerns that could occur while working with ants and bees, including insect bites and anaphylactic shock"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that squeezing a bee stinger with tweezers is the best removal technique.",
@@ -401,7 +433,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Insects Are Different from Other)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -413,12 +445,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how insects are different from other animals"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how insects are different from other animals"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -457,7 +499,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p007_img1.png",
           "title": "Req 2a: How Insects Differ from Animals",
           "workbook_diagram_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
-          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton."
+          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
+          "socratic_questions": [
+            "For insect study Requirement 2a (Tell how insects are different from other animals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -473,7 +518,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Insects Are Different from Millipedes)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -485,12 +530,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how insects are different from millipedes and spiders"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how insects are different from millipedes and spiders"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -528,7 +583,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p023_img1.png",
           "workbook_diagram_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
-          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton."
+          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
+          "socratic_questions": [
+            "For insect study Requirement 2b (Show how insects are different from millipedes and spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -544,7 +602,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Out and Name the Main)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -556,12 +614,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Point out and name the main parts of an insect"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Point out and name the main parts of an insect"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -599,7 +667,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p023_img1.png",
           "workbook_diagram_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
-          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton."
+          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
+          "socratic_questions": [
+            "For insect study Requirement 2c (Point out and name the main parts of an insect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -615,7 +686,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Characteristics That Distinguish the Major)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -627,12 +698,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the characteristics that distinguish the major orders of insects"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the characteristics that distinguish the major orders of insects"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -670,7 +751,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p023_img1.png",
           "workbook_diagram_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
-          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton."
+          "workbook_visual_caption": "A shiny green June beetle crawls on leaf litter displaying its hard exoskeleton.",
+          "socratic_questions": [
+            "For insect study Requirement 2d (Describe the characteristics that distinguish the major orders of insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -713,7 +797,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Anatomy Insects Animals Insects)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -736,7 +820,13 @@
           "3. (2c) Point out and name the main parts of an insect",
           "4. (2d) Describe the characteristics that distinguish the major orders of insects"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often classify spiders, harvestmen, and millipedes as true insects due to jointed legs.",
@@ -908,7 +998,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3a Technical Comparison Matrix (Life Histories of A Butterfly)",
+            "table_title": "Req 3a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Complete Four Stage Butterfly Metamorphosis",
@@ -927,7 +1017,13 @@
               "1. Compare the life histories of a butterfly and a grasshopper.",
               "2. Tell how they are different."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Complete Four Stage Butterfly Metamorphosis",
+              "Incomplete Three Stage Grasshopper Metamorphosis"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)",
           "common_misconception_pair": {
@@ -965,7 +1061,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p012_img1.png",
           "workbook_diagram_caption": "A Scout sits outdoors recording notes beside observation jars and field gear.",
-          "workbook_visual_caption": "A Scout sits outdoors recording notes beside observation jars and field gear."
+          "workbook_visual_caption": "A Scout sits outdoors recording notes beside observation jars and field gear.",
+          "socratic_questions": [
+            "For insect study Requirement 3a (Compare the life histories of a butterfly and a grasshopper. Tell how they are different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -976,7 +1075,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Raise An Insect Through Complete)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1001,7 +1100,13 @@
               "4. Be sure to check natural resources authorities in advance to be sure that you will not be collecting any species that is known to be protected or endangered, or in any habitat where collecting is prohibited",
               "5. In most cases, all specimens should be returned at the location of capture after the requirement has been met"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)",
           "common_misconception_pair": {
@@ -1039,7 +1144,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p037_img1.png",
           "workbook_diagram_caption": "A Scout sits outdoors recording notes beside observation jars and field gear.",
-          "workbook_visual_caption": "A Scout sits outdoors recording notes beside observation jars and field gear."
+          "workbook_visual_caption": "A Scout sits outdoors recording notes beside observation jars and field gear.",
+          "socratic_questions": [
+            "For insect study Requirement 3b (Raise an insect through complete metamorphosis from its larval stage to its adult stage (e.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1070,7 +1178,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Life Cycles)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Complete Four Stage Butterfly Metamorphosis",
@@ -1089,7 +1197,13 @@
           "1. (3a) Life Histories of A Butterfly",
           "2. (3b) Raise An Insect Through Complete"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Complete Four Stage Butterfly Metamorphosis",
+          "Incomplete Three Stage Grasshopper Metamorphosis"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently think a chrysalis is just a sleeping bag containing a resting caterpillar.",
@@ -1256,7 +1370,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1275,7 +1389,13 @@
               "1. Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to insect study",
               "2. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code during field observation, specimen collection, and identification"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
           "common_misconception_pair": {
@@ -1313,7 +1433,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img1.png",
           "workbook_diagram_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
-          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage."
+          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
+          "socratic_questions": [
+            "For insect study Requirement 4a (Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1337,7 +1460,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Live Species of Insects)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1356,7 +1479,13 @@
               "1. Observe 20 different live species of insects in their habitat.",
               "2. In your observations, include at least four orders of insects."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
           "common_misconception_pair": {
@@ -1394,7 +1523,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img1.png",
           "workbook_diagram_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
-          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage."
+          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
+          "socratic_questions": [
+            "For insect study Requirement 4b (Observe 20 different live species of insects in their habitat. In your observations,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1405,7 +1537,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist (Scrapbook of the Insects You)",
+            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1428,7 +1560,13 @@
               "3. Label each insect with its common and scientific names, where possible.",
               "4. Share your scrapbook with your counselor."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
           "common_misconception_pair": {
@@ -1466,7 +1604,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img1.png",
           "workbook_diagram_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
-          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage."
+          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
+          "socratic_questions": [
+            "For insect study Requirement 4c (Make a scrapbook of the 20 insects you observe in 4(b). Include photographs, sketches,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1486,7 +1627,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Scrapbook Collection Select Eight Species)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1498,12 +1639,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. From your scrapbook collection, select eight species of insects and identify what role they play in the ecosystem"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. From your scrapbook collection, select eight species of insects and identify what role they play in the ecosystem"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)",
           "common_misconception_pair": {
@@ -1541,7 +1692,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img1.png",
           "workbook_diagram_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
-          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage."
+          "workbook_visual_caption": "A Scout carefully places specimens inside a pop-up cylindrical mesh breeding cage.",
+          "socratic_questions": [
+            "For insect study Requirement 4d (From your scrapbook collection, select eight species of insects and identify what role they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1592,7 +1746,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1606,16 +1760,22 @@
         "row_labels": [
           "1. (4a) Leave No Trace and Outdoor Ethics",
           "2. (4b) Live Species of Insects",
-          "3. (4c) Scrapbook of The Insects You",
+          "3. (4c) Scrapbook of The Insects",
           "4. (4d) Scrapbook Collection Select Eight Species"
         ],
         "rows": [
           "1. (4a) Leave No Trace and Outdoor Ethics",
           "2. (4b) Live Species of Insects",
-          "3. (4c) Scrapbook of The Insects You",
+          "3. (4c) Scrapbook of The Insects",
           "4. (4d) Scrapbook Collection Select Eight Species"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think collecting requires killing specimens and pinning them onto cork demonstration boards.",
@@ -1787,7 +1947,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Social Insects Different from Solitary)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1799,12 +1959,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell things that make social insects different from solitary insects"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell things that make social insects different from solitary insects"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
           "common_misconception_pair": {
@@ -1842,7 +2012,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p065_img1.png",
           "workbook_diagram_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
-          "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild."
+          "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
+          "socratic_questions": [
+            "For insect study Requirement 5a (Tell things that make social insects different from solitary insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1864,7 +2037,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(c) Structured Technical Study & Explanation Matrix (Ant Colony in A Formicarium)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(c) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1876,18 +2049,24 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 1.",
+                  "1. Req 5b(c) Core Concept, Technical Standard & Field Application",
                   "2. Observe an ant colony in a formicarium (ant farm).",
                   "3. Find the queen and worker ants.",
                   "4. Explain to your counselor the different chambers found within an ant colony."
                 ],
                 "rows": [
-                  "1. 1.",
+                  "1. Req 5b(c) Core Concept, Technical Standard & Field Application",
                   "2. Observe an ant colony in a formicarium (ant farm).",
                   "3. Find the queen and worker ants.",
                   "4. Explain to your counselor the different chambers found within an ant colony."
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(c) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
               "common_misconception_pair": {
@@ -1944,7 +2123,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(d) Structured Technical Study & Explanation Matrix (Hive of Bees Remove the)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(d) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1956,18 +2135,24 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 2.",
+                  "1. Req 5b(d) Core Concept, Technical Standard & Field Application",
                   "2. Study a hive of bees.",
                   "3. Remove the combs and find the queen.",
                   "4. Estimate the amount of brood and count the number of queen cells."
                 ],
                 "rows": [
-                  "1. 2.",
+                  "1. Req 5b(d) Core Concept, Technical Standard & Field Application",
                   "2. Study a hive of bees.",
                   "3. Remove the combs and find the queen.",
                   "4. Estimate the amount of brood and count the number of queen cells."
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(d) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
               "common_misconception_pair": {
@@ -2015,7 +2200,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Ant Colony in A Formicarium)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2034,7 +2219,13 @@
               "1. (5b(c)) Core principles and practical standards for Core principles and practical standards for Ant Colony or Beehive Observation",
               "2. (5b(d)) Core principles and practical standards for Insect Study Field Standard"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
           "common_misconception_pair": {
@@ -2072,7 +2263,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p065_img1.png",
           "workbook_diagram_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
-          "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild."
+          "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
+          "socratic_questions": [
+            "For insect study Requirement 5b (Do ONE of the following: (c) 1. Observe an ant colony in a formicarium (ant farm). Find the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2111,7 +2305,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Social Insects)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2130,7 +2324,13 @@
           "1. (5a) Social Insects Different From Solitary",
           "2. (5b) Ant Colony in A Formicarium"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently imagine the queen ant acts as a commanding ruler directing daily worker activities.",
@@ -2298,7 +2498,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Insects Fit in the Food)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2310,12 +2510,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how insects fit in the food web of other insects, fish, birds, and mammals"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how insects fit in the food web of other insects, fish, birds, and mammals"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)",
           "common_misconception_pair": {
@@ -2353,7 +2563,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img2.png",
           "workbook_diagram_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam.",
-          "workbook_visual_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam."
+          "workbook_visual_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam.",
+          "socratic_questions": [
+            "For insect study Requirement 6a (Tell how insects fit in the food web of other insects, fish, birds, and mammals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2369,7 +2582,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Role Insects Serve As Pollinators)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2381,12 +2594,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the role insects serve as pollinators for plants"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the role insects serve as pollinators for plants"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)",
           "common_misconception_pair": {
@@ -2424,7 +2647,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p045_img2.png",
           "workbook_diagram_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam.",
-          "workbook_visual_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam."
+          "workbook_visual_caption": "A magnifying glass reveals fine wing details on a small insect resting on foam.",
+          "socratic_questions": [
+            "For insect study Requirement 6b (Explain the role insects serve as pollinators for plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2455,7 +2681,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Ecology Insects Food Insects)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2474,7 +2700,13 @@
           "1. (6a) Insects Fit in The Food",
           "2. (6b) Role Insects Serve As Pollinators"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think flowers produce nectar solely as a sweet gift for visiting bugs.",
@@ -2645,7 +2877,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Symbiotic Relationship Between Bees and)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2666,7 +2898,13 @@
               "2. Explain what colony collapse disorder (CCD) is and some of the possible causes.",
               "3. Discuss how CCD affects our food supply."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)",
           "common_misconception_pair": {
@@ -2705,7 +2943,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p089_img1.png",
           "title": "Req 7a: Bees, Humans, and Colony Collapse",
           "workbook_diagram_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive.",
-          "workbook_visual_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive."
+          "workbook_visual_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive.",
+          "socratic_questions": [
+            "For insect study Requirement 7a (Explain the symbiotic relationship between bees and humankind. Explain what colony collapse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2716,7 +2957,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 7b Technical Comparison Matrix (Alternatives to Insecticides)",
+            "table_title": "Req 7b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Chemical Insecticide Crop Spraying",
@@ -2737,7 +2978,13 @@
               "2. Explain the advantages and disadvantages of these alternatives.",
               "3. Resources: Ultimate Pest Control Guide for Farmers (video) 4 Ways Nuclear Techniques Help Feed the World (video)"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Chemical Insecticide Crop Spraying",
+              "Biological and Cultural Pest Control"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)",
           "common_misconception_pair": {
@@ -2775,7 +3022,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p089_img1.png",
           "workbook_diagram_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive.",
-          "workbook_visual_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive."
+          "workbook_visual_caption": "A beekeeper wearing protective gear inspects a wooden frame lifted from the hive.",
+          "socratic_questions": [
+            "For insect study Requirement 7b (Describe three alternatives to insecticides as a way of preventing crop injury and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2810,7 +3060,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 7 Technical Comparison Matrix (Insects and People)",
+        "table_title": "Req 7 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Chemical Insecticide Crop Spraying",
@@ -2829,7 +3079,13 @@
           "1. (7a) Explain the symbiotic relationship between bees and humankind",
           "2. (7b) Describe three alternatives to insecticides as a way of preventing crop injury and subsequent yield loss"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Chemical Insecticide Crop Spraying",
+          "Biological and Cultural Pest Control"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that broad spectrum insecticides only harm targeted pest species.",
@@ -2992,7 +3248,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Migration Route of An Insect)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3011,7 +3267,13 @@
               "1. Tell the migration route of an insect (e.g., monarch butterfly)",
               "2. Discuss the challenges they face and how Scouts can contribute to their success"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)",
           "common_misconception_pair": {
@@ -3049,7 +3311,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p022_img1.png",
           "workbook_diagram_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen.",
-          "workbook_visual_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen."
+          "workbook_visual_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen.",
+          "socratic_questions": [
+            "For insect study Requirement 8a (Tell the migration route of an insect (e. g., monarch butterfly). Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3065,7 +3330,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Out About An Insect)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3084,7 +3349,13 @@
               "1. Find out about an insect that is a threatened or endangered species.",
               "2. Discuss the challenges they face and how Scouts can contribute to their success."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)",
           "common_misconception_pair": {
@@ -3122,7 +3393,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p022_img1.png",
           "workbook_diagram_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen.",
-          "workbook_visual_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen."
+          "workbook_visual_caption": "A wasp feeds on nectar among yellow flower blossoms while transferring pollen.",
+          "socratic_questions": [
+            "For insect study Requirement 8b (Find out about an insect that is a threatened or endangered species. Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3153,7 +3427,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Conservation Migration Route Insect)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3172,7 +3446,13 @@
           "1. (8a) Migration Route of An Insect",
           "2. (8b) Out About An Insect"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently think a single individual monarch butterfly flies from Canada to Mexico and returns.",
@@ -3353,7 +3633,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)",
           "common_misconception_pair": {
@@ -3391,7 +3677,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p087_img3.png",
           "workbook_diagram_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants.",
-          "workbook_visual_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants."
+          "workbook_visual_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants.",
+          "socratic_questions": [
+            "For insect study Requirement 9a (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -3430,7 +3719,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)",
           "common_misconception_pair": {
@@ -3468,7 +3763,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/insect_study_p087_img3.png",
           "workbook_diagram_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants.",
-          "workbook_visual_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants."
+          "workbook_visual_caption": "Invasive spotted lantern flies gather along tree bark and threaten native plants.",
+          "socratic_questions": [
+            "For insect study Requirement 9b (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3518,7 +3816,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts commonly believe that professional entomologists only collect bugs in butterfly nets for museums.",

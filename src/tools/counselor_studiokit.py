@@ -2219,19 +2219,29 @@ def generate_fillable_scout_workbook_pdf(
                 pad_y=2.5,
             )
 
-        # Counselor Pre-Approval Gate Box (when required before starting)
-        if pre_approval_gate:
+        # Starting / Pre-Approval Gate Box (with distinct gate labels for Equipment, Parent Consent, or Pre-Approval)
+        gate_meta = u.get("starting_requirement_gate") if isinstance(u.get("starting_requirement_gate"), dict) else {}
+        if pre_approval_gate or gate_meta.get("gate_label"):
             if y_cursor > 715.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
             gate_y0 = y_cursor
+            g_type_up = str(gate_meta.get("gate_type") or "").upper()
+            g_custom_lbl = str(gate_meta.get("gate_label") or "").strip()
+            g_custom_desc = str(gate_meta.get("gate_description") or "").strip()
+            if "EQUIPMENT" in g_type_up:
+                gate_banner_txt = f"EQUIPMENT & SAFETY GATE: {g_custom_lbl or 'Verify required safety gear'} - {g_custom_desc or 'Inspect before starting station.'} Counselor Initials & Date: ____________"
+            elif "PARENT" in g_type_up or "CONSENT" in g_type_up:
+                gate_banner_txt = f"PARENT / GUARDIAN CONSENT GATE: {g_custom_lbl or 'Obtain parent/guardian and Counselor approval'} - {g_custom_desc or 'Verify before starting.'} Initials & Date: ____________"
+            else:
+                gate_banner_txt = "COUNSELOR PRE-APPROVAL GATE: Obtain Counselor approval BEFORE starting this requirement/plan/project. Counselor Initials & Date: ____________"
             page, y_cursor = _insert_wrapped_pdf_text(
                 doc,
                 page,
                 y_cursor,
                 48.0,
                 580.0,
-                "COUNSELOR PRE-APPROVAL GATE: Obtain Counselor approval BEFORE starting this requirement/plan/experiment. Counselor Initials & Date: ____________",
+                gate_banner_txt,
                 fontsize=7.4,
                 fontname="helv",
                 color=(0.45, 0.18, 0.02),
@@ -2289,10 +2299,9 @@ def generate_fillable_scout_workbook_pdf(
             )
 
         # Sketch & Observation Canvas (dot-grid / astronomy circle canvas)
+        from src.tools.scouting_scraper import is_genuine_sketch_prompt
         low_text = r_text.lower()
-        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or any(
-            kw in low_text for kw in ("sketch", "draw", "diagram", "map", "chart the")
-        ):
+        if org_type == "SKETCH_AND_OBSERVATION_CANVAS" or is_genuine_sketch_prompt(low_text):
             if y_cursor + 92.0 > 746.0:
                 page = doc.new_page(width=612, height=792)
                 y_cursor = 36.0
@@ -3112,9 +3121,36 @@ def generate_counselor_workbook_pdf(
             else "Explain & Demonstrate (Socratic Discussion)"
         )
 
+        if u.get("is_group_header"):
+            if y_cursor > 690.0:
+                page = doc.new_page(width=612, height=792)
+                y_cursor = 36.0
+            stem_only = r_text.split(":", 1)[0].strip() + ":" if ":" in r_text[:180] else r_text
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                28.0,
+                584.0,
+                f"[Requirement {r_num} Section Header] {r_title} - {stem_only} ({r_cit})",
+                fontsize=8.2,
+                fontname="helv",
+                color=(0.0, 0.22, 0.48),
+                bg_fill=(0.94, 0.97, 1.0),
+                border_color=(0.75, 0.84, 0.95),
+                left_stripe_color=stripe_rgb,
+                pad_y=3.0,
+            )
+            y_cursor += 3.0
+            continue
+
         if y_cursor > 655.0:
             page = doc.new_page(width=612, height=792)
             y_cursor = 36.0
+
+        parent_dir_pdf = str(u.get("parent_directive") or "").strip()
+        soc_qs_pdf = [str(q).strip() for q in (u.get("socratic_questions") or []) if str(q).strip()]
+        soc_prompt_line = f"Socratic Prompt (Ask Scouts First): {soc_qs_pdf[0]}\n" if soc_qs_pdf else ""
 
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
@@ -3131,13 +3167,18 @@ def generate_counselor_workbook_pdf(
             left_stripe_color=stripe_rgb,
             pad_y=3.0,
         )
+        req_line_pdf = (
+            f"Official Requirement {r_num} [Parent Directive: {parent_dir_pdf}]: {r_text}"
+            if parent_dir_pdf
+            else f"Official Requirement {r_num}: {r_text}"
+        )
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
             y_cursor,
             32.0,
             580.0,
-            f"Official Requirement {r_num}: {r_text}",
+            req_line_pdf,
             fontsize=8.0,
             fontname="helv",
             color=(0.08, 0.12, 0.18),
@@ -3147,14 +3188,15 @@ def generate_counselor_workbook_pdf(
             page, y_cursor = _draw_pdf_workbook_diagram_card(
                 doc, page, y_cursor, resolved_badge, r_num, r_title, diagram_url
             )
-        # Green [EXPECTED PAMPHLET ANSWER KEY & COUNSELOR RUBRIC] box on 100% of unrolled sub-requirements (Deliverable 3)
+        # Green [EXPECTED PAMPHLET ANSWER KEY & COUNSELOR RUBRIC] box on 100% of unrolled leaf sub-requirements
         page, y_cursor = _insert_wrapped_pdf_text(
             doc,
             page,
             y_cursor,
             32.0,
             580.0,
-            f"[EXPECTED PAMPHLET ANSWER KEY & COUNSELOR RUBRIC] Expected Pamphlet Answer Key & Teaching Points: {' | '.join(excerpts[:3])}\n"
+            f"[COUNSELOR FACILITATION & ANSWER KEY] {soc_prompt_line}"
+            f"Expected Pamphlet Answer Key & Teaching Points: {' | '.join(excerpts[:3])}\n"
             f"Counselor Mastery & Sign-Off Rubric: {signoff}",
             fontsize=7.5,
             fontname="helv",
@@ -3164,21 +3206,23 @@ def generate_counselor_workbook_pdf(
             left_stripe_color=(0.08, 0.50, 0.24),
             pad_y=2.8,
         )
-        page, y_cursor = _insert_wrapped_pdf_text(
-            doc,
-            page,
-            y_cursor,
-            32.0,
-            580.0,
-            f"Myth vs. Pamphlet Fact: [Myth] {myth_str}  ->  [Fact] {fact_str}",
-            fontsize=7.4,
-            fontname="helv",
-            color=(0.35, 0.22, 0.02),
-            bg_fill=(1.0, 0.985, 0.92),
-            border_color=(0.88, 0.72, 0.22),
-            left_stripe_color=(0.85, 0.55, 0.05),
-            pad_y=2.4,
-        )
+        has_real_mis = bool(mis.get("misconception") or mis.get("myth"))
+        if has_real_mis:
+            page, y_cursor = _insert_wrapped_pdf_text(
+                doc,
+                page,
+                y_cursor,
+                32.0,
+                580.0,
+                f"Myth vs. Pamphlet Fact: [Myth] {myth_str}  ->  [Fact] {fact_str}",
+                fontsize=7.4,
+                fontname="helv",
+                color=(0.35, 0.22, 0.02),
+                bg_fill=(1.0, 0.985, 0.92),
+                border_color=(0.88, 0.72, 0.22),
+                left_stripe_color=(0.85, 0.55, 0.05),
+                pad_y=2.4,
+            )
         y_cursor += 4.0
 
     _finalize_branded_pdf_pages(

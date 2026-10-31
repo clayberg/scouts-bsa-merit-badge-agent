@@ -883,13 +883,17 @@ def seed_badge_image_catalog_from_storyboard(
                 _add_choice(pm)
 
         for item in catalog_list:
+            img_id = str(item.get("image_id") or item.get("filename") or item.get("id") or "").strip()
+            if not img_id:
+                continue
+            item["image_id"] = img_id
             st = str(item.get("source_type") or "")
             item_req = str(item.get("req_number") or "")
             item_base_req = item_req.rstrip("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ") or item_req
             if st in ("USER_UPLOAD", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH"):
                 if item.get("slide_title") and item.get("slide_title") == slide.get("title"):
                     _add_choice(item)
-            if item["image_id"] in seen_ids:
+            if img_id in seen_ids:
                 continue
             if (
                 item_req == req_num
@@ -898,7 +902,7 @@ def seed_badge_image_catalog_from_storyboard(
                 or st in ("NANO_BANANA_HERO", "NANO_BANANA_AI", "WEB_IMAGE_SEARCH")
             ):
                 slide_avail.append(item)
-                seen_ids.add(item["image_id"])
+                seen_ids.add(img_id)
 
         slide["slide_image_choices"] = slide_choices
         slide["available_images"] = slide_avail[:16]

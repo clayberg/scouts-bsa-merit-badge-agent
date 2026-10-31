@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Wood Carving Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p003_img1.png",
           "workbook_diagram_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving.",
-          "workbook_visual_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving."
+          "workbook_visual_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving.",
+          "socratic_questions": [
+            "For wood carving Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while wood carving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (You Know First Aid for)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)",
           "common_misconception_pair": {
@@ -160,7 +183,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p015_img1.png",
           "title": "Req 1b: First Aid for Carving Injuries",
           "workbook_diagram_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving.",
-          "workbook_visual_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving."
+          "workbook_visual_caption": "A fitted thumb guard protects fingers from slips and blade cuts during detail carving.",
+          "socratic_questions": [
+            "For wood carving Requirement 1b (Show that you know first aid for injuries that could occur while wood carving, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -191,7 +217,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Wood Carving Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -210,7 +236,13 @@
           "1. (1a) Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards",
           "2. (1b) Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A dull knife causes fewer and less severe injuries than a razor sharp blade.",
@@ -378,7 +410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -390,12 +422,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Earn the Totin' Chip recognition"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Earn the Totin' Chip recognition"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)",
           "common_misconception_pair": {
@@ -433,7 +475,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p007_img1.png",
           "workbook_diagram_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting.",
-          "workbook_visual_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting."
+          "workbook_visual_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting.",
+          "socratic_questions": [
+            "For wood carving Requirement 2a (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -449,7 +494,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -461,12 +506,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor your understanding of the Safety Checklist for Carving"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor your understanding of the Safety Checklist for Carving"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)",
           "common_misconception_pair": {
@@ -505,7 +560,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p008_img1.png",
           "title": "Req 2b: Carving Safety Checklist Standards",
           "workbook_diagram_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting.",
-          "workbook_visual_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting."
+          "workbook_visual_caption": "A specialized wood carving knife features a shaped wooden handle for controlled cutting.",
+          "socratic_questions": [
+            "For wood carving Requirement 2b (Discuss with your counselor your understanding of the Safety Checklist for Carving), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -527,7 +585,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Totin Chip and Safety Rules",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never carve while standing or walking, and never leave open blades resting on benches.",
@@ -536,7 +594,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -555,7 +613,13 @@
           "1. (2a) Earn the Totin' Chip recognition",
           "2. (2b) Discuss with your counselor your understanding of the Safety Checklist for Carving"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Totin Chip certification is a permanent award that cannot be suspended for careless behavior.",
@@ -723,7 +787,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Orally or in Writing the)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -735,12 +799,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
@@ -779,7 +853,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p012_img1.png",
           "title": "Req 3a: Carving Tool Care and Use",
           "workbook_diagram_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving.",
-          "workbook_visual_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving."
+          "workbook_visual_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving.",
+          "socratic_questions": [
+            "For wood carving Requirement 3a (Explain to your counselor, orally or in writing, the care and use of five types of tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -803,7 +880,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Care for and Use Several)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -815,12 +892,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
@@ -858,7 +945,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p031_img1.png",
           "workbook_diagram_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving.",
-          "workbook_visual_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving."
+          "workbook_visual_caption": "A bench hook holds a wooden carving block firmly in place to protect hands while carving.",
+          "socratic_questions": [
+            "For wood carving Requirement 3b (Tell your counselor how to care for and use several types of sharpening devices, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -897,7 +987,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Orally or in Writing the)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -916,7 +1006,13 @@
           "1. (3a) Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project",
           "2. (3b) Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sharpening stones should move in tight circular swirls regardless of the blade profile.",
@@ -1073,7 +1169,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Paring cut.",
+          "text": "Paring cut (b) Basic cut and push cut (c) V cut (d) Stop cut or score line.",
           "resources": [
             {
               "title": "Pairing Cut Safety Whittling with a Knife (video)",
@@ -1084,7 +1180,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Paring Cut)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1096,12 +1192,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paring cut"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paring cut"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
@@ -1131,7 +1237,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Paring cut.",
+          "sub_req_text": "Paring cut (b) Basic cut and push cut (c) V cut (d) Stop cut or score line.",
           "topic_title": "Req 4a: Paring Cut Execution Methods",
           "pamphlet_summary": "The paring cut draws the knife edge toward the carver using the thumb of the cutting hand as a fulcrum. Maintaining a thick leather thumb guard prevents accidental puncture during delicate detailing.",
           "pamphlet_excerpts": [
@@ -1139,12 +1245,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p039_img1.png",
           "workbook_diagram_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
-          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut."
+          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
+          "socratic_questions": [
+            "For wood carving Requirement 4a (Paring cut (b) Basic cut and push cut (c) V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Basic cut and push cut.",
+          "text": "Basic cut and push cut (c) V cut (d) Stop cut or score line.",
           "resources": [
             {
               "title": "Push Cut Tutorial | Beginner's Wood Carving Guide (video)",
@@ -1155,7 +1264,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Basic Cut and Push Cut)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1167,12 +1276,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Basic cut and push cut"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Basic cut and push cut"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
@@ -1202,7 +1321,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Basic cut and push cut.",
+          "sub_req_text": "Basic cut and push cut (c) V cut (d) Stop cut or score line.",
           "topic_title": "Req 4b: Basic and Push Cuts",
           "pamphlet_summary": "The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage.",
           "pamphlet_excerpts": [
@@ -1210,7 +1329,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p039_img1.png",
           "workbook_diagram_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
-          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut."
+          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
+          "socratic_questions": [
+            "For wood carving Requirement 4b (Basic cut and push cut (c) V cut (d) Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1226,7 +1348,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Wood Carving Requirement 4c Techniques)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1238,12 +1360,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Shaping the Angled V-Cut"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Shaping the Angled V-Cut"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
@@ -1281,7 +1413,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p039_img1.png",
           "workbook_diagram_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
-          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut."
+          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
+          "socratic_questions": [
+            "For wood carving Requirement 4c (V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1301,7 +1436,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Stop Cut or Score Line)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1313,12 +1448,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Stop cut or score line"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Stop cut or score line"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)",
           "common_misconception_pair": {
@@ -1356,7 +1501,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wood_carving_p039_img1.png",
           "workbook_diagram_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
-          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut."
+          "workbook_visual_caption": "A sharp carving knife slices a thin wood shaving during a controlled forward push cut.",
+          "socratic_questions": [
+            "For wood carving Requirement 4d (Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1399,7 +1547,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Piece of Scrap Wood)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1422,7 +1570,13 @@
           "3. (4c) Wood Carving Requirement 4c Techniques",
           "4. (4d) Stop Cut or Score Line"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Carving wood quickly requires chopping directly downward into the block with raw wrist force.",
@@ -1604,7 +1758,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Woods Are Used for Different)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1623,7 +1777,13 @@
           "1. Tell why different woods are used for different projects.",
           "2. Explain why you chose the type of wood you did for your projects in requirements 6 and 7."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Oak and ash make ideal carving woods for beginners because they are strong and durable.",
@@ -1812,7 +1972,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Own or Select A Project)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1824,12 +1984,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Plan your own or select a project from the Wood Carving merit badge pamphlet and complete a simple carving in the round"
+          "1. Profile Sketch",
+          "2. Roughing Out",
+          "3. Facet Rounding"
         ],
         "rows": [
-          "1. Plan your own or select a project from the Wood Carving merit badge pamphlet and complete a simple carving in the round"
+          "1. Profile Sketch",
+          "2. Roughing Out",
+          "3. Facet Rounding"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A carver should carve fine facial details before shaping the figure's body mass.",
@@ -1984,7 +2154,7 @@
           "url": "https://youtu.be/43dLqrKV9OI"
         },
         {
-          "title": "Chip Carving w/ Wayne Barton , Introduction (video)",
+          "title": "Chip Carving w/ Wayne Barton, Introduction (video)",
           "url": "https://youtu.be/spg4f_ge6Is"
         },
         {
@@ -2010,7 +2180,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Simple Low-relief OR A Chip)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2022,12 +2192,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete a simple low-relief OR a chip carving project"
+          "1. Relief Grounding",
+          "2. Chip Geometry",
+          "3. Pattern Transfer"
         ],
         "rows": [
-          "1. Complete a simple low-relief OR a chip carving project"
+          "1. Relief Grounding",
+          "2. Chip Geometry",
+          "3. Pattern Transfer"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Chip carving chips can be pried out using the knife tip if cuts do not meet.",

@@ -41,7 +41,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Whitewater Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -60,19 +60,20 @@
               "1. Explain to your counselor the most likely hazards you may encounter while participating in whitewater activities, including branches and trees in water",
               "2. Explain what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
             "misconception": "Branches along the outer bank create convenient handholds for pausing in heavy current.",
             "fact": "Submerged trees sweep water through branches that snare equipment, clothing, and paddlers under continuous river pressure."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1a)",
@@ -103,7 +104,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p003_img1.png",
           "workbook_diagram_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
-          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water."
+          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
+          "socratic_questions": [
+            "For whitewater Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -119,7 +123,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention Symptoms and First-aid Treatment)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -144,7 +148,13 @@
               "4. heat-related illnesses",
               "5. Core principles and practical standards for Paddling Injuries and First Aid"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
@@ -182,7 +192,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p018_img1.png",
           "workbook_diagram_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
-          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water."
+          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
+          "socratic_questions": [
+            "For whitewater Requirement 1b (Review with your counselor the prevention, symptoms, and first-aid treatment for the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -202,7 +215,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -214,24 +227,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor the Scouting America Safety Afloat policy and the American Whitewater safety guidelines, including the use of helmet and life jackets"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor the Scouting America Safety Afloat policy and the American Whitewater safety guidelines, including the use of helmet and life jackets"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
             "misconception": "Lifejackets are optional on calm river pools between major whitewater rapid sections.",
             "fact": "Safety Afloat mandates trained adult supervision, continuous lifejacket wear, and designated safety kayakers for moving water trips."
           },
-          "starting_requirement_gate": {
-            "gate_type": "EQUIPMENT_GATE",
-            "gate_label": "Required Field Gear / PPE Inspection",
-            "gate_description": "Bring required personal gear or PPE for Whitewater Req 1c inspection prior to hands-on station work.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1c)",
@@ -262,7 +280,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p018_img1.png",
           "workbook_diagram_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
-          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water."
+          "workbook_visual_caption": "A paddler secures and fits a life jacket properly before entering moving water.",
+          "socratic_questions": [
+            "For whitewater Requirement 1c (Discuss with your counselor the Scouting America Safety Afloat policy and the American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -300,7 +321,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: River Hazards and Safety",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never stand up in fast moving water above shin depth to avoid lethal foot entrapment in rocky riverbeds.",
@@ -309,7 +330,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Whitewater Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -330,18 +351,19 @@
           "2. (1b) Prevention Symptoms and First-aid Treatment",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers can easily push off or swim around submerged tree branches in fast current.",
         "fact": "River strainers allow water to pass through freely while pinning boats and swimmers against submerged limbs with relentless hydrostatic force."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Whitewater Merit Badge Hub (Req 1)",
@@ -507,7 +529,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Understanding of the Following River)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -519,24 +541,29 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
             "misconception": "All V formations on the river surface mark clear paths through shallow boulder gardens.",
             "fact": "Downstream Vs mark channels of clear deep water, whereas upstream Vs mark rocks waiting to break hulls."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2a)",
@@ -568,7 +595,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p007_img1.png",
           "title": "Req 2a: Mapping River Current Features",
           "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+          "socratic_questions": [
+            "For whitewater Requirement 2a (Demonstrate understanding of the following river features by drawing lines to show the flow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -584,7 +614,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Waves Form Including Standing Waves)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -596,12 +626,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how waves form including standing waves and wave trains"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how waves form including standing waves and wave trains"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
@@ -639,7 +679,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img1.png",
           "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+          "socratic_questions": [
+            "For whitewater Requirement 2b (Describe how waves form including standing waves and wave trains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -665,7 +708,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(1) Structured Technical Study & Explanation Matrix (Entering and Exiting An Eddy)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -677,12 +720,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. When entering and exiting an eddy"
+                  "1. Req 2c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. When entering and exiting an eddy"
+                  "1. Req 2c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
@@ -734,7 +787,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(2) Structured Technical Study & Explanation Matrix (Ferrying in Downstream and Upstream)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -746,12 +799,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. When ferrying in downstream and upstream directions"
+                  "1. Req 2c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. When ferrying in downstream and upstream directions"
+                  "1. Req 2c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
@@ -798,7 +861,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Tilt or Edge the Boat)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -817,7 +880,13 @@
               "1. (2c(1)) Entering and Exiting An Eddy",
               "2. (2c(2)) Ferrying in Downstream and Upstream"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
@@ -855,7 +924,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img1.png",
           "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+          "socratic_questions": [
+            "For whitewater Requirement 2c (Explain how to tilt or edge the boat without leaning your body (1) When entering and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -871,7 +943,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (You Should Scout A River)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -883,12 +955,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain when, why, and how you should scout a river while ashore, while on the river, and when you should portage your boat"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain when, why, and how you should scout a river while ashore, while on the river, and when you should portage your boat"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
           "common_misconception_pair": {
@@ -926,7 +1008,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img1.png",
           "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+          "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+          "socratic_questions": [
+            "For whitewater Requirement 2d (Explain when, why, and how you should scout a river while ashore, while on the river, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -973,7 +1058,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Understanding of the Following River)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -996,18 +1081,19 @@
           "3. (2c) Tilt or Edge The Boat",
           "4. (2d) You Should Scout A River"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The point of a V in the river always shows the safest deep channel to paddle.",
         "fact": "An upstream V points toward submerged obstacles where water splits, while a downstream V indicates deep unobstructed passage."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Whitewater Merit Badge Hub (Req 2)",
@@ -1164,7 +1250,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (You Will Be Using A)",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1176,12 +1262,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)",
           "common_misconception_pair": {
@@ -1220,7 +1316,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p010_img1.png",
           "title": "Req 3a: Fundamental Canoe Strokes and Maneuvers",
           "workbook_diagram_caption": "The Safety Afloat emblem highlights proper lifejacket usage for water activities.",
-          "workbook_visual_caption": "The Safety Afloat emblem highlights proper lifejacket usage for water activities."
+          "workbook_visual_caption": "The Safety Afloat emblem highlights proper lifejacket usage for water activities.",
+          "socratic_questions": [
+            "For whitewater Requirement 3a (If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1231,7 +1330,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (You Will Be Using A)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1243,12 +1342,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)",
           "common_misconception_pair": {
@@ -1287,7 +1396,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p010_img1.png",
           "title": "Req 3b: Fundamental Kayak Strokes and Maneuvers",
           "workbook_diagram_caption": "The Safety Afloat emblem highlights proper life jacket usage for water activities.",
-          "workbook_visual_caption": "The Safety Afloat emblem highlights proper life jacket usage for water activities."
+          "workbook_visual_caption": "The Safety Afloat emblem highlights proper life jacket usage for water activities.",
+          "socratic_questions": [
+            "For whitewater Requirement 3b (If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1318,7 +1430,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Whitewater Swimmer and Boating Prerequisites)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1337,7 +1449,13 @@
           "1. (3a) If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor",
           "2. (3b) If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Passing the flatwater badge guarantees immediate mastery of moving water maneuvers without stroke refinement.",
@@ -1510,25 +1628,35 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Bow Cross)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4a",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -1579,25 +1707,35 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4a(2) Hands-On Skill Station & EDGE Verification Checklist (Strokes in the Stern Stern)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4a",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -1649,7 +1787,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -1661,12 +1799,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate a high brace, low brace, and righting pry"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate a high brace, low brace, and righting pry"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -1713,17 +1861,17 @@
           ],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (Tandem Canoeist)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (4a(1)) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw",
@@ -1735,7 +1883,13 @@
               "2. (4a(2)) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry",
               "3. (4a(3)) Demonstrate a high brace, low brace, and righting pry"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
@@ -1773,7 +1927,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/whitewater_req_4_topic_visual.png",
           "workbook_diagram_caption": "Tandem Canoeist / Solo Canoeist / Solo Kayaker procedures and verification checkpoints for Whitewater Requirement 4.",
-          "workbook_visual_caption": "Tandem Canoeist / Solo Canoeist / Solo Kayaker procedures and verification checkpoints for Whitewater Requirement 4."
+          "workbook_visual_caption": "Tandem Canoeist / Solo Canoeist / Solo Kayaker procedures and verification checkpoints for Whitewater Requirement 4.",
+          "socratic_questions": [
+            "For whitewater Requirement 4a (Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1810,25 +1967,35 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4b(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Cross Forward Bow Draw)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4b",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -1885,7 +2052,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4b(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -1897,12 +2064,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate a high brace, low brace, and righting pry"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate a high brace, low brace, and righting pry"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -1949,17 +2126,17 @@
           ],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Solo Canoeist)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (4b(1)) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry",
@@ -1969,7 +2146,13 @@
               "1. (4b(1)) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry",
               "2. (4b(2)) Demonstrate a high brace, low brace, and righting pry"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
@@ -2007,7 +2190,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p048_img1.png",
           "workbook_diagram_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
-          "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke."
+          "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
+          "socratic_questions": [
+            "For whitewater Requirement 4b (Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -2040,25 +2226,35 @@
               "children": [],
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4c(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Bow Draw Rudder and)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4c",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate the following strokes: bow draw, rudder, and sculling draw"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate the following strokes: bow draw, rudder, and sculling draw"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -2120,7 +2316,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4c(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace and Low Brace)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2132,12 +2328,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate a high brace and low brace"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate a high brace and low brace"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
@@ -2183,17 +2389,17 @@
           ],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist (Solo Kayaker)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (4c(1)) Demonstrate the following strokes: bow draw, rudder, and sculling draw",
@@ -2203,7 +2409,13 @@
               "1. (4c(1)) Demonstrate the following strokes: bow draw, rudder, and sculling draw",
               "2. (4c(2)) Demonstrate a high brace and low brace"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
           "common_misconception_pair": {
@@ -2241,7 +2453,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p037_img1.png",
           "workbook_diagram_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
-          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear."
+          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
+          "socratic_questions": [
+            "For whitewater Requirement 4c (Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2311,17 +2526,17 @@
       "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Tandem Canoeist)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (4a) Tandem Canoeist",
@@ -2333,7 +2548,13 @@
           "2. (4b) Solo Canoeist",
           "3. (4c) Solo Kayaker"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pry strokes push the boat away while weakening paddle shafts against gunwales under heavy loads.",
@@ -2501,7 +2722,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (International Scale of River Difficulty)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2513,24 +2734,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
             "misconception": "Class numbers simply describe the height of the largest standing wave in the rapid.",
             "fact": "Class I features easy moving water with small ripples, whereas Class II features wide clear channels."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Whitewater Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5a)",
@@ -2561,7 +2787,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p025_img1.png",
           "workbook_diagram_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
-          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths."
+          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
+          "socratic_questions": [
+            "For whitewater Requirement 5a (Explain the International Scale of River Difficulty and apply the scale to the stretch of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2572,7 +2801,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Specific Characteristics of the River)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2584,12 +2813,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the specific characteristics of the river that are factors in your classification according to the International Scale"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the specific characteristics of the river that are factors in your classification according to the International Scale"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
@@ -2627,7 +2866,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p025_img1.png",
           "workbook_diagram_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
-          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths."
+          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
+          "socratic_questions": [
+            "For whitewater Requirement 5b (Identify the specific characteristics of the river that are factors in your classification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2638,7 +2880,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Discuss How the Level of)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2650,12 +2892,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)",
           "common_misconception_pair": {
@@ -2694,7 +2946,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p025_img1.png",
           "title": "Req 5c: Effects of Changing Water Flow",
           "workbook_diagram_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
-          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths."
+          "workbook_visual_caption": "Clear river currents flow through a rocky mountain gorge showing river navigation paths.",
+          "socratic_questions": [
+            "For whitewater Requirement 5c (Discuss how the level of flow changes a river from one class to another and what effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2712,7 +2967,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: River Difficulty Rating Evaluation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never run a river section when spring flood runoff raises water levels into flood stage classifications.",
@@ -2721,7 +2976,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (International Scale of River Difficulty)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2742,18 +2997,19 @@
           "2. (5b) Identify the specific characteristics of the river that are factors in your classification according to the International Scale",
           "3. (5c) Effects of Changing Water Flow"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A Class II rapid can never flip a boat or pose serious entrapment risks to paddlers.",
         "fact": "The International Scale evaluates technical difficulty, route clarity, and rescue consequences rather than individual paddler speed."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Whitewater Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Whitewater Merit Badge Hub (Req 5)",
@@ -2925,7 +3181,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Communication During Every Whitewater Outing)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2944,7 +3200,13 @@
           "1. Explain the importance of communication during every whitewater outing",
           "2. Demonstrate knowledge and ability to use the following American Whitewater Universal River Signals, both visual and auditory: \"Stop,\" \"Are you OK?,\""
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Shouting across rapids is the most effective method for communicating emergency commands to trailing boats.",
@@ -3112,7 +3374,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Completing This)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3124,12 +3386,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -3167,7 +3439,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p037_img1.png",
           "workbook_diagram_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
-          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear."
+          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
+          "socratic_questions": [
+            "For whitewater Requirement 7a (If completing this merit badge in a canoe, describe the various types of canoes used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3183,7 +3458,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Completing This)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3195,12 +3470,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -3238,7 +3523,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p037_img1.png",
           "workbook_diagram_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
-          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear."
+          "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
+          "socratic_questions": [
+            "For whitewater Requirement 7b (If completing this merit badge in a kayak, describe the various types of kayaks used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3269,7 +3557,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Completing This)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3288,7 +3576,13 @@
           "1. (7a) If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose",
           "2. (7b) If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Flatwater touring canoes and whitewater canoes share identical hull shapes, materials, and internal outfitting.",
@@ -3405,7 +3699,7 @@
         "What happens to a canoe's turning agility and straight-line tracking when hull rocker increases from flat to four inches?",
         "Why do whitewater kayaks and solo river canoes use rotomolded polyethylene or ABS composites instead of brittle fiberglass?",
         "Which hull cross-section profile provides sharper eddy-line carving, a rounded bottom or a flat planing hull with chines?",
-        "Where should flotation air bags be secured in an open whitewater canoe to prevent the hull from wrapping on a rock?"
+        "Where should flotation airbags be secured in an open whitewater canoe to prevent the hull from wrapping on a rock?"
       ],
       "misconception_pool": [
         {
@@ -3465,7 +3759,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Personal and Group Equipment Necessary)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3477,12 +3771,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used"
+          "1. Flotation Device Rating",
+          "2. Whitewater Helmet Protection",
+          "3. Floating Rescue Lines"
         ],
         "rows": [
-          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used"
+          "1. Flotation Device Rating",
+          "2. Whitewater Helmet Protection",
+          "3. Floating Rescue Lines"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standard hardware store climbing rope works fine as a rescue throw line on river outings.",
@@ -3650,7 +3954,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (Ability to Read A Class)",
+        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3671,18 +3975,19 @@
           "2. Describe the most desirable paths or lines of travel as well as alternative routes and options.",
           "3. Point out how to use the existing water features to your advantage, and explain how to best avoid the hazards present."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The calm water directly behind a large rock in a rapid is always an impassable hazard.",
         "fact": "Water accelerates through the apex of a downstream V tongue, providing deep water that flushes past flanking boulders."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Whitewater Req 9 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Whitewater Merit Badge Hub (Req 9)",
@@ -3848,7 +4153,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10a Structured Technical Study & Explanation Matrix (Launch and Land)",
+            "table_title": "Req 10a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3860,12 +4165,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Launch and land"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Launch and land"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -3903,7 +4218,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10a (Launch and land), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -3923,7 +4241,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10b Structured Technical Study & Explanation Matrix (Forward in A Straight Line)",
+            "table_title": "Req 10b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3935,12 +4253,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paddle forward in a straight line at least 10 boat lengths"
+              "1. Req 10b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paddle forward in a straight line at least 10 boat lengths"
+              "1. Req 10b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -3978,7 +4306,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10b (Paddle forward in a straight line at least 10 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10c",
@@ -3998,7 +4329,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10c Structured Technical Study & Explanation Matrix (Backpaddle in A Straight Line)",
+            "table_title": "Req 10c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4010,12 +4341,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Backpaddle in a straight line at least five boat lengths"
+              "1. Req 10c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Backpaddle in a straight line at least five boat lengths"
+              "1. Req 10c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -4053,7 +4394,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10c (Backpaddle in a straight line at least five boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10d",
@@ -4077,7 +4421,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10d Structured Technical Study & Explanation Matrix (Ferry Upstream from Both Sides)",
+            "table_title": "Req 10d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4089,12 +4433,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ferry upstream from both sides of the river"
+              "1. Req 10d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Ferry upstream from both sides of the river"
+              "1. Req 10d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -4132,7 +4486,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10d (Ferry upstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10e",
@@ -4143,7 +4500,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10e Structured Technical Study & Explanation Matrix (Ferry Downstream from Both Sides)",
+            "table_title": "Req 10e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4155,12 +4512,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ferry downstream from both sides of the river"
+              "1. Req 10e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Ferry downstream from both sides of the river"
+              "1. Req 10e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -4198,7 +4565,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10e (Ferry downstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10f",
@@ -4218,7 +4588,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10f Structured Technical Study & Explanation Matrix (Eddy Turn from Both Sides)",
+            "table_title": "Req 10f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4230,12 +4600,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Eddy turn from both sides of an eddy"
+              "1. Req 10f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Eddy turn from both sides of an eddy"
+              "1. Req 10f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -4273,7 +4653,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10f (Eddy turn from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10g",
@@ -4293,7 +4676,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10g Structured Technical Study & Explanation Matrix (Peel Out from Both Sides)",
+            "table_title": "Req 10g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4305,12 +4688,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Peel out from both sides of an eddy"
+              "1. Req 10g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Peel out from both sides of an eddy"
+              "1. Req 10g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)",
           "common_misconception_pair": {
@@ -4348,7 +4741,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img3.png",
           "workbook_diagram_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
-          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed."
+          "workbook_visual_caption": "Tapping the top of a helmet signals that a paddler is safe and ready to proceed.",
+          "socratic_questions": [
+            "For whitewater Requirement 10g (Peel out from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4431,7 +4827,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Wearing A Proper Life Jacket)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4460,7 +4856,13 @@
           "6. (10f) Eddy Turn From Both Sides",
           "7. (10g) Peel Out From Both Sides"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Entering an eddy requires leaning the hull away from the eddy to maintain balance.",
@@ -4602,7 +5004,7 @@
           "fact": "Wet cotton absorbs water and strips body heat rapidly, whereas synthetic fleece, neoprene, or drywear retains insulation."
         },
         {
-          "misconception": "Air bags inside a whitewater canoe only serve to keep the boat from sinking to the river bottom after a capsize.",
+          "misconception": "Airbags inside a whitewater canoe only serve to keep the boat from sinking to the river bottom after a capsize.",
           "fact": "Properly inflated flotation bags displace water so the swamped hull rides high and remains light enough to maneuver to shore."
         }
       ]
@@ -4636,7 +5038,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Self-rescue and Procedures When Capsized)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4648,12 +5050,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Self-rescue and procedures when capsized in moving water, including a wet exit if necessary"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Self-rescue and procedures when capsized in moving water, including a wet exit if necessary"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -4691,7 +5103,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p071_img1.png",
           "workbook_diagram_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
-          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress."
+          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
+          "socratic_questions": [
+            "For whitewater Requirement 11a (Self-rescue and procedures when capsized in moving water, including a wet exit if necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -4715,7 +5130,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Throw Rope to Rescue A)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4727,12 +5142,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Proper use of a throw rope to rescue a swimmer in whitewater"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Proper use of a throw rope to rescue a swimmer in whitewater"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -4771,7 +5196,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p071_img1.png",
           "title": "Req 11b: Throw Bag Rescue Deployment",
           "workbook_diagram_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
-          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress."
+          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
+          "socratic_questions": [
+            "For whitewater Requirement 11b (Proper use of a throw rope to rescue a swimmer in whitewater), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11c",
@@ -4791,7 +5219,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11c Structured Technical Study & Explanation Matrix (Technique for Receiving A Throw)",
+            "table_title": "Req 11c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4803,12 +5231,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Proper technique for receiving a throw rope as a swimmer"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Proper technique for receiving a throw rope as a swimmer"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -4846,12 +5284,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p071_img1.png",
           "workbook_diagram_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
-          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress."
+          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
+          "socratic_questions": [
+            "For whitewater Requirement 11c (Proper technique for receiving a throw rope as a swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11d",
           "label": "(d)",
-          "text": "Portaging, where portaging would be appropriate.",
+          "text": "Portaging, where portaging would be appropriate, and when and how to do it.",
           "resources": [
             {
               "title": "How to Portage a Canoe (video)",
@@ -4866,7 +5307,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11d Structured Technical Study & Explanation Matrix (Portaging Where Portaging)",
+            "table_title": "Req 11d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4878,12 +5319,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Portaging, where portaging would be appropriate"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Portaging, where portaging would be appropriate"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -4913,7 +5364,7 @@
           ],
           "id": "11d",
           "sub_req_label": "11d",
-          "sub_req_text": "Portaging, where portaging would be appropriate.",
+          "sub_req_text": "Portaging, where portaging would be appropriate, and when and how to do it.",
           "topic_title": "Req 11d: River Obstacle Portaging Route",
           "pamphlet_summary": "Portaging involves carrying craft and gear around unrunnable rapids, dangerous logjams, or hazardous low head dams. Paddlers scout safe trail routes and carry boats using balanced team lifts across slippery terrain.",
           "pamphlet_excerpts": [
@@ -4921,7 +5372,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p071_img1.png",
           "workbook_diagram_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
-          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress."
+          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
+          "socratic_questions": [
+            "For whitewater Requirement 11d (Portaging, where portaging would be appropriate, and when and how to do it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11e",
@@ -4937,7 +5391,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11e Structured Technical Study & Explanation Matrix (Whitewater Buddy System)",
+            "table_title": "Req 11e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4949,12 +5403,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The whitewater buddy system using at least three persons and three craft"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The whitewater buddy system using at least three persons and three craft"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -4992,7 +5456,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p071_img1.png",
           "workbook_diagram_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
-          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress."
+          "workbook_visual_caption": "A rescuer holds a coiled throw bag and rope ready to deploy to a swimmer in distress.",
+          "socratic_questions": [
+            "For whitewater Requirement 11e (The whitewater buddy system using at least three persons and three craft), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5055,7 +5522,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 11 Hands-On Skill Station & EDGE Verification Checklist (Self-rescue and Procedures When Capsized)",
+        "table_title": "Req 11 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -5080,7 +5547,13 @@
           "4. (11d) Portaging, where portaging would be appropriate",
           "5. (11e) The whitewater buddy system using at least three persons and three craft"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Swimmers in rapids should attempt to stand up immediately upon falling out of their boat.",
@@ -5248,7 +5721,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 12a Structured Technical Study & Explanation Matrix (Help to Prepare A Written)",
+            "table_title": "Req 12a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 12a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5260,12 +5733,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures"
+              "1. Req 12a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures"
+              "1. Req 12a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 12a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
@@ -5303,7 +5786,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p043_img2.png",
           "workbook_diagram_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
-          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves."
+          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
+          "socratic_questions": [
+            "For whitewater Requirement 12a (Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "12b",
@@ -5314,7 +5800,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 12b Structured Technical Study & Explanation Matrix (Local Rules and Obtain Permission)",
+            "table_title": "Req 12b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 12b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5326,12 +5812,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Determine local rules and obtain permission from landowners and land managers in advance"
+              "1. Req 12b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Determine local rules and obtain permission from landowners and land managers in advance"
+              "1. Req 12b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 12b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
@@ -5369,7 +5865,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p043_img2.png",
           "workbook_diagram_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
-          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves."
+          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
+          "socratic_questions": [
+            "For whitewater Requirement 12b (Determine local rules and obtain permission from landowners and land managers in advance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "12c",
@@ -5380,7 +5879,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 12c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 12c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 12c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5392,12 +5891,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines"
+              "1. Req 12c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines"
+              "1. Req 12c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 12c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
@@ -5435,7 +5944,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p043_img2.png",
           "workbook_diagram_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
-          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves."
+          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
+          "socratic_questions": [
+            "For whitewater Requirement 12c (Explain what steps have been taken to comply with Scouting America Safety Afloat and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "12d",
@@ -5455,7 +5967,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 12d Hands-On Skill Station & EDGE Verification Checklist (Protect Personal and Group Equipment)",
+            "table_title": "Req 12d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -5474,7 +5986,13 @@
               "1. Show how to protect personal and group equipment from water and how to load and secure the containers in boats to be used in the trip.",
               "2. Execute the plans with other paddlers."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
@@ -5512,7 +6030,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p043_img2.png",
           "workbook_diagram_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
-          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves."
+          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
+          "socratic_questions": [
+            "For whitewater Requirement 12d (Show how to protect personal and group equipment from water and how to load and secure the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "12e",
@@ -5523,7 +6044,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 12e Structured Technical Study & Explanation Matrix (Well Your Plans Worked)",
+            "table_title": "Req 12e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 12e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5535,12 +6056,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor how well your plans worked for each trip taken"
+              "1. Req 12e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor how well your plans worked for each trip taken"
+              "1. Req 12e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 12e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 12e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 12e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)",
           "common_misconception_pair": {
@@ -5578,7 +6109,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/whitewater_p043_img2.png",
           "workbook_diagram_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
-          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves."
+          "workbook_visual_caption": "Scouts paddle a large whitewater raft together through foaming river waves.",
+          "socratic_questions": [
+            "For whitewater Requirement 12e (Explain to your counselor how well your plans worked for each trip taken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5613,7 +6147,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 12 Hands-On Skill Station & EDGE Verification Checklist (Safe Swim Defense and Safety Afloat)",
+        "table_title": "Req 12 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -5638,7 +6172,13 @@
           "4. (12d) Protect Personal and Group Equipment",
           "5. (12e) Well Your Plans Worked"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gear tied loosely into the canoe stays dry as long as it sits on top of seats.",

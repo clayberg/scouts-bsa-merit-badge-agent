@@ -1,10 +1,10 @@
-# Golf Merit Badge - Scout & Counselor Class Preparation Workbook
+# Golf Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
-**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/golf/  
+**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Golf.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/golf/
 
-> **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
+> **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
 ---
 
@@ -13,393 +13,314 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Course Safety and First Aid | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b(1)** | Disc Golf: PDGA Rules, Courtesy (812) & Scoring (808) | Explain | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b(3)** | Disc Golf: Ed Headrick, Disc Design Evolution & Fitness | Explain | `In-Class Discussion` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b(5)** | Disc Golf: Grips, X-Step, Backhand, Forehand, Roller & Putting | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2b(6)** | Disc Golf: 18-Hole Round, Park Stewardship & Careers | Demonstrate | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Golf Rule and Etiquette Options | Complete | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
 
-- [ ] **Req 2b(6) (Demonstrate):** Disc Golf: (a) Follow the PDGA Official Rules of Disc Golf. (b) Practice good disc golf etiquette. (c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property. (7) Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests.
+- [ ] Review the official BSA Merit Badge Pamphlet and bring your signed Blue Card / Scoutbook ID.
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Scout must individually discuss mastery of Requirement 1 to the Merit Badge Counselor.
-- [ ] **Station Req 2b(1):** Scout must individually explain mastery of Requirement 2b(1) to the Merit Badge Counselor.
-- [ ] **Station Req 2b(3):** Scout must individually explain mastery of Requirement 2b(3) to the Merit Badge Counselor.
-- [ ] **Station Req 2b(5):** Scout must individually demonstrate mastery of Requirement 2b(5) to the Merit Badge Counselor.
+- [ ] **Station Req 1:** Discuss safety on the golf course. Show that you know first aid for injuries or illnesses that could occur while golfing, including lightning, heat reactions, sunburn, dehydration, blisters, animal or bug bites, poison ivy exposure, sprains, and strains.
+- [ ] **Station Req 2:** Complete ONE of the following options: (a) Option A, Traditional Golf. Do ALL of the following: (1) Study the USGA Rules of Golf now in use. (a) Tell about the three categories of golf etiquette. (b) Demonstrate that you understand the definitions of golf terms. (c) Show that you understand the Rules of Amateur Status. (2) Tell about your understanding of the World Handicap System. (3) Do the following: (a) Tell about the early history of golf. (b) Describe golf's early years in the United States. (c) Tell about the accomplishments of a top golfer of your choice. (4) Do the following: (a) Tell how golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a golf exercise plan can help you play better. Show two exercises that would help improve your game. (5) Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver played from a tee (c) The fairway wood shot (d) The long iron shot (e) The short iron shot (f) The approach, chip-and-run, and pitch shots (g) A recovery shot from a bunker or heavy rough (h) A sound putting stroke (6) Play a minimum of two nine-hole rounds or one 18-hole round of golf with another golfer about your age and with your counselor, or an adult approved by your counselor. Do the following: (a) Follow the Rules of Golf. (b) Practice good golf etiquette. (c) Show respect to fellow golfers, committee, sponsor, and gallery. (7) Find out about three careers related to traditional golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests you. (b) Option B, Disc Golf. Do ALL of the following: (1) Study the PDGA Official Rules of Disc Golf now in use. (a) Tell about the six areas of Courtesy (812). (b) Describe the seven areas of Scoring (808). (2) Tell about the history of disc golf and why it is an inclusive game. (3) Do the following: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf. (c) Describe the evolution of disc design. (d) Tell about the accomplishments of a top disc golfer of your choice. (4) Do the following: (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game. (5) Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot (d) Forehand shot (e) Overhand shot (f) Rolling shot (g) A good (in-line) putting stance (h) A good straddle putting stance (i) A good putting grip (j) A good putting motion and follow through (k) The proper use of a mini-marking disc (6) Play a minimum of 18-holes of disc golf with another disc golfer about your age and with your counselor, or an adult approved by your counselor. Do the following: (a) Follow the PDGA Official Rules of Disc Golf. (b) Practice good disc golf etiquette. (c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property. (7) Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests you.
 
-## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
+## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics
 
 ### Req 1: Course Safety and First Aid
 **Official Requirement 1:** Discuss safety on the golf course. Show that you know first aid for injuries or illnesses that could occur while golfing, including lightning, heat reactions, sunburn, dehydration, blisters, animal or bug bites, poison ivy exposure, sprains, and strains.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55)* • **Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1 Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Clear the course immediately when thunder sounds or lightning detection sirens activate, never seeking shelter under isolated trees.
+- **Socratic Prompt (Ask Scouts First):** Why does holding a graphite or steel golf club during an incoming storm drastically heighten strike risks?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.
+  - Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water.
+  - Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation.
+  - Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways.
+- **Step-by-Step Facilitation & Station Procedure:**
+  - Step 1 - Sound Assessment: Check local course weather sirens and scan horizon clouds before teeing off.
+  - Step 2 - Shelter Relocation: Evacuate exposed hilltops immediately and enter fully enclosed clubhouses or maintenance sheds.
+  - Step 3 - Equipment Grounding: Drop metal clubs and golf bags far away from your direct location.
+  - Step 4 - Physical First Aid: Administer water and apply cold packs to soothe acute golfer heat cramps.
 - **Common Myth:** Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.
 - **Pamphlet Fact:** Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes.
 
-![Scouts and counselor demonstrate Golf Requirement 1 field procedures and safety checks.](/assets/pamphlet_images/golf_p003_img1.png)
+![Lightning Evacuation Protocol diagram illustrating how sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.](/assets/pamphlet_images/golf_p003_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss safety on the golf course** | `____________________________________` | `____________________________________` |
-| **2. Show that you know first aid for injuries or illnesses that could occur while golfing** | `____________________________________` | `____________________________________` |
+| **1. Discuss safety on the golf course** | Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters. | Verify specific field notes / demonstration |
+| **2. Show that you know first aid for injuries or illnesses that could occur while golfing** | Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water. | Verify specific field notes / demonstration |
 
-**Official Pamphlet Summary:**
-- Lightning Evacuation Protocol: Sirens mandate instant clearing of fairways to reach designated grounded lightning storm shelters.
-- Heat Exhaustion Response: Move overheated players into shaded areas while loosening garments and providing cool water.
-- Blister Prevention Strategy: Friction on walking heels requires prompt application of adhesive moleskin patches before irritation.
-- Severe Weather Stance: Avoid isolated tall trees and metal flagsticks during rapid thunderstorm development on fairways.
+**Counselor Verification Standard (Req 1):** Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Golf Requirement 1 (golf course safety and first aid) before signing the blue card.
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+### Requirement 2 Section: Golf Rule and Etiquette Options
+**Parent Directive (2):** Complete ONE of the following options:
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Section Organizer:** Career & Profession Exploration Card
 
-### Disc Golf: PDGA Rules, Courtesy (812) & Scoring (808)
-**Official Requirement 2b(1) (Parent Overview):** Disc Golf: (a) Tell about the six areas of Courtesy (812) (b) Describe the seven areas of Scoring (808) (2) Tell about the history of disc golf and why it is an inclusive game.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** Disc golfers can throw toward blind baskets without checking walking paths for park visitors.
-- **Pamphlet Fact:** PDGA courtesy rule 812 mandates checking blind landing zones before releasing discs to prevent injuries.
+### Requirement 2a Section: Traditional Golf Rules Framework
+**Parent Directive (2a):** Option A, Traditional Golf. Do ALL of the following:
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Section Organizer:** Career & Profession Exploration Card
 
-**Official Pamphlet Summary:**
-- PDGA Official Rules of Disc Golf (Req 2b(1)): The Professional Disc Golf Association governs throwing order, marking the lie (30 cm x 20 cm box behind the disc), out-of-bounds relief, and completion of the hole in the basket.
-- PDGA Rule 812 Courtesy & Park Safety (Req 2b(1)(a)): Always yield to park pedestrians and other facility users, never throw into blind areas without a spotter, and remain quiet behind the active thrower.
-- PDGA Rule 808 Scoring & Handicaps (Req 2b(1)(b)-(2)): After each hole, call out and verify every player's score (throws plus penalty strokes); player ratings and handicaps allow mixed-skill competition.
-- Course Preservation & Leave No Trace: Protect trees and bark from unnecessary practice throws, pack out all trash, and stay on established trails between tee pads and baskets.
-
-#### Req 2b(1)(a): PDGA Courtesy Section Standards Review
-**Official Requirement 2b(1)(a):** Tell about the six areas of Courtesy (812)
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(1)(a) Structured Technical Study & Explanation Matrix (Areas of Courtesy)
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-![Scouts and counselor demonstrate Golf Requirement 2 field procedures and safety checks.](/assets/pamphlet_images/golf_p007_img1.png)
-
-| Req 2b(1)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Tell about the six areas of Courtesy (812)** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(1)(b): PDGA Scoring Rules and Procedures
-**Official Requirement 2b(1)(b):** Describe the seven areas of Scoring (808)
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(1)(b) Structured Technical Study & Explanation Matrix (Areas of Scoring)
+#### Req 2a(1): United States Golf Association Rulebook Framework
+**[Parent Directive]:** *Option A, Traditional Golf. Do ALL of the following*
+**Official Requirement 2a(1):** Study the USGA Rules of Golf now in use. (a) Tell about the three categories of golf etiquette. (b) Demonstrate that you understand the definitions of golf terms. (c) Show that you understand the Rules of Amateur Status.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** Why does golf rely heavily on players calling penalties on themselves rather than using referees on the course?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - United States Golf Association Rulebook Framework: The USGA rulebook standardizes the global rules of play, sportsmanship, terminology, and amateur regulations governing fair play on every course (p. 12). Golfers must know core definitions, course etiquette, and amateur eligibility standards to uphold the integrity of the game (p. 13).
+- **Step-by-Step Facilitation & Station Procedure:**
+  - Step 1 - Option Selection: Choose between traditional ball golf and disc golf based on local facilities.
+  - Step 2 - Rulebook Consultation: Read defined competition rules regarding out of bounds markers and hazard penalties.
+- **Common Myth:** The Rules of Golf only apply to sanctioned tournament competitions rather than casual weekend rounds.
+- **Pamphlet Fact:** Every round of golf requires strict adherence to official rules regardless of whether players participate in a tournament or a casual practice game.
 
 ![Official United States Golf Association (USGA) rulebook guidance and course etiquette standards.](/assets/pamphlet_images/golf_p010_img1.png)
 
-| Req 2b(1)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Describe the seven areas of Scoring (808)** | `____________________________________` | `____________________________________` |
+| **(a) Tell about the three categories of golf etiquette.** | United States Golf Association Rulebook Framework: The USGA rulebook standardizes the global rules of play, sportsmanship, terminology, and amateur regulations governing fair play on every course (p. 12). Golfers must know core definitions, course etiquette, and amateur eligibility standards to uphold the integrity of the game (p. 13). | Verify specific field notes / demonstration |
+| **(b) Demonstrate that you understand the definitions of golf terms.** | Step 1 - Option Selection: Choose between traditional ball golf and disc golf based on local facilities. | Verify specific field notes / demonstration |
+| **(c) Show that you understand the Rules of Amateur Status.** | Step 2 - Rulebook Consultation: Read defined competition rules regarding out of bounds markers and hazard penalties. | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(1)):** Scout must individually complete Requirement 2a(1) (Study the USGA Rules of Golf now in use. (a) Tell about the three categories of golf etiquette. (b) Demonstrat) to the Counselor.
 
-#### Req 2b(2): Disc Golf History and Accessibility
-**Official Requirement 2b(2):** Tell about the history of disc golf and why it is an inclusive game.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (History of Disc Golf)
+#### Req 2a(2): World Handicap System Calculation Principles
+**Official Requirement 2a(2):** Tell about your understanding of the World Handicap System.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** How does the Slope Rating adjust your course handicap when moving from an open flat course to a tight mountain layout?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - World Handicap System Calculation Principles: The World Handicap System generates a portable Handicap Index based on Course Rating and Slope Rating across different courses (p. 24). This uniform handicap allows players of varying skill levels to compete fairly against one another anywhere in the world (p. 26).
+- **Common Myth:** A handicap index represents the exact average number of strokes a player shoots above par across all completed rounds.
+- **Pamphlet Fact:** A handicap index calculates potential ability by averaging the lowest eight score differentials from a player's twenty most recent scorecards.
 
-![Specialized throwing discs offer different aerodynamics for disc golf shots.](/assets/pamphlet_images/golf_p080_img1.png)
-
-| Req 2b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 2a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell about the history of disc golf and why it is an inclusive game** | `____________________________________` | `____________________________________` |
+| **1. Req 2a(2) Core Concept, Definition & Pamphlet Standard** | World Handicap System Calculation Principles: The World Handicap System generates a portable Handicap Index based on Course Rating and Slope Rating across different courses (p. 24). This uniform handicap allows players of varying skill levels to compete fairly against one another anywhere in the world (p. 26). | Verify specific field notes / demonstration |
+| **2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually complete Requirement 2a(2) (Tell about your understanding of the World Handicap System) to the Counselor. | Verify specific field notes / demonstration |
+| **3. Req 2a(2) Practical Example & Counselor Conference Verification** | World Handicap System Calculation Principles: The World Handicap System generates a portable Handicap Index based on Course Rating and Slope Rating across different courses (p. 24). This uniform handicap allows players of varying skill levels to compete fairly against one another anywhere in the world (p. 26). | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(2)):** Scout must individually complete Requirement 2a(2) (Tell about your understanding of the World Handicap System) to the Counselor.
 
-### Disc Golf: Ed Headrick, Disc Design Evolution & Fitness
-**Official Requirement 2b(3) (Parent Overview):** Disc Golf: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf. (c) Describe the evolution of disc design. (d) Tell about the accomplishments of a top disc golfer of your choice. (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
+#### Req 2a(3): Historical Evolution of Modern Golf
+**Official Requirement 2a(3):** Do the following: (a) Tell about the early history of golf. (b) Describe golf's early years in the United States. (c) Tell about the accomplishments of a top golfer of your choice.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** How did transitions from feathery balls to rubber gutta-percha balls reshape course design and player scoring?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Historical Evolution of Modern Golf: The historical development of golf traces its Scottish roots, rapid American expansion, and the legendary champions who defined competitive sportsmanship (p. 28). Studying past eras shows how equipment transformations and iconic figures built the global game played today (p. 34).
+- **Common Myth:** Golf developed in North America during colonial times before spreading overseas to Europe.
+- **Pamphlet Fact:** Golf evolved in medieval Scotland centuries before organized clubs and purpose-built courses appeared in the United States.
 
-**Official Pamphlet Summary:**
-- History & Pioneers of Disc Golf (Req 2b(3)(a)-(b)): Trace the sport from early tin-lid and Frisbee target games to 'Steady' Ed Headrick, who patented the modern Disc Pole Hole chain basket and founded the PDGA in 1976.
-- Four Disc Categories & Flight Ratings (Req 2b(3)): Compare sharp-rimmed Distance Drivers, controllable Fairway Drivers, versatile Mid-Range discs, and deep-rimmed Putters across Speed, Glide, Turn, and Fade.
-- Athletic Conditioning for Disc Golf (Req 2b(4)(a)): Build core rotational power, single-leg plant stability, shoulder rotator cuff strength, and hiking endurance for 18-hole wooded courses.
-- Pre-Round Warm-Up & Injury Prevention (Req 2b(4)(b)): Warm up wrists, elbows, rotator cuffs, hips, and ankles with dynamic stretches and light catch-and-putt drills before throwing full-power drives.
-
-#### Req 2b(3)(a): Disc Golf Origins and Inclusivity
-**Official Requirement 2b(3)(a):** Tell about the history of disc golf and why it is an inclusive game.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(a) Structured Technical Study & Explanation Matrix (History of Disc Golf)
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-![Scouts and counselor demonstrate Golf Requirement 3 field procedures and safety checks.](/assets/pamphlet_images/golf_p012_img1.png)
-
-| Req 2b(3)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 2a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell about the history of disc golf and why it is an inclusive game** | `____________________________________` | `____________________________________` |
+| **(a) Tell about the early history of golf.** | Historical Evolution of Modern Golf: The historical development of golf traces its Scottish roots, rapid American expansion, and the legendary champions who defined competitive sportsmanship (p. 28). Studying past eras shows how equipment transformations and iconic figures built the global game played today (p. 34). | Verify specific field notes / demonstration |
+| **(b) Describe golf's early years in the United States.** | Scout must individually complete Requirement 2a(3) (Do the following: (a) Tell about the early history of golf. (b) Describe golf's early years in the United Stat) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) Tell about the accomplishments of a top golfer of your choice.** | Historical Evolution of Modern Golf: The historical development of golf traces its Scottish roots, rapid American expansion, and the legendary champions who defined competitive sportsmanship (p. 28). Studying past eras shows how equipment transformations and iconic figures built the global game played today (p. 34). | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(3)):** Scout must individually complete Requirement 2a(3) (Do the following: (a) Tell about the early history of golf. (b) Describe golf's early years in the United Stat) to the Counselor.
 
-#### Req 2b(3)(b): Pioneering Contributions of Ed Headrick
-**Official Requirement 2b(3)(b):** Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(b) Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)
+#### Req 2a(4): Physical Fitness and Mental Health
+**Official Requirement 2a(4):** Do the following: (a) Tell how golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a golf exercise plan can help you play better. Show two exercises that would help improve your game.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** In what ways does navigating challenging situations on a golf course strengthen your focus and emotional resilience outside sports?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Physical Fitness and Mental Health: Playing golf builds sustained aerobic endurance and sharpens mental concentration through strategic problem solving outdoors (p. 38). Dedicated conditioning routines target core stability, rotational flexibility, and leg strength to improve swing mechanics and prevent repetitive motion injuries (p. 42).
+- **Common Myth:** Golf provides negligible physical exercise because players frequently pause between taking individual strokes.
+- **Pamphlet Fact:** Walking an eighteen-hole round requires covering four to five miles, logging over ten thousand steps and burning substantial calories.
 
-![Modern metal drivers and fairway woods engineered with titanium clubheads and graphite shafts.](/assets/pamphlet_images/golf_p014_img1.png)
-
-| Req 2b(3)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 2a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf** | `____________________________________` | `____________________________________` |
+| **(a) Tell how golf can contribute to a healthy lifestyle, mentally and physically.** | Physical Fitness and Mental Health: Playing golf builds sustained aerobic endurance and sharpens mental concentration through strategic problem solving outdoors (p. 38). Dedicated conditioning routines target core stability, rotational flexibility, and leg strength to improve swing mechanics and prevent repetitive motion injuries (p. 42). | Verify specific field notes / demonstration |
+| **(b) Tell how a golf exercise plan can help you play better. Show two exercises that would help improve your game.** | Scout must individually complete Requirement 2a(4) (Do the following: (a) Tell how golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell h) to the Counselor. | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(4)):** Scout must individually complete Requirement 2a(4) (Do the following: (a) Tell how golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell h) to the Counselor.
 
-#### Req 2b(3)(c): Evolution of Modern Disc Aerodynamics
-**Official Requirement 2b(3)(c):** Describe the evolution of disc design.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(c) Structured Technical Study & Explanation Matrix (Evolution of Disc)
+#### Req 2a(5): Fundamental Swing Mechanics and Execution
+**Official Requirement 2a(5):** Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver played from a tee (c) The fairway wood shot (d) The long iron shot (e) The short iron shot (f) The approach, chip-and-run, and pitch shots (g) A recovery shot from a bunker or heavy rough (h) A sound putting stroke. (a) The proper grip, stance, posture, and key fundamentals of a good swing. (b) Driver played from a tee. (c) The fairway wood shot. (d) The long iron shot. (e) The short iron shot. (f) The approach, chip-and-run, and pitch shots. (g) A recovery shot from a bunker or heavy rough. (h) A sound putting stroke.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** Why must your ball position and angle of attack change when switching from a teed driver to a fairway iron?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Fundamental Swing Mechanics and Execution: Mastering essential golf skills requires coordinating an athletic setup, stable swing plane, and solid ball-striking across different clubs (p. 46). Scouts must demonstrate reliable technique across drivers, fairway woods, irons, short-game approaches, and bunker recoveries (p. 50).
+- **Common Myth:** Every golf club in the bag requires an identical swing motion, ball placement, and setup posture.
+- **Pamphlet Fact:** Different club lengths, lofts, and lies demand adjustments in stance width, ball position, and attack angle to produce clean contact.
 
-![Steel golf iron clubhead showing the grooved clubface, hosel, and narrow sole design.](/assets/pamphlet_images/golf_p024_img1.png)
-
-| Req 2b(3)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 2a(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe the evolution of disc design** | `____________________________________` | `____________________________________` |
+| **(a) The proper grip, stance, posture, and key fundamentals of a good swing.** | Fundamental Swing Mechanics and Execution: Mastering essential golf skills requires coordinating an athletic setup, stable swing plane, and solid ball-striking across different clubs (p. 46). Scouts must demonstrate reliable technique across drivers, fairway woods, irons, short-game approaches, and bunker recoveries (p. 50). | Verify specific field notes / demonstration |
+| **(b) Driver played from a tee.** | Scout must individually complete Requirement 2a(5) (Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver play) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) The fairway wood shot.** | Fundamental Swing Mechanics and Execution: Mastering essential golf skills requires coordinating an athletic setup, stable swing plane, and solid ball-striking across different clubs (p. 46). Scouts must demonstrate reliable technique across drivers, fairway woods, irons, short-game approaches, and bunker recoveries (p. 50). | Verify specific field notes / demonstration |
+| **(d) The long iron shot.** | Scout must individually complete Requirement 2a(5) (Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver play) to the Counselor. | Verify specific field notes / demonstration |
+| **(e) The short iron shot.** | Fundamental Swing Mechanics and Execution: Mastering essential golf skills requires coordinating an athletic setup, stable swing plane, and solid ball-striking across different clubs (p. 46). Scouts must demonstrate reliable technique across drivers, fairway woods, irons, short-game approaches, and bunker recoveries (p. 50). | Verify specific field notes / demonstration |
+| **(f) The approach, chip-and-run, and pitch shots.** | Scout must individually complete Requirement 2a(5) (Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver play) to the Counselor. | Verify specific field notes / demonstration |
+| **(g) A recovery shot from a bunker or heavy rough.** | Fundamental Swing Mechanics and Execution: Mastering essential golf skills requires coordinating an athletic setup, stable swing plane, and solid ball-striking across different clubs (p. 46). Scouts must demonstrate reliable technique across drivers, fairway woods, irons, short-game approaches, and bunker recoveries (p. 50). | Verify specific field notes / demonstration |
+| **(h) A sound putting stroke.** | Scout must individually complete Requirement 2a(5) (Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver play) to the Counselor. | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(5)):** Scout must individually complete Requirement 2a(5) (Show the following: (a) The proper grip, stance, posture, and key fundamentals of a good swing (b) Driver play) to the Counselor.
 
-#### Req 2b(3)(d): Accomplishments of Top Disc Golfers
-**Official Requirement 2b(3)(d):** Tell about the accomplishments of a top disc golfer of your choice.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(3)(d) Structured Technical Study & Explanation Matrix (Accomplishments of A Top Disc)
+#### Req 2a(6): Full Round Golf Performance Requirements
+**[Parent Directive]:** *Option A, Traditional Golf. Do ALL of the following*
+**Official Requirement 2a(6):** Play a minimum of two nine-hole rounds or one 18-hole round of golf with another golfer about your age and with your counselor, or an adult approved by your counselor. Do the following: (a) Follow the Rules of Golf. (b) Practice good golf etiquette. (c) Show respect to fellow golfers, committee, sponsor, and gallery.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** Why does playing an entire eighteen hole round with a peer and an adult observer teach more than hitting range balls?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Full Round Golf Performance Requirements: Scouts complete either two separate nine-hole rounds or one full eighteen-hole round with a peer and an approved adult mentor. This requirement evaluates practical course management, adherence to official regulations, and continuous sportsmanship across every hole (p. 50).
+- **Common Myth:** Playing solitary practice holes counts toward satisfying the merit badge round requirement.
+- **Pamphlet Fact:** The merit badge requires completing the rounds alongside a peer and an approved adult mentor.
 
-![Inspecting and maintaining rubber and cord golf club grips for secure hand traction.](/assets/pamphlet_images/golf_p027_img1.png)
-
-| Req 2b(3)(d) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| Req 2a(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell about the accomplishments of a top disc golfer of your choice** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(4)(a): Physical and Mental Health Contributions
-**Official Requirement 2b(4)(a):** Tell how disc golf can contribute to a healthy lifestyle, mentally and physically.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(4)(a) Structured Technical Study & Explanation Matrix (Disc Golf Can Contribute)
-
-![Proper athletic golf address posture with knees flexed, spine tilted from the hips, and arms hanging naturally.](/assets/pamphlet_images/golf_p032_img1.png)
-
-| Req 2b(4)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Tell how disc golf can contribute to a healthy lifestyle, mentally and physically** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(4)(b): Conditioning Exercises for Throwing
-**Official Requirement 2b(4)(b):** Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(4)(b) Structured Technical Study & Explanation Matrix (Disc Golf Exercise Plan Can)
-
-![Square foot and shoulder alignment parallel to the intended target line for a straight golf shot.](/assets/pamphlet_images/golf_p033_img1.png)
-
-| Req 2b(4)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Tell how a disc golf exercise plan can help you play better.** | `____________________________________` | `____________________________________` |
-| **2. Show two exercises that would help improve your game.** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-### Disc Golf: Grips, X-Step, Backhand, Forehand, Roller & Putting
-**Official Requirement 2b(5) (Parent Overview):** Disc Golf: (a) A good throwing grip. (b) A good runup (X-step) when throwing a disc. (c) Backhand shot. (d) Forehand shot. (e) Overhand shot. (f) Rolling shot. (g) A good (in-line) putting stance. (h) A good straddle putting stance. (i) A good putting grip. (j) A good putting motion and follow. (k) The proper use of a mini-marking disc.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-**Official Pamphlet Summary:**
-- Disc Grips & X-Step Run-Up (Req 2b(5)(a)-(b)): Tuck all four fingertips tightly against the inner rim for a Power Grip on drives, or spread fingers across the flight plate for a Fan Grip; use the smooth X-step footwork to transfer weight.
-- Backhand, Forehand & Overhand Shots (Req 2b(5)(c)-(e)): Pull the disc on a straight line across the chest for a Backhand (hyzer, flat, anhyzer), snap the wrist with a two-finger stack for a Forehand flick, or throw an Overhand tomahawk/thumber.
-- Roller Shots & Flight Angles (Req 2b(5)(f)): Release the disc on a steep anhyzer angle so it lands on its edge and rolls straight down low-ceiling wooded fairways.
-- In-Line & Straddle Putting + Mini Marker (Req 2b(5)(g)-(k)): Demonstrate both in-line and straddle putting stances inside the 10-meter circle, and properly place a mini marker disc directly in front of your thrown disc before picking it up.
-
-#### Req 2b(5)(a): Proper Disc Golf Throwing Grips
-**Official Requirement 2b(5)(a):** A good throwing grip.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(a) Structured Technical Study & Explanation Matrix (Throwing Grip)
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-**Gear & Readiness Checklist:**
-- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.
-- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard.
-- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals.
-
-![Centering ball position in the stance to produce a crisp downward iron strike and follow-through.](/assets/pamphlet_images/golf_p039_img1.png)
-
-| Req 2b(5)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good throwing grip** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(b): Coordinated Runup and Footwork Techniques
-**Official Requirement 2b(5)(b):** A good runup (X-step) when throwing a disc.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(b) Structured Technical Study & Explanation Matrix (Runup X-step When Throwing A)
-
-![Standard 18-hole golf course scorecard showing hole yardages, par ratings, handicap indexes, and player strokes.](/assets/pamphlet_images/golf_p045_img1.png)
-
-| Req 2b(5)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good runup (X-step) when throwing a disc** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(c): Fundamental Backhand Throwing Mechanics
-**Official Requirement 2b(5)(c):** Backhand shot.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(c) Structured Technical Study & Explanation Matrix (Backhand Shot)
-
-![Executing a low chip-and-run approach shot near the green using a mid-iron.](/assets/pamphlet_images/golf_p046_img1.png)
-
-| Req 2b(5)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Backhand shot** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(d): Forehand Sidearm Throwing Mechanics
-**Official Requirement 2b(5)(d):** Forehand shot.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(d) Structured Technical Study & Explanation Matrix (Forehand Shot)
-
-![Using a high-lofted wedge to hit a soft pitch shot over a greenside hazard.](/assets/pamphlet_images/golf_p047_img1.png)
-
-| Req 2b(5)(d) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Forehand shot** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(e): Overhand Tomahawk and Thumber Deliveries
-**Official Requirement 2b(5)(e):** Overhand shot.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(e) Structured Technical Study & Explanation Matrix (Overhand Shot)
-
-![Swinging a flanged sand wedge into the sand behind the ball to splash it cleanly onto the green.](/assets/pamphlet_images/golf_p048_img2.png)
-
-| Req 2b(5)(e) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Overhand shot** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(f): Fairway Roller Execution and Angles
-**Official Requirement 2b(5)(f):** Rolling shot.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(f) Structured Technical Study & Explanation Matrix (Rolling Shot)
-
-![A junior golfer executes a recovery swing out of heavy rough along the fairway.](/assets/pamphlet_images/golf_p050_img1.png)
-
-| Req 2b(5)(f) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Rolling shot** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(g): In-Line Disc Golf Putting Stance
-**Official Requirement 2b(5)(g):** A good (in-line) putting stance.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(g) Structured Technical Study & Explanation Matrix (In-line Putting Stance)
-
-![A marked golf ball rests on the grass green awaiting the player's next putt.](/assets/pamphlet_images/golf_p059_img1.png)
-
-| Req 2b(5)(g) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good (in-line) putting stance** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(h): Straddle Disc Golf Putting Stance
-**Official Requirement 2b(5)(h):** A good straddle putting stance.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(h) Structured Technical Study & Explanation Matrix (Straddle Putting Stance)
-
-![Practicing proper golf etiquette, pace of play, and turf care on the fairway and putting green.](/assets/pamphlet_images/golf_p061_img1.png)
-
-| Req 2b(5)(h) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good straddle putting stance** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(i): Proper Disc Golf Putting Grip
-**Official Requirement 2b(5)(i):** A good putting grip.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(i) Structured Technical Study & Explanation Matrix (Putting Grip)
-
-![Historic golf champions and pioneers who shaped modern tournament play and equipment design.](/assets/pamphlet_images/golf_p065_img1.png)
-
-| Req 2b(5)(i) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good putting grip** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(j): Disc Golf Putting Stroke Technique
-**Official Requirement 2b(5)(j):** A good putting motion and follow.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(j) Structured Technical Study & Explanation Matrix (Putting Motion and Follow)
-
-![A golf teaching professional coaching a young player on swing mechanics and club selection.](/assets/pamphlet_images/golf_p076_img1.png)
-
-| Req 2b(5)(j) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. A good putting motion and follow** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(5)(k): Mini Marking Disc Placement Rules
-**Official Requirement 2b(5)(k):** The proper use of a mini-marking disc.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(5)(k) Structured Technical Study & Explanation Matrix (Mini-marking Disc)
-
-![Golf course design and turfgrass maintenance managed by course architects and superintendents.](/assets/pamphlet_images/golf_p077_img1.png)
-
-| Req 2b(5)(k) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. The proper use of a mini-marking disc** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-### Disc Golf: 18-Hole Round, Park Stewardship & Careers
-**Official Requirement 2b(6) (Parent Overview):** Disc Golf: (a) Follow the PDGA Official Rules of Disc Golf. (b) Practice good disc golf etiquette. (c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property. (7) Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Group Organizer:** Career & Profession Exploration Card
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-**Official Pamphlet Summary:**
-- Playing an 18-Hole Disc Golf Round (Req 2b(6)(a)): Complete an 18-hole round (or two 9-hole rounds) with your counselor or an approved adult, following PDGA rules and keeping an accurate scorecard.
-- Sportsmanship & Course Courtesy (Req 2b(6)(b)-(c)): Allow faster groups to play through, help search for lost discs (3-minute rule), yield to non-playing park visitors, and protect course vegetation.
-- Disc Golf Industry Careers (Req 2b(7)(a)): Investigate careers as a Disc Golf Course Designer, PDGA Tournament Director, Aerospace/Plastics Disc Mould Engineer, Parks & Recreation Manager, or Touring Instructor.
-- Amateur vs. Touring Professional Pathways (Req 2b(7)(b)): Compare PDGA Amateur divisions and points series with Pro Tour qualification, sponsorship, and PDGA Certified Official credentials.
-
-#### Req 2b(6)(a): Official Disc Golf Tournament Rules
-**Official Requirement 2b(6)(a):** Follow the PDGA Official Rules of Disc Golf.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(6)(a) Structured Technical Study & Explanation Matrix (Follow the PDGA Official)
-> **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Golf Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-
-**Gear & Readiness Checklist:**
-- [ ] Matched set of golf clubs (driver, irons, wedge, putter) and golf bag.
-- [ ] Golf balls, tees, ball marker, divot repair tool, and scorecard.
-- [ ] Practice range log and grip/stance notes for Traditional and Disc Golf Fundamentals.
-
-![A young player throws a disc down the fairway toward a target basket.](/assets/pamphlet_images/golf_p083_img1.png)
-
-| Req 2b(6)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Follow the PDGA Official Rules of Disc Golf** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(6)(b): Disc Golf Course Etiquette Standards
-**Official Requirement 2b(6)(b):** Practice good disc golf etiquette.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(6)(b) Structured Technical Study & Explanation Matrix (Disc Golf Etiquette)
-
-![A young golfer releases a flying disc toward the target along the fairway.](/assets/pamphlet_images/golf_p084_img1.png)
-
-| Req 2b(6)(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Practice good disc golf etiquette** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(6)(c): Park Stewardship and Course Respect
-**Official Requirement 2b(6)(c):** Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Concept & Examples Notes):** Req 2b(6)(c) Structured Technical Study & Explanation Matrix (Respect to Fellow Disc Golfers)
-
-![A disc golfer focuses on the metal chain target basket while executing a balanced putt.](/assets/pamphlet_images/golf_p085_img1.png)
-
-| Req 2b(6)(c) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
-| :--- | :--- | :--- |
-| **1. Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property** | `____________________________________` | `____________________________________` |
-
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
-
-#### Req 2b(7): Disc Golf Industry Career Exploration
-**Official Requirement 2b(7):** Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests.
-**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Organizer (Career & Profession Exploration Card):** Req 2b(7) Career & Professional Pathway Investigation Matrix
-
-![Using the X-Step footwork sequence on the tee pad to build momentum and accuracy on a disc golf drive.](/assets/pamphlet_images/golf_p088_img1.png)
+| **(a) Follow the Rules of Golf.** | Full Round Golf Performance Requirements: Scouts complete either two separate nine-hole rounds or one full eighteen-hole round with a peer and an approved adult mentor. This requirement evaluates practical course management, adherence to official regulations, and continuous sportsmanship across every hole (p. 50). | Verify specific field notes / demonstration |
+| **(b) Practice good golf etiquette.** | Scout must individually complete Requirement 2a(6) (Play a minimum of two nine-hole rounds or one 18-hole round of golf with another golfer about your age and wit) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) Show respect to fellow golfers, committee, sponsor, and gallery.** | Full Round Golf Performance Requirements: Scouts complete either two separate nine-hole rounds or one full eighteen-hole round with a peer and an approved adult mentor. This requirement evaluates practical course management, adherence to official regulations, and continuous sportsmanship across every hole (p. 50). | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2a(6)):** Scout must individually complete Requirement 2a(6) (Play a minimum of two nine-hole rounds or one 18-hole round of golf with another golfer about your age and wit) to the Counselor.
+
+#### Req 2a(7): Golf Industry Career Exploration Pathways
+**Official Requirement 2a(7):** Find out about three careers related to traditional golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests you.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 2a
+- **Socratic Prompt (Ask Scouts First):** What specialized skills beyond playing golf does a course superintendent or club manager need daily?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Golf Industry Career Exploration Pathways: The golf industry provides diverse careers spanning PGA club professionals, turfgrass superintendents, golf equipment engineers, and tournament operations directors. Candidates typically pursue college degrees in turf management, business, or marketing alongside specialized apprenticeships and certifications (p. 61).
+- **Common Myth:** Every professional career in golf requires playing at tour level championship skill.
+- **Pamphlet Fact:** Most golf careers in agronomy, club management, equipment design, and instruction prioritize specialized education and technical skills over personal tournament play.
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |
-| **1. Find out about three careers related to disc golf.** | `____________________________________` | `____________________________________` |
-| **2. Pick one and identify the education, training, and experience required for this profession.** | `____________________________________` | `____________________________________` |
-| **3. Discuss this with your counselor, and explain why this interests.** | `____________________________________` | `____________________________________` |
+| **1. Find out about three careers related to traditional golf.** | Golf Industry Career Exploration Pathways: The golf industry provides diverse careers spanning PGA club professionals, turfgrass superintendents, golf equipment engineers, and tournament operations directors. Candidates typically pursue college degrees in turf management, business, or marketing alongside specialized apprenticeships and certifications (p. 61). | Verify specific field notes / demonstration |
+| **2. Pick one and identify the education, training, and experience required for this profession.** | Scout must individually complete Requirement 2a(7) (Find out about three careers related to traditional golf. Pick one and identify the education, training, and e) to the Counselor. | Verify specific field notes / demonstration |
+| **3. Discuss this with your counselor, and explain why this interests.** | Golf Industry Career Exploration Pathways: The golf industry provides diverse careers spanning PGA club professionals, turfgrass superintendents, golf equipment engineers, and tournament operations directors. Candidates typically pursue college degrees in turf management, business, or marketing alongside specialized apprenticeships and certifications (p. 61). | Verify specific field notes / demonstration |
 
-**Scout Notes / Demonstration Verification:** `___________________________________________________________`
+**Counselor Verification Standard (Req 2a(7)):** Scout must individually complete Requirement 2a(7) (Find out about three careers related to traditional golf. Pick one and identify the education, training, and e) to the Counselor.
+
+### Requirement 2b Section: Disc Golf Courtesy Standards
+**Parent Directive (2b):** Option B, Disc Golf. Do ALL of the following:
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Section Organizer:** Career & Profession Exploration Card
+
+#### Req 2b(1): PDGA Disc Golf Rules Framework
+**[Parent Directive]:** *Option B, Disc Golf. Do ALL of the following*
+**Official Requirement 2b(1):** Study the PDGA Official Rules of Disc Golf now in use. (a) Tell about the six areas of Courtesy (812). (b) Describe the seven areas of Scoring (808) (a) Tell about the six areas of Courtesy (812) (b) Describe the seven areas of Scoring (808)
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** Why do competitive disc golf tournaments need standardized rules for courtesy and scoring just like traditional golf?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - PDGA Disc Golf Rules Framework: The Professional Disc Golf Association establishes official standards governing courteous play under Section 812 and accurate record keeping under Section 808. Scouts review these rules to understand both personal conduct expectations and strict scorecard administration during competitive rounds (p. 66).
+- **Common Myth:** Disc golf rules allow players to act casually without the structured conduct rules found in traditional golf.
+- **Pamphlet Fact:** The PDGA rulebook enforces formal regulatory standards for both player courtesy and scorecard accounting during competition.
+
+![Specialized throwing discs offer different aerodynamics for disc golf shots.](/assets/pamphlet_images/golf_p080_img1.png)
+
+| Req 2b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **(a) Tell about the six areas of Courtesy (812)** | PDGA Disc Golf Rules Framework: The Professional Disc Golf Association establishes official standards governing courteous play under Section 812 and accurate record keeping under Section 808. Scouts review these rules to understand both personal conduct expectations and strict scorecard administration during competitive rounds (p. 66). | Verify specific field notes / demonstration |
+| **(b) Describe the seven areas of Scoring (808)** | Scout must individually complete Requirement 2b(1) (Study the PDGA Official Rules of Disc Golf now in use. (a) Tell about the six areas of Courtesy (812). (b) Des) to the Counselor. | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(1)):** Scout must individually complete Requirement 2b(1) (Study the PDGA Official Rules of Disc Golf now in use. (a) Tell about the six areas of Courtesy (812). (b) Des) to the Counselor.
+
+#### Req 2b(2): Disc Golf History and Accessibility
+**Official Requirement 2b(2):** Tell about the history of disc golf and why it is an inclusive game.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** What factors make disc golf one of the most accessible and affordable sports for people in local communities?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Disc Golf History And Accessibility: Disc golf evolved from informal pie tin games into a worldwide sport after Ed Headrick invented the modern pole hole catching basket and organized the PDGA in the 1970s. The game promotes inclusivity because public courses are typically free to play, equipment is affordable, and players of all ages and athletic backgrounds can participate (p. 72).
+- **Common Myth:** Disc golf originated as an exclusive country club sport requiring expensive specialized gear and costly memberships.
+- **Pamphlet Fact:** Disc golf grew in public community parks to make sport accessible to players of all financial and physical levels.
+
+| Req 2b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **1. Req 2b(2) Core Concept, Definition & Pamphlet Standard** | Disc Golf History And Accessibility: Disc golf evolved from informal pie tin games into a worldwide sport after Ed Headrick invented the modern pole hole catching basket and organized the PDGA in the 1970s. The game promotes inclusivity because public courses are typically free to play, equipment is affordable, and players of all ages and athletic backgrounds can participate (p. 72). | Verify specific field notes / demonstration |
+| **2. Req 2b(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually complete Requirement 2b(2) (Tell about the history of disc golf and why it is an inclusive game) to the Counselor. | Verify specific field notes / demonstration |
+| **3. Req 2b(2) Practical Example & Counselor Conference Verification** | Disc Golf History And Accessibility: Disc golf evolved from informal pie tin games into a worldwide sport after Ed Headrick invented the modern pole hole catching basket and organized the PDGA in the 1970s. The game promotes inclusivity because public courses are typically free to play, equipment is affordable, and players of all ages and athletic backgrounds can participate (p. 72). | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(2)):** Scout must individually complete Requirement 2b(2) (Tell about the history of disc golf and why it is an inclusive game) to the Counselor.
+
+#### Req 2b(3): Disc Golf History and Heritage
+**Official Requirement 2b(3):** Do the following: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf. (c) Describe the evolution of disc design. (d) Tell about the accomplishments of a top disc golfer of your choice.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** How did casual games of throwing pie tins and plastic platters transform into a globally standardized sport with dedicated courses and tournaments?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Disc Golf History and Heritage: Scouts study how disc golf developed from informal games into an organized international sport, examining key pioneers, equipment innovations, and notable competitors. The curriculum highlights how public course access and minimal gear costs make the game accessible to players of all ages and abilities (p. 49).
+- **Common Myth:** Disc golf originated as a modern commercial venture created by sporting goods manufacturers in the 1990s.
+- **Pamphlet Fact:** Disc golf evolved from grassroots throwing games in the early twentieth century into an organized sport during the 1970s through player associations and standardized equipment.
+
+| Req 2b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **(a) Tell about the history of disc golf and why it is an inclusive game.** | Disc Golf History and Heritage: Scouts study how disc golf developed from informal games into an organized international sport, examining key pioneers, equipment innovations, and notable competitors. The curriculum highlights how public course access and minimal gear costs make the game accessible to players of all ages and abilities (p. 49). | Verify specific field notes / demonstration |
+| **(b) Discuss with your counselor the contributions Ed Headrick made to the sport of disc golf.** | Scout must individually complete Requirement 2b(3) (Do the following: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with yo) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) Describe the evolution of disc design.** | Disc Golf History and Heritage: Scouts study how disc golf developed from informal games into an organized international sport, examining key pioneers, equipment innovations, and notable competitors. The curriculum highlights how public course access and minimal gear costs make the game accessible to players of all ages and abilities (p. 49). | Verify specific field notes / demonstration |
+| **(d) Tell about the accomplishments of a top disc golfer of your choice.** | Scout must individually complete Requirement 2b(3) (Do the following: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with yo) to the Counselor. | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(3)):** Scout must individually complete Requirement 2b(3) (Do the following: (a) Tell about the history of disc golf and why it is an inclusive game. (b) Discuss with yo) to the Counselor.
+
+#### Req 2b(4): Health Benefits and Fitness Training
+**Official Requirement 2b(4):** Do the following: (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** How does a regular conditioning routine help a disc golfer maintain accurate shot mechanics over several miles of walking on a rugged course?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Health Benefits and Fitness Training: Walking an eighteen-hole course delivers sustained aerobic exercise while navigating terrain builds lower-body endurance and core stability. Incorporating targeted stretching and conditioning exercises prevents rotator cuff strain, increases rotational throwing power, and builds mental focus (p. 54).
+- **Common Myth:** Playing a round of disc golf provides negligible cardiovascular exercise because throwing a disc requires little physical exertion.
+- **Pamphlet Fact:** Walking an eighteen-hole disc golf course typically covers several miles of uneven terrain and combines aerobic endurance with full-body muscular engagement.
+
+| Req 2b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **(a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically.** | Health Benefits and Fitness Training: Walking an eighteen-hole course delivers sustained aerobic exercise while navigating terrain builds lower-body endurance and core stability. Incorporating targeted stretching and conditioning exercises prevents rotator cuff strain, increases rotational throwing power, and builds mental focus (p. 54). | Verify specific field notes / demonstration |
+| **(b) Tell how a disc golf exercise plan can help you play better. Show two exercises that would help improve your game.** | Scout must individually complete Requirement 2b(4) (Do the following: (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) T) to the Counselor. | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(4)):** Scout must individually complete Requirement 2b(4) (Do the following: (a) Tell how disc golf can contribute to a healthy lifestyle, mentally and physically. (b) T) to the Counselor.
+
+#### Req 2b(5): Core Throwing and Putting Fundamentals
+**Official Requirement 2b(5):** Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot (d) Forehand shot (e) Overhand shot (f) Rolling shot (g) A good (in-line) putting stance (h) A good straddle putting stance (i) A good putting grip (j) A good putting motion and follow through (k) The proper use of a mini-marking disc. (a) A good throwing grip. (b) A good runup (X-step) when throwing a disc. (c) Backhand shot. (d) Forehand shot. (e) Overhand shot. (f) Rolling shot. (g) A good (in-line) putting stance. (h) A good straddle putting stance. (i) A good putting grip. (j) A good putting motion and follow. (k) The proper use of a mini-marking disc.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** Why must a versatile disc golfer master multiple grips, release angles, and footwork patterns rather than relying on one standard throw?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56).
+- **Common Myth:** Using a single generic grip and arm swing works equally well for every distance, flight path, and putting situation on the course.
+- **Pamphlet Fact:** Different course lies and flight paths require specialized grips, distinct body alignments, and varied arm motions tailored to distance, wind, and obstacles.
+
+| Req 2b(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **(a) A good throwing grip.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+| **(b) A good runup (X-step) when throwing a disc.** | Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) Backhand shot.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+| **(d) Forehand shot.** | Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor. | Verify specific field notes / demonstration |
+| **(e) Overhand shot.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+| **(f) Rolling shot.** | Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor. | Verify specific field notes / demonstration |
+| **(g) A good (in-line) putting stance.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+| **(h) A good straddle putting stance.** | Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor. | Verify specific field notes / demonstration |
+| **(i) A good putting grip.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+| **(j) A good putting motion and follow.** | Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor. | Verify specific field notes / demonstration |
+| **(k) The proper use of a mini-marking disc.** | Core Throwing and Putting Fundamentals: Proper form requires mastering balanced footwork, secure hand placement, and controlled releases across different throwing styles and putting stances. Scouts demonstrate power and fan grips, coordinated footwork sequences, and specialized flight angles suited for diverse fairway challenges (p. 56). | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(5)):** Scout must individually complete Requirement 2b(5) (Show the following: (a) A good throwing grip (b) A good runup (X-step) when throwing a disc (c) Backhand shot ) to the Counselor.
+
+#### Req 2b(6): Eighteen Hole Disc Golf Round
+**[Parent Directive]:** *Option B, Disc Golf. Do ALL of the following*
+**Official Requirement 2b(6):** Play a minimum of 18-holes of disc golf with another disc golfer about your age and with your counselor, or an adult approved by your counselor. Do the following: (a) Follow the PDGA Official Rules of Disc Golf. (b) Practice good disc golf etiquette. (c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** How does navigating a full eighteen-hole round with a group challenge your mental focus differently than tossing practice shots at a single basket?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Eighteen Hole Disc Golf Round: Completing an eighteen-hole round requires applying competitive scoring rules, safe pace of play, and standard course navigation alongside a peer and an adult supervisor. Playing the full eighteen holes gives golfers practical experience assessing varying fairway hazards, elevations, and basket placements (p. 63).
+- **Common Myth:** Casual rounds played alone or split across multiple disconnected practice throws satisfy the requirement for an eighteen-hole round.
+- **Pamphlet Fact:** Completing eighteen consecutive holes with a peer and an approved counselor ensures practical application of scoring rules, safety protocols, and endurance under genuine course conditions.
+
+| Req 2b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
+| :--- | :--- | :--- |
+| **(a) Follow the PDGA Official Rules of Disc Golf.** | Eighteen Hole Disc Golf Round: Completing an eighteen-hole round requires applying competitive scoring rules, safe pace of play, and standard course navigation alongside a peer and an adult supervisor. Playing the full eighteen holes gives golfers practical experience assessing varying fairway hazards, elevations, and basket placements (p. 63). | Verify specific field notes / demonstration |
+| **(b) Practice good disc golf etiquette.** | Scout must individually complete Requirement 2b(6) (Play a minimum of 18-holes of disc golf with another disc golfer about your age and with your counselor, or an) to the Counselor. | Verify specific field notes / demonstration |
+| **(c) Show respect to fellow disc golfers and other people in the park along with any wildlife, trees, and plants on the property.** | Eighteen Hole Disc Golf Round: Completing an eighteen-hole round requires applying competitive scoring rules, safe pace of play, and standard course navigation alongside a peer and an adult supervisor. Playing the full eighteen holes gives golfers practical experience assessing varying fairway hazards, elevations, and basket placements (p. 63). | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(6)):** Scout must individually complete Requirement 2b(6) (Play a minimum of 18-holes of disc golf with another disc golfer about your age and with your counselor, or an) to the Counselor.
+
+#### Req 2b(7): Disc Golf Industry Career Exploration
+**Official Requirement 2b(7):** Find out about three careers related to disc golf. Pick one and identify the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this interests you.
+**Source:** *Official Scouting America Golf Merit Badge Pamphlet (p. 50, p. 80)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 2b
+- **Socratic Prompt (Ask Scouts First):** What specialized technical skills beyond playing disc golf would someone need to design a safe municipal disc golf course?
+- **Official Pamphlet Summary & Expected Answer Key:**
+  - Disc Golf Industry Career Exploration: The disc golf industry encompasses specialized vocations such as course designer, equipment design engineer, tournament director, and retail manufacturer representative. Investigating these roles reveals how educational backgrounds in landscape architecture, polymer engineering, or sports management translate into active careers (p. 71).
+- **Common Myth:** Playing as a sponsored touring competitor is the only viable professional career path in the disc golf industry.
+- **Pamphlet Fact:** The disc golf industry offers diverse professional careers in course architecture, aerodynamic engineering, event administration, and sales that demand specialized educational credentials.
+
+| Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
+| :--- | :--- | :--- |
+| **1. Find out about three careers related to disc golf.** | Disc Golf Industry Career Exploration: The disc golf industry encompasses specialized vocations such as course designer, equipment design engineer, tournament director, and retail manufacturer representative. Investigating these roles reveals how educational backgrounds in landscape architecture, polymer engineering, or sports management translate into active careers (p. 71). | Verify specific field notes / demonstration |
+| **2. Pick one and identify the education, training, and experience required for this profession.** | Scout must individually complete Requirement 2b(7) (Find out about three careers related to disc golf. Pick one and identify the education, training, and experien) to the Counselor. | Verify specific field notes / demonstration |
+| **3. Discuss this with your counselor, and explain why this interests.** | Disc Golf Industry Career Exploration: The disc golf industry encompasses specialized vocations such as course designer, equipment design engineer, tournament director, and retail manufacturer representative. Investigating these roles reveals how educational backgrounds in landscape architecture, polymer engineering, or sports management translate into active careers (p. 71). | Verify specific field notes / demonstration |
+
+**Counselor Verification Standard (Req 2b(7)):** Scout must individually complete Requirement 2b(7) (Find out about three careers related to disc golf. Pick one and identify the education, training, and experien) to the Counselor.

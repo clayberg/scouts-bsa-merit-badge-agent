@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Soil Formed)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,7 +56,13 @@
               "1. Tell what soil",
               "2. Tell how it is formed"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p003_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
-          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig."
+          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 1a (Tell what soil is. Tell how it is formed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -110,7 +119,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Soil Tell How They)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -129,7 +138,13 @@
               "1. Describe three kinds of soil.",
               "2. Tell how they are different."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
@@ -167,12 +182,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p021_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
-          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig."
+          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 1b (Describe three kinds of soil. Tell how they are different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
           "label": "(c)",
-          "text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used.",
+          "text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up.",
           "resources": [
             {
               "title": "The Three Most Important Nutrients for Plant Growth (video)",
@@ -183,7 +201,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Main Plant Nutrients in Fertile)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -202,7 +220,13 @@
               "1. Name the three main plant nutrients in fertile soil.",
               "2. Tell how they can be put back when used."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
@@ -232,7 +256,7 @@
           ],
           "id": "1c",
           "sub_req_label": "1c",
-          "sub_req_text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used.",
+          "sub_req_text": "Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up.",
           "topic_title": "Req 1c: Primary Plant Nutrient Replenishment Methods",
           "pamphlet_summary": "Crops require continuous supplies of nitrogen for leaves, phosphorus for roots, and potassium for disease resistance. Cultivators restore these depleted nutrients by incorporating legume cover crops, manure, compost, or commercial mineral fertilizers.",
           "pamphlet_excerpts": [
@@ -240,7 +264,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p021_img1.png",
           "workbook_diagram_caption": "A field worker extracts deep soil cores using a truck drill rig.",
-          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig."
+          "workbook_visual_caption": "A field worker extracts deep soil cores using a truck drill rig.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 1c (Name the three main plant nutrients in fertile soil. Tell how they can be put back when used up), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -270,7 +297,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Soil Composition and Fertility Principles",
-      "action_verb": "Demonstrate",
+      "action_verb": "Tell",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -279,7 +306,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Soil Formed Soil They)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -300,7 +327,13 @@
           "2. (1b) Soil Tell How They",
           "3. (1c) Main Plant Nutrients in Fertile"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Soil is simply crushed rock that forms quickly following heavy rainstorms.",
@@ -468,7 +501,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Soil Erosion)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -480,12 +513,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define soil erosion"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Define soil erosion"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -523,12 +566,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p007_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
-          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins."
+          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 2a (Define soil erosion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Tell why soil erosion is important and how it affects.",
+          "text": "Tell why soil erosion is important and how it affects you.",
           "resources": [
             {
               "title": "Why Soil Conservation is Important to Human Agriculture? (video)",
@@ -539,7 +585,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Soil Erosion Is Important)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -551,12 +597,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell why soil erosion is important and how it affects"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell why soil erosion is important and how it affects"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -586,7 +642,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Tell why soil erosion is important and how it affects.",
+          "sub_req_text": "Tell why soil erosion is important and how it affects you.",
           "topic_title": "Req 2b: Societal Consequences of Topsoil Depletion",
           "pamphlet_summary": "Losing fertile topsoil reduces farmland productivity, forcing higher reliance on synthetic fertilizers and raising consumer food prices. Sediment also fills municipal reservoirs, clogs shipping navigation channels, and intensifies downstream flooding hazards.",
           "pamphlet_excerpts": [
@@ -594,18 +650,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
-          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins."
+          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 2b (Tell why soil erosion is important and how it affects you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Name three kinds of soil erosion. Describe.",
+          "text": "Name three kinds of soil erosion. Describe each.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Soil Erosion)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -624,7 +683,13 @@
               "1. Name three kinds of soil erosion",
               "2. Core principles and practical standards for Sheet Rill and Gully Erosion"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -654,7 +719,7 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Name three kinds of soil erosion. Describe.",
+          "sub_req_text": "Name three kinds of soil erosion. Describe each.",
           "topic_title": "Req 2c: Water and Wind Erosion Types",
           "pamphlet_summary": "Erosion manifests primarily as sheet erosion, rill erosion, gully erosion, and wind deflation. Sheet erosion strips uniform surface sheets, rills cut micro-channels, gullies scour canyons, and wind lifts fine dust across arid fields.",
           "pamphlet_excerpts": [
@@ -662,7 +727,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
-          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins."
+          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 2c (Name three kinds of soil erosion. Describe each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -677,25 +745,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Pictures Soil Erosion)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Take pictures of or draw two kinds of soil erosion"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Take pictures of or draw two kinds of soil erosion"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
           "common_misconception_pair": {
@@ -733,7 +811,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p040_img1.png",
           "workbook_diagram_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
-          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins."
+          "workbook_visual_caption": "Eroded soil and silt wash into a waterway, filling shallow margins.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 2d (Take pictures of or draw two kinds of soil erosion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -759,7 +840,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Soil Erosion Mechanics and Impacts",
-      "action_verb": "Demonstrate",
+      "action_verb": "Define",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -767,17 +848,17 @@
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 39, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Soil Erosion B Tell Why)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (2a) Soil Erosion",
@@ -791,7 +872,13 @@
           "3. (2c) Soil Erosion",
           "4. (2d) Pictures Soil Erosion"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Erosion only occurs in dramatic mountain landslides and massive desert dust storms.",
@@ -954,7 +1041,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Meant by Conservation)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -966,12 +1053,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell what is meant by conservation practices"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell what is meant by conservation practices"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
@@ -1009,7 +1106,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p012_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
-          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside."
+          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 3a (Tell what is meant by conservation practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1020,7 +1120,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Soil and Water Conservation Erosion-control Principles)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1032,12 +1132,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the effect of three kinds of erosion-control practices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the effect of three kinds of erosion-control practices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
@@ -1075,7 +1185,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p045_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
-          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside."
+          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 3b (Describe the effect of three kinds of erosion-control practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1090,25 +1203,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Pictures Erosion-control)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Take pictures of or draw three kinds of erosion-control practices"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Take pictures of or draw three kinds of erosion-control practices"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
           "common_misconception_pair": {
@@ -1146,7 +1269,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p045_img1.png",
           "workbook_diagram_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
-          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside."
+          "workbook_visual_caption": "Severe rill and gully erosion cuts channels through an exposed hillside.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 3c (Take pictures of or draw three kinds of erosion-control practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1168,7 +1294,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Agricultural Erosion Control Practices",
-      "action_verb": "Demonstrate",
+      "action_verb": "Tell",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1176,17 +1302,17 @@
       "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 45, p. 90)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Meant by Conservation)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (3a) Meant By Conservation",
@@ -1198,7 +1324,13 @@
           "2. (3b) Soil and Water Conservation Erosion-control Principles",
           "3. (3c) Pictures Erosion-control"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Conservation practices require leaving agricultural fields completely fallow and unharvested throughout the year.",
@@ -1355,7 +1487,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Explain what a watershed.",
+          "text": "Explain what a watershed is.",
           "resources": [
             {
               "title": "What is a Watershed (video)",
@@ -1374,7 +1506,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Soil and Water Conservation Watershed Principles)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1386,12 +1518,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a watershed"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a watershed"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
@@ -1421,7 +1563,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Explain what a watershed.",
+          "sub_req_text": "Explain what a watershed is.",
           "topic_title": "Req 4a: Watershed Topography and Drainage Concepts",
           "pamphlet_summary": "A watershed is the geographical basin bounded by natural ridges from which all precipitation drains into a single body of water. Every acre of land forms part of a local catchment basin connected to the hydrological system.",
           "pamphlet_excerpts": [
@@ -1429,7 +1571,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
-          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 4a (Explain what a watershed is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1440,7 +1585,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Outline the Smallest Watershed That)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1452,12 +1597,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Outline the smallest watershed that you can find on a contour map"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Outline the smallest watershed that you can find on a contour map"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
@@ -1496,18 +1651,21 @@
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "title": "Req 4b: Mapping Small Headwater Watersheds",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
-          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 4b (Outline the smallest watershed that you can find on a contour map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one.",
+          "text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one in it.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Outline As Far)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1519,12 +1677,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Outline, as far as the map will allow, the next larger watershed that also has the smallest one"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Outline, as far as the map will allow, the next larger watershed that also has the smallest one"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
@@ -1554,7 +1722,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one.",
+          "sub_req_text": "Outline, as far as the map will allow, the next larger watershed that also has the smallest one in it.",
           "topic_title": "Req 4c: Nested Regional Watershed Delineation",
           "pamphlet_summary": "Expanding the boundary requires identifying the downstream confluence where the tributary joins a larger river and tracing the higher surrounding ridgelines. This exercise illustrates how local brooks integrate into larger regional hydrographic basins.",
           "pamphlet_excerpts": [
@@ -1562,7 +1730,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
-          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 4c (Outline, as far as the map will allow, the next larger watershed that also has the smallest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1578,7 +1749,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (River Basin)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1597,7 +1768,13 @@
               "1. Explain what a river basin",
               "2. Tell why all people living in a river basin should be concerned about land and water use in the basin"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
@@ -1635,7 +1812,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
-          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 4d (Explain what a river basin is. Tell why all people living in a river basin should be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1651,7 +1831,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Aquifer Important Communities)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1663,12 +1843,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what an aquifer is and why it can be important to communities"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what an aquifer is and why it can be important to communities"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 58, p. 60)",
           "common_misconception_pair": {
@@ -1706,7 +1896,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p035_img1.png",
           "workbook_diagram_caption": "Researchers measure snow pack depth and water content using a core tube.",
-          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube."
+          "workbook_visual_caption": "Researchers measure snow pack depth and water content using a core tube.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 4e (Explain what an aquifer is and why it can be important to communities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1749,7 +1942,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Watershed Is B Outline the)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1774,7 +1967,12 @@
           "4. (4d) Explain what a river basin",
           "5. (4e) Explain what an aquifer is and why it can be important to communities"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Watershed boundaries follow straight municipal property lines and county jurisdictional borders on maps.",
@@ -1942,7 +2140,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Drawing to Show the Hydrologic)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -1954,12 +2152,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Make a drawing to show the hydrologic cycle"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a drawing to show the hydrologic cycle"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
@@ -1997,7 +2205,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
-          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 5a (Make a drawing to show the hydrologic cycle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2021,7 +2232,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist (Actions of Water in Relation)",
+            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2033,12 +2244,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate at least two of the following actions of water in relation to soil: percolation, capillary action, precipitation, evaporation, and transpiration"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
@@ -2076,7 +2297,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
-          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 5b (Demonstrate at least two of the following actions of water in relation to soil:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2092,7 +2316,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Removal of Vegetation Will Affect)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2104,12 +2328,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how removal of vegetation will affect the way water runs off a watershed"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how removal of vegetation will affect the way water runs off a watershed"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
@@ -2147,7 +2381,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
-          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 5c (Explain how removal of vegetation will affect the way water runs off a watershed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2163,7 +2400,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Forest Range and Farmland Affect)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2175,12 +2412,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how uses of forest, range, and farmland affect usable water supply"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how uses of forest, range, and farmland affect usable water supply"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
@@ -2218,7 +2465,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
-          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 5d (Tell how uses of forest, range, and farmland affect usable water supply), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2234,7 +2484,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Industrial Use Affects Water Supply)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2246,12 +2496,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how industrial use affects water supply"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how industrial use affects water supply"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 30, p. 39)",
           "common_misconception_pair": {
@@ -2289,7 +2549,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p031_img1.png",
           "workbook_diagram_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
-          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions."
+          "workbook_visual_caption": "A precipitation map illustrates annual rainfall patterns across regions.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 5e (Explain how industrial use affects water supply), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2340,7 +2603,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Drawing to Show the Hydrologic)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -2365,7 +2628,13 @@
           "4. (5d) Forest Range and Farmland Affect",
           "5. (5e) Industrial Use Affects Water Supply"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Water used by agriculture and industrial plants is permanently destroyed and eliminated from planet Earth.",
@@ -2528,7 +2797,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Meant by Water Pollution)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2540,12 +2809,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell what is meant by water pollution"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell what is meant by water pollution"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
@@ -2583,18 +2862,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
-          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution."
+          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 6a (Tell what is meant by water pollution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Describe common sources of water pollution and explain the effects.",
+          "text": "Describe common sources of water pollution and explain the effects of each.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Common Sources of Water Pollution)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2606,12 +2888,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe common sources of water pollution and explain the effects"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe common sources of water pollution and explain the effects"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
@@ -2641,7 +2933,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Describe common sources of water pollution and explain the effects.",
+          "sub_req_text": "Describe common sources of water pollution and explain the effects of each.",
           "topic_title": "Req 6b: Point and Nonpoint Pollution Sources",
           "pamphlet_summary": "Pollution originates from identifiable point sources like industrial pipes and sewage plants, or diffuse nonpoint sources like urban street runoff and fertilized farm fields. Toxic metals poison food chains, excess nutrients cause algae blooms, and silt suffocates fish eggs.",
           "pamphlet_excerpts": [
@@ -2649,7 +2941,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
-          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution."
+          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 6b (Describe common sources of water pollution and explain the effects of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2665,7 +2960,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Primary Water Treatment Secondary Waste)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2677,12 +2972,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the terms: primary water treatment, secondary waste treatment, and biochemical oxygen demand"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
@@ -2720,7 +3025,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
-          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution."
+          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 6c (Explain the terms: primary water treatment, secondary waste treatment, and biochemical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2731,7 +3039,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist (Drawing Showing the Principles)",
+            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2743,12 +3051,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Make a drawing showing the principles of complete waste treatment"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a drawing showing the principles of complete waste treatment"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 78, p. 79)",
           "common_misconception_pair": {
@@ -2786,7 +3104,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p069_img1.png",
           "workbook_diagram_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
-          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution."
+          "workbook_visual_caption": "A hand touches dense surface algae caused by nutrient water pollution.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 6d (Make a drawing showing the principles of complete waste treatment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2821,7 +3142,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Meant by Water Pollution)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -2844,7 +3165,13 @@
           "3. (6c) Primary Water Treatment Secondary Waste",
           "4. (6d) Drawing Showing The Principles"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Water that looks clear, odorless, and sparkling is completely free from toxic chemical contaminants.",
@@ -3007,7 +3334,7 @@
             {
               "sub_id": "7a(1)",
               "label": "(1)",
-              "text": "An agricultural experiment.",
+              "text": "An agricultural experiment (2) A managed forest or woodlot, range, or pasture.",
               "resources": [
                 {
                   "title": "Alabama's \"Old Rotation\" Experiment (website)",
@@ -3018,7 +3345,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(1) Structured Technical Study & Explanation Matrix (Agricultural Experiment)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3030,12 +3357,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. An agricultural experiment"
+                  "1. Req 7a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. An agricultural experiment"
+                  "1. Req 7a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3065,7 +3402,7 @@
               ],
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
-              "sub_req_text": "An agricultural experiment.",
+              "sub_req_text": "An agricultural experiment (2) A managed forest or woodlot, range, or pasture.",
               "topic_title": "Req 7a(1): Agricultural Research Experiment Station",
               "pamphlet_summary": "Agricultural Research Experiment Station: Scouts tour research plots where agricultural scientists test experimental crop rotations, cover crops, and tillage trials to measure soil erosion and nutrient runoff rates. The field visit focuses on comparing untreated control plots with conservation test plots to evaluate how modern soil preservation techniques perform in practice (p. 31).",
               "pamphlet_excerpts": [
@@ -3092,7 +3429,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(2) Structured Technical Study & Explanation Matrix (Managed Forest or Woodlot Range)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3104,12 +3441,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A managed forest or woodlot, range, or pasture"
+                  "1. Req 7a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A managed forest or woodlot, range, or pasture"
+                  "1. Req 7a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3155,7 +3502,7 @@
             {
               "sub_id": "7a(3)",
               "label": "(3)",
-              "text": "A wildlife refuge or a fish or game management area.",
+              "text": "A wildlife refuge or a fish or game management area (4) A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant.",
               "resources": [
                 {
                   "title": "Visit to Tennessee National Wildlfe Refuge (video)",
@@ -3166,7 +3513,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(3) Structured Technical Study & Explanation Matrix (Wildlife Refuge or A Fish)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3178,12 +3525,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A wildlife refuge or a fish or game management area"
+                  "1. Req 7a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A wildlife refuge or a fish or game management area"
+                  "1. Req 7a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3213,7 +3570,7 @@
               ],
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
-              "sub_req_text": "A wildlife refuge or a fish or game management area.",
+              "sub_req_text": "A wildlife refuge or a fish or game management area (4) A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant.",
               "topic_title": "Req 7a(3): Wildlife Refuge Habitat Management Area",
               "pamphlet_summary": "Wildlife Refuge Habitat Management Area: Scouts examine how wildlife managers construct water control structures, restore wetlands, and plant riparian buffer strips to provide animal habitat while controlling siltation. Preserving soil stability along stream banks and marshlands directly protects aquatic nesting beds and prevents sediment from degrading open water (p. 41).",
               "pamphlet_excerpts": [
@@ -3229,13 +3586,13 @@
             {
               "sub_id": "7a(4)",
               "label": "(4)",
-              "text": "A conservation-managed farm or ranch.",
+              "text": "A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(4) Structured Technical Study & Explanation Matrix (Conservation-managed Farm or Ranch)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3247,12 +3604,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A conservation-managed farm or ranch"
+                  "1. Req 7a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A conservation-managed farm or ranch"
+                  "1. Req 7a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3282,7 +3649,7 @@
               ],
               "id": "7a(4)",
               "sub_req_label": "7a(4)",
-              "sub_req_text": "A conservation-managed farm or ranch.",
+              "sub_req_text": "A conservation-managed farm or ranch (5) A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation.",
               "topic_title": "Req 7a(4): Conservation Managed Farm and Ranch",
               "pamphlet_summary": "Conservation Managed Farm And Ranch: Scouts observe applied soil and water preservation practices such as contour plowing, terrace construction, grassed waterways, and no-till seeding under a formal conservation plan. These integrated practices guide surface runoff safely off hillsides while maximizing moisture retention in the root zone (p. 28).",
               "pamphlet_excerpts": [
@@ -3298,7 +3665,7 @@
             {
               "sub_id": "7a(5)",
               "label": "(5)",
-              "text": "A managed watershed.",
+              "text": "A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "resources": [
                 {
                   "title": "Watershed Forestry (Massachusetts) (video)",
@@ -3309,7 +3676,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(5) Structured Technical Study & Explanation Matrix (Managed Watershed)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3321,12 +3688,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A managed watershed"
+                  "1. Req 7a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A managed watershed"
+                  "1. Req 7a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3356,7 +3733,7 @@
               ],
               "id": "7a(5)",
               "sub_req_label": "7a(5)",
-              "sub_req_text": "A managed watershed.",
+              "sub_req_text": "A managed watershed (6) A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "topic_title": "Req 7a(5): Managed Watershed Drainage Basin System",
               "pamphlet_summary": "Managed Watershed Drainage Basin System: Scouts investigate an entire drainage basin where interconnected forests, flood control reservoirs, headwater wetlands, and agricultural lands are managed jointly to preserve water quality. Coordinating land use across the watershed minimizes downstream flash flooding and reduces reservoir siltation (p. 43).",
               "pamphlet_excerpts": [
@@ -3372,7 +3749,7 @@
             {
               "sub_id": "7a(6)",
               "label": "(6)",
-              "text": "A waste-treatment plant.",
+              "text": "A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "resources": [
                 {
                   "title": "How Chicago Cleans 1.4 Billion Gallons of Wastewater Every Day (video)",
@@ -3383,7 +3760,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(6) Structured Technical Study & Explanation Matrix (Soil and Water Conservation Waste-treatment Principles)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3395,12 +3772,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A waste-treatment plant"
+                  "1. Req 7a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A waste-treatment plant"
+                  "1. Req 7a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3430,7 +3817,7 @@
               ],
               "id": "7a(6)",
               "sub_req_label": "7a(6)",
-              "sub_req_text": "A waste-treatment plant.",
+              "sub_req_text": "A waste-treatment plant (7) A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "topic_title": "Req 7a(6): Municipal Wastewater Treatment Facility",
               "pamphlet_summary": "Municipal Wastewater Treatment Facility: Scouts tour primary sedimentation basins, secondary aeration tanks, and tertiary disinfection stages to see how communities remove organic solids and pathogens from wastewater. The facility protects receiving streams and downstream water users by reducing biochemical oxygen demand and clarifying the discharge (p. 56).",
               "pamphlet_excerpts": [
@@ -3446,13 +3833,13 @@
             {
               "sub_id": "7a(7)",
               "label": "(7)",
-              "text": "A public drinking water treatment plant.",
+              "text": "A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(7) Structured Technical Study & Explanation Matrix (Public Drinking Water Treatment)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3464,12 +3851,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A public drinking water treatment plant"
+                  "1. Req 7a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A public drinking water treatment plant"
+                  "1. Req 7a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3499,7 +3896,7 @@
               ],
               "id": "7a(7)",
               "sub_req_label": "7a(7)",
-              "sub_req_text": "A public drinking water treatment plant.",
+              "sub_req_text": "A public drinking water treatment plant (8) An industry water use installation (9) A desalinization plant.",
               "topic_title": "Req 7a(7): Public Drinking Water Treatment Plant",
               "pamphlet_summary": "Public Drinking Water Treatment Plant: Scouts observe the multi-step purification process that raw reservoir or river water undergoes, including chemical coagulation, flocculation, sand filtration, and chlorine disinfection. These sequential treatments eliminate suspended clay particles, microbial pathogens, and organic discoloration to safeguard public health (p. 58).",
               "pamphlet_excerpts": [
@@ -3515,7 +3912,7 @@
             {
               "sub_id": "7a(8)",
               "label": "(8)",
-              "text": "An industry water use installation.",
+              "text": "An industry water use installation (9) A desalinization plant.",
               "resources": [
                 {
                   "title": "Water Use in the Paper Industry (video)",
@@ -3530,7 +3927,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(8) Structured Technical Study & Explanation Matrix (Industry Water Use Installation)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(8) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3542,12 +3939,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. An industry water use installation"
+                  "1. Req 7a(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(8) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. An industry water use installation"
+                  "1. Req 7a(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(8) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(8) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3577,7 +3984,7 @@
               ],
               "id": "7a(8)",
               "sub_req_label": "7a(8)",
-              "sub_req_text": "An industry water use installation.",
+              "sub_req_text": "An industry water use installation (9) A desalinization plant.",
               "topic_title": "Req 7a(8): Industrial Water Conservation Installation",
               "pamphlet_summary": "Industrial Water Conservation Installation: Scouts inspect factory recycling systems, closed-loop cooling towers, and on-site industrial wastewater treatment units designed to minimize freshwater withdrawals. The installation conserves regional water supplies and avoids thermal pollution by recirculating process cooling water rather than releasing hot effluent into nearby rivers (p. 62).",
               "pamphlet_excerpts": [
@@ -3604,7 +4011,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(9) Structured Technical Study & Explanation Matrix (Soil and Water Conservation Desalinization Principles)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(9) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3616,12 +4023,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A desalinization plant"
+                  "1. Req 7a(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(9) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A desalinization plant"
+                  "1. Req 7a(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(9) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(9) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
@@ -3668,7 +4085,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist (Trip Places More Than)",
+            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3699,7 +4116,13 @@
               "7. (7a(7)) Public Drinking Water Treatment",
               "8. (7a(8)) Industry Water Use Installation"
             ],
-            "min_rows": 8
+            "min_rows": 8,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -3738,7 +4161,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "title": "Req 7a: Conservation Site Visit Reports",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7a (Make a trip to TWO of the following places. Write a report of more than 500 words about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3749,7 +4175,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Trees Bushes and/or Vines)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3761,12 +4187,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Plant 100 trees, bushes, and/or vines for a good purpose"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Plant 100 trees, bushes, and/or vines for a good purpose"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -3804,7 +4240,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7b (Plant 100 trees, bushes, and/or vines for a good purpose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -3815,7 +4254,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Seed An Area)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3827,12 +4266,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using suitable grasses or legumes alone or in a mixture"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -3870,7 +4319,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7c (Seed an area of at least one-fifth acre for some worthwhile conservation purposes, using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -3886,7 +4338,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Soil Survey)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3909,7 +4361,13 @@
               "3. Using tracing paper and a pen, trace over any of the soil maps, and outline an area with three or more different kinds of soil.",
               "4. List each kind of soil by full name and map symbol."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -3947,7 +4405,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7d (Study a soil survey report. Describe the things in it. Using tracing paper and a pen, trace), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
@@ -3958,7 +4419,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7e Hands-On Skill Station & EDGE Verification Checklist (Places in Your Neighborhood Camps)",
+            "table_title": "Req 7e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3977,7 +4438,13 @@
               "1. Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems.",
               "2. Describe how these could be corrected through individual or group action."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
@@ -4015,7 +4482,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7e (Make a list of places in your neighborhood, camps, school ground, or park that have), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
@@ -4026,7 +4496,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7f Structured Technical Study & Explanation Matrix (Out Any Other Soil and)",
+            "table_title": "Req 7f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4038,24 +4508,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Carry out any other soil and water conservation project approved by your counselor"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Carry out any other soil and water conservation project approved by your counselor"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
           "common_misconception_pair": {
             "misconception": "Scouts believe picking up surface litter in a park constitutes a complete soil conservation project.",
             "fact": "An approved project must directly address physical soil stabilization, runoff reduction, or aquatic habitat restoration."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Soil and Water Conservation Req 7f preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Soil and Water Conservation Merit Badge Hub (Req 7f)",
@@ -4087,7 +4562,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
           "title": "Req 7f: Counselor-Approved Conservation Projects",
           "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+          "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+          "socratic_questions": [
+            "For soil and water conservation Requirement 7f (Carry out any other soil and water conservation project approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4146,7 +4624,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Trip Places More Than)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -4173,18 +4651,19 @@
           "5. (7e) Make a list of places in your neighborhood, camps, school ground, or park that have erosion, sedimentation, or pollution problems",
           "6. (7f) Carry out any other soil and water conservation project approved by your counselor"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Planting trees or sowing grass seeds guarantees immediate erosion stabilization without follow-up watering.",
         "fact": "Newly planted conservation vegetation requires active watering and mulch protection until extensive root systems establish."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Soil and Water Conservation Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Soil and Water Conservation Merit Badge Hub (Req 7)",

@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 1a Quantitative Field Observation & Activity Log (Communication Activities Time Spend)",
+            "table_title": "Req 1a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -62,7 +62,14 @@
               "3. Discuss with your counselor what your log reveals about the importance of communication in your life",
               "4. Think of ways to improve your communication skills"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
@@ -100,7 +107,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p003_img1.png",
           "workbook_diagram_caption": "Students communicate and share ideas while working together around a laptop.",
-          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop."
+          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop.",
+          "socratic_questions": [
+            "For communication Requirement 1a (For one day, keep a log in which you describe your communication activities. Keep track of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -132,7 +142,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 1b Quantitative Field Observation & Activity Log (Days Keep A Journal)",
+            "table_title": "Req 1b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -153,7 +163,14 @@
               "1. For three days, keep a journal of your listening experiences",
               "2. Identify one example of each of the following, and discuss with your counselor when you have listened to each: obtain information, be persuaded, appreciate or enjoy something, and understand someone's feelings"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
@@ -191,7 +208,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p018_img1.png",
           "workbook_diagram_caption": "Students communicate and share ideas while working together around a laptop.",
-          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop."
+          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop.",
+          "socratic_questions": [
+            "For communication Requirement 1b (For three days, keep a journal of your listening experiences. Identify one example of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -207,16 +227,16 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 1c Technical Comparison Matrix (Small-group Setting Meet)",
+            "table_title": "Req 1c Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Spoken Face-to-Face and Phone Conversations",
-              "Written Digital and Print Messages"
+              "Req 1c Comparison Criterion",
+              "Small-Group Characteristics & Standards",
+              "Communication Characteristics & Standards"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Spoken Face-to-Face and Phone Conversations",
-              "Written Digital and Print Messages"
+              "Req 1c Comparison Criterion",
+              "Small-Group Characteristics & Standards",
+              "Communication Characteristics & Standards"
             ],
             "row_labels": [
               "1. In a small-group setting, meet with other Scouts or with friends.",
@@ -230,7 +250,13 @@
               "3. Take note of how each Scout participates in the group discussion and how effectively each Scout communicates their story.",
               "4. Report what you have learned to your counselor about the differences you observed in effective communication."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Comparison Criterion",
+              "Small-Group Characteristics & Standards",
+              "Communication Characteristics & Standards"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
@@ -268,7 +294,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p018_img1.png",
           "workbook_diagram_caption": "Students communicate and share ideas while working together around a laptop.",
-          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop."
+          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop.",
+          "socratic_questions": [
+            "For communication Requirement 1c (In a small-group setting, meet with other Scouts or with friends. Have them share personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -292,7 +321,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Many Ways As You Can)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -311,7 +340,13 @@
               "1. List as many ways as you can think of to communicate with others",
               "2. For each type of communication, discuss with your counselor an instance when that method might not be appropriate or effective"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)",
           "common_misconception_pair": {
@@ -350,7 +385,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/communication_p018_img1.png",
           "title": "Req 1d: Inventory of Communication Methods",
           "workbook_diagram_caption": "Students communicate and share ideas while working together around a laptop.",
-          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop."
+          "workbook_visual_caption": "Students communicate and share ideas while working together around a laptop.",
+          "socratic_questions": [
+            "For communication Requirement 1d (List as many ways as you can think of to communicate with others (face-to-face, by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -417,7 +455,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Technical Comparison Matrix (Communication Activities Time Spend)",
+        "table_title": "Req 1 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Spoken Face-to-Face and Phone Conversations",
@@ -440,7 +478,12 @@
           "3. (1c) In a small-group setting, meet with other Scouts or with friends",
           "4. (1d) Inventory of Communication Methods"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Comparison Dimension",
+          "Spoken Face-to-Face and Phone Conversations",
+          "Written Digital and Print Messages"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that sending a message guarantees the receiver understood the meaning.",
@@ -611,7 +654,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Think of A Creative)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -630,7 +673,13 @@
               "1. Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit",
               "2. Using the aid you created, make a presentation to your counselor about yourself"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -668,12 +717,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p007_img1.png",
           "workbook_diagram_caption": "A handmade photo collage visually communicates a scout's hobbies and personality.",
-          "workbook_visual_caption": "A handmade photo collage visually communicates a scout's hobbies and personality."
+          "workbook_visual_caption": "A handmade photo collage visually communicates a scout's hobbies and personality.",
+          "socratic_questions": [
+            "For communication Requirement 2a (Think of a creative way to describe yourself using, for example, a collage, short story or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive.",
+          "text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive you were.",
           "resources": [
             {
               "title": "Making a Speech Powerful & Persuasive (video)",
@@ -684,7 +736,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Concept Product or Service)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -707,7 +759,13 @@
               "3. Try to persuade the counselor to agree with, use, or buy your concept, product, or service.",
               "4. After your sales talk, discuss with your counselor how persuasive."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -737,7 +795,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive.",
+          "sub_req_text": "Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive you were.",
           "topic_title": "Req 2b: Persuasive Sales Plan Demonstration",
           "pamphlet_summary": "Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively.",
           "pamphlet_excerpts": [
@@ -745,7 +803,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p024_img1.png",
           "workbook_diagram_caption": "A handmade photo collage visually communicates a scout's hobbies and personality.",
-          "workbook_visual_caption": "A handmade photo collage visually communicates a scout's hobbies and personality."
+          "workbook_visual_caption": "A handmade photo collage visually communicates a scout's hobbies and personality.",
+          "socratic_questions": [
+            "For communication Requirement 2b (Choose a concept, product, or service in which you have great confidence. Build a sales), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -784,7 +845,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Think of A Creative)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -803,7 +864,13 @@
           "1. (2a) Think of A Creative",
           "2. (2b) Concept Product or Service"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Persuasive presentations succeed purely through loud enthusiasm rather than logical structured points.",
@@ -984,7 +1051,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Five-minute Speech)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1003,7 +1070,13 @@
           "1. Write a five-minute speech.",
           "2. Give it at a meeting of a group."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Memorizing every word verbatim prevents nervous delivery mistakes during formal public speeches.",
@@ -1199,7 +1272,12 @@
           "3. Then prepare and deliver to your counselor an introduction of the person as though this person were to be a guest speaker",
           "4. Show how you would call to invite this person to speak"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "An interview simply consists of reading a rigid question list without follow up.",
@@ -1376,7 +1454,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Public Meeting City Council School)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1397,7 +1475,12 @@
           "2. Practice active listening skills and take careful notes of each point of view",
           "3. Prepare an objective report that includes all points of view that were expressed, and share this with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "An objective report should declare a winning side based on personal Scout opinions.",
@@ -1575,7 +1658,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Develop A Plan to Teach)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1598,18 +1681,19 @@
           "3. Carry out your plan.",
           "4. With your counselor, determine whether the person has learned what you intended."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Lecturing about a skill for thirty minutes ensures the student mastered execution.",
         "fact": "True learning verification requires students to perform the physical skill without adult coaching."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Communication Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Communication Merit Badge Hub (Req 6)",
@@ -1770,7 +1854,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Editor of A Magazine)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1789,7 +1873,13 @@
               "1. Write to the editor of a magazine or your local newspaper to express your opinion or share information on any subject you choose.",
               "2. Send your message by fax, email, or regular mail."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
@@ -1827,7 +1917,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p047_img1.png",
           "workbook_diagram_caption": "A student drafts an opinion article on a laptop computer for publication.",
-          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication."
+          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication.",
+          "socratic_questions": [
+            "For communication Requirement 7a (Write to the editor of a magazine or your local newspaper to express your opinion or share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -1855,7 +1948,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Webpage or Blog of Special)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1876,19 +1969,20 @@
               "2. Include at least three articles or entries and one photograph or illustration, and one link to some other webpage or blog",
               "3. Note: It is not necessary to post your webpage or blog to the internet, but if you decide to do so, you must first share it"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
             "misconception": "Webpages do not require proofreading because online text can be updated anytime later.",
             "fact": "Professional web publishing requires meticulous editorial review before making pages public online."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Communication Req 7b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Communication Merit Badge Hub (Req 7b)",
@@ -1919,7 +2013,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/communication_p047_img1.png",
           "workbook_diagram_caption": "A student drafts an opinion article on a laptop computer for publication.",
-          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication."
+          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication.",
+          "socratic_questions": [
+            "For communication Requirement 7b (Create a webpage or blog of special interest to you (for instance, your troop or crew, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -1943,7 +2040,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Desktop Publishing to Produce A)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1962,7 +2059,13 @@
               "1. Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material for your troop or crew, class at school, or other group",
               "2. Include at least one article and one photograph or illustration"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)",
           "common_misconception_pair": {
@@ -2001,7 +2104,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/communication_p047_img1.png",
           "title": "Req 7c: Desktop Publishing Troop Material",
           "workbook_diagram_caption": "A student drafts an opinion article on a laptop computer for publication.",
-          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication."
+          "workbook_visual_caption": "A student drafts an opinion article on a laptop computer for publication.",
+          "socratic_questions": [
+            "For communication Requirement 7c (Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2060,7 +2166,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Editor of A Magazine)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2081,7 +2187,12 @@
           "2. (7b) Create a webpage or blog of special interest to you (for instance, your troop or crew, a hobby, or a sport)",
           "3. (7c) Desktop Publishing Troop Material"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Publishing opinion pieces allows writers to state unverified rumors as established facts.",
@@ -2283,7 +2394,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Crew Court of Honor Campfire)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2304,7 +2415,13 @@
           "2. Have the patrol leaders' council approve it, then write the script and prepare the program.",
           "3. Serve as master of ceremonies."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A master of ceremonies should ad lib stage remarks without a script.",
@@ -2507,14 +2624,20 @@
         "row_labels": [
           "1. Find out about three career opportunities in communication.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about three career opportunities in communication.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern communication careers only involve on camera television news broadcasting personalities.",

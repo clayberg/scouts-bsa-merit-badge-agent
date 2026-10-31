@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Leatherwork Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p003_img1.png",
           "workbook_diagram_caption": "Proper leather footwear fitting highlights commercial applications of leather goods.",
-          "workbook_visual_caption": "Proper leather footwear fitting highlights commercial applications of leather goods."
+          "workbook_visual_caption": "Proper leather footwear fitting highlights commercial applications of leather goods.",
+          "socratic_questions": [
+            "For leatherwork Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,7 +125,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -124,12 +137,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)",
           "common_misconception_pair": {
@@ -167,7 +190,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p008_img1.png",
           "workbook_diagram_caption": "Proper leather footwear fitting highlights commercial applications of leather goods.",
-          "workbook_visual_caption": "Proper leather footwear fitting highlights commercial applications of leather goods."
+          "workbook_visual_caption": "Proper leather footwear fitting highlights commercial applications of leather goods.",
+          "socratic_questions": [
+            "For leatherwork Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -210,7 +236,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Leatherwork Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -229,7 +255,13 @@
           "1. (1a) Leather work Hazards and First Aid",
           "2. (1b) Emergency First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dull blades are safer for beginners because they resist deep tissue penetration.",
@@ -386,7 +418,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Where leather comes from.",
+          "text": "Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.",
           "resources": [
             {
               "title": "How is Leather Made? (video)",
@@ -397,7 +429,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Leather Comes)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -409,12 +441,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Where leather comes"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Where leather comes"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
@@ -444,7 +486,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Where leather comes from.",
+          "sub_req_text": "Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.",
           "topic_title": "Req 2a: Leather Sources and Origins",
           "pamphlet_summary": "Commercial leather derives almost exclusively as a co product of the livestock meat packing industry. Unprocessed skins quickly rot without rapid salting and controlled storage before tannery processing.",
           "pamphlet_excerpts": [
@@ -452,12 +494,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p007_img1.png",
           "workbook_diagram_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
-          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting."
+          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
+          "socratic_questions": [
+            "For leatherwork Requirement 2a (Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Kinds of hides that are used to make leather.",
+          "text": "Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.",
           "resources": [
             {
               "title": "Picking the Best Part of the Leather Hide (video)",
@@ -472,7 +517,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Hides Used Leather)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -484,12 +529,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Kinds of hides that are used to make leather"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Kinds of hides that are used to make leather"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
@@ -519,7 +574,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Kinds of hides that are used to make leather.",
+          "sub_req_text": "Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.",
           "topic_title": "Req 2b: Commercial Animal Hide Varieties",
           "pamphlet_summary": "Tanners select specific animal skins like cowhide, sheepskin, pigskin, and goat based on grain tightness. Steer hide yields thick tooling leather, while sheepskins offer soft pliable garment linings.",
           "pamphlet_excerpts": [
@@ -527,12 +582,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p014_img1.png",
           "workbook_diagram_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
-          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting."
+          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
+          "socratic_questions": [
+            "For leatherwork Requirement 2b (Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Five types of leather.",
+          "text": "Five types of leather (d) Best uses for each type of leather.",
           "resources": [
             {
               "title": "Leather Is Made from Which Animal (video)",
@@ -543,7 +601,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Leatherwork Leather Principles)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -555,12 +613,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Five types of leather"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Five types of leather"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
@@ -590,7 +658,7 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Five types of leather.",
+          "sub_req_text": "Five types of leather (d) Best uses for each type of leather.",
           "topic_title": "Req 2c: Primary Commercial Leather Classes",
           "pamphlet_summary": "Primary market categories include vegetable tanned leather, chrome tanned hides, oil tanned stock, suede, and rawhide. Each material undergoes distinctive chemical baths that dramatically shift working characteristics.",
           "pamphlet_excerpts": [
@@ -598,7 +666,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p014_img1.png",
           "workbook_diagram_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
-          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting."
+          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
+          "socratic_questions": [
+            "For leatherwork Requirement 2c (Five types of leather (d) Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -618,7 +689,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Leatherwork Leather Principles)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -630,12 +701,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Best uses for each type of leather"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Best uses for each type of leather"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)",
           "common_misconception_pair": {
@@ -673,7 +754,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p014_img1.png",
           "workbook_diagram_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
-          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting."
+          "workbook_visual_caption": "Wild game like moose provide specialty hides used in traditional leather crafting.",
+          "socratic_questions": [
+            "For leatherwork Requirement 2d (Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -720,7 +804,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Leather Comes)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -743,7 +827,13 @@
           "3. (2c) Leather work Leather Principles",
           "4. (2d) Leather work Leather Principles"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Genuine leather labels guarantee high durability and natural full grain fiber density.",
@@ -895,7 +985,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Pattern layout and transfer.",
+          "text": "Pattern layout and transfer (b) Cutting leather (c) Punching holes (d) Carving or stamping surface designs.",
           "resources": [
             {
               "title": "Transferring Patterns (video)",
@@ -910,7 +1000,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Pattern Layout and Transfer)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -922,12 +1012,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Pattern layout and transfer"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Pattern layout and transfer"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -957,7 +1057,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Pattern layout and transfer.",
+          "sub_req_text": "Pattern layout and transfer (b) Cutting leather (c) Punching holes (d) Carving or stamping surface designs.",
           "topic_title": "Req 3a: Pattern Transfer and Layout",
           "pamphlet_summary": "Patterns transfer onto cased leather by tracing lines through tracing film using smooth styluses. Proper alignment preserves hide grain direction and avoids irregular stretching during final assembly.",
           "pamphlet_excerpts": [
@@ -965,12 +1065,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p012_img1.png",
           "workbook_diagram_caption": "Traditional cutting and punching tools require proper safety handling techniques.",
-          "workbook_visual_caption": "Traditional cutting and punching tools require proper safety handling techniques."
+          "workbook_visual_caption": "Traditional cutting and punching tools require proper safety handling techniques.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3a (Pattern layout and transfer (b) Cutting leather (c) Punching holes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Cutting leather.",
+          "text": "Cutting leather (c) Punching holes (d) Carving or stamping surface designs.",
           "resources": [
             {
               "title": "Best Practices for Cutting Leather (video)",
@@ -981,7 +1084,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Cutting Leather)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -993,12 +1096,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cutting leather"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Cutting leather"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1028,7 +1141,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Cutting leather.",
+          "sub_req_text": "Cutting leather (c) Punching holes (d) Carving or stamping surface designs.",
           "topic_title": "Req 3b: Precision Leather Cutting Techniques",
           "pamphlet_summary": "Cutting leather requires sharp rotary blades or head knives guided along heavy metal rulers. Workpieces rest flat upon self healing cutting mats to protect blade apexes from chipping.",
           "pamphlet_excerpts": [
@@ -1036,12 +1149,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3b (Cutting leather (c) Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Punching holes.",
+          "text": "Punching holes (d) Carving or stamping surface designs.",
           "resources": [
             {
               "title": "How to Use a Rotary Hole Punch (video)",
@@ -1056,7 +1172,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Punching Holes)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1068,12 +1184,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Punching holes"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Punching holes"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1103,7 +1229,7 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Punching holes.",
+          "sub_req_text": "Punching holes (d) Carving or stamping surface designs.",
           "topic_title": "Req 3c: Hole Punching Methods",
           "pamphlet_summary": "Rotary and drive punches create circular openings for lace, hardware, and stitching channels. Punches must stand vertically to produce straight bores through thick multi layer laminated seams.",
           "pamphlet_excerpts": [
@@ -1111,7 +1237,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3c (Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1131,7 +1260,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Carving or Stamping Surface)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1143,12 +1272,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Carving or stamping surface designs"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Carving or stamping surface designs"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1186,12 +1325,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3d (Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
           "label": "(e)",
-          "text": "Applying dye or stain and finish to the project.",
+          "text": "Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.",
           "resources": [
             {
               "title": "Basics of Hand Dyeing Leather (video)",
@@ -1202,7 +1344,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Applying Dye or Stain)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1214,12 +1356,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Applying dye or stain and finish to the project"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Applying dye or stain and finish to the project"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1249,7 +1401,7 @@
           ],
           "id": "3e",
           "sub_req_label": "3e",
-          "sub_req_text": "Applying dye or stain and finish to the project.",
+          "sub_req_text": "Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.",
           "topic_title": "Req 3e: Dye and Finish Application",
           "pamphlet_summary": "Liquid dyes penetrate unsealed vegetable leather fibers using wool daubers or airbrush sprayers. Acrylic topcoats seal pigments and shield grain from environmental moisture and skin oils.",
           "pamphlet_excerpts": [
@@ -1257,12 +1409,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3e (Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
           "label": "(f)",
-          "text": "Assembly by lacing or stitching.",
+          "text": "Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.",
           "resources": [
             {
               "title": "How to Punch Holes (for Sewing) in Leather (video)",
@@ -1285,7 +1440,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Assembly by Lacing or Stitching)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1297,12 +1452,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Assembly by lacing or stitching"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Assembly by lacing or stitching"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1332,7 +1497,7 @@
           ],
           "id": "3f",
           "sub_req_label": "3f",
-          "sub_req_text": "Assembly by lacing or stitching.",
+          "sub_req_text": "Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.",
           "topic_title": "Req 3f: Assembly by Mechanical Stitching",
           "pamphlet_summary": "Scouts join assembled panels using waxed thread saddle stitching or decorative leather lacing. Consistent thread tension ensures seams remain water resistant and visually balanced across runs.",
           "pamphlet_excerpts": [
@@ -1340,12 +1505,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3f (Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
           "label": "(g)",
-          "text": "Setting snaps and rivets.",
+          "text": "Setting snaps and rivets (h) Dressing edges.",
           "resources": [
             {
               "title": "How to Set Snaps (video)",
@@ -1364,7 +1532,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Setting Snaps and Rivets)",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1376,12 +1544,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Setting snaps and rivets"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Setting snaps and rivets"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1411,7 +1589,7 @@
           ],
           "id": "3g",
           "sub_req_label": "3g",
-          "sub_req_text": "Setting snaps and rivets.",
+          "sub_req_text": "Setting snaps and rivets (h) Dressing edges.",
           "topic_title": "Req 3g: Hardware Fastener Setting Techniques",
           "pamphlet_summary": "Hardware installation utilizes dedicated setting anvils that cup curved rivet heads during swaging. Correct post length allows stems to flare securely without tearing surrounding hide fibers.",
           "pamphlet_excerpts": [
@@ -1419,7 +1597,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3g (Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3h",
@@ -1435,7 +1616,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3h Structured Technical Study & Explanation Matrix (Dressing Edges)",
+            "table_title": "Req 3h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1447,12 +1628,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Dressing edges"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Dressing edges"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)",
           "common_misconception_pair": {
@@ -1490,7 +1681,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p019_img3.png",
           "workbook_diagram_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
-          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly."
+          "workbook_visual_caption": "Protective gloves, adhesives, and dyes prepare leather pieces for final assembly.",
+          "socratic_questions": [
+            "For leatherwork Requirement 3h (Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1577,7 +1771,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (More Articles of Leather)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1608,7 +1802,13 @@
           "7. (3g) Setting Snaps and Rivets",
           "8. (3h) Dressing Edges"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Soaking leather submerged in warm water immediately before stamping produces crisp, permanent impressions.",
@@ -1785,7 +1985,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Braid or Plait An Article)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1797,12 +1997,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Braid or plait an article out of leather, vinyl lace, or paracord"
+          "1. Strand Preparation",
+          "2. Tension Uniformity",
+          "3. Core Alignment"
         ],
         "rows": [
-          "1. Braid or plait an article out of leather, vinyl lace, or paracord"
+          "1. Strand Preparation",
+          "2. Tension Uniformity",
+          "3. Core Alignment"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Loose plaiting creates stronger flexible cords than tightly dressed round braided leather.",
@@ -1965,7 +2175,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Learn About the Commercial Tanning)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1984,7 +2194,13 @@
               "1. Learn about the commercial tanning process.",
               "2. Report about it to your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
@@ -2022,7 +2238,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p080_img1.png",
           "workbook_diagram_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
-          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear."
+          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
+          "socratic_questions": [
+            "For leatherwork Requirement 5a (Learn about the commercial tanning process. Report about it to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2038,7 +2257,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Tan the Skin of A)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2057,7 +2276,13 @@
               "1. Tan the skin of a small animal.",
               "2. Describe the safety precautions you will take and the tanning method that you used."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
@@ -2096,7 +2321,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p080_img1.png",
           "title": "Req 5b: Home Small-Animal Skin Tanning",
           "workbook_diagram_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
-          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear."
+          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
+          "socratic_questions": [
+            "For leatherwork Requirement 5b (Tan the skin of a small animal. Describe the safety precautions you will take and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2124,7 +2352,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Recondition or Show That You)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2143,7 +2371,13 @@
               "1. Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather",
               "2. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
@@ -2181,7 +2415,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p080_img1.png",
           "workbook_diagram_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
-          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear."
+          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
+          "socratic_questions": [
+            "For leatherwork Requirement 5c (Recondition or show that you can take proper care of your shoes, a baseball glove, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2197,7 +2434,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Leather-related Business This)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2218,7 +2455,12 @@
               "2. This could be a leather craft supply company, a tannery, a leather goods or shoe factory, or a saddle shop.",
               "3. Report on your visit to your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)",
           "common_misconception_pair": {
@@ -2256,7 +2498,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/leatherwork_p080_img1.png",
           "workbook_diagram_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
-          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear."
+          "workbook_visual_caption": "A youth cleans and conditions a leather horse saddle to prevent cracking and wear.",
+          "socratic_questions": [
+            "For leatherwork Requirement 5d (Visit a leather-related business. This could be a leathercraft supply company, a tannery, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2307,7 +2552,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Learn About the Commercial Tanning)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2330,7 +2575,12 @@
           "3. (5c) Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather",
           "4. (5d) Visit a leather-related business"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Commercial mineral spirit solvents clean accumulated trail dirt from dry leather safely.",

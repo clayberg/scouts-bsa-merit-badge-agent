@@ -45,7 +45,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Canoeing Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -57,24 +57,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
             "misconception": "River strainers act like simple barriers that can be safely bumped by a canoe.",
             "fact": "Downed trees allow water to pass while pinning hulls and paddlers under massive hydrostatic pressure."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Canoeing Merit Badge Hub (Req 1a)",
@@ -105,7 +110,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p003_img1.png",
           "workbook_diagram_caption": "A hand holds a medical record form required before participating in aquatic events.",
-          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events."
+          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events.",
+          "socratic_questions": [
+            "For canoeing Requirement 1a (Review with your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -149,7 +157,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention Symptoms and First-aid Treatment)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -161,12 +169,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
@@ -204,7 +222,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p013_img1.png",
           "workbook_diagram_caption": "A hand holds a medical record form required before participating in aquatic events.",
-          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events."
+          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events.",
+          "socratic_questions": [
+            "For canoeing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -220,7 +241,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -239,7 +260,13 @@
               "1. Discuss the Scouting America Safety Afloat policy.",
               "2. Tell how it applies to canoeing activities."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)",
           "common_misconception_pair": {
@@ -277,7 +304,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p013_img1.png",
           "workbook_diagram_caption": "A hand holds a medical record form required before participating in aquatic events.",
-          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events."
+          "workbook_visual_caption": "A hand holds a medical record form required before participating in aquatic events.",
+          "socratic_questions": [
+            "For canoeing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -343,7 +373,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: Paddling Hazard Response Protocols",
-      "action_verb": "Demonstrate",
+      "action_verb": "Review",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never canoe on rivers where high flow rates or submerged trees create impassable strainers.",
@@ -352,7 +382,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Canoeing Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -373,18 +403,19 @@
           "2. (1b) Prevention Symptoms and First-aid Treatment",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers can rely on swimming ability instead of wearing personal flotation devices on calm flatwater.",
         "fact": "Safety Afloat mandates adult supervision, physical fitness, lifejacket wear, and skilled leadership on all trips."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Canoeing Merit Badge Hub (Req 1)",
@@ -551,7 +582,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -563,23 +594,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet"
+          "1. Jump Entry",
+          "2. Forward Stroke",
+          "3. Resting Stroke"
         ],
         "rows": [
-          "1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet"
+          "1. Jump Entry",
+          "2. Forward Stroke",
+          "3. Resting Stroke"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts who swim recreationally do not need a formal water skills evaluation before canoeing.",
         "fact": "The swimmer test requires a continuous one hundred yard swim including elementary backstroke and floating."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Canoeing Merit Badge Hub (Req 2)",
@@ -744,7 +780,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Out the Major)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -756,12 +792,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name and point out the major parts of a canoe"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name and point out the major parts of a canoe"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
@@ -799,7 +845,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p025_img1.png",
           "workbook_diagram_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers.",
-          "workbook_visual_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers."
+          "workbook_visual_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers.",
+          "socratic_questions": [
+            "For canoeing Requirement 3a (Name and point out the major parts of a canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -819,7 +868,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Length and Shape of A)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -831,12 +880,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how the length and shape of a canoe affect its performance"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how the length and shape of a canoe affect its performance"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)",
           "common_misconception_pair": {
@@ -875,7 +934,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p025_img1.png",
           "title": "Req 3b: Hull Length and Shape Performance",
           "workbook_diagram_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers.",
-          "workbook_visual_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers."
+          "workbook_visual_caption": "Dark thunderhead clouds rolling over the horizon signal incoming squalls for paddlers.",
+          "socratic_questions": [
+            "For canoeing Requirement 3b (Describe how the length and shape of a canoe affect its performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -909,7 +971,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Canoe Anatomy Performance Characteristics",
-      "action_verb": "Demonstrate",
+      "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Do not step directly on canoe thwarts or gunwales during loading or balance maneuvers.",
@@ -918,7 +980,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Out the Major)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -937,7 +999,13 @@
           "1. (3a) Name and point out the major parts of a canoe",
           "2. (3b) Describe how the length and shape of a canoe affect its performance"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A wider canoe always performs better than a narrow hull under windy paddling conditions.",
@@ -1105,7 +1173,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Canoeing Requirement 4a Techniques)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1117,12 +1185,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name and point out the parts of a paddle"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name and point out the parts of a paddle"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
@@ -1160,7 +1238,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p038_img1.png",
           "workbook_diagram_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely.",
-          "workbook_visual_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely."
+          "workbook_visual_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely.",
+          "socratic_questions": [
+            "For canoeing Requirement 4a (Name and point out the parts of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1171,7 +1252,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Size A Paddle for A)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1183,12 +1264,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)",
           "common_misconception_pair": {
@@ -1227,7 +1318,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p038_img1.png",
           "title": "Req 4b: Paddle Sizing for Paddling Positions",
           "workbook_diagram_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely.",
-          "workbook_visual_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely."
+          "workbook_visual_caption": "A paddler keeps his center of gravity low and grasps both gunwales while boarding safely.",
+          "socratic_questions": [
+            "For canoeing Requirement 4b (Demonstrate how to correctly size a paddle for a paddler in a sitting position and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1254,7 +1348,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Size Paddler Sitting Position)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1273,7 +1367,13 @@
           "1. (4a) Name and point out the parts of a paddle",
           "2. (4b) Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The correct paddle size is determined solely by matching total paddle height to eye level.",
@@ -1445,7 +1545,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Characteristics of Life Jackets)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1457,12 +1557,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
@@ -1500,7 +1610,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p080_img1.png",
           "workbook_diagram_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
-          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes."
+          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
+          "socratic_questions": [
+            "For canoeing Requirement 5a (Review with your counselor the characteristics of life jackets most appropriate for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1511,7 +1624,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist (Size Life Jacket)",
+            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1523,12 +1636,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to select and properly fit the correct size life jacket"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to select and properly fit the correct size life jacket"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
@@ -1566,7 +1689,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p080_img1.png",
           "workbook_diagram_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
-          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes."
+          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
+          "socratic_questions": [
+            "For canoeing Requirement 5b (Demonstrate how to select and properly fit the correct size life jacket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1586,7 +1712,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Safety and Rescue Equipment)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1598,12 +1724,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)",
           "common_misconception_pair": {
@@ -1641,7 +1777,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p080_img1.png",
           "workbook_diagram_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
-          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes."
+          "workbook_visual_caption": "A modified plastic jug tied with rope serves as a reliable bailing device for canoes.",
+          "socratic_questions": [
+            "For canoeing Requirement 5c (Review the importance of safety and rescue equipment such as a sound signal device, extra), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1680,7 +1819,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Characteristics of Life Jackets)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1701,7 +1840,13 @@
           "2. (5b) Size Life Jacket",
           "3. (5c) Safety and Rescue Equipment"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Lifejackets can be stored under canoe seats as long as every paddler swims well.",
@@ -1887,7 +2032,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (General Care and Maintenance of)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1899,12 +2044,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment"
+          "1. Hull Cleaning",
+          "2. Storage Position",
+          "3. Thwart Fasteners"
         ],
         "rows": [
-          "1. Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment"
+          "1. Hull Cleaning",
+          "2. Storage Position",
+          "3. Thwart Fasteners"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Composite and aluminum canoes require no periodic washing or inspection following flatwater lake use.",
@@ -2072,7 +2227,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Launch the Canoe from A)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2084,12 +2239,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Safely carry and launch the canoe from a dock or shore (both, if possible)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Safely carry and launch the canoe from a dock or shore (both, if possible)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
@@ -2128,7 +2293,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p037_img1.png",
           "title": "Req 7a: Carrying and Launching a Canoe",
           "workbook_diagram_caption": "Two paddlers in lifejackets lift and ease a canoe from a sandy beach into the water.",
-          "workbook_visual_caption": "Two paddlers in lifejackets lift and ease a canoe from a sandy beach into the water."
+          "workbook_visual_caption": "Two paddlers in lifejackets lift and ease a canoe from a sandy beach into the water.",
+          "socratic_questions": [
+            "For canoeing Requirement 7a (Safely carry and launch the canoe from a dock or shore (both, if possible)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2139,7 +2307,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Land the Canoe on A)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2151,12 +2319,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
@@ -2195,7 +2373,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p037_img1.png",
           "title": "Req 7b: Landing and Storing a Canoe",
           "workbook_diagram_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
-          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water."
+          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
+          "socratic_questions": [
+            "For canoeing Requirement 7b (Safely land the canoe on a dock or shore (both, if possible) and return it to its proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2211,7 +2392,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist (Kneeling and Sitting Positions)",
+            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2223,12 +2404,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
@@ -2266,7 +2457,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p037_img1.png",
           "workbook_diagram_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
-          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water."
+          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
+          "socratic_questions": [
+            "For canoeing Requirement 7c (Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -2282,7 +2476,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Change Places While Afloat)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2294,12 +2488,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Change places while afloat in the canoe"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Change places while afloat in the canoe"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)",
           "common_misconception_pair": {
@@ -2337,7 +2541,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p037_img1.png",
           "workbook_diagram_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
-          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water."
+          "workbook_visual_caption": "Two paddlers in life jackets lift and ease a canoe from a sandy beach into the water.",
+          "socratic_questions": [
+            "For canoeing Requirement 7d (Change places while afloat in the canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2372,7 +2579,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Companion Use A Properly Equipped)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2395,7 +2602,13 @@
           "3. (7c) Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position",
           "4. (7d) Change places while afloat in the canoe"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers should jump into the canoe together while pushing off from the shoreline.",
@@ -2563,7 +2776,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Exit the Canoe in Deep)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2582,7 +2795,13 @@
               "1. Safely exit the canoe in deep water without losing contact with the canoe.",
               "2. Reenter the canoe with the assistance of the other paddler without capsizing the boat."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2620,7 +2839,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8a (Safely exit the canoe in deep water without losing contact with the canoe. Reenter the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2644,7 +2866,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist (Controlled Capsize of the Canoe)",
+            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2656,12 +2878,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2699,12 +2931,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8b (Safely perform a controlled capsize of the canoe and demonstrate how staying with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
           "label": "(c)",
-          "text": "Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter.",
+          "text": "Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter it.",
           "resources": [
             {
               "title": "Rescue a Swamped Canoe with the Capistrano Flip (website)",
@@ -2719,7 +2954,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Tow or Push A Swamped)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2738,7 +2973,13 @@
               "1. Swim, tow, or push a swamped canoe 50 feet to shallow water.",
               "2. In the shallow water, empty the swamped canoe and reenter."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2768,7 +3009,7 @@
           ],
           "id": "8c",
           "sub_req_label": "8c",
-          "sub_req_text": "Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter.",
+          "sub_req_text": "Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter it.",
           "topic_title": "Req 8c: Swamped Canoe Shore Transport",
           "pamphlet_summary": "Towing or pushing a waterlogged canoe fifty feet requires steady kicking while holding the craft stem. Once in shallow water, paddlers invert and lift the hull to drain contents.",
           "pamphlet_excerpts": [
@@ -2776,7 +3017,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8c (Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -2796,7 +3040,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Deep Water Rescue A Swamped)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2815,7 +3059,13 @@
               "1. In deep water, rescue a swamped canoe and its paddlers",
               "2. After checking that those in the water do not need immediate assistance, empty the swamped canoe and help the paddlers safely reenter their boat without capsizing"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2853,7 +3103,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8d (In deep water, rescue a swamped canoe and its paddlers. After checking that those in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -2864,7 +3117,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Canoe Rescue of A Conscious)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2876,12 +3129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform a canoe rescue of a conscious swimmer"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform a canoe rescue of a conscious swimmer"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2919,7 +3182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8e (Perform a canoe rescue of a conscious swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8f",
@@ -2939,7 +3205,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8f Hands-On Skill Station & EDGE Verification Checklist (Rescue Throw Bag from Shore)",
+            "table_title": "Req 8f Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2958,7 +3224,13 @@
               "1. Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30 feet away.",
               "2. Show how to repack the bag when done."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)",
           "common_misconception_pair": {
@@ -2996,7 +3268,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p086_img1.png",
           "workbook_diagram_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
-          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety."
+          "workbook_visual_caption": "Paddlers extend a paddle blade over the gunwale to pull a conscious swimmer to safety.",
+          "socratic_questions": [
+            "For canoeing Requirement 8f (Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3059,7 +3334,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Companion Use A Properly Equipped)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3086,7 +3361,13 @@
           "5. (8e) Canoe Rescue of A Conscious",
           "6. (8f) Rescue Throw Bag From Shore"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paddlers must immediately climb onto top of an overturned swamped canoe hull for safety.",
@@ -3254,7 +3535,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Pivot Spin the Canoe Half)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -3266,12 +3547,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3309,7 +3600,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9a (Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -3320,7 +3614,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Move A Canoe Sideways Abeam)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -3332,12 +3626,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3375,7 +3679,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9b (Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -3386,7 +3693,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Forward Motion Stop the Canoe)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3398,12 +3705,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. While in forward motion, stop the canoe within two boat lengths using the backstroke"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. While in forward motion, stop the canoe within two boat lengths using the backstroke"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3441,7 +3758,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9c (While in forward motion, stop the canoe within two boat lengths using the backstroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9d",
@@ -3461,7 +3781,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9d Structured Technical Study & Explanation Matrix (Stern Position and Without Assistance)",
+            "table_title": "Req 9d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3473,12 +3793,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering stroke"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering stroke"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3516,7 +3846,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9d (While in the stern position and without assistance from the bow paddler, paddle in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9e",
@@ -3535,25 +3868,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9e Structured Technical Study & Explanation Matrix (Move the Canoe in A)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9e Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3592,7 +3935,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "title": "Req 9e: Tandem Straight-Line Course Control",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9e (Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9f",
@@ -3602,17 +3948,17 @@
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9f Structured Technical Study & Explanation Matrix (Maintaining Forward Motion Turn the)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9f Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke",
@@ -3622,7 +3968,13 @@
               "1. While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke",
               "2. Repeat the maneuver turning the canoe 90° to the left"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3661,7 +4013,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "title": "Req 9f: Forward 90-Degree Arc Turn",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9f (While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9g",
@@ -3676,25 +4031,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9g Structured Technical Study & Explanation Matrix (Move the Canoe Backwards)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9g Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern"
+              "1. Req 9g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern"
+              "1. Req 9g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3732,7 +4097,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9g (Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9h",
@@ -3742,25 +4110,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9h Structured Technical Study & Explanation Matrix (Figure of Course Around Markers)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9h Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate strokes including the draw stroke, and the forward and reverse sweeps"
+              "1. Req 9h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate strokes including the draw stroke, and the forward and reverse sweeps"
+              "1. Req 9h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
           "common_misconception_pair": {
@@ -3798,7 +4176,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/canoeing_p049_img1.png",
           "workbook_diagram_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
-          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward."
+          "workbook_visual_caption": "Tandem partners paddle in sync on opposite sides of a canoe to propel it smoothly forward.",
+          "socratic_questions": [
+            "For canoeing Requirement 9h (Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3848,17 +4229,17 @@
       "pamphlet_page_citation": "Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (Companion Using A Properly Equipped)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (9a) Stationary 180-Degree Canoe Pivot",
@@ -3880,7 +4261,13 @@
           "7. (9g) Straight-Line Backward Canoe Paddling",
           "8. (9h) Figure-of-Eight Course Maneuvering"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Tandem paddlers should switch sides frequently whenever the canoe begins to turn off course.",

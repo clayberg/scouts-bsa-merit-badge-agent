@@ -38,7 +38,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -57,7 +57,13 @@
           "1. Discuss with your counselor the history of auctions worldwide.",
           "2. Cite where these auctions were held and the types of items sold."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Auctions originated as a modern American invention for selling salvaged agricultural equipment and surplus household goods.",
@@ -227,7 +233,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Roles in An Auction)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -239,12 +245,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe to your counselor the different roles in an auction"
+          "1. Lead Auctioneer Duties",
+          "2. Ringman Field Spotting",
+          "3. Clerk Record Keeping"
         ],
         "rows": [
-          "1. Describe to your counselor the different roles in an auction"
+          "1. Lead Auctioneer Duties",
+          "2. Ringman Field Spotting",
+          "3. Clerk Record Keeping"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The auctioneer manages the entire auction alone from the podium without needing clerical or spotting support.",
@@ -414,7 +430,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Similarities Between the Auction)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Competitive Auction Price Discovery",
@@ -426,12 +442,22 @@
           "Traditional Negotiated Fixed Pricing"
         ],
         "row_labels": [
-          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales"
+          "1. True Price Discovery",
+          "2. Fixed Date Liquidation",
+          "3. As Is Transactions"
         ],
         "rows": [
-          "1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales"
+          "1. True Price Discovery",
+          "2. Fixed Date Liquidation",
+          "3. As Is Transactions"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Competitive Auction Price Discovery",
+          "Traditional Negotiated Fixed Pricing"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Auctions are only suitable as a desperate last resort for distressed goods sold below wholesale value.",
@@ -600,7 +626,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4A Structured Technical Study & Explanation Matrix (Shadow That Auctioneer for A)",
+            "table_title": "Req 4A Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4A Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -612,12 +638,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer"
+              "1. Req 4A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4A Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer"
+              "1. Req 4A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4A Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Req 4A Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -656,7 +691,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png",
           "title": "Req 4A: Shadowing a Working Auctioneer",
           "workbook_diagram_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For auctioneering Requirement 4A (Shadow that auctioneer for a day and discuss with your counselor what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4B",
@@ -667,7 +705,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4B Structured Technical Study & Explanation Matrix (Live Auction)",
+            "table_title": "Req 4B Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4B Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -686,7 +724,12 @@
               "1. Attend a live auction of any type",
               "2. Take notes on what is occurring during the auction and how the auctioneer interacts with the bidders, and discuss them with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 4B Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -724,7 +767,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For auctioneering Requirement 4B (Attend a live auction of any type. Take notes on what is occurring during the auction and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4C",
@@ -735,7 +781,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4C Structured Technical Study & Explanation Matrix (View An Online Auction Until)",
+            "table_title": "Req 4C Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4C Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -747,12 +793,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. View an online auction until the sale is concluded and discuss it with your counselor"
+              "1. Req 4C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4C Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. View an online auction until the sale is concluded and discuss it with your counselor"
+              "1. Req 4C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4C Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4C Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 22-27",
           "common_misconception_pair": {
@@ -791,7 +847,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p004_img1.png",
           "title": "Req 4C: Tracking an Online Auction",
           "workbook_diagram_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For auctioneering Requirement 4C (View an online auction until the sale is concluded and discuss it with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 4: Professional Auctioneer Field Engagement",
@@ -804,7 +863,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Auctioneering Careers and Pathways)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -827,7 +886,13 @@
           "2. (4B) Attend a live auction of any type",
           "3. (4C) View an online auction until the sale is concluded and discuss it with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Auctioneers only work during the few hours when they stand at the podium calling bids.",
@@ -1001,7 +1066,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5A Structured Technical Study & Explanation Matrix (Assets Sold at Auction)",
+            "table_title": "Req 5A Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5A Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1013,12 +1078,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Types of assets sold at auction"
+              "1. Req 5A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5A Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Types of assets sold at auction"
+              "1. Req 5A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5A Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5A Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -1056,18 +1131,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For auctioneering Requirement 5A (Types of assets sold at auction), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5B",
           "label": "(B)",
-          "text": "Types of customers you would be selling these assets.",
+          "text": "Types of customers you would be selling these assets for.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5B Structured Technical Study & Explanation Matrix (Customers You Would Be Selling)",
+            "table_title": "Req 5B Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5B Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1079,12 +1157,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Types of customers you would be selling these assets"
+              "1. Req 5B Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5B Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5B Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Types of customers you would be selling these assets"
+              "1. Req 5B Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5B Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5B Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5B Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -1114,7 +1202,7 @@
           ],
           "id": "5B",
           "sub_req_label": "5B",
-          "sub_req_text": "Types of customers you would be selling these assets.",
+          "sub_req_text": "Types of customers you would be selling these assets for.",
           "topic_title": "Req 5B: Auction Consignor Client Types",
           "pamphlet_summary": "Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication.",
           "pamphlet_excerpts": [
@@ -1122,7 +1210,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For auctioneering Requirement 5B (Types of customers you would be selling these assets for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5C",
@@ -1133,7 +1224,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 5C Technical Comparison Matrix (Auction Formats and the Benefits)",
+            "table_title": "Req 5C Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Absolute No-Reserve Auction Format",
@@ -1145,12 +1236,22 @@
               "Reserve Minimum-Price Auction Format"
             ],
             "row_labels": [
-              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction"
+              "1. Req 5C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5C Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction"
+              "1. Req 5C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5C Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Absolute No-Reserve Auction Format",
+              "Reserve Minimum-Price Auction Format"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 28-33",
           "common_misconception_pair": {
@@ -1188,7 +1289,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/auctioneering_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For auctioneering Requirement 5C (List the types of auction formats and the benefits of each and why an auctioneer might sell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 5: Asset Categories and Formats",
@@ -1201,7 +1305,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Discuss Assets Sold Auction)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Absolute No-Reserve Auction Format",
@@ -1222,7 +1326,13 @@
           "2. (5B) Customers You Would Be Selling",
           "3. (5C) Auction Formats and The Benefits"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Absolute No-Reserve Auction Format",
+          "Reserve Minimum-Price Auction Format"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Online auctions have made live in person outcry auctions obsolete across every commercial asset category.",
@@ -1392,7 +1502,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Develop and Practice Your Auction)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1411,7 +1521,13 @@
           "1. Develop and practice your auction chant.",
           "2. Perform the auction chant for your counselor and at a unit meeting."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "An auctioneer chants rapidly solely to confuse bidders into bidding higher than they intended.",
@@ -1581,7 +1697,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Simple Live or Online Auction)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1593,12 +1709,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish"
+          "1. Item Catalog Intake",
+          "2. Bidder Paddle Issuance",
+          "3. Clerk Ledger Maintenance"
         ],
         "rows": [
-          "1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish"
+          "1. Item Catalog Intake",
+          "2. Bidder Paddle Issuance",
+          "3. Clerk Ledger Maintenance"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A unit auction can be run spontaneously without preparing catalog sheets or registering numbered bidder paddles.",
@@ -1761,13 +1887,13 @@
         {
           "sub_id": "8A",
           "label": "(A)",
-          "text": "Auction Schools.",
+          "text": "Auction Schools (B) Licensing (C) Future Career Paths.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8A Structured Technical Study & Explanation Matrix (Auction Schools)",
+            "table_title": "Req 8A Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8A Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1779,12 +1905,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Auction Schools"
+              "1. Req 8A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8A Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Auction Schools"
+              "1. Req 8A Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8A Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8A Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8A Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
@@ -1814,7 +1950,7 @@
           ],
           "id": "8A",
           "sub_req_label": "8A",
-          "sub_req_text": "Auction Schools.",
+          "sub_req_text": "Auction Schools (B) Licensing (C) Future Career Paths.",
           "topic_title": "Req 8A: Auction School Curriculum Standards",
           "pamphlet_summary": "Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.",
           "pamphlet_excerpts": [
@@ -1822,18 +1958,21 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/auctioneering_req_8_topic_visual.png",
           "workbook_diagram_caption": "Four-panel auction career pathway showing ringman work, vocal drills, academy training, and charity auctions.",
-          "workbook_visual_caption": "Four-panel auction career pathway showing ringman work, vocal drills, academy training, and charity auctions."
+          "workbook_visual_caption": "Four-panel auction career pathway showing ringman work, vocal drills, academy training, and charity auctions.",
+          "socratic_questions": [
+            "For auctioneering Requirement 8A (Auction Schools (B) Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8B",
           "label": "(B)",
-          "text": "Licensing.",
+          "text": "Licensing (C) Future Career Paths.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8B Structured Technical Study & Explanation Matrix (Auctioneering Licensing Principles)",
+            "table_title": "Req 8B Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8B Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1845,12 +1984,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for State Licensing Requirements"
+              "1. Req 8B Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8B Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8B Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for State Licensing Requirements"
+              "1. Req 8B Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8B Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8B Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8B Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
@@ -1880,7 +2029,7 @@
           ],
           "id": "8B",
           "sub_req_label": "8B",
-          "sub_req_text": "Licensing.",
+          "sub_req_text": "Licensing (C) Future Career Paths.",
           "topic_title": "Req 8B: State Auctioneer Licensing Requirements",
           "pamphlet_summary": "State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices.",
           "pamphlet_excerpts": [
@@ -1888,7 +2037,10 @@
           ],
           "workbook_diagram_url": "assets/images/auctioneering_req_8_nano_hero.png",
           "workbook_diagram_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards.",
-          "workbook_visual_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards."
+          "workbook_visual_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards.",
+          "socratic_questions": [
+            "For auctioneering Requirement 8B (Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8C",
@@ -1911,12 +2063,22 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Future Career Paths"
+              "1. Req 8C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8C Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Future Career Paths"
+              "1. Req 8C Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8C Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8C Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Auctioneering Test Lab Resource Guide, pp. 46-51",
           "common_misconception_pair": {
@@ -1954,7 +2116,10 @@
           ],
           "workbook_diagram_url": "assets/images/auctioneering_req_8_nano_hero.png",
           "workbook_diagram_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards.",
-          "workbook_visual_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards."
+          "workbook_visual_caption": "Professional auctioneer mentoring a Scout on auction training, state licensing, and industry standards.",
+          "socratic_questions": [
+            "For auctioneering Requirement 8C (Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "topic_title": "Req 8: Auction Industry Career Pathway",
@@ -1988,7 +2153,13 @@
           "2. (8B) Auctioneering Licensing Principles",
           "3. (8C) Auctioneering Careers and Pathways"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Anyone who can speak quickly can legally set up an auction business without schooling or licensing.",
@@ -2153,7 +2324,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Survey Below)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2165,12 +2336,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete the survey below to complete the test lab requirements"
+          "1. Program Evaluation Purpose",
+          "2. Skill Mastery Reflection",
+          "3. Counselor Interaction Assessment"
         ],
         "rows": [
-          "1. Complete the survey below to complete the test lab requirements"
+          "1. Program Evaluation Purpose",
+          "2. Skill Mastery Reflection",
+          "3. Counselor Interaction Assessment"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The merit badge survey is an optional test where answers are graded as right or wrong.",

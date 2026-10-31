@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Signs, Signals, and Codes Origins and Evolution)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -62,7 +62,13 @@
           "1. Discuss with your counselor the importance of signs, signals, and codes, and why people need these different methods of communication.",
           "2. Briefly discuss the history and development of signs, signals, and codes."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think primitive signaling methods could only send simple binary alarms rather than full sentences.",
@@ -239,7 +245,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Signaling in Emergency Communications Discuss)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -260,7 +266,13 @@
           "2. Discuss with your counselor the types of emergency or distress signals one might use to attract airborne search-and-rescue",
           "3. Illustrate these signaling examples by the use of photos or drawings"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A single large smoky campfire is sufficient to attract high altitude aerial search crews.",
@@ -427,7 +439,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Morse Code Is and the)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -448,7 +460,13 @@
               "2. Spell your first name using Morse code.",
               "3. Send or receive a message of six to 10 words using Morse code."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -487,7 +505,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p012_img1.png",
           "title": "Req 3a: Morse Code Transmission and Spelling",
           "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 3a (Describe what Morse code is and the various means by which it can be sent. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -507,7 +528,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (American Sign Language ASL)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -528,7 +549,13 @@
               "2. Spell your first name using American Sign Language.",
               "3. Send or receive a message of six to 10 words using ASL."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -566,7 +593,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 3b (Describe what American Sign Language (ASL) is and how it is used today. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -596,7 +626,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Morse Code and Sign Language",
-      "action_verb": "Demonstrate",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -605,7 +635,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Morse Code Is and the)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -624,7 +654,13 @@
           "1. (3a) Describe what Morse code is and the various means by which it can be sent",
           "2. (3b) Describe what American Sign Language (ASL) is and how it is used today"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Morse code speed depends on rushing dit sounds rather than maintaining consistent silence spacing between characters.",
@@ -795,7 +831,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Brief Explanation About Semaphore)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -807,12 +843,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -850,7 +896,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 4a (Give your counselor a brief explanation about semaphore, why it is used, how it is used,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -874,7 +923,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4b Technical Comparison Matrix (Semaphore Flags and Nautical Flags)",
+            "table_title": "Req 4b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Two-Flag Angular Semaphore Positions",
@@ -886,12 +935,22 @@
               "International Maritime Signal Flag Hoists"
             ],
             "row_labels": [
-              "1. Explain to your counselor the difference between semaphore flags and nautical flags"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the difference between semaphore flags and nautical flags"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Two-Flag Angular Semaphore Positions",
+              "International Maritime Signal Flag Hoists"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -929,7 +988,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 4b (Explain to your counselor the difference between semaphore flags and nautical flags), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -946,7 +1008,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(1) Structured Technical Study & Explanation Matrix (Spell Your First Name Using)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -965,7 +1027,13 @@
                   "1. Spell your first name using semaphore.",
                   "2. Send or receive a message of six to 10 words using semaphore."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1017,7 +1085,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(2) Structured Technical Study & Explanation Matrix (Illustrations Nautical Flags Discuss)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1029,12 +1097,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1081,7 +1159,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (4(a and 4(b Have Been)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1100,7 +1178,13 @@
               "1. (4c(1)) Spell your first name using semaphore",
               "2. (4c(2)) Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -1139,7 +1223,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
           "title": "Req 4c: Sending and Receiving Semaphore Messages",
           "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 4c (After 4(a) and 4(b) have been completed, do the following: (1) Spell your first name using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1177,7 +1264,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Semaphore and Nautical Flag Systems",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1186,7 +1273,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Brief Explanation About Semaphore)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Two-Flag Angular Semaphore Positions",
@@ -1207,7 +1294,13 @@
           "2. (4b) Explain to your counselor the difference between semaphore flags and nautical flags",
           "3. (4c) After 4(a) and 4(b) have been completed, do the following: (1) Spell your first name using semaphore"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Two-Flag Angular Semaphore Positions",
+          "International Maritime Signal Flag Hoists"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Semaphore flags and maritime international hoist flags function identically and share the same visual designs.",
@@ -1370,7 +1463,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Sight or by Touch)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1389,7 +1482,13 @@
               "1. Either by sight or by touch, identify the letters of the braille alphabet that spell your name.",
               "2. By sight or touch, decode a braille message at least six words long."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1427,7 +1526,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p005_img1.png",
           "workbook_diagram_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5.",
-          "workbook_visual_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5."
+          "workbook_visual_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 5a (Either by sight or by touch, identify the letters of the braille alphabet that spell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1438,7 +1540,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Message in Braille)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1450,12 +1552,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a message in braille at least six words long, and share this with your counselor"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a message in braille at least six words long, and share this with your counselor"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1493,7 +1605,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p005_img1.png",
           "workbook_diagram_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5.",
-          "workbook_visual_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5."
+          "workbook_visual_caption": "Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals, and codes braille reading technique and how reference figure for Requirement 5.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 5b (Create a message in braille at least six words long, and share this with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1524,7 +1639,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Braille Reading Technique)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1543,7 +1658,13 @@
           "1. (5a) Sight or By Touch",
           "2. (5b) Message in Braille"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Braille is a foreign spoken language with entirely different vocabulary rather than an alphabet tactile code.",
@@ -1714,7 +1835,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6a Technical Comparison Matrix (Sound-only Signals)",
+            "table_title": "Req 6a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Omnidirectional Acoustic Warning Signals",
@@ -1733,7 +1854,13 @@
               "1. Describe to your counselor six sound-only signals that are in use today.",
               "2. Discuss the pros and cons of using sound signals versus other types of signals."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Omnidirectional Acoustic Warning Signals",
+              "Line-of-Sight Silent Patrol Signals"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1771,7 +1898,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p006_img1.png",
           "workbook_diagram_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 6a (Describe to your counselor six sound-only signals that are in use today. Discuss the pros), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1791,7 +1921,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Silent Scout Signals)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1810,7 +1940,13 @@
               "1. Demonstrate to your counselor six different silent Scout signals.",
               "2. Use these Scout signals to direct the movements and actions of your patrol or troop."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1848,7 +1984,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p006_img1.png",
           "workbook_diagram_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals, and codes describe to your counselor six reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 6b (Demonstrate to your counselor six different silent Scout signals. Use these Scout signals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1891,7 +2030,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (Sound-only Signals)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Omnidirectional Acoustic Warning Signals",
@@ -1910,7 +2049,13 @@
           "1. (6a) Sound-only Signals",
           "2. (6b) Silent Scout Signals"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Omnidirectional Acoustic Warning Signals",
+          "Line-of-Sight Silent Patrol Signals"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sound signals are always more dependable than visual signals in dense forested outdoor environments.",
@@ -2087,7 +2232,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2108,7 +2253,13 @@
           "2. Cover at least one mile in distance and use at least six different trail signs and markers",
           "3. After the Scouts have completed the trail, follow the Leave No Trace Seven Principles and the Outdoor Code by replacing"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Blazing wilderness trails by carving tree trunks or spray painting rocks is acceptable for temporary courses.",
@@ -2260,7 +2411,7 @@
         {
           "sub_id": "8a",
           "label": "(a)",
-          "text": "Sports official's hand signs/signals.",
+          "text": "Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "resources": [
             {
               "title": "Soccer Referee Hand Signals (video)",
@@ -2279,7 +2430,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Sports Official's Hand Signs/signals)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2291,12 +2442,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Sports official's hand signs/signals"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sports official's hand signs/signals"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2326,7 +2487,7 @@
           ],
           "id": "8a",
           "sub_req_label": "8a",
-          "sub_req_text": "Sports official's hand signs/signals.",
+          "sub_req_text": "Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "topic_title": "Req 8a: Sports Official Penalty Signals",
           "pamphlet_summary": "Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.",
           "pamphlet_excerpts": [
@@ -2334,12 +2495,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png",
           "workbook_diagram_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
-          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution."
+          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 8a (Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
           "label": "(b)",
-          "text": "Heavy-equipment operator's hand signals.",
+          "text": "Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "resources": [
             {
               "title": "Basic Hand Signals for Heavy Equipment Operators (video)",
@@ -2354,7 +2518,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Heavy-equipment Operator's Hand Signals)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2366,12 +2530,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Heavy-equipment operator's hand signals"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Heavy-equipment operator's hand signals"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2401,7 +2575,7 @@
           ],
           "id": "8b",
           "sub_req_label": "8b",
-          "sub_req_text": "Heavy-equipment operator's hand signals.",
+          "sub_req_text": "Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "topic_title": "Req 8b: Heavy Equipment Spotter Gestures",
           "pamphlet_summary": "Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter.",
           "pamphlet_excerpts": [
@@ -2409,12 +2583,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png",
           "workbook_diagram_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
-          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution."
+          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 8b (Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
           "label": "(c)",
-          "text": "Aircraft carrier catapult crew signals.",
+          "text": "Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "resources": [
             {
               "title": "Aircraft Carrier's Crew Hand Signals Explained, Preflight and Launch (video)",
@@ -2425,7 +2602,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Aircraft Carrier Catapult Crew Signals)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2437,12 +2614,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Aircraft carrier catapult crew signals"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Aircraft carrier catapult crew signals"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2472,7 +2659,7 @@
           ],
           "id": "8c",
           "sub_req_label": "8c",
-          "sub_req_text": "Aircraft carrier catapult crew signals.",
+          "sub_req_text": "Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "topic_title": "Req 8c: Naval Flight Deck Catapult Signals",
           "pamphlet_summary": "Flight deck directors and catapult officers orchestrate jet launches in extreme noise using exaggerated full body signals. Day and night hand movements confirm aircraft hookup, tensioning, engine run up, and final launch clearance.",
           "pamphlet_excerpts": [
@@ -2480,12 +2667,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png",
           "workbook_diagram_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
-          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution."
+          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 8c (Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
           "label": "(d)",
-          "text": "Cyclist's hand signals.",
+          "text": "Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "resources": [
             {
               "title": "How to Use Hand Signals While Cycling | Essential Group Ride Communication for Bike Riders (video)",
@@ -2496,7 +2686,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Cyclist's Hand Signals)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2508,12 +2698,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cyclist's hand signals"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Cyclist's hand signals"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2543,7 +2743,7 @@
           ],
           "id": "8d",
           "sub_req_label": "8d",
-          "sub_req_text": "Cyclist's hand signals.",
+          "sub_req_text": "Cyclist's hand signals (e) An activity selected by you and your counselor.",
           "topic_title": "Req 8d: Cyclist Road Navigation Signals",
           "pamphlet_summary": "Cyclists signal turns, lane changes, slowing, and roadway roadkill or pothole hazards to motorists and group riders. Standard arm extensions communicate intentions well before reaching intersections to maintain defensive road safety.",
           "pamphlet_excerpts": [
@@ -2551,7 +2751,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png",
           "workbook_diagram_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
-          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution."
+          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 8d (Cyclist's hand signals (e) An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -2562,7 +2765,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Activity Selected by You)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2574,12 +2777,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. An activity selected by you and your counselor"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. An activity selected by you and your counselor"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2617,7 +2830,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p008_img1.png",
           "workbook_diagram_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
-          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution."
+          "workbook_visual_caption": "Illustrated Signs, Signals, and Codes technical diagram of signs, signals, and codes three of the following activities reference figure for Requirement 8 field execution.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 8e (An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2668,7 +2884,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Activities Demonstrate Five Signals)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2684,16 +2900,22 @@
           "2. (8b) Heavy-equipment Operator's Hand Signals",
           "3. (8c) Aircraft Carrier Catapult Crew Signals",
           "4. (8d) Cyclist's Hand Signals",
-          "5. (8e) Activity Selected By You"
+          "5. (8e) Activity"
         ],
         "rows": [
           "1. (8a) Sports Official's Hand Signs/signals",
           "2. (8b) Heavy-equipment Operator's Hand Signals",
           "3. (8c) Aircraft Carrier Catapult Crew Signals",
           "4. (8d) Cyclist's Hand Signals",
-          "5. (8e) Activity Selected By You"
+          "5. (8e) Activity"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Heavy equipment operators can safely rely on horn taps instead of dedicated ground spotter hand signals.",
@@ -2860,7 +3082,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Traffic Signs)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2872,12 +3094,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show examples of 10 traffic signs and explain their meaning"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show examples of 10 traffic signs and explain their meaning"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2915,12 +3147,15 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/signs_signals_and_codes_req_9_topic_visual.png",
           "workbook_diagram_caption": "Panels display international street signs, pedestrian crossing warnings, directional turn arrows, and public hazard symbols.",
-          "workbook_visual_caption": "Panels display international street signs, pedestrian crossing warnings, directional turn arrows, and public hazard symbols."
+          "workbook_visual_caption": "Panels display international street signs, pedestrian crossing warnings, directional turn arrows, and public hazard symbols.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 9a (Show examples of 10 traffic signs and explain their meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "Using a topographical map, explain what a map legend is and discuss its importance. Point out 10 map symbols and explain the meaning.",
+          "text": "Using a topographical map, explain what a map legend is and discuss its importance. Point out 10 map symbols and explain the meaning of each.",
           "resources": [
             {
               "title": "How to Read a Topo Map (video)",
@@ -2931,7 +3166,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Topographical Legend Discuss Symbols)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2950,7 +3185,13 @@
               "1. Using a topographical map, explain what a map legend is and discuss its importance.",
               "2. Point out 10 map symbols and explain the meaning."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -2980,7 +3221,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "Using a topographical map, explain what a map legend is and discuss its importance. Point out 10 map symbols and explain the meaning.",
+          "sub_req_text": "Using a topographical map, explain what a map legend is and discuss its importance. Point out 10 map symbols and explain the meaning of each.",
           "topic_title": "Req 9b: Topographic Map Legend Interpretation",
           "pamphlet_summary": "Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel.",
           "pamphlet_excerpts": [
@@ -2988,7 +3229,10 @@
           ],
           "workbook_diagram_url": "assets/images/signs__signals__and_codes_req_9_nano_hero.png",
           "workbook_diagram_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends.",
-          "workbook_visual_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends."
+          "workbook_visual_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 9b (Using a topographical map, explain what a map legend is and discuss its importance. Point), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -3004,7 +3248,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Discuss Text-message Symbols and Why)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3025,7 +3269,13 @@
               "2. Give examples of your favorite 10 text symbols or emoticons.",
               "3. Then see if your parent, guardian, or counselor can identify the meaning or usage of each symbol."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)",
           "common_misconception_pair": {
@@ -3064,7 +3314,10 @@
           "workbook_diagram_url": "assets/images/signs__signals__and_codes_req_9_nano_hero.png",
           "title": "Req 9c: Digital Text Abbreviations and Emojis",
           "workbook_diagram_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends.",
-          "workbook_visual_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends."
+          "workbook_visual_caption": "Scouts and their instructor gather around a wooden table to interpret topographic symbols and trail map legends.",
+          "socratic_questions": [
+            "For signs, signals, and codes Requirement 9c (Discuss text-message symbols and why they are commonly used. Give examples of your favorite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3103,7 +3356,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Symbols Used in Everyday Life)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3124,7 +3377,13 @@
           "2. (9b) Using a topographical map, explain what a map legend is and discuss its importance",
           "3. (9c) Discuss text-message symbols and why they are commonly used"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Topographic map symbols vary randomly between different maps produced across the United States.",
@@ -3305,7 +3564,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Signs, Signals, and Codes Origins and Evolution)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3328,7 +3587,13 @@
           "3. Share the message with a friend or fellow Scout.",
           "4. Then share the message and code key with your counselor and discuss the effectiveness of your code."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A cipher and a code are identical terms referring to the exact same cryptographic process.",

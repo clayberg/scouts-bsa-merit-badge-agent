@@ -77,27 +77,20 @@ def build_5part_facilitator_note(
     if clean_r.lower() == "cover":
         return "\n".join([
             f"[PACING & MODALITY] 2 min | Session Launch | EDGE: Explain | {cite}. [Gesture to the title slide] Welcome to the {clean_b} Merit Badge clinic, Scouts! Confirm every buddy pair has their {clean_b} Workbook and Blue Card (#34124) ready.",
-            f"[ASK SCOUTS FIRST] What real-world skill or outdoor challenge made you want to earn the {clean_b} Merit Badge today?",
-            f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: Scouts share their personal goals while connecting {clean_b} to the Scout Oath, Scout Law, and Outdoor Code.]",
-            "[COMMON MISCONCEPTION TO CORRECT] Myth: Group attendance alone completes a Merit Badge. | BSA Pamphlet Fact: Under Guide to Advancement Section 7.0.3.2, each Scout must individually demonstrate or explain every requirement as written.",
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124 and the {clean_b} Workbook] Verify Scout names, unit numbers, and prerequisite preparation before moving to the Requirements Overview.",
         ])
 
     if clean_r.lower() == "overview":
         return "\n".join([
             f"[PACING & MODALITY] 3 min | Syllabus Roadmap | EDGE: Explain & Plan | {cite}. [Point to the Requirements Triage Matrix] Walk Patrols through the three requirement tracks for {clean_b}: In-Class Discussions, Hands-On Skill Stations, and Home/Troop Prerequisites.",
-            f"[ASK SCOUTS FIRST] Looking at our {clean_b} roadmap, which requirements demand field logs or hands-on demonstrations versus patrol discussion?",
+            f"[ASK SCOUTS FIRST] Looking at our {clean_b} roadmap, which requirements demand field logs or hands-on demonstrations versus patrol discussion, and how will you schedule them?",
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: In-class concepts are discussed together, skill stations use the BSA EDGE method with buddy pairs, and prerequisite logs require documented field evidence.]",
-            "[COMMON MISCONCEPTION TO CORRECT] Myth: Unfinished prerequisites mean starting over after camp. | BSA Pamphlet Fact: Signed partial Blue Cards (#34124) remain valid until the Scout's 18th birthday.",
             f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Point to the Workbook Table of Contents] Have Scouts circle their target session milestones in their {clean_b} Fillable Workbook.",
         ])
 
     if clean_r.lower() == "sources":
         return "\n".join([
             f"[PACING & MODALITY] 2 min | Final Checkout & References | EDGE: Enable | {cite}. [Point to the Official Pamphlet & Resource links] Wrap up the {clean_b} walkthrough and transition to individual counselor sign-off conferences.",
-            f"[ASK SCOUTS FIRST] Before stepping up for your final {clean_b} Blue Card (#34124) verification, which workbook tables and field artifacts must you have ready?",
-            f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. [Expected Answer: Completed {clean_b} Workbook organizers, any required sketches or logs, and a signed Blue Card or Scoutbook record.]",
-            f"[COMMON MISCONCEPTION TO CORRECT] Myth: Once the Blue Card is signed, the workbook notes can be discarded immediately. | BSA Pamphlet Fact: Keep your {clean_b} Workbook and Applicant's Record as permanent proof for Boards of Review.",
             "[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up Blue Card #34124] Initial each verified requirement in the Counselor Triage Matrix and review Smart Partial next steps for any open home-troop items.",
         ])
 
@@ -157,8 +150,10 @@ def build_5part_facilitator_note(
         if isinstance(mp_item, dict) and mp_item.get("misconception"):
             all_miscs.append(mp_item)
     chosen_mp = all_miscs[role_idx % len(all_miscs)] if all_miscs else {}
-    myth = clean_prose(str(chosen_mp.get("misconception") or f"General familiarity with {clean_tp} is enough without specific {clean_b} pamphlet verification."))
-    fact = clean_prose(str(chosen_mp.get("fact") or chosen_mp.get("fact_correction") or ex1))
+    raw_myth = clean_prose(str(chosen_mp.get("misconception") or ""))
+    raw_fact = clean_prose(str(chosen_mp.get("fact") or chosen_mp.get("fact_correction") or ""))
+    myth = raw_myth
+    fact = raw_fact or ex1
     safe_str = f" [Safety Check: {clean_prose(safety_callout)}]" if (safety_callout and role_idx in (0, 1, 5)) else ""
 
     soc_list_clean: List[str] = []
@@ -212,7 +207,7 @@ def build_5part_facilitator_note(
         )
         ask = f"[ASK SCOUTS FIRST] {ask_q_comp}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex2} [Expected Answer: Contrast {lh} and {rh} using {clean_b} pamphlet examples.]"
-        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Point to {wb_title}] Confirm each Scout compares {lh} and {rh} accurately."
+        rubric = ""
     elif role_idx == 3:
         we_out = clean_prose(str((worked_ex or {}).get("sample_output") or ex1))
         we_tip = clean_prose(str((worked_ex or {}).get("counselor_tip") or f"Verify specific details for {clean_tp}."))
@@ -252,7 +247,7 @@ def build_5part_facilitator_note(
         )
         ask = f"[ASK SCOUTS FIRST] {ask_q_gear}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} [Expected Answer: Inspect {g1} and verify scene safety before execution.]"
-        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Check readiness] Confirm every buddy pair inspected their gear and recorded checks in {wb_title}."
+        rubric = ""
     else:
         pacing = (
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage}. "
@@ -261,10 +256,14 @@ def build_5part_facilitator_note(
         ask_q5 = soc_q5 or f"If field conditions change while applying {clean_tp} in {clean_b} Requirement {clean_r}, how should your patrol adapt?"
         ask = f"[ASK SCOUTS FIRST] {ask_q5}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex2} [Expected Answer: Connect {clean_tp} to field decision-making in {wb_title}.]"
-        rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Final check for Req {clean_r}] Initial Blue Card (#34124) once each Scout explains or demonstrates {clean_tp}."
+        rubric = ""
 
-    misc = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth} | BSA Pamphlet Fact: {fact}"
-    return "\n".join(clean_prose(line) for line in (pacing, ask, key, misc, rubric))
+    # Selectively include [COMMON MISCONCEPTION TO CORRECT] only on concept/comparison/visual roles when a real misconception exists
+    if myth and role_idx not in (3, 4, 5) and "general familiarity with" not in myth.lower():
+        misc = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth} | BSA Pamphlet Fact: {fact}"
+    else:
+        misc = ""
+    return "\n".join(clean_prose(line) for line in (pacing, ask, key, misc, rubric) if line and line.strip())
 
 
 def _populate_subreq_notes_recursive(

@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss Textiles Fiber Fabric)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Explain the terms fiber, fabric, and textile.",
           "3. Give examples of textiles you use every day."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe the terms fiber, yarn, fabric, and textile are interchangeable synonyms.",
@@ -226,7 +232,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Get Swatches of Two Natural)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -247,7 +253,13 @@
               "2. Get swatches of two synthetic fiber fabrics (nylon, polyester, acrylic, olefin, or spandex).",
               "3. Get a sample of one cellulosic fabric (rayon, acetate, or lyocell)"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
@@ -285,7 +297,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p007_img1.png",
           "workbook_diagram_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
-          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions."
+          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
+          "socratic_questions": [
+            "For textile Requirement 2a (Get swatches of two natural fiber fabrics (100% cotton, linen, wool, or silk; no blends).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -301,7 +316,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Technical Comparison Matrix (Origin Major Characteristics and General)",
+            "table_title": "Req 2b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Natural Plant and Animal Fibers",
@@ -320,7 +335,13 @@
               "1. Give the origin, major characteristics, and general content of each type of fiber obtained for 2",
               "2. Explain the difference between a cellulosic manufactured fiber and a synthetic manufactured fiber"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Natural Plant and Animal Fibers",
+              "Cellulosic and Synthetic Manufactured Fibers"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
@@ -358,7 +379,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p026_img1.png",
           "workbook_diagram_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
-          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions."
+          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
+          "socratic_questions": [
+            "For textile Requirement 2b (Give the origin, major characteristics, and general content of each type of fiber obtained), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -386,7 +410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Main Steps in Making Raw)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -398,12 +422,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the main steps in making raw fiber into yarn, and yarn into fabric"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the main steps in making raw fiber into yarn, and yarn into fabric"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
@@ -441,7 +475,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p026_img1.png",
           "workbook_diagram_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
-          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions."
+          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
+          "socratic_questions": [
+            "For textile Requirement 2c (Describe the main steps in making raw fiber into yarn, and yarn into fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -452,7 +489,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Assume You Will Soon Buy)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -471,7 +508,13 @@
               "1. Assume you will soon buy a new garment or other textile item.",
               "2. Tell your counselor what fiber or blend of fibers you want the item to be, and give reasons for your choice."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)",
           "common_misconception_pair": {
@@ -509,7 +552,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p026_img1.png",
           "workbook_diagram_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
-          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions."
+          "workbook_visual_caption": "Heat-resistant synthetic fibers protect firefighters in hazardous conditions.",
+          "socratic_questions": [
+            "For textile Requirement 2d (Assume you will soon buy a new garment or other textile item. Tell your counselor what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -543,7 +589,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Fiber Classification and Selection Principles",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -552,7 +598,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Get Swatches of Two Natural)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Natural Plant and Animal Fibers",
@@ -575,7 +621,13 @@
           "3. (2c) Main Steps in Making Raw",
           "4. (2d) Assume You Will Soon Buy"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Natural Plant and Animal Fibers",
+          "Cellulosic and Synthetic Manufactured Fibers"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently think rayon is a fully synthetic petrochemical plastic like nylon or polyester.",
@@ -737,7 +789,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Textile Plant Textile Products Manufacturer)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -756,7 +808,12 @@
               "1. Visit a textile plant, textile products manufacturer, or textile school or college.",
               "2. Report on what you saw and learned."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -794,7 +851,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p012_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3a (Visit a textile plant, textile products manufacturer, or textile school or college. Report), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -810,7 +870,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Belt Headband Placemat or Wall)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -822,12 +882,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made yourself"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made yourself"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -865,7 +935,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3b (Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -880,17 +953,17 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Magnifying Glass Examine A Woven)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. With a magnifying glass, examine a woven fabric, a nonwoven fabric, and a knitted fabric.",
@@ -902,7 +975,13 @@
               "2. Sketch what you see.",
               "3. Explain how the three constructions are different."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -940,7 +1019,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3c (With a magnifying glass, examine a woven fabric, a nonwoven fabric, and a knitted fabric.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -956,7 +1038,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3d Hands-On Skill Station & EDGE Verification Checklist (Piece of Felt)",
+            "table_title": "Req 3d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -968,12 +1050,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a piece of felt"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a piece of felt"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -1011,7 +1103,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3d (Make a piece of felt), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -1035,7 +1130,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Natural Dyes and Use Them)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1047,12 +1142,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Make two natural dyes and use them to dye a garment or a piece of fabric"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make two natural dyes and use them to dye a garment or a piece of fabric"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -1090,7 +1195,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3e (Make two natural dyes and use them to dye a garment or a piece of fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
@@ -1110,7 +1218,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Waterproof A Fabric)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1122,12 +1230,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Waterproof a fabric"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Waterproof a fabric"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -1165,7 +1283,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3f (Waterproof a fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
@@ -1181,7 +1302,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3g Hands-On Skill Station & EDGE Verification Checklist (Fibers Using Microscope Identification)",
+            "table_title": "Req 3g Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1193,12 +1314,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to identify fibers, using microscope identification or the breaking test"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to identify fibers, using microscope identification or the breaking test"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
           "common_misconception_pair": {
@@ -1236,7 +1367,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/textile_p030_img1.png",
           "workbook_diagram_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
-          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory."
+          "workbook_visual_caption": "A plant operator monitors automated yarn spinning spindles in a factory.",
+          "socratic_questions": [
+            "For textile Requirement 3g (Demonstrate how to identify fibers, using microscope identification or the breaking test), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1294,17 +1428,17 @@
       "pamphlet_page_citation": "Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Textile Plant Textile Products Manufacturer)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (3a) Textile Plant Textile Products Manufacturer",
@@ -1324,7 +1458,12 @@
           "6. (3f) Waterproof A Fabric",
           "7. (3g) Fibers Using Microscope Identification"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think nonwoven felt is produced by interlocking perpendicular yarns like denim.",
@@ -1501,7 +1640,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Core Textile Terminology and Weaves)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1513,12 +1652,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the meaning of 10 of the following terms: warp, harness, heddle, shed, aramid, spandex, sliver, yarn, spindle, distaff, loom, cellulose, sericulture"
+          "1. Loom Harness Function",
+          "2. Spinneret Extrusion Role",
+          "3. Aramid Polymer Strength"
         ],
         "rows": [
-          "1. Explain the meaning of 10 of the following terms: warp, harness, heddle, shed, aramid, spandex, sliver, yarn, spindle, distaff, loom, cellulose, sericulture"
+          "1. Loom Harness Function",
+          "2. Spinneret Extrusion Role",
+          "3. Aramid Polymer Strength"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often confuse warp and weft yarns, assuming warp runs horizontally across width.",
@@ -1695,7 +1844,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Advantages and Disadvantages of Natural)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Biodegradable Natural Fiber Advantages",
@@ -1714,7 +1863,13 @@
           "1. List the advantages and disadvantages of natural plant fibers, natural animal fibers, cellulosic manufactured fibers, and synthetic manufactured fibers",
           "2. Identify and discuss at least four ecological concerns regarding the production and care of textiles"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Biodegradable Natural Fiber Advantages",
+          "Durable Synthetic Fiber Trade-Offs"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently assume all natural plant fibers are ecologically harmless compared to synthetics.",
@@ -1926,7 +2081,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume modern textile industry jobs are limited to manual sewing machine operators.",

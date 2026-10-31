@@ -55,7 +55,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Animal Invertebrate Vertebrate and Mammal)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -74,7 +74,13 @@
           "1. Explain the following terms: animal, invertebrate, vertebrate, and mammal.",
           "2. Name three characteristics that distinguish mammals from all other animals."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently believe that any warm-blooded vertebrate animal qualifies as a true mammal.",
@@ -259,7 +265,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Animal Kingdom Is Classified)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -280,7 +286,13 @@
           "2. Explain where mammals fit in the classification of animals.",
           "3. Classify three mammals from phylum through species."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Common vernacular names provide sufficient precision for field research and professional wildlife studies.",
@@ -447,7 +459,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Spend Three Hours)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -468,7 +480,13 @@
               "2. List the different mammal species and how many of each you identified by sight or sign.",
               "3. Tell why all mammals do not live in the same kind of habitat."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -506,7 +524,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p012_img1.png",
           "workbook_diagram_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
-          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity."
+          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
+          "socratic_questions": [
+            "For mammal study Requirement 3a (Spend three hours in two different kinds of natural habitats or at different elevations for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -517,7 +538,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Spend Three Hours)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -536,7 +557,13 @@
               "1. Spend three hours on five different days in at least a 4-acre area (about the size of 3 football fields) for a total of 15 hours.",
               "2. List the mammal species you identified by sight or sign."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -574,7 +601,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p027_img1.png",
           "workbook_diagram_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
-          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity."
+          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
+          "socratic_questions": [
+            "For mammal study Requirement 3b (Spend three hours on five different days in at least a 4-acre area (about the size of 3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -585,7 +615,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Reading Write A Simple Life)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -608,7 +638,13 @@
               "3. Tell how it reproduces, what it eats, and its natural habitat.",
               "4. Describe its dependency upon plants and other animals (including humans), and how they depend upon it."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -646,7 +682,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p027_img1.png",
           "workbook_diagram_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
-          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity."
+          "workbook_visual_caption": "Fresh mammalian paw prints pressed into deep snow indicate local wildlife activity.",
+          "socratic_questions": [
+            "For mammal study Requirement 3c (From study and reading, write a simple life history of one nongame mammal that lives in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -677,7 +716,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Spend Three Hours)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -698,7 +737,13 @@
           "2. (3b) Spend Three Hours",
           "3. (3c) Reading Write A Simple Life"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wildlife field studies produce meaningful population counts only when animals are directly seen.",
@@ -869,7 +914,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Guidance of A Nature Center)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -888,7 +933,13 @@
               "1. Under the guidance of a nature center or natural history museum, make two study skins of rats or mice.",
               "2. Tell the uses of study skins and mounted specimens respectively."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -926,7 +977,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4a (Under the guidance of a nature center or natural history museum, make two study skins of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -954,7 +1008,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4b Quantitative Field Observation & Activity Log (Pictures of Two Kinds of)",
+            "table_title": "Req 4b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -975,7 +1029,14 @@
               "1. Take good pictures of two kinds of mammals in the wild",
               "2. Record the date(s), time of day, weather conditions, approximate distance from the animal, habitat conditions, and any other factors you feel may have influenced the animal's activity and behavior"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1014,7 +1075,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "title": "Req 4b: Photographing Wild Mammals in Nature",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4b (Take good pictures of two kinds of mammals in the wild. Record the date(s), time of day,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1025,7 +1089,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Life History of A Native)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1044,7 +1108,13 @@
               "1. Write a life history of a native game mammal that lives in your area, covering the points outlined in requirement 3(c).",
               "2. List sources for this information."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1082,7 +1152,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4c (Write a life history of a native game mammal that lives in your area, covering the points), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1106,7 +1179,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Bait A Tracking Pit)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1125,7 +1198,13 @@
               "1. Make and bait a tracking pit.",
               "2. Report what mammals and other animals came to the bait."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1163,7 +1242,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4d (Make and bait a tracking pit. Report what mammals and other animals came to the bait), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1179,7 +1261,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Natural History Museum)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1200,7 +1282,12 @@
               "2. Report on how specimens are prepared and cataloged.",
               "3. Explain the purposes of museums."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1238,7 +1325,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4e (Visit a natural history museum. Report on how specimens are prepared and cataloged. Explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1249,7 +1339,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Words on A Book)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1261,12 +1351,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write a report of 500 words on a book about a mammal species"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Write a report of 500 words on a book about a mammal species"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1304,7 +1404,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4f (Write a report of 500 words on a book about a mammal species), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4g",
@@ -1328,7 +1431,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4g Structured Technical Study & Explanation Matrix (Possible Food Chains of Carnivorous)",
+            "table_title": "Req 4g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1340,12 +1443,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Trace two possible food chains of carnivorous mammals from the soil through four stages to the mammal"
+              "1. Req 4g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Trace two possible food chains of carnivorous mammals from the soil through four stages to the mammal"
+              "1. Req 4g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)",
           "common_misconception_pair": {
@@ -1383,7 +1496,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p058_img1.png",
           "workbook_diagram_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
-          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water."
+          "workbook_visual_caption": "A herd of American bison and calves gather at a river bank to drink fresh river water.",
+          "socratic_questions": [
+            "For mammal study Requirement 4g (Trace two possible food chains of carnivorous mammals from the soil through four stages to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1458,7 +1574,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Guidance of A Nature Center)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1489,7 +1605,13 @@
           "6. (4f) Write a report of 500 words on a book about a mammal species",
           "7. (4g) Trace two possible food chains of carnivorous mammals from the soil through four stages to the mammal"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scientific study skins serve the same decorative purpose as commercial taxidermy trophy mounts.",
@@ -1675,7 +1797,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Working Project Will Influence)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1687,12 +1809,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals"
+          "1. Bat Roosts",
+          "2. Brush Shelters",
+          "3. Forage Planting"
         ],
         "rows": [
-          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals"
+          "1. Bat Roosts",
+          "2. Brush Shelters",
+          "3. Forage Planting"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Artificial feeding stations provide the best long-term method for increasing local wild mammal populations.",
@@ -1869,7 +2001,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1888,7 +2020,13 @@
           "1. Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to Mammal Study",
           "2. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Tossing biodegradable fruit cores into bushes benefits wild mammals by providing free food.",
@@ -2074,19 +2212,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)",
           "common_misconception_pair": {
             "misconception": "Wildlife biology positions consist almost entirely of petting and nursing wild animals in sanctuaries.",
             "fact": "Most professional roles emphasize data collection, statistical modeling, habitat mapping, and policy report writing."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Mammal Study Req 7a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Mammal Study Merit Badge Hub (Req 7a)",
@@ -2117,12 +2256,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p031_img1.png",
           "workbook_diagram_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow.",
-          "workbook_visual_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow."
+          "workbook_visual_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow.",
+          "socratic_questions": [
+            "For mammal study Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Top Tips to get into Wildlife Photography (video)",
@@ -2137,7 +2279,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2151,14 +2293,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)",
           "common_misconception_pair": {
@@ -2188,7 +2336,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 7b: Amateur Mammalogy Recreational Hobby Exploration",
           "pamphlet_summary": "Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities.",
           "pamphlet_excerpts": [
@@ -2197,7 +2345,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/mammal_study_p031_img1.png",
           "title": "Req 7b: Lifelong Mammal Study Hobbies",
           "workbook_diagram_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow.",
-          "workbook_visual_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow."
+          "workbook_visual_caption": "Two black-tailed prairie dogs stand near the earthen mound entrance of their burrow.",
+          "socratic_questions": [
+            "For mammal study Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2255,7 +2406,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Working with wild mammals requires only outdoorsmanship skills without rigorous mathematics and biology degrees.",

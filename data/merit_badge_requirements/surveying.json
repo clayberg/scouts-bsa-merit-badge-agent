@@ -59,7 +59,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (You Know First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -78,7 +78,13 @@
           "1. Show that you know first aid for the types of injuries that could occur while surveying, including cuts, scratches, snake bite, insect stings, tick bites, heat- and cold-related reactions, and dehydration",
           "2. Explain to your counselor why a surveyor should be able to identify the poisonous plants and animals found in your area"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe standard office adhesive bandages provide adequate field treatment for survey injuries.",
@@ -241,7 +247,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 2a Quantitative Field Observation & Activity Log (Instrument Over One of the)",
+            "table_title": "Req 2a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -262,7 +268,14 @@
               "1. Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for reference and, using radial",
               "2. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
@@ -301,7 +314,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/surveying_p007_img1.png",
           "title": "Req 2a: Radial Angle and Distance Measurements",
           "workbook_diagram_caption": "A surveyor in safety gear uses hand signals to direct field work.",
-          "workbook_visual_caption": "A surveyor in safety gear uses hand signals to direct field work."
+          "workbook_visual_caption": "A surveyor in safety gear uses hand signals to direct field work.",
+          "socratic_questions": [
+            "For surveying Requirement 2a (Set an instrument over one of the corners of a five-sided lot laid out by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -317,7 +333,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Technical Comparison Matrix (Same Points with GPS Measurement)",
+            "table_title": "Req 2b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Optical Radial Angle and Distance",
@@ -329,12 +345,22 @@
               "Direct Satellite GPS Coordinate Fixing"
             ],
             "row_labels": [
-              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Measure to three of the same points with GPS measurement and compare the distances between the points measured"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Optical Radial Angle and Distance",
+              "Direct Satellite GPS Coordinate Fixing"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)",
           "common_misconception_pair": {
@@ -372,7 +398,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/surveying_p020_img1.png",
           "workbook_diagram_caption": "A surveyor in safety gear uses hand signals to direct field work.",
-          "workbook_visual_caption": "A surveyor in safety gear uses hand signals to direct field work."
+          "workbook_visual_caption": "A surveyor in safety gear uses hand signals to direct field work.",
+          "socratic_questions": [
+            "For surveying Requirement 2b (Measure to three of the same points with GPS measurement and compare the distances between), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -394,7 +423,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Radial Boundary Traverse Measurements",
-      "action_verb": "Demonstrate",
+      "action_verb": "Compare",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never look through a total station or optical level directly into the sun without approved optical solar filters.",
@@ -403,7 +432,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Instrument Over One of the)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Optical Radial Angle and Distance",
@@ -422,7 +451,13 @@
           "1. (2a) Radial Angle and Distance Measurements",
           "2. (2b) Measure to three of the same points with GPS measurement and compare the distances between the points measured"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Optical Radial Angle and Distance",
+          "Direct Satellite GPS Coordinate Fixing"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe turning angles without checking the backsight reference yields precise parcel boundaries.",
@@ -595,7 +630,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Field Notes Gathered)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -614,7 +649,13 @@
           "1. From the field notes gathered for requirement 2, and using a protractor and scale, plot the points you measured and draw to scale a map of your survey",
           "2. Submit a neatly drawn copy"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices often believe architectural scales marked in fractional inches are identical to decimal civil engineering scales.",
@@ -787,7 +828,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Corner Markers)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -808,7 +849,14 @@
           "1. Use one of the corner markers from requirement 2 as a benchmark with an assumed elevation of 100 feet.",
           "2. Using a level and rod, collect and record measurements, and determine the elevation of the other four corner markers."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe the leveling rod must be tilted toward the instrument to get an accurate reading.",
@@ -976,7 +1024,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Get A Copy of the)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -995,18 +1043,19 @@
           "1. Get a copy of the deed to a piece of property approved by your counselor, from the local courthouse or title agency.",
           "2. Discuss with your counselor the different parts of the deed and their importance."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe property tax bills provide the legal boundary description necessary for land surveying.",
         "fact": "Only a recorded deed contains the legal conveyance language and authoritative metes and bounds property description."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Surveying Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Surveying Merit Badge Hub (Req 5)",
@@ -1173,7 +1222,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Discuss Emerging Surveying Technology)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1185,12 +1234,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses"
+          "1. Drone Photogrammetry Rapidness",
+          "2. Laser Scanner Pointclouds",
+          "3. Vegetation Penetration Limitations"
         ],
         "rows": [
-          "1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses"
+          "1. Drone Photogrammetry Rapidness",
+          "2. Laser Scanner Pointclouds",
+          "3. Vegetation Penetration Limitations"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices often believe autonomous drone flights eliminate the need for traditional ground survey targets.",
@@ -1367,7 +1426,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Discuss Changing Field Surveying)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1386,7 +1445,13 @@
           "1. Tell what GPS",
           "2. discuss with your counselor the importance of GPS and how it is changing the field of surveying"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often assume survey satellite receivers operate identically to smartphone navigation chips.",
@@ -1582,7 +1647,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe anyone who operates a total station can legally sign and seal boundary surveys.",

@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Precautions That Must Be Followed)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -59,12 +59,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain to your counselor the precautions that must be followed for the safe use and operation of a sculptor's tools, equipment, and other materials"
+          "1. Chisel Sharpness",
+          "2. Airborne Dust Protection",
+          "3. Stock Clamping Rule"
         ],
         "rows": [
-          "1. Explain to your counselor the precautions that must be followed for the safe use and operation of a sculptor's tools, equipment, and other materials"
+          "1. Chisel Sharpness",
+          "2. Airborne Dust Protection",
+          "3. Stock Clamping Rule"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novice carvers believe dull tools are safer because sharp edges slice flesh more easily.",
@@ -239,7 +249,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Model in Clay A Life-size)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -260,7 +270,13 @@
               "2. Then sculpt in modeling clay, carve in wood or plaster, or use 3D modeling software to make a small-scale model of an animal or person.",
               "3. Explain to your counselor the method and tools you used to sculpt the figure."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)",
           "common_misconception_pair": {
@@ -298,7 +314,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sculpture_p007_img1.png",
           "workbook_diagram_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
-          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head."
+          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
+          "socratic_questions": [
+            "For sculpture Requirement 2a (Model in clay a life-size human head. Then sculpt in modeling clay, carve in wood or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -318,7 +337,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Plaster Mold of A Fruit)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -339,7 +358,13 @@
               "2. In this mold, make a copy of the fruit or vegetable.",
               "3. Explain to your counselor the method and tools you used to make the copy."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)",
           "common_misconception_pair": {
@@ -377,7 +402,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sculpture_p024_img1.png",
           "workbook_diagram_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
-          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head."
+          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
+          "socratic_questions": [
+            "For sculpture Requirement 2b (Make a plaster mold of a fruit or vegetable. In this mold, make a copy of the fruit or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -393,7 +421,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Museum Art Exhibit Art Gallery)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -414,7 +442,12 @@
               "2. After your visit, share with your counselor what you have learned",
               "3. Discuss the importance of visual arts and how it strengthens social tolerance and helps stimulate cultural, intellectual"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)",
           "common_misconception_pair": {
@@ -457,7 +490,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sculpture_p024_img1.png",
           "workbook_diagram_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
-          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head."
+          "workbook_visual_caption": "A young sculptor uses a wooden tool to refine facial features on a clay head.",
+          "socratic_questions": [
+            "For sculpture Requirement 2c (With your parent or guardian's permission and your counselor's approval, visit a museum,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -504,7 +540,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Model in Clay A Life-size)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -525,7 +561,12 @@
           "2. (2b) Plaster Mold of A Fruit",
           "3. (2c) Museum Art Exhibit Art Gallery"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners think sculpting involves solely carving material away from solid blocks rather than additive modeling.",
@@ -717,19 +758,20 @@
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career",
               "5. Resources: 12 Careers for Sculptors (website) How To Become an Artist/Sculptor (video) Craft Artist Careers (video)"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sculpture Merit Badge Pamphlet (p. 59, p. 60)",
           "common_misconception_pair": {
             "misconception": "Artistic talent alone secures employment in commercial sculpture fields without requiring technical portfolio preparation.",
             "fact": "Commercial employers evaluate demonstrated technical mastery of material science, digital modeling software, and rigorous collaborative portfolio samples."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Sculpture Req 3a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Sculpture Merit Badge Hub (Req 3a)",
@@ -760,12 +802,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sculpture_p012_img1.png",
           "workbook_diagram_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial.",
-          "workbook_visual_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial."
+          "workbook_visual_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial.",
+          "socratic_questions": [
+            "For sculpture Requirement 3a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Exploring the Benefits of Sculpting as a Hobby (website)",
@@ -776,7 +821,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -790,14 +835,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sculpture Merit Badge Pamphlet (p. 59, p. 60)",
           "common_misconception_pair": {
@@ -827,7 +878,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 3b: Avocational Sculpture Hobby Exploration",
           "pamphlet_summary": "Pursuing sculpture as a personal hobby requires identifying accessible home studio materials, budgeting for tools, and connecting with local community guilds. Amateur sculptors maintain creative momentum through juried community center exhibitions, regional woodcarving associations, and online craft networks.",
           "pamphlet_excerpts": [
@@ -836,7 +887,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sculpture_p058_img1.png",
           "title": "Req 3b: Recreational Sculpting Hobby Pursuits",
           "workbook_diagram_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial.",
-          "workbook_visual_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial."
+          "workbook_visual_caption": "Water flows across the inscribed granite surface of the Civil Rights Memorial.",
+          "socratic_questions": [
+            "For sculpture Requirement 3b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -886,7 +940,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sculpture careers are restricted exclusively to selling bronze statues or gallery display pieces.",

@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Geology Discuss How Geologists Learn)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -68,7 +68,13 @@
           "2. Discuss how geologists learn about rock formations.",
           "3. In geology, explain why the study of the present is important to understanding the past."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Earth rocks formed through catastrophic, unrepeatable events unlike modern surface processes.",
@@ -241,7 +247,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Resources That Can Be Extracted)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -260,7 +266,13 @@
           "1. Pick three resources that can be extracted or mined from Earth for commercial use.",
           "2. Discuss with your counselor how each product is discovered and processed."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Valuable minerals and metals occur naturally as pure solid blocks ready for immediate manufacturing.",
@@ -433,7 +445,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Geologic Map of Your Area)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -454,18 +466,19 @@
           "2. Determine whether the rocks are sedimentary, metamorphic, or igneous",
           "3. Explain if the geologic map shows horizontal, folded, faulted, or intrusive rocks, and explain how you arrived at your conclusion"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Colors on a geologic map represent surface soil types and vegetation cover.",
         "fact": "Geologic map colors denote specific bedrock formations and their chronostratigraphic depositional time periods."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Geology Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Geology Merit Badge Hub (Req 3)",
@@ -636,7 +649,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(1) Structured Technical Study & Explanation Matrix (Experiment Approved)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -655,19 +668,20 @@
                   "1. Conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension in water.",
                   "2. Explain to your counselor what the exercise shows and why it is important."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
                 "misconception": "Sediment particles settle out of agitated water at identical rates regardless of their grain diameter.",
                 "fact": "Heavier and coarser particles settle first due to gravity, while microscopic clay particles remain suspended until the water becomes completely still."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Geology Req 4a(1) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Geology Merit Badge Hub (Req 4a(1))",
@@ -706,7 +720,7 @@
             {
               "sub_id": "4a(2)",
               "label": "(2)",
-              "text": "Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis). Explain which ones flow fastest and why, and which ones will carry larger grains of sediment.",
+              "text": "Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis). Explain which ones flow fastest and why, and which ones will carry larger grains of sediment and why.",
               "resources": [
                 {
                   "title": "How to Calculate the Gradient of a Slope (video)",
@@ -717,7 +731,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (Topographical Maps Provided)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -736,7 +750,13 @@
                   "1. Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis)",
                   "2. Explain which ones flow fastest and why, and which ones will carry larger grains of sediment"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -766,7 +786,7 @@
               ],
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
-              "sub_req_text": "Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis). Explain which ones flow fastest and why, and which ones will carry larger grains of sediment.",
+              "sub_req_text": "Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis). Explain which ones flow fastest and why, and which ones will carry larger grains of sediment and why.",
               "topic_title": "Req 4a(2): Stream Gradient and Drainage Patterns",
               "pamphlet_summary": "Stream Gradient and Drainage Patterns: Calculating stream gradient requires dividing the change in contour elevation between two points by the stream channel length measured with a map ruler or string. High-gradient mountain streams possess greater kinetic energy to transport coarse cobbles, whereas low-gradient meandering networks carry only fine sand, silt, and mud (p. 25).",
               "pamphlet_excerpts": [
@@ -792,17 +812,17 @@
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4a(3) Structured Technical Study & Explanation Matrix (Stream Diagram Show Areas Where)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4a",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
                   "1. On a stream diagram, show areas where you will find the following features: cut bank, fill bank, point bar, medial channel bars, and lake delta",
@@ -812,7 +832,13 @@
                   "1. On a stream diagram, show areas where you will find the following features: cut bank, fill bank, point bar, medial channel bars, and lake delta",
                   "2. Describe the relative sediment grain size found in each feature"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -870,7 +896,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(4) Structured Technical Study & Explanation Matrix (Experiment Approved)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -882,24 +908,29 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small for you to see without a magnifier"
+                  "1. Req 4a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small for you to see without a magnifier"
+                  "1. Req 4a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
                 "misconception": "Water that looks clear to the naked eye contains zero solid sediment particles in suspension.",
                 "fact": "Colloidal clays and dissolved mineral salts remain suspended in clear water and only become visible under magnification, high-intensity light beams, or after evaporation."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Geology Req 4a(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Geology Merit Badge Hub (Req 4a(4))",
@@ -948,17 +979,17 @@
               "children": [],
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
-                "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-                "table_title": "Req 4a(5) Quantitative Field Observation & Activity Log (Nearby Stream Find Clues)",
+                "organizer_type": "RULED_EXPLAIN_BOX",
+                "table_title": "Req 4a",
                 "headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "column_headers": [
-                  "Sketch / Diagram Element",
-                  "Required Labels & Dimensions",
-                  "Field Observations & Counselor Notes"
+                  "Req 4a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
                   "1. Visit a nearby stream.",
@@ -972,7 +1003,12 @@
                   "3. Record your observations in a notebook, and sketch those clues you observe.",
                   "4. Discuss your observations with your counselor."
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "columns": [
+                  "Req 4a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1018,17 +1054,17 @@
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4a Quantitative Field Observation & Activity Log (Surface and Sedimentary Processes)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (4a(1)) Conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension in water",
@@ -1044,7 +1080,12 @@
               "4. (4a(4)) Conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small for you to see without a magnifier",
               "5. (4a(5)) Visit a nearby stream"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
@@ -1087,7 +1128,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/geology_req_4_topic_visual.png",
           "workbook_diagram_caption": "Historical Origins and Evolution procedures and verification checkpoints for Geology Requirement 4.",
-          "workbook_visual_caption": "Historical Origins and Evolution procedures and verification checkpoints for Geology Requirement 4."
+          "workbook_visual_caption": "Historical Origins and Evolution procedures and verification checkpoints for Geology Requirement 4.",
+          "socratic_questions": [
+            "For geology Requirement 4a (Option A, Surface and Sedimentary Processes. Do ALL of the following: (1) Conduct an), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1109,7 +1153,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(1) Structured Technical Study & Explanation Matrix (Top Five Earth Resources)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1121,12 +1165,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. List the top five Earth resources used to generate electricity in the United States"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. List the top five Earth resources used to generate electricity in the United States"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1183,7 +1237,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(2) Structured Technical Study & Explanation Matrix (Discuss Source Rock Trap and)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1195,12 +1249,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Discuss source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas underground"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Discuss source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas underground"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1258,7 +1322,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(3) Structured Technical Study & Explanation Matrix (Used in Subsurface Exploration)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1270,12 +1334,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain how each of the following items is used in subsurface exploration to locate oil or gas: reflection seismic, electric well logs, stratigraphic"
+                  "1. Req 4b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain how each of the following items is used in subsurface exploration to locate oil or gas: reflection seismic, electric well logs, stratigraphic"
+                  "1. Req 4b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1327,7 +1401,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(4) Structured Technical Study & Explanation Matrix (Data Points Provided)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1339,12 +1413,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using at least 20 data points provided by your counselor, create a subsurface structure map and use it to explain how subsurface geology maps are used to find oil, gas, or coal resources"
+                  "1. Req 4b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Using at least 20 data points provided by your counselor, create a subsurface structure map and use it to explain how subsurface geology maps are used to find oil, gas, or coal resources"
+                  "1. Req 4b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1416,7 +1500,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4b(5)(a) Hands-On Skill Station & EDGE Verification Checklist (Display or Presentation Showing How)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -1437,7 +1521,12 @@
                       "2. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission).",
                       "3. Share the display with your counselor or a small group (such as your class at school) in a five-minute presentation."
                     ],
-                    "min_rows": 3
+                    "min_rows": 3,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -1478,7 +1567,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4b(5)(b) Structured Technical Study & Explanation Matrix (Permission and Assistance Arrange)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Req 4b(5)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1499,7 +1588,12 @@
                       "2. While there, talk with a geologist and ask to see what the geologist does on site.",
                       "3. Ask to see cutting samples taken at the site."
                     ],
-                    "min_rows": 3
+                    "min_rows": 3,
+                    "columns": [
+                      "Req 4b(5)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -1520,7 +1614,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4b(5) Hands-On Skill Station & EDGE Verification Checklist (Display or Presentation Showing How)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -1545,19 +1639,20 @@
                   "4. With your parent or guardian's and counselor's permission and assistance, arrange for a visit to an operating drilling rig",
                   "5. While there, talk with a geologist and ask to see what the geologist does onsite"
                 ],
-                "min_rows": 5
+                "min_rows": 5,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
                 "misconception": "Crude petroleum pumped out of the ground goes directly into vehicle fuel tanks without chemical processing.",
                 "fact": "Raw petroleum contains complex mixtures of hydrocarbons that refineries must distill, crack, and treat to produce usable fuels like gasoline, diesel, and aviation kerosene."
               },
-              "starting_requirement_gate": {
-                "gate_type": "PARENT_CONSENT_GATE",
-                "gate_label": "Parent/Guardian Consent & Review",
-                "gate_description": "Review and complete Geology Req 4b(5) with your parent or guardian's approval in compliance with BSA Youth Protection.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Geology Merit Badge Hub (Req 4b(5))",
@@ -1598,7 +1693,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Energy Resources)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1623,19 +1718,20 @@
               "4. (4b(4)) Using at least 20 data points provided by your counselor, create a subsurface structure map and use it to explain how subsurface geology maps are used to find oil, gas, or coal resources",
               "5. (4b(5)) Do ONE of the following: (a) Make a display or presentation showing how oil and gas or coal is found, extracted, and processed"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Crude oil collects in massive open underground caverns that drillers simply pump dry.",
             "fact": "Petroleum resides entirely within microscopic interconnected pore spaces between sand grains or inside fractured limestone."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Geology Req 4b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Geology Merit Badge Hub (Req 4b)",
@@ -1666,7 +1762,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
           "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-          "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+          "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+          "socratic_questions": [
+            "For geology Requirement 4b (Option B, Energy Resources. Do ALL of the following: (1) List the top five Earth resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1692,7 +1791,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(1) Structured Technical Study & Explanation Matrix (Rock Discuss the Three Classes)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1711,7 +1810,13 @@
                   "1. Define rock.",
                   "2. Discuss the three classes of rocks including their origin and characteristics."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1772,7 +1877,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(2) Structured Technical Study & Explanation Matrix (Mineral Discuss the Origin of)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1791,7 +1896,13 @@
                   "1. Define mineral",
                   "2. Discuss the origin of minerals and their chemical composition and identification properties, including hardness, specific gravity, color, streak, cleavage, luster, and crystal form"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -1864,7 +1975,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "TIME_SERIES_LOG_TABLE",
-                    "table_title": "Req 4c(3)(a) Quantitative Field Observation & Activity Log (Rocks or Minerals)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Log Entry / Milestone",
                       "Date, Location & Conditions",
@@ -1889,7 +2000,13 @@
                       "3. Label each specimen, identify its class and origin, determine its chemical composition, and list its physical properties.",
                       "4. Share your collection with your counselor."
                     ],
-                    "min_rows": 4
+                    "min_rows": 4,
+                    "columns": [
+                      "Log Entry / Milestone",
+                      "Date, Location & Conditions",
+                      "Recorded Measurements & Quantitative Data",
+                      "Analysis & Verification"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -1929,7 +2046,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(3)(b) Structured Technical Study & Explanation Matrix (Assistance Identify Different Rocks and)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(3)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1948,7 +2065,12 @@
                       "1. With your counselor's assistance, identify 15 different rocks and minerals",
                       "2. List the name of each specimen, tell whether it is a rock or mineral, and give the name of its class (if it is a rock) or list its identifying physical properties (if it is a mineral)"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4c(3)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -1970,7 +2092,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "TIME_SERIES_LOG_TABLE",
-                "table_title": "Req 4c(3) Quantitative Field Observation & Activity Log (Rocks or Minerals)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Log Entry / Milestone",
                   "Date, Location & Conditions",
@@ -1997,7 +2119,14 @@
                   "4. Share your collection with your counselor",
                   "5. With your counselor's assistance, identify 15 different rocks and minerals"
                 ],
-                "min_rows": 5
+                "min_rows": 5,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Log Entry / Milestone",
+                  "Date, Location & Conditions",
+                  "Recorded Measurements & Quantitative Data",
+                  "Analysis & Verification"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2054,7 +2183,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(4) Structured Technical Study & Explanation Matrix (Common Road-building Materials)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2073,7 +2202,13 @@
                   "1. List three of the most common road-building materials used in your area.",
                   "2. Explain how each material is produced and how each is used in road building."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2145,7 +2280,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(5)(a) Structured Technical Study & Explanation Matrix (Active Mining Site Quarry)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(5)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2164,7 +2299,12 @@
                       "1. With your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit.",
                       "2. Tell your counselor what you learned about the resources extracted from this location and how these resources are used by society."
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4c(5)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -2204,7 +2344,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(5)(b) Structured Technical Study & Explanation Matrix (Rocks and Two Examples of)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(5)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2223,7 +2363,12 @@
                       "1. With your counselor, choose two examples of rocks and two examples of minerals.",
                       "2. Discuss the mining of these materials and describe how each is used by society."
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4c(5)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -2264,7 +2409,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(5)(c) Structured Technical Study & Explanation Matrix (Office of A Civil Engineer)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(5)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2283,7 +2428,12 @@
                       "1. With your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used in construction",
                       "2. Discuss what you learned with your counselor"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4c(5)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -2304,7 +2454,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(5) Structured Technical Study & Explanation Matrix (Active Mining Site Quarry)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2329,19 +2479,20 @@
                   "4. Discuss the mining of these materials and describe how each is used by society",
                   "5. With your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used in construction"
                 ],
-                "min_rows": 5
+                "min_rows": 5,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
                 "misconception": "Mining operations only extract precious metals like gold and silver rather than common bulk geological commodities.",
                 "fact": "Crushed aggregate, sand, gravel, and industrial limestone represent the largest volume of mined mineral resources essential for community construction projects."
               },
-              "starting_requirement_gate": {
-                "gate_type": "COUNSELOR_PRE_APPROVAL",
-                "gate_label": "Counselor Pre-Approval Required",
-                "gate_description": "Review your Geology Req 4c(5) preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Geology Merit Badge Hub (Req 4c(5))",
@@ -2381,7 +2532,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4c Quantitative Field Observation & Activity Log (Mineral Resources)",
+            "table_title": "Req 4c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2408,19 +2559,21 @@
               "4. (4c(4)) List three of the most common road-building materials used in your area",
               "5. (4c(5)) Do ONE of the following: (a) With your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
             "misconception": "Color alone provides a completely reliable diagnostic field test for mineral identification.",
             "fact": "Trace chemical impurities alter mineral color dramatically, making streak, hardness, cleavage, and crystal habit far more reliable diagnostic tests."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Geology Req 4c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Geology Merit Badge Hub (Req 4c)",
@@ -2451,7 +2604,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
           "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-          "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+          "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+          "socratic_questions": [
+            "For geology Requirement 4c (Option C, Mineral Resources. Do ALL of the following: (1) Define rock. Discuss the three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -2473,7 +2629,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(1) Structured Technical Study & Explanation Matrix (Showing Suggested Geological Eras and)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2492,7 +2648,13 @@
                   "1. Create a chart showing suggested geological eras and periods.",
                   "2. Determine which period the rocks in your region might have been formed."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2550,7 +2712,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4d(2) Hands-On Skill Station & EDGE Verification Checklist (Theory of Plate Tectonics)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2571,7 +2733,13 @@
                   "2. Make a chart explaining, or discuss with your counselor, how the processes of plate tectonics work.",
                   "3. Discuss how plate tectonics determines the distribution of most of the Earth's volcanoes, earthquakes, and mountain belts."
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2636,7 +2804,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(3) Structured Technical Study & Explanation Matrix (Processes of Burial and Fossilization)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2648,12 +2816,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain to your counselor the processes of burial and fossilization, and discuss the concept of extinction"
+                  "1. Req 4d(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4d(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4d(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain to your counselor the processes of burial and fossilization, and discuss the concept of extinction"
+                  "1. Req 4d(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4d(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4d(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2758,7 +2936,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(4) Structured Technical Study & Explanation Matrix (Fossils Provide Information About Ancient)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2777,7 +2955,13 @@
                   "1. Explain to your counselor how fossils provide information about ancient life, environment, climate, and geography",
                   "2. Discuss the following terms and explain how animals from each habitat obtain food: benthonic, pelagic, littoral, lacustrine, open marine, brackish, fluvial, eolian, and protected reef"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2829,7 +3013,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "TIME_SERIES_LOG_TABLE",
-                "table_title": "Req 4d(5) Quantitative Field Observation & Activity Log (Fossil Plants or Animals)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Log Entry / Milestone",
                   "Date, Location & Conditions",
@@ -2854,7 +3038,14 @@
                   "3. Classify each specimen to the best of your ability, and explain how each one might have survived and obtained food.",
                   "4. Tell what else you can learn from these fossils."
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Log Entry / Milestone",
+                  "Date, Location & Conditions",
+                  "Recorded Measurements & Quantitative Data",
+                  "Analysis & Verification"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -2931,7 +3122,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(6)(a) Structured Technical Study & Explanation Matrix (Science Museum or the Geology)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(6)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2950,7 +3141,12 @@
                       "1. Visit a science museum or the geology department of a local university that has fossils on display",
                       "2. With your parent or guardian's and counselor's approval, before you go, make an appointment with a curator or guide who can show you how the fossils are preserved and prepared for display"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4d(6)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -2990,7 +3186,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(6)(b) Structured Technical Study & Explanation Matrix (Structure in Your Area That)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(6)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3009,7 +3205,12 @@
                       "1. Visit a structure in your area that was built using fossiliferous rocks.",
                       "2. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there."
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4d(6)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -3050,7 +3251,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(6)(c) Structured Technical Study & Explanation Matrix (Rock Outcrop That Contains Fossils)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(6)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3069,7 +3270,12 @@
                       "1. Visit a rock outcrop that contains fossils.",
                       "2. Determine what kind of rock contains the fossils, and tell your counselor the kinds of fossil evidence you found at the outcrop."
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "columns": [
+                      "Req 4d(6)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -3109,7 +3315,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(6)(d) Structured Technical Study & Explanation Matrix (Display or Presentation on Your)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(6)(d) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3132,7 +3338,12 @@
                       "3. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission).",
                       "4. Share the display with your counselor or a small group (such as your class at school)."
                     ],
-                    "min_rows": 4
+                    "min_rows": 4,
+                    "columns": [
+                      "Req 4d(6)(d) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Pre-Class Prerequisite",
                   "curated_resources": [
@@ -3154,7 +3365,7 @@
               "syllabus_bucket": "Pre-Class Prerequisite",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(6) Structured Technical Study & Explanation Matrix (Science Museum or the Geology)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3179,7 +3390,12 @@
                   "4. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there",
                   "5. Visit a rock outcrop that contains fossils"
                 ],
-                "min_rows": 5
+                "min_rows": 5,
+                "columns": [
+                  "Req 4d(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
@@ -3231,7 +3447,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4d Hands-On Skill Station & EDGE Verification Checklist (Earth History)",
+            "table_title": "Req 4d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3258,7 +3474,12 @@
               "5. (4d(5)) Collect 10 different fossil plants or animals OR (with your counselor's assistance) identify 15 different fossil plants or animals",
               "6. (4d(6)) Do ONE of the following: (a) Visit a science museum or the geology department of a local university that has fossils on display"
             ],
-            "min_rows": 6
+            "min_rows": 6,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
           "common_misconception_pair": {
@@ -3301,7 +3522,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
           "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-          "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+          "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+          "socratic_questions": [
+            "For geology Requirement 4d (Option D, Earth History. Do ALL of the following: (1) Create a chart showing suggested), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3455,17 +3679,17 @@
       "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Geology Origins and Evolution)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (4a) Surface and Sedimentary Processes",
@@ -3479,7 +3703,12 @@
           "3. (4c) Mineral Resources",
           "4. (4d) Earth History"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The four option tracks require identical laboratory equipment and identical field techniques.",
@@ -3652,7 +3881,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3664,12 +3893,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to the study of geology"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to the study of geology"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)",
           "common_misconception_pair": {
@@ -3707,7 +3946,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img2.png",
           "workbook_diagram_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock.",
-          "workbook_visual_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock."
+          "workbook_visual_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock.",
+          "socratic_questions": [
+            "For geology Requirement 5a (Discuss with your counselor the importance of the Leave No Trace Seven Principles and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -3718,7 +3960,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3730,12 +3972,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while traveling in natural areas and while collecting rock and fossil specimens for this merit badge"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while traveling in natural areas and while collecting rock and fossil specimens for this merit badge"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)",
           "common_misconception_pair": {
@@ -3773,7 +4025,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img2.png",
           "workbook_diagram_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock.",
-          "workbook_visual_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock."
+          "workbook_visual_caption": "Intersecting fracture patterns reveal brittle deformation in solid bedrock.",
+          "socratic_questions": [
+            "For geology Requirement 5b (Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3791,7 +4046,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Geological Leave No Trace Stewardship",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -3800,7 +4055,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3819,7 +4074,13 @@
           "1. (5a) Leave No Trace and Outdoor Ethics",
           "2. (5b) Leave No Trace and Outdoor Ethics"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Collecting rocks and fossils from national parks and public lands is unrestricted for amateur hobbyists.",
@@ -4014,19 +4275,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)",
           "common_misconception_pair": {
             "misconception": "A bachelor degree in basic geology limits career choices to museum curation.",
             "fact": "Geology graduates enter high-demand fields like groundwater management, geotechnical foundation assessment, natural hazard mitigation, and renewable geothermal energy."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Geology Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Geology Merit Badge Hub (Req 6a)",
@@ -4057,12 +4319,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/geology_p052_img1.png",
           "workbook_diagram_caption": "A Scout explains petroleum extraction and refining using a presentation board.",
-          "workbook_visual_caption": "A Scout explains petroleum extraction and refining using a presentation board."
+          "workbook_visual_caption": "A Scout explains petroleum extraction and refining using a presentation board.",
+          "socratic_questions": [
+            "For geology Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Why I'm So Obsessed with Geology (video)",
@@ -4085,7 +4350,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4099,14 +4364,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)",
           "common_misconception_pair": {
@@ -4136,7 +4407,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 6b: Geological Hobbies and Recreation",
           "pamphlet_summary": "Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips.",
           "pamphlet_excerpts": [
@@ -4145,7 +4416,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/geology_p052_img1.png",
           "title": "Req 6b: Recreational Earth Science Hobbies",
           "workbook_diagram_caption": "A Scout explains petroleum extraction and refining using a presentation board.",
-          "workbook_visual_caption": "A Scout explains petroleum extraction and refining using a presentation board."
+          "workbook_visual_caption": "A Scout explains petroleum extraction and refining using a presentation board.",
+          "socratic_questions": [
+            "For geology Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4215,7 +4489,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Geology graduates work exclusively on outdoor mining rigs or remote wilderness oil fields.",

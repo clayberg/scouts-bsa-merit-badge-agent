@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safety Precautions You Must Exercise)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -55,12 +55,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices"
+          "1. Capacitor Charge Storage",
+          "2. One Hand Practice",
+          "3. Chemical Eye Protection"
         ],
         "rows": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices"
+          "1. Capacitor Charge Storage",
+          "2. One Hand Practice",
+          "3. Chemical Eye Protection"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Low voltage circuits can never cause severe electric shocks or fires.",
@@ -227,7 +237,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Simple Schematic)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -250,7 +260,13 @@
               "3. Use the correct symbols.",
               "4. Label all parts."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
@@ -288,7 +304,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p007_img1.png",
           "workbook_diagram_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
-          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components."
+          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
+          "socratic_questions": [
+            "For electronics Requirement 2a (Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -308,7 +327,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Electronics Requirement 2b Techniques)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -320,12 +339,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell the purpose of each part"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell the purpose of each part"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)",
           "common_misconception_pair": {
@@ -363,7 +392,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img5.png",
           "workbook_diagram_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
-          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components."
+          "workbook_visual_caption": "Needle-nose pliers allow delicate bending and holding of electronic components.",
+          "socratic_questions": [
+            "For electronics Requirement 2b (Tell the purpose of each part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -402,7 +434,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Simple Schematic)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -421,7 +453,13 @@
           "1. (2a) Simple Schematic",
           "2. (2b) Electronics Requirement 2b Techniques"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A schematic shows the actual physical layout and physical dimensions of circuit parts.",
@@ -593,7 +631,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Right Way to Solder and)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -605,12 +643,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show the right way to solder and desolder"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show the right way to solder and desolder"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
@@ -649,7 +697,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p012_img1.png",
           "title": "Req 3a: Soldering and Desoldering Connections",
           "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
-          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "socratic_questions": [
+            "For electronics Requirement 3a (Show the right way to solder and desolder), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -665,7 +716,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Avoid Heat Damage to Electronic)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -677,12 +728,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to avoid heat damage to electronic components"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to avoid heat damage to electronic components"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
@@ -720,7 +781,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p013_img1.png",
           "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
-          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "socratic_questions": [
+            "For electronics Requirement 3b (Show how to avoid heat damage to electronic components), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -736,7 +800,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Function of A Printed Circuit)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -755,7 +819,13 @@
               "1. Tell about the function of a printed circuit board.",
               "2. Tell what precautions should be observed when soldering printed circuit boards."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)",
           "common_misconception_pair": {
@@ -793,7 +863,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p013_img1.png",
           "workbook_diagram_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
-          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder."
+          "workbook_visual_caption": "A workbench displays safety glasses, a soldering iron, cutters, and solder.",
+          "socratic_questions": [
+            "For electronics Requirement 3c (Tell about the function of a printed circuit board. Tell what precautions should be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -832,7 +905,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Right Way to Solder and)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -853,7 +926,13 @@
           "2. (3b) Show how to avoid heat damage to electronic components",
           "3. (3c) Tell about the function of a printed circuit board"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Solder acts like glue and should be melted onto the iron tip first.",
@@ -1027,7 +1106,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(1) Structured Technical Study & Explanation Matrix (Electronics for A Control)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1039,12 +1118,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for a control purpose"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. How to use electronics for a control purpose"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1101,7 +1190,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (Basic Principles of Digital Logic)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1113,12 +1202,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain the basic principles of digital logic"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain the basic principles of digital logic"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1170,7 +1269,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(3) Structured Technical Study & Explanation Matrix (Electronics for Three Different Analog)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1182,12 +1281,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How to use electronics for three different analog applications"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. How to use electronics for three different analog applications"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1234,7 +1343,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Discuss Electronics Control Basic)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1255,7 +1364,13 @@
               "2. (4a(2)) Basic Principles of Digital Logic",
               "3. (4a(3)) Electronics for Three Different Analog"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
@@ -1293,7 +1408,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
           "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "socratic_questions": [
+            "For electronics Requirement 4a (Discuss each of the following with your counselor: (1) How to use electronics for a control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1313,7 +1431,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Change Three Decimal Numbers Into)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1325,12 +1443,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
@@ -1369,7 +1497,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
           "title": "Req 4b: Binary and Decimal Number Conversions",
           "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "socratic_questions": [
+            "For electronics Requirement 4b (Show how to change three decimal numbers into binary numbers and three binary numbers into), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1385,13 +1516,13 @@
             {
               "sub_id": "4c(1)",
               "label": "(1)",
-              "text": "A control device.",
+              "text": "A control device (2) A digital circuit (3) An analog circuit.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(1) Structured Technical Study & Explanation Matrix (Control Device)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1403,12 +1534,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A control device"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A control device"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1438,7 +1579,7 @@
               ],
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
-              "sub_req_text": "A control device.",
+              "sub_req_text": "A control device (2) A digital circuit (3) An analog circuit.",
               "topic_title": "Req 4c(1): Assembly of Electronic Control Devices",
               "pamphlet_summary": "Assembly of Electronic Control Devices: Building a control device project involves assembling an input sensor network that drives a switching transistor or relay to govern an output. The project must be carefully soldered or wire wrapped on a circuit board and tested under varying environmental conditions to verify dependable switching (p. 61).",
               "pamphlet_excerpts": [
@@ -1454,13 +1595,13 @@
             {
               "sub_id": "4c(2)",
               "label": "(2)",
-              "text": "A digital circuit.",
+              "text": "A digital circuit (3) An analog circuit.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(2) Structured Technical Study & Explanation Matrix (Digital Circuit)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1472,12 +1613,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A digital circuit"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A digital circuit"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1507,7 +1658,7 @@
               ],
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
-              "sub_req_text": "A digital circuit.",
+              "sub_req_text": "A digital circuit (3) An analog circuit.",
               "topic_title": "Req 4c(2): Construction of Functional Digital Circuits",
               "pamphlet_summary": "Construction of Functional Digital Circuits: Constructing a digital circuit involves wiring integrated circuit chips, logic gates, or pulse generating timers to manipulate discrete binary states. Builders must ensure proper power decoupling and follow pinout diagrams carefully to prevent floating inputs from causing spurious logic transitions (p. 68).",
               "pamphlet_excerpts": [
@@ -1529,7 +1680,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(3) Structured Technical Study & Explanation Matrix (Analog Circuit)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1541,12 +1692,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. An analog circuit"
+                  "1. Req 4c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. An analog circuit"
+                  "1. Req 4c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
@@ -1592,17 +1753,17 @@
           ],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Projects for Your Project)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (4c(1)) Control Device",
@@ -1614,7 +1775,13 @@
               "2. (4c(2)) Digital Circuit",
               "3. (4c(3)) Analog Circuit"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
           "common_misconception_pair": {
@@ -1652,7 +1819,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
           "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+          "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+          "socratic_questions": [
+            "For electronics Requirement 4c (Choose ONE of the following THREE projects. For your project, find or create a schematic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1694,17 +1864,17 @@
       "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Discuss Electronics Control Basic)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (4a) Discuss each of the following with your counselor: (1) How to use electronics for a control purpose",
@@ -1716,7 +1886,13 @@
           "2. (4b) Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers",
           "3. (4c) Choose ONE of the following THREE projects"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Digital circuits handle continuous physical sound waves more directly than analog amplifier circuits.",
@@ -1888,7 +2064,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Simple Problem Involving Current Voltage)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1900,12 +2076,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
@@ -1943,7 +2129,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
           "workbook_diagram_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
-          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array."
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
+          "socratic_questions": [
+            "For electronics Requirement 5a (Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1959,7 +2148,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Need Equipment Electronics Equipment)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1980,7 +2169,13 @@
               "2. Name three types of test equipment.",
               "3. Tell how they operate."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
@@ -2018,7 +2213,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
           "workbook_diagram_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
-          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array."
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
+          "socratic_questions": [
+            "For electronics Requirement 5b (Tell about the need for and the use of test equipment in electronics. Name three types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2034,7 +2232,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Colored Bands of A Resistor)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2046,12 +2244,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
@@ -2089,12 +2297,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
           "workbook_diagram_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
-          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array."
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
+          "socratic_questions": [
+            "For electronics Requirement 5c (Demonstrate to your counselor how to read the colored bands of a resistor to determine its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
           "label": "(d)",
-          "text": "Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.",
+          "text": "Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.",
           "resources": [
             {
               "title": "Through Hole vs Surface Mount Method? (video)",
@@ -2105,7 +2316,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 5d Technical Comparison Matrix (Hole and Surface Mount Assembly)",
+            "table_title": "Req 5d Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Through Hole Wire Lead Components",
@@ -2117,12 +2328,22 @@
               "Surface Mount Pad Soldered Components"
             ],
             "row_labels": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Through Hole Wire Lead Components",
+              "Surface Mount Pad Soldered Components"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)",
           "common_misconception_pair": {
@@ -2152,7 +2373,7 @@
           ],
           "id": "5d",
           "sub_req_label": "5d",
-          "sub_req_text": "Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages.",
+          "sub_req_text": "Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.",
           "topic_title": "Req 5d: Board Assembly Technology Comparison",
           "pamphlet_summary": "Through-hole and surface mount technologies represent the two primary methods for populating printed circuit boards. Surface mount components save board space, reduce parasitic capacitance, and lower manufacturing costs in modern consumer devices.",
           "pamphlet_excerpts": [
@@ -2160,7 +2381,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/electronics_p027_img1.png",
           "workbook_diagram_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
-          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array."
+          "workbook_visual_caption": "The underside of an integrated circuit reveals an detailed ball grid array.",
+          "socratic_questions": [
+            "For electronics Requirement 5d (Explain the differences between Through Hole and Surface Mount assembly technologies and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2203,7 +2427,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Simple Problem Involving Current Voltage)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Through Hole Wire Lead Components",
@@ -2226,7 +2450,13 @@
           "3. (5c) Colored Bands of A Resistor",
           "4. (5d) Hole and Surface Mount Assembly"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Through Hole Wire Lead Components",
+          "Surface Mount Pad Soldered Components"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A voltmeter is connected in series with the load to measure electric potential difference.",
@@ -2427,7 +2657,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All electronics jobs require a four-year electrical engineering degree from an accredited university.",

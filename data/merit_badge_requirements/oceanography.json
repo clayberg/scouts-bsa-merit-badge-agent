@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Branches of Oceanography)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -62,7 +62,13 @@
           "1. Name four branches of oceanography.",
           "2. Describe at least five reasons why it is important for people to learn about the oceans."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often view oceanography solely as the study of marine animals like fish.",
@@ -247,7 +253,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Salinity Temperature and Density)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -270,7 +276,13 @@
           "3. Discuss the circulation and currents of the ocean.",
           "4. Describe the effects of the oceans on weather and climate."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think seawater salinity remains completely uniform across all depths and latitudes.",
@@ -437,7 +449,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3a Technical Comparison Matrix (Out the Differences Among the)",
+            "table_title": "Req 3a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Seismic Tsunami and Storm Surge",
@@ -449,12 +461,22 @@
               "Gravitational Tidal Wave and Bore"
             ],
             "row_labels": [
-              "1. Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Seismic Tsunami and Storm Surge",
+              "Gravitational Tidal Wave and Bore"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
@@ -493,7 +515,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p012_img1.png",
           "title": "Req 3a: Storm Surge, Tsunami, and Tides",
           "workbook_diagram_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
-          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents."
+          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
+          "socratic_questions": [
+            "For oceanography Requirement 3a (Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -517,24 +542,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Sea Swell and Surf)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Seismic Tsunami and Storm Surge",
-              "Gravitational Tidal Wave and Bore"
+              "Req 3b Comparison Criterion",
+              "Primary Method / Category A",
+              "Alternative Method / Category B"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Seismic Tsunami and Storm Surge",
-              "Gravitational Tidal Wave and Bore"
+              "Req 3b Comparison Criterion",
+              "Primary Method / Category A",
+              "Alternative Method / Category B"
             ],
             "row_labels": [
-              "1. Explain the difference between sea, swell, and surf"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the difference between sea, swell, and surf"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Comparison Criterion",
+              "Primary Method / Category A",
+              "Alternative Method / Category B"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
@@ -572,7 +607,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p028_img1.png",
           "workbook_diagram_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
-          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents."
+          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
+          "socratic_questions": [
+            "For oceanography Requirement 3b (Explain the difference between sea, swell, and surf), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -588,7 +626,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Breakers Are Formed)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -600,12 +638,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how breakers are formed"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how breakers are formed"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
@@ -643,7 +691,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p028_img1.png",
           "workbook_diagram_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
-          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents."
+          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
+          "socratic_questions": [
+            "For oceanography Requirement 3c (Explain how breakers are formed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -663,7 +714,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Rip Current Is How to)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -675,12 +726,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a rip current is, how to avoid them, and what to do if you are caught in one"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a rip current is, how to avoid them, and what to do if you are caught in one"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)",
           "common_misconception_pair": {
@@ -719,7 +780,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p028_img1.png",
           "title": "Req 3d: Rip Current Identification and Escape",
           "workbook_diagram_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
-          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents."
+          "workbook_visual_caption": "Polar glaciers and floating ice shelves interact with frigid saltwater marine currents.",
+          "socratic_questions": [
+            "For oceanography Requirement 3d (Explain what a rip current is, how to avoid them, and what to do if you are caught in one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -778,7 +842,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Characteristics of Ocean Waves)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Seismic Tsunami and Storm Surge",
@@ -801,7 +865,13 @@
           "3. (3c) Explain how breakers are formed",
           "4. (3d) Explain what a rip current is, how to avoid them, and what to do if you are caught in one"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Seismic Tsunami and Storm Surge",
+          "Gravitational Tidal Wave and Bore"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe tidal waves and tsunamis refer to the exact same physical phenomenon.",
@@ -953,13 +1023,13 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Continental shelf.",
+          "text": "Continental shelf (b) Continental slope (c) Abyssal plain.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Continental Shelf)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -971,12 +1041,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Continental shelf"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Continental shelf"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
@@ -1006,7 +1086,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Continental shelf.",
+          "sub_req_text": "Continental shelf (b) Continental slope (c) Abyssal plain.",
           "topic_title": "Req 4a: Continental Shelf Structural Features",
           "pamphlet_summary": "The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.",
           "pamphlet_excerpts": [
@@ -1014,18 +1094,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p016_img1.png",
           "workbook_diagram_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
-          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations."
+          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
+          "socratic_questions": [
+            "For oceanography Requirement 4a (Continental shelf (b) Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Continental slope.",
+          "text": "Continental slope (c) Abyssal plain.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Continental Slope)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1037,12 +1120,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Continental slope"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Continental slope"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
@@ -1072,7 +1165,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Continental slope.",
+          "sub_req_text": "Continental slope (c) Abyssal plain.",
           "topic_title": "Req 4b: Continental Slope Topographic Profile",
           "pamphlet_summary": "The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents.",
           "pamphlet_excerpts": [
@@ -1080,7 +1173,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p016_img1.png",
           "workbook_diagram_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
-          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations."
+          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
+          "socratic_questions": [
+            "For oceanography Requirement 4b (Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1091,7 +1187,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Abyssal Plain)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1103,12 +1199,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Abyssal plain"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Abyssal plain"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
@@ -1146,7 +1252,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p016_img1.png",
           "workbook_diagram_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
-          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations."
+          "workbook_visual_caption": "Open ocean water stretches to the horizon showing coastal sea depth variations.",
+          "socratic_questions": [
+            "For oceanography Requirement 4c (Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1181,7 +1290,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Technical Comparison Matrix (Cross-section of Underwater Topography)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1202,7 +1311,13 @@
           "2. (4b) Continental Slope",
           "3. (4c) Abyssal Plain"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe the ocean floor is a flat, featureless sandy expanse stretching between continents.",
@@ -1379,7 +1494,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Main Salts Gases and Nutrients)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "High Evaporation Increases Local Salinity",
@@ -1402,7 +1517,13 @@
           "3. Tell how the animals and plants of the ocean affect the chemical composition of sea water.",
           "4. Explain how differences in evaporation and precipitation affect the salt content of the oceans."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "High Evaporation Increases Local Salinity",
+          "Heavy Precipitation Dilutes Surface Salinity"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think seawater salinity fluctuates wildly in ionic chemical proportions in the open sea.",
@@ -1587,7 +1708,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Biologically Important Properties of Seawater)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1610,7 +1731,13 @@
           "3. Name some of the plants and animals that make up each of these groups.",
           "4. Describe the place and importance of phytoplankton in the oceanic food chain."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that all organisms classified as plankton are microscopic single-celled creatures.",
@@ -1777,7 +1904,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist (Plankton Net Tow the Net)",
+            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1800,7 +1927,13 @@
               "3. Do this for about 20 minutes.",
               "4. Save the sample."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
@@ -1838,7 +1971,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7a (Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -1858,7 +1994,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist (Series of Models Clay or)",
+            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1879,7 +2015,13 @@
               "2. Show the growth of an atoll from a fringing reef through a barrier reef.",
               "3. Describe the Darwinian theory of coral reef formation."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
@@ -1918,7 +2060,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "title": "Req 7b: Volcanic Island and Atoll Models",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7b (Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -1934,7 +2079,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist (Water Temperature at the Surface)",
+            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1957,7 +2102,12 @@
               "3. Make a Secchi disk to measure turbidity (how much suspended sedimentation is in the water).",
               "4. Measure the air temperature."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
@@ -1995,7 +2145,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7c (Measure the water temperature at the surface, midwater, and bottom of a body of water four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -2011,7 +2164,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7d Hands-On Skill Station & EDGE Verification Checklist (Model Showing the Inshore Sediment)",
+            "table_title": "Req 7d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2032,7 +2185,13 @@
               "2. Include such formations as high and low waterlines, low-tide terrace, berm, and coastal cliffs",
               "3. Show how offshore bars are built up and torn"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
@@ -2070,7 +2229,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7d (Make a model showing the inshore sediment movement by littoral currents, tidal movement,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
@@ -2102,7 +2264,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7e Hands-On Skill Station & EDGE Verification Checklist (Wave Generator Show Reflection and)",
+            "table_title": "Req 7e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2123,7 +2285,13 @@
               "2. Show reflection and refraction of waves.",
               "3. Show how groins, jetties, and breakwaters affect these patterns."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
@@ -2162,7 +2330,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "title": "Req 7e: Wave Generator and Coastal Barriers",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7e (Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
@@ -2178,7 +2349,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 7f Quantitative Field Observation & Activity Log (Permission Track and Monitor Satellite)",
+            "table_title": "Req 7f Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2199,19 +2370,21 @@
               "1. With your counselor's and parent or guardian's approval and permission, track and monitor satellite images available on the internet for a specific location for three weeks",
               "2. Describe what you have learned to your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)",
           "common_misconception_pair": {
             "misconception": "Scouts assume ocean satellites only take standard optical photographs like a common digital camera.",
             "fact": "Satellite infrared sensors measure sea surface temperature anomalies, while altimeters track ocean surface heights."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Oceanography Req 7f with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Oceanography Merit Badge Hub (Req 7f)",
@@ -2242,7 +2415,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p024_img1.png",
           "workbook_diagram_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
-          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea."
+          "workbook_visual_caption": "Gentle waves wash onto a pebble shoreline reflecting golden morning light over the sea.",
+          "socratic_questions": [
+            "For oceanography Requirement 7f (With your counselor's and parent or guardian's approval and permission, track and monitor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2313,7 +2489,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Plankton Net Tow the Net)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2340,18 +2516,19 @@
           "5. (7e) Make a wave generator",
           "6. (7f) Satellite Oceanography Image Tracking"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think building an oceanographic apparatus requires commercial laboratory equipment rather than simple materials.",
         "fact": "Plankton nets use fine-mesh silk or nylon bolting cloth to capture micro-crustaceans and colonial diatoms."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Oceanography Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Oceanography Merit Badge Hub (Req 7)",
@@ -2508,7 +2685,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (500-word Report on A Book)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2520,24 +2697,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write a 500-word report on a book about oceanography approved by your counselor"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Write a 500-word report on a book about oceanography approved by your counselor"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume any novel set at sea qualifies as an oceanographic text.",
             "fact": "Oceanographic literature covers specialized domains ranging from polar exploration to deep ocean hydrothermal vents."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Oceanography Req 8a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Oceanography Merit Badge Hub (Req 8a)",
@@ -2568,7 +2750,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p057_img1.png",
           "workbook_diagram_caption": "An oceanographic vessel uses heavy stern cranes to deploy deep-sea scientific instruments.",
-          "workbook_visual_caption": "An oceanographic vessel uses heavy stern cranes to deploy deep-sea scientific instruments."
+          "workbook_visual_caption": "An oceanographic vessel uses heavy stern cranes to deploy deep-sea scientific instruments.",
+          "socratic_questions": [
+            "For oceanography Requirement 8a (Write a 500-word report on a book about oceanography approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2590,7 +2775,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8b(1) Structured Technical Study & Explanation Matrix (Oceanographic Research Ship)",
+                "table_title": "Req 8b",
                 "headers": [
                   "Req 8b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2602,12 +2787,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Oceanographic research ship"
+                  "1. Req 8b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Oceanographic research ship"
+                  "1. Req 8b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
               "common_misconception_pair": {
@@ -2668,7 +2863,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8b(2) Structured Technical Study & Explanation Matrix (Oceanographic Institute Marine Laboratory or)",
+                "table_title": "Req 8b",
                 "headers": [
                   "Req 8b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2680,12 +2875,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Oceanographic institute, marine laboratory, or marine aquarium"
+                  "1. Req 8b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Oceanographic institute, marine laboratory, or marine aquarium"
+                  "1. Req 8b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
               "common_misconception_pair": {
@@ -2733,7 +2938,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (500-word Report About Your Visit)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2752,7 +2957,13 @@
               "1. (8b(1)) Oceanographic research ship",
               "2. (8b(2)) Oceanographic institute, marine laboratory, or marine aquarium"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
@@ -2790,7 +3001,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p030_img1.png",
           "workbook_diagram_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
-          "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life."
+          "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
+          "socratic_questions": [
+            "For oceanography Requirement 8b (Visit one of the following and write a 500-word report about your visit. (1) Oceanographic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -2822,12 +3036,22 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Explain to your troop, in a five-minute prepared speech, \"Why Oceanography Is Important\" or describe \"Career Opportunities in Oceanography.\""
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your troop, in a five-minute prepared speech, \"Why Oceanography Is Important\" or describe \"Career Opportunities in Oceanography.\""
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
           "common_misconception_pair": {
@@ -2865,7 +3089,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/oceanography_p030_img1.png",
           "workbook_diagram_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
-          "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life."
+          "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
+          "socratic_questions": [
+            "For oceanography Requirement 8c (Explain to your troop, in a five-minute prepared speech, \"Why Oceanography Is Important\" or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2929,7 +3156,12 @@
           "2. (8b) 500-word Report About Your Visit",
           "3. (8c) Oceanography Careers and Pathways"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe oceanography careers require working exclusively aboard offshore research vessels at sea.",
@@ -3116,7 +3348,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Marine Scientists)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3128,12 +3360,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water"
+          "1. Acoustic Mapping",
+          "2. Sediment Coring",
+          "3. Submersible Exploration"
         ],
         "rows": [
-          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water"
+          "1. Acoustic Mapping",
+          "2. Sediment Coring",
+          "3. Submersible Exploration"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.",

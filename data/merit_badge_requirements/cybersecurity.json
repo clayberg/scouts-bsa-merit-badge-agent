@@ -31,7 +31,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -43,24 +43,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Digital safety videos are strictly intended for adults rather than active youth users.",
             "fact": "Viewing mandatory youth protection modules provides baseline rules for identifying suspicious digital interactions."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 1a)",
@@ -91,7 +96,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p003_img1.png",
           "workbook_diagram_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
-          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1."
+          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 1a (View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -107,7 +115,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist (Protect Your Digital Footprint)",
+            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -126,7 +134,13 @@
               "1. Explain to your counselor how to protect your digital footprint, such as while using social media, mobile device apps, and online gaming",
               "2. Show how to set privacy settings to protect your personal information, including photos of yourself or your location"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -164,7 +178,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p003_img1.png",
           "workbook_diagram_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
-          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1."
+          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 1b (Explain to your counselor how to protect your digital footprint, such as while using social), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -188,7 +205,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Discuss First Aid and Prevention)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -207,7 +224,13 @@
               "1. Discuss first aid and prevention for potential injuries, such as eye strain, repetitive injuries, and handling electronics devices, that could occur during repeated use",
               "2. Discuss how to keep yourself physically safe while using a mobile device (for example while walking or biking)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -245,7 +268,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p003_img1.png",
           "workbook_diagram_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
-          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1."
+          "workbook_visual_caption": "Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 1c (Discuss first aid and prevention for potential injuries, such as eye strain, repetitive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -288,7 +314,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Safety Do the Following A)",
+        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -309,7 +335,12 @@
           "2. (1b) Protect Your Digital Footprint",
           "3. (1c) Discuss First Aid and Prevention"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Deleting an uploaded photo or post immediately removes it from internet storage systems.",
@@ -485,7 +516,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Relate People Internet Computers)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -497,12 +528,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -540,7 +581,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 2a (Relate three points of the Scout law to things people do on the internet or with computers,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -556,7 +600,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Discuss Ethical Unethical Behavior)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -581,7 +625,13 @@
               "4. or discovering a website that is not properly secured",
               "5. Explain why these situations require good judgment, and how the Scout Law and personal values should guide your actions"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -619,7 +669,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 2b (Discuss with your counselor examples of ethical and unethical behavior in cyberspace.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -654,7 +707,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Ethics Do the Following A)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -673,7 +726,13 @@
           "1. (2a) Relate People Internet Computers",
           "2. (2b) Discuss Ethical Unethical Behavior"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Playing harmless pranks on an unlocked computer terminal is acceptable among close friends.",
@@ -829,7 +888,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Describe three types of computer systems that need protecting and explain.",
+          "text": "Describe three types of computer systems that need protecting and explain why.",
           "resources": [
             {
               "title": "Cybersecurity Explained | Future of Tech (video)",
@@ -844,7 +903,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Computer Systems That Need Protecting)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -856,12 +915,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe three types of computer systems that need protecting"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe three types of computer systems that need protecting"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -891,7 +960,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Describe three types of computer systems that need protecting and explain.",
+          "sub_req_text": "Describe three types of computer systems that need protecting and explain why.",
           "topic_title": "Req 3a: Critical Computer Systems Protection",
           "pamphlet_summary": "Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks.",
           "pamphlet_excerpts": [
@@ -899,7 +968,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 3a (Describe three types of computer systems that need protecting and explain why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -919,7 +991,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Triad Confidentiality Integrity and Availability)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -934,15 +1006,21 @@
               "1. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
               "2. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
               "3. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
-              "4. Triad\", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity"
+              "4. Triad\", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity\""
             ],
             "rows": [
               "1. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
               "2. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
               "3. Core principles and practical standards for Confidentiality Integrity and Availability Triad",
-              "4. Triad\", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity"
+              "4. Triad\", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity\""
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -980,7 +1058,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 3b (Explain the \"C. I. A. Triad\", Confidentiality, Integrity, and Availability, and why these), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1010,7 +1091,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Cybersecurity Architecture and Foundational",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never connect personal flash drives to critical school, medical, or municipal computer terminals.",
@@ -1019,7 +1100,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Fundamentals Do the Following and)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1038,7 +1119,13 @@
           "1. (3a) Computer Systems That Need Protecting",
           "2. (3b) Triad Confidentiality Integrity and Availability"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Cybersecurity protections focus exclusively on traditional desktop personal computers and smartphones.",
@@ -1213,7 +1300,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Vulnerability Threat and Exploit)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1225,12 +1312,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website or software product you use"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Define the terms vulnerability, threat, and exploit, and give an example of each that might apply to a website or software product you use"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1268,7 +1365,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4a (Define the terms vulnerability, threat, and exploit, and give an example of each that might), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1292,7 +1392,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Malware Such As Virus Worm)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1311,7 +1411,13 @@
               "1. Pick one type of malware (such as virus, worm, Trojan, back door, spyware, or ransom ware) and find out how it works.",
               "2. Explain what it does and the harm it can cause."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1349,7 +1455,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4b (Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1373,7 +1482,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Risks of Using Public Wi-Fi)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1385,12 +1494,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1428,7 +1547,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4c (Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1452,7 +1574,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Spoofing and Phishing)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1464,14 +1586,20 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick you.",
+              "1. Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick",
               "2. Explain what steps you should take to protect yourself and others if you come across one."
             ],
             "rows": [
-              "1. Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick you.",
+              "1. Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick",
               "2. Explain what steps you should take to protect yourself and others if you come across one."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1509,12 +1637,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4d (Describe what spoofing and phishing are, and how to recognize a message or website that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
           "label": "(e)",
-          "text": "Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.",
+          "text": "Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was.",
           "resources": [],
           "children": [
             {
@@ -1543,7 +1674,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4e(1) Structured Technical Study & Explanation Matrix (Article or A News)",
+                "table_title": "Req 4e",
                 "headers": [
                   "Req 4e(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1562,7 +1693,13 @@
                   "1. Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection",
                   "2. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4e(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -1608,13 +1745,13 @@
             {
               "sub_id": "4e(2)",
               "label": "(2)",
-              "text": "With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.",
+              "text": "With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4e(2) Structured Technical Study & Explanation Matrix (Movie or Read A Book)",
+                "table_title": "Req 4e",
                 "headers": [
                   "Req 4e(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1633,19 +1770,20 @@
                   "1. With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role.",
                   "2. Discuss how cybersecurity topics were depicted and how realistic you think."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4e(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
                 "misconception": "Cinematic depictions of hacking where individuals break into military mainframes within seconds by mashing keys represent actual cybersecurity attacks.",
                 "fact": "Genuine network intrusions require days or months of methodical reconnaissance, vulnerability scanning, and credential harvesting rather than instantaneous keystroke guessing."
               },
-              "starting_requirement_gate": {
-                "gate_type": "PARENT_CONSENT_GATE",
-                "gate_label": "Parent/Guardian Consent & Review",
-                "gate_description": "Review and complete Cybersecurity Req 4e(2) with your parent or guardian's approval in compliance with BSA Youth Protection.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 4e(2))",
@@ -1668,7 +1806,7 @@
               ],
               "id": "4e(2)",
               "sub_req_label": "4e(2)",
-              "sub_req_text": "With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.",
+              "sub_req_text": "With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was.",
               "topic_title": "Req 4e(2): Media Depictions of Cybersecurity Realism",
               "pamphlet_summary": "Media Depictions of Cybersecurity Realism: Comparing dramatic entertainment portrayals to authentic technical practices highlights where scriptwriters take creative liberties with computer operations. Accurate evaluations identify whether hacking techniques depicted in books or cinema reflect actual social engineering, brute force, or protocol flaws (p. 38).",
               "pamphlet_excerpts": [
@@ -1685,7 +1823,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Current Events)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1704,19 +1842,20 @@
               "1. (4e(1)) Article or A News",
               "2. (4e(2)) Movie or Read A Book"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Large corporate security breaches always originate from sophisticated zero-day state-sponsored software exploits.",
             "fact": "Post-incident analysis reports identify root causes to prevent repeat technical architecture compromises."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 4e with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 4e)",
@@ -1739,7 +1878,7 @@
           ],
           "id": "4e",
           "sub_req_label": "4e",
-          "sub_req_text": "Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.",
+          "sub_req_text": "Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think it was.",
           "topic_title": "Req 4e: Cyber Incident Case Analysis",
           "pamphlet_summary": "Analyzing recent security incidents reveals how common configuration errors permit extensive unauthorized access. Examining historical breaches provides practical lessons for hardening modern network perimeters.",
           "pamphlet_excerpts": [
@@ -1747,7 +1886,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4e (Current Events. Do ONE of the following: (1) Read an article or a news report about a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1763,7 +1905,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Cyber Attack Surface)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1775,12 +1917,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a list of what is part of your cyber attack surface including all the ways someone could try to access your personal information or devices, such as online accounts, apps, or home networks"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a list of what is part of your cyber attack surface including all the ways someone could try to access your personal information or devices, such as online accounts, apps, or home networks"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -1818,7 +1970,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 4f (Create a list of what is part of your cyber attack surface including all the ways someone), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1909,7 +2064,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Cyber Threats Vulnerabilities and Attacks)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1936,7 +2091,12 @@
           "5. (4e) Current Events",
           "6. (4f) Cyber Attack Surface"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The terms threat, vulnerability, and exploit describe the exact same security concept.",
@@ -2112,7 +2272,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Technologies That Are Used to)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2124,12 +2284,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe three technologies that are used to defend a computer or network, such as access controls, antivirus software, firewall, intrusion detection/prevention systems, and Virtual Private Network"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe three technologies that are used to defend a computer or network, such as access controls, antivirus software, firewall, intrusion detection/prevention systems, and Virtual Private Network"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2168,7 +2338,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p005_img1.png",
           "title": "Req 5a: Network and Device Defense Technologies",
           "workbook_diagram_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 5a (Describe three technologies that are used to defend a computer or network, such as access), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2194,7 +2367,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5b(1) Structured Technical Study & Explanation Matrix (Installing the Latest Updates)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Req 5b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2206,12 +2379,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent"
+                  "1. Req 5b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2268,7 +2451,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5b(2) Hands-On Skill Station & EDGE Verification Checklist (Download and Install the Latest)",
+                "table_title": "Req 5b",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2287,7 +2470,13 @@
                   "1. Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use",
                   "2. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2334,7 +2523,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist (Installing Updates)",
+            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2353,7 +2542,13 @@
               "1. (5b(1)) Installing The Latest Updates",
               "2. (5b(2)) Download and Install The Latest"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2391,18 +2586,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 5b (Installing updates. Do the following: (1) Explain to your counselor the importance of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
           "label": "(c)",
-          "text": "System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is \"strong.\" (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.",
+          "text": "System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is \"strong.\" (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it.",
           "resources": [],
           "children": [
             {
               "sub_id": "5c(1)",
               "label": "(1)",
-              "text": "Describe what makes a good password and why. Set or change an account password to one that is \"strong.",
+              "text": "Describe what makes a good password and why. Set or change an account password to one that is \"strong.\"",
               "resources": [
                 {
                   "title": "How Not to Get Hacked: Passwords (video)",
@@ -2425,7 +2623,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(1) Structured Technical Study & Explanation Matrix (Password and Why Set or)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2438,13 +2636,19 @@
                 ],
                 "row_labels": [
                   "1. Describe what makes a good password",
-                  "2. Set or change an account password to one that is \"strong"
+                  "2. Set or change an account password to one that is \"strong\""
                 ],
                 "rows": [
                   "1. Describe what makes a good password",
-                  "2. Set or change an account password to one that is \"strong"
+                  "2. Set or change an account password to one that is \"strong\""
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2474,7 +2678,7 @@
               ],
               "id": "5c(1)",
               "sub_req_label": "5c(1)",
-              "sub_req_text": "Describe what makes a good password and why. Set or change an account password to one that is \"strong.",
+              "sub_req_text": "Describe what makes a good password and why. Set or change an account password to one that is \"strong.\"",
               "topic_title": "Req 5c(1): Strong Password Composition and Entropy",
               "pamphlet_summary": "Strong Password Composition and Entropy: Strong authentication relies on length and unpredictability, combining multi-word passphrases with varied character types to resist dictionary and brute-force attacks. Users must establish unique credentials across every account to prevent credential stuffing when external services suffer breaches (p. 45).",
               "pamphlet_excerpts": [
@@ -2510,7 +2714,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(2) Hands-On Skill Station & EDGE Verification Checklist (Multi-factor Authentication MFA)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2529,7 +2733,13 @@
                   "1. Describe multi-factor authentication (MFA) and how it can be used to improve security.",
                   "2. Demonstrate how to use an authenticator app or other MFA function."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2586,7 +2796,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(3) Hands-On Skill Station & EDGE Verification Checklist (Install and Set Up A)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2605,7 +2815,13 @@
                   "1. Install and set up a password manager.",
                   "2. Demonstrate how it works to your counselor."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2687,7 +2903,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(4) Structured Technical Study & Explanation Matrix (Run A Virus Scan)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2706,7 +2922,13 @@
                   "1. Run a virus scan.",
                   "2. Show the results to your counselor."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2752,7 +2974,7 @@
             {
               "sub_id": "5c(5)",
               "label": "(5)",
-              "text": "Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises.",
+              "text": "Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you.",
               "resources": [
                 {
                   "title": "How to View All Running Processes in Windows 10 & 11 (video)",
@@ -2779,7 +3001,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(5) Structured Technical Study & Explanation Matrix (Command Line or Other Built-in)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2798,7 +3020,13 @@
                   "1. Using a command line or other built-in tool, see what programs or processes are running on your computer.",
                   "2. Discuss with your counselor what you see and what surprises."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2828,7 +3056,7 @@
               ],
               "id": "5c(5)",
               "sub_req_label": "5c(5)",
-              "sub_req_text": "Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises.",
+              "sub_req_text": "Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you.",
               "topic_title": "Req 5c(5): System Process Enumeration and Inspection",
               "pamphlet_summary": "System Process Enumeration and Inspection: Operating systems run numerous background services, daemon processes, and system threads that manage networking, memory, and hardware interfaces. Built-in tools like Task Manager, Activity Monitor, or terminal process listings allow users to audit process identifiers, memory consumption, and active executable paths (p. 49).",
               "pamphlet_excerpts": [
@@ -2863,7 +3091,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(6) Structured Technical Study & Explanation Matrix (Command Line Interface to View)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2882,7 +3110,13 @@
                   "1. Use a command line interface to view your computer's open network connections.",
                   "2. Discuss the results with your counselor."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2955,7 +3189,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(7) Hands-On Skill Station & EDGE Verification Checklist (Back Up Your Data)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2967,12 +3201,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Demonstrate how to back up your data from a mobile device to a local computer or the cloud"
+                  "1. Req 5c(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Demonstrate how to back up your data from a mobile device to a local computer or the cloud"
+                  "1. Req 5c(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -3037,7 +3281,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 5c(8) Hands-On Skill Station & EDGE Verification Checklist (Protecting A Home Computer or)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -3049,12 +3293,22 @@
                   "Buddy / Counselor Sign-Off Notes"
                 ],
                 "row_labels": [
-                  "1. Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure"
+                  "1. Req 5c(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(8) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure"
+                  "1. Req 5c(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 5c(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 5c(8) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -3101,13 +3355,13 @@
             {
               "sub_id": "5c(9)",
               "label": "(9)",
-              "text": "Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.",
+              "text": "Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 5c(9) Structured Technical Study & Explanation Matrix (More Other Vulnerabilities on Your)",
+                "table_title": "Req 5c",
                 "headers": [
                   "Req 5c(9) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3126,7 +3380,13 @@
                   "1. Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor",
                   "2. With permission from the system owner, take the necessary actions to fix"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 5c(9) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -3156,7 +3416,7 @@
               ],
               "id": "5c(9)",
               "sub_req_label": "5c(9)",
-              "sub_req_text": "Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.",
+              "sub_req_text": "Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it.",
               "topic_title": "Req 5c(9): Vulnerability Assessment and Remediation",
               "pamphlet_summary": "Vulnerability Assessment and Remediation: Identifying weaknesses requires auditing open sharing permissions, disabled firewalls, outdated router firmware, or unprotected peripheral devices. Remediating findings requires proper authorization from the equipment owner before disabling unnecessary services or changing configuration settings (p. 53).",
               "pamphlet_excerpts": [
@@ -3174,7 +3434,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (System Security)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3207,19 +3467,20 @@
               "8. (5c(8)) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure",
               "9. (5c(9)) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor"
             ],
-            "min_rows": 9
+            "min_rows": 9,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Substituting simple numbers for letters creates uncrackable passwords against modern dictionary attack tools.",
             "fact": "Length and entropy provide superior resistance against offline brute force password cracking attacks."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Cybersecurity Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 5c)",
@@ -3242,7 +3503,7 @@
           ],
           "id": "5c",
           "sub_req_label": "5c",
-          "sub_req_text": "System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is \"strong.\" (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.",
+          "sub_req_text": "System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is \"strong.\" (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix it.",
           "topic_title": "Req 5c: System Hardening and Authentication",
           "pamphlet_summary": "Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations.",
           "pamphlet_excerpts": [
@@ -3250,7 +3511,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 5c (System security. With your parent or guardian's permission, do THREE of the following using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3413,7 +3677,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Cyber Defenses)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3434,7 +3698,12 @@
           "2. (5b) Installing updates",
           "3. (5c) System security"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Software updates exist solely to introduce visual interface changes and new software features.",
@@ -3618,7 +3887,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Situations Where Encryption)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3637,7 +3906,13 @@
               "1. Research and explain to your counselor three situations where encryption is used in cybersecurity.",
               "2. For each situation, describe what kind of encryption is used and why it is important."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -3675,7 +3950,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p006_img1.png",
           "workbook_diagram_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
-          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6."
+          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 6a (Research and explain to your counselor three situations where encryption is used in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -3695,7 +3973,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (You Can Know If Your)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3707,12 +3985,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how you can know if your connection to a website is encrypted"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how you can know if your connection to a website is encrypted"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -3751,7 +4039,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p006_img1.png",
           "title": "Req 6b: Verifying Encrypted Website Connections",
           "workbook_diagram_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
-          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6."
+          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 6b (Show how you can know if your connection to a website is encrypted), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -3781,7 +4072,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 6c(1) Hands-On Skill Station & EDGE Verification Checklist (Own Encryption)",
+                "table_title": "Req 6c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -3800,7 +4091,13 @@
                   "1. Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message.",
                   "2. Describe the strengths and weaknesses of your code."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -3869,7 +4166,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6c(2) Structured Technical Study & Explanation Matrix (Download and Set Up An)",
+                "table_title": "Req 6c",
                 "headers": [
                   "Req 6c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3892,7 +4189,13 @@
                   "3. Core principles and practical standards for Download and Set Up an App",
                   "4. Core principles and practical standards for Download and Set Up an App"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -3958,16 +4261,16 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 6c(3) Technical Comparison Matrix (Hashing Tool for Example Using)",
+                "table_title": "Req 6c",
                 "headers": [
-                  "Comparison Dimension",
-                  "Symmetric Single-Key Secret Encryption",
-                  "Asymmetric Public-Private Key Cryptography"
+                  "Req 6c(3) Comparison Criterion",
+                  "Hashing Characteristics & Standards",
+                  "Checking Characteristics & Standards"
                 ],
                 "column_headers": [
-                  "Comparison Dimension",
-                  "Symmetric Single-Key Secret Encryption",
-                  "Asymmetric Public-Private Key Cryptography"
+                  "Req 6c(3) Comparison Criterion",
+                  "Hashing Characteristics & Standards",
+                  "Checking Characteristics & Standards"
                 ],
                 "row_labels": [
                   "1. Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text",
@@ -3977,7 +4280,13 @@
                   "1. Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text",
                   "2. Have a fellow Scout or your counselor make a change to it, then recreate the checksum and compare the new checksum to the original as a demonstration of file integrity checking"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6c(3) Comparison Criterion",
+                  "Hashing Characteristics & Standards",
+                  "Checking Characteristics & Standards"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -4038,7 +4347,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6c(4) Structured Technical Study & Explanation Matrix (Own PGP Pretty Good Privacy)",
+                "table_title": "Req 6c",
                 "headers": [
                   "Req 6c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4061,7 +4370,13 @@
                   "3. Also, get their public keys and add them to your computer's key ring.",
                   "4. Send a message that has been digitally encrypted."
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -4108,7 +4423,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6c Technical Comparison Matrix (Own Encryption)",
+            "table_title": "Req 6c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Symmetric Single-Key Secret Encryption",
@@ -4131,7 +4446,13 @@
               "3. (6c(3)) Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text",
               "4. (6c(4)) Create your own PGP (pretty good privacy) email key"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Symmetric Single-Key Secret Encryption",
+              "Asymmetric Public-Private Key Cryptography"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -4169,7 +4490,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cybersecurity_p006_img1.png",
           "workbook_diagram_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
-          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6."
+          "workbook_visual_caption": "Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 6c (Do ONE of the following: (1) Create your own encryption code, such as a substitution cipher), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4264,7 +4588,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (Cryptography Situations Encryption Used)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Symmetric Single-Key Secret Encryption",
@@ -4285,7 +4609,13 @@
           "2. (6b) Show how you can know if your connection to a website is encrypted",
           "3. (6c) Creating Ciphers and Encrypted Messaging"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Symmetric Single-Key Secret Encryption",
+          "Asymmetric Public-Private Key Cryptography"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Encryption makes data completely unreadable only to attackers while keeping it readable to intermediaries.",
@@ -4470,7 +4800,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Connected Devices and Internet)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4489,7 +4819,13 @@
           "1. Connected Devices and Internet of Things (IoT)",
           "2. Describe to your counselor four electronic devices you encounter that could be connected to the internet, why this connectivity can be useful, what risks are posed by the connectivity, and how they could be protected"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Home internet appliances lack sufficient computational power to participate in malicious botnet swarms.",
@@ -4668,7 +5004,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Learn About A Cybersecurity Competition)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4687,7 +5023,13 @@
               "1. Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in the future).",
               "2. Share what you learned with your counselor, including the type of activity, time commitment, and age of participants."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -4725,7 +5067,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/cybersecurity_req_8_topic_visual.png",
           "workbook_diagram_caption": "Four illustrated panels detail confidentiality, data integrity, system availability, and non-repudiation security standards.",
-          "workbook_visual_caption": "Four illustrated panels detail confidentiality, data integrity, system availability, and non-repudiation security standards."
+          "workbook_visual_caption": "Four illustrated panels detail confidentiality, data integrity, system availability, and non-repudiation security standards.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 8a (Learn about a cybersecurity competition, camp, or other activity you could participate in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -4753,7 +5098,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Cybersecurity Competition with Members)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4772,19 +5117,20 @@
               "1. Participate in a cybersecurity competition with members of your troop, school, or some other group approved by your counselor.",
               "2. Either design your own competition or use an existing platform."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "Scoring in cybersecurity competitions relies solely on offensive exploitation of opponent team servers.",
             "fact": "Blue team defense exercises emphasize rapid incident triage, service availability, and boundary hardening."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Cybersecurity Req 8b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 8b)",
@@ -4815,7 +5161,10 @@
           ],
           "workbook_diagram_url": "assets/images/cybersecurity_req_8_nano_hero.png",
           "workbook_diagram_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop.",
-          "workbook_visual_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop."
+          "workbook_visual_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 8b (Participate in a cybersecurity competition with members of your troop, school, or some), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -4826,7 +5175,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Presentation Approved Cybersecurity Topic)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4845,19 +5194,20 @@
               "1. Give a presentation to your patrol, troop, or another group approved by your counselor, on a cybersecurity topic of your choice.",
               "2. Your presentation must include at least one demonstration and/or hands-on activity."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
             "misconception": "A cybersecurity demonstration requires presenting complex live terminal exploitation code to audience members.",
             "fact": "Interactive demonstrations of phishing detection significantly improve retention compared to purely lecture presentations."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Cybersecurity Req 8c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 8c)",
@@ -4888,7 +5238,10 @@
           ],
           "workbook_diagram_url": "assets/images/cybersecurity_req_8_nano_hero.png",
           "workbook_diagram_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop.",
-          "workbook_visual_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop."
+          "workbook_visual_caption": "Scouts sit under an outdoor canopy operating laptops connected to a presentation display during a workshop.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 8c (Give a presentation to your patrol, troop, or another group approved by your counselor, on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4943,7 +5296,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Cybersecurity Activities)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4964,18 +5317,19 @@
           "2. (8b) Cybersecurity Competition With Members",
           "3. (8c) Presentation Approved Cybersecurity Topic"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Cybersecurity competitions focus exclusively on illegal unauthorized hacking techniques and breaking school software.",
         "fact": "Cyber competitions evaluate defensive hardening, forensic analysis, and rapid security incident triage capabilities."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Cybersecurity Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Cybersecurity Merit Badge Hub (Req 8)",
@@ -5167,7 +5521,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -5205,7 +5565,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/cybersecurity_req_9_topic_visual.png",
           "workbook_diagram_caption": "Panels illustrate various cybersecurity roles, data center server management, and wireless infrastructure.",
-          "workbook_visual_caption": "Panels illustrate various cybersecurity roles, data center server management, and wireless infrastructure."
+          "workbook_visual_caption": "Panels illustrate various cybersecurity roles, data center server management, and wireless infrastructure.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 9a (Identify three career opportunities that would use skills and knowledge in cybersecurity.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -5216,7 +5579,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Business or Organization That Does)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5237,7 +5600,12 @@
               "2. Find out about different work roles, what they do, and how they acquired their knowledge through college degrees or certifications.",
               "3. Share what you learned with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -5276,7 +5644,10 @@
           "workbook_diagram_url": "assets/images/cybersecurity_req_9_nano_hero.png",
           "title": "Req 9b: Visiting a Cybersecurity Workplace Organization",
           "workbook_diagram_caption": "Three Scouts study a table map detailing cybersecurity careers including security architects and analysts.",
-          "workbook_visual_caption": "Three Scouts study a table map detailing cybersecurity careers including security architects and analysts."
+          "workbook_visual_caption": "Three Scouts study a table map detailing cybersecurity careers including security architects and analysts.",
+          "socratic_questions": [
+            "For cybersecurity Requirement 9b (Visit a business or organization that does work in cybersecurity. Find out about different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5334,7 +5705,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every cybersecurity professional spends their workday writing code or breaking into corporate servers.",

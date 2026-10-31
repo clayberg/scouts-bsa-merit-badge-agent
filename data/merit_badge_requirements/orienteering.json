@@ -55,7 +55,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (You Know First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -74,7 +74,13 @@
           "1. Show that you know first aid for the following types of injuries that could occur while orienteering: cuts, scratches, blisters, snakebite, insect stings, tick",
           "2. Explain to your counselor why you should be able to identify poisonous plants and poisonous animals that are found in your area"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Snakebite venom extraction kits effectively neutralize hemotoxins before systemic circulation occurs.",
@@ -252,7 +258,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Map Symbols and Topographic Features)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -264,12 +270,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what orienteering"
+          "1. Sport Definition",
+          "2. Control Sequences",
+          "3. Equipment Standard"
         ],
         "rows": [
-          "1. Explain what orienteering"
+          "1. Sport Definition",
+          "2. Control Sequences",
+          "3. Equipment Standard"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Orienteering simply measures hiking speed along premarked recreational trails.",
@@ -432,7 +448,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Compass Works Describe the Features)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -451,7 +467,13 @@
               "1. Explain how a compass works.",
               "2. Describe the features of an orienteering compass."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
@@ -489,12 +511,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 3a (Explain how a compass works. Describe the features of an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "In the field, show how to take a compass bearing and follow.",
+          "text": "In the field, show how to take a compass bearing and follow it.",
           "resources": [
             {
               "title": "How to Use a Compass (video)",
@@ -505,7 +530,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Field Compass Bearing Follow)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -517,12 +542,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the field, show how to take a compass bearing and follow"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In the field, show how to take a compass bearing and follow"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)",
           "common_misconception_pair": {
@@ -552,7 +587,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "In the field, show how to take a compass bearing and follow.",
+          "sub_req_text": "In the field, show how to take a compass bearing and follow it.",
           "topic_title": "Req 3b: Field Bearing Navigation Technique",
           "pamphlet_summary": "Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line.",
           "pamphlet_excerpts": [
@@ -560,7 +595,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 3b (In the field, show how to take a compass bearing and follow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -591,7 +629,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Compass Works Describe the Features)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -610,7 +648,13 @@
           "1. (3a) Compass Works Describe The Features",
           "2. (3b) Field Compass Bearing Follow"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The compass needle points in the direction the navigator must walk along the course.",
@@ -773,7 +817,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Topographic Map Shows Terrain Features)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -792,7 +836,13 @@
               "1. Explain how a topographic map shows terrain features.",
               "2. Point out and name five terrain features on a map and in the field."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -830,7 +880,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p021_img1.png",
           "workbook_diagram_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope.",
-          "workbook_visual_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope."
+          "workbook_visual_caption": "A compass rests over elevation contour lines helping navigators interpret terrain slope.",
+          "socratic_questions": [
+            "When completing orienteering Requirement 4a, how does Contour spacing illustrates topography apply in practice (close lines show steep cliffs, wide lines show plains, and closed loops identify)?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -841,7 +894,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Out and Name Symbols)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -853,12 +906,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Point out and name 10 symbols on a topographic map"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Point out and name 10 symbols on a topographic map"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -896,7 +959,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 4b (Point out and name 10 symbols on a topographic map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -912,7 +978,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Declination Tell Why You Must)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -931,7 +997,13 @@
               "1. Explain the meaning of declination.",
               "2. Tell why you must consider declination when using map and compass together."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -970,7 +1042,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "title": "Req 4c: Understanding Magnetic Declination",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 4c (Explain the meaning of declination. Tell why you must consider declination when using map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -981,7 +1056,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Topographic Map with Magnetic North-south)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -993,12 +1068,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a topographic map with magnetic north-south lines"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show a topographic map with magnetic north-south lines"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -1036,7 +1121,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 4d (Show a topographic map with magnetic north-south lines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1047,7 +1135,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4e Hands-On Skill Station & EDGE Verification Checklist (Distances Orienteering Compass)",
+            "table_title": "Req 4e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1059,12 +1147,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to measure distances on a map using an orienteering compass"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to measure distances on a map using an orienteering compass"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -1102,7 +1200,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 4e (Show how to measure distances on a map using an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1113,7 +1214,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4f Hands-On Skill Station & EDGE Verification Checklist (Orient A Map Using A)",
+            "table_title": "Req 4f Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1125,12 +1226,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to orient a map using a compass"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to orient a map using a compass"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -1169,7 +1280,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p009_img1.png",
           "title": "Req 4f: Orienting Maps with Compasses",
           "workbook_diagram_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
-          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing."
+          "workbook_visual_caption": "Hands turn the rotating dial on a baseplate compass to set an accurate magnetic bearing.",
+          "socratic_questions": [
+            "For orienteering Requirement 4f (Show how to orient a map using a compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1200,7 +1314,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Topographic Map Shows Terrain Features)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1227,7 +1341,13 @@
           "5. (4e) Show how to measure distances on a map using an orienteering compass",
           "6. (4f) Show how to orient a map using a compass"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Contour lines represent hiking footpaths and territorial boundary lines across the mapped region.",
@@ -1405,7 +1525,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (100-meter Pace Course Determine Your)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1426,7 +1546,13 @@
           "2. Determine your walking and running pace for 100 meters.",
           "3. Tell why it is important to pace-count."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A pace count remains identical regardless of whether a runner traverses road or dense forest.",
@@ -1589,7 +1715,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (International Control Description Symbols)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1608,7 +1734,13 @@
               "1. Identify 20 international control description symbols.",
               "2. Tell the meaning of each symbol."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
@@ -1646,7 +1778,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
           "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
-          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "socratic_questions": [
+            "For orienteering Requirement 6a (Identify 20 international control description symbols. Tell the meaning of each symbol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1662,7 +1797,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Control Description Sheet)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1674,12 +1809,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show a control description sheet and explain the information provided"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show a control description sheet and explain the information provided"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
@@ -1717,7 +1862,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
           "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
-          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "socratic_questions": [
+            "For orienteering Requirement 6b (Show a control description sheet and explain the information provided), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1733,7 +1881,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6c Technical Comparison Matrix (You Would Use Them Attack)",
+            "table_title": "Req 6c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Direct Bearing to Target",
@@ -1745,12 +1893,22 @@
               "Deliberate Aiming Off Technique"
             ],
             "row_labels": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Direct Bearing to Target",
+              "Deliberate Aiming Off Technique"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
@@ -1789,7 +1947,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p046_img1.png",
           "title": "Req 6c: Core Orienteering Navigation Terms",
           "workbook_diagram_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
-          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard."
+          "workbook_visual_caption": "Two scouts navigate through dense woodland using an official course map and compass lanyard.",
+          "socratic_questions": [
+            "For orienteering Requirement 6c (Explain the following terms and tell when you would use them: attack point, collecting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1824,7 +1985,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (International Control Description Symbols)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Direct Bearing to Target",
@@ -1845,7 +2006,13 @@
           "2. (6b) Control Description Sheet",
           "3. (6c) You Would Use Them Attack"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Direct Bearing to Target",
+          "Deliberate Aiming Off Technique"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Control descriptions are written in local prose paragraphs on competition sheets.",
@@ -2008,7 +2175,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Orienteering Events)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2031,7 +2198,13 @@
               "3. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system",
               "4. Requirement 7(a) can be completed by pairs or groups of Scouts"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
@@ -2069,7 +2242,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png",
           "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
-          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course."
+          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
+          "socratic_questions": [
+            "For orienteering Requirement 7a (Take part in three orienteering events. One of these must be a cross-country course. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2080,7 +2256,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Event Copy Master Control)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2099,7 +2275,13 @@
               "1. After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3)",
               "2. Describe what you could do to improve"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
@@ -2137,7 +2319,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p028_img1.png",
           "workbook_diagram_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
-          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course."
+          "workbook_visual_caption": "A competitor punches an electronic timing stick into a control marker station on course.",
+          "socratic_questions": [
+            "For orienteering Requirement 7b (After each event, write a report with (1) a copy of the master map and control description), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -2150,7 +2335,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 7: Event Participation and Route Analysis",
-      "action_verb": "Demonstrate",
+      "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Buddies must remain within conversational distance throughout the entire course regardless of individual running capabilities.",
@@ -2159,7 +2344,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Orienteering Events)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2178,7 +2363,13 @@
           "1. (7a) Orienteering Events",
           "2. (7b) Event Copy Master Control"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts may navigate remote cross country courses alone without maintaining visual buddy contact.",
@@ -2341,7 +2532,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Cross-country Course)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2360,7 +2551,13 @@
               "1. Set up a cross-country course that is at least 2,000 meters long with at least five control markers.",
               "2. Prepare the master map and control description sheet."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
@@ -2398,7 +2595,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png",
           "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
-          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
+          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
+          "socratic_questions": [
+            "For orienteering Requirement 8a (Set up a cross-country course that is at least 2,000 meters long with at least five control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2414,7 +2614,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Score Orienteering Course)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2435,7 +2635,13 @@
               "2. Set point values for each control.",
               "3. Prepare the master map and control description sheet."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)",
           "common_misconception_pair": {
@@ -2473,7 +2679,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/orienteering_p027_img1.png",
           "workbook_diagram_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
-          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route."
+          "workbook_visual_caption": "Two scouts in uniform check an orienteering map and point along their plotted course route.",
+          "socratic_questions": [
+            "For orienteering Requirement 8b (Set up a score orienteering course with at least 12 control points and a time limit of at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2500,7 +2709,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Cross-country Course)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2519,7 +2728,13 @@
           "1. (8a) Cross-country Course",
           "2. (8b) Score Orienteering Course"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Course design can be accomplished entirely on paper without scouting physical field locations.",
@@ -2687,7 +2902,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Official During An Orienteering Event)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2706,7 +2921,13 @@
           "1. Act as an official during an orienteering event.",
           "2. This may be during the running of the course you set up for requirement 8."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Orienteering officials only start the race stopwatch and do no other course work.",
@@ -2874,7 +3095,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Teach Orienteering Techniques)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2886,12 +3107,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew"
+          "1. Curriculum Structure",
+          "2. Visual Aids",
+          "3. Field Progression"
         ],
         "rows": [
-          "1. Teach orienteering techniques to your patrol, troop, or crew"
+          "1. Curriculum Structure",
+          "2. Visual Aids",
+          "3. Field Progression"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Orienteering instruction is best accomplished through extended lectures without hands on field navigation.",

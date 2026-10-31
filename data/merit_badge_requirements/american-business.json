@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 1a Technical Comparison Matrix (Features of the Free Enterprise)",
+            "table_title": "Req 1a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Responsible Economic Freedom Under Law",
@@ -58,7 +58,13 @@
               "2. Describe the difference between freedom and license.",
               "3. Tell how the Scout Oath and Scout Law apply to business and free enterprise."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Responsible Economic Freedom Under Law",
+              "Unrestrained License Without Ethical Limits"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)",
           "common_misconception_pair": {
@@ -96,12 +102,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p003_img1.png",
           "workbook_diagram_caption": "Factory workers operate machinery during early American industrial development.",
-          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development."
+          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development.",
+          "socratic_questions": [
+            "For american business Requirement 1a (Explain four features of the free enterprise system in the United States. Describe the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
           "label": "(b)",
-          "text": "Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe.",
+          "text": "Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe what each did.",
           "resources": [
             {
               "title": "The Industrial Revolution: Crash Course History of Science #21 (video)",
@@ -132,7 +141,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Industrial Revolution)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -151,7 +160,13 @@
               "1. Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States",
               "2. Discuss three people who had a great influence on business or industry in the United States"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)",
           "common_misconception_pair": {
@@ -181,7 +196,7 @@
           ],
           "id": "1b",
           "sub_req_label": "1b",
-          "sub_req_text": "Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe.",
+          "sub_req_text": "Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe what each did.",
           "topic_title": "Req 1b: Industrial Revolution Historical Milestones",
           "pamphlet_summary": "Mechanized textile production and steam power accelerated nineteenth-century manufacturing across the United States. Industrial leaders like Andrew Carnegie and Henry Ford standardized mass production methods.",
           "pamphlet_excerpts": [
@@ -189,7 +204,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p013_img1.png",
           "workbook_diagram_caption": "Factory workers operate machinery during early American industrial development.",
-          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development."
+          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development.",
+          "socratic_questions": [
+            "For american business Requirement 1b (Describe the Industrial Revolution and tell about the major developments that marked the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -205,7 +223,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Primary Areas of Business)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -217,12 +235,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify and describe to your counselor the five primary areas of business"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify and describe to your counselor the five primary areas of business"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)",
           "common_misconception_pair": {
@@ -260,7 +288,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p013_img1.png",
           "workbook_diagram_caption": "Factory workers operate machinery during early American industrial development.",
-          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development."
+          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development.",
+          "socratic_questions": [
+            "For american business Requirement 1c (Identify and describe to your counselor the five primary areas of business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -280,7 +311,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (History of Labor Unions)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -299,7 +330,13 @@
               "1. Explain the history of labor unions in the United States and the importance of labor unions and employers working together.",
               "2. Identify two major labor unions currently in existence."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)",
           "common_misconception_pair": {
@@ -337,7 +374,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p013_img1.png",
           "workbook_diagram_caption": "Factory workers operate machinery during early American industrial development.",
-          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development."
+          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development.",
+          "socratic_questions": [
+            "For american business Requirement 1d (Explain the history of labor unions in the United States and the importance of labor unions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1e",
@@ -353,7 +393,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)",
+            "table_title": "Req 1e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -365,12 +405,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor how business impacts the local, national, and global economy"
+              "1. Req 1e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor how business impacts the local, national, and global economy"
+              "1. Req 1e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)",
           "common_misconception_pair": {
@@ -409,7 +459,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p013_img1.png",
           "title": "Req 1e: Local, National, and Global Economies",
           "workbook_diagram_caption": "Factory workers operate machinery during early American industrial development.",
-          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development."
+          "workbook_visual_caption": "Factory workers operate machinery during early American industrial development.",
+          "socratic_questions": [
+            "For american business Requirement 1e (Discuss with your counselor how business impacts the local, national, and global economy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -471,7 +524,7 @@
         "ttl_days": 30
       },
       "topic_title": "Req 1: American Free Enterprise Foundations",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -480,7 +533,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Technical Comparison Matrix (Free Enterprise System Features)",
+        "table_title": "Req 1 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Responsible Economic Freedom Under Law",
@@ -505,7 +558,13 @@
           "4. (1d) Explain the history of labor unions in the United States and the importance of labor unions and employers working together",
           "5. (1e) Discuss with your counselor how business impacts the local, national, and global economy"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Responsible Economic Freedom Under Law",
+          "Unrestrained License Without Ethical Limits"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Economic freedom permits a business to disregard public safety and breach signed supply contracts.",
@@ -610,10 +669,10 @@
       "estimated_minutes": 15,
       "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for American Business Requirement 1 (free enterprise and business foundations) across all 5 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/american_business_req_1_nano_hero.png",
-      "workbook_diagram_caption": "Detailed scenes portray corporate conference meetings, retail storefronts, rising financial trend lines, and lively marketplace exchanges.",
+      "workbook_diagram_caption": "Detailed scenes portray corporate conference meetings, retail storefronts, rising financial trendlines, and lively marketplace exchanges.",
       "number": "1",
       "description": "Do the following: (a) Explain four features of the free enterprise system in the United States. Describe the difference between freedom and license. Tell how the Scout Oath and Scout Law apply to business and free enterprise. (b) Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe what each did. (c) Identify and describe to your counselor the five primary areas of business. (d) Explain the history of labor unions in the United States and the importance of labor unions and employers working together. Identify two major labor unions currently in existence. (e) Discuss with your counselor how business impacts the local, national, and global economy.",
-      "workbook_visual_caption": "Detailed scenes portray corporate conference meetings, retail storefronts, rising financial trend lines, and lively marketplace exchanges.",
+      "workbook_visual_caption": "Detailed scenes portray corporate conference meetings, retail storefronts, rising financial trendlines, and lively marketplace exchanges.",
       "pamphlet_summary": "The free enterprise system operates on private property rights, voluntary exchange, open market competition, and profit incentives. Constitutional protections ensure commercial freedom while legal contracts and commercial statutes prevent unlawful predatory license.",
       "socratic_questions": [
         "How does consumer sovereignty dictate which goods a manufacturing company decides to produce?",
@@ -668,7 +727,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Basic Types of Financial Statements)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -687,7 +746,13 @@
               "1. Explain the three basic types of financial statements (income statement, balance sheet, and statement of cash flows).",
               "2. Discuss with your counselor how each statement can help business leaders make better decisions."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -725,7 +790,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p007_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 2a (Explain the three basic types of financial statements (income statement, balance sheet, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -741,7 +809,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Changes in Interest Rates Taxes)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -753,12 +821,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how changes in interest rates, taxes, and government spending affect the flow of money into or out of business and industry"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how changes in interest rates, taxes, and government spending affect the flow of money into or out of business and industry"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -796,7 +874,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p036_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 2b (Explain how changes in interest rates, taxes, and government spending affect the flow of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -812,7 +893,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Sole Proprietorship Partnership or Limited)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -831,7 +912,13 @@
               "1. Explain how a sole proprietorship, partnership, or limited liability company gets its capital.",
               "2. Discuss and explain four ways a corporation obtains capital."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -869,7 +956,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p036_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 2c (Explain how a sole proprietorship, partnership, or limited liability company gets its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -885,7 +975,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Insurance Useful to Business)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -904,7 +994,13 @@
               "1. Name five kinds of insurance useful to business.",
               "2. Describe their purposes."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -942,7 +1038,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p036_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 2d (Name five kinds of insurance useful to business. Describe their purposes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -981,7 +1080,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Business Financial Statements)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1004,7 +1103,13 @@
           "3. (2c) Sole Proprietorship Partnership or Limited",
           "4. (2d) Insurance Useful to Business"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A company reporting positive net income on its income statement always holds abundant liquid cash.",
@@ -1167,7 +1272,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Place of Profit in Business)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1179,12 +1284,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the place of profit in business"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the place of profit in business"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)",
           "common_misconception_pair": {
@@ -1222,7 +1337,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p012_img1.png",
           "workbook_diagram_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
-          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant."
+          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
+          "socratic_questions": [
+            "For american business Requirement 3a (Explain the place of profit in business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1238,7 +1356,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Green Marketing and Sustainable Business)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1250,12 +1368,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe to your counselor green marketing and sustainable business practices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe to your counselor green marketing and sustainable business practices"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)",
           "common_misconception_pair": {
@@ -1293,7 +1421,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p018_img1.png",
           "workbook_diagram_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
-          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant."
+          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
+          "socratic_questions": [
+            "For american business Requirement 3b (Describe to your counselor green marketing and sustainable business practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1309,7 +1440,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Ethics Plays A Role in)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1321,12 +1452,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how ethics plays a role in business decision making"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how ethics plays a role in business decision making"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)",
           "common_misconception_pair": {
@@ -1365,7 +1506,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p018_img1.png",
           "title": "Req 3c: Ethical Business Decision Making",
           "workbook_diagram_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
-          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant."
+          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
+          "socratic_questions": [
+            "For american business Requirement 3c (Explain how ethics plays a role in business decision making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1381,7 +1525,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3d Technical Comparison Matrix (Discuss the Differences Between Operating)",
+            "table_title": "Req 3d Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Brick-and-Mortar Physical Storefront Operations",
@@ -1393,12 +1537,22 @@
               "E-Commerce Online Storefront Operations"
             ],
             "row_labels": [
-              "1. Discuss the differences between operating a brick-and-mortar business versus an online business"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the differences between operating a brick-and-mortar business versus an online business"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Brick-and-Mortar Physical Storefront Operations",
+              "E-Commerce Online Storefront Operations"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)",
           "common_misconception_pair": {
@@ -1436,7 +1590,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p018_img1.png",
           "workbook_diagram_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
-          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant."
+          "workbook_visual_caption": "Assembly line laborers construct automobiles inside an early Ford manufacturing plant.",
+          "socratic_questions": [
+            "For american business Requirement 3d (Discuss the differences between operating a brick-and-mortar business versus an online business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1466,7 +1623,7 @@
         "ttl_days": 30
       },
       "topic_title": "Req 3: Business Profitability and Ethics",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1475,7 +1632,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Role of Profit and Ethical Conduct)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Brick-and-Mortar Physical Storefront Operations",
@@ -1498,7 +1655,13 @@
           "3. (3c) Explain how ethics plays a role in business decision making",
           "4. (3d) Discuss the differences between operating a brick-and-mortar business versus an online business"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Brick-and-Mortar Physical Storefront Operations",
+          "E-Commerce Online Storefront Operations"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Profit represents surplus money taken greedily from consumers without providing any economic benefit.",
@@ -1691,7 +1854,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Federal Economic and Trade Agencies)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1714,7 +1877,13 @@
           "3. Department of Labor",
           "4. Discuss TWO of the following topics with your counselor: Fair Labor Standards Act (FLSA), Occupational Safety and Health Act"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Federal labor regulations apply solely to heavy manufacturing factories rather than small professional offices.",
@@ -1882,7 +2051,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Local Business Operations Case Study)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1901,7 +2070,13 @@
           "1. Choose a business and research how it applies to each of the primary areas of business (accounting, finance, economics, marketing, and management)",
           "2. Share what you have learned with your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The five core business functions operate as isolated silos without daily cross-departmental coordination.",
@@ -2053,7 +2228,7 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests.",
+          "text": "Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests you.",
           "resources": [
             {
               "title": "Careers in Business (video)",
@@ -2089,7 +2264,13 @@
               "2. Select one and research the education, training, and experience required for this career.",
               "3. Discuss this with your counselor and explain why this interests."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
@@ -2119,7 +2300,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests.",
+          "sub_req_text": "Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests you.",
           "topic_title": "Req 6a: Specialized Business Career Exploration",
           "pamphlet_summary": "Careers in finance, marketing, accounting, management, or economics offer specialized career tracks. Professionals in these fields complete undergraduate degrees, earn professional credentials, and build domain expertise.",
           "pamphlet_excerpts": [
@@ -2127,7 +2308,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p036_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 6a (Choose one of the primary areas of business and identify three career opportunities. Select), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2159,7 +2343,13 @@
               "2. Discuss the role ethics plays in making business decisions.",
               "3. Share what you have learned with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Business Merit Badge Pamphlet (p. 38, p. 42)",
           "common_misconception_pair": {
@@ -2197,7 +2387,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_business_p036_img1.png",
           "workbook_diagram_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
-          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment."
+          "workbook_visual_caption": "Patrons gather around a dinner table inside Sylvia Woods famous soul food establishment.",
+          "socratic_questions": [
+            "For american business Requirement 6b (Select a business leader and interview this individual to learn more about his or her), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2251,7 +2444,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A career in corporate business management requires only a high school diploma without ongoing professional training.",

@@ -676,7 +676,7 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
 
     # Strip structural headers like 'Core Standard 1 (Req 1):' or 'Primary Standard' or 'Option A:' or 'Workbook Entry 1'
     clean_anc = re.sub(
-        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*|Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check|Preparation\s*&\s*Study|Equipment\s*&\s*Safety\s+Check|Hands-On\s+Demonstration|Counselor\s+Verification|Workbook\s+Entry\s+\d+|Key\s+Point\s+\d+)\s*[:\-]?\s*",
+        r"^(?:Core\s+Standard\s+\d+\s*(?:\([^)]*\))?|Primary\s+Standard|Field\s+Evidence\s+Recorded|Safety\s*&\s*Verification|Option\s+[A-Z0-9]+|Pamphlet\s+Reference\s+Anchor|Core\s+Technical\s+Principle|Applied\s+Field\s+Mechanism|Preventive\s+Controls\s*&\s*PPE|Primary\s+Field\s+Hazard|Step-by-Step\s+Execution|Field\s+Verification|Equipment\s*&\s*Station\s+Setup|Practical\s+Verification\s*&\s*Sign-Off|Step\s+\d+\s*[-:]\s*|Phase\s+\d+\s*[-:]\s*|Field\s+Reference|Pamphlet\s+Verification|Buddy\s+Check|Practical\s+Execution|Counselor\s+Conference\s+Check|Preparation\s*&\s*Study|Equipment\s*&\s*Safety\s+Check|Hands-On\s+Demonstration|Counselor\s+Verification|Workbook\s+Entry\s+\d+|Key\s+Point\s+\d+)\s*[:\-]?\s*",
         "",
         clean_anc,
         flags=re.IGNORECASE,
@@ -687,7 +687,8 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
         r"^(?:Explain(?!\s+Phase)|Discuss|Describe|Demonstrate(?!\s+Phase)|Show|Identify|Tell|Find|List|Name|Review|Obtain|Do|"
         r"Prevent|Avoid|Always|Never|Every|Ever|Connect|Trace|Apply|Practice|Present|Record|Check|Verify|Complete|Study|Research|"
         r"Compare|Contrast|Make|Build|Create|Select|Choose|Use|Keep|Write|Draw|Sketch|Visit|Attend|Interview|Share|Read|Watch|"
-        r"Play|Set|Teach|Learn|Understand|Know|Why|How|What|When|Where|Which|Who|Whether)\b"
+        r"Play|Set|Teach|Learn|Understand|Know|Map|Document|Analyze|Formulate|Shake|Survey|Direct|Locate|Mark|Gather|Prepare|Plan|Design|Construct|Inspect|"
+        r"Why|How|What|When|Where|Which|Who|Whether)\b"
     )
 
     # Case 1: 'Requirement 1a (Scene Safety & 3 Cs)' -> 'Scene Safety & 3 Cs'
@@ -701,9 +702,9 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
         if not re.match(_leading_verb_or_wh_re, paren_topic, flags=re.IGNORECASE):
             return paren_topic
 
-    # Strip leading 'Requirement 1a:' or 'Req 1a -' or '(1)' from anchor
+    # Strip leading 'Requirement 1a:' or 'Req 1a -' or '(1)' or bare '4b ' from anchor
     stripped_anc = re.sub(
-        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*[:\-]?\s*|\([0-9a-zA-Z]+\)\s*)",
+        r"^(?:Req(?:uirement)?\s+[0-9a-zA-Z.()]+\s*[:\-]?\s*|\([0-9a-zA-Z]+\)\s*|[0-9]{1,2}[a-z](?:\([0-9a-z]+\))?\s+)",
         "",
         clean_anc,
         flags=re.IGNORECASE,
@@ -754,7 +755,8 @@ def _extract_meaningful_topic_phrase(anchor: str, body: str, fallback: str) -> s
 
     candidate = re.sub(
         r"^(?:Explain|Discuss|Describe|Demonstrate|Show|Identify|Tell|List|Name|Review|Obtain|Master|Inspect|Define|Perform|"
-        r"Connect|Trace|Apply|Practice|Present|Record|Check|Verify|Complete|Study|Research|Compare|Contrast|Make|Build|Use|Keep)\s+"
+        r"Connect|Trace|Apply|Practice|Present|Record|Check|Verify|Complete|Study|Research|Compare|Contrast|Make|Build|Use|Keep|"
+        r"Map|Document|Analyze|Formulate|Shake|Survey|Direct|Locate|Mark|Gather|Prepare|Plan|Design|Construct)\s+"
         r"(?:the\s+(?:steps\s+necessary\s+to|precautions\s+you\s+must\s+take\s+to|importance\s+of|meaning\s+of|difference\s+between|core\s+principles\s+of|key\s+components\s+of|term)\s+|"
         r"evaluation\s+of\s+and\s+|all\s+sub-parts\s+of\s+|how\s+you\s+would\s+|how\s+to\s+|how\s+|why\s+|what\s+|when\s+|where\s+|a\s+)?",
         "",
@@ -1278,13 +1280,13 @@ def _build_slide_teaching_notes(
         "CONCEPT_TEXT_SLIDE": 0,
         "STEP_BY_STEP_PROCEDURE_4CARD": 1,
         "HANDS_ON_STATION": 1,
-        "WORKED_EXAMPLE_TEMPLATE": 2,
-        "PREREQUISITE_LOG_TRACKER": 2,
-        "DIFFERENTIAL_COMPARISON_2COL": 3,
-        "GEAR_CHECKLIST_GRID": 4,
-        "SPLIT_VISUAL_EXPLAINER": 5,
-        "FULL_BLEED_IMAGE_EXPLAINER": 5,
-        "SOCRATIC_CHECKPOINT_QUIZ": 6,
+        "DIFFERENTIAL_COMPARISON_2COL": 2,
+        "WORKED_EXAMPLE_TEMPLATE": 3,
+        "PREREQUISITE_LOG_TRACKER": 3,
+        "SOCRATIC_CHECKPOINT_QUIZ": 4,
+        "GEAR_CHECKLIST_GRID": 5,
+        "SPLIT_VISUAL_EXPLAINER": 6,
+        "FULL_BLEED_IMAGE_EXPLAINER": 6,
     }
     role_idx = _role_map.get(arch, min(6, max(0, int(slide_idx_in_req))))
     precomp_map = _load_precomputed_facilitator_notes()
@@ -1517,7 +1519,7 @@ def _build_slide_teaching_notes(
         )
         if prereq_list:
             ask_line = (
-                f"[ASK SCOUTS FIRST] Looking at our {clean_badge} Requirements Overview matrix, which requirements ({prereq_list}) require field logs, campout execution, or home-troop preparation before Blue Card sign-off?"
+                f"[ASK SCOUTS FIRST] Looking at our {clean_badge} Requirements Overview matrix, which requirements require field logs, campout execution, or home-troop preparation before Blue Card sign-off, and how will you schedule them?"
             )
             key_line = (
                 f"[EXPECTED PAMPHLET ANSWER KEY] Reference: Official {clean_badge} Merit Badge Pamphlet Table of Contents. "
@@ -1572,13 +1574,14 @@ def _build_slide_teaching_notes(
     # Reference clean_caption ONLY in [PACING & MODALITY] (never duplicate it in [DEMONSTRATION & SIGN-OFF RUBRIC])
     visual_tie_in = ""
     if has_visual and clean_caption:
+        fig_pos_label = "full-bleed figure" if arch == "FULL_BLEED_IMAGE_EXPLAINER" else "right-hand figure"
         vis_templates = [
-            f" [Gesture to the right-hand figure: {clean_caption}] Have Scouts trace how {topic_1} is illustrated on the diagram.",
-            f" [Point to the visual figure: {clean_caption}] Ask a volunteer to point out where {topic_1} and {topic_2} appear in the illustration.",
-            f" [Trace across the diagram: {clean_caption}] Connect each callout on the visual directly to {topic_1}.",
-            f" [Gesture to the illustrated graphic: {clean_caption}] Use the figure to show how {topic_1} works in real field conditions.",
-            f" [Point to the right-hand diagram: {clean_caption}] Walk the patrol through the visual cues for {topic_1}.",
-            f" [Gesture to the slide figure: {clean_caption}] Highlight the visual contrast supporting {clean_badge} {req_display_label}.",
+            f" [Gesture to the {fig_pos_label}: {clean_caption}] Have Scouts connect this visual directly to {clean_badge} {req_display_label}.",
+            f" [Point to the visual figure: {clean_caption}] Ask a volunteer to explain what key field detail the illustration highlights for {req_display_label}.",
+            f" [Trace across the diagram: {clean_caption}] Connect each callout on the visual directly to the {clean_badge} pamphlet standard.",
+            f" [Gesture to the illustrated graphic: {clean_caption}] Use the figure to show how this concept works in real field conditions.",
+            f" [Point to the {fig_pos_label}: {clean_caption}] Walk the patrol through the visual cues shown in the figure.",
+            f" [Gesture to the slide figure: {clean_caption}] Highlight the visual reference supporting {clean_badge} {req_display_label}.",
         ]
         visual_tie_in = vis_templates[tpl_idx]
 
@@ -1605,8 +1608,14 @@ def _build_slide_teaching_notes(
 
     action_verb = str(req_data.get("action_verb") or "").strip().lower()
     _valid_verbs = {"explain", "discuss", "describe", "demonstrate", "show", "identify", "prepare", "list", "review", "verify", "complete", "perform"}
+    if (
+        action_verb in ("demonstrate", "show", "perform")
+        and execution_mode != ExecutionMode.HANDS_ON_SKILL_STATION.value
+        and not re.search(r"\b(demonstrate|show|perform)\b", clean_req_text, flags=re.IGNORECASE)
+    ):
+        action_verb = ""
     if action_verb not in _valid_verbs:
-        m_verb = re.match(r"^(explain|discuss|describe|demonstrate|show|identify|prepare|list|review|perform)\b", clean_req_text, flags=re.IGNORECASE)
+        m_verb = re.search(r"\b(explain|discuss|describe|demonstrate|show|identify|prepare|list|review|perform)\b", clean_req_text, flags=re.IGNORECASE)
         action_verb = m_verb.group(1).lower() if m_verb else ("demonstrate" if execution_mode == ExecutionMode.HANDS_ON_SKILL_STATION.value else "explain")
     action_verb_3p = _conjugate_third_person_singular(action_verb)
 
@@ -1701,8 +1710,6 @@ def _build_slide_teaching_notes(
             ask_block = (
                 f"[ASK SCOUTS FIRST] Pose this scenario to buddy pairs before revealing the answer key: \"{scenario}\" Which option do you choose first, and why does it satisfy the {clean_badge} Merit Badge Pamphlet standard?"
             )
-    elif chosen_socratic_q:
-        ask_block = f"[ASK SCOUTS FIRST] {chosen_socratic_q}"
     elif arch == SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value or comparison_data:
         cd = comparison_data or {}
         left_h = _sanitize_no_ellipsis_or_emdash(str(cd.get("left_header") or topic_1))
@@ -1713,6 +1720,16 @@ def _build_slide_teaching_notes(
             f"[ASK SCOUTS FIRST] Why does confusing {left_h} with {right_h} lead to the wrong action in {clean_badge} {req_display_label}, and what check separates them?",
         ]
         ask_block = comp_asks[tpl_idx % len(comp_asks)]
+    elif arch == SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value or worked_example:
+        ask_block = (
+            f"[ASK SCOUTS FIRST] Compare a vague one-line note with this worked example for \"{clean_title}\": what specific detail in {topic_1} makes this log ready for {clean_badge} {req_display_label} sign-off?"
+        )
+    elif arch == SlideArchetype.GEAR_CHECKLIST_GRID.value or gear_checklist:
+        gear_asks = [
+            f"[ASK SCOUTS FIRST] During a 60-second patrol shakedown for \"{clean_title},\" why is {topic_1} critical, and what happens if it is missing or damaged on the trail?",
+            f"[ASK SCOUTS FIRST] Which item on our \"{clean_title}\" checklist ({topic_1} vs. {topic_2}) are new Scouts most likely to forget before a troop outing, and why?",
+        ]
+        ask_block = gear_asks[tpl_idx % len(gear_asks)]
     elif arch == SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value:
         proc_asks = [
             f"[ASK SCOUTS FIRST] Why must your buddy pair complete {topic_1} before moving to {topic_2} during \"{clean_title},\" and what goes wrong if Step 1 is skipped?",
@@ -1720,16 +1737,8 @@ def _build_slide_teaching_notes(
             f"[ASK SCOUTS FIRST] When performing \"{clean_title}\" in the field for {clean_badge} {req_display_label}, how do you verify {topic_1} is locked in before advancing to {topic_2}?",
         ]
         ask_block = proc_asks[tpl_idx % len(proc_asks)]
-    elif arch == SlideArchetype.GEAR_CHECKLIST_GRID.value or gear_checklist:
-        gear_asks = [
-            f"[ASK SCOUTS FIRST] During a 60-second patrol shakedown for \"{clean_title},\" why is {topic_1} critical, and what happens if it is missing or damaged on the trail?",
-            f"[ASK SCOUTS FIRST] Which item on our \"{clean_title}\" checklist ({topic_1} vs. {topic_2}) are new Scouts most likely to forget before a troop outing, and why?",
-        ]
-        ask_block = gear_asks[tpl_idx % len(gear_asks)]
-    elif arch == SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value or worked_example:
-        ask_block = (
-            f"[ASK SCOUTS FIRST] Compare a vague one-line note with this worked example for \"{clean_title}\": what specific detail in {topic_1} makes this log ready for {clean_badge} {req_display_label} sign-off?"
-        )
+    elif chosen_socratic_q:
+        ask_block = f"[ASK SCOUTS FIRST] {chosen_socratic_q}"
     elif len(dedup_topics) >= 2:
         general_asks_plural = [
             f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
@@ -1789,10 +1798,17 @@ def _build_slide_teaching_notes(
         qi = quiz_item or {}
         answer = _sanitize_no_ellipsis_or_emdash(str(qi.get("correct_answer") or topic_1).rstrip("."))
         explanation = _sanitize_no_ellipsis_or_emdash(str(qi.get("explanation") or first_body).rstrip("."))
-        key_block = (
-            f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
-            f"[Expected Answer: {answer}. {explanation}.]"
-        )
+        explanation = re.sub(r"^Correct\s+Answer\s*\([A-D]\)\s*:\s*", "", explanation, flags=re.IGNORECASE).strip()
+        if explanation.lower().startswith(answer.lower()):
+            key_block = (
+                f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
+                f"[Expected Answer: {explanation}.]"
+            )
+        else:
+            key_block = (
+                f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
+                f"[Expected Answer: {answer}. {explanation}.]"
+            )
     elif worked_example and isinstance(worked_example, dict):
         we_out = _sanitize_no_ellipsis_or_emdash(
             str(worked_example.get("sample_output") or worked_example.get("counselor_tip") or first_body).rstrip(".")
@@ -1813,24 +1829,18 @@ def _build_slide_teaching_notes(
             f"[Expected Answer: Contrast {left_h} ({l_summary}) against {right_h} ({r_summary}).]"
         )
     else:
-        if extra_insights:
-            key_templates = [
-                f"[Expected Answer: Scouts should cite {topic_1} and connect it to {topic_2} using the {page_cite} guidance above.]",
-                f"[Expected Answer: Look for accurate explanations of {topic_summary} grounded in {page_cite}.]",
-                f"[Expected Answer: Verify each Scout can state how {topic_1} and {topic_2} apply in field conditions per {page_cite}.]",
-                f"[Expected Answer: Patrol responses should highlight {topic_1} alongside {topic_2} per {page_cite}.]",
-                f"[Expected Answer: Confirm Scouts identify the key mechanism behind {topic_1} and practical check for {topic_2}.]",
-                f"[Expected Answer: Listen for concrete field examples of {topic_summary} grounded in {page_cite}.]",
-            ]
-        else:
-            key_templates = [
-                f"[Expected Answer: Scouts should cite {topic_1} ({first_body.rstrip('.')}) and connect it to {topic_2} ({second_body.rstrip('.')}).]",
-                f"[Expected Answer: Look for accurate explanations of {topic_summary}, specifically noting how {first_body.rstrip('.')}.]",
-                f"[Expected Answer: Verify each Scout can state why {topic_1} requires {first_body.rstrip('.')} and how {topic_2} ensures {second_body.rstrip('.')}.]",
-                f"[Expected Answer: Patrol responses should highlight {topic_1} ({first_body.rstrip('.')}) alongside {topic_2} ({second_body.rstrip('.')}) per {page_cite}.]",
-                f"[Expected Answer: Confirm Scouts identify the key mechanism behind {topic_1} ({first_body.rstrip('.')}) and practical check for {topic_2}.]",
-                f"[Expected Answer: Listen for concrete field examples of {topic_summary} grounded in {first_body.rstrip('.')}.]",
-            ]
+        fb_clean = first_body.rstrip(".")
+        sb_clean = second_body.rstrip(".")
+        if fb_clean.lower() == sb_clean.lower() and extra_insights:
+            sb_clean = _sanitize_no_ellipsis_or_emdash(str(extra_insights[0]).rstrip("."))
+        key_templates = [
+            f"[Expected Answer: {topic_1}: {fb_clean}. {topic_2}: {sb_clean}.]",
+            f"[Expected Answer: {fb_clean}; {sb_clean} ({page_cite}).]",
+            f"[Expected Answer: For {topic_1}, {fb_clean}. For {topic_2}, {sb_clean}.]",
+            f"[Expected Answer: {topic_1} ({fb_clean}) and {topic_2} ({sb_clean}) per {page_cite}.]",
+            f"[Expected Answer: {fb_clean}, while {topic_2} focuses on: {sb_clean}.]",
+            f"[Expected Answer: Key standard for {topic_1}: {fb_clean}. Key standard for {topic_2}: {sb_clean}.]",
+        ]
         key_block = (
             f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {page_cite}. {supplementary_detail} "
             f"{key_templates[tpl_idx]}"
@@ -1890,7 +1900,25 @@ def _build_slide_teaching_notes(
         f"Verification Standard (Scout Workbook {req_display_label} • {wb_type_clean}): Initial {req_display_label} once the Scout clearly {action_verb_3p} {topic_summary} per {page_cite}.",
         f"Sign-Off Criteria ({req_display_label} • {wb_type_clean}): Check that the Scout's verbal or hands-on response covers {topic_1} and {topic_2} ({page_cite}).",
     ]
-    rubric_block = f"[DEMONSTRATION & SIGN-OFF RUBRIC] {demo_action} {signoff_templates[tpl_idx]}"
+    # Decision #2A: Emit [DEMONSTRATION & SIGN-OFF RUBRIC] selectively on the requirement lead slide (slide_idx_in_req == 0),
+    # hands-on procedure / worked example / checkpoint quiz slides, and bookends; omit on intermediate continuation slides.
+    is_continuation_non_rubric_slide = (
+        int(slide_idx_in_req) >= 1
+        and arch in (
+            "CONCEPT_TEXT_SLIDE",
+            "SPLIT_VISUAL_EXPLAINER",
+            "FULL_BLEED_IMAGE_EXPLAINER",
+            "DIFFERENTIAL_COMPARISON_2COL",
+            "GEAR_CHECKLIST_GRID",
+        )
+        and not quiz_item
+        and not worked_example
+    )
+    rubric_block = (
+        ""
+        if is_continuation_non_rubric_slide
+        else f"[DEMONSTRATION & SIGN-OFF RUBRIC] {demo_action} {signoff_templates[tpl_idx]}"
+    )
 
     return "\n".join(
         _sanitize_no_ellipsis_or_emdash(b)
@@ -2612,9 +2640,29 @@ def generate_slide_storyboard(
             ts_img = ts.get("image_path")
             if ts_img:
                 raw_ts_cap = _sanitize_no_ellipsis_or_emdash(str(ts.get("caption") or ""))
-                if not raw_ts_cap or raw_ts_cap.strip().lower().rstrip(".") == ts_title.strip().lower().rstrip("."):
-                    raw_ts_cap = f"{clean_badge} Requirement {req_num} visual guide illustrating {clean_section_title}"
+                norm_cap_chk = re.sub(r"[^a-z0-9]+", " ", raw_ts_cap.lower()).strip()
+                bullet_norms_on_slide = set()
+                for b_it in ts_bullets:
+                    b_s = str(b_it).strip()
+                    bullet_norms_on_slide.add(re.sub(r"[^a-z0-9]+", " ", b_s.lower()).strip())
+                    if ": " in b_s:
+                        bullet_norms_on_slide.add(re.sub(r"[^a-z0-9]+", " ", b_s.split(": ", 1)[1].lower()).strip())
+                if (
+                    not raw_ts_cap
+                    or raw_ts_cap.strip().lower().rstrip(".") == ts_title.strip().lower().rstrip(".")
+                    or norm_cap_chk in bullet_norms_on_slide
+                    or any(norm_cap_chk and (norm_cap_chk in bn or bn in norm_cap_chk) and len(bn) > 20 for bn in bullet_norms_on_slide)
+                ):
+                    raw_ts_cap = f"Official {clean_badge} visual reference for Requirement {req_num} illustrating {clean_section_title}."
                 ts_caption = _ensure_complete_caption_sentence(raw_ts_cap, max_chars=160)
+                if any(
+                    re.sub(r"[^a-z0-9]+", " ", ts_caption.lower()).strip() == bn
+                    for bn in bullet_norms_on_slide
+                ):
+                    ts_caption = _ensure_complete_caption_sentence(
+                        f"Official {clean_badge} visual reference for Requirement {req_num} illustrating {clean_section_title}.",
+                        max_chars=160,
+                    )
             else:
                 ts_caption = ""
 

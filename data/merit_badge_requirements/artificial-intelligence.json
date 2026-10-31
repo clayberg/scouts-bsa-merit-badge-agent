@@ -38,7 +38,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Key Concepts)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -57,7 +57,13 @@
           "1. Key Concepts",
           "2. Define the following terms and share the meaning of each with your counselor: artificial intelligence (AI), artificial intelligence agents, automation, basic"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Artificial intelligence implies that computer hardware possesses genuine biological consciousness and emotional self-awareness.",
@@ -160,7 +166,7 @@
         "correct_index": 3,
         "correct_letter": "D",
         "correct_answer": "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete.",
-        "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training data sets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
+        "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training datasets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
         "pamphlet_page_ref": "p. 6, p. 7"
       },
       "estimated_minutes": 15,
@@ -219,7 +225,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Currently Used in Everyday Life)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -231,12 +237,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify 10 examples of how AI is currently used in everyday life"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify 10 examples of how AI is currently used in everyday life"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -274,7 +290,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 2a (Identify 10 examples of how AI is currently used in everyday life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -285,7 +304,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Currently Used in the Workplace)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -297,12 +316,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how AI is currently used in the workplace"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five examples of how AI is currently used in the workplace"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -340,7 +369,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 2b (Identify five examples of how AI is currently used in the workplace), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -351,7 +383,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Can Be Used at School)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -363,12 +395,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how AI can be used at school or in support of your education"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five examples of how AI can be used at school or in support of your education"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -406,7 +448,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 2c (Identify five examples of how AI can be used at school or in support of your education), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -417,7 +462,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Meet Rounds Game Presented)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -436,7 +481,13 @@
               "1. Meet with your counselor and play 10 rounds of the \"AI or Not?\" game to determine if the presented scenario utilizes AI.",
               "2. Discuss your answers."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -474,7 +525,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 2d (Meet with your counselor and play 10 rounds of the \"AI or Not?\" game to determine if the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
@@ -485,7 +539,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Timeline with Five Key Milestones)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -497,12 +551,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a timeline with five key milestones in the development of artificial intelligence"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a timeline with five key milestones in the development of artificial intelligence"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -540,7 +604,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p007_img1.png",
           "workbook_diagram_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
-          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution."
+          "workbook_visual_caption": "Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 2e (Create a timeline with five key milestones in the development of artificial intelligence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -553,7 +620,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Applied Machine Intelligence Systems",
-      "action_verb": "Demonstrate",
+      "action_verb": "Share",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -562,7 +629,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Artificial Intelligence AI Basics)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -587,7 +654,13 @@
           "4. (2d) Meet Rounds Game Presented",
           "5. (2e) Timeline With Five Key Milestones"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern consumer AI algorithms possess general reasoning skills capable of adapting across arbitrary unrelated tasks.",
@@ -749,7 +822,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Automation Is Currently Used in)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -761,12 +834,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify 10 examples of how automation is currently used in everyday life"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify 10 examples of how automation is currently used in everyday life"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -805,7 +888,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
           "title": "Req 3a: Everyday Life Automation Examples",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 3a (Identify 10 examples of how automation is currently used in everyday life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -816,7 +902,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Automation Is Currently)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -828,12 +914,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how automation is currently used in the workplace"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five examples of how automation is currently used in the workplace"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -871,7 +967,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 3b (Identify five examples of how automation is currently used in the workplace), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -882,7 +981,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Automation Can Be Used at)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -894,12 +993,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five examples of how automation can be used at school or in support of your education"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five examples of how automation can be used at school or in support of your education"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -938,7 +1047,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
           "title": "Req 3c: School and Educational Automation",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 3c (Identify five examples of how automation can be used at school or in support of your education), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -949,7 +1061,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Automation Performs Repetitive Tasks Without)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -961,12 +1073,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1005,7 +1127,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
           "title": "Req 3d: Error Reduction and Efficiency",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 3d (Explain how automation performs repetitive tasks without human intervention and how it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -1016,7 +1141,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Timeline with Five Significant Milestones)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1028,12 +1153,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a timeline with five significant milestones in automation development"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a timeline with five significant milestones in automation development"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1071,7 +1206,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p012_img1.png",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 3e (Create a timeline with five significant milestones in automation development), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1084,7 +1222,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Deterministic Automation Engineering Fundamentals",
-      "action_verb": "Demonstrate",
+      "action_verb": "Share",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1093,7 +1231,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Automation Basics)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1118,7 +1256,13 @@
           "4. (3d) Explain how automation performs repetitive tasks without human intervention and how it reduces human error and optimizes resources",
           "5. (3e) Create a timeline with five significant milestones in automation development"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Mechanical automation systems require adaptive artificial intelligence models to complete repetitive factory operations.",
@@ -1280,7 +1424,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Ethical Concerns and Responsible)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1292,12 +1436,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1335,7 +1489,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 4a (Research ethical concerns and responsible use in AI, including bias, privacy, and AI), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1346,7 +1503,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Meet Discuss Rounds Would)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1358,12 +1515,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1402,7 +1569,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png",
           "title": "Req 4b: Ethical Scenario Decision Game",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 4b (Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1413,7 +1583,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Develop Your Own Ethical Guidelines)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1425,12 +1595,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Develop your own ethical guidelines for the use of AI"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Develop your own ethical guidelines for the use of AI"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1468,7 +1648,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 4c (Develop your own ethical guidelines for the use of AI), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1479,7 +1662,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Artificial Intelligence Turing Principles)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1491,12 +1674,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What is the Turing test"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What is the Turing test"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1534,7 +1727,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 4d (What is the Turing test), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1547,7 +1743,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Artificial Intelligence Ethics Governance",
-      "action_verb": "Demonstrate",
+      "action_verb": "Share",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1556,7 +1752,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Ethics Learned Ethical Concerns)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1579,7 +1775,13 @@
           "3. (4c) Develop your own ethical guidelines for the use of AI",
           "4. (4d) What is the Turing test"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Algorithms make purely objective evaluations because computer systems operate without subjective human feelings or biases.",
@@ -1688,10 +1890,10 @@
       "estimated_minutes": 15,
       "homework_verification_note": "Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Artificial Intelligence Requirement 4 (ethical ai and responsible use) across all 4 sub-requirements before signing the blue card.",
       "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_4_nano_hero.png",
-      "workbook_diagram_caption": "Scouts interact with a glowing holographic digital display showing complex machine learning data sets at camp.",
+      "workbook_diagram_caption": "Scouts interact with a glowing holographic digital display showing complex machine learning datasets at camp.",
       "number": "4",
       "description": "Ethics in AI. Do the following and share what you learned with your counselor: (a) Research ethical concerns and responsible use in AI, including bias, privacy, and AI decision-making. (b) Meet with your counselor, play, and discuss five rounds of the \"What Would You Do?\" ethical decision-making scenarios. (c) Develop your own ethical guidelines for the use of AI. (d) What is the Turing test?",
-      "workbook_visual_caption": "Scouts interact with a glowing holographic digital display showing complex machine learning data sets at camp.",
+      "workbook_visual_caption": "Scouts interact with a glowing holographic digital display showing complex machine learning datasets at camp.",
       "pamphlet_summary": "Ethical engineering in machine learning requires identifying training dataset biases, securing user privacy, and ensuring algorithmic accountability. Responsible practitioners design transparent computational models with human oversight to avoid perpetuating systemic historical inequities.",
       "socratic_questions": [
         "How does an unrepresentative training dataset produce systematically biased outputs in classification algorithms?",
@@ -1741,7 +1943,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Deepfake Affect Individual)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1753,12 +1955,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a deepfake is and how it can affect an individual"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a deepfake is and how it can affect an individual"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1796,7 +2008,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p005_img1.png",
           "workbook_diagram_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5.",
-          "workbook_visual_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5."
+          "workbook_visual_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 5a (Explain what a deepfake is and how it can affect an individual), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1807,7 +2022,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Actions to Take If You)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1819,12 +2034,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what actions to take if you or someone you know is impacted by a deepfake"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe what actions to take if you or someone you know is impacted by a deepfake"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1862,7 +2087,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p005_img1.png",
           "workbook_diagram_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5.",
-          "workbook_visual_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5."
+          "workbook_visual_caption": "Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure for Requirement 5.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 5b (Describe what actions to take if you or someone you know is impacted by a deepfake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1875,7 +2103,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Synthetic Media Deepfake Security",
-      "action_verb": "Demonstrate",
+      "action_verb": "Share",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1884,7 +2112,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Deepfakes Learned Deepfake Affect)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1897,13 +2125,19 @@
         ],
         "row_labels": [
           "1. (5a) Deepfake Affect Individual",
-          "2. (5b) Actions to Take If You"
+          "2. (5b) Actions to Take"
         ],
         "rows": [
           "1. (5a) Deepfake Affect Individual",
-          "2. (5b) Actions to Take If You"
+          "2. (5b) Actions to Take"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Synthetic media files always exhibit obvious visual artifacts like unnatural blinking or distorted finger anatomy.",
@@ -2065,7 +2299,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Discuss the Learning Process)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2077,12 +2311,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the learning process for AI and its limitations"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the learning process for AI and its limitations"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2120,7 +2364,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png",
           "workbook_diagram_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 6a (Discuss the learning process for AI and its limitations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2131,7 +2378,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Effectively Communicate)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2143,12 +2390,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five methods of how to effectively communicate with AI"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five methods of how to effectively communicate with AI"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2186,7 +2443,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png",
           "workbook_diagram_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 6b (Identify five methods of how to effectively communicate with AI), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2197,7 +2457,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Prompt Engineering)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2209,12 +2469,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the importance of prompt engineering when using AI to create better output"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the importance of prompt engineering when using AI to create better output"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2252,7 +2522,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png",
           "workbook_diagram_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 6c (Explain the importance of prompt engineering when using AI to create better output), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2263,7 +2536,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist (Writing Clear Instructions for A)",
+            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2275,12 +2548,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate three examples of writing clear instructions for a school-related task"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate three examples of writing clear instructions for a school-related task"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2319,7 +2602,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/artificial_intelligence_p006_img1.png",
           "title": "Req 6d: Clear School Task Instructions",
           "workbook_diagram_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for artificial intelligence developing ai skills reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 6d (Demonstrate three examples of writing clear instructions for a school-related task), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -2341,7 +2627,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Developing AI Skills)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2364,7 +2650,13 @@
           "3. (6c) Explain the importance of prompt engineering when using AI to create better output",
           "4. (6d) Demonstrate three examples of writing clear instructions for a school-related task"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Large language models verify factual correctness internally against truth databases prior to outputting generated text.",
@@ -2526,7 +2818,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Artificial Intelligence Project Based)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2549,19 +2841,20 @@
               "3. Implement the project utilizing appropriate artificial intelligence tools, languages, or platforms.",
               "4. Share your project with your counselor."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Machine learning models can ingest uncurated, corrupted real-world data without suffering severe predictive degradation.",
             "fact": "Data preparation and cleaning consumes most of the engineering time invested in practical machine learning pipelines."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Artificial Intelligence Req 7a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Artificial Intelligence Merit Badge Hub (Req 7a)",
@@ -2592,7 +2885,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_7_topic_visual.png",
           "workbook_diagram_caption": "Graphic panels depict thermal search drones locating lost hikers and intelligent diagnostic tools aiding first responders.",
-          "workbook_visual_caption": "Graphic panels depict thermal search drones locating lost hikers and intelligent diagnostic tools aiding first responders."
+          "workbook_visual_caption": "Graphic panels depict thermal search drones locating lost hikers and intelligent diagnostic tools aiding first responders.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 7a (With your counselor's approval, choose an artificial intelligence project based on your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2603,7 +2899,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Short Lesson)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2624,19 +2920,20 @@
               "2. The lesson should include an AI-generated age-appropriate explanation of AI, examples of how AI is used in both everyday",
               "3. Share information on the development process and teaching experience with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Scouts teaching peer lessons must possess advanced postgraduate degrees in electrical engineering and mathematics.",
             "fact": "Interactive demonstrations of speech or vision models illustrate technical AI concepts more effectively than lecture alone."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Artificial Intelligence Req 7b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Artificial Intelligence Merit Badge Hub (Req 7b)",
@@ -2667,7 +2964,10 @@
           ],
           "workbook_diagram_url": "assets/images/artificial_intelligence_req_7_nano_hero.png",
           "workbook_diagram_caption": "Uniformed Scouts operate a rugged field tablet connected to solar panels beside an autonomous reconnaissance drone.",
-          "workbook_visual_caption": "Uniformed Scouts operate a rugged field tablet connected to solar panels beside an autonomous reconnaissance drone."
+          "workbook_visual_caption": "Uniformed Scouts operate a rugged field tablet connected to solar panels beside an autonomous reconnaissance drone.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 7b (With your counselor's approval, design a short lesson plan on AI and teach it to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -2689,7 +2989,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Practical Application)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2708,18 +3008,19 @@
           "1. (7a) Artificial Intelligence Project Based",
           "2. (7b) Short Lesson"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Deploying an artificial intelligence project requires authoring millions of lines of custom assembly code.",
         "fact": "Machine learning engineering projects require documented training and validation splits to prevent empirical test set data leakage."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Artificial Intelligence Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Artificial Intelligence Merit Badge Hub (Req 7)",
@@ -2898,7 +3199,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2936,7 +3243,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/artificial_intelligence_req_8_topic_visual.png",
           "workbook_diagram_caption": "Panels illustrate data pipeline architecture, ethical algorithmic safeguards, and collaborative human-computer workflows.",
-          "workbook_visual_caption": "Panels illustrate data pipeline architecture, ethical algorithmic safeguards, and collaborative human-computer workflows."
+          "workbook_visual_caption": "Panels illustrate data pipeline architecture, ethical algorithmic safeguards, and collaborative human-computer workflows.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 8a (Identify three career opportunities that would use skills and knowledge in artificial), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2947,7 +3257,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Artificial Intelligence Careers and Pathways)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2970,7 +3280,13 @@
               "3. Inquire about training, education, certification requirements, experience, and expenses associated with entering the field.",
               "4. Share what you learned with your counselor."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Artificial Intelligence Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -3008,7 +3324,10 @@
           ],
           "workbook_diagram_url": "assets/images/artificial_intelligence_req_8_nano_hero.png",
           "workbook_diagram_caption": "Scouts configure sensor software on a field laptop while inspecting a miniature autonomous rover on the ground.",
-          "workbook_visual_caption": "Scouts configure sensor software on a field laptop while inspecting a miniature autonomous rover on the ground."
+          "workbook_visual_caption": "Scouts configure sensor software on a field laptop while inspecting a miniature autonomous rover on the ground.",
+          "socratic_questions": [
+            "For artificial intelligence Requirement 8b (Interview an artificial intelligence or automation professional. Learn about their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -3053,7 +3372,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Artificial intelligence careers are restricted entirely to academic researchers working in university laboratory facilities.",
@@ -3225,7 +3549,7 @@
       "correct_index": 3,
       "correct_letter": "D",
       "correct_answer": "D. Because machine learning models learn statistical patterns from their training data, so unrepresentative, incomplete, or historically skewed data will cause the model to reproduce those biases and errors.",
-      "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training data sets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
+      "explanation": "Correct Answer (D): AI and machine learning systems infer patterns directly from training datasets; if the training data contains gaps or historical biases, the resulting model outputs will reflect those flaws, requiring human verification.",
       "pamphlet_page_ref": "p. 6, p. 7",
       "req_id": "1",
       "option_id": null

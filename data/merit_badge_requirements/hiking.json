@@ -34,7 +34,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Hiking Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -46,12 +46,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter while hiking, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter while hiking, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -89,7 +99,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p003_img1.png",
           "workbook_diagram_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries.",
-          "workbook_visual_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries."
+          "workbook_visual_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries.",
+          "socratic_questions": [
+            "For hiking Requirement 1a (Explain to your counselor the most likely hazards you may encounter while hiking, and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -109,7 +122,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -121,12 +134,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while hiking, including hypothermia, frostbite, dehydration, heat exhaustion"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while hiking, including hypothermia, frostbite, dehydration, heat exhaustion"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)",
           "common_misconception_pair": {
@@ -164,7 +187,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p048_img1.png",
           "workbook_diagram_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries.",
-          "workbook_visual_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries."
+          "workbook_visual_caption": "A well-equipped first aid kit supplies essential treatments for trail injuries.",
+          "socratic_questions": [
+            "For hiking Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while hiking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -199,7 +225,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Hiking Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -218,7 +244,13 @@
           "1. (1a) Hiking Hazards and First Aid",
           "2. (1b) Emergency First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Drinking water only after feeling thirsty prevents dehydration on arduous mountain trails.",
@@ -386,7 +418,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Possible Hiking Outdoor Ethics)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -398,12 +430,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain and, where possible, show the points of good hiking practices including proper outdoor ethics, hiking safety in the daytime and at night, courtesy"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain and, where possible, show the points of good hiking practices including proper outdoor ethics, hiking safety in the daytime and at night, courtesy"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
@@ -441,7 +483,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p007_img1.png",
           "workbook_diagram_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
-          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics."
+          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
+          "socratic_questions": [
+            "For hiking Requirement 2a (Explain and, where possible, show the points of good hiking practices including proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -461,7 +506,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -473,12 +518,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important while hiking"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important while hiking"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
@@ -516,7 +571,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p028_img1.png",
           "workbook_diagram_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
-          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics."
+          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
+          "socratic_questions": [
+            "For hiking Requirement 2b (Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -532,7 +590,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -544,12 +602,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)",
           "common_misconception_pair": {
@@ -587,7 +655,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p028_img1.png",
           "workbook_diagram_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
-          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics."
+          "workbook_visual_caption": "Preserving streamside wildflowers demonstrates responsible outdoor ethics.",
+          "socratic_questions": [
+            "For hiking Requirement 2c (Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -626,7 +697,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -647,7 +718,13 @@
           "2. (2b) Leave No Trace and Outdoor Ethics",
           "3. (2c) Leave No Trace and Outdoor Ethics"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Heavy cotton athletic socks provide the best cushioning and blister protection on backcountry trails.",
@@ -829,7 +906,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Hiking Is An Aerobic Activity)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -848,7 +925,13 @@
           "1. Explain how hiking is an aerobic activity.",
           "2. Develop a plan for conditioning yourself for 10-mile hikes, and describe how you will increase your fitness for longer hikes."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Relying solely on school sports without specific hiking practice prepares your body for ten-mile trails.",
@@ -1006,7 +1089,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (10-mile Hike)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1018,12 +1101,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. 10-mile hike #1"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. 10-mile hike #1"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
@@ -1061,7 +1154,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p041_img1.png",
           "workbook_diagram_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
-          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes."
+          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
+          "socratic_questions": [
+            "For hiking Requirement 4a (10-mile hike #1), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1072,7 +1168,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (10-mile Hike)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1084,12 +1180,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. 10-mile hike #2"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. 10-mile hike #2"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
@@ -1127,7 +1233,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p041_img1.png",
           "workbook_diagram_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
-          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes."
+          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
+          "socratic_questions": [
+            "For hiking Requirement 4b (10-mile hike #2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1138,7 +1247,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (10-mile Hike)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1150,12 +1259,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. 10-mile hike #3"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. 10-mile hike #3"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
@@ -1193,18 +1312,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p041_img1.png",
           "workbook_diagram_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
-          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes."
+          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
+          "socratic_questions": [
+            "For hiking Requirement 4c (10-mile hike #3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
-          "text": "10-mile hike #4.",
+          "text": "10-mile hike #4 (e) 20-mile hike.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (10-mile Hike)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1216,12 +1338,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. 10-mile hike #4"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. 10-mile hike #4"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
@@ -1251,7 +1383,7 @@
           ],
           "id": "4d",
           "sub_req_label": "4d",
-          "sub_req_text": "10-mile hike #4.",
+          "sub_req_text": "10-mile hike #4 (e) 20-mile hike.",
           "topic_title": "Req 4d: Fourth Ten Mile Hike",
           "pamphlet_summary": "The final 10-mile hike serves as the qualifying benchmark before attempting the grueling 20-mile endurance test. Hikers refine their self-monitoring routines and verify pack readiness for extended mileage.",
           "pamphlet_excerpts": [
@@ -1259,7 +1391,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p041_img1.png",
           "workbook_diagram_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
-          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes."
+          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
+          "socratic_questions": [
+            "For hiking Requirement 4d (10-mile hike #4 (e) 20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1270,7 +1405,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (20-mile Hike)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1282,12 +1417,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. 20-mile hike"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. 20-mile hike"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)",
           "common_misconception_pair": {
@@ -1325,7 +1470,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/hiking_p041_img1.png",
           "workbook_diagram_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
-          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes."
+          "workbook_visual_caption": "Spotting wildlife such as quail enriches long-distance conditioning hikes.",
+          "socratic_questions": [
+            "For hiking Requirement 4e (20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1360,7 +1508,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (10-mile Hikes and One 20-mile)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1385,7 +1533,12 @@
           "4. (4d) 10-mile Hike",
           "5. (4e) 20-mile Hike"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Accumulating two five-mile walks separated by an afternoon car trip satisfies a ten-mile requirement.",
@@ -1558,7 +1711,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Hikes or During Each Hike)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1581,7 +1734,13 @@
           "3. It may include something you learned about yourself, about the outdoors, or about others you were hiking",
           "4. Share this with your counselor"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Writing a hike report is merely a bureaucratic chore completed days after the event ends.",

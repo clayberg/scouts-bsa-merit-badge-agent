@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Explain why he felt a program like Scouting would be good for the young men of his day",
           "3. Include in your discussion how Scouting was introduced in the United States, and the origins of Boy Scouting and Cub"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Baden-Powell originally designed Scouting as a military recruitment program to train young British boys for frontline combat.",
@@ -222,7 +228,7 @@
             {
               "sub_id": "2a(1)",
               "label": "(1)",
-              "text": "Daniel Carter Beard.",
+              "text": "Daniel Carter Beard (2) William D.",
               "resources": [
                 {
                   "title": "Daniel Carter Beard - BSA Founder (video)",
@@ -233,7 +239,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(1) Structured Technical Study & Explanation Matrix (Daniel Carter Beard)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -245,12 +251,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Daniel Carter Beard"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Daniel Carter Beard"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -280,7 +296,7 @@
               ],
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
-              "sub_req_text": "Daniel Carter Beard.",
+              "sub_req_text": "Daniel Carter Beard (2) William D.",
               "topic_title": "Req 2a(1): Daniel Carter Beard Frontier Legacy",
               "pamphlet_summary": "Daniel Carter Beard Frontier Legacy: Daniel Carter Beard merged his Society of the Sons of Daniel Boone into the nascent Boy Scouts of America in 1910 and served as the first National Commissioner. He designed key elements of the original uniform and infused frontier woodcraft into the advancement program (p. 13, p. 17).",
               "pamphlet_excerpts": [
@@ -296,13 +312,13 @@
             {
               "sub_id": "2a(2)",
               "label": "(2)",
-              "text": "William D. Boyce.",
+              "text": "William D. Boyce (3) Waite Phillips (4) Ernest Thompson Seton (5) James E.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(2) Structured Technical Study & Explanation Matrix (William D Boyce)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -321,7 +337,13 @@
                   "1. William D.",
                   "2. Boyce."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -351,7 +373,7 @@
               ],
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
-              "sub_req_text": "William D. Boyce.",
+              "sub_req_text": "William D. Boyce (3) Waite Phillips (4) Ernest Thompson Seton (5) James E.",
               "topic_title": "Req 2a(2): William Boyce American Scouting Incorporation",
               "pamphlet_summary": "William Boyce American Scouting Incorporation: Chicago publisher William D. Boyce incorporated the Boy Scouts of America on February 8, 1910, after being guided through a London fog by an unknown Scout. He provided initial funding of one thousand dollars per month on the condition that boys of all races and religions be included (p. 16).",
               "pamphlet_excerpts": [
@@ -367,7 +389,7 @@
             {
               "sub_id": "2a(3)",
               "label": "(3)",
-              "text": "Waite Phillips.",
+              "text": "Waite Phillips (4) Ernest Thompson Seton (5) James E.",
               "resources": [
                 {
                   "title": "Waite Phillips - BSA Benefactor and Donor of Philmont (video)",
@@ -378,7 +400,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(3) Structured Technical Study & Explanation Matrix (Waite Phillips)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -390,12 +412,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Waite Phillips"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Waite Phillips"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -425,7 +457,7 @@
               ],
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
-              "sub_req_text": "Waite Phillips.",
+              "sub_req_text": "Waite Phillips (4) Ernest Thompson Seton (5) James E.",
               "topic_title": "Req 2a(3): Waite Phillips Philmont Ranch Donation",
               "pamphlet_summary": "Waite Phillips Philmont Ranch Donation: Oklahoma oilman Waite Phillips donated over one hundred twenty-seven thousand acres of rugged New Mexico wilderness to the Boy Scouts of America between 1938 and 1941. To ensure the property remained financially self-sustaining, he also gifted the twenty-three-story Philtower office building in Tulsa as an operating endowment (p. 47, p. 48).",
               "pamphlet_excerpts": [
@@ -441,7 +473,7 @@
             {
               "sub_id": "2a(4)",
               "label": "(4)",
-              "text": "Ernest Thompson Seton.",
+              "text": "Ernest Thompson Seton (5) James E.",
               "resources": [
                 {
                   "title": "Ernest Thompson Seton - BSA Founder (video)",
@@ -452,7 +484,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(4) Structured Technical Study & Explanation Matrix (Ernest Thompson Seton)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -464,12 +496,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Ernest Thompson Seton"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Ernest Thompson Seton"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -499,7 +541,7 @@
               ],
               "id": "2a(4)",
               "sub_req_label": "2a(4)",
-              "sub_req_text": "Ernest Thompson Seton.",
+              "sub_req_text": "Ernest Thompson Seton (5) James E.",
               "topic_title": "Req 2a(4): Ernest Thompson Seton Woodcraft Influence",
               "pamphlet_summary": "Ernest Thompson Seton Woodcraft Influence: Naturalist and author Ernest Thompson Seton served as the first Chief Scout of the Boy Scouts of America from 1910 to 1915. He authored the 1910 temporary handbook by blending his Woodcraft Indians manual with Baden-Powell's British program (p. 12, p. 17).",
               "pamphlet_excerpts": [
@@ -515,7 +557,7 @@
             {
               "sub_id": "2a(5)",
               "label": "(5)",
-              "text": "James E. West.",
+              "text": "James E. West (6) \"Green Bar Bill\" Hillcourt (7) Frederick Russell Burnham (8) Dr.",
               "resources": [
                 {
                   "title": "James E. West - BSA Founder (video)",
@@ -526,7 +568,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(5) Structured Technical Study & Explanation Matrix (James E West)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -545,7 +587,13 @@
                   "1. James E.",
                   "2. West."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -575,7 +623,7 @@
               ],
               "id": "2a(5)",
               "sub_req_label": "2a(5)",
-              "sub_req_text": "James E. West.",
+              "sub_req_text": "James E. West (6) \"Green Bar Bill\" Hillcourt (7) Frederick Russell Burnham (8) Dr.",
               "topic_title": "Req 2a(5): James West Executive Leadership Foundation",
               "pamphlet_summary": "James West Executive Leadership Foundation: Appointed as the first Chief Scout Executive in 1911, attorney James E. West turned a temporary six-month assignment into a thirty-two-year tenure that built the BSA into a national movement. He championed child welfare reforms, established professional council structures, and insisted that the words brave, clean, and reverent be added to the Scout Law (p. 18).",
               "pamphlet_excerpts": [
@@ -591,7 +639,7 @@
             {
               "sub_id": "2a(6)",
               "label": "(6)",
-              "text": "\"Green Bar Bill\" Hillcourt.",
+              "text": "\"Green Bar Bill\" Hillcourt (7) Frederick Russell Burnham (8) Dr.",
               "resources": [
                 {
                   "title": "Green Bar Bill Hillcourt Biography (video)",
@@ -602,7 +650,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(6) Structured Technical Study & Explanation Matrix (Green Bar Bill Hillcourt)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -614,12 +662,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. \"Green Bar Bill\" Hillcourt"
+                  "1. Req 2a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. \"Green Bar Bill\" Hillcourt"
+                  "1. Req 2a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -649,7 +707,7 @@
               ],
               "id": "2a(6)",
               "sub_req_label": "2a(6)",
-              "sub_req_text": "\"Green Bar Bill\" Hillcourt.",
+              "sub_req_text": "\"Green Bar Bill\" Hillcourt (7) Frederick Russell Burnham (8) Dr.",
               "topic_title": "Req 2a(6): William Hillcourt Patrol Method Legacy",
               "pamphlet_summary": "William Hillcourt Patrol Method Legacy: Danish-born Scouter William \"Green Bar Bill\" Hillcourt became the movement's foremost authority on patrol-based youth leadership and practical woodcraft. He authored three editions of the Boy Scout Handbook, the first Handbook for Patrol Leaders, and decades of Scoutmaster training materials (p. 19, p. 29).",
               "pamphlet_excerpts": [
@@ -665,7 +723,7 @@
             {
               "sub_id": "2a(7)",
               "label": "(7)",
-              "text": "Frederick Russell Burnham.",
+              "text": "Frederick Russell Burnham (8) Dr.",
               "resources": [
                 {
                   "title": "Frederick Russell Burnham and B-P's Campaign Hat (video)",
@@ -676,7 +734,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(7) Structured Technical Study & Explanation Matrix (Frederick Russell Burnham)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -688,12 +746,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Frederick Russell Burnham"
+                  "1. Req 2a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Frederick Russell Burnham"
+                  "1. Req 2a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -723,7 +791,7 @@
               ],
               "id": "2a(7)",
               "sub_req_label": "2a(7)",
-              "sub_req_text": "Frederick Russell Burnham.",
+              "sub_req_text": "Frederick Russell Burnham (8) Dr.",
               "topic_title": "Req 2a(7): Frederick Russell Burnham Frontier Scouting",
               "pamphlet_summary": "Frederick Russell Burnham Frontier Scouting: American frontiersman and scout Frederick Russell Burnham served as Chief of Scouts for the British Army in Africa during the 1890s. He taught Robert Baden-Powell advanced tracking, outdoor scouting, and wilderness survival skills that directly inspired the founding of Scouting (p. 11, p. 72).",
               "pamphlet_excerpts": [
@@ -739,7 +807,7 @@
             {
               "sub_id": "2a(8)",
               "label": "(8)",
-              "text": "Dr. Charles Eastman.",
+              "text": "Dr. Charles Eastman (9) Edgar Robinson.",
               "resources": [
                 {
                   "title": "Dr. Charles Eastman (video)",
@@ -750,7 +818,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(8) Structured Technical Study & Explanation Matrix (Charles Eastman)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(8) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -762,14 +830,20 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Dr.",
+                  "1. Req 2a(8) Core Concept, Technical Standard & Field Application",
                   "2. Charles Eastman."
                 ],
                 "rows": [
-                  "1. Dr.",
+                  "1. Req 2a(8) Core Concept, Technical Standard & Field Application",
                   "2. Charles Eastman."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(8) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -799,7 +873,7 @@
               ],
               "id": "2a(8)",
               "sub_req_label": "2a(8)",
-              "sub_req_text": "Dr. Charles Eastman.",
+              "sub_req_text": "Dr. Charles Eastman (9) Edgar Robinson.",
               "topic_title": "Req 2a(8): Charles Eastman Native Woodcraft Contribution",
               "pamphlet_summary": "Charles Eastman Native Woodcraft Contribution: Dr. Charles Eastman, a Santee Dakota physician and author also known as Ohiyesa, helped establish the early Boy Scouts of America as an organizer and national advisor. He shared authentic indigenous traditions, outdoor tracking methods, and nature lore through publications like Indian Scout Talks (p. 72).",
               "pamphlet_excerpts": [
@@ -826,7 +900,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(9) Structured Technical Study & Explanation Matrix (Edgar Robinson)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(9) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -838,12 +912,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Edgar Robinson"
+                  "1. Req 2a(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(9) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Edgar Robinson"
+                  "1. Req 2a(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(9) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(9) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -890,7 +974,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Short Biographical Summary)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -921,7 +1005,13 @@
               "7. (2a(7)) Frederick Russell Burnham",
               "8. (2a(8)) Charles Eastman"
             ],
-            "min_rows": 8
+            "min_rows": 8,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -959,7 +1049,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p007_img1.png",
           "workbook_diagram_caption": "A 1916 Western Union telegram conveys official news to James E. West.",
-          "workbook_visual_caption": "A 1916 Western Union telegram conveys official news to James E. West."
+          "workbook_visual_caption": "A 1916 Western Union telegram conveys official news to James E. West.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 2a (Give a short biographical summary of any TWO of the following, and tell of their roles in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -970,7 +1063,7 @@
             {
               "sub_id": "2b(1)",
               "label": "(1)",
-              "text": "Brownsea Island.",
+              "text": "Brownsea Island (2) The First World Scout Jamboree (3) Scouts BSA Handbook.",
               "resources": [
                 {
                   "title": "Artifact of the Week - Brownsea Island (video)",
@@ -981,7 +1074,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2b(1) Structured Technical Study & Explanation Matrix (Brownsea Island)",
+                "table_title": "Req 2b",
                 "headers": [
                   "Req 2b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -993,12 +1086,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Brownsea Island"
+                  "1. Req 2b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Brownsea Island"
+                  "1. Req 2b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -1028,7 +1131,7 @@
               ],
               "id": "2b(1)",
               "sub_req_label": "2b(1)",
-              "sub_req_text": "Brownsea Island.",
+              "sub_req_text": "Brownsea Island (2) The First World Scout Jamboree (3) Scouts BSA Handbook.",
               "topic_title": "Req 2b(1): Brownsea Island Experimental Scout Camp",
               "pamphlet_summary": "Brownsea Island Experimental Scout Camp: In August 1907, Robert Baden-Powell brought twenty boys from diverse social backgrounds to Brownsea Island off the southern coast of England to test his new ideas in an outdoor camp. The encampment proved that the patrol system, youth leadership, and practical scouting skills could unite youth and inspire the global movement (p. 8, p. 10).",
               "pamphlet_excerpts": [
@@ -1044,7 +1147,7 @@
             {
               "sub_id": "2b(2)",
               "label": "(2)",
-              "text": "The First World Scout Jamboree.",
+              "text": "The First World Scout Jamboree (3) Scouts BSA Handbook.",
               "resources": [
                 {
                   "title": "Artifact of the Week - World Scout Jamborees Part 01 (video)",
@@ -1059,7 +1162,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2b(2) Structured Technical Study & Explanation Matrix (World Scout Jamboree)",
+                "table_title": "Req 2b",
                 "headers": [
                   "Req 2b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1071,12 +1174,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. The First World Scout Jamboree"
+                  "1. Req 2b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. The First World Scout Jamboree"
+                  "1. Req 2b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -1106,7 +1219,7 @@
               ],
               "id": "2b(2)",
               "sub_req_label": "2b(2)",
-              "sub_req_text": "The First World Scout Jamboree.",
+              "sub_req_text": "The First World Scout Jamboree (3) Scouts BSA Handbook.",
               "topic_title": "Req 2b(2): First World Scout Jamboree Olympia",
               "pamphlet_summary": "First World Scout Jamboree Olympia: Held at London's Olympia arena in August 1920, the First World Scout Jamboree gathered eight thousand Scouts from thirty-four nations following the devastation of World War I. At this landmark assembly, Scouts proclaimed Robert Baden-Powell Chief Scout of the World and established international fellowship as a pillar of Scouting (p. 19, p. 52).",
               "pamphlet_excerpts": [
@@ -1137,7 +1250,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2b(3) Structured Technical Study & Explanation Matrix (BSA Handbook)",
+                "table_title": "Req 2b",
                 "headers": [
                   "Req 2b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1149,12 +1262,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Scouts BSA Handbook"
+                  "1. Req 2b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Scouts BSA Handbook"
+                  "1. Req 2b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -1206,7 +1329,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2b(4) Structured Technical Study & Explanation Matrix (Life Magazine Formerly Boys' Life)",
+                "table_title": "Req 2b",
                 "headers": [
                   "Req 2b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1218,12 +1341,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Scout Life magazine (formerly Boys' Life ) Resources: Artifact of the Week, Boys' Life to Scout Life (video) The Story of Boys' Life / Scout Life (video)"
+                  "1. Req 2b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Scout Life magazine (formerly Boys' Life ) Resources: Artifact of the Week, Boys' Life to Scout Life (video) The Story of Boys' Life / Scout Life (video)"
+                  "1. Req 2b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
               "common_misconception_pair": {
@@ -1270,7 +1403,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Discuss the Significance to Scouting)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1293,7 +1426,13 @@
               "3. (2b(3)) BSA Handbook",
               "4. (2b(4)) Life Magazine Formerly Boys' Life"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -1331,7 +1470,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p017_img1.png",
           "workbook_diagram_caption": "A 1916 Western Union telegram conveys official news to James E. West.",
-          "workbook_visual_caption": "A 1916 Western Union telegram conveys official news to James E. West."
+          "workbook_visual_caption": "A 1916 Western Union telegram conveys official news to James E. West.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 2b (Discuss the significance to Scouting of any TWO of the following: (1) Brownsea Island (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1397,7 +1539,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Founders and Historic Milestones",
-      "action_verb": "Demonstrate",
+      "action_verb": "Tell",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1406,7 +1548,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Short Biographical Summary)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1425,7 +1567,13 @@
           "1. (2a) Short Biographical Summary",
           "2. (2b) Discuss The Significance to Scouting"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Daniel Carter Beard and Ernest Thompson Seton merely signed the original incorporation papers without contributing any existing youth programs.",
@@ -1614,7 +1762,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor How)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1626,12 +1774,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor how Scouting's programs have developed over time and been adapted to fit different age groups and interests (Cub Scouting, Scouts BSA, Exploring, Venturing)"
+          "1. Younger Youth Needs",
+          "2. Adolescent Skill Shifts",
+          "3. Outdoor High Adventure"
         ],
         "rows": [
-          "1. Discuss with your counselor how Scouting's programs have developed over time and been adapted to fit different age groups and interests (Cub Scouting, Scouts BSA, Exploring, Venturing)"
+          "1. Younger Youth Needs",
+          "2. Adolescent Skill Shifts",
+          "3. Outdoor High Adventure"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All current scouting divisions existed simultaneously with identical age boundaries and coeducational structures from the 1910 founding.",
@@ -1798,7 +1956,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4a Quantitative Field Observation & Activity Log (Scouting America National Jamboree OR)",
+            "table_title": "Req 4a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1823,7 +1981,14 @@
               "3. Upon your return, report to your counselor what you did, saw, and learned.",
               "4. You may include photos, brochures, and other documents in your report."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)",
           "common_misconception_pair": {
@@ -1862,7 +2027,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p046_img2.png",
           "title": "Req 4a: Jamboree or High-Adventure Journal",
           "workbook_diagram_caption": "Scouts wearing lifejackets guide a canoe ashore during a canoe trek.",
-          "workbook_visual_caption": "Scouts wearing lifejackets guide a canoe ashore during a canoe trek."
+          "workbook_visual_caption": "Scouts wearing lifejackets guide a canoe ashore during a canoe trek.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 4a (Attend either a Scouting America National Jamboree, OR World Scout Jamboree, OR a national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1882,7 +2050,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (National Scouting Museum Obtain Information)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1903,7 +2071,13 @@
               "2. Obtain information about this facility.",
               "3. Give a short report on what you think the role of this museum is in the Scouting program."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)",
           "common_misconception_pair": {
@@ -1941,7 +2115,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p046_img2.png",
           "workbook_diagram_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek.",
-          "workbook_visual_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek."
+          "workbook_visual_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 4b (Write or visit the National Scouting Museum. Obtain information about this facility. Give a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1957,7 +2134,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Exhibit of Scouting Memorabilia)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1978,19 +2155,20 @@
               "2. Learn what you can about the history of Scouting America",
               "3. Give a short report to your counselor on what you saw and learned"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)",
           "common_misconception_pair": {
             "misconception": "Only official national facilities possess authentic historical scouting collections worth examining for heritage study.",
             "fact": "Local council historical committees often maintain volunteer-curated artifact displays containing vintage council shoulder patches and historic camp pennants."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Scouting Heritage Req 4c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Scouting Heritage Merit Badge Hub (Req 4c)",
@@ -2021,7 +2199,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p046_img2.png",
           "workbook_diagram_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek.",
-          "workbook_visual_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek."
+          "workbook_visual_caption": "Scouts wearing life jackets guide a canoe ashore during a canoe trek.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 4c (Visit an exhibit of Scouting memorabilia or a local museum with a Scouting history gallery,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2064,7 +2245,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Scouting America National Jamboree OR)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2087,7 +2268,13 @@
           "2. (4b) Write or visit the National Scouting Museum",
           "3. (4c) Local Memorabilia Exhibit Visit"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The National Scouting Museum has operated continuously in its original New York City headquarters since 1910.",
@@ -2260,7 +2447,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (History of Your Unit Council)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2281,7 +2468,12 @@
           "2. With the permission of a parent or guardian, your research methods may include an internet or library search, interviews",
           "3. Prepare an oral or written report, a presentation, or a video of your research and review it with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Local troop history can only be determined through word of mouth because councils discard old charter applications.",
@@ -2463,7 +2655,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Collection of Some of Your)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2486,7 +2678,13 @@
           "3. Show this collection to your counselor, and share what you have learned about items in the collection",
           "4. Note: There is no requirement regarding how large or small this collection"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gluing embroidered patches directly into paper scrapbooks is the recommended archival method for long-term preservation.",
@@ -2667,7 +2865,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Reproduce the Equipment for An)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2688,18 +2886,19 @@
           "2. You may find one on your own (with your counselor's approval) or pick one from the Scouting Heritage merit badge pamphlet.",
           "3. Teach and play the game with other Scouts."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Games played at the 1907 Brownsea Island camp were modern sport games identical to dodgeball and basketball.",
         "fact": "Baden-Powell used games like Whale Hunting and Tracking to test stealth, team signaling, and compass work at Brownsea."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Scouting Heritage Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Scouting Heritage Merit Badge Hub (Req 7)",
@@ -2861,7 +3060,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (People Different from Those You)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2884,7 +3083,12 @@
           "3. Ask about the impact that Scouting has had on their lives.",
           "4. Share what you learned with your counselor."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Adults who were scouts decades ago only remember merit badge requirements and have forgotten long-term life impacts.",
@@ -3070,19 +3274,20 @@
               "3. With permission of your parent or guardian, your research methods may include an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 46)",
           "common_misconception_pair": {
             "misconception": "Professional scout executives spend all their working hours teaching outdoor wilderness survival skills to camp patrols.",
             "fact": "District executives must hold a bachelor degree and complete comprehensive professional management training through the national organization."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Scouting Heritage Req 9a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Scouting Heritage Merit Badge Hub (Req 9a)",
@@ -3113,12 +3318,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p038_img1.png",
           "workbook_diagram_caption": "Two young Sea Scouts examine an instructional marlinespike knot board.",
-          "workbook_visual_caption": "Two young Sea Scouts examine an instructional marlinespike knot board."
+          "workbook_visual_caption": "Two young Sea Scouts examine an instructional marlinespike knot board.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 9a (Explore careers related to Scouting. Research one career to learn about the training and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Why Do You Volunteer? (video)",
@@ -3129,7 +3337,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3143,14 +3351,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer.",
               "2. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer.",
               "2. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 46)",
           "common_misconception_pair": {
@@ -3180,7 +3394,7 @@
           ],
           "id": "9b",
           "sub_req_label": "9b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 9b: Adult Volunteer Service Leadership",
           "pamphlet_summary": "Volunteer leaders guide troops, conduct district roundtables, and deliver merit badge instruction across local communities. Exploring volunteer roles highlights the administrative structures, adult training courses, and time commitments required to sustain units.",
           "pamphlet_excerpts": [
@@ -3189,7 +3403,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/scouting_heritage_p038_img1.png",
           "title": "Req 9b: Scouting Volunteer Service Roles",
           "workbook_diagram_caption": "Two young Sea Scouts examine an instructional marlinespike knot board.",
-          "workbook_visual_caption": "Two young Sea Scouts examine an instructional marlinespike knot board."
+          "workbook_visual_caption": "Two young Sea Scouts examine an instructional marlinespike knot board.",
+          "socratic_questions": [
+            "For scouting heritage Requirement 9b (Explore how you could use knowledge and skills from this merit badge to serve as a Scouting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3243,7 +3460,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All employees working for local scouting councils are part-time volunteers who do not pursue specialized professional careers.",

@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Robotics Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -52,7 +52,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
               "2. Describe the appropriate safety gear and clothing that should be used when working with robotics"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
           "common_misconception_pair": {
@@ -90,7 +96,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p003_img1.png",
           "workbook_diagram_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
-          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages."
+          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
+          "socratic_questions": [
+            "For robotics Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -106,7 +115,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -118,12 +127,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)",
           "common_misconception_pair": {
@@ -161,7 +180,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p020_img1.png",
           "workbook_diagram_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
-          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages."
+          "workbook_visual_caption": "A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.",
+          "socratic_questions": [
+            "For robotics Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -192,7 +214,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Robotics Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -211,7 +233,13 @@
           "1. (1a) Robotics Hazards and First Aid",
           "2. (1b) Discuss First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Small low voltage hobby servo motors lack the mechanical torque needed to cause physical injury.",
@@ -374,7 +402,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Robots Can Do and How)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -386,12 +414,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The kinds of things robots can do and how robots are best used today"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The kinds of things robots can do and how robots are best used today"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
@@ -430,7 +468,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p007_img1.png",
           "title": "Req 2a: Modern Robot Capabilities and Uses",
           "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
-          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "socratic_questions": [
+            "For robotics Requirement 2a (The kinds of things robots can do and how robots are best used today), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -450,7 +491,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Technical Comparison Matrix (Similarities and Differences Between Remote-control)",
+            "table_title": "Req 2b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Direct Human Remote Control Systems",
@@ -462,12 +503,22 @@
               "Self-Regulating Autonomous Robot Systems"
             ],
             "row_labels": [
-              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The similarities and differences between remote-control vehicles, telerobots, and autonomous robots"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Direct Human Remote Control Systems",
+              "Self-Regulating Autonomous Robot Systems"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
@@ -505,7 +556,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p016_img1.png",
           "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
-          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "socratic_questions": [
+            "For robotics Requirement 2b (The similarities and differences between remote-control vehicles, telerobots, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -521,7 +575,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Robots Can Use to Move)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -540,7 +594,13 @@
               "1. Three different methods robots can use to move themselves other than wheels or tracks.",
               "2. Describe when it would be appropriate to use each method."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)",
           "common_misconception_pair": {
@@ -578,7 +638,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p016_img1.png",
           "workbook_diagram_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
-          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line."
+          "workbook_visual_caption": "An automated robotic arm welds metal components on a modern factory manufacturing line.",
+          "socratic_questions": [
+            "For robotics Requirement 2c (Three different methods robots can use to move themselves other than wheels or tracks.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -617,7 +680,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Robotics Industry Discuss)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Direct Human Remote Control Systems",
@@ -638,7 +701,13 @@
           "2. (2b) The similarities and differences between remote-control vehicles, telerobots, and autonomous robots",
           "3. (2c) Three different methods robots can use to move themselves other than wheels or tracks"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Direct Human Remote Control Systems",
+          "Self-Regulating Autonomous Robot Systems"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern autonomous industrial robots easily replace humans across unpredictable, unstructured field environments.",
@@ -811,7 +880,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (General Knowledge Discuss)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -834,7 +903,13 @@
           "3. Discuss either the three fields as they relate to a single robot system OR talk about each field in general",
           "4. Find pictures or at least one video to aid your discussion"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Software programming alone can compensate for missing physical sensor inputs on a mobile chassis.",
@@ -992,7 +1067,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (Task for the Robot or)",
+            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1013,19 +1088,20 @@
               "2. Include sensor feedback and programming in the task.",
               "3. Document this information in your robot engineering notebook."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
             "misconception": "Choosing a broad generic goal like navigating a room provides sufficient engineering project criteria.",
             "fact": "A viable engineering task specification contains measurable success criteria rather than subjective performance goals."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Robotics Req 4a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Robotics Merit Badge Hub (Req 4a)",
@@ -1057,7 +1133,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
           "title": "Req 4a: Task Selection and Notebook Setup",
           "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "socratic_questions": [
+            "For robotics Requirement 4a (With your counselor's approval, choose a task for the robot or robotic subsystem that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1068,7 +1147,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Robot the Robot)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1089,7 +1168,13 @@
               "2. The robot design should use sensors and programming and have at least 2 degrees of freedom.",
               "3. Document the design in your robot engineering notebook using drawings and a written description."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1127,18 +1212,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
           "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "socratic_questions": [
+            "For robotics Requirement 4b (Design your robot. The robot design should use sensors and programming and have at least 2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement.",
+          "text": "Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement 4(a).",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist (Robot or Robotic Subsystem)",
+            "table_title": "Req 4c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1150,12 +1238,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1185,7 +1283,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement.",
+          "sub_req_text": "Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement 4(a).",
           "topic_title": "Req 4c: Mechanical Subsystem Chassis Fabrication",
           "pamphlet_summary": "Mechanical construction translates engineering schematics into rigid hardware using brackets, shafts, fasteners, and drivetrains. Proper assembly ensures reliable power transfer, minimal friction losses, and secure wire routing.",
           "pamphlet_excerpts": [
@@ -1193,7 +1291,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
           "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "socratic_questions": [
+            "For robotics Requirement 4c (Build a robot or robotic subsystem of your original design to accomplish the task you chose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1215,7 +1316,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(1) Structured Technical Study & Explanation Matrix (Robot to Perform the Task)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1234,7 +1335,13 @@
                   "1. Program your robot to perform the task you chose for your robot in 4",
                   "2. Include a sample of your program's source code in your robot engineering notebook"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
@@ -1295,7 +1402,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(2) Structured Technical Study & Explanation Matrix (Flowchart of the Desired)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1316,7 +1423,13 @@
                   "2. Include procedures that show activities based on sensor inputs",
                   "3. Place this in your robot engineering notebook"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
@@ -1363,7 +1476,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1382,7 +1495,13 @@
               "1. (4d(1)) Robot to Perform The Task",
               "2. (4d(2)) Flowchart of The Desired"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1421,7 +1540,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
           "title": "Req 4d: Robot Programming and Flowcharts",
           "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "socratic_questions": [
+            "For robotics Requirement 4d (Discuss with your counselor the programming options available for your robot. Then do ONE), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1432,7 +1554,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4e Quantitative Field Observation & Activity Log (Robot and Record the Results)",
+            "table_title": "Req 4e Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1453,7 +1575,14 @@
               "1. Test your robot and record the results in your robot engineering notebook.",
               "2. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1491,7 +1620,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
           "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+          "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+          "socratic_questions": [
+            "For robotics Requirement 4e (Test your robot and record the results in your robot engineering notebook. Include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1538,7 +1670,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Task for the Robot or)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1563,18 +1695,19 @@
           "4. (4d) Discuss with your counselor the programming options available for your robot",
           "5. (4e) Test your robot and record the results in your robot engineering notebook"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Adding extra drive motors automatically increases the operational degrees of freedom of a robotic arm.",
         "fact": "Degrees of freedom indicate the number of independent axes of motion available to a mechanism."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Robotics Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Robotics Merit Badge Hub (Req 4)",
@@ -1731,7 +1864,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Robot You Built)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1743,12 +1876,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate for your counselor the robot you built in requirement 4"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate for your counselor the robot you built in requirement 4"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1786,7 +1929,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img2.png",
           "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
-          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
+          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
+          "socratic_questions": [
+            "For robotics Requirement 5a (Demonstrate for your counselor the robot you built in requirement 4), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1797,7 +1943,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Robot Engineering Notebook)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1816,7 +1962,13 @@
               "1. Share your robot engineering notebook with your counselor",
               "2. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -1854,7 +2006,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img2.png",
           "workbook_diagram_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
-          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation."
+          "workbook_visual_caption": "An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.",
+          "socratic_questions": [
+            "For robotics Requirement 5b (Share your robot engineering notebook with your counselor. Talk about how well your robot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1876,7 +2031,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Robot You Built)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1895,7 +2050,13 @@
           "1. (5a) Robot You Built",
           "2. (5b) Robot Engineering Notebook"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A successful demonstration requires zero mechanical faults, unexpected stalls, or field component adjustments.",
@@ -2058,7 +2219,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Robotics Competition)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2070,12 +2231,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
           "common_misconception_pair": {
@@ -2113,7 +2283,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p071_img1.png",
           "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
-          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
+          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
+          "socratic_questions": [
+            "For robotics Requirement 6a (Attend a robotics competition and report to your counselor what you saw and learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2124,7 +2297,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Learn About Three Youth Robotics)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2143,7 +2316,13 @@
               "1. Learn about three youth robotics competitions",
               "2. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)",
           "common_misconception_pair": {
@@ -2181,7 +2360,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p071_img1.png",
           "workbook_diagram_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
-          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match."
+          "workbook_visual_caption": "A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.",
+          "socratic_questions": [
+            "For robotics Requirement 6b (Learn about three youth robotics competitions. Tell your counselor about these, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2212,7 +2394,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Competitions Robotics Competition Learned)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2231,7 +2413,12 @@
           "1. (6a) Robotics Competition",
           "2. (6b) Learn About Three Youth Robotics"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Youth robotics tournaments focus strictly on driving skill rather than structured engineering design.",
@@ -2426,7 +2613,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
           "common_misconception_pair": {
@@ -2464,12 +2657,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p021_img1.png",
           "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
-          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
+          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
+          "socratic_questions": [
+            "For robotics Requirement 7a (Identify three career opportunities that would use skills and knowledge in robotics. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "How to Make Anything, Learn to Think Like an Engineer (video)",
@@ -2492,7 +2688,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2506,14 +2702,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in robotics to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)",
           "common_misconception_pair": {
@@ -2543,7 +2745,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 7b: Amateur Robotics Hobby Development",
           "pamphlet_summary": "Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops.",
           "pamphlet_excerpts": [
@@ -2552,7 +2754,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/robotics_p021_img1.png",
           "title": "Req 7b: Personal Robotics Hobbies and Clubs",
           "workbook_diagram_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
-          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility."
+          "workbook_visual_caption": "A four-legged walking robot demonstrates dynamic balance and autonomous all-terrain mobility.",
+          "socratic_questions": [
+            "For robotics Requirement 7b (Identify how you might use the skills and knowledge in robotics to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2622,7 +2827,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Working in robotics requires a single specialized degree strictly titled robotic engineering.",

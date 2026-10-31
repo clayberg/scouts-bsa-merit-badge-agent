@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Precautions That Must Be Followed)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -55,12 +55,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain to your counselor the precautions that must be followed for the safe use and operation of a potter's tools, equipment, and other materials"
+          "1. Silica Dust Control",
+          "2. Kiln Ventilation System",
+          "3. Mechanical Wheel Guarding"
         ],
         "rows": [
-          "1. Explain to your counselor the precautions that must be followed for the safe use and operation of a potter's tools, equipment, and other materials"
+          "1. Silica Dust Control",
+          "2. Kiln Ventilation System",
+          "3. Mechanical Wheel Guarding"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe sweeping dried clay scraps with standard household brooms keeps studio air clean.",
@@ -227,13 +237,13 @@
             {
               "sub_id": "2a(1)",
               "label": "(1)",
-              "text": "Making sculpture using the hand-building method.",
+              "text": "Making sculpture using the hand-building method (2) Throwing on the wheel.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(1) Structured Technical Study & Explanation Matrix (Making Sculpture Using the Hand-building)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -245,12 +255,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Making sculpture using the hand-building method"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Making sculpture using the hand-building method"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
@@ -280,7 +300,7 @@
               ],
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
-              "sub_req_text": "Making sculpture using the hand-building method.",
+              "sub_req_text": "Making sculpture using the hand-building method (2) Throwing on the wheel.",
               "topic_title": "Req 2a(1): Sculptural Hand Building Clay Properties",
               "pamphlet_summary": "Sculptural Hand Building Clay Properties: Clay bodies formulated for hand-building sculptures incorporate grog or coarse sand to provide structural tooth, minimize warping, and decrease shrinkage during drying. These additives allow artisans to construct thick or uneven sculptural walls without sagging or cracking before firing (p. 18).",
               "pamphlet_excerpts": [
@@ -302,7 +322,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(2) Structured Technical Study & Explanation Matrix (Throwing on the Wheel)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -314,12 +334,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Throwing on the wheel"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Throwing on the wheel"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
@@ -366,7 +396,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Properties and Ingredients)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -385,7 +415,13 @@
               "1. (2a(1)) Making Sculpture Using The Hand-building",
               "2. (2a(2)) Throwing on The Wheel"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -423,7 +459,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p007_img1.png",
           "workbook_diagram_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze.",
-          "workbook_visual_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze."
+          "workbook_visual_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze.",
+          "socratic_questions": [
+            "For pottery Requirement 2a (Explain the properties and ingredients of a good clay body for the following: (1) Making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -443,7 +482,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Potter's Wheels Work)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -455,12 +494,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how three different kinds of potter's wheels work"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how three different kinds of potter's wheels work"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -498,7 +547,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p028_img1.png",
           "workbook_diagram_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze.",
-          "workbook_visual_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze."
+          "workbook_visual_caption": "Distinct handcrafted vessels demonstrate the visual contrast between raw clay texture and smooth colored glaze.",
+          "socratic_questions": [
+            "For pottery Requirement 2b (Tell how three different kinds of potter's wheels work), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -524,7 +576,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Clay Properties and Potter Wheels",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Keep feet and loose clothing clear of rotating kick wheel flywheels to prevent serious pinch injuries.",
@@ -533,7 +585,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Properties and Ingredients)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -552,7 +604,13 @@
           "1. (2a) Properties and Ingredients",
           "2. (2b) Potter's Wheels Work"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think identical clay formulations work equally well for throwing and large sculpted forms.",
@@ -729,7 +787,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Drawings of Pottery Forms)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -750,7 +808,13 @@
           "2. One must be a historical pottery style.",
           "3. The other must be of your own design."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume pottery sketches only serve decorative purposes rather than structural engineering blueprints.",
@@ -931,7 +995,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Pottery Terms Bat Wedging Throwing)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -943,12 +1007,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the meaning of the following pottery terms: bat, wedging, throwing, leather hard, bone dry, greenware, bisque, terra-cotta, grog, slip, score, earthenware, stoneware, porcelain, pyrometric cone, and glaze"
+          "1. Vitrification Thermal Process",
+          "2. Pyrometric Cone Function",
+          "3. Leather Hard State"
         ],
         "rows": [
-          "1. Explain the meaning of the following pottery terms: bat, wedging, throwing, leather hard, bone dry, greenware, bisque, terra-cotta, grog, slip, score, earthenware, stoneware, porcelain, pyrometric cone, and glaze"
+          "1. Vitrification Thermal Process",
+          "2. Pyrometric Cone Function",
+          "3. Leather Hard State"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Many beginners think greenware and bisque ware possess identical strength and water resistance.",
@@ -1123,7 +1197,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Slab Pot A Coil Pot)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1135,16 +1209,26 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a slab pot, a coil pot, and a pinch pot"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a slab pot, a coil pot, and a pinch pot"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)",
           "common_misconception_pair": {
-            "misconception": "Beginners often think coil layers can simply be stacked loosely on top of each other.",
+            "misconception": "Beginners often think coil layers can simply be stacked loosely on top without completing the full BSA pamphlet procedure.",
             "fact": "Coil layers must be thoroughly blended together on interior surfaces to prevent structural separation."
           },
           "starting_requirement_gate": null,
@@ -1178,7 +1262,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p013_img1.png",
           "workbook_diagram_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
-          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim."
+          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
+          "socratic_questions": [
+            "For pottery Requirement 5a (Make a slab pot, a coil pot, and a pinch pot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1206,7 +1293,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist (Human or Animal Figurine or)",
+            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1218,12 +1305,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a human or animal figurine or decorative sculpture"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a human or animal figurine or decorative sculpture"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)",
           "common_misconception_pair": {
@@ -1262,7 +1359,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p013_img1.png",
           "title": "Req 5b: Sculpting Figurines and Decorative Forms",
           "workbook_diagram_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
-          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim."
+          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
+          "socratic_questions": [
+            "For pottery Requirement 5b (Make a human or animal figurine or decorative sculpture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1282,7 +1382,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Throw A Functional Form)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1294,12 +1394,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Throw a functional form on a potter's wheel"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Throw a functional form on a potter's wheel"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)",
           "common_misconception_pair": {
@@ -1337,7 +1447,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p013_img1.png",
           "workbook_diagram_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
-          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim."
+          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
+          "socratic_questions": [
+            "For pottery Requirement 5c (Throw a functional form on a potter's wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1357,7 +1470,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Help An Experienced Adult)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1369,12 +1482,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help an experienced adult to load and fire a kiln OR describe in detail how to load and fire a kiln"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Help an experienced adult to load and fire a kiln OR describe in detail how to load and fire a kiln"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)",
           "common_misconception_pair": {
@@ -1412,7 +1535,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p013_img1.png",
           "workbook_diagram_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
-          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim."
+          "workbook_visual_caption": "A decorative ceramic basin features delicate pale green glaze and embossed detailing along its exterior rim.",
+          "socratic_questions": [
+            "For pottery Requirement 5d (Help an experienced adult to load and fire a kiln OR describe in detail how to load and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1479,7 +1605,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Piece Is to Be Painted)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1502,7 +1628,13 @@
           "3. (5c) Throw a functional form on a potter's wheel",
           "4. (5d) Help an experienced adult to load and fire a kiln OR describe in detail how to load and fire a kiln"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices often assume air bubbles trapped in clay expand and blow up pieces inside kilns.",
@@ -1679,7 +1811,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Scope of the Ceramic Industry)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1698,7 +1830,13 @@
           "1. Explain the scope of the ceramic industry in the United States.",
           "2. Tell some things made other than craft pottery."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Most people believe the ceramic industry primarily manufactures decorative tableware, vases, and artistic pottery.",
@@ -1865,7 +2003,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Kiln Yard at A Local)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1884,7 +2022,13 @@
               "1. Visit the kiln yard at a local college or other craft school.",
               "2. Learn how the different kinds of kilns work, including low fire electric, gas or propane high fire, wood or salt/soda, and raku."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)",
           "common_misconception_pair": {
@@ -1922,7 +2066,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p024_img1.png",
           "workbook_diagram_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
-          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing."
+          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
+          "socratic_questions": [
+            "For pottery Requirement 7a (Visit the kiln yard at a local college or other craft school. Learn how the different kinds), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -1938,7 +2085,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Museum Art Exhibit Art Gallery)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1957,7 +2104,12 @@
               "1. Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features pottery.",
               "2. After your visit, share with your counselor what you have learned."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)",
           "common_misconception_pair": {
@@ -1995,7 +2147,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p024_img1.png",
           "workbook_diagram_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
-          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing."
+          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
+          "socratic_questions": [
+            "For pottery Requirement 7b (Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2019,7 +2174,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Resources from the Library Magazines)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2038,19 +2193,20 @@
               "1. Using resources from the library, magazines, the internet (with your parent or guardian's permission), and other outlets, learn about the historical and cultural importance of pottery",
               "2. Share what you discovered with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)",
           "common_misconception_pair": {
             "misconception": "People often believe prehistoric pottery served solely utilitarian food storage purposes without artistic intent.",
             "fact": "Ancient potters integrated detailed cultural symbols, regional slips, and ceremonial motifs into daily vessels."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Pottery Req 7c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Pottery Merit Badge Hub (Req 7c)",
@@ -2081,7 +2237,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pottery_p024_img1.png",
           "workbook_diagram_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
-          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing."
+          "workbook_visual_caption": "Assorted greenware and bisque vessels dry on wooden studio shelves before undergoing final kiln firing.",
+          "socratic_questions": [
+            "For pottery Requirement 7c (Using resources from the library, magazines, the internet (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2124,7 +2283,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Kiln Yard at A Local)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2145,7 +2304,12 @@
           "2. (7b) Museum Art Exhibit Art Gallery",
           "3. (7c) Resources From The Library Magazines"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Visitors assume all kilns produce identical glaze surfaces regardless of fuel source used.",
@@ -2345,14 +2509,20 @@
         "row_labels": [
           "1. Find out about career opportunities in pottery.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about career opportunities in pottery.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think professional ceramic careers are limited strictly to self-employed craft fair potters.",

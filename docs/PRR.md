@@ -12,7 +12,7 @@
 
 The **Scouts BSA Merit Badge Counselor Workbench** is a multi-agent curriculum synthesis, visual slide compilation, and troop administration platform built on the **Google Agent Development Kit (`google-adk`)** and **FastAPI**. It serves all **149 Scouts BSA Merit Badges** (`143` Active Official Merit Badges, `5` Scouting America Test Lab Pilots, and `1` Discontinued Historical reference badge) and compiles:
 
-1. **16:9 Widescreen OpenXML Slide Decks (`.pptx`)** with 12 pedagogical slide archetypes, 29 built-in templates across 9 style families (`SafeCanvasBounds`), and 5,625 pre-bundled visual assets (`2,792` Nano Banana hero/topic illustrations, `2,833` Gemini 2.5 Flash Vision-verified BSA Pamphlet figures, `149` embroidered patch emblems, and `149` photorealistic pamphlet covers).
+1. **16:9 Widescreen OpenXML Slide Decks (`.pptx`)** with 12 pedagogical slide archetypes, 29 built-in templates across 9 style families (`SafeCanvasBounds`), and 5,607 pre-bundled visual assets (`2,792` Nano Banana hero/topic illustrations, `2,815` Gemini 2.5 Flash Vision-verified BSA Pamphlet figures, `149` embroidered patch emblems, and `149` photorealistic pamphlet covers).
 2. **Archetype-Differentiated 5-Part Facilitator Guides** (`[PACING & MODALITY]`, `[ASK SCOUTS FIRST]`, `[EXPECTED PAMPHLET ANSWER KEY]`, `[COMMON MISCONCEPTION TO CORRECT]`, `[DEMONSTRATION & SIGN-OFF RUBRIC]`) with optional FinOps-gated `gemini-2.5-flash` speaker-note polishing (`$0.000835/slide`).
 3. **Sub-Requirement-Unrolled Fillable Scout Workbooks (`GTA Section 7.0.3.2`)**, 1-Page Class Preparation Pages (`CPP`), Multi-Session (`S1..S4 | M`) Blue Card (`#34124`) Sign-Off Matrices with Per-Troop Privacy Isolation, and a 27-capability Dual-Transport Model Context Protocol (`MCP`) server (`src/mcp_server.py`).
 
@@ -90,7 +90,7 @@ Downstream dependencies are wrapped in three independent thread-safe `CircuitBre
 
 All financial projections are reproducible via `.venv/bin/python3 scripts/cost_model.py` and tracked in BigQuery via `src/analytics/views.sql`.
 
-* **Pre-Bundled Visual Asset Architecture (`$0.00` Runtime Image Spend):** All 5,625 curated visual assets across 149 badges are pre-bundled and indexed in SQLite (`badge_image_catalog`), eliminating per-slide diffusion costs during standard deck generation.
+* **Pre-Bundled Visual Asset Architecture (`$0.00` Runtime Image Spend):** All 5,607 curated visual assets across 149 badges are pre-bundled and indexed in SQLite (`badge_image_catalog`), eliminating per-slide diffusion costs during standard deck generation.
 * **Semantic Response Cache (`src/services/semantic_cache.py`):** Normalizes queries into deterministic 64-dimensional token/trigram embeddings (`cosine_similarity >= 0.92`, `ttl_seconds = 3600`), serving repeated or semantically equivalent curriculum queries in `< 2ms` at `$0.00` token cost and saving `$0.006` per warm hit.
 * **Hard Budget Ceiling (`FinOpsBudgetPlugin`):** Enforces a strict `$1.00 USD` ceiling per workflow run, automatically stepping down `DARK_SLATE` (`STUDIO`) requests and secondary slides from `gemini-2.5-pro` to `gemini-2.5-flash` when projected spend exceeds `$1.00`.
 

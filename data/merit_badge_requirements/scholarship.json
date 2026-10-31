@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (You Have Had An Average)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you have had an average grade of B or higher (80% or higher) for one term or semester"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you have had an average grade of B or higher (80% or higher) for one term or semester"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p003_img1.png",
           "workbook_diagram_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits.",
-          "workbook_visual_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits."
+          "workbook_visual_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits.",
+          "socratic_questions": [
+            "For scholarship Requirement 1a (Show that you have had an average grade of B or higher (80% or higher) for one term or semester), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Semester You Have Improved Your)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that for one term or semester you have improved your school grades over the previous period"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that for one term or semester you have improved your school grades over the previous period"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -160,7 +183,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p019_img1.png",
           "title": "Req 1b: Demonstrating Term Grade Improvement",
           "workbook_diagram_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits.",
-          "workbook_visual_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits."
+          "workbook_visual_caption": "A student studies at a tidy desk with school supplies to build efficient daily study habits.",
+          "socratic_questions": [
+            "For scholarship Requirement 1b (Show that for one term or semester you have improved your school grades over the previous), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -191,7 +217,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (You Have Had An Average)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -210,7 +236,13 @@
           "1. (1a) Show that you have had an average grade of B or higher (80% or higher) for one term or semester",
           "2. (1b) Show that for one term or semester you have improved your school grades over the previous period"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Students must achieve straight A grades across every academic subject to earn this badge.",
@@ -373,7 +405,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Educational Places Located Where You)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -392,7 +424,13 @@
               "1. Make a list of educational places located where you live (other than schools).",
               "2. Visit one, and report on how you used the place for self-education."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
@@ -430,7 +468,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p007_img1.png",
           "workbook_diagram_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
-          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class."
+          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
+          "socratic_questions": [
+            "For scholarship Requirement 2a (Make a list of educational places located where you live (other than schools). Visit one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -469,19 +510,20 @@
               "3. Find out how they continue to educate themselves",
               "4. Discuss what you find out with your counselor"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
             "misconception": "Interviews can be conducted spontaneously without prior adult permissions or structured advance questions.",
             "fact": "Both counselor and parental approval must precede structured, pre arranged interviews with non school professionals."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Scholarship Req 2b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Scholarship Merit Badge Hub (Req 2b)",
@@ -512,7 +554,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p021_img1.png",
           "workbook_diagram_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
-          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class."
+          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
+          "socratic_questions": [
+            "For scholarship Requirement 2b (With your counselor's and your parent or guardian's approval, interview two professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -532,7 +577,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 2c Quantitative Field Observation & Activity Log (Daily Planner)",
+            "table_title": "Req 2c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -546,12 +591,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
@@ -589,7 +645,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p021_img1.png",
           "workbook_diagram_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
-          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class."
+          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
+          "socratic_questions": [
+            "For scholarship Requirement 2c (Using a daily planner, show your counselor how you keep track of assignments and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -609,7 +668,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2d Technical Comparison Matrix (Discuss the Advantages and Disadvantages)",
+            "table_title": "Req 2d Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Library Reference Books and Librarians",
@@ -621,12 +680,22 @@
               "Safe Online Research Practices"
             ],
             "row_labels": [
-              "1. Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Library Reference Books and Librarians",
+              "Safe Online Research Practices"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)",
           "common_misconception_pair": {
@@ -664,7 +733,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p021_img1.png",
           "workbook_diagram_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
-          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class."
+          "workbook_visual_caption": "A student sorts school papers into an accordion folder to keep coursework organized for class.",
+          "socratic_questions": [
+            "For scholarship Requirement 2d (Discuss the advantages and disadvantages of the different methods of research available to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -723,18 +795,23 @@
           "Professional Interview / Source Notes"
         ],
         "row_labels": [
-          "1. (2a) Educational Places Located Where You",
+          "1. (2a) Educational Places Located",
           "2. (2b) Scholarship Careers and Pathways",
           "3. (2c) Daily Planner",
           "4. (2d) Discuss The Advantages and Disadvantages"
         ],
         "rows": [
-          "1. (2a) Educational Places Located Where You",
+          "1. (2a) Educational Places Located",
           "2. (2b) Scholarship Careers and Pathways",
           "3. (2c) Daily Planner",
           "4. (2d) Discuss The Advantages and Disadvantages"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Educational exploration requires long distance travel to major university research libraries or state archives.",
@@ -907,7 +984,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Get A Note from the)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -926,18 +1003,19 @@
           "1. Get a note from the principal of your school (or another school official named by the principal) that states that during the past year your behavior, leadership, and service have been satisfactory",
           "2. Note: If you are home-schooled or your school environment does not include a principal, you may obtain a note from a counterpart such as your parent or guardian"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Only the head principal of a public school has authority to sign the behavioral endorsement letter.",
         "fact": "Vice principals, designated school deans, or homeschool program directors possess recognized authority to provide documentation."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Scholarship Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Scholarship Merit Badge Hub (Req 3)",
@@ -1094,7 +1172,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (You Have Taken)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1106,12 +1184,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
@@ -1149,7 +1237,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p052_img1.png",
           "workbook_diagram_caption": "High school students collaborate happily during an extracurricular club.",
-          "workbook_visual_caption": "High school students collaborate happily during an extracurricular club."
+          "workbook_visual_caption": "High school students collaborate happily during an extracurricular club.",
+          "socratic_questions": [
+            "For scholarship Requirement 4a (Show that you have taken part in an extracurricular school activity, and discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1169,7 +1260,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Discuss Your Participation in A)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1188,7 +1279,13 @@
               "1. Discuss your participation in a school project during the past semester where you were a part of a team.",
               "2. Tell about the positive contributions you made to the team and the project."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
@@ -1227,7 +1324,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p052_img1.png",
           "title": "Req 4b: Collaborative School Team Projects",
           "workbook_diagram_caption": "High school students collaborate happily during an extracurricular club.",
-          "workbook_visual_caption": "High school students collaborate happily during an extracurricular club."
+          "workbook_visual_caption": "High school students collaborate happily during an extracurricular club.",
+          "socratic_questions": [
+            "For scholarship Requirement 4b (Discuss your participation in a school project during the past semester where you were a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1262,7 +1362,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (You Have Taken)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1281,7 +1381,13 @@
           "1. (4a) Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork",
           "2. (4b) Discuss your participation in a school project during the past semester where you were a part of a team"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Teamwork credit requires serving as the elected club president or varsity sports captain.",
@@ -1444,7 +1550,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Words About How the Education)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1456,12 +1562,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
           "common_misconception_pair": {
@@ -1499,7 +1615,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p059_img1.png",
           "workbook_diagram_caption": "High school students study together around a table in a classroom.",
-          "workbook_visual_caption": "High school students study together around a table in a classroom."
+          "workbook_visual_caption": "High school students study together around a table in a classroom.",
+          "socratic_questions": [
+            "For scholarship Requirement 5a (Write a report of 250 to 300 words about how the education you receive in school will be of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1527,12 +1646,22 @@
               "Professional Interview / Source Notes"
             ],
             "row_labels": [
-              "1. Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)",
           "common_misconception_pair": {
@@ -1570,7 +1699,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scholarship_p059_img1.png",
           "workbook_diagram_caption": "High school students study together around a table in a classroom.",
-          "workbook_visual_caption": "High school students study together around a table in a classroom."
+          "workbook_visual_caption": "High school students study together around a table in a classroom.",
+          "socratic_questions": [
+            "For scholarship Requirement 5b (Write a report of 250 to 300 words about two careers that interest you and how specific), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1624,7 +1756,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A long, meandering essay exceeding five hundred words demonstrates superior academic commitment.",

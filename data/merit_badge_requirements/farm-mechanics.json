@@ -25,7 +25,7 @@
           "text": "Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.",
           "resources": [
             {
-              "title": "Farm Equipment Dangers , Staying Safe Around Farm Machinery (video)",
+              "title": "Farm Equipment Dangers, Staying Safe Around Farm Machinery (video)",
               "url": "https://youtu.be/cT0xTWFjDsY"
             },
             {
@@ -49,7 +49,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -68,7 +68,13 @@
               "1. Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment.",
               "2. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
           "common_misconception_pair": {
@@ -107,7 +113,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p003_img1.png",
           "title": "Req 1a: Shop Safety Gear and Tools",
           "workbook_diagram_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
-          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet."
+          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 1a (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -131,7 +140,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Showing A Well-equipped Farm Shop)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -150,7 +159,13 @@
               "1. Draw a plan showing a well-equipped farm shop.",
               "2. Point out the shop's mandatory safety devices and features."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
           "common_misconception_pair": {
@@ -188,7 +203,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p038_img1.png",
           "workbook_diagram_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
-          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet."
+          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 1b (Draw a plan showing a well-equipped farm shop. Point out the shop's mandatory safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -208,7 +226,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Universal Warning and Safety Symbols)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -220,12 +238,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find all the universal warning and safety symbols on a piece of equipment and explain what they mean"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Find all the universal warning and safety symbols on a piece of equipment and explain what they mean"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
           "common_misconception_pair": {
@@ -263,7 +291,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p038_img1.png",
           "workbook_diagram_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
-          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet."
+          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 1c (Find all the universal warning and safety symbols on a piece of equipment and explain what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -283,7 +314,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Safety Data Sheet SDS)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -302,7 +333,13 @@
               "1. Describe what a safety data sheet (SDS) is and tell why it is used",
               "2. Obtain the SDS for any engine coolant, oil, grease, fuel, hydraulic or transmission fluid, or other flammable or hazardous materials you use in meeting the requirements for this merit badge"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)",
           "common_misconception_pair": {
@@ -340,12 +377,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p038_img1.png",
           "workbook_diagram_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
-          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet."
+          "workbook_visual_caption": "A worker reads important hazard warnings and handling advice on a printed safety sheet.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 1d (Describe what a safety data sheet (SDS) is and tell why it is used. Obtain the SDS for any), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
         {
-          "title": "Farm Equipment Dangers , Staying Safe Around Farm Machinery (video)",
+          "title": "Farm Equipment Dangers, Staying Safe Around Farm Machinery (video)",
           "url": "https://youtu.be/cT0xTWFjDsY"
         },
         {
@@ -402,7 +442,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Farm Shop Safety Systems",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Remove all rings, wristwatches, and loose clothing before servicing rotating power takeoff shafts or belt drives.",
@@ -411,7 +451,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -434,7 +474,13 @@
           "3. (1c) Find all the universal warning and safety symbols on a piece of equipment and explain what they mean",
           "4. (1d) Describe what a safety data sheet (SDS) is and tell why it is used"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standard sunglasses provide sufficient optical protection when grinding or handling caustic shop chemicals.",
@@ -590,7 +636,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Diesel engine.",
+          "text": "Diesel engine (b) Hydraulic system (c) Transmission or any other power system.",
           "resources": [
             {
               "title": "How a Diesel Engine Works (video)",
@@ -605,7 +651,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Diesel Engine)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -617,12 +663,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Diesel engine"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Diesel engine"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)",
           "common_misconception_pair": {
@@ -652,7 +708,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Diesel engine.",
+          "sub_req_text": "Diesel engine (b) Hydraulic system (c) Transmission or any other power system.",
           "topic_title": "Req 2a: Diesel Compression Ignition Cycles",
           "pamphlet_summary": "Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.",
           "pamphlet_excerpts": [
@@ -660,12 +716,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p007_img1.png",
           "workbook_diagram_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
-          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery."
+          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 2a (Diesel engine (b) Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Hydraulic system.",
+          "text": "Hydraulic system (c) Transmission or any other power system.",
           "resources": [
             {
               "title": "How Does a Hydraulic Cylinder Work? (video)",
@@ -676,7 +735,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Hydraulic System)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -688,12 +747,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Hydraulic system"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Hydraulic system"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)",
           "common_misconception_pair": {
@@ -723,7 +792,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Hydraulic system.",
+          "sub_req_text": "Hydraulic system (c) Transmission or any other power system.",
           "topic_title": "Req 2b: Fluid Power Transmission Circuits",
           "pamphlet_summary": "Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors.",
           "pamphlet_excerpts": [
@@ -731,7 +800,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p050_img1.png",
           "workbook_diagram_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
-          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery."
+          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 2b (Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -747,7 +819,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Transmission or Any Other Power)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -759,12 +831,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Transmission or any other power system"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Transmission or any other power system"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)",
           "common_misconception_pair": {
@@ -802,7 +884,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p050_img1.png",
           "workbook_diagram_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
-          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery."
+          "workbook_visual_caption": "A technician inspects the hydraulic fluid reservoir cap and indicator on farm machinery.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 2c (Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -841,7 +926,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Power Is Produced or Transferred)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -862,7 +947,13 @@
           "2. (2b) Hydraulic System",
           "3. (2c) Transmission or Any Other Power"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Diesel engines ignite fuel using high-voltage spark plugs similar to gasoline engines.",
@@ -1029,7 +1120,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Replace the Handle of Any)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1041,12 +1132,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Replace the handle of any tool found on the farm"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Replace the handle of any tool found on the farm"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1085,7 +1186,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p012_img1.png",
           "title": "Req 3a: Replacing Farm Tool Handles",
           "workbook_diagram_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
-          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise."
+          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 3a (Replace the handle of any tool found on the farm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1113,7 +1217,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Organize A Tool Rack)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1125,12 +1229,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Organize a tool rack or a storage system for nails, bolts, nuts, and washers"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Organize a tool rack or a storage system for nails, bolts, nuts, and washers"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1168,7 +1282,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p024_img1.png",
           "workbook_diagram_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
-          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise."
+          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 3b (Organize a tool rack or a storage system for nails, bolts, nuts, and washers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1188,7 +1305,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Hand File Properly Dress the)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1200,12 +1317,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Using a hand file, properly dress the mushroomed head of a chisel or punch"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using a hand file, properly dress the mushroomed head of a chisel or punch"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1244,7 +1371,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p024_img1.png",
           "title": "Req 3c: Dressing Mushroomed Chisel Heads",
           "workbook_diagram_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
-          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise."
+          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 3c (Using a hand file, properly dress the mushroomed head of a chisel or punch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1260,7 +1390,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Hand File Correctly Dress A)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1272,12 +1402,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Using a hand file, correctly dress a screwdriver tip"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using a hand file, correctly dress a screwdriver tip"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1316,7 +1456,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p024_img1.png",
           "title": "Req 3d: Filing Worn Screwdriver Tips",
           "workbook_diagram_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
-          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise."
+          "workbook_visual_caption": "A mechanic wearing protective gloves uses a hammer and cold chisel on metal in a vise.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 3d (Using a hand file, correctly dress a screwdriver tip), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1375,7 +1518,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Replace the Handle of Any)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1398,7 +1541,13 @@
           "3. (3c) Using a hand file, properly dress the mushroomed head of a chisel or punch",
           "4. (3d) Using a hand file, correctly dress a screwdriver tip"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A mushroomed chisel head provides a larger, safer striking target for shop hammers.",
@@ -1561,7 +1710,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Engine-powered Machine Grease All Fittings)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1573,12 +1722,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the air filter, clean the radiator fins, and replace the fuel filters"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the air filter, clean the radiator fins, and replace the fuel filters"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
@@ -1616,7 +1775,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png",
           "workbook_diagram_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
-          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level."
+          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 4a (On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1632,7 +1794,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Engine-powered Machine Create A Preoperational)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1653,7 +1815,13 @@
               "2. include checking the engine coolant, engine oil, hydraulic and/or transmission fluid, and battery voltage (using a voltmeter)",
               "3. Using your checklist, conduct a preoperational check of that machinery or equipment"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
@@ -1691,7 +1859,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png",
           "workbook_diagram_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
-          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level."
+          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 4b (For any engine-powered machine, create a preoperational checklist; include checking the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1711,7 +1882,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Farm Machine for Winter Storage)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1723,12 +1894,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare any farm machine for winter storage"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Prepare any farm machine for winter storage"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)",
           "common_misconception_pair": {
@@ -1766,7 +1947,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p056_img2.png",
           "workbook_diagram_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
-          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level."
+          "workbook_visual_caption": "A mechanic wipes a metal dipstick with a rag to accurately inspect the engine oil level.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 4c (Prepare any farm machine for winter storage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1805,7 +1989,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Engine-powered Machine Grease All Fittings)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1826,7 +2010,13 @@
           "2. (4b) Engine-powered Machine Create A Preoperational",
           "3. (4c) Farm Machine for Winter Storage"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pumping grease into a fitting until grease overflows guarantees the joint is properly lubricated.",
@@ -1999,7 +2189,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Implement Dealer Interview the Dealer)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2022,7 +2212,12 @@
           "3. Ask why it is important, the costs, and what causes wear or damage.",
           "4. Report what you learn."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Operating machinery until parts break down completely is cheaper than performing scheduled maintenance.",
@@ -2178,7 +2373,7 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Tightening hydraulic fittings.",
+          "text": "Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.",
           "resources": [
             {
               "title": "Avoid Leaks! How to Tighten Hydraulic Fittings the Right Way (website)",
@@ -2189,7 +2384,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Tightening Hydraulic Fittings)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2201,12 +2396,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tightening hydraulic fittings"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tightening hydraulic fittings"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)",
           "common_misconception_pair": {
@@ -2236,7 +2441,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Tightening hydraulic fittings.",
+          "sub_req_text": "Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.",
           "topic_title": "Req 6a: Hydraulic Hose Fitting Assembly",
           "pamphlet_summary": "Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.",
           "pamphlet_excerpts": [
@@ -2244,12 +2449,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png",
           "workbook_diagram_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
-          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder."
+          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 6a (Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Checking the air filter.",
+          "text": "Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.",
           "resources": [
             {
               "title": "Maintaining Your Tractor, Changing the Air Filter (video)",
@@ -2260,7 +2468,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Checking the Air Filter)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2272,12 +2480,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Checking the air filter"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Checking the air filter"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)",
           "common_misconception_pair": {
@@ -2307,7 +2525,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Checking the air filter.",
+          "sub_req_text": "Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.",
           "topic_title": "Req 6b: Engine Air Filter Servicing",
           "pamphlet_summary": "Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings.",
           "pamphlet_excerpts": [
@@ -2315,7 +2533,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png",
           "workbook_diagram_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
-          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder."
+          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 6b (Checking the air filter (c) Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2331,7 +2552,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Cleaning A Work Piece)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2343,12 +2564,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cleaning a work piece with a wire-brush wheel"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Cleaning a work piece with a wire-brush wheel"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)",
           "common_misconception_pair": {
@@ -2386,7 +2617,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/farm_mechanics_p031_img1.png",
           "workbook_diagram_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
-          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder."
+          "workbook_visual_caption": "An operator carefully grinds a metal tool edge against a motorized shop bench grinder.",
+          "socratic_questions": [
+            "For farm mechanics Requirement 6c (Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2421,7 +2655,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Maintenance Procedures A Tightening Hydraulic)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2442,7 +2676,13 @@
           "2. (6b) Checking The Air Filter",
           "3. (6c) Cleaning A Work Piece"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Tightening hydraulic fittings as hard as possible with a cheater pipe stops stubborn leaks.",
@@ -2645,14 +2885,20 @@
         "row_labels": [
           "1. Find out about three career opportunities in farm mechanics.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about three career opportunities in farm mechanics.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Farm mechanics work solely with manual hand tools and rarely use computerized diagnostic equipment.",

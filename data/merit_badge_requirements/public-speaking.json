@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Three- to Five-minute Introduction of)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -59,12 +59,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Give a three- to five-minute introduction of yourself to an audience such as your troop, class at school, or some other group"
+          "1. Opening Hook",
+          "2. Thematic Focus",
+          "3. Vocal Pacing"
         ],
         "rows": [
-          "1. Give a three- to five-minute introduction of yourself to an audience such as your troop, class at school, or some other group"
+          "1. Opening Hook",
+          "2. Thematic Focus",
+          "3. Vocal Pacing"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Speakers believe a self-introduction requires reciting a complete chronological list of personal accomplishments and hobbies.",
@@ -249,7 +259,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Three- to Five-minute Talk)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -261,12 +271,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Prepare a three- to five-minute talk on a topic of your choice that incorporates body language and visual aids"
+          "1. Audience Orientation",
+          "2. Prop Handling",
+          "3. Gesture Timing"
         ],
         "rows": [
-          "1. Prepare a three- to five-minute talk on a topic of your choice that incorporates body language and visual aids"
+          "1. Audience Orientation",
+          "2. Prop Handling",
+          "3. Gesture Timing"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Speakers assume visual aids should contain dense explanatory text so the audience can read along.",
@@ -455,7 +475,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Public Speaking Patrol Safety Briefing)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -474,7 +494,13 @@
           "1. Give an impromptu talk of at least two minutes, either as part of a group discussion or before your counselor",
           "2. Use a subject selected by your counselor that is interesting to you but that is not known to you in advance and for which you do not have time to prepare"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe impromptu speaking requires speaking instantaneously without taking several seconds to construct an internal roadmap.",
@@ -651,7 +677,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Topic of Interest to Your)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -672,7 +698,13 @@
           "2. Collect and organize information about the topic and prepare an outline.",
           "3. Write an eight- to 10-minute speech, practice it, then deliver it in a conversational way."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Speakers believe writing a complete manuscript and memorizing every sentence produces the most professional delivery.",
@@ -849,7 +881,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (You Know Parliamentary Procedure by)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -868,7 +900,13 @@
           "1. Show you know parliamentary procedure by leading a discussion or meeting according to accepted rules of order",
           "2. or by answering questions on the rules of order"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Members think anyone can shout out an opinion at any moment during a formal meeting.",

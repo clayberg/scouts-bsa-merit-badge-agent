@@ -67,24 +67,30 @@
               "Field Prevention Standard"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
             "misconception": "Swimmers think ear pain during descent disappears naturally if they kick harder toward the bottom.",
             "fact": "Descending with un-equalized middle ears causes tympanic membrane rupture, requiring immediate descent termination."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1a)",
@@ -115,7 +121,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p003_img1.png",
           "workbook_diagram_caption": "Student divers hold onto the pool edge while debriefing with an instructor.",
-          "workbook_visual_caption": "Student divers hold onto the pool edge while debriefing with an instructor."
+          "workbook_visual_caption": "Student divers hold onto the pool edge while debriefing with an instructor.",
+          "socratic_questions": [
+            "For scuba diving Requirement 1a (Show that you know first aid for injuries or illnesses that could occur while scuba diving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -131,7 +140,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist (Conditions That Must Exist Before)",
+            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -150,19 +159,20 @@
               "1. Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions.",
               "2. Demonstrate the proper technique for performing CPR using a training device approved by your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)",
           "common_misconception_pair": {
             "misconception": "Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.",
             "fact": "Immediate chest compressions take absolute priority because seawater enters lungs in small frothy volumes."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Scuba Diving Req 1b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1b)",
@@ -194,7 +204,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/scuba_diving_p020_img1.png",
           "title": "Req 1b: Conditions for Performing CPR",
           "workbook_diagram_caption": "Student divers hold onto the pool edge while debriefing with an instructor.",
-          "workbook_visual_caption": "Student divers hold onto the pool edge while debriefing with an instructor."
+          "workbook_visual_caption": "Student divers hold onto the pool edge while debriefing with an instructor.",
+          "socratic_questions": [
+            "For scuba diving Requirement 1b (Identify the conditions that must exist before performing CPR on a person, and explain how), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -266,18 +279,20 @@
           "1. (1a) First Aid for Diving Injuries",
           "2. (1b) Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Condition / Emergency",
+          "Recognizable Signs & Symptoms",
+          "Step-by-Step First-Aid Care",
+          "Field Prevention Standard"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe drinking warm coffee quickly reverses severe underwater hypothermia on dive boats.",
         "fact": "Caffeine accelerates fluid loss and vasodilation, so patients require passive warming and warm isotonic fluids."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 1)",
@@ -449,7 +464,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification Check)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -461,23 +476,28 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Before completing requirements 3 through 6, earn the Swimming merit badge"
+          "1. Surface Endurance",
+          "2. Survival Floating",
+          "3. Treading Technique"
         ],
         "rows": [
-          "1. Before completing requirements 3 through 6, earn the Swimming merit badge"
+          "1. Surface Endurance",
+          "2. Survival Floating",
+          "3. Treading Technique"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Students consider a basic dog paddle sufficient swimming competence for heavy scuba open water training.",
         "fact": "Scuba training organizations require continuous unassisted distance swimming and unequipped survival water treading tests."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Scuba Diving Merit Badge Hub (Req 2)",
@@ -644,7 +664,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Discuss the Scuba Diver's)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -656,12 +676,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety"
+          "1. Buddy Integrity",
+          "2. Equipment Readiness",
+          "3. Environmental Protection"
         ],
         "rows": [
-          "1. Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety"
+          "1. Buddy Integrity",
+          "2. Equipment Readiness",
+          "3. Environmental Protection"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Divers assume the code functions merely as an informal suggestion rather than safety protocol.",
@@ -834,7 +864,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Earn An Open Water Diver)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -846,12 +876,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy"
+          "1. Regulator Recovery",
+          "2. Mask Clearing",
+          "3. Buoyancy Mastery"
         ],
         "rows": [
-          "1. Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy"
+          "1. Regulator Recovery",
+          "2. Mask Clearing",
+          "3. Buoyancy Mastery"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners think holding their breath during ascent helps conserve precious remaining cylinder air volume.",
@@ -1024,7 +1064,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Ecosystem Is and Describe Four)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1036,12 +1076,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience"
+          "1. Coral Ecosystem",
+          "2. Kelp Habitats",
+          "3. Freshwater Springs"
         ],
         "rows": [
-          "1. Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience"
+          "1. Coral Ecosystem",
+          "2. Kelp Habitats",
+          "3. Freshwater Springs"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People believe coral formations are inanimate rocks that tolerate diver physical handling without consequence.",
@@ -1244,14 +1294,20 @@
         "row_labels": [
           "1. Find out about three career opportunities in the scuba industry.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about three career opportunities in the scuba industry.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Candidates think recreational open water certification qualifies a diver for commercial offshore construction jobs.",

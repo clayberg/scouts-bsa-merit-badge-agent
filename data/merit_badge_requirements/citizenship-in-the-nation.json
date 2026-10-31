@@ -55,7 +55,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Constitution of the United States)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -78,7 +78,13 @@
           "3. What principles does it reflect",
           "4. Why is it important to have a Constitution"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Constitution grants citizens their fundamental personal rights.",
@@ -255,7 +261,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Creating the United States Constitution)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -274,7 +280,13 @@
           "1. List the six purposes for creating the United States Constitution set forth in the Preamble to the Constitution.",
           "2. How do these purposes affect your family and community?"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Preamble grants enforceable police powers to federal court judges.",
@@ -465,7 +477,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Function of Each Branch of)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -477,12 +489,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The function of each branch of government"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The function of each branch of government"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -521,12 +543,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p012_img1.png",
           "title": "Req 3a: Functions of Each Government Branch",
           "workbook_diagram_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
-          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House)."
+          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 3a (The function of each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Why it is important to divide powers among different branches.",
+          "text": "Why it is important to divide powers among different branches (c) How each branch checks and balances the others.",
           "resources": [
             {
               "title": "The Separation of Powers (video)",
@@ -537,7 +562,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Important to Divide Powers)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -549,12 +574,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Why it is important to divide powers among different branches"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Why it is important to divide powers among different branches"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -584,7 +619,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Why it is important to divide powers among different branches.",
+          "sub_req_text": "Why it is important to divide powers among different branches (c) How each branch checks and balances the others.",
           "topic_title": "Req 3b: Separation of Governmental Powers",
           "pamphlet_summary": "Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power.",
           "pamphlet_excerpts": [
@@ -592,7 +627,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p025_img1.png",
           "workbook_diagram_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
-          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House)."
+          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -608,7 +646,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Branch Checks and Balances)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -620,12 +658,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How each branch checks and balances the others"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How each branch checks and balances the others"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -663,7 +711,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p025_img1.png",
           "workbook_diagram_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
-          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House)."
+          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 3c (How each branch checks and balances the others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -695,7 +746,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Citizens Involved Branch Government)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -707,12 +758,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How citizens can be involved in each branch of government"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How citizens can be involved in each branch of government"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)",
           "common_misconception_pair": {
@@ -750,7 +811,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p025_img1.png",
           "workbook_diagram_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
-          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House)."
+          "workbook_visual_caption": "The U. S. Capitol building in Washington, D. C., seat of the bicameral Legislative Branch (Senate and House).",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 3d (How citizens can be involved in each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -833,7 +897,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Branches of the United States)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -856,7 +920,13 @@
           "3. (3c) How each branch checks and balances the others",
           "4. (3d) How citizens can be involved in each branch of government"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the president holds supreme command over the other two branches.",
@@ -1019,7 +1089,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Declaration of Independence)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1031,12 +1101,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Declaration of Independence"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Declaration of Independence"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
@@ -1074,7 +1154,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p008_img1.png",
           "workbook_diagram_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
-          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia."
+          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 4a (Declaration of Independence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1094,7 +1177,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Bill of Rights the First)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1106,12 +1189,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
@@ -1149,7 +1242,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p008_img1.png",
           "workbook_diagram_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
-          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia."
+          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 4b (Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1165,7 +1261,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Pluribus Unum the Traditional United)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1177,12 +1273,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. E Pluribus Unum, the traditional United States motto"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. E Pluribus Unum, the traditional United States motto"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)",
           "common_misconception_pair": {
@@ -1220,7 +1326,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p008_img1.png",
           "workbook_diagram_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
-          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia."
+          "workbook_visual_caption": "The historic Liberty Bell displayed beneath the U. S. flag at Independence National Historical Park in Philadelphia.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 4c (E Pluribus Unum, the traditional United States motto), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1259,7 +1368,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Discuss the Importance of A)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1280,7 +1389,13 @@
           "2. (4b) Bill of Rights The First",
           "3. (4c) Pluribus Unum The Traditional United"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that the Declaration of Independence is an enforceable part of statutory law.",
@@ -1469,7 +1584,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (National Evening News for Five)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1490,7 +1605,12 @@
           "2. Discuss the national issues that you learned about with your counselor",
           "3. Choose one issue and explain how it affects you, your family, and community"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that opinion commentary columns carry the same journalistic weight as investigative reports.",
@@ -1642,13 +1762,13 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Who the author was.",
+          "text": "Who the author was (b) What the historical context was.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Author Was)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1660,12 +1780,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Who the author"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Who the author"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -1695,7 +1825,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Who the author was.",
+          "sub_req_text": "Who the author was (b) What the historical context was.",
           "topic_title": "Req 6a: Speaker Biography and Role",
           "pamphlet_summary": "Researching the author reveals their personal background, public office, and moral motivations during the historical period. Their life experiences explain their credibility and unique perspective on pressing national dilemmas.",
           "pamphlet_excerpts": [
@@ -1704,18 +1834,21 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "title": "Req 6a: Biography of the Speech Author",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6a (Who the author was (b) What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "What the historical context.",
+          "text": "What the historical context was.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Historical Context)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1727,12 +1860,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What the historical context"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What the historical context"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -1762,7 +1905,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "What the historical context.",
+          "sub_req_text": "What the historical context was.",
           "topic_title": "Req 6b: Historical Era and Setting",
           "pamphlet_summary": "Every significant speech emerged from specific historical circumstances like wartime conflict, economic depression, or civil rights struggles. Analyzing the setting reveals what conditions pushed the nation toward a critical crossroad.",
           "pamphlet_excerpts": [
@@ -1770,18 +1913,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6b (What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
           "label": "(c)",
-          "text": "What difficulties the nation faced that the author wished to discuss.",
+          "text": "What difficulties the nation faced that the author wished to discuss (d) What the author said.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Difficulties the Nation Faced)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1793,12 +1939,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What difficulties the nation faced that the author wished"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What difficulties the nation faced that the author wished"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -1828,7 +1984,7 @@
           ],
           "id": "6c",
           "sub_req_label": "6c",
-          "sub_req_text": "What difficulties the nation faced that the author wished to discuss.",
+          "sub_req_text": "What difficulties the nation faced that the author wished to discuss (d) What the author said.",
           "topic_title": "Req 6c: National Crises and Obstacles",
           "pamphlet_summary": "The speaker aimed to address severe national difficulties such as armed rebellion, racial injustice, or international threats. Identifying these hurdles clarifies why the speaker chose to intervene with a public address.",
           "pamphlet_excerpts": [
@@ -1836,7 +1992,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -1847,7 +2006,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Author Said)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1859,12 +2018,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. What the author said"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. What the author said"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -1902,7 +2071,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6d (What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -1913,7 +2085,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Speech Is Important to the)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1925,12 +2097,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Why the speech is important to the nation's history"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Why the speech is important to the nation's history"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -1969,18 +2151,21 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "title": "Req 6e: Lasting Importance to National History",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6e (Why the speech is important to the nation's history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
           "label": "(f)",
-          "text": "Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor.",
+          "text": "Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor why.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6f Structured Technical Study & Explanation Matrix (Sentence or Two from the)",
+            "table_title": "Req 6f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1992,12 +2177,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)",
           "common_misconception_pair": {
@@ -2027,7 +2222,7 @@
           ],
           "id": "6f",
           "sub_req_label": "6f",
-          "sub_req_text": "Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor.",
+          "sub_req_text": "Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor why.",
           "topic_title": "Req 6f: Personal Passage Reflection",
           "pamphlet_summary": "Selecting a meaningful passage prompts personal reflection on constitutional values and civic duty today. Explaining your selection helps connect historical wisdom to modern responsibilities as an active citizen.",
           "pamphlet_excerpts": [
@@ -2036,7 +2231,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p043_img1.png",
           "title": "Req 6f: Meaningful Passages and Personal Reflection",
           "workbook_diagram_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
-          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative."
+          "workbook_visual_caption": "U. S. Postal Service mailbox used to mail a formal constituent letter to a U. S. Senator or Representative.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 6f (Choose a sentence or two from the speech that has significant meaning to you, and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2083,7 +2281,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Speech of National Historical)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2110,18 +2308,19 @@
           "5. (6e) Why the speech is important to the nation's history",
           "6. (6f) Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that historic speeches only reflect the personal ideas of the speaker.",
         "fact": "Great speeches address broader societal debates, legal struggles, and cultural movements of their historical era."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Citizenship in the Nation Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Citizenship in the Nation Merit Badge Hub (Req 6)",
@@ -2267,7 +2466,7 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places. Tell your counselor what you learned about the landmark or site and what you found interesting.",
+          "text": "Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places. Tell your counselor what you learned about the landmark or site and what you found interesting about it.",
           "resources": [
             {
               "title": "America's National Parks National Passport Program (website)",
@@ -2294,7 +2493,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Place That Is Listed)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2313,7 +2512,12 @@
               "1. Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places.",
               "2. Tell your counselor what you learned about the landmark or site and what you found interesting."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -2343,7 +2547,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places. Tell your counselor what you learned about the landmark or site and what you found interesting.",
+          "sub_req_text": "Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places. Tell your counselor what you learned about the landmark or site and what you found interesting about it.",
           "topic_title": "Req 7a: National Historic Landmark Visit",
           "pamphlet_summary": "Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.",
           "pamphlet_excerpts": [
@@ -2351,7 +2555,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png",
           "workbook_diagram_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
-          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy."
+          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 7a (Visit a place that is listed as a National Historic Landmark or that is on the National), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2371,7 +2578,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Tour Your State Capitol Building)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2394,7 +2601,13 @@
               "3. Core principles and practical standards for Touring State or Federal Capitols",
               "4. Tell your counselor what you learned about the capitol, its function, and the history"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -2432,7 +2645,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png",
           "workbook_diagram_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
-          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy."
+          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 7b (Tour your state capitol building or the U. S. Capitol. Tell your counselor what you learned), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2443,7 +2659,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Tour A Federal Facility)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2462,7 +2678,12 @@
               "1. Tour a federal facility.",
               "2. Explain to your counselor what you saw and what you learned about its function in the local community and how it serves this nation."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
@@ -2500,7 +2721,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png",
           "workbook_diagram_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
-          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy."
+          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 7c (Tour a federal facility. Explain to your counselor what you saw and what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -2532,7 +2756,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (United States National Monument That)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2544,28 +2768,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose a United States national monument that interests you",
+              "1. Choose a United States national monument that interests",
               "2. Using books, brochures, the internet (with your parent or guardian's permission), and other resources, find out more about the monument",
               "3. Tell your counselor what you learned, and explain why the monument is important to this country's citizens"
             ],
             "rows": [
-              "1. Choose a United States national monument that interests you",
+              "1. Choose a United States national monument that interests",
               "2. Using books, brochures, the internet (with your parent or guardian's permission), and other resources, find out more about the monument",
               "3. Tell your counselor what you learned, and explain why the monument is important to this country's citizens"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)",
           "common_misconception_pair": {
             "misconception": "A common misunderstanding is that national monuments are created solely by acts of the United States Congress.",
             "fact": "The Antiquities Act of 1906 empowers the president to proclaim historic landmarks as national monuments."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Citizenship in the Nation Req 7d with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Citizenship in the Nation Merit Badge Hub (Req 7d)",
@@ -2597,7 +2822,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_nation_p034_img1.png",
           "title": "Req 7d: Researching United States National Monuments",
           "workbook_diagram_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
-          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy."
+          "workbook_visual_caption": "Interior view of the U. S. Capitol Rotunda displaying historical paintings and the coffered dome canopy.",
+          "socratic_questions": [
+            "For citizenship in the nation Requirement 7d (Choose a United States national monument that interests you. Using books, brochures, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2668,7 +2896,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Place That Is Listed)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2683,15 +2911,20 @@
           "1. (7a) Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places",
           "2. (7b) Tour your state capitol building",
           "3. (7c) Tour a federal facility",
-          "4. (7d) Choose a United States national monument that interests you"
+          "4. (7d) Choose a United States national monument that interests"
         ],
         "rows": [
           "1. (7a) Visit a place that is listed as a National Historic Landmark or that is on the National Register of Historic Places",
           "2. (7b) Tour your state capitol building",
           "3. (7c) Tour a federal facility",
-          "4. (7d) Choose a United States national monument that interests you"
+          "4. (7d) Choose a United States national monument that interests"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that Scouts must complete all four listed activities to finish the requirement.",
@@ -2864,7 +3097,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Representatives in the United States)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2885,7 +3118,13 @@
           "2. Write to your representative in Congress explaining your views on a national issue.",
           "3. Show your correspondence, along with any response you receive, to your counselor."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that letters from youth constituents are discarded without being read by legislative staff.",

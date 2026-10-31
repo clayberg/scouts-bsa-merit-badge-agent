@@ -34,7 +34,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Pioneering Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -46,12 +46,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
           "common_misconception_pair": {
@@ -89,7 +99,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p003_img1.png",
           "workbook_diagram_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
-          "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project."
+          "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
+          "socratic_questions": [
+            "For pioneering Requirement 1a (Explain to your counselor the most likely hazards you might encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -113,7 +126,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -125,12 +138,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)",
           "common_misconception_pair": {
@@ -169,7 +192,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p011_img1.png",
           "title": "Req 1b: First Aid for Ropework Injuries",
           "workbook_diagram_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
-          "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project."
+          "workbook_visual_caption": "A Scout works with tensioned ropes outdoors while building a pioneering timber construction project.",
+          "socratic_questions": [
+            "For pioneering Requirement 1b (Discuss the prevention of, and first-aid treatment for, injuries and conditions that could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -208,7 +234,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Pioneering Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -227,7 +253,13 @@
           "1. (1a) Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
           "2. (1b) First Aid for Ropework Injuries"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Stout leather work gloves should be worn while handling all running ropes.",
@@ -399,7 +431,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (West Country Method of Whipping)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -411,12 +443,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate the West Country method of whipping a rope"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate the West Country method of whipping a rope"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -454,7 +496,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p007_img1.png",
           "workbook_diagram_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
-          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely."
+          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
+          "socratic_questions": [
+            "For pioneering Requirement 2a (Demonstrate the West Country method of whipping a rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -490,7 +535,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Rope Tackle and the Following)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -502,12 +547,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -546,7 +601,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p021_img1.png",
           "title": "Req 2b: Pioneering Knots and Rope Tackle",
           "workbook_diagram_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
-          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely."
+          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
+          "socratic_questions": [
+            "For pioneering Requirement 2b (Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -582,7 +640,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist (Lashings Square Diagonal Round Shear)",
+            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -594,12 +652,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -637,7 +705,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p021_img1.png",
           "workbook_diagram_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
-          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely."
+          "workbook_visual_caption": "Step-by-step photos show how to route a bight through rope strands to tie an in-line loop knot securely.",
+          "socratic_questions": [
+            "For pioneering Requirement 2c (Demonstrate and explain when to use the following lashings: square, diagonal, round, shear,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -716,7 +787,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (West Country Method of Whipping)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -729,15 +800,21 @@
         ],
         "row_labels": [
           "1. (2a) West Country Method of Whipping",
-          "2. (2b) Rope Tackle and The Following",
+          "2. (2b) Rope Tackle",
           "3. (2c) Lashings Square Diagonal Round Shear"
         ],
         "rows": [
           "1. (2a) West Country Method of Whipping",
-          "2. (2b) Rope Tackle and The Following",
+          "2. (2b) Rope Tackle",
           "3. (2c) Lashings Square Diagonal Round Shear"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A lashing becomes stronger by adding ten or more loose binding wraps.",
@@ -905,7 +982,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (Square and Tripod Lashings)",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -917,12 +994,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design)"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design)"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
@@ -960,7 +1047,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
-          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves."
+          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
+          "socratic_questions": [
+            "For pioneering Requirement 3a (Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -976,7 +1066,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Rolling Hitches or Roundturns)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -988,12 +1078,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
@@ -1031,7 +1131,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
-          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves."
+          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
+          "socratic_questions": [
+            "For pioneering Requirement 3b (Using rolling hitches or roundturns with two half hitches, and round lashings from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1047,7 +1150,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist (Shear Square and Floor Lashings)",
+            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1059,12 +1162,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design)"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design)"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)",
           "common_misconception_pair": {
@@ -1102,7 +1215,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/pioneering_p065_img1.png",
           "workbook_diagram_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
-          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves."
+          "workbook_visual_caption": "A Scout washes his hands at an outdoor camp wash station constructed from three lashed wooden staves.",
+          "socratic_questions": [
+            "For pioneering Requirement 3c (Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1137,7 +1253,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Square and Tripod Lashings)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1158,7 +1274,13 @@
           "2. (3b) Rolling Hitches or Round turns",
           "3. (3c) Shear Square and Floor Lashings"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Camp gadgets support arbitrary dynamic loads if built with thick manila rope.",
@@ -1336,7 +1458,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Synthetic Ropes and Natural-fiber Ropes)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Natural-Fiber Manila Rope Characteristics",
@@ -1357,7 +1479,13 @@
           "2. Discuss which types of rope are suitable for pioneering work",
           "3. Include the following in your discussion: breaking strength, safe working loads, and the care and storage of rope"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Natural-Fiber Manila Rope Characteristics",
+          "Synthetic Polyester and Polypropylene Ropes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Nylon rope is superior for pioneering towers because it has higher breaking strength.",
@@ -1538,7 +1666,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Back Splice Eye Splice and)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1557,7 +1685,13 @@
           "1. Explain the uses for the back splice, eye splice, and short splice.",
           "2. View a demonstration on forming each splice."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Tying a knot in rope is just as strong as completing a proper splice.",
@@ -1735,7 +1869,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Rope-making Device or Machine)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1754,7 +1888,13 @@
           "1. Using a rope-making device or machine, make a rope at least 6 feet long consisting of three strands, each having three yarns.",
           "2. Whip the ends."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Twisting yarns tighter always produces a stronger and more pliable finished rope.",
@@ -1927,7 +2067,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 7 Quantitative Field Observation & Activity Log (Effectively Anchoring A Pioneering Project)",
+        "table_title": "Req 7 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1948,7 +2088,14 @@
           "1. Explain the importance of effectively anchoring a pioneering project.",
           "2. Describe to your counselor the 3-2-1 anchoring system and the log-and-stake anchoring system."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A single vertical iron bar driven halfway into the ground holds any bridge.",
@@ -2121,7 +2268,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Lashings That Are Used When)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2133,12 +2280,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the lashings that are used when building a trestle, how the poles are positioned, and how X braces contribute to the overall structural integrity of a pioneering project"
+          "1. Trestle Leg Symmetry",
+          "2. Ledger Attachment Points",
+          "3. Diagonal Cross Bracing"
         ],
         "rows": [
-          "1. Describe the lashings that are used when building a trestle, how the poles are positioned, and how X braces contribute to the overall structural integrity of a pioneering project"
+          "1. Trestle Leg Symmetry",
+          "2. Ledger Attachment Points",
+          "3. Diagonal Cross Bracing"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A simple rectangular frame with four square corners supports heavy pioneering bridge decks.",
@@ -2327,7 +2484,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (Working in A Group or)",
+        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2346,7 +2503,13 @@
           "1. Working in a group, (or individually with the help of your counselor) build a full size pioneering structure, using one of the following designs",
           "2. Carefully plan the project, assembling and organizing all the materials, referring to the points under Safe Pioneering, and complying with the height restrictions in the Guide to Safe Scouting"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Multiple Scouts can bounce simultaneously on a newly completed pioneering rope bridge.",

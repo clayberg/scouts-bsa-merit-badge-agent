@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (View the Personal Safety Awareness)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,24 +45,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's permission)"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
             "misconception": "Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.",
             "fact": "Source code repositories often expose private identity markers through commit log email addresses."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Programming Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Programming Merit Badge Hub (Req 1a)",
@@ -93,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p003_img1.png",
           "workbook_diagram_caption": "A student stretches at a desk to prevent repetitive strain injury.",
-          "workbook_visual_caption": "A student stretches at a desk to prevent repetitive strain injury."
+          "workbook_visual_caption": "A student stretches at a desk to prevent repetitive strain injury.",
+          "socratic_questions": [
+            "For programming Requirement 1a (View the Personal Safety Awareness \"Digital Safety\" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -117,7 +125,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -129,12 +137,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)",
           "common_misconception_pair": {
@@ -172,7 +190,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p089_img1.png",
           "workbook_diagram_caption": "A student stretches at a desk to prevent repetitive strain injury.",
-          "workbook_visual_caption": "A student stretches at a desk to prevent repetitive strain injury."
+          "workbook_visual_caption": "A student stretches at a desk to prevent repetitive strain injury.",
+          "socratic_questions": [
+            "For programming Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur during), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -211,7 +232,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safety Do the Following A)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -230,7 +251,12 @@
           "1. (1a) View The Personal Safety Awareness",
           "2. (1b) Discuss First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Carpal tunnel syndrome only affects adult office workers who type continuously for decades.",
@@ -428,7 +454,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Programming Origins and Evolution)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -447,7 +473,13 @@
           "1. Core principles and practical standards for Evolution of Programming Languages",
           "2. Discuss with your counselor the history of programming and the evolution of programming languages, including at least three milestones related to the advancement or development of programming over time"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Computer programming began only after silicon microprocessors were invented in California research labs.",
@@ -603,7 +635,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used.",
+          "text": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why.",
           "resources": [
             {
               "title": "Eight Popular Programming Languages, Their Industries and Coding Examples (PDF)",
@@ -614,7 +646,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Popular Programming Languages in Use)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -626,12 +658,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
@@ -661,7 +703,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used.",
+          "sub_req_text": "Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why.",
           "topic_title": "Req 3a: Popular Languages and Industries",
           "pamphlet_summary": "Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.",
           "pamphlet_excerpts": [
@@ -669,7 +711,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p012_img1.png",
           "workbook_diagram_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet.",
-          "workbook_visual_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet."
+          "workbook_visual_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet.",
+          "socratic_questions": [
+            "For programming Requirement 3a (Create a list of five popular programming languages in use today and describe which), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -680,7 +725,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Programmed Devices You Rely)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -692,12 +737,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe three different programmed devices you rely on every day"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe three different programmed devices you rely on every day"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)",
           "common_misconception_pair": {
@@ -735,7 +790,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p035_img1.png",
           "workbook_diagram_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet.",
-          "workbook_visual_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet."
+          "workbook_visual_caption": "Two young programmers collaborate while testing and debugging application software on a portable tablet.",
+          "socratic_questions": [
+            "For programming Requirement 3b (Describe three different programmed devices you rely on every day), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -766,7 +824,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (General Knowledge)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -785,7 +843,13 @@
           "1. (3a) Popular Programming Languages in Use",
           "2. (3b) Programmed Devices You Rely"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All modern electronic gadgets run identical general purpose operating systems like desktop computers.",
@@ -952,7 +1016,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Intellectual Property Used to Protect)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -964,12 +1028,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the four types of intellectual property used to protect computer programs"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the four types of intellectual property used to protect computer programs"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
@@ -1007,7 +1081,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p084_img1.png",
           "workbook_diagram_caption": "A glowing digital network represents online connected communities.",
-          "workbook_visual_caption": "A glowing digital network represents online connected communities."
+          "workbook_visual_caption": "A glowing digital network represents online connected communities.",
+          "socratic_questions": [
+            "For programming Requirement 4a (Explain the four types of intellectual property used to protect computer programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1023,7 +1100,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4b Technical Comparison Matrix (Licensing and Owning Software)",
+            "table_title": "Req 4b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Licensing Permission With Usage Rules",
@@ -1035,12 +1112,22 @@
               "Outright Ownership of Software Code"
             ],
             "row_labels": [
-              "1. Describe the difference between licensing and owning software"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the difference between licensing and owning software"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Licensing Permission With Usage Rules",
+              "Outright Ownership of Software Code"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
@@ -1078,12 +1165,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p084_img1.png",
           "workbook_diagram_caption": "A glowing digital network represents online connected communities.",
-          "workbook_visual_caption": "A glowing digital network represents online connected communities."
+          "workbook_visual_caption": "A glowing digital network represents online connected communities.",
+          "socratic_questions": [
+            "For programming Requirement 4b (Describe the difference between licensing and owning software), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use.",
+          "text": "Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use of each.",
           "resources": [
             {
               "title": "Open Source VS Commercial Software (video)",
@@ -1098,7 +1188,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4c Technical Comparison Matrix (Freeware Open Source and Commercial)",
+            "table_title": "Req 4c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Licensing Permission With Usage Rules",
@@ -1110,12 +1200,22 @@
               "Outright Ownership of Software Code"
             ],
             "row_labels": [
-              "1. Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Licensing Permission With Usage Rules",
+              "Outright Ownership of Software Code"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)",
           "common_misconception_pair": {
@@ -1145,7 +1245,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use.",
+          "sub_req_text": "Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use of each.",
           "topic_title": "Req 4c: Software Distribution Models Comparison",
           "pamphlet_summary": "Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions.",
           "pamphlet_excerpts": [
@@ -1153,7 +1253,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p084_img1.png",
           "workbook_diagram_caption": "A glowing digital network represents online connected communities.",
-          "workbook_visual_caption": "A glowing digital network represents online connected communities."
+          "workbook_visual_caption": "A glowing digital network represents online connected communities.",
+          "socratic_questions": [
+            "For programming Requirement 4c (Describe the differences between freeware, open source, and commercial software, and why it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1196,7 +1299,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Intellectual Property)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Licensing Permission With Usage Rules",
@@ -1217,7 +1320,13 @@
           "2. (4b) Licensing and Owning Software",
           "3. (4c) Freeware Open Source and Commercial"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Licensing Permission With Usage Rules",
+          "Outright Ownership of Software Code"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Purchasing a software license gives the buyer total legal ownership of the underlying codebase.",
@@ -1384,7 +1493,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Language and Environment Write or)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1396,12 +1505,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the first language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In the first language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
@@ -1440,7 +1559,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/programming_p013_img1.png",
           "title": "Req 5a: First Language Coding Project",
           "workbook_diagram_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
-          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming."
+          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
+          "socratic_questions": [
+            "For programming Requirement 5a (In the first language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1456,7 +1578,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist (Language and Environment Write or)",
+            "table_title": "Req 5b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1468,12 +1590,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the second language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In the second language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
@@ -1512,7 +1644,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/programming_p013_img1.png",
           "title": "Req 5b: Second Language Coding Project",
           "workbook_diagram_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
-          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming."
+          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
+          "socratic_questions": [
+            "For programming Requirement 5b (In the second language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1528,7 +1663,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Language and Environment Write or)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1540,12 +1675,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. In the third language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In the third language and environment, write or modify a program, debug and demonstrate, and explain as above"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)",
           "common_misconception_pair": {
@@ -1584,7 +1729,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/programming_p013_img1.png",
           "title": "Req 5c: Third Language Coding Project",
           "workbook_diagram_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
-          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming."
+          "workbook_visual_caption": "A historical Jacquard loom uses punched cards to control woven patterns, pioneering automated programming.",
+          "socratic_questions": [
+            "For programming Requirement 5c (In the third language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1623,7 +1771,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Guidance Select Three Different Programming)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1644,7 +1792,13 @@
           "2. (5b) In the second language and environment, write or modify a program, debug and demonstrate, and explain as above",
           "3. (5c) In the third language and environment, write or modify a program, debug and demonstrate, and explain as above"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Programming languages execute directly on computer silicon without requiring any translation or runtime engine.",
@@ -1846,19 +2000,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
             "misconception": "Earning a technical degree guarantees immediate qualification for senior system architect management roles.",
             "fact": "Enterprise engineering positions often require passing rigorous peer code reviews and architectural security screenings."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Programming Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Programming Merit Badge Hub (Req 6a)",
@@ -1889,18 +2044,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/programming_p077_img1.png",
           "workbook_diagram_caption": "Floating digital interfaces illustrate modern computing careers.",
-          "workbook_visual_caption": "Floating digital interfaces illustrate modern computing careers."
+          "workbook_visual_caption": "Floating digital interfaces illustrate modern computing careers.",
+          "socratic_questions": [
+            "For programming Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1914,14 +2072,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)",
           "common_misconception_pair": {
@@ -1951,7 +2115,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 6b: Computing Hobbies and Lifestyle",
           "pamphlet_summary": "Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement.",
           "pamphlet_excerpts": [
@@ -1960,7 +2124,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/programming_p077_img1.png",
           "title": "Req 6b: Coding Hobbies and Lifestyles",
           "workbook_diagram_caption": "Floating digital interfaces illustrate modern computing careers.",
-          "workbook_visual_caption": "Floating digital interfaces illustrate modern computing careers."
+          "workbook_visual_caption": "Floating digital interfaces illustrate modern computing careers.",
+          "socratic_questions": [
+            "For programming Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2026,7 +2193,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A professional programmer spends entire workdays writing brand new code without reading documentation.",

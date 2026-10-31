@@ -48,7 +48,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (History and Origins of the Bugle)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -60,12 +60,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Give a brief history of the bugle"
+          "1. Ancient Animal Horns",
+          "2. Roman Signal Horns",
+          "3. Civil War Standard"
         ],
         "rows": [
-          "1. Give a brief history of the bugle"
+          "1. Ancient Animal Horns",
+          "2. Roman Signal Horns",
+          "3. Civil War Standard"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe the bugle was invented primarily as a musical entertainment instrument.",
@@ -228,7 +238,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Bugle Makes Sound)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -240,12 +250,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -283,7 +303,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bugling_p007_img1.png",
           "workbook_diagram_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2.",
-          "workbook_visual_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2."
+          "workbook_visual_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2.",
+          "socratic_questions": [
+            "For bugling Requirement 2a (Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -294,7 +317,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Compose A Bugle Call)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -313,7 +336,13 @@
               "1. Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a campsite",
               "2. Play the call that you have composed before your unit or patrol"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bugling Merit Badge Pamphlet",
           "common_misconception_pair": {
@@ -351,7 +380,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bugling_p007_img1.png",
           "workbook_diagram_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2.",
-          "workbook_visual_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2."
+          "workbook_visual_caption": "Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2.",
+          "socratic_questions": [
+            "For bugling Requirement 2b (Compose a bugle call for your troop or patrol to signal a common group activity, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -378,7 +410,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Reading and Composing Bugle Music)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -397,7 +429,13 @@
           "1. (2a) Bugle Makes Sound",
           "2. (2b) Compose A Bugle Call"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe blowing harder increases pitch on a valveless brass horn.",
@@ -626,7 +664,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Ten Official Camp Bugle Calls)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -638,12 +676,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,\" \"Mess,\" \"Drill,\" \"Fatigue,\" \"Officers,\" \"Recall,\" \"Church,\" \"Swimming,\" \"Fire,\" \"Retreat,\" \"To the Colors,\" \"Call to Quarters,\" and \"Taps.\""
+          "1. Diaphragmatic Breath Foundation",
+          "2. Tongue Articulation Precision",
+          "3. Cadence Tempo Discipline"
         ],
         "rows": [
-          "1. Sound 10 of the following bugle calls: \"First Call,\" \"Reveille,\" \"Assembly,\" \"Mess,\" \"Drill,\" \"Fatigue,\" \"Officers,\" \"Recall,\" \"Church,\" \"Swimming,\" \"Fire,\" \"Retreat,\" \"To the Colors,\" \"Call to Quarters,\" and \"Taps.\""
+          "1. Diaphragmatic Breath Foundation",
+          "2. Tongue Articulation Precision",
+          "3. Cadence Tempo Discipline"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe loud volume compensates for poor tone quality and missed harmonic partials.",
@@ -816,7 +864,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Daily Schedule for Camp Bugle Calls)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -828,12 +876,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain when each of the calls in requirement 3 is used"
+          "1. Morning Wake Commands",
+          "2. Camp Routine Direction",
+          "3. Flag Honor Ceremonies"
         ],
         "rows": [
-          "1. Explain when each of the calls in requirement 3 is used"
+          "1. Morning Wake Commands",
+          "2. Camp Routine Direction",
+          "3. Flag Honor Ceremonies"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners think Taps and Retreat can be used interchangeably during evening flag lowering.",
@@ -1006,7 +1064,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Bugle Care, Cleaning, and Maintenance)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1018,12 +1076,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain how to care for, clean, and maintain a bugle"
+          "1. Warm Water Flushing",
+          "2. Snake Brush Cleaning",
+          "3. Tuning Slide Lubrication"
         ],
         "rows": [
-          "1. Explain how to care for, clean, and maintain a bugle"
+          "1. Warm Water Flushing",
+          "2. Snake Brush Cleaning",
+          "3. Tuning Slide Lubrication"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume hot boiling water cleans brass instruments faster without causing damage.",
@@ -1191,7 +1259,7 @@
       "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Troop Bugler Leadership Service)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1203,12 +1271,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Serve as bugler in your troop for three months"
+          "1. Punctual Assembly Call",
+          "2. Camp Routine Coordination",
+          "3. Emergency Readiness Standby"
         ],
         "rows": [
-          "1. Serve as bugler in your troop for three months"
+          "1. Punctual Assembly Call",
+          "2. Camp Routine Coordination",
+          "3. Emergency Readiness Standby"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume merely owning a bugle qualifies as fulfilling the bugler leadership role.",

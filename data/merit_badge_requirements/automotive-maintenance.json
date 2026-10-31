@@ -34,7 +34,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Automotive Maintenance Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -46,12 +46,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the hazards you are most likely to encounter during automotive maintenance activities, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the hazards you are most likely to encounter during automotive maintenance activities, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -88,8 +98,11 @@
             "Automotive maintenance introduces severe hazards including chemical exposure, mechanical pinch points, hot exhaust components, and heavy falling objects. Technicians anticipate risks by setting wheel chocks, confirming mechanical lockouts, and wearing appropriate protective gear."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p003_img1.png",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1a (Explain to your counselor the hazards you are most likely to encounter during automotive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -105,7 +118,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -124,7 +137,13 @@
               "1. Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing a motor vehicle.",
               "2. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -162,8 +181,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
           "title": "Req 1b: Protective Gear and Safe Tools",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1b (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -191,7 +213,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Motor Vehicles Are Powered)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -203,12 +225,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the different ways motor vehicles are powered"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the different ways motor vehicles are powered"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -245,8 +277,11 @@
             "Vehicles derive motive power from gasoline internal combustion, diesel compression ignition, hybrid gas-electric drivetrains, or pure battery electric motors. Each powertrain architecture requires distinct maintenance procedures and safety protocols."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1c (Explain the different ways motor vehicles are powered), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -262,7 +297,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Safety Considerations When Performing Maintenance)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -274,12 +309,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the safety considerations when performing maintenance on a vehicle equipped with a high-voltage electrical system"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the safety considerations when performing maintenance on a vehicle equipped with a high-voltage electrical system"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -316,8 +361,11 @@
             "High-voltage hybrid and electric drivetrains operate at potentials frequently exceeding four hundred volts direct current, marked by bright orange cabling. Technicians must observe manual service disconnect procedures and wear class zero insulated gloves rated for one thousand volts."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1d (Explain the safety considerations when performing maintenance on a vehicle equipped with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1e",
@@ -333,7 +381,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1e Structured Technical Study & Explanation Matrix (Maintenance Chart in the Vehicle)",
+            "table_title": "Req 1e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -352,7 +400,13 @@
               "1. Review the maintenance chart in the vehicle owner's manual.",
               "2. Explain the requirements and time limits."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -389,8 +443,11 @@
             "Owner manuals provide detailed mileage and calendar intervals for replacing vital fluids, friction materials, and air filters. Scouts must interpret both normal and severe operating schedules to preserve engine warranties."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1e (Review the maintenance chart in the vehicle owner's manual. Explain the requirements and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1f",
@@ -406,7 +463,7 @@
               "url": "https://www.nhtsa.gov/vehicle-safety/seat-belts"
             },
             {
-              "title": "On Air Bags (website)",
+              "title": "On Airbags (website)",
               "url": "https://www.nhtsa.gov/vehicle-safety/air-bags"
             }
           ],
@@ -414,7 +471,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1f Structured Technical Study & Explanation Matrix (Limitations of Safety Belts and)",
+            "table_title": "Req 1f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -426,12 +483,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the purpose, importance, and limitations of safety belts and passive restraints"
+              "1. Req 1f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the purpose, importance, and limitations of safety belts and passive restraints"
+              "1. Req 1f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -469,8 +536,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
           "title": "Req 1f: Seat Belts and Passive Restraints",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1f (Explain the purpose, importance, and limitations of safety belts and passive restraints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1g",
@@ -486,7 +556,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1g Structured Technical Study & Explanation Matrix (Out the Requirements for Your)",
+            "table_title": "Req 1g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -498,12 +568,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected"
+              "1. Req 1g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected"
+              "1. Req 1g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -541,8 +621,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
           "title": "Req 1g: State Emissions and Safety Inspections",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1g (Find out the requirements for your state's emissions and safety inspections (as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1h",
@@ -558,7 +641,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1h Structured Technical Study & Explanation Matrix (Registering A Vehicle and Find)",
+            "table_title": "Req 1h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -570,12 +653,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration"
+              "1. Req 1h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration"
+              "1. Req 1h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)",
           "common_misconception_pair": {
@@ -612,8 +705,11 @@
             "Annual state registration ensures motor vehicles satisfy mandatory liability insurance minimums and roadway safety mandates while funding highway infrastructure. Operators must pay yearly renewal fees and display validated registration stickers on the license plate."
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p020_img1.png",
-          "workbook_diagram_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design.",
-          "workbook_visual_caption": "A deployed side curtain air bag demonstrates vehicle passenger safety and passive restraint design."
+          "workbook_diagram_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "workbook_visual_caption": "A deployed side curtain airbag demonstrates vehicle passenger safety and passive restraint design.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 1h (Explain the importance of registering a vehicle and find out the annual registration fee), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -658,7 +754,7 @@
           "url": "https://www.nhtsa.gov/vehicle-safety/seat-belts"
         },
         {
-          "title": "On Air Bags (website)",
+          "title": "On Airbags (website)",
           "url": "https://www.nhtsa.gov/vehicle-safety/air-bags"
         },
         {
@@ -688,7 +784,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Automotive Maintenance Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -719,7 +815,13 @@
           "7. (1g) State Emissions and Safety Inspections",
           "8. (1h) Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A standard hydraulic floor jack provides sufficient support for working beneath a raised vehicle.",
@@ -871,7 +973,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals.",
+          "text": "Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes.",
           "resources": [
             {
               "title": "Your Car's Fluids (video)",
@@ -882,13 +984,13 @@
             {
               "sub_id": "2a(1)",
               "label": "(1)",
-              "text": "Brake fluid.",
+              "text": "Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(1) Structured Technical Study & Explanation Matrix (Brake Fluid)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -900,12 +1002,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Brake fluid"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Brake fluid"
+                  "1. Req 2a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -935,7 +1047,7 @@
               ],
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
-              "sub_req_text": "Brake fluid.",
+              "sub_req_text": "Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid.",
               "topic_title": "Req 2a(1): Brake Fluid Reservoir Inspection",
               "pamphlet_summary": "Brake Fluid Reservoir Inspection: Inspect the translucent master cylinder reservoir to verify that fluid rests between the minimum and maximum indicator lines without removing the cap unnecessarily. Check for dark amber or black discoloration that indicates contamination or moisture absorption requiring a system flush (p. 25).",
               "pamphlet_excerpts": [
@@ -951,13 +1063,13 @@
             {
               "sub_id": "2a(2)",
               "label": "(2)",
-              "text": "Engine oil.",
+              "text": "Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(2) Structured Technical Study & Explanation Matrix (Engine Oil)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -969,12 +1081,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Engine oil"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Engine oil"
+                  "1. Req 2a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1004,7 +1126,7 @@
               ],
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
-              "sub_req_text": "Engine oil.",
+              "sub_req_text": "Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "topic_title": "Req 2a(2): Engine Oil Level Dipstick Inspection",
               "pamphlet_summary": "Engine Oil Level Dipstick Inspection: Park the vehicle on level ground and withdraw the dipstick, wiping it clean before reinserting it fully to obtain an accurate reading. Confirm that the oil level registers between the add and full hash marks while observing the oil clarity and viscosity (p. 21).",
               "pamphlet_excerpts": [
@@ -1020,13 +1142,13 @@
             {
               "sub_id": "2a(3)",
               "label": "(3)",
-              "text": "Coolant.",
+              "text": "Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(3) Structured Technical Study & Explanation Matrix (Automotive Maintenance Coolant Principles)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1038,12 +1160,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Automotive Maintenance Coolant Principles"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Automotive Maintenance Coolant Principles"
+                  "1. Req 2a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1073,7 +1205,7 @@
               ],
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
-              "sub_req_text": "Coolant.",
+              "sub_req_text": "Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "topic_title": "Req 2a(3): Coolant Expansion Tank Level Verification",
               "pamphlet_summary": "Coolant Expansion Tank Level Verification: Observe the coolant level through the transparent overflow recovery tank to ensure it aligns with the cold fill mark while the engine remains unheated. Never loosen or remove a pressurized radiator cap on a hot cooling system due to the extreme risk of scalding steam eruption (p. 29).",
               "pamphlet_excerpts": [
@@ -1089,13 +1221,13 @@
             {
               "sub_id": "2a(4)",
               "label": "(4)",
-              "text": "Power steering fluid.",
+              "text": "Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(4) Structured Technical Study & Explanation Matrix (Power Steering Fluid)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1107,12 +1239,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Power steering fluid"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Power steering fluid"
+                  "1. Req 2a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1142,7 +1284,7 @@
               ],
               "id": "2a(4)",
               "sub_req_label": "2a(4)",
-              "sub_req_text": "Power steering fluid.",
+              "sub_req_text": "Power steering fluid (5) Windshield washer fluid (6) Transmission fluid.",
               "topic_title": "Req 2a(4): Power Steering Fluid Reservoir Assessment",
               "pamphlet_summary": "Power Steering Fluid Reservoir Assessment: Locate the hydraulic power steering reservoir and read the hot or cold level indicators on the built-in cap dipstick. Modern vehicles with electric power steering assist lack hydraulic pumps and reservoirs entirely, requiring no fluid inspection (p. 31).",
               "pamphlet_excerpts": [
@@ -1158,13 +1300,13 @@
             {
               "sub_id": "2a(5)",
               "label": "(5)",
-              "text": "Windshield washer fluid.",
+              "text": "Windshield washer fluid (6) Transmission fluid.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(5) Structured Technical Study & Explanation Matrix (Windshield Washer Fluid)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1176,12 +1318,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Windshield washer fluid"
+                  "1. Req 2a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Windshield washer fluid"
+                  "1. Req 2a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1211,7 +1363,7 @@
               ],
               "id": "2a(5)",
               "sub_req_label": "2a(5)",
-              "sub_req_text": "Windshield washer fluid.",
+              "sub_req_text": "Windshield washer fluid (6) Transmission fluid.",
               "topic_title": "Req 2a(5): Windshield Washer Solvent Reservoir Service",
               "pamphlet_summary": "Windshield Washer Solvent Reservoir Service: Identify the windshield washer reservoir by the windshield spray icon stamped on its cap and top off the reservoir with seasonal washer solvent. Plain water should never replace commercial washer fluid because water freezes inside the lines and lacks glass cleaners (p. 19).",
               "pamphlet_excerpts": [
@@ -1233,7 +1385,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(6) Structured Technical Study & Explanation Matrix (Transmission Fluid)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1245,12 +1397,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Transmission fluid"
+                  "1. Req 2a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Transmission fluid"
+                  "1. Req 2a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1296,7 +1458,7 @@
             {
               "sub_id": "2a(7)",
               "label": "(7)",
-              "text": "Battery fluid (if possible) and condition of the battery terminals.",
+              "text": "Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes.",
               "resources": [
                 {
                   "title": "How to Care for Your Automotive Battery (video)",
@@ -1311,7 +1473,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2a(7) Structured Technical Study & Explanation Matrix (Battery Fluid If Possible and)",
+                "table_title": "Req 2a",
                 "headers": [
                   "Req 2a(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1323,12 +1485,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Battery fluid (if possible) and condition of the battery terminals"
+                  "1. Req 2a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Battery fluid (if possible) and condition of the battery terminals"
+                  "1. Req 2a(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2a(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2a(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
@@ -1358,7 +1530,7 @@
               ],
               "id": "2a(7)",
               "sub_req_label": "2a(7)",
-              "sub_req_text": "Battery fluid (if possible) and condition of the battery terminals.",
+              "sub_req_text": "Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes.",
               "topic_title": "Req 2a(7): Battery Electrolyte and Terminal Maintenance",
               "pamphlet_summary": "Battery Electrolyte and Terminal Maintenance: Examine unsealed battery vent caps to confirm electrolyte covers the lead plates, adding only distilled water if plates are exposed. Inspect terminals for white or blue powdery corrosion, cleaning dirty posts with a wire brush and a neutralized baking soda solution while wearing eye protection (p. 34).",
               "pamphlet_excerpts": [
@@ -1376,7 +1548,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Brake Fluid Engine Oil Coolant)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1405,7 +1577,13 @@
               "6. (2a(6)) Transmission fluid",
               "7. (2a(7)) Battery fluid (if possible) and condition of the battery terminals"
             ],
-            "min_rows": 7
+            "min_rows": 7,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
           "common_misconception_pair": {
@@ -1435,7 +1613,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals.",
+          "sub_req_text": "Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4) Power steering fluid (5) Windshield washer fluid (6) Transmission fluid (7) Battery fluid (if possible) and condition of the battery terminals (b) Locate the fuse boxes.",
           "topic_title": "Req 2a: Fluid Reservoir Inspection Protocols",
           "pamphlet_summary": "Checking engine oil, transmission fluid, coolant, power steering, and brake fluid requires understanding individual reservoir dipsticks and sight glass indicators. Cold versus warm fluid expansion lines dictate exact fill targets across varied mechanical reservoirs.",
           "pamphlet_excerpts": [
@@ -1443,7 +1621,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p007_img1.png",
           "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 2a (Demonstrate how to check the following: (1) Brake fluid (2) Engine oil (3) Coolant (4)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -1459,7 +1640,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Fuse Boxes)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1478,7 +1659,13 @@
               "1. Locate the fuse boxes; determine the type and size of fuses.",
               "2. Demonstrate the proper replacement of burned-out fuses."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
           "common_misconception_pair": {
@@ -1516,7 +1703,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
           "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 2b (Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -1540,7 +1730,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist (Condition and Tension of Belts)",
+            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1552,12 +1742,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to check the condition and tension of belts and hoses"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to check the condition and tension of belts and hoses"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
           "common_misconception_pair": {
@@ -1595,7 +1795,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
           "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 2c (Demonstrate how to check the condition and tension of belts and hoses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -1615,7 +1818,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Vehicle for Proper Operation of)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1627,12 +1830,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
           "common_misconception_pair": {
@@ -1671,7 +1884,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
           "title": "Req 2d: Interior and Exterior Light Checks",
           "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 2d (Check the vehicle for proper operation of its lights, including the interior overhead), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
@@ -1687,7 +1903,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Air Filter(s)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1699,12 +1915,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Locate and check the air filter"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Locate and check the air filter"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
           "common_misconception_pair": {
@@ -1743,7 +1969,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
           "title": "Req 2e: Engine Air Filter Inspection",
           "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+          "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 2e (Locate and check the air filter(s)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1806,7 +2035,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (General Maintenance)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1831,7 +2060,13 @@
           "4. (2d) Interior and Exterior Light Checks",
           "5. (2e) Locate and check the air filter"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All under-hood fluid reservoirs can be opened immediately after running the engine at operating temperature.",
@@ -1999,7 +2234,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Function of the Fuel Gauge)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2018,7 +2253,13 @@
               "1. Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine temperature gauge.",
               "2. Point each one out on the instrument cluster."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2056,7 +2297,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p012_img1.png",
           "workbook_diagram_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
-          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges."
+          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 3a (Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -2072,7 +2316,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Symbols Dashboard Yellow Symbols)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Yellow Advisory Dashboard Warning Lights",
@@ -2091,7 +2335,13 @@
               "1. Explain the symbols that light up on the dashboard and the difference between the yellow and red symbols.",
               "2. Explain each of the indicators on the dashboard, using the owner's manual if necessary."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Yellow Advisory Dashboard Warning Lights",
+              "Red Immediate Hazard Warning Lights"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2129,7 +2379,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p082_img2.png",
           "workbook_diagram_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
-          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges."
+          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 3b (Explain the symbols that light up on the dashboard and the difference between the yellow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -2140,7 +2393,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Messages and Alerts)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2152,12 +2405,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the messages and alerts that may be displayed on the dashboard/driver information center including maintenance-related reminders"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the messages and alerts that may be displayed on the dashboard/driver information center including maintenance-related reminders"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)",
           "common_misconception_pair": {
@@ -2195,7 +2458,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p082_img2.png",
           "workbook_diagram_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
-          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges."
+          "workbook_visual_caption": "A driver dashboard features an instrument cluster with speedometer, tachometer, and gauges.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 3c (Explain the messages and alerts that may be displayed on the dashboard/driver information), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2226,7 +2492,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Dashboard/Driver Information Center)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Yellow Advisory Dashboard Warning Lights",
@@ -2247,7 +2513,13 @@
           "2. (3b) Symbols Dashboard Yellow Symbols",
           "3. (3c) Messages and Alerts"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Yellow Advisory Dashboard Warning Lights",
+          "Red Immediate Hazard Warning Lights"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dashboard warning lights represent mere suggestions that can wait until the next scheduled oil change.",
@@ -2410,7 +2682,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4a Technical Comparison Matrix (Tire Manufacturer's and Vehicle Manufacturer's)",
+            "table_title": "Req 4a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Vehicle Door Jamb Recommended Pressure",
@@ -2422,12 +2694,22 @@
               "Tire Sidewall Maximum Pressure Rating"
             ],
             "row_labels": [
-              "1. Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Vehicle Door Jamb Recommended Pressure",
+              "Tire Sidewall Maximum Pressure Rating"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)",
           "common_misconception_pair": {
@@ -2465,7 +2747,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p039_img1.png",
           "workbook_diagram_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
-          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure."
+          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 4a (Explain the difference between tire manufacturer's and vehicle manufacturer's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -2481,7 +2766,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Tire Pressure and Properly Inflate)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2500,7 +2785,13 @@
               "1. Demonstrate how to check tire pressure and properly inflate a tire.",
               "2. Check the spare tire and make sure it is ready for use."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)",
           "common_misconception_pair": {
@@ -2538,7 +2829,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p039_img1.png",
           "workbook_diagram_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
-          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure."
+          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 4b (Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -2554,7 +2848,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Wheel Alignment Is Important)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2573,7 +2867,13 @@
               "1. Explain why wheel alignment is important to the life of a tire.",
               "2. Explain caster, camber, and toe-in adjustments on wheel alignment."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)",
           "common_misconception_pair": {
@@ -2611,7 +2911,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p039_img1.png",
           "workbook_diagram_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
-          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure."
+          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 4c (Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -2631,7 +2934,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Lateral-wear Bar Indicator)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2643,12 +2946,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the purpose of the lateral-wear bar indicator"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the purpose of the lateral-wear bar indicator"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)",
           "common_misconception_pair": {
@@ -2686,7 +2999,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p039_img1.png",
           "workbook_diagram_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
-          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure."
+          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 4d (Explain the purpose of the lateral-wear bar indicator), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -2702,7 +3018,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Dispose of Old Tires in)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2714,12 +3030,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how to dispose of old tires in accordance with local laws and regulations"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how to dispose of old tires in accordance with local laws and regulations"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)",
           "common_misconception_pair": {
@@ -2758,7 +3084,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p039_img1.png",
           "title": "Req 4e: Proper Used Tire Disposal",
           "workbook_diagram_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
-          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure."
+          "workbook_visual_caption": "A hand presses a mechanical pressure gauge onto a valve stem to measure automotive tire pressure.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 4e (Explain how to dispose of old tires in accordance with local laws and regulations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2805,7 +3134,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Tires Tire Manufacturer's Vehicle)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Vehicle Door Jamb Recommended Pressure",
@@ -2830,7 +3159,13 @@
           "4. (4d) Explain the purpose of the lateral-wear bar indicator",
           "5. (4e) Explain how to dispose of old tires in accordance with local laws and regulations"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Vehicle Door Jamb Recommended Pressure",
+          "Tire Sidewall Maximum Pressure Rating"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The maximum pressure stamped on the tire sidewall indicates the recommended daily inflation pressure.",
@@ -3005,7 +3340,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 5a Technical Comparison Matrix (Internal Combustion Engine)",
+            "table_title": "Req 5a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Spark-Ignition Gasoline Combustion Engines",
@@ -3026,7 +3361,13 @@
               "2. Tell the differences between gasoline and diesel engines.",
               "3. Explain how a gasoline-electric hybrid vehicle is powered."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Spark-Ignition Gasoline Combustion Engines",
+              "Compression-Ignition Diesel and Electric Motors"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)",
           "common_misconception_pair": {
@@ -3064,7 +3405,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p030_img1.png",
           "workbook_diagram_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
-          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge."
+          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 5a (Explain how an internal combustion engine operates. Tell the differences between gasoline), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -3084,7 +3428,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Discuss the Purpose of Engine)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3103,7 +3447,13 @@
               "1. Discuss the purpose of engine oil.",
               "2. Explain the API service code, the SAE number, and the viscosity rating."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)",
           "common_misconception_pair": {
@@ -3141,7 +3491,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p030_img1.png",
           "workbook_diagram_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
-          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge."
+          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 5b (Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -3157,7 +3510,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Recommended Oil Type and the)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3169,12 +3522,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)",
           "common_misconception_pair": {
@@ -3213,7 +3576,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p030_img1.png",
           "title": "Req 5c: Recommended Oil Type and Capacity",
           "workbook_diagram_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
-          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge."
+          "workbook_visual_caption": "A roadside parking sign marks a dedicated charging station for electric vehicle battery recharge.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 5c (Explain where to find the recommended oil type and the amount of oil to be used in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3260,7 +3626,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 5 Technical Comparison Matrix (Engine Internal Combustion Engine)",
+        "table_title": "Req 5 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Spark-Ignition Gasoline Combustion Engines",
@@ -3281,7 +3647,13 @@
           "2. (5b) Discuss the purpose of engine oil",
           "3. (5c) Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Spark-Ignition Gasoline Combustion Engines",
+          "Compression-Ignition Diesel and Electric Motors"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engine oil serves only to make metal parts slippery and never requires replacement if clean on the dipstick.",
@@ -3444,7 +3816,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Need for Coolant in the)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3456,12 +3828,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)",
           "common_misconception_pair": {
@@ -3500,7 +3882,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p060_img1.png",
           "title": "Req 6a: Coolant Purpose and Proper Selection",
           "workbook_diagram_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant.",
-          "workbook_visual_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant."
+          "workbook_visual_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 6a (Explain the need for coolant in the cooling system, and the importance of selecting the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -3516,7 +3901,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Flush and Change the Engine)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3528,12 +3913,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)",
           "common_misconception_pair": {
@@ -3571,7 +3966,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p060_img1.png",
           "workbook_diagram_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant.",
-          "workbook_visual_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant."
+          "workbook_visual_caption": "An automotive radiator with cooling fins and tanks dissipates excess heat from engine coolant.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 6b (Explain how to flush and change the engine coolant in the vehicle, and how to properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3602,7 +4000,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Cooling System)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3621,7 +4019,13 @@
           "1. (6a) Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle",
           "2. (6b) Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pure tap water provides superior cooling efficiency and can replace formulated coolant mixtures indefinitely.",
@@ -3788,7 +4192,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Air and Fuel Systems Work)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3800,12 +4204,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how the air and fuel systems work together and why it is necessary to have an air filter and fuel filter"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how the air and fuel systems work together and why it is necessary to have an air filter and fuel filter"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
@@ -3843,7 +4257,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p049_img1.png",
           "workbook_diagram_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors.",
-          "workbook_visual_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors."
+          "workbook_visual_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 7a (Explain how the air and fuel systems work together and why it is necessary to have an air), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3859,7 +4276,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Fuel Injection System Works)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3871,12 +4288,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how a fuel injection system works and how an onboard computer works with the fuel injection system"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how a fuel injection system works and how an onboard computer works with the fuel injection system"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)",
           "common_misconception_pair": {
@@ -3914,7 +4341,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p049_img1.png",
           "workbook_diagram_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors.",
-          "workbook_visual_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors."
+          "workbook_visual_caption": "A diagram of balanced spheres illustrates atmospheric pressure principles used in carburetors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 7b (Explain how a fuel injection system works and how an onboard computer works with the fuel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3949,7 +4379,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Fuel System)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3968,7 +4398,13 @@
           "1. (7a) Air and Fuel Systems Work",
           "2. (7b) Fuel Injection System Works"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fuel injectors spray fuel continuously into the engine cylinders regardless of throttle valve position.",
@@ -4120,7 +4556,7 @@
         {
           "sub_id": "8a",
           "label": "(a)",
-          "text": "Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system.",
+          "text": "Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
           "resources": [
             {
               "title": "Car Electrical System Explained (video)",
@@ -4131,7 +4567,7 @@
             {
               "sub_id": "8a(1)",
               "label": "(1)",
-              "text": "Starting/charging system.",
+              "text": "Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
               "resources": [
                 {
                   "title": "Automotive Starting and Charging System (video)",
@@ -4142,7 +4578,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(1) Structured Technical Study & Explanation Matrix (Starting/charging System)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4154,12 +4590,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Starting/charging system"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Starting/charging system"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
@@ -4189,7 +4635,7 @@
               ],
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
-              "sub_req_text": "Starting/charging system.",
+              "sub_req_text": "Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
               "topic_title": "Req 8a(1): Starting and Charging System Diagnostics",
               "pamphlet_summary": "Starting and Charging System Diagnostics: Test the battery, starter motor, alternator, and drive belt to verify that the charging system produces roughly 13.5 to 14.5 volts while the engine runs. Inspect the starter solenoid wiring and verify that the alternator belt retains proper tension without glazing or cracking (p. 59).",
               "pamphlet_excerpts": [
@@ -4205,7 +4651,7 @@
             {
               "sub_id": "8a(2)",
               "label": "(2)",
-              "text": "Hybrid or electric vehicle inverter.",
+              "text": "Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
               "resources": [
                 {
                   "title": "The Role of Inverters for EV Propulsion Systems (video)",
@@ -4216,7 +4662,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(2) Structured Technical Study & Explanation Matrix (Hybrid or Electric Vehicle Inverter)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4228,12 +4674,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Hybrid or electric vehicle inverter"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Hybrid or electric vehicle inverter"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
@@ -4263,7 +4719,7 @@
               ],
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
-              "sub_req_text": "Hybrid or electric vehicle inverter.",
+              "sub_req_text": "Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
               "topic_title": "Req 8a(2): High Voltage Inverter Safety Protocols",
               "pamphlet_summary": "High Voltage Inverter Safety Protocols: Identify the electric drive inverter by its dedicated cooling lines and high-voltage orange insulated cabling, understanding that it transforms direct current from the traction pack into multiphase alternating current. Never touch or probe orange high-voltage cables or inverter terminals because traction batteries carry lethal electrical potential (p. 65).",
               "pamphlet_excerpts": [
@@ -4279,7 +4735,7 @@
             {
               "sub_id": "8a(3)",
               "label": "(3)",
-              "text": "Lighting system.",
+              "text": "Lighting system (b) Explain the engine's firing order.",
               "resources": [
                 {
                   "title": "Automotive Lighting Circuits (video)",
@@ -4290,7 +4746,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(3) Structured Technical Study & Explanation Matrix (Lighting System)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4302,12 +4758,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Lighting system"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Lighting system"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
@@ -4337,7 +4803,7 @@
               ],
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
-              "sub_req_text": "Lighting system.",
+              "sub_req_text": "Lighting system (b) Explain the engine's firing order.",
               "topic_title": "Req 8a(3): Automotive Lighting System Component Inspection",
               "pamphlet_summary": "Automotive Lighting System Component Inspection: Conduct a complete walkaround inspection checking headlights, taillights, brake lights, turn signals, and hazard flashers for proper illumination and clean lenses. When replacing halogen headlight bulbs, hold the replacement unit strictly by its base to prevent natural skin oils from overheating and shattering the quartz glass capsule (p. 63).",
               "pamphlet_excerpts": [
@@ -4353,17 +4819,17 @@
           ],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Electrical Systems Starting/charging System Hybrid)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. (8a(1)) Starting/charging System",
@@ -4375,7 +4841,13 @@
               "2. (8a(2)) Hybrid or Electric Vehicle Inverter",
               "3. (8a(3)) Lighting System"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4405,7 +4877,7 @@
           ],
           "id": "8a",
           "sub_req_label": "8a",
-          "sub_req_text": "Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system.",
+          "sub_req_text": "Diagram and explain the parts of one of the following electrical systems: (1) Starting/charging system (2) Hybrid or electric vehicle inverter (3) Lighting system (b) Explain the engine's firing order.",
           "topic_title": "Req 8a: Starting and Charging System Components",
           "pamphlet_summary": "Vehicle electrical architectures integrate a storage battery, starter motor, and belt-driven alternator to manage electrical demands. Lighting and auxiliary systems draw regulated direct current power through fused circuits protected by electronic relays.",
           "pamphlet_excerpts": [
@@ -4413,7 +4885,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8a (Diagram and explain the parts of one of the following electrical systems: (1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -4429,7 +4904,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Engine's Firing Order)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4441,12 +4916,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the engine's firing order"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the engine's firing order"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4484,7 +4969,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8b (Explain the engine's firing order), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -4500,7 +4988,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Spark Gap)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4512,12 +5000,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the purpose of the spark gap"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the purpose of the spark gap"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4555,7 +5053,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8c (Explain the purpose of the spark gap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -4575,7 +5076,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist (Connect Jumper Cables to Your)",
+            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4587,12 +5088,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate how to safely connect jumper cables to your car battery"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate how to safely connect jumper cables to your car battery"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4631,7 +5142,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "title": "Req 8d: Safe Jumper Cable Connection",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8d (Demonstrate how to safely connect jumper cables to your car battery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -4647,7 +5161,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4666,7 +5180,13 @@
               "1. Discuss with your counselor what factors can affect range on an electrified vehicle.",
               "2. Explain the procedure for recharging an electric or plug-in hybrid vehicle."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4705,7 +5225,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "title": "Req 8e: Electric Vehicle Range and Charging",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8e (Discuss with your counselor what factors can affect range on an electrified vehicle.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8f",
@@ -4721,7 +5244,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8f Structured Technical Study & Explanation Matrix (Vehicle Systems Are Dependent)",
+            "table_title": "Req 8f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4733,12 +5256,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what other vehicle systems are dependent on a reliable electrical system"
+              "1. Req 8f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what other vehicle systems are dependent on a reliable electrical system"
+              "1. Req 8f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
           "common_misconception_pair": {
@@ -4776,7 +5309,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
           "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+          "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 8f (Explain what other vehicle systems are dependent on a reliable electrical system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4838,17 +5374,17 @@
       "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Ignition and Electrical Systems)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (8a) Starting, Charging, and Lighting Diagrams",
@@ -4866,7 +5402,13 @@
           "5. (8e) Discuss with your counselor what factors can affect range on an electrified vehicle",
           "6. (8f) Explain what other vehicle systems are dependent on a reliable electrical system"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The vehicle twelve-volt battery powers all onboard electrical accessories while the engine is running.",
@@ -5033,25 +5575,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Automotive Maintenance Train Principles)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Diagram the drive train and explain the different parts"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Diagram the drive train and explain the different parts"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
           "common_misconception_pair": {
@@ -5089,7 +5641,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p031_img1.png",
           "workbook_diagram_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
-          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors."
+          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 9a (Diagram the drive train and explain the different parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -5105,24 +5660,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 9b Technical Comparison Matrix (Automatic and Standard Transmissions)",
+            "table_title": "Req 9b Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Low-Gear High-Torque Hill Climbing",
-              "High-Gear Efficient Highway Cruising"
+              "Drivetrain Dimension",
+              "Automatic Transmission (Torque Converter & Planetary Gears)",
+              "Standard / Manual Transmission (Clutch & Driver Gear Selection)"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Low-Gear High-Torque Hill Climbing",
-              "High-Gear Efficient Highway Cruising"
+              "Drivetrain Dimension",
+              "Automatic Transmission (Torque Converter & Planetary Gears)",
+              "Standard / Manual Transmission (Clutch & Driver Gear Selection)"
             ],
             "row_labels": [
-              "1. Explain the difference between automatic and standard transmissions"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the difference between automatic and standard transmissions"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Drivetrain Dimension",
+              "Automatic Transmission (Torque Converter & Planetary Gears)",
+              "Standard / Manual Transmission (Clutch & Driver Gear Selection)"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
           "common_misconception_pair": {
@@ -5160,7 +5725,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p031_img1.png",
           "workbook_diagram_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
-          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors."
+          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 9b (Explain the difference between automatic and standard transmissions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -5176,7 +5744,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Automatic Transmission Fluid)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5188,12 +5756,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the types of automatic transmission fluid"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the types of automatic transmission fluid"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
           "common_misconception_pair": {
@@ -5231,7 +5809,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p031_img1.png",
           "workbook_diagram_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
-          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors."
+          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 9c (Explain the types of automatic transmission fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9d",
@@ -5247,7 +5828,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9d Structured Technical Study & Explanation Matrix (Lubricants Used in A Standard)",
+            "table_title": "Req 9d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5259,12 +5840,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the types of lubricants used in a standard transmission, and in the differential and transfer case"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the types of lubricants used in a standard transmission, and in the differential and transfer case"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
           "common_misconception_pair": {
@@ -5302,7 +5893,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p031_img1.png",
           "workbook_diagram_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
-          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors."
+          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 9d (Explain the types of lubricants used in a standard transmission, and in the differential), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9e",
@@ -5318,24 +5912,34 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 9e Technical Comparison Matrix (Front-wheel Rear-wheel and Four-wheel)",
+            "table_title": "Req 9e Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Low-Gear High-Torque Hill Climbing",
-              "High-Gear Efficient Highway Cruising"
+              "Drivetrain Configuration",
+              "Front-Wheel & Rear-Wheel Drive (2WD Traction & Balance)",
+              "Four-Wheel & All-Wheel Drive (4WD/AWD Off-Road & Slip Control)"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Low-Gear High-Torque Hill Climbing",
-              "High-Gear Efficient Highway Cruising"
+              "Drivetrain Configuration",
+              "Front-Wheel & Rear-Wheel Drive (2WD Traction & Balance)",
+              "Four-Wheel & All-Wheel Drive (4WD/AWD Off-Road & Slip Control)"
             ],
             "row_labels": [
-              "1. Explain the difference between front-wheel, rear-wheel, and four-wheel drive"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the difference between front-wheel, rear-wheel, and four-wheel drive"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Drivetrain Configuration",
+              "Front-Wheel & Rear-Wheel Drive (2WD Traction & Balance)",
+              "Four-Wheel & All-Wheel Drive (4WD/AWD Off-Road & Slip Control)"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
           "common_misconception_pair": {
@@ -5373,7 +5977,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p031_img1.png",
           "workbook_diagram_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
-          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors."
+          "workbook_visual_caption": "Modern electric cars plug into a row of high-voltage commercial charging stations outdoors.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 9e (Explain the difference between front-wheel, rear-wheel, and four-wheel drive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5415,17 +6022,17 @@
       "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 9 Technical Comparison Matrix (Train Train Automatic Standard)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (9a) Automotive Maintenance Train Principles",
@@ -5441,7 +6048,13 @@
           "4. (9d) Lubricants Used in A Standard",
           "5. (9e) Front-wheel Rear-wheel and Four-wheel"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The engine connects directly to the vehicle drive wheels without intermediate gear reduction assemblies.",
@@ -5604,7 +6217,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10a Structured Technical Study & Explanation Matrix (Brake System Including Antilock Systems)",
+            "table_title": "Req 10a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5616,12 +6229,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the brake system (including antilock systems) and how it operates"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the brake system (including antilock systems) and how it operates"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)",
           "common_misconception_pair": {
@@ -5659,7 +6282,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p049_img2.png",
           "workbook_diagram_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
-          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve."
+          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 10a (Explain the brake system (including antilock systems) and how it operates), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -5675,7 +6301,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 10b Technical Comparison Matrix (Disc and Drum Brake Systems)",
+            "table_title": "Req 10b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Caliper and Rotor Disc Brakes",
@@ -5687,12 +6313,22 @@
               "Wheel Cylinder and Shoe Drum Brakes"
             ],
             "row_labels": [
-              "1. Explain the differences between disc and drum brake systems"
+              "1. Req 10b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the differences between disc and drum brake systems"
+              "1. Req 10b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Caliper and Rotor Disc Brakes",
+              "Wheel Cylinder and Shoe Drum Brakes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)",
           "common_misconception_pair": {
@@ -5730,7 +6366,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p049_img2.png",
           "workbook_diagram_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
-          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve."
+          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 10b (Explain the differences between disc and drum brake systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10c",
@@ -5746,7 +6385,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 10c Hands-On Skill Station & EDGE Verification Checklist (Condition of A Vehicle's Brake)",
+            "table_title": "Req 10c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -5765,7 +6404,13 @@
               "1. Demonstrate how to check the condition of a vehicle's brake system.",
               "2. After checking, make recommendations for repairs (if necessary)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)",
           "common_misconception_pair": {
@@ -5803,7 +6448,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p049_img2.png",
           "workbook_diagram_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
-          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve."
+          "workbook_visual_caption": "A cross-section diagram explains how air and vaporized fuel mix in a carburetor and intake valve.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 10c (Demonstrate how to check the condition of a vehicle's brake system. After checking, make), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5838,7 +6486,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 10 Technical Comparison Matrix (Brake System)",
+        "table_title": "Req 10 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Caliper and Rotor Disc Brakes",
@@ -5859,7 +6507,13 @@
           "2. (10b) Disc and Drum Brake Systems",
           "3. (10c) Condition of A Vehicle's Brake"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Caliper and Rotor Disc Brakes",
+          "Wheel Cylinder and Shoe Drum Brakes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Stepping on the brake pedal pushes mechanical steel cables directly against modern passenger vehicle wheels.",
@@ -6026,7 +6680,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Value of Three Different Vehicles)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -6051,7 +6705,13 @@
               "4. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car",
               "5. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)",
           "common_misconception_pair": {
@@ -6089,7 +6749,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p057_img1.png",
           "workbook_diagram_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
-          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition."
+          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 11a (Determine the value of three different vehicles you are interested in purchasing. One must), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -6105,7 +6768,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Car Cleaner and Wax Product)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -6128,7 +6791,13 @@
               "3. Clean the vehicle, both inside and out, and wax the exterior.",
               "4. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)",
           "common_misconception_pair": {
@@ -6166,7 +6835,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p057_img1.png",
           "workbook_diagram_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
-          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition."
+          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 11b (Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11c",
@@ -6182,7 +6854,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 11c Hands-On Skill Station & EDGE Verification Checklist (Manufacturer's Jack Use the Jack)",
+            "table_title": "Req 11c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -6201,7 +6873,13 @@
               "1. Locate the manufacturer's jack.",
               "2. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)",
           "common_misconception_pair": {
@@ -6239,7 +6917,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p057_img1.png",
           "workbook_diagram_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
-          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition."
+          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 11c (Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11d",
@@ -6255,7 +6936,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11d Structured Technical Study & Explanation Matrix (Oil Filter and Oil Change)",
+            "table_title": "Req 11d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -6274,7 +6955,13 @@
               "1. Perform an oil filter and oil change on a vehicle.",
               "2. Explain how to properly dispose of the used oil and filter."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)",
           "common_misconception_pair": {
@@ -6312,7 +6999,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p057_img1.png",
           "workbook_diagram_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
-          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition."
+          "workbook_visual_caption": "A hand pulls the yellow engine oil dipstick to check motor oil level and lubrication condition.",
+          "socratic_questions": [
+            "For automotive maintenance Requirement 11d (Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -6351,7 +7041,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 11 Hands-On Skill Station & EDGE Verification Checklist (Value of Three Different Vehicles)",
+        "table_title": "Req 11 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -6374,7 +7064,13 @@
           "3. (11c) Manufacturer's Jack Use The Jack",
           "4. (11d) Oil Filter and Oil Change"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Automotive detailing products can be applied with household dish soap without damaging clear coat finishes.",
@@ -6573,14 +7269,20 @@
         "row_labels": [
           "1. Find out about three career opportunities in the automotive industry.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about three career opportunities in the automotive industry.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Automotive technicians perform only repetitive manual labor without needing computer networking and electronics training.",

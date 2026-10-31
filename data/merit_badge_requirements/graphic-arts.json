@@ -46,17 +46,17 @@
       "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 41)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Processes for Producing Printed Communications)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. Review with your counselor the processes for producing printed communications: offset lithography, screen printing, electronic/digital, relief, and gravure",
@@ -66,7 +66,13 @@
           "1. Review with your counselor the processes for producing printed communications: offset lithography, screen printing, electronic/digital, relief, and gravure",
           "2. Collect samples of three products, each one produced using a different printing process, or draw diagrams to help you with your description"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe digital toner printers have replaced all traditional mechanical printing presses.",
@@ -251,7 +257,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Continuous Tone Line and Halftone)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Unbroken Shades in Continuous-Tone Photos",
@@ -270,7 +276,13 @@
           "1. Explain the differences between continuous tone, line, and half tone artwork.",
           "2. Describe how digital images can be created and/or stored in a computer."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Unbroken Shades in Continuous-Tone Photos",
+          "Variable Dot Patterns in Halftones"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think computer monitors display printed halftones rather than continuous tone approximations.",
@@ -451,7 +463,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Printed Piece Flyer T-shirt Program)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -474,7 +486,13 @@
           "3. Explain which printing process is best suited for printing your design",
           "4. If desktop publishing is available, identify what hardware and software would be appropriate for outputting your design"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe combining five decorative typefaces on one flyer makes designs more artistic.",
@@ -641,7 +659,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (Offset Lithography Make A Layout)",
+            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -662,19 +680,20 @@
               "2. Make a layout, and produce a plate using a process approved by your counselor.",
               "3. Run the plate and print at least 50 copies."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
             "misconception": "Operators think offset lithography plates stamp ink directly onto paper stock without intermediary rollers.",
             "fact": "Offset lithography transfers ink from plate to a rubber blanket cylinder before paper contact."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Graphic Arts Req 4a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Graphic Arts Merit Badge Hub (Req 4a)",
@@ -705,7 +724,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p045_img1.png",
           "workbook_diagram_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
-          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase."
+          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
+          "socratic_questions": [
+            "For graphic arts Requirement 4a (Offset lithography. Make a layout, and produce a plate using a process approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -716,7 +738,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Screen Printing Make A Hand-cut)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -739,7 +761,13 @@
               "3. Mask the screen and print at least 20 copies.",
               "4. Resource: Screen Printing Tutorial (video)"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
@@ -777,7 +805,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p045_img1.png",
           "workbook_diagram_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
-          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase."
+          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
+          "socratic_questions": [
+            "For graphic arts Requirement 4b (Screen printing. Make a hand-cut or photographic stencil and attach it to a screen that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -793,7 +824,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Electronic/digital Printing Create A Layout)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -814,7 +845,13 @@
               "2. Create a layout in electronic form, download it to the press or printer, and run 50 copies.",
               "3. If no electronic interface to the press or printer is available, you may print and scan a paper copy of the layout."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
@@ -852,7 +889,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p045_img1.png",
           "workbook_diagram_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
-          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase."
+          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
+          "socratic_questions": [
+            "For graphic arts Requirement 4c (Electronic/digital printing. Create a layout in electronic form, download it to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -868,7 +908,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Relief Printing Create A Layout)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -889,7 +929,13 @@
               "2. Create a layout in electronic form, download it to the press or printer, and run 50 copies.",
               "3. If no electronic interface to the press or printer is available, you may print and scan a paper copy of the layout."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)",
           "common_misconception_pair": {
@@ -927,7 +973,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p045_img1.png",
           "workbook_diagram_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
-          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase."
+          "workbook_visual_caption": "A desktop digital printer outputs sample proofs during the prepress phase.",
+          "socratic_questions": [
+            "For graphic arts Requirement 4d (Relief printing. Create a layout in electronic form, download it to the press or printer,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -966,7 +1015,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Produce the Design You Created)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -989,18 +1038,19 @@
           "3. (4c) Electronic/digital Printing Create A Layout",
           "4. (4d) Relief Printing Create A Layout"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices expect mechanical presses to print perfect copies immediately without waste make-ready runs.",
         "fact": "Every printing run requires calibration sheets to balance ink keys and paper feed alignment."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Graphic Arts Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Graphic Arts Merit Badge Hub (Req 4)",
@@ -1161,7 +1211,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Discuss the Finishing Operations of)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1173,12 +1223,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the finishing operations of padding, drilling, cutting, and trimming with your counselor"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the finishing operations of padding, drilling, cutting, and trimming with your counselor"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -1217,7 +1277,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p075_img1.png",
           "title": "Req 5a: Finishing Operations and Trimming",
           "workbook_diagram_caption": "A binding diagram shows how signatures are attached into a hardcover case.",
-          "workbook_visual_caption": "A binding diagram shows how signatures are attached into a hardcover case."
+          "workbook_visual_caption": "A binding diagram shows how signatures are attached into a hardcover case.",
+          "socratic_questions": [
+            "For graphic arts Requirement 5a (Discuss the finishing operations of padding, drilling, cutting, and trimming with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1228,7 +1291,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Binding Perfect Spiral Plastic Comb)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1240,12 +1303,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Collect, describe, or identify examples of the following types of binding: perfect, spiral, plastic comb, saddle stitch, and case"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Collect, describe, or identify examples of the following types of binding: perfect, spiral, plastic comb, saddle stitch, and case"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)",
           "common_misconception_pair": {
@@ -1283,7 +1356,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p075_img1.png",
           "workbook_diagram_caption": "A binding diagram shows how signatures are attached into a hardcover case.",
-          "workbook_visual_caption": "A binding diagram shows how signatures are attached into a hardcover case."
+          "workbook_visual_caption": "A binding diagram shows how signatures are attached into a hardcover case.",
+          "socratic_questions": [
+            "For graphic arts Requirement 5b (Collect, describe, or identify examples of the following types of binding: perfect, spiral,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1318,7 +1394,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Postpress Operations)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1337,7 +1413,13 @@
           "1. (5a) Discuss the finishing operations of padding, drilling, cutting, and trimming with your counselor",
           "2. (5b) Collect, describe, or identify examples of the following types of binding: perfect, spiral, plastic comb, saddle stitch, and case"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People assume that cutting paper stacks with scissors produces straight professional publication margins.",
@@ -1508,7 +1590,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Newspaper Printing Plant Follow A)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1527,7 +1609,12 @@
               "1. Visit a newspaper printing plant.",
               "2. Follow a story from the editor to the press."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
@@ -1566,7 +1653,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p044_img1.png",
           "title": "Req 6a: Newspaper Printing Plant Tour",
           "workbook_diagram_caption": "Graphic design software arranges typography and imagery into page spreads.",
-          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads."
+          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads.",
+          "socratic_questions": [
+            "For graphic arts Requirement 6a (Visit a newspaper printing plant. Follow a story from the editor to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1586,7 +1676,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Retail Commercial or in-plant Printing)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1605,7 +1695,12 @@
               "1. Visit a retail, commercial, or in-plant printing facility.",
               "2. Follow a project from beginning to end."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
@@ -1643,12 +1738,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p044_img1.png",
           "workbook_diagram_caption": "Graphic design software arranges typography and imagery into page spreads.",
-          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads."
+          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads.",
+          "socratic_questions": [
+            "For graphic arts Requirement 6b (Visit a retail, commercial, or in-plant printing facility. Follow a project from beginning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
           "label": "(c)",
-          "text": "Visit a school's graphic arts program. Find out what courses are available and what the prerequisites.",
+          "text": "Visit a school's graphic arts program. Find out what courses are available and what the prerequisites are.",
           "resources": [
             {
               "title": "Study Graphic Arts | Winchester School of Art (video)",
@@ -1663,7 +1761,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (School's Graphic Arts Program Find)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1682,7 +1780,12 @@
               "1. Visit a school's graphic arts program.",
               "2. Find out what courses are available and what the prerequisites."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
@@ -1712,7 +1815,7 @@
           ],
           "id": "6c",
           "sub_req_label": "6c",
-          "sub_req_text": "Visit a school's graphic arts program. Find out what courses are available and what the prerequisites.",
+          "sub_req_text": "Visit a school's graphic arts program. Find out what courses are available and what the prerequisites are.",
           "topic_title": "Req 6c: Vocational Graphic Program Evaluation",
           "pamphlet_summary": "Graphic communications vocational programs teach print management, graphic design software, color science, and equipment maintenance. Scouts review course catalogs and prerequisites for degrees and industry certifications.",
           "pamphlet_excerpts": [
@@ -1720,7 +1823,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p044_img1.png",
           "workbook_diagram_caption": "Graphic design software arranges typography and imagery into page spreads.",
-          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads."
+          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads.",
+          "socratic_questions": [
+            "For graphic arts Requirement 6c (Visit a school's graphic arts program. Find out what courses are available and what the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -1740,7 +1846,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Graphic Arts Careers and Pathways)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1759,19 +1865,20 @@
               "1. With your parent or guardian's permission, visit three websites that belong to graphic arts professional organizations and/or printing-related companies (suppliers, manufacturers, printers)",
               "2. Print out or download product or service information from two of the sites"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)",
           "common_misconception_pair": {
             "misconception": "Novices think print industry associations only represent small local stationery and photocopy shops.",
             "fact": "Printing trade groups represent global manufacturing sectors covering packaging chemistry, robotics, and advanced automation."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Graphic Arts Req 6d with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Graphic Arts Merit Badge Hub (Req 6d)",
@@ -1802,7 +1909,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/graphic_arts_p044_img1.png",
           "workbook_diagram_caption": "Graphic design software arranges typography and imagery into page spreads.",
-          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads."
+          "workbook_visual_caption": "Graphic design software arranges typography and imagery into page spreads.",
+          "socratic_questions": [
+            "For graphic arts Requirement 6d (With your parent or guardian's permission, visit three websites that belong to graphic arts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1857,7 +1967,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Graphic Arts Careers and Pathways)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1880,7 +1990,12 @@
           "3. (6c) Visit a school's graphic arts program",
           "4. (6d) Professional Graphic Arts Websites"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts think a commercial print shop simply clicks print like an office desktop computer.",
@@ -2084,14 +2199,20 @@
         "row_labels": [
           "1. Find out about three career opportunities in graphic arts.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
         "rows": [
           "1. Find out about three career opportunities in graphic arts.",
           "2. Pick one and find out the education, training, and experience required for this profession.",
-          "3. Discuss this with your counselor, and explain why this profession might interest you."
+          "3. Discuss this with your counselor, and explain why this profession might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe everyone working in graphic arts must be an illustrator with fine art degrees.",

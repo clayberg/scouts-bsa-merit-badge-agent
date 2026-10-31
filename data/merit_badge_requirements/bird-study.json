@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Need for Bird)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -66,7 +66,13 @@
           "1. Explain the need for bird study and why birds are useful indicators of the quality of the environment.",
           "2. Describe how birds are part of the ecosystem."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird population changes simply reflect random weather shifts rather than measurable environmental health trends.",
@@ -229,7 +235,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Perched Bird and Then)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -241,12 +247,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Sketch or trace a perched bird and then label 15 different parts of the bird"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sketch or trace a perched bird and then label 15 different parts of the bird"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)",
           "common_misconception_pair": {
@@ -285,7 +301,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p007_img1.png",
           "title": "Req 2a: Perched Bird Body Parts",
           "workbook_diagram_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks.",
-          "workbook_visual_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks."
+          "workbook_visual_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks.",
+          "socratic_questions": [
+            "For bird study Requirement 2a (Sketch or trace a perched bird and then label 15 different parts of the bird), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -305,7 +324,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Extended Wing)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -317,12 +336,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Sketch or trace an extended wing and label six types of wing feathers"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sketch or trace an extended wing and label six types of wing feathers"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)",
           "common_misconception_pair": {
@@ -360,7 +389,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p018_img1.png",
           "workbook_diagram_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks.",
-          "workbook_visual_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks."
+          "workbook_visual_caption": "A songbird perches atop a wooden post, displaying clear anatomical field marks.",
+          "socratic_questions": [
+            "For bird study Requirement 2b (Sketch or trace an extended wing and label six types of wing feathers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -395,7 +427,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (You Are Familiar)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -414,7 +446,13 @@
           "1. (2a) Sketch or trace a perched bird and then label 15 different parts of the bird",
           "2. (2b) Sketch or trace an extended wing and label six types of wing feathers"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird anatomy can be accurately recorded using common nontechnical words like tummy and wingtip.",
@@ -577,7 +615,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Specification Numbers Mean on Binoculars)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -589,12 +627,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -632,7 +680,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p012_img1.png",
           "workbook_diagram_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
-          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses."
+          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
+          "socratic_questions": [
+            "For bird study Requirement 3a (Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -652,7 +703,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Eyepiece and How to Focus)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -664,12 +715,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to adjust the eyepiece and how to focus for proper viewing"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to adjust the eyepiece and how to focus for proper viewing"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -707,7 +768,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p046_img1.png",
           "workbook_diagram_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
-          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses."
+          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
+          "socratic_questions": [
+            "For bird study Requirement 3b (Show how to adjust the eyepiece and how to focus for proper viewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -723,7 +787,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist (Care for and Clean the)",
+            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -735,12 +799,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to properly care for and clean the lenses"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to properly care for and clean the lenses"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -779,7 +853,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p046_img1.png",
           "title": "Req 3c: Proper Lens Care and Cleaning",
           "workbook_diagram_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
-          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses."
+          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
+          "socratic_questions": [
+            "For bird study Requirement 3c (Show how to properly care for and clean the lenses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -795,7 +872,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Viewing Device Would Be Most)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -807,12 +884,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe when and where each type of viewing device would be most effective"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe when and where each type of viewing device would be most effective"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)",
           "common_misconception_pair": {
@@ -851,7 +938,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p046_img1.png",
           "title": "Req 3d: Effective Viewing Device Uses",
           "workbook_diagram_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
-          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses."
+          "workbook_visual_caption": "A technician carefully applies cleaning fluid to maintain delicate glass lenses.",
+          "socratic_questions": [
+            "For bird study Requirement 3d (Describe when and where each type of viewing device would be most effective), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -894,7 +984,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (You Know)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -917,7 +1007,13 @@
           "3. (3c) Show how to properly care for and clean the lenses",
           "4. (3d) Describe when and where each type of viewing device would be most effective"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Higher magnification numbers always produce a sharper and superior bird watching image.",
@@ -1074,13 +1170,13 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Seabird.",
+          "text": "Seabird (b) Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Bird Study Seabird Principles)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1092,12 +1188,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Seabird Range Map Analysis"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Seabird Range Map Analysis"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1127,7 +1233,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Seabird.",
+          "sub_req_text": "Seabird (b) Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret.",
           "topic_title": "Req 4a: Pelagic Seabird Geographic Range",
           "pamphlet_summary": "Scouts evaluate seabird range maps to trace open ocean wintering grounds versus isolated oceanic nesting colonies. Understanding pelagic ranges explains why pelagic species rarely appear along continental interiors without major storms.",
           "pamphlet_excerpts": [
@@ -1135,18 +1241,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4a (Seabird (b) Plover (c) Falcon or hawk), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Plover.",
+          "text": "Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Bird Study Plover Principles)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1158,12 +1267,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Plover Seasonal Distribution"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Plover Seasonal Distribution"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1193,7 +1312,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Plover.",
+          "sub_req_text": "Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "topic_title": "Req 4b: Plover Shorebird Migration Mapping",
           "pamphlet_summary": "Plover range maps illustrate extreme latitudinal shifts between high arctic tundra breeding grounds and tropical coastal wintering beaches. Interpreting these maps highlights critical intertidal stopover sites essential for refueling during migration.",
           "pamphlet_excerpts": [
@@ -1201,18 +1320,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4b (Plover (c) Falcon or hawk (d) Warbler or vireo), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Falcon or hawk.",
+          "text": "Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Falcon or Hawk)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1224,12 +1346,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Falcon or hawk"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Falcon or hawk"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1259,7 +1391,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Falcon or hawk.",
+          "sub_req_text": "Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "topic_title": "Req 4c: Raptor Continental Distribution Mapping",
           "pamphlet_summary": "Raptor distribution maps delineate broad summer hunting territories, steep ridge migration flyways, and southern wintering valleys. Tracking these movements reveals how raptor geography mirrors rodent cycles and thermal updraft availability.",
           "pamphlet_excerpts": [
@@ -1267,18 +1399,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4c (Falcon or hawk (d) Warbler or vireo (e) Heron or egret), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
           "label": "(d)",
-          "text": "Warbler or vireo.",
+          "text": "Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Warbler or Vireo)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1290,12 +1425,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Warbler or vireo"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Warbler or vireo"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1325,7 +1470,7 @@
           ],
           "id": "4d",
           "sub_req_label": "4d",
-          "sub_req_text": "Warbler or vireo.",
+          "sub_req_text": "Warbler or vireo (e) Heron or egret (f) Sparrow.",
           "topic_title": "Req 4d: Neotropical Songbird Range Dynamics",
           "pamphlet_summary": "Warbler and vireo maps depict long distance journeys between North American breeding canopies and Central American wintering forests. Reviewing these ranges illustrates the vulnerability of species dependent on two distinct forest ecosystems.",
           "pamphlet_excerpts": [
@@ -1333,18 +1478,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4d (Warbler or vireo (e) Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
           "label": "(e)",
-          "text": "Heron or egret.",
+          "text": "Heron or egret (f) Sparrow.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Heron or Egret)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1356,12 +1504,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Heron or egret"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Heron or egret"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1391,7 +1549,7 @@
           ],
           "id": "4e",
           "sub_req_label": "4e",
-          "sub_req_text": "Heron or egret.",
+          "sub_req_text": "Heron or egret (f) Sparrow.",
           "topic_title": "Req 4e: Wading Bird Seasonal Distribution",
           "pamphlet_summary": "Heron and egret range maps detail expansive year round ranges in southern estuaries and seasonal summer expansions northwards. The maps highlight how northern ice cover dictates seasonal departures toward open water.",
           "pamphlet_excerpts": [
@@ -1399,7 +1557,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4e (Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1410,7 +1571,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Bird Study Sparrow Principles)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1422,12 +1583,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Sparrow Regional Range Maps"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Sparrow Regional Range Maps"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)",
           "common_misconception_pair": {
@@ -1465,7 +1636,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p048_img1.png",
           "workbook_diagram_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
-          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings."
+          "workbook_visual_caption": "A perched rapt or displays brown wing plumage and mottled breast markings.",
+          "socratic_questions": [
+            "For bird study Requirement 4f (Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1496,7 +1670,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (You Know)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1523,7 +1697,13 @@
           "5. (4e) Heron or Egret",
           "6. (4f) Bird Study Sparrow Principles"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A species can be found anywhere within state borders regardless of seasonal calendar dates.",
@@ -1686,7 +1866,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Note the Date and Time)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1698,12 +1878,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Note the date and time"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Note the date and time"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)",
           "common_misconception_pair": {
@@ -1741,7 +1931,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 5a (Note the date and time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1752,7 +1945,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Note the Location and Habitat)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1764,12 +1957,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Note the location and habitat"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Note the location and habitat"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)",
           "common_misconception_pair": {
@@ -1807,7 +2010,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 5b (Note the location and habitat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1818,7 +2024,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Bird's Main Feeding Habitat)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1830,12 +2036,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the bird's main feeding habitat and list two types of food that the bird is likely to eat"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the bird's main feeding habitat and list two types of food that the bird is likely to eat"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)",
           "common_misconception_pair": {
@@ -1873,7 +2089,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 5c (Describe the bird's main feeding habitat and list two types of food that the bird is likely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1884,7 +2103,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Note Whether the Bird)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1896,12 +2115,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Note whether the bird is a migrant or a summer, winter, or year-round resident of your area"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Note whether the bird is a migrant or a summer, winter, or year-round resident of your area"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)",
           "common_misconception_pair": {
@@ -1939,7 +2168,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 5d (Note whether the bird is a migrant or a summer, winter, or year-round resident of your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1966,7 +2198,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 5 Quantitative Field Observation & Activity Log (Species of Wild Birds)",
+        "table_title": "Req 5 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1991,7 +2223,14 @@
           "3. (5c) Bird's Main Feeding Habitat",
           "4. (5d) Note Whether The Bird"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A field notebook only needs a quick list of bird common names to be scientifically valid.",
@@ -2163,7 +2402,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Bird Study Beak Principles)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2175,12 +2414,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Beak Size and Shape"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Beak Size and Shape"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)",
           "common_misconception_pair": {
@@ -2218,7 +2467,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p049_img1.png",
           "workbook_diagram_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
-          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars."
+          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
+          "socratic_questions": [
+            "For bird study Requirement 6a (Beak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2238,7 +2490,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Bird Study Body Principles)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2250,12 +2502,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Body Proportions and Silhouette"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Body Proportions and Silhouette"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)",
           "common_misconception_pair": {
@@ -2293,7 +2555,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p049_img1.png",
           "workbook_diagram_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
-          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars."
+          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
+          "socratic_questions": [
+            "For bird study Requirement 6b (Body), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2309,7 +2574,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Leg and Foot)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2321,12 +2586,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Leg and foot"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Leg and foot"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)",
           "common_misconception_pair": {
@@ -2364,7 +2639,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p049_img1.png",
           "workbook_diagram_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
-          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars."
+          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
+          "socratic_questions": [
+            "For bird study Requirement 6c (Leg and foot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2388,7 +2666,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Bird Study Feathers/plumage Principles)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2400,12 +2678,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Feathers/plumage"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Feathers/plumage"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)",
           "common_misconception_pair": {
@@ -2443,7 +2731,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p049_img1.png",
           "workbook_diagram_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
-          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars."
+          "workbook_visual_caption": "A songbird perched on a twig demonstrates bold facial stripes and wing bars.",
+          "socratic_questions": [
+            "For bird study Requirement 6d (Feathers/plumage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2498,7 +2789,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Certain Orders of Birds Are)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2521,7 +2812,13 @@
           "3. (6c) Leg and Foot",
           "4. (6d) Bird Study Feathers/plumage Principles"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird species differences represent arbitrary cosmetic variations rather than functional survival adaptations.",
@@ -2698,7 +2995,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 7 Technical Comparison Matrix (Function of A Bird's Song)",
+        "table_title": "Req 7 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Territorial and Courting Bird Songs",
@@ -2721,7 +3018,13 @@
           "3. Explain the difference between songs and calls.",
           "4. For each of these five species, enter a description of the song or call, and note the behavior of the bird making the sound."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Territorial and Courting Bird Songs",
+          "Short Contact and Alarm Calls"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird songs and bird calls represent identical vocalizations used interchangeably for social conversation.",
@@ -2885,7 +3188,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "TIME_SERIES_LOG_TABLE",
-                "table_title": "Req 8a(1) Quantitative Field Observation & Activity Log (Fill Out A Checklist)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Log Entry / Milestone",
                   "Date, Location & Conditions",
@@ -2899,12 +3202,23 @@
                   "Analysis & Verification"
                 ],
                 "row_labels": [
-                  "1. Keep a list or fill out a checklist of all the birds your group observed during the field trip"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Keep a list or fill out a checklist of all the birds your group observed during the field trip"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Log Entry / Milestone",
+                  "Date, Location & Conditions",
+                  "Recorded Measurements & Quantitative Data",
+                  "Analysis & Verification"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -2956,7 +3270,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(2) Structured Technical Study & Explanation Matrix (Birds Species Were Common)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2968,12 +3282,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Tell your counselor which birds your group saw and why some species were common and some were present in small numbers"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Tell your counselor which birds your group saw and why some species were common and some were present in small numbers"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3025,7 +3349,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(3) Structured Technical Study & Explanation Matrix (Area You Visited Good for)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3037,12 +3361,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Tell your counselor what makes the area you visited good for finding birds"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Tell your counselor what makes the area you visited good for finding birds"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3090,7 +3424,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 8a Quantitative Field Observation & Activity Log (Field Trip with A Local)",
+            "table_title": "Req 8a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -3113,7 +3447,14 @@
               "2. (8a(2)) Tell your counselor which birds your group saw and why some species were common and some were present in small numbers",
               "3. (8a(3)) Tell your counselor what makes the area you visited good for finding birds"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
           "common_misconception_pair": {
@@ -3151,7 +3492,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p058_img2.png",
           "workbook_diagram_caption": "Printed wildlife checklists provide species inventories for local birding excursions.",
-          "workbook_visual_caption": "Printed wildlife checklists provide species inventories for local birding excursions."
+          "workbook_visual_caption": "Printed wildlife checklists provide species inventories for local birding excursions.",
+          "socratic_questions": [
+            "For bird study Requirement 8a (Go on a field trip with a local club or with others who are knowledgeable about birds in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3177,7 +3521,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8b(1) Structured Technical Study & Explanation Matrix (Information Are Collected During the)",
+                "table_title": "Req 8b",
                 "headers": [
                   "Req 8b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3189,12 +3533,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain what kinds of information are collected during the annual event"
+                  "1. Req 8b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain what kinds of information are collected during the annual event"
+                  "1. Req 8b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3247,7 +3601,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8b(2) Structured Technical Study & Explanation Matrix (Species Are Most Common)",
+                "table_title": "Req 8b",
                 "headers": [
                   "Req 8b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3259,12 +3613,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Tell your counselor which species are most common, and explain why these birds are abundant"
+                  "1. Req 8b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Tell your counselor which species are most common, and explain why these birds are abundant"
+                  "1. Req 8b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3316,7 +3680,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8b(3) Structured Technical Study & Explanation Matrix (Species Are Uncommon)",
+                "table_title": "Req 8b",
                 "headers": [
                   "Req 8b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3335,7 +3699,13 @@
                   "1. Tell your counselor which species are uncommon, and explain why these were present in small numbers.",
                   "2. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3382,7 +3752,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Public Library the Internet or)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3403,7 +3773,13 @@
               "2. (8b(2)) Tell your counselor which species are most common, and explain why these birds are abundant",
               "3. (8b(3)) Tell your counselor which species are uncommon, and explain why these were present in small numbers"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
           "common_misconception_pair": {
@@ -3442,7 +3818,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "title": "Req 8b: National Wildlife Refuge Research",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 8b (By using a public library, the internet, or contacting the National Audubon Society, find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3458,13 +3837,13 @@
             {
               "sub_id": "8c(1)",
               "label": "(1)",
-              "text": "Explain who is able to band birds.",
+              "text": "Explain who is able to band birds and why.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8c(1) Structured Technical Study & Explanation Matrix (Band Birds)",
+                "table_title": "Req 8c",
                 "headers": [
                   "Req 8c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3476,12 +3855,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain who is able to band birds"
+                  "1. Req 8c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain who is able to band birds"
+                  "1. Req 8c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3511,7 +3900,7 @@
               ],
               "id": "8c(1)",
               "sub_req_label": "8c(1)",
-              "sub_req_text": "Explain who is able to band birds.",
+              "sub_req_text": "Explain who is able to band birds and why.",
               "topic_title": "Req 8c(1): Bird Banding Licensure and Qualifications",
               "pamphlet_summary": "Bird Banding Licensure and Qualifications: Only individuals possessing valid federal permits issued by the U.S. Geological Survey Bird Banding Laboratory and complementary state wildlife permits may legally capture and band wild birds. Banders must demonstrate extensive field training, master safe avian handling and extraction techniques, and prove rigorous scientific research objectives (p. 57).",
               "pamphlet_excerpts": [
@@ -3533,7 +3922,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8c(2) Structured Technical Study & Explanation Matrix (Birds Get Banded)",
+                "table_title": "Req 8c",
                 "headers": [
                   "Req 8c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3545,12 +3934,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain why birds get banded"
+                  "1. Req 8c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain why birds get banded"
+                  "1. Req 8c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3602,7 +4001,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8c(3) Structured Technical Study & Explanation Matrix (Birds Get Banded)",
+                "table_title": "Req 8c",
                 "headers": [
                   "Req 8c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3614,12 +4013,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Explain what kinds of birds get banded"
+                  "1. Req 8c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Explain what kinds of birds get banded"
+                  "1. Req 8c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3671,7 +4080,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8c(4) Structured Technical Study & Explanation Matrix (Birds Were Captured the Number)",
+                "table_title": "Req 8c",
                 "headers": [
                   "Req 8c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3683,12 +4092,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program"
+                  "1. Req 8c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program"
+                  "1. Req 8c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8c(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
@@ -3735,7 +4154,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Bird Banding Program with An)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3758,7 +4177,13 @@
               "3. (8c(3)) Birds Get Banded",
               "4. (8c(4)) Birds Were Captured The Number"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
           "common_misconception_pair": {
@@ -3797,7 +4222,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
           "title": "Req 8c: Bird Banding Program Participation",
           "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+          "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+          "socratic_questions": [
+            "For bird study Requirement 8c (Participate in a bird banding program with an approved federal or state agency, university), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3832,7 +4260,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 8 Quantitative Field Observation & Activity Log (Field Trip with A Local)",
+        "table_title": "Req 8 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -3855,7 +4283,14 @@
           "2. (8b) National Wildlife Refuge Research",
           "3. (8c) Bird Banding Program Participation"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird banding can be conducted casually by any hobbyist with home made metal rings.",
@@ -4027,7 +4462,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9a Hands-On Skill Station & EDGE Verification Checklist (Bird Feeder and Put)",
+            "table_title": "Req 9a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4039,12 +4474,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a bird feeder and put it in an appropriate place in your yard or another location"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a bird feeder and put it in an appropriate place in your yard or another location"
+              "1. Req 9a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)",
           "common_misconception_pair": {
@@ -4082,7 +4527,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p082_img1.png",
           "workbook_diagram_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
-          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters."
+          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
+          "socratic_questions": [
+            "For bird study Requirement 9a (Build a bird feeder and put it in an appropriate place in your yard or another location), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -4102,7 +4550,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9b Hands-On Skill Station & EDGE Verification Checklist (Birdbath and Put)",
+            "table_title": "Req 9b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4114,12 +4562,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a birdbath and put it in an appropriate place"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a birdbath and put it in an appropriate place"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)",
           "common_misconception_pair": {
@@ -4157,7 +4615,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p082_img1.png",
           "workbook_diagram_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
-          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters."
+          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
+          "socratic_questions": [
+            "For bird study Requirement 9b (Build a birdbath and put it in an appropriate place), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -4181,7 +4642,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9c Hands-On Skill Station & EDGE Verification Checklist (Backyard Sanctuary for Birds by)",
+            "table_title": "Req 9c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4193,12 +4654,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a backyard sanctuary for birds by planting trees and shrubs for food and cover"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a backyard sanctuary for birds by planting trees and shrubs for food and cover"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)",
           "common_misconception_pair": {
@@ -4237,7 +4708,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p082_img1.png",
           "title": "Req 9c: Backyard Bird Sanctuary Plantings",
           "workbook_diagram_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
-          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters."
+          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
+          "socratic_questions": [
+            "For bird study Requirement 9c (Build a backyard sanctuary for birds by planting trees and shrubs for food and cover), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9d",
@@ -4257,7 +4731,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 9d Hands-On Skill Station & EDGE Verification Checklist (Nest Box for A Species)",
+            "table_title": "Req 9d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -4269,24 +4743,29 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a nest box for a species of your choice using plans approved by your counselor"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a nest box for a species of your choice using plans approved by your counselor"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)",
           "common_misconception_pair": {
             "misconception": "Any wooden box with a large hole provides suitable shelter for native cavity nesters.",
             "fact": "Nest box entrance hole dimensions must match target species precisely to exclude aggressive invasive starlings."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Bird Study Req 9d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Bird Study Merit Badge Hub (Req 9d)",
@@ -4317,7 +4796,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p082_img1.png",
           "workbook_diagram_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
-          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters."
+          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
+          "socratic_questions": [
+            "For bird study Requirement 9d (Build a nest box for a species of your choice using plans approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9e",
@@ -4333,7 +4815,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 9e Structured Technical Study & Explanation Matrix (Elements of A Backyard Bird)",
+            "table_title": "Req 9e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -4345,12 +4827,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)",
           "common_misconception_pair": {
@@ -4388,7 +4880,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p082_img1.png",
           "workbook_diagram_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
-          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters."
+          "workbook_visual_caption": "A wooden nest box mounted on a metal post provides safe shelter for cavity nesters.",
+          "socratic_questions": [
+            "For bird study Requirement 9e (Describe the elements of a backyard bird habitat for a given area and draw a plan for one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4451,7 +4946,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (You Choose Describe What Birds)",
+        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -4476,18 +4971,19 @@
           "4. (9d) Build a nest box for a species of your choice using plans approved by your counselor",
           "5. (9e) Backyard Habitat Design Plan"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Setting up a feeder or birdbath requires no further human effort after initial outdoor installation.",
         "fact": "Artificially provided bird resources require regular sanitation to prevent spreading deadly pathogens like salmonellosis and avian pox."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Bird Study Req 9 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Bird Study Merit Badge Hub (Req 9)",
@@ -4649,7 +5145,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 10a Technical Comparison Matrix (Extinct Endangered and Threatened)",
+            "table_title": "Req 10a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Endangered Species Facing Immediate Extinction",
@@ -4661,12 +5157,22 @@
               "Threatened Species Risking Future Endangerment"
             ],
             "row_labels": [
-              "1. Explain the differences between extinct, endangered, and threatened"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the differences between extinct, endangered, and threatened"
+              "1. Req 10a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 10a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 10a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Endangered Species Facing Immediate Extinction",
+              "Threatened Species Risking Future Endangerment"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
@@ -4704,7 +5210,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p031_img1.png",
           "workbook_diagram_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
-          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide."
+          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
+          "socratic_questions": [
+            "For bird study Requirement 10a (Explain the differences between extinct, endangered, and threatened), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -4720,7 +5229,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10b Structured Technical Study & Explanation Matrix (Bird Species)",
+            "table_title": "Req 10b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4741,7 +5250,13 @@
               "2. Explain what caused their decline",
               "3. Discuss with your counselor what can be done to reverse this trend and what can be done to help remove the species"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
@@ -4779,7 +5294,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p031_img1.png",
           "workbook_diagram_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
-          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide."
+          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
+          "socratic_questions": [
+            "For bird study Requirement 10b (Identify a bird species that is on the endangered or threatened list. Explain what caused), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10c",
@@ -4795,7 +5313,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10c Structured Technical Study & Explanation Matrix (Can Address Birds)",
+            "table_title": "Req 10c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4816,7 +5334,13 @@
               "2. List how we can protect habitat.",
               "3. Identify threats that migratory birds face and how to protect food supply for birds."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)",
           "common_misconception_pair": {
@@ -4854,7 +5378,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p031_img1.png",
           "workbook_diagram_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
-          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide."
+          "workbook_visual_caption": "A field observer scans mountain trees with binoculars while holding a nature guide.",
+          "socratic_questions": [
+            "For bird study Requirement 10c (Explain how we can address birds that are in decline before they get to an endangered or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4880,7 +5407,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 10: Avian Conservation Status Management",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -4889,7 +5416,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 10 Technical Comparison Matrix (Extinct Endangered and Threatened)",
+        "table_title": "Req 10 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Endangered Species Facing Immediate Extinction",
@@ -4910,7 +5437,13 @@
           "2. (10b) Bird Species",
           "3. (10c) Can Address Birds"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Endangered Species Facing Immediate Extinction",
+          "Threatened Species Risking Future Endangerment"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Extinction happens only through active commercial overhunting and cannot occur through modern habitat modification alone.",
@@ -5092,7 +5625,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Non-native Bird Introduced to North)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -5111,7 +5644,13 @@
           "1. Identify a non-native bird (introduced to North America from a foreign country since 1800).",
           "2. Describe how non-native birds may become damaging to the ecosystem."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Nonnative introduced birds smoothly integrate into local ecosystems without harming existing native bird populations.",
@@ -5288,7 +5827,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 12 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 12 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 12 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -5307,7 +5846,13 @@
           "1. Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to bird study",
           "2. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 12 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Getting within two feet of an active wild bird nest causes no disruption to breeding success.",
@@ -5497,7 +6042,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)",
           "common_misconception_pair": {
@@ -5535,12 +6086,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p052_img1.png",
           "workbook_diagram_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape.",
-          "workbook_visual_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape."
+          "workbook_visual_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape.",
+          "socratic_questions": [
+            "For bird study Requirement 13a (Identify three career opportunities that would use skills and knowledge in Bird Study. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "13b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "5 Reasons Why Birding is an Awesome Hobby! (video)",
@@ -5555,7 +6109,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 13b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 13b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 13b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5569,14 +6123,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 13b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)",
           "common_misconception_pair": {
@@ -5606,7 +6166,7 @@
           ],
           "id": "13b",
           "sub_req_label": "13b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 13b: Recreational Bird Watching Avocation",
           "pamphlet_summary": "Scouts explore bird watching as a lifelong recreational hobby, detailing equipment needs, field guide selections, and club memberships. They identify local birding organizations and citizen science databases that support ongoing skill development.",
           "pamphlet_excerpts": [
@@ -5615,7 +6175,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/bird_study_p052_img1.png",
           "title": "Req 13b: Lifelong Birding Hobby Pursuits",
           "workbook_diagram_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape.",
-          "workbook_visual_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape."
+          "workbook_visual_caption": "Pencil sketches depict sparrow profiles to highlight facial stripes and crown shape.",
+          "socratic_questions": [
+            "For bird study Requirement 13b (Identify how you might use the skills and knowledge in Bird Study to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5677,7 +6240,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bird related employment is limited strictly to working as a clerk inside retail pet stores.",

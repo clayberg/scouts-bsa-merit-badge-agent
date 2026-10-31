@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Fly-Fishing Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,7 +56,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while participating in fly-fishing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
               "2. Name and explain five safety practices you should always follow while fly-fishing"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p003_img1.png",
           "workbook_diagram_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
-          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors."
+          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -134,7 +143,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -146,12 +155,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)",
           "common_misconception_pair": {
@@ -190,7 +209,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p078_img2.png",
           "title": "Req 1b: Treating Common Outdoor Health Concerns",
           "workbook_diagram_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
-          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors."
+          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 1b (Discuss the prevention of and treatment for the following health concerns that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -210,7 +232,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Remove A Hook That Has)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -222,12 +244,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how to remove a hook that has lodged in someone's arm"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how to remove a hook that has lodged in someone's arm"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)",
           "common_misconception_pair": {
@@ -266,7 +298,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p078_img2.png",
           "title": "Req 1c: Safe Fishhook Removal Techniques",
           "workbook_diagram_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
-          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors."
+          "workbook_visual_caption": "An engorged tick represents a common insect hazard encountered outdoors.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 1c (Explain how to remove a hook that has lodged in someone's arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -324,7 +359,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: Fly Fishing River Safety Hazards",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Always cinch a wide wading belt around the waist before entering any flowing stream.",
@@ -333,7 +368,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Fly-Fishing Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -354,7 +389,13 @@
           "2. (1b) Treating Common Outdoor Health Concerns",
           "3. (1c) Explain how to remove a hook that has lodged in someone's arm"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Chest waders immediately pull an angler down to the river bottom if water enters them.",
@@ -544,7 +585,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Rod Line and Leader to)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -565,7 +606,13 @@
           "2. Discuss several types of fly lines, and explain how and when each would be used.",
           "3. Review with your counselor how to care for this equipment."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Using a heavier nine weight fly line on a five weight rod increases casting distance.",
@@ -733,7 +780,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Backing to the Arbor)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -745,12 +792,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tie backing to the arbor of a fly reel spool using an arbor knot"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tie backing to the arbor of a fly reel spool using an arbor knot"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -788,7 +845,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p012_img1.png",
           "workbook_diagram_caption": "A complete equipment layout displays the rod, vest, net, fly boxes, and essential stream gear.",
-          "workbook_visual_caption": "A complete equipment layout displays the rod, vest, net, fly boxes, and essential stream gear."
+          "workbook_visual_caption": "A complete equipment layout displays the rod, vest, net, fly boxes, and essential stream gear.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 3a (Tie backing to the arbor of a fly reel spool using an arbor knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -804,7 +864,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Backing to the Fly Line)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -816,12 +876,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tie backing to the fly line using a nail (tube) knot"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tie backing to the fly line using a nail (tube) knot"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -859,7 +929,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p025_img1.png",
           "workbook_diagram_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
-          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders."
+          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 3b (Tie backing to the fly line using a nail (tube) knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -875,7 +948,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Attach A Leader)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -887,12 +960,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -930,7 +1013,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p025_img1.png",
           "workbook_diagram_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
-          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders."
+          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 3c (Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -946,7 +1032,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Add A Tippet to A)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -958,12 +1044,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1002,7 +1098,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p025_img1.png",
           "title": "Req 3d: Surgeon's Knot for Tippet Addition",
           "workbook_diagram_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
-          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders."
+          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 3d (Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -1018,7 +1117,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Onto the Terminal End)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1030,12 +1129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tie a fly onto the terminal end of the leader using an improved clinch knot"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tie a fly onto the terminal end of the leader using an improved clinch knot"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)",
           "common_misconception_pair": {
@@ -1073,7 +1182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p025_img1.png",
           "workbook_diagram_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
-          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders."
+          "workbook_visual_caption": "Knot tying illustrations demonstrate how to connect backing, fly line, and tapered leaders.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 3e (Tie a fly onto the terminal end of the leader using an improved clinch knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1116,7 +1228,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Knots to Prepare A Fly)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1141,7 +1253,13 @@
           "4. (3d) Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection",
           "5. (3e) Tie a fly onto the terminal end of the leader using an improved clinch knot"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standard square knots are strong enough to connect slippery monofilament fly line components together.",
@@ -1327,7 +1445,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Essential Fly-Fishing Knots and Leaders)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1348,7 +1466,13 @@
           "2. Tell what each one imitates",
           "3. Tie at least two types of the flies mentioned in this requirement"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fish strike artificial flies based entirely on exact anatomical color matching rather than silhouette.",
@@ -1526,7 +1650,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Ability to Cast A Fly)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1538,12 +1662,22 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques"
+          "1. Casting Arc Boundaries",
+          "2. Roll Cast Prerequisite",
+          "3. Line Loop Dynamics"
         ],
         "rows": [
-          "1. Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques"
+          "1. Casting Arc Boundaries",
+          "2. Roll Cast Prerequisite",
+          "3. Line Loop Dynamics"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Throwing a fly line requires whipping the rod vigorously with loose wrist snapping motions.",
@@ -1721,7 +1855,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Suitable Fishing Location)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1740,7 +1874,13 @@
           "1. Go to a suitable fishing location and observe what fish may be eating both above and beneath the water's surface.",
           "2. Explain the importance of matching the hatch."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any rising fish is feeding directly on fully emerged adult insects riding atop the water.",
@@ -1916,7 +2056,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1935,7 +2075,13 @@
               "1. Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.",
               "2. Discuss the positive effects of the Leave No Trace Seven Principles and the Outdoor Code on fly-fishing resources."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)",
           "common_misconception_pair": {
@@ -1973,7 +2119,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p086_img1.png",
           "workbook_diagram_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen.",
-          "workbook_visual_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen."
+          "workbook_visual_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 7a (Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -1997,7 +2146,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Discuss Fish Water)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2016,7 +2165,13 @@
               "1. Discuss the meaning and importance of catch and release.",
               "2. Describe how to properly release a fish safely to the water."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)",
           "common_misconception_pair": {
@@ -2054,7 +2209,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fly_fishing_p086_img1.png",
           "workbook_diagram_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen.",
-          "workbook_visual_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen."
+          "workbook_visual_caption": "A pristine natural lake shows the clean waterways preserved by outdoorsmen.",
+          "socratic_questions": [
+            "For fly-fishing Requirement 7b (Discuss the meaning and importance of catch and release. Describe how to properly release a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2092,7 +2250,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 7: Conservation Catch Release Ethics",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never stand directly below unstable undercut stream banks while releasing fish in deep river bends.",
@@ -2101,7 +2259,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2120,7 +2278,13 @@
           "1. (7a) Leave No Trace and Outdoor Ethics",
           "2. (7b) Discuss Fish Water"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Lifting a caught fish onto dry riverbank gravel causes no permanent harm before release.",
@@ -2298,7 +2462,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Obtain and Review A Copy)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2317,7 +2481,13 @@
           "1. Obtain and review a copy of the regulations affecting game fishing where you live or where you plan to fish.",
           "2. Explain why they were adopted and what is accomplished by following them."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "State fishing regulations apply uniformly across every river and lake within the same county.",
@@ -2494,7 +2664,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2513,7 +2683,13 @@
           "1. Explain what good outdoor sportsmanlike behavior is and how it relates to anglers",
           "2. Tell how the Leave No Trace Seven Principles and the Outdoor Code relate to a fishing sports enthusiast, including the aspects of littering, trespassing, courteous behavior, and obeying fishing regulations"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Public high water marks give anglers an unrestricted legal right to cross adjacent private pastures.",
@@ -2690,7 +2866,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Fly-Fishing Fish Principles)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2702,12 +2878,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Catch one fish on a fly and identify it"
+          "1. Trout Adipose Fin",
+          "2. Sunfish Opercular Flap",
+          "3. Bass Jaw Extension"
         ],
         "rows": [
-          "1. Catch one fish on a fly and identify it"
+          "1. Trout Adipose Fin",
+          "2. Sunfish Opercular Flap",
+          "3. Bass Jaw Extension"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Rainbow trout and brook trout are close biological cousins belonging to the same genus.",
@@ -2900,7 +3086,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Regulations and Health Concerns Permit)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2921,7 +3107,13 @@
           "2. If you are unable to catch a fish for eating, acquire a fish, clean the fish you acquired, and cook the fish you acquired.",
           "3. Note: It is not required that you eat the fish."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Rinsing cleaned fish meat directly in untreated lake water eliminates all potential food bacteria.",

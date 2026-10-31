@@ -38,7 +38,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Home Repairs Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -57,7 +57,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while working on home repairs and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
               "2. Describe the appropriate safety gear and clothing that should be used when working on home repairs"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 10, p. 17)",
           "common_misconception_pair": {
@@ -95,7 +101,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p003_img1.png",
           "workbook_diagram_caption": "A standard claw hammer provides leverage for driving and removing nails safely.",
-          "workbook_visual_caption": "A standard claw hammer provides leverage for driving and removing nails safely."
+          "workbook_visual_caption": "A standard claw hammer provides leverage for driving and removing nails safely.",
+          "socratic_questions": [
+            "For home repairs Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working on home), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -111,7 +120,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Discuss General Precautions Related to)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -130,7 +139,13 @@
               "1. Discuss general precautions related to home repairs.",
               "2. Name at least 10 safe practices that every home repairer should exercise."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 10, p. 17)",
           "common_misconception_pair": {
@@ -169,7 +184,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p011_img1.png",
           "title": "Req 1b: General Precautions and Safe Practices",
           "workbook_diagram_caption": "A standard claw hammer provides leverage for driving and removing nails safely.",
-          "workbook_visual_caption": "A standard claw hammer provides leverage for driving and removing nails safely."
+          "workbook_visual_caption": "A standard claw hammer provides leverage for driving and removing nails safely.",
+          "socratic_questions": [
+            "For home repairs Requirement 1b (Discuss general precautions related to home repairs. Name at least 10 safe practices that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -195,7 +213,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Home Repair Safety Protocols",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Wear ANSI approved Z87.1 safety glasses and closed toe leather work boots on all repair sites.",
@@ -204,7 +222,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Home Repairs Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -223,7 +241,13 @@
           "1. (1a) Explain to your counselor the most likely hazards you may encounter while working on home repairs and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
           "2. (1b) Discuss general precautions related to home repairs"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Ordinary prescription eyeglasses provide sufficient impact protection while operating rotary power tools.",
@@ -386,7 +410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Recondition A Yard Tool)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -398,12 +422,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Maintain or recondition a yard tool and show that you know how to clean up and properly store this equipment"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Maintain or recondition a yard tool and show that you know how to clean up and properly store this equipment"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -441,7 +475,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p007_img1.png",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2a (Maintain or recondition a yard tool and show that you know how to clean up and properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -457,7 +494,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Weatherstrip A Window or Door)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -469,12 +506,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Weatherstrip a window or door"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Weatherstrip a window or door"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -512,7 +559,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p045_img1.png",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2b (Weatherstrip a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -532,7 +582,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Caulk Cracks or Joints Open)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -544,12 +594,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Caulk cracks or joints open to the weather"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Caulk cracks or joints open to the weather"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -587,7 +647,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p045_img1.png",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2c (Caulk cracks or joints open to the weather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -603,7 +666,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Break in A Concrete or)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -615,12 +678,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a break in a concrete or asphalt surface"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a break in a concrete or asphalt surface"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -659,7 +732,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p045_img1.png",
           "title": "Req 2d: Concrete and Asphalt Surface Repair",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2d (Repair a break in a concrete or asphalt surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
@@ -679,7 +755,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Replace the Screen in A)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -691,12 +767,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair or replace the screen in a window or door"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair or replace the screen in a window or door"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -735,7 +821,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p045_img1.png",
           "title": "Req 2e: Window and Door Screen Replacement",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2e (Repair or replace the screen in a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2f",
@@ -751,7 +840,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2f Structured Technical Study & Explanation Matrix (Replace A Pane of Glass)",
+            "table_title": "Req 2f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -763,12 +852,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Replace a pane of glass"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Replace a pane of glass"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)",
           "common_misconception_pair": {
@@ -806,7 +905,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p045_img1.png",
           "workbook_diagram_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
-          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects."
+          "workbook_visual_caption": "A metal paint tray and several roller handles sit ready for wall painting projects.",
+          "socratic_questions": [
+            "For home repairs Requirement 2f (Replace a pane of glass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -861,7 +963,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Supervision Recondition Yard Tool)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -888,7 +990,13 @@
           "5. (2e) Repair or replace the screen in a window or door",
           "6. (2f) Replace a pane of glass"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dull edge yard shovels dig more effectively by pushing dirt aside with rounded metal edges.",
@@ -1055,7 +1163,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (Install or Build Equipment for)",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1067,12 +1175,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Install or build equipment for storing tools"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Install or build equipment for storing tools"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1111,7 +1229,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p012_img1.png",
           "title": "Req 3a: Building Tool Storage Equipment",
           "workbook_diagram_caption": "Hand saws, screwdrivers, and chisels form the basis of a home repair toolkit.",
-          "workbook_visual_caption": "Hand saws, screwdrivers, and chisels form the basis of a home repair toolkit."
+          "workbook_visual_caption": "Hand saws, screwdrivers, and chisels form the basis of a home repair toolkit.",
+          "socratic_questions": [
+            "For home repairs Requirement 3a (Install or build equipment for storing tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1122,7 +1243,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Home Repairs Workbench Principles)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1134,12 +1255,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Build a workbench"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Build a workbench"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1177,7 +1308,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3b (Build a workbench), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1197,7 +1331,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Piece of Furniture)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1209,12 +1343,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a piece of furniture"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a piece of furniture"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1252,7 +1396,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3c (Repair a piece of furniture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1280,7 +1427,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Varnish A Piece of Furniture)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1292,12 +1439,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paint or varnish a piece of furniture, a door, or trim on a house"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paint or varnish a piece of furniture, a door, or trim on a house"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1335,7 +1492,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3d (Paint or varnish a piece of furniture, a door, or trim on a house), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -1346,7 +1506,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Sagging Door or Gate)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1358,12 +1518,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a sagging door or gate"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a sagging door or gate"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1401,7 +1571,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3e (Repair a sagging door or gate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
@@ -1421,7 +1594,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Loose Step or Railing)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1433,12 +1606,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a loose step or railing"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a loose step or railing"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1476,7 +1659,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3f (Repair a loose step or railing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
@@ -1492,7 +1678,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Home Repairs Fence Principles)",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1504,12 +1690,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a fence"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a fence"
+              "1. Req 3g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)",
           "common_misconception_pair": {
@@ -1547,7 +1743,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p077_img1.png",
           "workbook_diagram_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
-          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool."
+          "workbook_visual_caption": "Three people inspect wooden stairs and check alignment with a handheld tool.",
+          "socratic_questions": [
+            "For home repairs Requirement 3g (Repair a fence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1614,7 +1813,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Supervision Install Equipment Storing)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1643,7 +1842,13 @@
           "6. (3f) Repair a loose step or railing",
           "7. (3g) Repair a fence"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gluing end grain wood joints with white PVA glue produces unbreakable load bearing bonds.",
@@ -1810,7 +2015,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Main Electrical Switch Box and)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1822,12 +2027,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)",
           "common_misconception_pair": {
@@ -1866,7 +2081,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p024_img1.png",
           "title": "Req 4a: Resetting Breakers and Replacing Fuses",
           "workbook_diagram_caption": "The UL mark certifies that electrical components meet strict safety standards.",
-          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards."
+          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards.",
+          "socratic_questions": [
+            "For home repairs Requirement 4a (Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1882,7 +2100,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Replace An Electrical Cord)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1894,12 +2112,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Replace an electrical cord or repair a plug or lamp socket"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Replace an electrical cord or repair a plug or lamp socket"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)",
           "common_misconception_pair": {
@@ -1937,7 +2165,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p024_img1.png",
           "workbook_diagram_caption": "The UL mark certifies that electrical components meet strict safety standards.",
-          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards."
+          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards.",
+          "socratic_questions": [
+            "For home repairs Requirement 4b (Replace an electrical cord or repair a plug or lamp socket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1948,7 +2179,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Install A Single-pole Light Switch)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1960,12 +2191,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Install a single-pole light switch"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Install a single-pole light switch"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)",
           "common_misconception_pair": {
@@ -2003,7 +2244,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p024_img1.png",
           "workbook_diagram_caption": "The UL mark certifies that electrical components meet strict safety standards.",
-          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards."
+          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards.",
+          "socratic_questions": [
+            "For home repairs Requirement 4c (Install a single-pole light switch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -2023,7 +2267,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Replace An Electrical Wall Outlet)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2035,12 +2279,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Replace an electrical wall outlet"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Replace an electrical wall outlet"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)",
           "common_misconception_pair": {
@@ -2078,7 +2332,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p024_img1.png",
           "workbook_diagram_caption": "The UL mark certifies that electrical components meet strict safety standards.",
-          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards."
+          "workbook_visual_caption": "The UL mark certifies that electrical components meet strict safety standards.",
+          "socratic_questions": [
+            "For home repairs Requirement 4d (Replace an electrical wall outlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2121,7 +2378,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Supervision Main Electrical Switch)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2144,7 +2401,13 @@
           "3. (4c) Install a single-pole light switch",
           "4. (4d) Replace an electrical wall outlet"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Switching off a single wall light switch guarantees that outlet boxes are fully de-energized.",
@@ -2307,7 +2570,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Clear A Clogged Drain or)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2319,12 +2582,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Clear a clogged drain or trap"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Clear a clogged drain or trap"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -2363,7 +2636,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p030_img1.png",
           "title": "Req 5a: Clearing Clogged Drains and Traps",
           "workbook_diagram_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
-          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink."
+          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
+          "socratic_questions": [
+            "For home repairs Requirement 5a (Clear a clogged drain or trap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2379,7 +2655,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Leaky Water Faucet)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2391,12 +2667,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a leaky water faucet"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a leaky water faucet"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -2434,7 +2720,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p030_img1.png",
           "workbook_diagram_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
-          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink."
+          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
+          "socratic_questions": [
+            "For home repairs Requirement 5b (Repair a leaky water faucet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2454,7 +2743,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Flush Toilet)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2466,12 +2755,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a flush toilet"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a flush toilet"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -2509,7 +2808,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p030_img1.png",
           "workbook_diagram_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
-          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink."
+          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
+          "socratic_questions": [
+            "For home repairs Requirement 5c (Repair a flush toilet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2525,7 +2827,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Leaky Hose or Connector)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2537,12 +2839,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a leaky hose or connector"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a leaky hose or connector"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -2580,7 +2892,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p030_img1.png",
           "workbook_diagram_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
-          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink."
+          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
+          "socratic_questions": [
+            "For home repairs Requirement 5d (Repair a leaky hose or connector), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2596,7 +2911,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Replace A Sprinkler Head)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2608,12 +2923,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Clean or replace a sprinkler head"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Clean or replace a sprinkler head"
+              "1. Req 5e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -2651,7 +2976,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p030_img1.png",
           "workbook_diagram_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
-          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink."
+          "workbook_visual_caption": "A homeowner uses a wrench to service the drain pipe assembly beneath a sink.",
+          "socratic_questions": [
+            "For home repairs Requirement 5e (Clean or replace a sprinkler head), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2714,7 +3042,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Supervision Know Turn Main)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2739,7 +3067,13 @@
           "4. (5d) Repair a leaky hose or connector",
           "5. (5e) Clean or replace a sprinkler head"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Chemical drain cleaners dissolve mechanical clogs safely without damaging domestic copper or PVC pipes.",
@@ -2906,7 +3240,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Wall or Ceiling)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2918,12 +3252,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Paint a wall or ceiling"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Paint a wall or ceiling"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -2961,7 +3305,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6a (Paint a wall or ceiling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2977,7 +3324,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Replace Damaged Tile Linoleum or)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2989,12 +3336,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair or replace damaged tile, linoleum, or vinyl flooring"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair or replace damaged tile, linoleum, or vinyl flooring"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3033,7 +3390,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "title": "Req 6b: Tile and Vinyl Flooring Repair",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6b (Repair or replace damaged tile, linoleum, or vinyl flooring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -3049,7 +3409,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Install Drapery or Curtain Rods)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3061,12 +3421,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Install drapery or curtain rods and then hang drapes or curtains"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Install drapery or curtain rods and then hang drapes or curtains"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3104,7 +3474,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6c (Install drapery or curtain rods and then hang drapes or curtains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -3120,7 +3493,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Hole in Drywall)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3132,12 +3505,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Repair a hole in drywall"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repair a hole in drywall"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3175,7 +3558,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6d (Repair a hole in drywall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -3191,7 +3577,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Secure A Picture Plant Hanger)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3203,24 +3589,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Secure a picture, plant hanger, or other object approved by your parent or guardian to drywall using anchors"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Secure a picture, plant hanger, or other object approved by your parent or guardian to drywall using anchors"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
             "misconception": "Driving regular wire nails into hollow drywall holds heavy framed mirrors safely indefinitely.",
             "fact": "Toggle bolts distribute hanging loads across wider drywall rear surfaces than ribbed plastic anchors."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Home Repairs Req 6e with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Home Repairs Merit Badge Hub (Req 6e)",
@@ -3251,7 +3642,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6e (Secure a picture, plant hanger, or other object approved by your parent or guardian to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
@@ -3271,7 +3665,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6f Structured Technical Study & Explanation Matrix (Reinforce A Picture Frame)",
+            "table_title": "Req 6f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3283,12 +3677,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Reinforce a picture frame"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Reinforce a picture frame"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3326,7 +3730,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6f (Reinforce a picture frame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6g",
@@ -3346,7 +3753,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6g Structured Technical Study & Explanation Matrix (Object Made of China Glass)",
+            "table_title": "Req 6g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3358,12 +3765,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Mend an object made of china, glass, or pottery"
+              "1. Req 6g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Mend an object made of china, glass, or pottery"
+              "1. Req 6g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3401,7 +3818,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6g (Mend an object made of china, glass, or pottery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6h",
@@ -3412,7 +3832,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6h Structured Technical Study & Explanation Matrix (Drawer Slide or Fix/replace Cabinet)",
+            "table_title": "Req 6h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3424,12 +3844,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fix a drawer slide or fix/replace cabinet pulls"
+              "1. Req 6h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fix a drawer slide or fix/replace cabinet pulls"
+              "1. Req 6h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)",
           "common_misconception_pair": {
@@ -3467,7 +3897,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p065_img1.png",
           "workbook_diagram_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
-          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass."
+          "workbook_visual_caption": "Scouts wearing protective gloves carefully measure and position a pane of glass.",
+          "socratic_questions": [
+            "For home repairs Requirement 6h (Fix a drawer slide or fix/replace cabinet pulls), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3530,7 +3963,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Supervision Wall Ceiling Replace)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3561,18 +3994,19 @@
           "7. (6g) Mend an object made of china, glass, or pottery",
           "8. (6h) Fix a drawer slide or fix/replace cabinet pulls"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Applying one thick layer of spackling paste fills deep drywall holes without shrinking or cracking.",
         "fact": "Feathering spackle edges three inches beyond patch boundaries makes repaired drywall patches invisible."
       },
-      "starting_requirement_gate": {
-        "gate_type": "PARENT_CONSENT_GATE",
-        "gate_label": "Parent/Guardian Consent & Review",
-        "gate_description": "Review and complete Home Repairs Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Home Repairs Merit Badge Hub (Req 6)",
@@ -3752,19 +4186,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 65)",
           "common_misconception_pair": {
             "misconception": "Specialized trade contractors only learn repair techniques on construction sites without formal classroom study.",
             "fact": "Union apprenticeship programs provide tuition free classroom instruction while paying progressive hourly wages on job sites."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Home Repairs Req 7a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Home Repairs Merit Badge Hub (Req 7a)",
@@ -3795,12 +4230,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p044_img1.png",
           "workbook_diagram_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks.",
-          "workbook_visual_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks."
+          "workbook_visual_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks.",
+          "socratic_questions": [
+            "For home repairs Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Mastering DIY Home Repairs (video)",
@@ -3811,7 +4249,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3825,14 +4263,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 65)",
           "common_misconception_pair": {
@@ -3862,7 +4306,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 7b: Craftsmanship Hobby Lifestyle Exploration",
           "pamphlet_summary": "Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction.",
           "pamphlet_excerpts": [
@@ -3871,7 +4315,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/home_repairs_p044_img1.png",
           "title": "Req 7b: Home Repair Hobbies and Lifestyles",
           "workbook_diagram_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks.",
-          "workbook_visual_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks."
+          "workbook_visual_caption": "Various scrapers and wire brushes are laid out for surface preparation tasks.",
+          "socratic_questions": [
+            "For home repairs Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3925,7 +4372,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Residential trade apprenticeships require four year college degrees before candidates begin paid field training.",

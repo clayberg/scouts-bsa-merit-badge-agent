@@ -718,6 +718,7 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
                 "toc_entries": raw_cached.get("toc_entries") or [],
                 "pages": pages_restored,
                 "all_images": all_imgs_restored,
+                "requirement_to_figures": _build_requirement_to_figures_map(badge_name, slug),
             }
             _PAMPHLET_INDEX_CACHE[slug] = index_obj
             return index_obj
@@ -828,9 +829,57 @@ def build_pamphlet_index(badge_name: str) -> Dict[str, Any]:
         "toc_entries": toc_entries,
         "pages": pages_data,
         "all_images": all_images,
+        "requirement_to_figures": _build_requirement_to_figures_map(badge_name, slug),
     }
     _PAMPHLET_INDEX_CACHE[slug] = index_obj
     return index_obj
+
+
+def _build_requirement_to_figures_map(badge_name: str, slug: str) -> Dict[str, List[Dict[str, Any]]]:
+    """Maps requirement and sub-requirement IDs for `badge_name` to cataloged pamphlet figures and Nano Banana illustrations."""
+    req_fig_map: Dict[str, List[Dict[str, Any]]] = {}
+    catalog = _load_pamphlet_image_catalog()
+    for fname, entry in catalog.items():
+        if not fname.startswith(f"{slug}_p") or entry.get("discard"):
+            continue
+        p_path = PAMPHLET_IMAGES_DIR / fname
+        if not p_path.exists():
+            continue
+        r_primary = str(entry.get("req_number") or "").strip()
+        r_list = [r_primary] + [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
+        cap = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or badge_name), badge_name)
+        fig_rec = {
+            "path": str(p_path),
+            "filename": fname,
+            "source": "pamphlet_catalog",
+            "caption": cap,
+            "topic": str(entry.get("topic") or ""),
+        }
+        for r_k in dict.fromkeys(r for r in r_list if r):
+            req_fig_map.setdefault(r_k, []).append(fig_rec)
+
+    nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+    nano_cat = _read_cached_json(nano_cat_path)
+    if isinstance(nano_cat, dict):
+        for fname, entry in nano_cat.items():
+            if not fname.startswith(f"{slug}_req_") or not isinstance(entry, dict):
+                continue
+            n_path = ASSETS_DIR / "ai_illustrations" / fname
+            if not n_path.exists():
+                continue
+            r_k = str(entry.get("req_number") or "").strip()
+            if not r_k:
+                continue
+            cap = strip_pamphlet_and_req_caption_prefixes(str(entry.get("caption") or badge_name), badge_name)
+            fig_rec = {
+                "path": str(n_path),
+                "filename": fname,
+                "source": "nano_banana_catalog",
+                "caption": cap,
+                "topic": str(entry.get("topic") or ""),
+            }
+            req_fig_map.setdefault(r_k, []).append(fig_rec)
+    return req_fig_map
 
 
 _ANCHOR_STOP_WORDS = {
@@ -1823,14 +1872,22 @@ def _build_sub_requirement_slides(
     base_title: str,
     sub_reqs: List[Dict[str, str]],
     pamphlet_img: Optional[str],
-    extra_images: List[str],
+    extra_images: List[Any],
     pages_map: Dict[int, Dict[str, Any]],
     extended_pages: List[int],
+    used_image_paths: Optional[set] = None,
 ) -> List[Dict[str, Any]]:
     """Groups sub-requirements into balanced 3-4 card slides covering 100% of sub-requirements without lone 1-card orphans."""
     if not sub_reqs:
         return []
     from src.tools.scouting_scraper import _CURATED_OPTION_CHUNK_THEMES, partition_balanced_subreq_chunks
+
+    if used_image_paths is None:
+        used_image_paths = set()
+    slug = _badge_slug(badge_name)
+    nano_cat_path = ASSETS_DIR.parent / "data" / "nano_banana_image_catalog.json"
+    nano_cat = _read_cached_json(nano_cat_path)
+    pamphlet_cat = _load_pamphlet_image_catalog()
 
     sub_chunks = partition_balanced_subreq_chunks(sub_reqs, max_per_chunk=4)
     lookup_key = f"{str(badge_name or '').strip().lower()}:{str(req_num or '').strip().lower()}"
@@ -1840,9 +1897,11 @@ def _build_sub_requirement_slides(
     for c_idx, chunk in enumerate(sub_chunks):
         chunk_bullets: List[str] = []
         chunk_short_topics: List[str] = []
+        chunk_sr_ids: List[str] = []
         for s_idx, sr in enumerate(chunk):
             raw_lbl = str(sr.get("sub_id") or sr.get("id") or sr.get("sub_req_label") or f"{req_num}{chr(97 + s_idx)}").strip()
             sr_id = f"{req_num}{raw_lbl}" if len(raw_lbl) == 1 and raw_lbl.isalpha() and not str(req_num).endswith(raw_lbl) else raw_lbl
+            chunk_sr_ids.append(sr_id)
             raw_sr_txt = str(sr.get("text") or sr.get("sub_req_text") or "").strip()
             curated_sr_topic = re.sub(
                 rf"^Req(?:uirement)?\s+{re.escape(sr_id)}\s*[:\-—]\s*",
@@ -1913,12 +1972,76 @@ def _build_sub_requirement_slides(
         else:
             slide_title = f"{base_title}: Sub-Requirement Deep Dive ({range_label})"
 
+        # Decision #3: Check for sub-requirement Nano Banana hero or cataloged pamphlet figure matching this chunk
+        matched_sub_img: Optional[str] = None
+        matched_sub_cap: str = ""
+        if isinstance(nano_cat, dict):
+            for sr_id_cand in chunk_sr_ids:
+                sr_slug_cand = re.sub(r"[^a-zA-Z0-9]+", "_", str(sr_id_cand).strip().lower()).strip("_")
+                if not sr_slug_cand or re.match(r"^\d+$", sr_slug_cand):
+                    continue
+                cand_nano_fname = f"{slug}_req_{sr_slug_cand}_nano_hero.png"
+                cand_nano_path = ASSETS_DIR / "ai_illustrations" / cand_nano_fname
+                if cand_nano_path.exists() and str(cand_nano_path) not in used_image_paths:
+                    n_md5 = _raw_file_md5(cand_nano_path)
+                    if not n_md5 or f"md5:{n_md5}" not in used_image_paths:
+                        used_image_paths.add(str(cand_nano_path))
+                        if n_md5:
+                            used_image_paths.add(f"md5:{n_md5}")
+                        matched_sub_img = str(cand_nano_path)
+                        n_entry = nano_cat.get(cand_nano_fname) if isinstance(nano_cat.get(cand_nano_fname), dict) else {}
+                        raw_ncap = str(n_entry.get("caption") or f"{badge_name} {range_label} visual guide illustrating {base_title}.")
+                        matched_sub_cap = _ensure_complete_caption_sentence(
+                            strip_pamphlet_and_req_caption_prefixes(raw_ncap, badge_name),
+                            max_chars=160,
+                        )
+                        break
+
+        if not matched_sub_img and isinstance(pamphlet_cat, dict):
+            chunk_id_set = {str(x).strip().lower() for x in chunk_sr_ids if str(x).strip()}
+            for p_fname, p_entry in pamphlet_cat.items():
+                if not p_fname.startswith(f"{slug}_p") or p_entry.get("discard"):
+                    continue
+                e_reqs = [str(p_entry.get("req_number") or "").strip().lower()] + [
+                    str(r).strip().lower() for r in (p_entry.get("req_numbers") or []) if str(r).strip()
+                ]
+                if not (chunk_id_set & set(e_reqs)):
+                    continue
+                cand_p_path = PAMPHLET_IMAGES_DIR / p_fname
+                if not cand_p_path.exists() or _is_discardable_pamphlet_image(cand_p_path):
+                    continue
+                p_md5 = _raw_file_md5(cand_p_path)
+                if str(cand_p_path) in used_image_paths or (p_md5 and f"md5:{p_md5}" in used_image_paths):
+                    continue
+                used_image_paths.add(str(cand_p_path))
+                if p_md5:
+                    used_image_paths.add(f"md5:{p_md5}")
+                m_pg = re.search(r"_p(\d+)_img", p_fname)
+                ep_num = int(m_pg.group(1)) if m_pg else 1
+                composed_sub = _compose_pamphlet_visual_card(
+                    raw_img_path=cand_p_path,
+                    badge_name=badge_name,
+                    req_number=f"{req_num}_sub{c_idx + 1}",
+                    topic_title=str(p_entry.get("topic") or base_title),
+                    pamphlet_page=ep_num,
+                )
+                c_md5 = _raw_file_md5(composed_sub)
+                if c_md5:
+                    used_image_paths.add(f"md5:{c_md5}")
+                matched_sub_img = str(composed_sub)
+                raw_pcap = str(p_entry.get("caption") or f"{badge_name} {range_label} figure illustrating {base_title}.")
+                matched_sub_cap = _ensure_complete_caption_sentence(
+                    strip_pamphlet_and_req_caption_prefixes(raw_pcap, badge_name),
+                    max_chars=160,
+                )
+                break
+
         slides_out.append({
             "title": slide_title,
-            "layout": "CONCEPT_TEXT_SLIDE",
+            "layout": "SPLIT_VISUAL_EXPLAINER" if matched_sub_img else "CONCEPT_TEXT_SLIDE",
             "bullets": chunk_bullets,
-            "image_path": None,
-            "caption": f"{badge_name} Sub-Requirement Reference — {base_title} ({range_label})",
+            "image_path": matched_sub_img,
+            "caption": matched_sub_cap if matched_sub_img else f"{badge_name} Sub-Requirement Reference - {base_title} ({range_label}).",
             "is_subreq_slide": True,
             "sub_requirements_chunk": list(chunk),
             "sub_req_range_label": range_label,
@@ -2341,6 +2464,7 @@ def decompose_requirement_into_topic_slides(
                     extra_images=[],
                     pages_map=pages_map,
                     extended_pages=extended_pages,
+                    used_image_paths=used_image_paths,
                 )
                 # Place Sub-Requirement Deep Dive slide(s) first so both Deep Dive and Troop Meeting decks include them
                 combined_slides = sub_slides + [
@@ -2451,6 +2575,7 @@ def decompose_requirement_into_topic_slides(
                 extra_images=[],
                 pages_map=pages_map,
                 extended_pages=extended_pages,
+                used_image_paths=used_image_paths,
             )
         )
         # Add 1 illustrated Pamphlet / Option 2 Topic Visual Reference slide
@@ -2591,7 +2716,7 @@ def decompose_requirement_into_topic_slides(
                 "title": f"{base_title} (Workbook Guide)" if ": " in base_title else f"{base_title}: Scout Workbook & Review Guide",
                 "layout": "WORKED_EXAMPLE_TEMPLATE",
                 "worked_example": {
-                    "title": f"Requirement {req_num} Verification Log — {base_title}",
+                    "title": f"Requirement {req_num} Verification Log - {base_title}",
                     "artifact_type": "SCOUT WORKBOOK TEMPLATE",
                     "fields": fields_map,
                     "counselor_tip": f"Complete each entry for Requirement {req_num} in your Scout Workbook and be ready to explain your reasoning in your own words.",

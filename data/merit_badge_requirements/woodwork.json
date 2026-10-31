@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Woodwork Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -52,7 +52,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards",
               "2. Explain what precautions you should take to safely use your tools"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
@@ -90,7 +96,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p003_img1.png",
           "workbook_diagram_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
-          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards."
+          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
+          "socratic_questions": [
+            "For woodwork Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -106,7 +115,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (You Know First Aid for)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -125,7 +134,13 @@
               "1. Show that you know first aid for injuries that could occur while woodworking, including splinters, scratches, cuts, severe bleeding, and shock",
               "2. Tell what precautions must be taken to help prevent loss of eyesight or hearing, and explain why and when it is necessary to use a dust mask"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
@@ -164,7 +179,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p024_img1.png",
           "title": "Req 1b: First Aid for Woodworking Injuries",
           "workbook_diagram_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
-          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards."
+          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
+          "socratic_questions": [
+            "For woodwork Requirement 1b (Show that you know first aid for injuries that could occur while woodworking, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -175,7 +193,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Earn the Totin' Chip Recognition)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -187,12 +205,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Earn the Totin' Chip recognition"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Earn the Totin' Chip recognition"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)",
           "common_misconception_pair": {
@@ -230,7 +258,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p024_img1.png",
           "workbook_diagram_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
-          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards."
+          "workbook_visual_caption": "Color-coded nail sets drive finishing nails below the surface of wooden project boards.",
+          "socratic_questions": [
+            "For woodwork Requirement 1c (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -257,7 +288,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Woodwork Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -278,7 +309,13 @@
           "2. (1b) First Aid for Woodworking Injuries",
           "3. (1c) Earn the Totin' Chip recognition"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gloves protect hands from revolving power tool blades.",
@@ -446,7 +483,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Timber Is Grown Harvested and)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -465,7 +502,13 @@
               "1. Describe how timber is grown, harvested, and milled.",
               "2. Tell how lumber is cured, seasoned, graded, and sized."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
@@ -504,12 +547,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p007_img1.png",
           "title": "Req 2a: Timber Harvesting and Lumber Milling",
           "workbook_diagram_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling.",
-          "workbook_visual_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling."
+          "workbook_visual_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling.",
+          "socratic_questions": [
+            "For woodwork Requirement 2a (Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses.",
+          "text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses of each.",
           "resources": [
             {
               "title": "Types of Plywood (website w/ video)",
@@ -524,7 +570,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Blocks of Six Kinds of)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -545,7 +591,13 @@
               "2. Describe the chief qualities",
               "3. Give the best uses"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)",
           "common_misconception_pair": {
@@ -575,7 +627,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses.",
+          "sub_req_text": "Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses of each.",
           "topic_title": "Req 2b: Wood Species Collection and Identification",
           "pamphlet_summary": "Woodworkers must collect sample blocks representing distinct species such as oak, maple, pine, walnut, cherry, and cedar to evaluate varied workability. Each species exhibits distinct hardness ratings, porous grain structures, natural decay resistances, and ideal construction applications.",
           "pamphlet_excerpts": [
@@ -584,7 +636,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p007_img1.png",
           "title": "Req 2b: Wood Species Samples and Uses",
           "workbook_diagram_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling.",
-          "workbook_visual_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling."
+          "workbook_visual_caption": "A mature deciduous hardwood tree illustrates living timber before harvesting and milling.",
+          "socratic_questions": [
+            "For woodwork Requirement 2b (Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -610,7 +665,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Lumber Harvesting, Curing, and Classification",
-      "action_verb": "Demonstrate",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Inspect recycled or reclaimed timber with a metal detector before machining to avoid striking hidden nails or screws with blades.",
@@ -619,7 +674,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Timber Is Grown Harvested and)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -638,7 +693,13 @@
           "1. (2a) Describe how timber is grown, harvested, and milled",
           "2. (2b) Collect and label blocks of six kinds of wood useful in woodworking"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A two by four stud purchased at a retail yard measures exactly two inches by four inches.",
@@ -806,7 +867,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Care Use and Storage)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -818,12 +879,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)",
           "common_misconception_pair": {
@@ -861,7 +932,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p012_img1.png",
           "workbook_diagram_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock.",
-          "workbook_visual_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock."
+          "workbook_visual_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock.",
+          "socratic_questions": [
+            "For woodwork Requirement 3a (Show the proper care, use, and storage of all working tools and equipment that you own or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -877,7 +951,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Cutting Edges of Two Different)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -889,12 +963,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Sharpen correctly the cutting edges of two different tools"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sharpen correctly the cutting edges of two different tools"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)",
           "common_misconception_pair": {
@@ -932,7 +1016,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p020_img1.png",
           "workbook_diagram_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock.",
-          "workbook_visual_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock."
+          "workbook_visual_caption": "A steel tape measure provides precise dimensional measurements for cutting woodworking stock.",
+          "socratic_questions": [
+            "For woodwork Requirement 3b (Sharpen correctly the cutting edges of two different tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -963,7 +1050,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Care Use and Storage)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -982,7 +1069,13 @@
           "1. (3a) Care Use and Storage",
           "2. (3b) Cutting Edges of Two Different"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sharpening stones should be used dry to avoid making a messy slurry on the workbench.",
@@ -1164,7 +1257,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Plane Hammer Brace and Bit)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1183,7 +1276,13 @@
           "1. Using a saw, plane, hammer, brace, and bit, make something useful of wood.",
           "2. Cut parts from lumber that you have squared and measured from working drawings."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Boring completely through a board from one side with an auger bit produces clean hole edges on both faces.",
@@ -1351,7 +1450,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Own Woodworking Project Begin by)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1372,7 +1471,12 @@
           "2. Begin by making working drawings, list the materials you will need to complete your project, and then build your project.",
           "3. Keep track of the time you spend and the cost of the materials."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wood glue bonds stronger when applied in heavy, dripping layers that squeeze out profusely.",
@@ -1529,7 +1633,7 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Make working drawings of a project needing beveled or rounded edges and build.",
+          "text": "Make working drawings of a project needing beveled or rounded edges and build it.",
           "resources": [
             {
               "title": "Bevels- How to Make Beveled Panels on the Table saw (video)",
@@ -1544,7 +1648,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1556,12 +1660,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make working drawings of a project needing beveled or rounded edges and build"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make working drawings of a project needing beveled or rounded edges and build"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
@@ -1591,7 +1705,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Make working drawings of a project needing beveled or rounded edges and build.",
+          "sub_req_text": "Make working drawings of a project needing beveled or rounded edges and build it.",
           "topic_title": "Req 6a: Beveled and Rounded Edge Fabrication",
           "pamphlet_summary": "Creating beveled and rounded edge profiles softens sharp edges, enhances tactile comfort, and prevents finish chipping on furniture corners. Woodworkers layout stop lines with marking gauges and execute the profiles using block planes, rasps, spokeshaves, and sanding blocks.",
           "pamphlet_excerpts": [
@@ -1599,12 +1713,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p061_img1.png",
           "workbook_diagram_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
-          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools."
+          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
+          "socratic_questions": [
+            "For woodwork Requirement 6a (Make working drawings of a project needing beveled or rounded edges and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Make working drawings of a project needing curved or incised cuttings and build.",
+          "text": "Make working drawings of a project needing curved or incised cuttings and build it.",
           "resources": [
             {
               "title": "Making Arcs & Curves the Easy Way (video)",
@@ -1615,7 +1732,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1627,12 +1744,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make working drawings of a project needing curved or incised cuttings and build"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make working drawings of a project needing curved or incised cuttings and build"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
@@ -1662,7 +1789,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Make working drawings of a project needing curved or incised cuttings and build.",
+          "sub_req_text": "Make working drawings of a project needing curved or incised cuttings and build it.",
           "topic_title": "Req 6b: Curved and Incised Cutting Operations",
           "pamphlet_summary": "Curved work requires cutting complex internal and external contours using coping saws, compass saws, or scroll saws along scribed templates. Relief cuts prevent blade binding in tight radiuses, while incised surface carving utilizes sharp vee tools and gouges driven with controlled mallet strikes.",
           "pamphlet_excerpts": [
@@ -1670,12 +1797,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p061_img1.png",
           "workbook_diagram_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
-          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools."
+          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
+          "socratic_questions": [
+            "For woodwork Requirement 6b (Make working drawings of a project needing curved or incised cuttings and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
           "label": "(c)",
-          "text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build.",
+          "text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build it.",
           "resources": [
             {
               "title": "Mitered Mortise & Tenon Joint (video)",
@@ -1686,7 +1816,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
+            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1698,12 +1828,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
@@ -1733,7 +1873,7 @@
           ],
           "id": "6c",
           "sub_req_label": "6c",
-          "sub_req_text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build.",
+          "sub_req_text": "Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build it.",
           "topic_title": "Req 6c: Precision Joinery Frame Construction",
           "pamphlet_summary": "Building projects with miter, dowel, or mortise and tenon joints demands precise squaring and marking with striking knives to ensure smooth mating faces. Tenons must fit snugly into mortises with hand pressure alone, allowing sufficient clearance for a thin, even film of wood adhesive.",
           "pamphlet_excerpts": [
@@ -1741,7 +1881,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p061_img1.png",
           "workbook_diagram_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
-          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools."
+          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
+          "socratic_questions": [
+            "For woodwork Requirement 6c (Make working drawings of a project needing miter, dowel, or mortise and tenon joints and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -1757,7 +1900,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist (Cabinet Box or Something Else)",
+            "table_title": "Req 6d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1769,12 +1912,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Make a cabinet, box, or something else with a door or lid fastened with inset hinges"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a cabinet, box, or something else with a door or lid fastened with inset hinges"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
@@ -1812,7 +1965,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p061_img1.png",
           "workbook_diagram_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
-          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools."
+          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
+          "socratic_questions": [
+            "For woodwork Requirement 6d (Make a cabinet, box, or something else with a door or lid fastened with inset hinges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -1828,7 +1984,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Help Make Wooden Toys for)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1840,24 +1996,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)",
           "common_misconception_pair": {
             "misconception": "Any standard commercial oil-based wood stain is safe for children's wooden toys once dry.",
             "fact": "Children's wooden toys must be finished with certified non-toxic, lead-free food-grade mineral oils, pure beeswax, or certified child-safe acrylics."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Woodwork Req 6e preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Woodwork Merit Badge Hub (Req 6e)",
@@ -1889,7 +2050,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/woodwork_p061_img1.png",
           "title": "Req 6e: Wooden Toys and Service Projects",
           "workbook_diagram_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
-          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools."
+          "workbook_visual_caption": "Three oval wooden plaques display smoothly rounded edges shaped with woodworking tools.",
+          "socratic_questions": [
+            "For woodwork Requirement 6e (Help make wooden toys for children OR help carry out a woodworking service project approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1936,7 +2100,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Working Drawings of A Project)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1961,7 +2125,12 @@
           "4. (6d) Make a cabinet, box, or something else with a door or lid fastened with inset hinges",
           "5. (6e) Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Miter joints alone provide strong structural bonds for heavy wooden frames and boxes.",
@@ -2171,7 +2340,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Woodworking careers are restricted to hand craftspeople making rustic furniture one piece at a time.",

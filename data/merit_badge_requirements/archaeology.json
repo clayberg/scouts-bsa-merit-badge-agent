@@ -51,7 +51,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Principles of Archaeological Science)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -70,7 +70,13 @@
           "1. Tell what archaeology is and explain to your counselor how it differs or relates to other fields of study such as anthropology, geology, paleontology, and history",
           "2. Explain how archaeology is different than artifact collecting or treasure hunting"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Archaeologists spend their careers digging up dinosaur skeletons alongside ancient human stone spearheads.",
@@ -267,7 +273,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Archaeological Process Site Location Development)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -279,12 +285,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design, site survey and fieldwork"
+          "1. Research Design Formulation",
+          "2. Pedestrian Survey Methods",
+          "3. Provenience Mapping"
         ],
         "rows": [
-          "1. Describe the following steps of the archaeological process: site location, development of background research and a research design, site survey and fieldwork"
+          "1. Research Design Formulation",
+          "2. Pedestrian Survey Methods",
+          "3. Provenience Mapping"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Archaeological excavation involves immediately digging deep holes with shovels to unearth precious relics.",
@@ -465,7 +481,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Archaeologists Determine the Age of)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -484,7 +500,13 @@
           "1. Describe at least two ways in which archaeologists determine the age of sites, structures, or artifacts",
           "2. Explain what absolute dating and relative dating"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Carbon-14 testing can determine the exact construction year of stone projectile points and metal swords.",
@@ -642,7 +664,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4a Technical Comparison Matrix (Site You Research Point It)",
+            "table_title": "Req 4a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "United States Archaeological Sites",
@@ -665,7 +687,13 @@
               "3. Explain how the information gained from the study of these sites answers questions that archaeologists are asking",
               "4. Compare the relative ages of the sites you research"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "United States Archaeological Sites",
+              "International World Heritage Sites"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
@@ -703,7 +731,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p014_img1.png",
           "workbook_diagram_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia.",
-          "workbook_visual_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia."
+          "workbook_visual_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia.",
+          "socratic_questions": [
+            "For archaeology Requirement 4a (For EACH site you research, point it out on a map and explain how it became known to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -714,7 +745,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Sites You Picked)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -726,12 +757,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school class, or another group"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school class, or another group"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
@@ -769,7 +810,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p014_img1.png",
           "workbook_diagram_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia.",
-          "workbook_visual_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia."
+          "workbook_visual_caption": "Massive tree roots envelop ancient stone temple walls at a famous archaeological site in Cambodia.",
+          "socratic_questions": [
+            "For archaeology Requirement 4b (Choose ONE of the sites you picked and give a short presentation about your findings to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -802,7 +846,7 @@
           "url": "https://youtu.be/kq5fHCGOU7U"
         },
         {
-          "title": "Terra cotta Army: The Greatest Archaeological Find of the 20th Century (video)",
+          "title": "Terracotta Army: The Greatest Archaeological Find of the 20th Century (video)",
           "url": "https://youtu.be/4c_ADqshdSA"
         },
         {
@@ -828,7 +872,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Learn About A Combined Total)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "United States Archaeological Sites",
@@ -847,7 +891,13 @@
           "1. (4a) Site You Research Point It",
           "2. (4b) Sites You Picked"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "United States Archaeological Sites",
+          "International World Heritage Sites"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Archaeological sites are always discovered through intentional, high-tech academic searches rather than chance encounters.",
@@ -1010,7 +1060,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Learn About the Federal Laws)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1029,7 +1079,13 @@
               "1. Learn about the federal laws and international conventions that protect archaeological sites.",
               "2. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
           "common_misconception_pair": {
@@ -1067,7 +1123,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p067_img1.png",
           "workbook_diagram_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench.",
-          "workbook_visual_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench."
+          "workbook_visual_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench.",
+          "socratic_questions": [
+            "For archaeology Requirement 5a (Learn about the federal laws and international conventions that protect archaeological), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1083,7 +1142,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (National International or Local Organization)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1095,12 +1154,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify a national, international, or local organization that helps to protect archaeological sites"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify a national, international, or local organization that helps to protect archaeological sites"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)",
           "common_misconception_pair": {
@@ -1138,7 +1207,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p067_img1.png",
           "workbook_diagram_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench.",
-          "workbook_visual_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench."
+          "workbook_visual_caption": "An excavator records stratigraphic observations on a clipboard beside an active dig trench.",
+          "socratic_questions": [
+            "For archaeology Requirement 5b (Identify a national, international, or local organization that helps to protect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1160,7 +1232,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Archaeological Legal Frameworks and Preservation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1169,7 +1241,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Learn About the Federal Laws)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1188,7 +1260,13 @@
           "1. (5a) Learn About The Federal Laws",
           "2. (5b) National International or Local Organization"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Anyone who finds an arrowhead or pottery shard on federal public land is legally entitled to keep it.",
@@ -1351,7 +1429,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Important to Protect Archaeological Sites)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1363,12 +1441,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain why it is important to protect archaeological sites"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain why it is important to protect archaeological sites"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
@@ -1406,7 +1494,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p021_img1.png",
           "workbook_diagram_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
-          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal."
+          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
+          "socratic_questions": [
+            "For archaeology Requirement 6a (Explain why it is important to protect archaeological sites), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1422,7 +1513,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (People Should Do If They)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1434,12 +1525,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what people should do if they think they have found an artifact"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what people should do if they think they have found an artifact"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
@@ -1477,7 +1578,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p021_img1.png",
           "workbook_diagram_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
-          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal."
+          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
+          "socratic_questions": [
+            "For archaeology Requirement 6b (Explain what people should do if they think they have found an artifact), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1497,7 +1601,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (You Can Be A Protector)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1509,12 +1613,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the ways in which you can be a protector of the past"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the ways in which you can be a protector of the past"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)",
           "common_misconception_pair": {
@@ -1552,7 +1666,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p021_img1.png",
           "workbook_diagram_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
-          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal."
+          "workbook_visual_caption": "Warning signs remind visitors that removing artifacts from protected archaeological sites is illegal.",
+          "socratic_questions": [
+            "For archaeology Requirement 6c (Describe the ways in which you can be a protector of the past), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1582,7 +1699,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 6: Archaeological Stewardship and Site Protection",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1591,7 +1708,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Important to Protect Archaeological Sites)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1612,7 +1729,13 @@
           "2. (6b) People Should Do If They",
           "3. (6c) You Can Be A Protector"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Picking up an artifact to show an archaeologist at their office is helpful behavior.",
@@ -1775,7 +1898,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Museum to Observe How Artifacts)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1787,12 +1910,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a museum to observe how artifacts aid in conveying history"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Visit a museum to observe how artifacts aid in conveying history"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -1830,7 +1962,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p040_img1.png",
           "workbook_diagram_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
-          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts."
+          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
+          "socratic_questions": [
+            "For archaeology Requirement 7a (Visit a museum to observe how artifacts aid in conveying history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -1841,7 +1976,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Significant Family Artifact/heirloom and Discuss)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1853,12 +1988,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Present to your counselor a significant family artifact/heirloom and discuss its history"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Present to your counselor a significant family artifact/heirloom and discuss its history"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -1896,7 +2041,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p040_img1.png",
           "workbook_diagram_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
-          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts."
+          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
+          "socratic_questions": [
+            "For archaeology Requirement 7b (Present to your counselor a significant family artifact/heirloom and discuss its history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -1916,7 +2064,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist (Trash Your Family Throws Out)",
+            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1935,7 +2083,13 @@
               "1. Make a list of the trash your family throws out during one week",
               "2. Discuss with your counselor what archaeologists might learn about you and your family if they found your trash a thousand years from now"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -1974,7 +2128,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p040_img1.png",
           "title": "Req 7c: Analyzing Weekly Family Trash",
           "workbook_diagram_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
-          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts."
+          "workbook_visual_caption": "Field excavation kits include delicate whisk brushes, dental picks, and trowels for recovering artifacts.",
+          "socratic_questions": [
+            "For archaeology Requirement 7c (Make a list of the trash your family throws out during one week. Discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2009,7 +2166,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Discuss Your Findings)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2030,7 +2187,12 @@
           "2. (7b) Present to your counselor a significant family artifact/heirloom and discuss its history",
           "3. (7c) Make a list of the trash your family throws out during one week"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Household garbage contains no valuable information about family habits or economic realities.",
@@ -2198,7 +2360,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (People Who Lived in Your)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2221,7 +2383,13 @@
           "3. Describe what you would expect to find at an archaeological site where these people lived",
           "4. Explain how these people influenced your current community"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Ancient local inhabitants lived isolated lives without any contact or commerce with outside cultural groups.",
@@ -2326,10 +2494,10 @@
       "estimated_minutes": 15,
       "homework_verification_note": "Ask the Scout to explain each concept in their own words using their completed organizer notes for Archaeology Requirement 8 (reconstructing local past lifeways) before signing the blue card.",
       "workbook_diagram_url": "assets/pamphlet_images/archaeology_p034_img1.png",
-      "workbook_diagram_caption": "Thousands of life-sized terra cotta soldiers stand in excavated trenches at the famous site in China.",
+      "workbook_diagram_caption": "Thousands of life-sized terracotta soldiers stand in excavated trenches at the famous site in China.",
       "number": "8",
       "description": "Research a group of people who lived in your area more than 100 years ago. Find out about their ways of life, including housing, clothing, arts and crafts, tools, trade and markets, rituals and religions, and diets, and their relationships with other groups of people in the area. Describe what you would expect to find at an archaeological site where these people lived. Explain how these people influenced your current community.",
-      "workbook_visual_caption": "Thousands of life-sized terra cotta soldiers stand in excavated trenches at the famous site in China.",
+      "workbook_visual_caption": "Thousands of life-sized terracotta soldiers stand in excavated trenches at the famous site in China.",
       "pamphlet_summary": "Investigating local communities who inhabited your region over a century ago reveals how people adapted to regional geography and seasonal climates. Examining their architecture, tools, dietary choices, and trade networks highlights the complex social structures that shaped local history.",
       "socratic_questions": [
         "How did the natural geography and water resources of our region dictate historic building styles?",
@@ -2433,7 +2601,12 @@
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Most professional archaeologists spend their careers teaching at universities or making glamorous discoveries on television.",
@@ -2596,7 +2769,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10a Structured Technical Study & Explanation Matrix (Permission Assist A Qualified Archaeologist)",
+            "table_title": "Req 10a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2621,19 +2794,20 @@
               "4. Note: Visiting an archaeological site will require advance planning",
               "5. An archaeological site during study can be a dangerous place"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
           "common_misconception_pair": {
             "misconception": "Volunteers on archaeological sites are immediately allowed to dig without orientation or supervision.",
             "fact": "Professional archaeologists supervise all volunteer field activities, training helpers in site etiquette, screening, and documentation."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Archaeology Req 10a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Archaeology Merit Badge Hub (Req 10a)",
@@ -2664,7 +2838,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p075_img1.png",
           "workbook_diagram_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions.",
-          "workbook_visual_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions."
+          "workbook_visual_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions.",
+          "socratic_questions": [
+            "For archaeology Requirement 10a (With your parent or guardian's and counselor's permission, assist a qualified archaeologist), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -2675,7 +2852,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 10b Hands-On Skill Station & EDGE Verification Checklist (Archaeology Careers and Pathways)",
+            "table_title": "Req 10b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2700,19 +2877,20 @@
               "4. Explain how the environment and time can affect the interpretation of an artifact and the overall archaeological site",
               "5. Tell how you would share the results of your analysis with other researchers and the public"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)",
           "common_misconception_pair": {
             "misconception": "A simulated sandbox dig is just a game that teaches nothing about scientific methods.",
             "fact": "Simulated digs mirror professional grid systems, level sheets, and artifact mapping protocols without risking real cultural artifacts."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Archaeology Req 10b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Archaeology Merit Badge Hub (Req 10b)",
@@ -2743,7 +2921,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p075_img1.png",
           "workbook_diagram_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions.",
-          "workbook_visual_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions."
+          "workbook_visual_caption": "Students analyze an indoor simulated archaeological grid to practice mapping artifact distributions.",
+          "socratic_questions": [
+            "For archaeology Requirement 10b (With your counselor's approval, take part in a simulated archaeological project designed by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2770,7 +2951,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist (Archaeology Careers and Pathways)",
+        "table_title": "Req 10 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2789,7 +2970,12 @@
           "1. (10a) Permission Assist A Qualified Archaeologist",
           "2. (10b) Archaeology Careers and Pathways"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Excavating an archaeological unit means digging with large shovels as quickly as possible.",
@@ -2952,7 +3138,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Help Prepare An Archaeological Exhibit)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2964,12 +3150,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
           "common_misconception_pair": {
@@ -3007,7 +3203,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p029_img1.png",
           "workbook_diagram_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits.",
-          "workbook_visual_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits."
+          "workbook_visual_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits.",
+          "socratic_questions": [
+            "For archaeology Requirement 11a (Help prepare an archaeological exhibit for display in a museum, visitor center, school, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -3018,7 +3217,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Experimental Archaeology to Re-create)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3037,7 +3236,13 @@
               "1. Use the methods of experimental archaeology to re-create an item or to practice a skill from the past.",
               "2. Write a brief report explaining the experiment and its results."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)",
           "common_misconception_pair": {
@@ -3075,7 +3280,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/archaeology_p029_img1.png",
           "workbook_diagram_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits.",
-          "workbook_visual_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits."
+          "workbook_visual_caption": "A decorated ancient ceramic vessel illustrates preservation techniques used for museum exhibits.",
+          "socratic_questions": [
+            "For archaeology Requirement 11b (Use the methods of experimental archaeology to re-create an item or to practice a skill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -3097,7 +3305,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Supervision of A Qualified Archaeologist)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3116,7 +3324,13 @@
           "1. (11a) Help Prepare An Archaeological Exhibit",
           "2. (11b) Experimental Archaeology to Re-create"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Experimental archaeology is just making art or crafts without any underlying scientific hypothesis.",

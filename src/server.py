@@ -1977,13 +1977,37 @@ def _synthesize_studio_narrative_script(
         "COVER",
     ) or str(req_num).strip().lower() in ("overview", "sources", "cover")
 
+    req_local_idx = int(
+        (slide_dict or {}).get("slide_idx_in_req")
+        if (slide_dict or {}).get("slide_idx_in_req") is not None
+        else (
+            0
+            if (
+                arch_upper in ("REQUIREMENT_INTRO", "COVER", "REQUIREMENTS_TRIAGE_MATRIX", "SOURCES_AND_REFERENCES")
+                or bool((slide_dict or {}).get("verbatim_requirement_text"))
+            )
+            else max(1, int(slide_index))
+        )
+    )
+    req_ref_label = (
+        f"the {badge_name} Requirements Overview"
+        if str(req_num).strip().lower() == "overview" or arch_upper == "REQUIREMENTS_TRIAGE_MATRIX"
+        else f"Requirement {req_num}"
+    )
+
     misc_block = ""
     if not omit_misc_for_arch:
         if base_notes:
             for ln in base_notes.splitlines():
                 if ln.strip().startswith("[COMMON MISCONCEPTION TO CORRECT]"):
                     candidate_misc = ln.strip()[len("[COMMON MISCONCEPTION TO CORRECT]") :].strip()
-                    if candidate_misc and not _is_generic_meta_misconception(candidate_misc, ""):
+                    if "| BSA Pamphlet Fact:" in candidate_misc:
+                        c_myth_part, c_fact_part = candidate_misc.split("| BSA Pamphlet Fact:", 1)
+                        c_myth_part = re.sub(r"^Myth\s*:\s*", "", c_myth_part.strip(), flags=re.IGNORECASE).strip()
+                        c_fact_part = c_fact_part.strip()
+                    else:
+                        c_myth_part, c_fact_part = candidate_misc, ""
+                    if candidate_misc and not _is_generic_meta_misconception(c_myth_part, c_fact_part):
                         misc_block = f"[COMMON MISCONCEPTION TO CORRECT] {candidate_misc}"
                     break
         if not misc_block:
@@ -1995,7 +2019,7 @@ def _synthesize_studio_narrative_script(
                 meaningful_topics=meaningful_topics,
                 parsed_points=parsed_cards,
                 page_cite=page_cite,
-                slide_idx_in_req=max(0, int(slide_index)),
+                slide_idx_in_req=req_local_idx,
                 slide_seed=slide_seed,
                 comparison_data=comparison_data,
                 worked_example=worked_example,
@@ -2005,20 +2029,35 @@ def _synthesize_studio_narrative_script(
             misc_block = f"[COMMON MISCONCEPTION TO CORRECT] Myth: {myth_txt} | BSA Pamphlet Fact: {fact_txt}"
 
     demo_templates = [
-        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete Requirement {req_num} demonstration looks like.",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Step in front of the table and model {first_h} at half-speed] Walk a two-Scout buddy pair through {first_h} ({first_b.rstrip('.')}) and {second_h} ({second_b.rstrip('.')}), pausing so the patrol sees what a complete {req_ref_label} demonstration looks like.",
         f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Invite two volunteers to the front table] Use the BSA EDGE method (Explain, Demonstrate, Guide, Enable) to show {first_h} ({first_b.rstrip('.')}), then have the buddy pair demonstrate {second_h} ({second_b.rstrip('.')}) back to the troop.",
-        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the field gear or workbook example for Requirement {req_num}] Point out the critical difference between doing {first_h} correctly ({first_b.rstrip('.')}) versus rushing past {second_h} ({second_b.rstrip('.')}).",
+        f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Hold up the field gear or workbook example for {req_ref_label}] Point out the critical difference between doing {first_h} correctly ({first_b.rstrip('.')}) versus rushing past {second_h} ({second_b.rstrip('.')}).",
         f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Walk side-by-side with the patrol] Coach Scouts through a live tabletop check of {first_h} ({first_b.rstrip('.')}) followed by {second_h} ({second_b.rstrip('.')}) so every Scout is ready for individual Application for Merit Badge (#34124) sign-off.",
     ]
-    demo_block = demo_templates[(slide_seed // 2) % len(demo_templates)]
-    if has_visual and visual_caption:
-        demo_block += f" [Have each Scout trace the key anatomical or equipment callouts on the slide diagram to verify {first_h}]"
+    is_continuation_non_rubric = (
+        req_local_idx >= 1
+        and arch_upper in (
+            "CONCEPT_TEXT_SLIDE",
+            "SPLIT_VISUAL_EXPLAINER",
+            "FULL_BLEED_IMAGE_EXPLAINER",
+            "DIFFERENTIAL_COMPARISON_2COL",
+            "GEAR_CHECKLIST_GRID",
+        )
+        and not quiz_item
+        and not worked_example
+    )
+    if is_continuation_non_rubric:
+        demo_block = ""
+    else:
+        demo_block = demo_templates[(slide_seed // 2) % len(demo_templates)]
+        if has_visual and visual_caption:
+            demo_block += f" [Have each Scout trace the key callouts on the slide figure to verify {first_h}]"
 
     if arch_upper == "SOURCES_AND_REFERENCES" or str(req_num).strip().lower() == "sources":
         return "\n".join(
             [
                 _sanitize_no_ellipsis_or_emdash(pacing_block),
-                _sanitize_no_ellipsis_or_emdash(demo_block),
+                _sanitize_no_ellipsis_or_emdash(demo_block or demo_templates[0]),
             ]
         )
 
@@ -2054,7 +2093,7 @@ async def _polish_single_slide_notes_core(
 
     hash_payload = json.dumps(
         {
-            "v": "gemini_flash_v7_selective_v41",
+            "v": "gemini_flash_v8_selective_v42",
             "badge": badge_name.strip().lower(),
             "req": req_num,
             "slide_idx": slide_index,
@@ -2101,6 +2140,18 @@ async def _polish_single_slide_notes_core(
             "presenter_notes": clean_cached,
         }
 
+    req_local_idx_core = int(
+        s_data.get("slide_idx_in_req")
+        if s_data.get("slide_idx_in_req") is not None
+        else (
+            0
+            if (
+                arch in ("REQUIREMENT_INTRO", "COVER", "REQUIREMENTS_TRIAGE_MATRIX", "SOURCES_AND_REFERENCES")
+                or bool(s_data.get("verbatim_requirement_text"))
+            )
+            else max(1, int(slide_index))
+        )
+    )
     base_notes = "" if is_cover else _build_slide_teaching_notes(
         badge_name=badge_name,
         req_num=req_num,
@@ -2119,7 +2170,7 @@ async def _polish_single_slide_notes_core(
         audience_level=aud_level,
         local_grounding_callout=local_callout,
         slide_dict=s_data,
-        slide_idx_in_req=max(0, int(slide_index)),
+        slide_idx_in_req=req_local_idx_core,
     )
 
     opening_styles = [

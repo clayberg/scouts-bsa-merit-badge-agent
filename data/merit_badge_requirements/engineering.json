@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Manufactured Item in Your Home)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Find out what sort of engineering activities were needed to create it",
           "3. Discuss with your counselor what you learned and how you got the information"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Consumer devices are engineered by a single person using one discipline.",
@@ -241,7 +247,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Engineering Achievement That Has)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -262,7 +268,12 @@
           "2. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find",
           "3. Tell your counselor what you learned"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Monumental feats occur when an inventor experiences an instantaneous stroke of genius.",
@@ -448,7 +459,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Work of Six Types of)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -467,7 +478,13 @@
           "1. Explain the work of six types of engineers.",
           "2. Pick two of the six types and explain how their work is related to engineering."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engineers in different fields use completely unrelated scientific rules to solve problems.",
@@ -625,7 +642,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Discuss the Work This Engineer)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -637,12 +654,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the work this engineer does and the tools the engineer uses"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the work this engineer does and the tools the engineer uses"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
@@ -680,18 +707,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
-          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+          "socratic_questions": [
+            "For engineering Requirement 4a (Discuss the work this engineer does and the tools the engineer uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Discuss with the engineer a current project and the engineer's particular role.",
+          "text": "Discuss with the engineer a current project and the engineer's particular role in it.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Discuss with the Engineer A)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -703,12 +733,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with the engineer a current project and the engineer's particular role"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with the engineer a current project and the engineer's particular role"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
@@ -738,7 +778,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Discuss with the engineer a current project and the engineer's particular role.",
+          "sub_req_text": "Discuss with the engineer a current project and the engineer's particular role in it.",
           "topic_title": "Req 4b: Active Project Role Examination",
           "pamphlet_summary": "Complex engineering initiatives require distinct specialists who manage discrete subassemblies or analytical stages. Understanding an individual engineer's exact role reveals how distributed project teams achieve unified objectives.",
           "pamphlet_excerpts": [
@@ -747,7 +787,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "title": "Req 4b: Current Project and Role",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
-          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+          "socratic_questions": [
+            "For engineering Requirement 4b (Discuss with the engineer a current project and the engineer's particular role in it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -758,7 +801,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Out How the Engineer's Work)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -770,12 +813,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find out how the engineer's work is done and how results are achieved"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Find out how the engineer's work is done and how results are achieved"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
@@ -813,7 +866,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
-          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+          "socratic_questions": [
+            "For engineering Requirement 4c (Find out how the engineer's work is done and how results are achieved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -824,7 +880,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Ask to See)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -836,12 +892,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ask to see the reports that the engineer writes concerning the project"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Ask to see the reports that the engineer writes concerning the project"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
@@ -879,7 +945,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
-          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+          "socratic_questions": [
+            "For engineering Requirement 4d (Ask to see the reports that the engineer writes concerning the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -890,7 +959,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor What)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -902,12 +971,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor what you learned about engineering from this visit"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor what you learned about engineering from this visit"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 38, p. 48)",
           "common_misconception_pair": {
@@ -946,7 +1025,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p039_img2.png",
           "title": "Req 4e: Counselor Visit Debrief",
           "workbook_diagram_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
-          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors."
+          "workbook_visual_caption": "An implantable biomedical cardiac device regulates heart rhythms through engineered sensors.",
+          "socratic_questions": [
+            "For engineering Requirement 4e (Discuss with your counselor what you learned about engineering from this visit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -968,7 +1050,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Engineer Discuss Work This)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -993,7 +1075,12 @@
           "4. (4d) Ask to see the reports that the engineer writes concerning the project",
           "5. (4e) Discuss with your counselor what you learned about engineering from this visit"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engineers spend their entire working day operating machinery or building physical prototypes.",
@@ -1176,7 +1263,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Systems Engineering Approach)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1188,12 +1275,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage"
+          "1. Problem Definition",
+          "2. Trade Studies",
+          "3. Subsystem Integration"
         ],
         "rows": [
-          "1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage"
+          "1. Problem Definition",
+          "2. Trade Studies",
+          "3. Subsystem Integration"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engineering design is a linear sequence where the initial drawing is constructed directly without changes.",
@@ -1356,7 +1453,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (Transforming Motion Using Common Materials)",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1379,7 +1476,13 @@
               "3. Explain how the model uses basic mechanical elements like levers and inclined planes to demonstrate motion.",
               "4. Describe an example where this mechanism is used in a real product."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1417,7 +1520,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6a (Transforming Motion. Using common materials or a construction set, make a simple model that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1437,7 +1543,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Electricity Make A List of)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1460,7 +1566,13 @@
               "3. Find out approximately how much electricity each uses in one month.",
               "4. Learn how to find out the amount and cost of electricity used in your home during periods of light and heavy use."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1499,7 +1611,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "title": "Req 6b: Home Electrical Appliance Usage",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6b (Using Electricity. Make a list of 10 electrical appliances in your home. Find out), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1515,7 +1630,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Understanding Electronics Using An Electronic)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1536,7 +1651,13 @@
               "2. Using an electronic device such as a smartphone or tablet computer, find out how sound, video, text or images travel",
               "3. Explain how the device was designed for ease of use, function, and durability"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1574,7 +1695,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6c (Understanding Electronics. Using an electronic device such as a smartphone or tablet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -1590,7 +1714,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6d Technical Comparison Matrix (Materials Do Experiments)",
+            "table_title": "Req 6d Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Mechanical Motion and Material Testing",
@@ -1611,7 +1735,13 @@
               "2. Do experiments to show the differences in strength and heat conductivity in wood, metal, and plastic.",
               "3. Discuss with your counselor what you have learned."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Mechanical Motion and Material Testing",
+              "Electrical Power and Energy Conversion"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1649,7 +1779,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6d (Using Materials. Do experiments to show the differences in strength and heat conductivity), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -1677,7 +1810,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist (Converting Energy Do An Experiment)",
+            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1700,7 +1833,13 @@
               "3. Explain your results",
               "4. Describe to your counselor what energy is and how energy is converted and used in your surroundings"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1738,12 +1877,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6e (Converting Energy. Do an experiment to show how mechanical, heat, chemical, solar, and/or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
           "label": "(f)",
-          "text": "Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need.",
+          "text": "Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need to go.",
           "resources": [
             {
               "title": "Moving People Can Be Complicated (video)",
@@ -1758,7 +1900,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist (Moving People Find Out)",
+            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1781,7 +1923,13 @@
               "3. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods.",
               "4. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1811,7 +1959,7 @@
           ],
           "id": "6f",
           "sub_req_label": "6f",
-          "sub_req_text": "Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need.",
+          "sub_req_text": "Moving People. Find out the different ways people in your community get to work. Make a study of traffic flow (number of vehicles and relative speed) in both heavy and light traffic periods. Discuss with your counselor what might be improved to make it easier for people in your community to get where they need to go.",
           "topic_title": "Req 6f: Community Traffic Flow Dynamics",
           "pamphlet_summary": "Transportation engineers analyze commuter corridors by counting vehicular density, transit modes, and average velocities. Evaluating rush hour bottlenecks reveals how lane geometry and signal timing impact urban mobility.",
           "pamphlet_excerpts": [
@@ -1820,7 +1968,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "title": "Req 6f: Studying Community Traffic Flow",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6f (Moving People. Find out the different ways people in your community get to work. Make a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6g",
@@ -1831,7 +1982,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6g Structured Technical Study & Explanation Matrix (Building An Engineering Project Enter)",
+            "table_title": "Req 6g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1852,7 +2003,13 @@
               "2. Enter a project in a science or engineering fair or similar competition",
               "3. (This requirement may be met by participation on an engineering competition project team.) Discuss with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Engineering Merit Badge Pamphlet (p. 30, p. 86)",
           "common_misconception_pair": {
@@ -1890,7 +2047,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/engineering_p030_img1.png",
           "workbook_diagram_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
-          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen."
+          "workbook_visual_caption": "A microwave appliance utilizes electromagnetic radiation to heat items in a kitchen.",
+          "socratic_questions": [
+            "For engineering Requirement 6g (Building an Engineering Project. Enter a project in a science or engineering fair or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1957,7 +2117,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (Transforming Motion Using Common Materials)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Mechanical Motion and Material Testing",
@@ -1986,7 +2146,13 @@
           "6. (6f) Moving People",
           "7. (6g) Building an Engineering Project"
         ],
-        "min_rows": 7
+        "min_rows": 7,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Mechanical Motion and Material Testing",
+          "Electrical Power and Energy Conversion"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engineering experiments require complex industrial laboratories to demonstrate valid mechanical or thermodynamic principles.",
@@ -2164,7 +2330,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Engineering Careers and Pathways)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2185,7 +2351,13 @@
           "2. Core principles and practical standards for Professional Engineer Licensing and Registration",
           "3. Name the types of engineering work for which registration is most important"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any person who graduates with an engineering degree can legally stamp public building plans.",
@@ -2366,7 +2538,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Engineer's Code of Ethics)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2385,7 +2557,13 @@
           "1. Study the Engineer's Code of Ethics.",
           "2. Explain how it is like the Scout Oath and Law."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Engineering ethics are optional guidelines that can be bypassed when project budgets run low.",
@@ -2581,7 +2759,12 @@
           "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
           "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "An engineering career only requires high school shop classes without advanced university mathematics.",

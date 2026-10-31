@@ -67,7 +67,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Contemporary Workplace Concerns)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -88,7 +88,13 @@
           "2. List and briefly describe or give examples of at least EIGHT concerns of American workers",
           "3. These may include, but are not limited to, working conditions, workplace safety, hours, wages, seniority, job security"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that modern worker concerns center entirely around hourly take-home pay.",
@@ -240,7 +246,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Find out what the organization.",
+          "text": "Find out what the organization does.",
           "resources": [
             {
               "title": "What Is a Labor Union? How Do Unions Work? Find Out Now (video)",
@@ -251,7 +257,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Out What the Organization)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -263,12 +269,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Find out what the organization"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Find out what the organization"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -298,7 +314,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Find out what the organization.",
+          "sub_req_text": "Find out what the organization does.",
           "topic_title": "Req 2a: Labor Organization Functional Discovery",
           "pamphlet_summary": "Labor organizations maintain distinct charters outlining their specific industry jurisdiction, membership qualifications, and collective representation duties. Local chapters administer member welfare funds, job dispatch rosters, and community service projects.",
           "pamphlet_excerpts": [
@@ -306,18 +322,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p007_img1.png",
           "workbook_diagram_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
-          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages."
+          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
+          "socratic_questions": [
+            "For american labor Requirement 2a (Find out what the organization does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them.",
+          "text": "Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them and why.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Issues and Concerns You Made)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -336,7 +355,13 @@
               "1. Share the list of issues and concerns you made for requirement 1.",
               "2. Ask the people you communicate with which issues are of greatest interest or concern to them."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -366,7 +391,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them.",
+          "sub_req_text": "Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them and why.",
           "topic_title": "Req 2b: Worker Issue Alignment Comparison",
           "pamphlet_summary": "Comparing scout research against current union concerns highlights real-world shop floor challenges. Active labor representatives clarify which contractual issues cause the greatest friction during negotiations.",
           "pamphlet_excerpts": [
@@ -374,7 +399,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p017_img1.png",
           "workbook_diagram_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
-          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages."
+          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
+          "socratic_questions": [
+            "For american labor Requirement 2b (Share the list of issues and concerns you made for requirement 1. Ask the people you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -390,7 +418,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Showing How the Organization Is)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -402,12 +430,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Draw a diagram showing how the organization is structured, from the local to the national level, if applicable"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Draw a diagram showing how the organization is structured, from the local to the national level, if applicable"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)",
           "common_misconception_pair": {
@@ -446,7 +484,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p017_img1.png",
           "title": "Req 2c: Local to National Union Structure",
           "workbook_diagram_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
-          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages."
+          "workbook_visual_caption": "Garment workers carry protest banners advocating for safer working conditions and fair wages.",
+          "socratic_questions": [
+            "For american labor Requirement 2c (Draw a diagram showing how the organization is structured, from the local to the national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -477,7 +518,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Union and Employer Organization Visit)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -498,7 +539,12 @@
           "2. (2b) Share the list of issues and concerns you made for requirement 1",
           "3. (2c) Draw a diagram showing how the organization is structured, from the local to the national level, if applicable"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think labor unions only exist at individual job sites without broader affiliations.",
@@ -676,7 +722,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Labor Union Structure and Federation)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -695,7 +741,13 @@
           "1. Explain to your counselor what labor unions are, what they do, and what services they provide to members",
           "2. In your discussion, show that you understand the concepts of labor, management, collective bargaining, negotiation, union shops, open shops, grievance"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts frequently confuse mediation with binding arbitration when resolving labor contract impasses.",
@@ -872,7 +924,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Adversarial vs. Cooperative Labor Models)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -884,12 +936,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what is meant by the adversarial model of labor-management relations, compared with a cooperative-bargaining style"
+          "1. Adversarial Posturing",
+          "2. Cooperative Bargaining",
+          "3. Information Sharing"
         ],
         "rows": [
-          "1. Explain what is meant by the adversarial model of labor-management relations, compared with a cooperative-bargaining style"
+          "1. Adversarial Posturing",
+          "2. Cooperative Bargaining",
+          "3. Information Sharing"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People often believe labor relations are naturally hostile and cannot function cooperatively.",
@@ -1060,7 +1122,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (American Labor Origins and Evolution)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1072,12 +1134,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Develop a timeline of significant events in the history of the American labor movement from the 1770s to the present"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Develop a timeline of significant events in the history of the American labor movement from the 1770s to the present"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)",
           "common_misconception_pair": {
@@ -1115,7 +1187,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p018_img1.png",
           "workbook_diagram_caption": "A union leader delivers an address to members while presenting labor contract documents.",
-          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents."
+          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents.",
+          "socratic_questions": [
+            "For american labor Requirement 5a (Develop a timeline of significant events in the history of the American labor movement from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1131,7 +1206,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Exhibit A Scrapbook or A)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1143,12 +1218,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show, illustrating three major achievements of the American labor movement and how those achievements affect American workers"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show, illustrating three major achievements of the American labor movement and how those achievements affect American workers"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)",
           "common_misconception_pair": {
@@ -1187,7 +1272,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p018_img1.png",
           "title": "Req 5b: Three Major Labor Achievements",
           "workbook_diagram_caption": "A union leader delivers an address to members while presenting labor contract documents.",
-          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents."
+          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents.",
+          "socratic_questions": [
+            "For american labor Requirement 5b (Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1203,7 +1291,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Permission Watch A Movie That)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1222,19 +1310,20 @@
               "1. With your counselor's and parent or guardian's approval and permission, watch a movie that addresses organized labor in the United States",
               "2. Afterward, discuss the movie with your counselor and explain what you learned"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)",
           "common_misconception_pair": {
             "misconception": "Viewers frequently confuse dramatic Hollywood embellishments with strict historical labor events.",
             "fact": "Cinema often dramatizes composite characters, requiring scouts to cross-reference film scenes with verified historical records."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete American Labor Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Labor Merit Badge Hub (Req 5c)",
@@ -1266,7 +1355,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p018_img1.png",
           "title": "Req 5c: Organized Labor Film Review",
           "workbook_diagram_caption": "A union leader delivers an address to members while presenting labor contract documents.",
-          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents."
+          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents.",
+          "socratic_questions": [
+            "For american labor Requirement 5c (With your counselor's and parent or guardian's approval and permission, watch a movie that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1282,7 +1374,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Biography Someone Made Contribution)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1301,19 +1393,20 @@
               "1. Read a biography (with your counselor's approval) of someone who has made a contribution to the American labor movement.",
               "2. Explain what contribution this person has made to the American labor movement."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)",
           "common_misconception_pair": {
             "misconception": "Many believe labor leaders acted solely as public orators without administrative organizational roles.",
             "fact": "Effective labor pioneers spent years establishing strike relief funds, legal defense teams, and grassroots communication networks."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your American Labor Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Labor Merit Badge Hub (Req 5d)",
@@ -1344,7 +1437,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_labor_p018_img1.png",
           "workbook_diagram_caption": "A union leader delivers an address to members while presenting labor contract documents.",
-          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents."
+          "workbook_visual_caption": "A union leader delivers an address to members while presenting labor contract documents.",
+          "socratic_questions": [
+            "For american labor Requirement 5d (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1391,7 +1487,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (American Labor History Timeline)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1414,18 +1510,19 @@
           "3. (5c) With your counselor's and parent or guardian's approval and permission, watch a movie that addresses organized labor in the United States",
           "4. (5d) Read a biography (with your counselor's approval) of someone who has made a contribution to the American labor movement"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think modern workplace protections like the weekend were voluntarily created by employers.",
         "fact": "The forty-hour workweek, minimum wage, and overtime pay were secured through decades of labor strikes and legislation."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your American Labor Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America American Labor Merit Badge Hub (Req 5)",
@@ -1600,7 +1697,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Globalization and Workforce Impacts)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1621,7 +1718,13 @@
           "2. Discuss with your counselor some effects of globalization on the workforce in the United States.",
           "3. Explain how this global workforce fits into the economic system of this country."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People often believe globalization only causes domestic job losses without generating new economic opportunities.",
@@ -1789,7 +1892,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Major Labor Issue Case Study)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1801,16 +1904,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Choose a labor issue of widespread interest to American workers, an issue in the news currently or known to you",
+          "1. Choose a labor issue of widespread interest to American workers, an issue in the news currently or known",
           "2. Before your counselor, or in writing, argue both sides of the issue, first taking management's side, then presenting labor's",
           "3. In your presentation, summarize the basic rights and responsibilities of employers and employees, including union members"
         ],
         "rows": [
-          "1. Choose a labor issue of widespread interest to American workers, an issue in the news currently or known to you",
+          "1. Choose a labor issue of widespread interest to American workers, an issue in the news currently or known",
           "2. Before your counselor, or in writing, argue both sides of the issue, first taking management's side, then presenting labor's",
           "3. In your presentation, summarize the basic rights and responsibilities of employers and employees, including union members"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often assume one side in a labor dispute is always completely ethical while the other is wrong.",
@@ -1983,7 +2092,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Collective Bargaining Negotiations)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2002,7 +2111,13 @@
           "1. Discuss with your counselor the different goals that may motivate the owners of a business, its stockholders, its customers, its employees, the employees' representatives, the community, and public officials",
           "2. Explain why agreements and compromises are made and how they affect each group in achieving its goals"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think businesses exist solely to satisfy the desires of stockholders while ignoring other groups.",
@@ -2202,7 +2317,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Many believe labor relations careers only exist within labor unions.",

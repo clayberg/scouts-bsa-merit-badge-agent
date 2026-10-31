@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (History of Wildland Fire)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -66,7 +66,13 @@
           "1. History of Wildland Fire",
           "2. Research and discuss with your counselor the history of wildland fire, its suppression, prevention, and management in the United States"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Native wilderness ecosystems never experienced fire prior to human settlement and industrial development.",
@@ -218,13 +224,13 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Commercial forest products.",
+          "text": "Commercial forest products (b) Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Commercial Forest Products)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -236,12 +242,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Commercial forest products"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Commercial forest products"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -271,7 +287,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Commercial forest products.",
+          "sub_req_text": "Commercial forest products (b) Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources.",
           "topic_title": "Req 2a: Commercial Forest Products Losses",
           "pamphlet_summary": "High-intensity wildland fires incinerate merchantable timber reserves and destroy seed banks required for natural timber stand regeneration. Post-fire salvage logging yields degraded lumber that commands significantly lower market prices.",
           "pamphlet_excerpts": [
@@ -279,12 +295,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2a (Commercial forest products (b) Fish and wildlife habitat (c) Soil and water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "Fish and wildlife habitat.",
+          "text": "Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "resources": [
             {
               "title": "The Impact of Wildfires on Wildlife (video)",
@@ -295,7 +314,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Fish and Wildlife Habitat)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -307,12 +326,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fish and wildlife habitat"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fish and wildlife habitat"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -342,7 +371,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "Fish and wildlife habitat.",
+          "sub_req_text": "Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "topic_title": "Req 2b: Fish and Wildlife Habitat",
           "pamphlet_summary": "Severe fires eradicate forest canopy cover, leading to elevated stream water temperatures and lethal sediment loading in aquatic spawning beds. Ground-dwelling wildlife species suffer direct mortality and extended displacement due to food chain destruction.",
           "pamphlet_excerpts": [
@@ -350,12 +379,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2b (Fish and wildlife habitat (c) Soil and water (d) Recreation and public use), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Soil and water.",
+          "text": "Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "resources": [
             {
               "title": "How Wildfires Affect Water Supply (video)",
@@ -366,7 +398,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Soil and Water)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -378,12 +410,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Soil and water"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Soil and water"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -413,7 +455,7 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Soil and water.",
+          "sub_req_text": "Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "topic_title": "Req 2c: Soil and Water Degradation",
           "pamphlet_summary": "Extreme heat volatilizes soil organic compounds, depositing a waxy hydrophobic layer that prevents rain absorption. Unchecked surface runoff transports sediment directly into municipal reservoirs, clouding public drinking water supplies.",
           "pamphlet_excerpts": [
@@ -421,18 +463,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2c (Soil and water (d) Recreation and public use (e) Homes, communities, and human resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
           "label": "(d)",
-          "text": "Recreation and public use.",
+          "text": "Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Recreation and Public)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -444,12 +489,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Recreation and public use"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Recreation and public use"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -479,7 +534,7 @@
           ],
           "id": "2d",
           "sub_req_label": "2d",
-          "sub_req_text": "Recreation and public use.",
+          "sub_req_text": "Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.",
           "topic_title": "Req 2d: Recreation and Public Land",
           "pamphlet_summary": "Wildfires destroy park campgrounds, historic visitor centers, and wooden bridges across public recreation lands. Forest closures remain in effect for months or years while crews fell dead hazard trees.",
           "pamphlet_excerpts": [
@@ -487,18 +542,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2d (Recreation and public use (e) Homes, communities, and human resources (f) Air quality and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
           "label": "(e)",
-          "text": "Homes, communities, and human resources.",
+          "text": "Homes, communities, and human resources (f) Air quality and public health.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Homes Communities and Human Resources)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -510,12 +568,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Homes, communities, and human resources"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Homes, communities, and human resources"
+              "1. Req 2e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -545,7 +613,7 @@
           ],
           "id": "2e",
           "sub_req_label": "2e",
-          "sub_req_text": "Homes, communities, and human resources.",
+          "sub_req_text": "Homes, communities, and human resources (f) Air quality and public health.",
           "topic_title": "Req 2e: Homes and Human Resources",
           "pamphlet_summary": "Interface conflagrations destroy residential neighborhoods, public water pumping facilities, and essential electrical distribution grids. Displaced populations overwhelm local municipal emergency services, creating long-term regional economic distress.",
           "pamphlet_excerpts": [
@@ -553,7 +621,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2e (Homes, communities, and human resources (f) Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2f",
@@ -569,7 +640,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2f Structured Technical Study & Explanation Matrix (Air Quality and Public Health)",
+            "table_title": "Req 2f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -581,12 +652,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Air quality and public health"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Air quality and public health"
+              "1. Req 2f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -624,7 +705,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p007_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 2f (Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -667,7 +751,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Harms of Wildfire Research the)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -694,7 +778,13 @@
           "5. (2e) Homes Communities and Human Resources",
           "6. (2f) Air Quality and Public Health"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Forest fires only consume harvestable wood without causing lasting damage to regional economies or infrastructure.",
@@ -846,7 +936,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Fuel reduction.",
+          "text": "Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "resources": [
             {
               "title": "Good Fire: Prescribed Burning (video)",
@@ -857,7 +947,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Fuel Reduction)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -869,12 +959,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fuel reduction"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fuel reduction"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -904,7 +1004,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Fuel reduction.",
+          "sub_req_text": "Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "topic_title": "Req 3a: Hazardous Fuel Reduction Methods",
           "pamphlet_summary": "Prescribed burns consume brush, downed branches, and pine needle litter under humid conditions to limit flame length. Removing surface fuels starves potential wildfires of flammable ladder vegetation.",
           "pamphlet_excerpts": [
@@ -912,12 +1012,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p012_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 3a (Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Fish and wildlife habitat enhancement.",
+          "text": "Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "resources": [
             {
               "title": "Wildlife That Depends on Fire to Survive (video)",
@@ -928,7 +1031,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Fish and Wildlife Habitat Enhancement)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -940,12 +1043,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fish and wildlife habitat enhancement"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fish and wildlife habitat enhancement"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -975,7 +1088,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Fish and wildlife habitat enhancement.",
+          "sub_req_text": "Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "topic_title": "Req 3b: Wildlife Habitat Enhancement Practices",
           "pamphlet_summary": "Controlled fire opens dense brush thickets, exposing mineral soil for native forage grasses and berry-producing shrubs. Wildlife species rapidly forage on nutritious post-fire sprouts and insects across the open burn patchwork.",
           "pamphlet_excerpts": [
@@ -983,12 +1096,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p012_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 3b (Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Ecosystem restoration.",
+          "text": "Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "resources": [
             {
               "title": "How Does Fire Affect Wildlife? (video)",
@@ -999,7 +1115,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Ecosystem Restoration)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1011,12 +1127,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Ecosystem restoration"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Ecosystem restoration"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -1046,7 +1172,7 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Ecosystem restoration.",
+          "sub_req_text": "Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.",
           "topic_title": "Req 3c: Fire Dependent Ecosystem Restoration",
           "pamphlet_summary": "Periodic fire suppresses encroaching non-native brush and allows sun-loving prairie forbs and grasses to dominate. Longleaf pine and oak savannas depend on recurring fire to preserve their distinct species compositions.",
           "pamphlet_excerpts": [
@@ -1054,12 +1180,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p012_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 3c (Ecosystem restoration (d) Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
           "label": "(d)",
-          "text": "Forest regeneration.",
+          "text": "Forest regeneration (e) Insect and disease control.",
           "resources": [
             {
               "title": "Fire Effects in the Forest (video)",
@@ -1070,7 +1199,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Forest Regeneration)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1082,12 +1211,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Forest regeneration"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Forest regeneration"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -1117,7 +1256,7 @@
           ],
           "id": "3d",
           "sub_req_label": "3d",
-          "sub_req_text": "Forest regeneration.",
+          "sub_req_text": "Forest regeneration (e) Insect and disease control.",
           "topic_title": "Req 3d: Forest Stand Natural Regeneration",
           "pamphlet_summary": "Fire burns away thick needle litter, exposing bare mineral soil essential for tree seed germination and seedling survival. High temperatures melt resin coats on serotinous cones, showering newly cleared seedbeds with millions of seeds.",
           "pamphlet_excerpts": [
@@ -1125,7 +1264,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p012_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 3d (Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -1141,7 +1283,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Insect and Disease Control)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1153,12 +1295,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Insect and disease control"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Insect and disease control"
+              "1. Req 3e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -1196,7 +1348,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p012_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 3e (Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1243,7 +1398,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Fire As A Management Tool)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1268,7 +1423,13 @@
           "4. (3d) Forest Regeneration",
           "5. (3e) Insect and Disease Control"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Prescribed fire always burns out of control and permanently damages the surrounding forest ecosystem.",
@@ -1442,7 +1603,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(1) Structured Technical Study & Explanation Matrix (Main Causes of Wildfire)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1454,12 +1615,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. The main causes of wildfire in the United States"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. The main causes of wildfire in the United States"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1516,7 +1687,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (You Can Prevent Human Caused)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1528,12 +1699,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. How you can prevent human caused wildfires in your community and on outings with your unit"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. How you can prevent human caused wildfires in your community and on outings with your unit"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1580,7 +1761,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Wildfire Prevention the Main)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1599,7 +1780,13 @@
               "1. (4a(1)) Main Causes of Wildfire",
               "2. (4a(2)) You Can Prevent Human Caused"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -1637,7 +1824,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 4a (Wildfire Prevention: (1) The main causes of wildfire in the United States (2) How you can), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1659,7 +1849,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(1) Structured Technical Study & Explanation Matrix (Wildland-Urban Interface)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1671,12 +1861,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Wildland-Urban Interface"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Wildland-Urban Interface"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1733,7 +1933,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(2) Structured Technical Study & Explanation Matrix (Defensible Space and How Homes)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1745,12 +1945,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
@@ -1790,14 +2000,14 @@
               "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
               "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
               "socratic_questions": [
-                "If you walk around your own home, which specific construction features and landscape zones present the highest vulnerability to flying embers?"
+                "If you walkaround your own home, which specific construction features and landscape zones present the highest vulnerability to flying embers?"
               ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Wildfire Mitigation Wildland-Urban Interface Defensible)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1816,7 +2026,13 @@
               "1. (4b(1)) Wild land-Urban Interface",
               "2. (4b(2)) Defensible Space and How Homes"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -1854,7 +2070,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p004_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 4b (Wildfire Mitigation: (1) Wildland-Urban Interface (2) Defensible space and how homes and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1897,7 +2116,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Wildfire Prevention and Mitigation Discuss)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1916,7 +2135,13 @@
           "1. (4a) Wildfire Prevention The Main",
           "2. (4b) Wildfire Mitigation Wild land-Urban Interface Defensible"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Most catastrophic wildfires are started by lightning strikes rather than preventable human negligence.",
@@ -2083,7 +2308,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Discuss Fire Environment Affects)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2102,7 +2327,13 @@
               "1. Discuss with your counselor how the fire environment affects wild land fire behavior.",
               "2. Include examples of the influences of weather, topography, and fuel."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2140,7 +2371,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p005_img1.png",
           "workbook_diagram_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 5a (Discuss with your counselor how the fire environment affects wildland fire behavior.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2156,7 +2390,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Wildfire Can Be Suppressed by)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2168,12 +2402,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2212,7 +2456,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p005_img1.png",
           "title": "Req 5b: Breaking the Fire Triangle",
           "workbook_diagram_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 5b (Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2228,7 +2475,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Illustrate the Parts of A)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2240,12 +2487,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Draw a diagram to illustrate the parts of a wildfire"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Draw a diagram to illustrate the parts of a wildfire"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -2284,7 +2541,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p005_img1.png",
           "title": "Req 5c: Anatomy and Parts of Wildfires",
           "workbook_diagram_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
-          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5."
+          "workbook_visual_caption": "Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints for Requirement 5.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 5c (Draw a diagram to illustrate the parts of a wildfire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2323,7 +2583,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Fire Behavior)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -2344,7 +2604,13 @@
           "2. (5b) Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen",
           "3. (5c) Draw a diagram to illustrate the parts of a wildfire"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wildfires always spread uphill because the flames are blown upward by gentle valley breezes alone.",
@@ -2507,7 +2773,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2519,12 +2785,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor the personal protective equipment used by wildland firefighters and its use"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor the personal protective equipment used by wildland firefighters and its use"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2563,7 +2839,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p006_img1.png",
           "title": "Req 6a: Wildland Personal Protective Equipment",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 6a (Discuss with your counselor the personal protective equipment used by wildland firefighters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2574,7 +2853,7 @@
             {
               "sub_id": "6b(1)",
               "label": "(1)",
-              "text": "10 Standard Firefighting Orders.",
+              "text": "10 Standard Firefighting Orders (2) 18 Watch Out Situations.",
               "resources": [
                 {
                   "title": "Standard Firefighting Orders (video)",
@@ -2585,7 +2864,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(1) Structured Technical Study & Explanation Matrix (Standard Firefighting Orders)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2597,12 +2876,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 10 Standard Firefighting Orders"
+                  "1. Req 6b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 10 Standard Firefighting Orders"
+                  "1. Req 6b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2632,7 +2921,7 @@
               ],
               "id": "6b(1)",
               "sub_req_label": "6b(1)",
-              "sub_req_text": "10 Standard Firefighting Orders.",
+              "sub_req_text": "10 Standard Firefighting Orders (2) 18 Watch Out Situations.",
               "topic_title": "Req 6b(1): Ten Standard Firefighting Orders Protocols",
               "pamphlet_summary": "Ten Standard Firefighting Orders Protocols: The ten standard firefighting orders establish non-negotiable operational safety rules organized by fire behavior, firefighter safety, and organizational control. Firefighters must follow every order systematically without exception on every fire assignment (p. 42).",
               "pamphlet_excerpts": [
@@ -2659,7 +2948,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(2) Structured Technical Study & Explanation Matrix (Out Situations)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2671,12 +2960,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. 18 Watch Out Situations"
+                  "1. Req 6b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. 18 Watch Out Situations"
+                  "1. Req 6b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2733,7 +3032,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 6b(3) Structured Technical Study & Explanation Matrix (Lookouts Communication Escape Routes and)",
+                "table_title": "Req 6b",
                 "headers": [
                   "Req 6b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2745,12 +3044,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Lookouts, Communication, Escape Routes, and Safety Zones (LCES)"
+                  "1. Req 6b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Lookouts, Communication, Escape Routes, and Safety Zones (LCES)"
+                  "1. Req 6b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 6b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 6b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 6b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)",
               "common_misconception_pair": {
@@ -2798,7 +3107,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Discuss Important Consideration Maintaining)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2819,7 +3128,13 @@
               "2. (6b(2)) 18 Watch Out Situations",
               "3. (6b(3)) Lookouts, Communication, Escape Routes, and Safety Zones (LCES)"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2857,7 +3172,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p006_img1.png",
           "workbook_diagram_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6.",
-          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6."
+          "workbook_visual_caption": "Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference figure for Requirement 6.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 6b (Discuss the following with your counselor, including why each is an important consideration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2896,7 +3214,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Wildland Firefighter Safety)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2915,7 +3233,13 @@
           "1. (6a) Discuss with your counselor the personal protective equipment used by wildland firefighters and its use",
           "2. (6b) LCES and Fireline Safety Protocols"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Structural turnout coats and heavy air tanks provide ideal protection for mobile wildland fire crews.",
@@ -3067,7 +3391,7 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration.",
+          "text": "Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
           "resources": [
             {
               "title": "How We Fight Wildfires (video)",
@@ -3078,7 +3402,7 @@
             {
               "sub_id": "7a(1)",
               "label": "(1)",
-              "text": "Direct attack.",
+              "text": "Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up.",
               "resources": [
                 {
                   "title": "Direct and Indirect Attack Strategies on Wildfires (video)",
@@ -3089,7 +3413,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(1) Structured Technical Study & Explanation Matrix (Wildland Fire Management Attack Principles)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3101,12 +3425,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Direct attack"
+                  "1. Req 7a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Direct attack"
+                  "1. Req 7a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3136,7 +3470,7 @@
               ],
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
-              "sub_req_text": "Direct attack.",
+              "sub_req_text": "Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up.",
               "topic_title": "Req 7a(1): Direct Attack Fireline Suppression Tactics",
               "pamphlet_summary": "Direct Attack Fireline Suppression Tactics: Direct attack involves treating the burning edge of a wildfire directly by applying water, fire retardant, or constructing a scratch line against the flames. This tactic works best on low-intensity fires where heat and smoke permit firefighters to work directly at the perimeter (p. 52).",
               "pamphlet_excerpts": [
@@ -3152,13 +3486,13 @@
             {
               "sub_id": "7a(2)",
               "label": "(2)",
-              "text": "Indirect attack.",
+              "text": "Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(2) Structured Technical Study & Explanation Matrix (Indirect Attack)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3170,12 +3504,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Indirect attack"
+                  "1. Req 7a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Indirect attack"
+                  "1. Req 7a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3205,7 +3549,7 @@
               ],
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
-              "sub_req_text": "Indirect attack.",
+              "sub_req_text": "Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration.",
               "topic_title": "Req 7a(2): Indirect Attack Control Line Operations",
               "pamphlet_summary": "Indirect Attack Control Line Operations: Indirect attack positions control lines some distance ahead of an advancing wildfire along natural barriers or constructed firelines. Crews burn out intermediate vegetation between the control line and the main fire to starve the advancing blaze of fuel (p. 55).",
               "pamphlet_excerpts": [
@@ -3221,7 +3565,7 @@
             {
               "sub_id": "7a(3)",
               "label": "(3)",
-              "text": "Minimum impact suppression tactics.",
+              "text": "Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "resources": [
                 {
                   "title": "Evolution of Fire Management and the Role of Knowledge (video)",
@@ -3232,7 +3576,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(3) Structured Technical Study & Explanation Matrix (Minimum Impact Suppression Tactics)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3244,12 +3588,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Minimum impact suppression tactics"
+                  "1. Req 7a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Minimum impact suppression tactics"
+                  "1. Req 7a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3279,7 +3633,7 @@
               ],
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
-              "sub_req_text": "Minimum impact suppression tactics.",
+              "sub_req_text": "Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "topic_title": "Req 7a(3): Minimum Impact Suppression Tactics Principles",
               "pamphlet_summary": "Minimum Impact Suppression Tactics Principles: Minimum impact suppression tactics emphasize managing wildfires with the least possible resource damage to wilderness, soil, and cultural assets. Firefighters preserve natural areas by using cold-trailing, natural barriers, and hand tools rather than heavy bulldozers (p. 58).",
               "pamphlet_excerpts": [
@@ -3295,7 +3649,7 @@
             {
               "sub_id": "7a(4)",
               "label": "(4)",
-              "text": "Use of hand crews, machinery, and aircraft.",
+              "text": "Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "resources": [
                 {
                   "title": "California Battles Fires with \"Fire Plane\" (video)",
@@ -3306,7 +3660,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(4) Structured Technical Study & Explanation Matrix (Hand Crews Machinery and Aircraft)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3318,12 +3672,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Use of hand crews, machinery, and aircraft"
+                  "1. Req 7a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Use of hand crews, machinery, and aircraft"
+                  "1. Req 7a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3353,7 +3717,7 @@
               ],
               "id": "7a(4)",
               "sub_req_label": "7a(4)",
-              "sub_req_text": "Use of hand crews, machinery, and aircraft.",
+              "sub_req_text": "Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "topic_title": "Req 7a(4): Hand Crews Machinery and Aircraft Integration",
               "pamphlet_summary": "Hand Crews Machinery and Aircraft Integration: Wildland operations combine specialized hand crews for precise fireline construction, heavy machinery for wide fuel breaks, and aircraft for aerial retardant drops. Incident commanders coordinate these assets into a single cohesive system to contain complex terrain fires (p. 61).",
               "pamphlet_excerpts": [
@@ -3369,7 +3733,7 @@
             {
               "sub_id": "7a(5)",
               "label": "(5)",
-              "text": "Mop-up.",
+              "text": "Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "resources": [
                 {
                   "title": "Mop Up Operations on the Mosquito Fire (video)",
@@ -3380,7 +3744,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(5) Structured Technical Study & Explanation Matrix (Wildland Fire Management Mop-up Principles)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3392,12 +3756,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Wildland Fire Management Mop-up Principles"
+                  "1. Req 7a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Wildland Fire Management Mop-up Principles"
+                  "1. Req 7a(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3427,7 +3801,7 @@
               ],
               "id": "7a(5)",
               "sub_req_label": "7a(5)",
-              "sub_req_text": "Mop-up.",
+              "sub_req_text": "Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "topic_title": "Req 7a(5): Fireline Mop Up and Security",
               "pamphlet_summary": "Fireline Mop Up and Security: Mop-up extinguishes all residual burning material along the fire perimeter to eliminate the risk of embers crossing the control line. Crews dig out burning roots, overturn smoldering logs, and apply water until hot spots feel cold to bare hands (p. 64).",
               "pamphlet_excerpts": [
@@ -3443,13 +3817,13 @@
             {
               "sub_id": "7a(6)",
               "label": "(6)",
-              "text": "Repair and restoration.",
+              "text": "Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(6) Structured Technical Study & Explanation Matrix (Wildland Fire Management Restoration Principles)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3461,12 +3835,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Repair and restoration"
+                  "1. Req 7a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Repair and restoration"
+                  "1. Req 7a(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 7a(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 7a(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
               "common_misconception_pair": {
@@ -3496,7 +3880,7 @@
               ],
               "id": "7a(6)",
               "sub_req_label": "7a(6)",
-              "sub_req_text": "Repair and restoration.",
+              "sub_req_text": "Repair and restoration (b) Draw a diagram of the Incident Command System.",
               "topic_title": "Req 7a(6): Fireline Repair and Land Restoration",
               "pamphlet_summary": "Fireline Repair and Land Restoration: Repair and restoration stabilizes fire suppression scars by building water bars across containment lines, pulling berms back, and reseeding disturbed ground. These actions prevent soil erosion, deter noxious weed invasion, and protect municipal watersheds from sediment runoff (p. 67).",
               "pamphlet_excerpts": [
@@ -3513,7 +3897,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist (Alone or with A Small)",
+            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -3540,7 +3924,13 @@
               "5. (7a(5)) Wild land Fire Management Mop-up Principles",
               "6. (7a(6)) Wild land Fire Management Restoration Principles"
             ],
-            "min_rows": 6
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -3570,7 +3960,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration.",
+          "sub_req_text": "Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a wildfire, and tokens to represent firefighting resources, demonstrate the following wildland fire suppression tactics. Explain under which conditions each tactic would be used: (1) Direct attack (2) Indirect attack (3) Minimum impact suppression tactics (4) Use of hand crews, machinery, and aircraft (5) Mop-up (6) Repair and restoration (b) Draw a diagram of the Incident Command System.",
           "topic_title": "Req 7a: Tactical Suppression Map Simulation",
           "pamphlet_summary": "Firefighters use direct attack with water and hand tools when flame lengths are under four feet along the edge. In higher flames, crews anchor distant control lines and burn out intermediate vegetation toward the main fire.",
           "pamphlet_excerpts": [
@@ -3578,7 +3968,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/wildland_fire_management_req_7_topic_visual.png",
           "workbook_diagram_caption": "Four illustrated scenes show firefighters digging containment trenches, applying drip torches for backfires, and monitoring controlled burns.",
-          "workbook_visual_caption": "Four illustrated scenes show firefighters digging containment trenches, applying drip torches for backfires, and monitoring controlled burns."
+          "workbook_visual_caption": "Four illustrated scenes show firefighters digging containment trenches, applying drip torches for backfires, and monitoring controlled burns.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 7a (Alone or with a small team, using the diagram you created in Requirement 5(c) or a map of a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -3594,7 +3987,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Incident Command System Alone)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -3613,7 +4006,13 @@
               "1. Draw a diagram of the Incident Command System.",
               "2. Alone or with your team, explain the responsibilities of the Command and General Staff positions on a wildfire incident."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -3651,7 +4050,10 @@
           ],
           "workbook_diagram_url": "assets/images/wildland_fire_management_req_7_nano_hero.png",
           "workbook_diagram_caption": "Scouts holding Pulaskis and shovels examine a wildfire tactical map displayed on a wooden easel outdoors.",
-          "workbook_visual_caption": "Scouts holding Pulaskis and shovels examine a wildfire tactical map displayed on a wooden easel outdoors."
+          "workbook_visual_caption": "Scouts holding Pulaskis and shovels examine a wildfire tactical map displayed on a wooden easel outdoors.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 7b (Draw a diagram of the Incident Command System. Alone or with your team, explain the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3698,7 +4100,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Wildfire Suppression Tactics)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -3717,7 +4119,13 @@
           "1. (7a) Alone or With A Small",
           "2. (7b) Incident Command System Alone"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Firefighters extinguish large forest fires solely by spraying water directly onto the flame front from tanker trucks.",
@@ -3880,7 +4288,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist (Hand Tools Unique to Wildland)",
+            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -3899,7 +4307,13 @@
               "1. Demonstrate the use of three hand tools unique to wild land fire suppression.",
               "2. Use one of these tools to demonstrate how to construct a fire line."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -3937,7 +4351,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p008_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 8a (Demonstrate the use of three hand tools unique to wildland fire suppression. Use one of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3965,7 +4382,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Discuss Seven Other Tools Equipment)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3977,12 +4394,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss seven other tools, equipment, or apparatus that are unique to wildland fire suppression and explain how these resources are used"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss seven other tools, equipment, or apparatus that are unique to wildland fire suppression and explain how these resources are used"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)",
           "common_misconception_pair": {
@@ -4020,7 +4447,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p008_img1.png",
           "workbook_diagram_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8.",
-          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8."
+          "workbook_visual_caption": "Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for wildland fire management wildfire suppression tools reference figure in Requirement 8.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 8b (Discuss seven other tools, equipment, or apparatus that are unique to wildland fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4063,7 +4493,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Wildfire Suppression Tools)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -4082,7 +4512,13 @@
           "1. (8a) Hand Tools Unique to Wild land",
           "2. (8b) Discuss Seven Other Tools Equipment"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standard garden spades and rakes are sufficiently durable for cutting wildland fire trenches through rooted brush.",
@@ -4240,7 +4676,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Develop A Fire Readiness)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4261,7 +4697,13 @@
               "2. The plan should include a map showing available resources, water supplies, natural and manmade barriers, and access",
               "3. The plan should discuss fuel loads, available fire apparatus, structure protection needs, values at risk, medical"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -4299,7 +4741,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p009_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 9a (Develop a fire readiness plan for a wildland area with which you are familiar. The plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -4310,7 +4755,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (State or Federal Forestry Official)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4333,7 +4778,13 @@
               "3. Discuss the prime fire season(s) in your area.",
               "4. Identify the agency responsible for wild land fire suppression in your area."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -4371,7 +4822,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p009_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 9b (Visit with a state or federal forestry official or your local fire warden. Discuss the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -4391,7 +4845,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (Firewise Assessment of A Home)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4414,19 +4868,20 @@
               "3. With your counselor's approval, complete a project to reduce the wildfire risk and increase the preparedness of the building",
               "4. Write a brief report about what you did and learned from the assessment and project"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "A structure assessment focuses only on the interior fire extinguishers and indoor electrical breaker boxes.",
             "fact": "The Firewise program identifies the home ignition zone starting with the non-combustible zero-to-five-foot perimeter around foundations."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Wildland Fire Management Req 9c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Wildland Fire Management Merit Badge Hub (Req 9c)",
@@ -4457,7 +4912,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p009_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 9c (Conduct a Firewise assessment of a home or a building in the wildland-urban interface,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9d",
@@ -4468,7 +4926,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9d Structured Technical Study & Explanation Matrix (Meet with A Fire Prevention)",
+            "table_title": "Req 9d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4487,19 +4945,20 @@
               "1. Meet with a Fire Prevention Specialist or a local fire official to learn about fire prevention efforts in your community",
               "2. From what you learned, prepare a fire prevention message (skit, video, or billboard concept) and share with your counselor and troop (or other group approved by your counselor)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
             "misconception": "Public fire prevention posters only need catchy slogans without providing concrete safety mitigation actions.",
             "fact": "Effective fire prevention campaigns deliver concise, actionable guidance regarding campfire safety and lawnmower operation hours."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Wildland Fire Management Req 9d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Wildland Fire Management Merit Badge Hub (Req 9d)",
@@ -4530,7 +4989,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p009_img1.png",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 9d (Meet with a Fire Prevention Specialist or a local fire official to learn about fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9e",
@@ -4541,7 +5003,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9e Structured Technical Study & Explanation Matrix (Meet with A Meteorologist or)",
+            "table_title": "Req 9e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4562,7 +5024,13 @@
               "2. Discuss the conditions that lead to a Fire Weather Watch or a Red Flag Warning",
               "3. Discuss what you learned with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)",
           "common_misconception_pair": {
@@ -4601,7 +5069,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/wildland_fire_management_p009_img1.png",
           "title": "Req 9e: Fire Weather Meteorologist Consultation",
           "workbook_diagram_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
-          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution."
+          "workbook_visual_caption": "Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.",
+          "socratic_questions": [
+            "For wildland fire management Requirement 9e (Meet with a meteorologist or someone familiar with fire weather and discuss the fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4632,7 +5103,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Wildland Fire Management Hazards and First Aid)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4657,7 +5128,12 @@
           "4. (9d) Meet with a Fire Prevention Specialist or a local fire official to learn about fire prevention efforts in your community",
           "5. (9e) Fire Weather Meteorologist Consultation"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wildfire mitigation assessments require professional certification and cannot be practiced at Scout camps or residences.",
@@ -4847,7 +5323,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Learning to A Real Event)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4870,18 +5346,19 @@
           "3. Discuss with your counselor and/or your troop or a group approved by your counselor the conditions that led to the incident",
           "4. Explain what lessons were learned and how this incident affected future fire suppression policy or suppression tactics"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Historic fire disasters occurred purely because firefighters lacked modern radios and motorized transport equipment.",
         "fact": "The 1949 Mann Gulch Fire claimed the lives of thirteen smokejumpers when an unexpected blowout trapped them on a steep grassy slope."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Wildland Fire Management Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Wildland Fire Management Merit Badge Hub (Req 10)",
@@ -5081,7 +5558,12 @@
           "4. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
           "5. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wildland firefighting jobs only offer temporary summer employment digging ditches with no long-term professional paths.",

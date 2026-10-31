@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Sustainability in Your Own Words)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -66,7 +66,13 @@
           "1. Describe the meaning of sustainability in your own words",
           "2. Explain the importance of sustainability to society and how you can contribute to fulfilling the needs of current generations without compromising the needs of future generations"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sustainability refers exclusively to planting trees and recycling household trash.",
@@ -229,7 +235,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Household Water Usage If Available)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -250,7 +256,13 @@
               "2. If available, review water bills from the past year and evaluate the seasonal changes in water use.",
               "3. Identify three ways to help reduce water consumption."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)",
           "common_misconception_pair": {
@@ -288,7 +300,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p007_img1.png",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 2a (Evaluate your household water usage. If available, review water bills from the past year), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -304,7 +319,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Water Is Necessary in Our)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -325,7 +340,13 @@
               "2. Create a diagram to show how your household gets its clean water from a natural source and what happens with the water after you use it",
               "3. Tell two ways to preserve your community's access to clean water in the future"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)",
           "common_misconception_pair": {
@@ -364,12 +385,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p028_img1.png",
           "title": "Req 2b: Clean Water Supply Systems",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 2b (Explain why water is necessary in our lives. Create a diagram to show how your household), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Different areas of the world are affected by either too much (flooding) or too little (drought) water. Explore whether either or both affect where you live. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you live or in an area of the world that interests.",
+          "text": "Different areas of the world are affected by either too much (flooding) or too little (drought) water. Explore whether either or both affect where you live. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you live or in an area of the world that interests you.",
           "resources": [
             {
               "title": "Science Behind Drought (video)",
@@ -388,7 +412,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Areas of the World Are)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -402,14 +426,20 @@
             "row_labels": [
               "1. Different areas of the world are affected by either too much (flooding) or too little (drought) water",
               "2. Explore whether either or both affect where you live",
-              "3. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you"
+              "3. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried"
             ],
             "rows": [
               "1. Different areas of the world are affected by either too much (flooding) or too little (drought) water",
               "2. Explore whether either or both affect where you live",
-              "3. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you"
+              "3. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 29, p. 32)",
           "common_misconception_pair": {
@@ -439,7 +469,7 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Different areas of the world are affected by either too much (flooding) or too little (drought) water. Explore whether either or both affect where you live. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you live or in an area of the world that interests.",
+          "sub_req_text": "Different areas of the world are affected by either too much (flooding) or too little (drought) water. Explore whether either or both affect where you live. Identify three water conservation or flood mitigation practices (successful or unsuccessful) that have been tried where you live or in an area of the world that interests you.",
           "topic_title": "Req 2c: Regional Drought and Flood Management",
           "pamphlet_summary": "Extreme weather cycles produce severe droughts or flash flooding that overwhelm local infrastructure. Native plantings and retention basins slow runoff and recharge local water tables.",
           "pamphlet_excerpts": [
@@ -448,7 +478,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p028_img1.png",
           "title": "Req 2c: Flooding and Drought Impacts",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 2c (Different areas of the world are affected by either too much (flooding) or too little), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -499,7 +532,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Water Discuss Household Water)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -520,7 +553,13 @@
           "2. (2b) Explain why water is necessary in our lives",
           "3. (2c) Different areas of the world are affected by either too much (flooding) or too little (drought) water"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Municipal tap water is an infinite resource as long as bills are paid.",
@@ -677,7 +716,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Explore the sustainability of different types of plant-based, animal-based, and aquaculture food. Identify where four different foods (such as milk, eggs, tuna fish, avocados, or ketchup) come from and how they are processed and transported from the source.",
+          "text": "Explore the sustainability of different types of plant-based, animal-based, and aquaculture food. Identify where four different foods (such as milk, eggs, tuna fish, avocados, or ketchup) come from and how they are processed and transported from the source to you.",
           "resources": [
             {
               "title": "Exploring Food Sustainability (video)",
@@ -696,7 +735,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Sustainability of Different Types of)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -715,7 +754,13 @@
               "1. Explore the sustainability of different types of plant-based, animal-based, and aquaculture food",
               "2. Identify where four different foods (such as milk, eggs, tuna fish, avocados, or ketchup) come from and how they are processed and transported from the source"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)",
           "common_misconception_pair": {
@@ -745,7 +790,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Explore the sustainability of different types of plant-based, animal-based, and aquaculture food. Identify where four different foods (such as milk, eggs, tuna fish, avocados, or ketchup) come from and how they are processed and transported from the source.",
+          "sub_req_text": "Explore the sustainability of different types of plant-based, animal-based, and aquaculture food. Identify where four different foods (such as milk, eggs, tuna fish, avocados, or ketchup) come from and how they are processed and transported from the source to you.",
           "topic_title": "Req 3a: Food Production Sustainability Comparison",
           "pamphlet_summary": "Comparing land, water, and feed requirements across plant crops, beef, poultry, and aquaculture reveals disparate ecological footprints. Plant-based proteins generally require fewer inputs and produce less greenhouse gas than livestock.",
           "pamphlet_excerpts": [
@@ -754,7 +799,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p012_img1.png",
           "title": "Req 3a: Food Origins and Production",
           "workbook_diagram_caption": "Large harvesters gather grain crops to supply global food systems.",
-          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems."
+          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems.",
+          "socratic_questions": [
+            "For sustainability Requirement 3a (Explore the sustainability of different types of plant-based, animal-based, and aquaculture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -774,7 +822,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Factors That Limit the Availability)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -795,7 +843,13 @@
               "2. Discuss how each factor influences the sustain ability of worldwide food supplies.",
               "3. Share three ways individuals, families, or your community can create their own food sources."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)",
           "common_misconception_pair": {
@@ -833,7 +887,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p040_img1.png",
           "workbook_diagram_caption": "Large harvesters gather grain crops to supply global food systems.",
-          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems."
+          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems.",
+          "socratic_questions": [
+            "For sustainability Requirement 3b (Identify four factors that limit the availability of food in different regions of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -853,7 +910,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 3c Quantitative Field Observation & Activity Log (Develop A Plan to Reduce)",
+            "table_title": "Req 3c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -874,7 +931,13 @@
               "1. Develop a plan to reduce your household food waste in a sustainable manner.",
               "2. Establish a baseline and then track and record your results for two weeks."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 40, p. 42)",
           "common_misconception_pair": {
@@ -912,7 +975,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p040_img1.png",
           "workbook_diagram_caption": "Large harvesters gather grain crops to supply global food systems.",
-          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems."
+          "workbook_visual_caption": "Large harvesters gather grain crops to supply global food systems.",
+          "socratic_questions": [
+            "For sustainability Requirement 3c (Develop a plan to reduce your household food waste in a sustainable manner. Establish a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -971,7 +1037,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 3 Quantitative Field Observation & Activity Log (Food Discuss Sustainability Plant-based)",
+        "table_title": "Req 3 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -994,7 +1060,13 @@
           "2. (3b) Identify four factors that limit the availability of food in different regions of the world",
           "3. (3c) Develop a plan to reduce your household food waste in a sustainable manner"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Food waste decomposing in modern landfills turns into beneficial natural garden compost.",
@@ -1166,7 +1238,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Depicting How You)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -1178,12 +1250,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Create a sketch depicting how you would design a sustainable community and be prepared to explain how the housing, work locations, shops, schools"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Create a sketch depicting how you would design a sustainable community and be prepared to explain how the housing, work locations, shops, schools"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78)",
           "common_misconception_pair": {
@@ -1221,12 +1303,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p059_img1.png",
           "workbook_diagram_caption": "A circular model shows integrated renewable energy and urban farming.",
-          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming."
+          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming.",
+          "socratic_questions": [
+            "For sustainability Requirement 4a (Create a sketch depicting how you would design a sustainable community and be prepared to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Identify one unsustainable practice in your community and develop a written plan to fix.",
+          "text": "Identify one unsustainable practice in your community and develop a written plan to fix it.",
           "resources": [
             {
               "title": "Sustainable Communities (video)",
@@ -1241,7 +1326,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Unsustainable Practice in Your Community)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1253,12 +1338,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify one unsustainable practice in your community and develop a written plan to fix"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify one unsustainable practice in your community and develop a written plan to fix"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78)",
           "common_misconception_pair": {
@@ -1288,7 +1383,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Identify one unsustainable practice in your community and develop a written plan to fix.",
+          "sub_req_text": "Identify one unsustainable practice in your community and develop a written plan to fix it.",
           "topic_title": "Req 4b: Community Practice Remediation Plan",
           "pamphlet_summary": "Identifying localized waste practices, such as uncontrolled leaf blowing or lack of public recycling receptacles, enables targeted civic solutions. Drafting a practical proposal presents measurable corrective steps to local municipal boards.",
           "pamphlet_excerpts": [
@@ -1296,7 +1391,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p059_img1.png",
           "workbook_diagram_caption": "A circular model shows integrated renewable energy and urban farming.",
-          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming."
+          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming.",
+          "socratic_questions": [
+            "For sustainability Requirement 4b (Identify one unsustainable practice in your community and develop a written plan to fix it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1312,7 +1410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Sustainability Factors in Housing and)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1324,12 +1422,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify five sustainability factors in housing and rate your own home's sustainability against these factors"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify five sustainability factors in housing and rate your own home's sustainability against these factors"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 58, p. 78)",
           "common_misconception_pair": {
@@ -1368,7 +1476,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p059_img1.png",
           "title": "Req 4c: Home Sustainability Factor Rating",
           "workbook_diagram_caption": "A circular model shows integrated renewable energy and urban farming.",
-          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming."
+          "workbook_visual_caption": "A circular model shows integrated renewable energy and urban farming.",
+          "socratic_questions": [
+            "For sustainability Requirement 4c (Identify five sustainability factors in housing and rate your own home's sustainability), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1419,7 +1530,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Community Discuss Depicting Would)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1440,7 +1551,13 @@
           "2. (4b) Identify one unsustainable practice in your community and develop a written plan to fix",
           "3. (4c) Identify five sustainability factors in housing and rate your own home's sustainability against these factors"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Suburban sprawl with huge single-family lawns is more environmentally friendly than compact cities.",
@@ -1607,7 +1724,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Learn About the Sustainability)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1626,7 +1743,13 @@
               "1. Learn about the sustainability of different energy sources, including coal, gas, geothermal, hydro power, nuclear, petroleum, solar, and wind",
               "2. Identify three common energy sources in the United States and describe how the production and consumption of each of these energy sources affects sustainability"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -1664,7 +1787,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p067_img1.png",
           "workbook_diagram_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
-          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity."
+          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
+          "socratic_questions": [
+            "For sustainability Requirement 5a (Learn about the sustainability of different energy sources, including coal, gas,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1680,7 +1806,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Family Consumes Energy Such As)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1699,7 +1825,13 @@
               "1. List eight ways your family consumes energy, such as gas appliances, electricity, heating systems or cooling systems, and transportation",
               "2. For one home- and one transportation-related energy use, list three ways to help reduce consumption, reduce your carbon footprint, and be a better steward of this resource"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -1738,7 +1870,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p067_img1.png",
           "title": "Req 5b: Family Energy Consumption Audit",
           "workbook_diagram_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
-          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity."
+          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
+          "socratic_questions": [
+            "For sustainability Requirement 5b (List eight ways your family consumes energy, such as gas appliances, electricity, heating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1754,7 +1889,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (You and Your Family Could)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1773,7 +1908,13 @@
               "1. List five ways you and your family could reduce energy consumption in your home, such as adjusting your thermostat, window shades, opening windows, reducing hot-water temperature, and minimizing water consumption",
               "2. Identify the benefits and risks of each idea and implement if possible"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -1812,7 +1953,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p067_img1.png",
           "title": "Req 5c: Home Energy Reduction Strategies",
           "workbook_diagram_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
-          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity."
+          "workbook_visual_caption": "Air-drying clothes on an outdoor clothesline conserves electricity.",
+          "socratic_questions": [
+            "For sustainability Requirement 5c (List five ways you and your family could reduce energy consumption in your home, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1855,7 +1999,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Energy Discuss Learn Sustainability)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1876,7 +2020,13 @@
           "2. (5b) List eight ways your family consumes energy, such as gas appliances, electricity, heating systems or cooling systems, and transportation",
           "3. (5c) Home Energy Reduction Strategies"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Turning home electronics off with remote controls stops all electrical consumption completely.",
@@ -2028,13 +2178,13 @@
         {
           "sub_id": "6a",
           "label": "(a)",
-          "text": "Create a list of 15 items of your personal \"stuff.\" Classify each item as an essential need (such as soap) or a desirable want (such as a video game). Identify any excess \"stuff\" you no longer need, working with your family, if possible. Donate, repurpose, or recycle those items.",
+          "text": "Create a list of 15 items of your personal \"stuff.\" Classify each item as an essential need (such as soap) or a desirable want (such as a video game). Identify any excess \"stuff\" you no longer need, working with your family, if possible. Donate, repurpose, or recycle those items you can.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Personal Stuff)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2055,7 +2205,13 @@
               "2. Identify any excess \"stuff\" you no longer need, working with your family, if possible",
               "3. Donate, repurpose, or recycle those items"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -2085,7 +2241,7 @@
           ],
           "id": "6a",
           "sub_req_label": "6a",
-          "sub_req_text": "Create a list of 15 items of your personal \"stuff.\" Classify each item as an essential need (such as soap) or a desirable want (such as a video game). Identify any excess \"stuff\" you no longer need, working with your family, if possible. Donate, repurpose, or recycle those items.",
+          "sub_req_text": "Create a list of 15 items of your personal \"stuff.\" Classify each item as an essential need (such as soap) or a desirable want (such as a video game). Identify any excess \"stuff\" you no longer need, working with your family, if possible. Donate, repurpose, or recycle those items you can.",
           "topic_title": "Req 6a: Personal Possessions Needs Assessment",
           "pamphlet_summary": "Classifying fifteen possessions as vital survival needs or discretionary wants builds conscious consumer habits. Identifying excess stuff helps Scouts donate usable surplus goods to community shelters.",
           "pamphlet_excerpts": [
@@ -2093,18 +2249,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p028_img1.png",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 6a (Create a list of 15 items of your personal \"stuff.\" Classify each item as an essential need), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "List five ways having too much \"stuff\" affects you, your family, your community, AND the world. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage, and waste generation. Identify practices that can be used to avoid accumulating too much \"stuff.",
+          "text": "List five ways having too much \"stuff\" affects you, your family, your community, AND the world. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage, and waste generation. Identify practices that can be used to avoid accumulating too much \"stuff.\"",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Having Too Much Stuff Affects)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2118,14 +2277,20 @@
             "row_labels": [
               "1. List five ways having too much \"stuff\" affects you, your family, your community, AND the world",
               "2. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage",
-              "3. Identify practices that can be used to avoid accumulating too much \"stuff"
+              "3. Identify practices that can be used to avoid accumulating too much \"stuff\""
             ],
             "rows": [
               "1. List five ways having too much \"stuff\" affects you, your family, your community, AND the world",
               "2. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage",
-              "3. Identify practices that can be used to avoid accumulating too much \"stuff"
+              "3. Identify practices that can be used to avoid accumulating too much \"stuff\""
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -2155,7 +2320,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "List five ways having too much \"stuff\" affects you, your family, your community, AND the world. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage, and waste generation. Identify practices that can be used to avoid accumulating too much \"stuff.",
+          "sub_req_text": "List five ways having too much \"stuff\" affects you, your family, your community, AND the world. For each of the five ways, consider the following aspects: the financial impact, time spent, maintenance, health, storage, and waste generation. Identify practices that can be used to avoid accumulating too much \"stuff.\"",
           "topic_title": "Req 6b: Overconsumption Multi-Level Impact Analysis",
           "pamphlet_summary": "Accumulating excessive personal possessions strains household finances, consumes valuable cleaning time, and creates community clutter. Globally, overconsumption drives intensive resource extraction and overwhelms municipal landfills with persistent solid waste.",
           "pamphlet_excerpts": [
@@ -2163,7 +2328,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p028_img1.png",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 6b (List five ways having too much \"stuff\" affects you, your family, your community, AND the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2187,7 +2355,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Impact Waste Has on the)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2210,7 +2378,13 @@
               "3. Explain the number system for plastic recyclables and which plastics are more commonly recycled.",
               "4. Identify the average lifespan of one electronic device in your household, and whether it can be recycled in whole or part."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -2249,7 +2423,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p028_img1.png",
           "title": "Req 6c: Environmental Waste and Trash Vortex",
           "workbook_diagram_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
-          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water."
+          "workbook_visual_caption": "Drought-tolerant plants and rock mulch conserve residential water.",
+          "socratic_questions": [
+            "For sustainability Requirement 6c (Research the impact waste has on the environment (land, water, air). Find out what the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2292,7 +2469,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Stuff Discuss Personal Stuff)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2313,7 +2490,13 @@
           "2. (6b) List five ways having too much \"stuff\" affects you, your family, your community, AND the world",
           "3. (6c) Research the impact waste has on the environment (land, water, air)"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every plastic container displaying chasing arrows can be processed in curbside recycling bins.",
@@ -2484,7 +2667,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (United Nations Lists Sustainable Development)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2505,7 +2688,13 @@
               "2. These include Zero Hunger, Clean Water and Sanitation, Affordable and Clean Energy, Sustainable Cities and Communities",
               "3. Pick one of these eight and summarize the goal and its current and future impact on you, your family, community, and the world"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2543,7 +2732,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7a (The United Nations lists 17 Sustainable Development Goals. These include Zero Hunger, Clean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2567,7 +2759,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Planetary Life-support Systems Soil Climate)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2579,14 +2771,20 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify how the planetary life-support systems (soil, climate, freshwater, atmospheric, nutrient, oceanic, ecosystems, and species) support life on Earth and interact with one another",
+              "1. Identify how the planetary life-support systems (soil, climate, freshwater, atmospheric, nutrient, oceanic, ecosystems, and species) support life on Earth and interact with one",
               "2. Share what happens to the planet's sustainability when these systems are disrupted by natural events or human activity"
             ],
             "rows": [
-              "1. Identify how the planetary life-support systems (soil, climate, freshwater, atmospheric, nutrient, oceanic, ecosystems, and species) support life on Earth and interact with one another",
+              "1. Identify how the planetary life-support systems (soil, climate, freshwater, atmospheric, nutrient, oceanic, ecosystems, and species) support life on Earth and interact with one",
               "2. Share what happens to the planet's sustainability when these systems are disrupted by natural events or human activity"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2624,7 +2822,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7b (Identify how the planetary life-support systems (soil, climate, freshwater, atmospheric,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2648,7 +2849,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist (Product Life Cycles the Cycle)",
+            "table_title": "Req 7c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2667,7 +2868,13 @@
               "1. Identify how product life cycles (the cycle of design, sourcing, production, use, and disposal or reuse) influence current and future sustainability",
               "2. Choose one common product to demonstrate how the full product life cycle would apply"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2705,7 +2912,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7c (Identify how product life cycles (the cycle of design, sourcing, production, use, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -2725,7 +2935,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Learn How the World's Population)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2744,7 +2954,13 @@
               "1. Learn how the world's population affects the sustain ability of Earth.",
               "2. Discuss three human activities that may contribute to putting Earth at risk, now and in the future."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2782,7 +2998,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7d (Learn how the world's population affects the sustainability of Earth. Discuss three human), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
@@ -2806,7 +3025,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Species Plant or Animal Decline)",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2825,7 +3044,13 @@
               "1. Explain the term species (plant or animal) decline",
               "2. Share the human activities that contribute to species decline, what can be done to help reverse the decline, and its impact on a sustainable environment"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2863,7 +3088,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7e (Explain the term species (plant or animal) decline. Share the human activities that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
@@ -2887,7 +3115,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7f Structured Technical Study & Explanation Matrix (World Map That Shows the)",
+            "table_title": "Req 7f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2908,7 +3136,13 @@
               "2. Identify three factors that scientists believe affect the global weather and temperature.",
               "3. Discuss how climate change impacts sustain ability of food, water, or other resources."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 81, p. 85)",
           "common_misconception_pair": {
@@ -2947,7 +3181,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p082_img1.png",
           "title": "Req 7f: Century Temperature Change Patterns",
           "workbook_diagram_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
-          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America."
+          "workbook_visual_caption": "A NOAA info graphic maps billion-dollar weather events across America.",
+          "socratic_questions": [
+            "For sustainability Requirement 7f (Find a world map that shows the pattern of temperature change for a period of at least 100), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3038,7 +3275,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Discuss United Nations Sustainable)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3065,7 +3302,13 @@
           "5. (7e) Explain the term species (plant or animal) decline",
           "6. (7f) Find a world map that shows the pattern of temperature change for a period of at least 100 years"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Planetary life-support systems function independently without influencing other ecological components.",
@@ -3237,7 +3480,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Campout or Other Outdoor Scouting)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3249,16 +3492,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. On a campout or other outdoor Scouting activity that you attend, make notes on the sustainability practices you",
+              "1. On a campout or other outdoor Scouting activity that you attend, make notes on the sustainability practices",
               "2. Observe transportation, forestry, soil conservation, water resources, habitat, buildings, campsites, and sanitation",
               "3. Share what you observed and learned with your counselor"
             ],
             "rows": [
-              "1. On a campout or other outdoor Scouting activity that you attend, make notes on the sustainability practices you",
+              "1. On a campout or other outdoor Scouting activity that you attend, make notes on the sustainability practices",
               "2. Observe transportation, forestry, soil conservation, water resources, habitat, buildings, campsites, and sanitation",
               "3. Share what you observed and learned with your counselor"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)",
           "common_misconception_pair": {
@@ -3296,7 +3545,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p023_img1.png",
           "workbook_diagram_caption": "A family gathers at home to discuss conservation and sustainability.",
-          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability."
+          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability.",
+          "socratic_questions": [
+            "For sustainability Requirement 8a (On a campout or other outdoor Scouting activity that you attend, make notes on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3316,7 +3568,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3328,12 +3580,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor how living by the Scout Oath, Scout Law, Leave No Trace Seven Principles, and the Outdoor Code in your daily life helps promote sustainability"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor how living by the Scout Oath, Scout Law, Leave No Trace Seven Principles, and the Outdoor Code in your daily life helps promote sustainability"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)",
           "common_misconception_pair": {
@@ -3371,7 +3633,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p023_img1.png",
           "workbook_diagram_caption": "A family gathers at home to discuss conservation and sustainability.",
-          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability."
+          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability.",
+          "socratic_questions": [
+            "For sustainability Requirement 8b (Discuss with your counselor how living by the Scout Oath, Scout Law, Leave No Trace Seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3391,7 +3656,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Behavioral Changes That You)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3410,7 +3675,13 @@
               "1. Identify 5 behavioral changes that you and your family can make to improve the sustain ability of your household.",
               "2. Share and discuss each with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Sustainability Merit Badge Pamphlet (p. 23, p. 36)",
           "common_misconception_pair": {
@@ -3448,7 +3719,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/sustainability_p023_img1.png",
           "workbook_diagram_caption": "A family gathers at home to discuss conservation and sustainability.",
-          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability."
+          "workbook_visual_caption": "A family gathers at home to discuss conservation and sustainability.",
+          "socratic_questions": [
+            "For sustainability Requirement 8c (Identify 5 behavioral changes that you and your family can make to improve the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3495,7 +3769,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3509,14 +3783,20 @@
         "row_labels": [
           "1. (8a) Campout or Other Outdoor Scouting",
           "2. (8b) Leave No Trace and Outdoor Ethics",
-          "3. (8c) Behavioral Changes That You"
+          "3. (8c) Behavioral Changes"
         ],
         "rows": [
           "1. (8a) Campout or Other Outdoor Scouting",
           "2. (8b) Leave No Trace and Outdoor Ethics",
-          "3. (8c) Behavioral Changes That You"
+          "3. (8c) Behavioral Changes"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Leave No Trace rules apply only in remote wilderness areas, not on front-country scout campouts.",
@@ -3716,14 +3996,20 @@
         "row_labels": [
           "1. Learn about career opportunities in the sustain ability field.",
           "2. Pick one and find out the education, training, and experience required.",
-          "3. Discuss what you have learned with your counselor and explain why this career might interest you."
+          "3. Discuss what you have learned with your counselor and explain why this career might interest"
         ],
         "rows": [
           "1. Learn about career opportunities in the sustain ability field.",
           "2. Pick one and find out the education, training, and experience required.",
-          "3. Discuss what you have learned with your counselor and explain why this career might interest you."
+          "3. Discuss what you have learned with your counselor and explain why this career might interest"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Careers in sustainability are limited strictly to park rangers and political environmental activists.",

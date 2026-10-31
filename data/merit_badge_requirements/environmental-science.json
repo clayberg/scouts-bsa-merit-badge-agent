@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Environmental Science in Your Own)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -62,7 +62,13 @@
           "1. Describe the meaning of environmental science in your own words.",
           "2. Explain how you think we can use science to understand, conserve, and improve our environment."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think environmental science is identical to environmental activism or political advocacy.",
@@ -233,7 +239,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Area Approved)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -245,24 +251,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Choose an area approved by your counselor and observe (sight, sound, and smell) its ecosystem over a two-day period"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Choose an area approved by your counselor and observe (sight, sound, and smell) its ecosystem over a two-day period"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
             "misconception": "Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.",
             "fact": "Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Environmental Science Req 2a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 2a)",
@@ -293,7 +304,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p007_img1.png",
           "workbook_diagram_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species.",
-          "workbook_visual_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species."
+          "workbook_visual_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species.",
+          "socratic_questions": [
+            "For environmental science Requirement 2a (Choose an area approved by your counselor and observe (sight, sound, and smell) its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -304,7 +318,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Notes About the Living Nonliving)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -323,7 +337,13 @@
               "1. Make notes about the living, nonliving (e.g., rocks), and formerly living components",
               "2. Include information about interactions among the components, including the food chain, predators, native species, and invasive species, and identify how human activities have affected the ecosystem"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)",
           "common_misconception_pair": {
@@ -361,7 +381,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p067_img1.png",
           "workbook_diagram_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species.",
-          "workbook_visual_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species."
+          "workbook_visual_caption": "Serpentine larval galleries under tree bark show damage caused by wood-boring insect species.",
+          "socratic_questions": [
+            "For environmental science Requirement 2b (Make notes about the living, nonliving (e. g., rocks), and formerly living components.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -408,7 +431,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Ecology Do the Following and)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -427,18 +450,19 @@
           "1. (2a) Area Approved",
           "2. (2b) Notes About The Living Nonliving"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe that nonliving components like rocks and sunlight do not affect living organisms.",
         "fact": "Ecosystems depend on continuous energy flow from sunlight through producers to top predators."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Environmental Science Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 2)",
@@ -600,7 +624,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Learn What Particulate Matter)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -619,7 +643,13 @@
               "1. Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects of PM are, and what is being done to reduce PM in the air",
               "2. Then, perform an experiment to test for particulates that contribute to air pollution"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -657,18 +687,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p012_img1.png",
           "workbook_diagram_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
-          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution."
+          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
+          "socratic_questions": [
+            "For environmental science Requirement 3a (Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video)",
+          "text": "Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video) (c) Learn about the Clean Air Act.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Discuss How Air Pollution and)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Point-Source Industrial Smokestack Emissions",
@@ -689,7 +722,13 @@
               "2. Then, compare two modes of transportation",
               "3. Resources: Your Car's Exhaust (video) Air Quality and Transportation (video)"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Point-Source Industrial Smokestack Emissions",
+              "Mobile Transportation Exhaust Emissions"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -719,7 +758,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video)",
+          "sub_req_text": "Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video) (c) Learn about the Clean Air Act.",
           "topic_title": "Req 3b: Transportation Systems Emission Comparison",
           "pamphlet_summary": "Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles.",
           "pamphlet_excerpts": [
@@ -728,7 +767,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p043_img1.png",
           "title": "Req 3b: Transportation Air Pollution Analysis",
           "workbook_diagram_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
-          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution."
+          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
+          "socratic_questions": [
+            "For environmental science Requirement 3b (Discuss how air pollution and transportation affect each other by giving at least three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -744,7 +786,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Learn About the Clean Air)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -765,7 +807,13 @@
               "2. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done",
               "3. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)",
           "common_misconception_pair": {
@@ -803,7 +851,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p043_img1.png",
           "workbook_diagram_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
-          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution."
+          "workbook_visual_caption": "Wind turbines generate clean renewable electricity to help reduce atmospheric air pollution.",
+          "socratic_questions": [
+            "For environmental science Requirement 3c (Learn about the Clean Air Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -838,7 +889,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Air Pollution)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Point-Source Industrial Smokestack Emissions",
@@ -859,7 +910,13 @@
           "2. (3b) Discuss how air pollution and transportation affect each other by giving at least three examples",
           "3. (3c) Learn about the Clean Air Act"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Point-Source Industrial Smokestack Emissions",
+          "Mobile Transportation Exhaust Emissions"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume air pollution consists exclusively of visible smoke or noxious odors.",
@@ -1030,7 +1087,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Community Sources Water)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1049,7 +1106,13 @@
               "1. Identify where your community sources water, how it is treated, and disposed.",
               "2. Obtain and review a water quality report from your area."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
@@ -1087,7 +1150,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p045_img1.png",
           "workbook_diagram_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
-          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater."
+          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
+          "socratic_questions": [
+            "For environmental science Requirement 4a (Identify where your community sources water, how it is treated, and disposed. Obtain and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1111,7 +1177,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Local or Regional Area That)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1130,7 +1196,13 @@
               "1. Identify a local or regional area that experiences periodic flooding and/or drought.",
               "2. Collect facts on prior event(s) and investigate the environmental impacts of these extreme events."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
@@ -1169,7 +1241,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p045_img1.png",
           "title": "Req 4b: Regional Flooding and Drought History",
           "workbook_diagram_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
-          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater."
+          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
+          "socratic_questions": [
+            "For environmental science Requirement 4b (Identify a local or regional area that experiences periodic flooding and/or drought.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1189,7 +1264,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Learn About the Clean Water)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1210,7 +1285,13 @@
               "2. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done",
               "3. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)",
           "common_misconception_pair": {
@@ -1248,7 +1329,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p045_img1.png",
           "workbook_diagram_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
-          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater."
+          "workbook_visual_caption": "A cutaway diagram illustrates how residential septic tanks and leach fields treat wastewater.",
+          "socratic_questions": [
+            "For environmental science Requirement 4c (Learn about the Clean Water Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1307,7 +1391,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Water Pollution)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1328,7 +1412,13 @@
           "2. (4b) Identify a local or regional area that experiences periodic flooding and/or drought",
           "3. (4c) Learn about the Clean Water Act"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think water from mountain streams or municipal taps requires no treatment before consumption.",
@@ -1500,7 +1590,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Area Yard Park Golf Course)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1519,19 +1609,20 @@
               "1. In an area (yard, park, golf course, farm, etc.) approved by your counselor, make a list of the pesticides, herbicides, and fertilizers used and how often they are applied",
               "2. Identify the benefits of their use and the environmental impact, including effects on non-target species (including humans), what happens if the chemicals"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
             "misconception": "Scouts often assume garden fertilizers do not count as chemical land pollutants.",
             "fact": "Pesticide containers carry chemical signal words warning of acute environmental toxicity hazards."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Environmental Science Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 5a)",
@@ -1562,7 +1653,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p053_img1.png",
           "workbook_diagram_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
-          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion."
+          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
+          "socratic_questions": [
+            "For environmental science Requirement 5a (In an area (yard, park, golf course, farm, etc.) approved by your counselor, make a list of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1582,7 +1676,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Learn About the Erosion Process)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1601,7 +1695,13 @@
               "1. Learn about the erosion process and identify an example of where erosion occurs.",
               "2. Determine where the eroded material ends up and how erosion can be minimized."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
@@ -1639,7 +1739,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p053_img1.png",
           "workbook_diagram_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
-          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion."
+          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
+          "socratic_questions": [
+            "For environmental science Requirement 5b (Learn about the erosion process and identify an example of where erosion occurs. Determine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1655,7 +1758,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Learn About A Land Pollution)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1674,7 +1777,13 @@
               "1. Learn about a land pollution incident that led to a site being listed on Environmental Protection Agency's Superfund National Priority List",
               "2. Identify what caused the incident, what the effects were on the environment, what remediation has been done, and the current condition of the site"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)",
           "common_misconception_pair": {
@@ -1712,7 +1821,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p053_img1.png",
           "workbook_diagram_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
-          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion."
+          "workbook_visual_caption": "Aerial views of curved contour plowing patterns demonstrate methods to minimize soil erosion.",
+          "socratic_questions": [
+            "For environmental science Requirement 5c (Learn about a land pollution incident that led to a site being listed on Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1755,7 +1867,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Land Pollution)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1776,18 +1888,19 @@
           "2. (5b) Learn About The Erosion Process",
           "3. (5c) Learn About A Land Pollution"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think synthetic chemical fertilizers remain permanently in the soil where applied.",
         "fact": "Excess nitrogen fertilizers cause aquatic eutrophication, triggering algae blooms and severe hypoxia."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Environmental Science Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 5)",
@@ -1952,7 +2065,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Endangered Species Found in Your)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1975,7 +2088,13 @@
               "3. Prepare a 100-word report about the species and include a drawing or photo",
               "4. Present your report to your patrol or troop"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
@@ -2014,7 +2133,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p056_img1.png",
           "title": "Req 6a: State Endangered Species Research",
           "workbook_diagram_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
-          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species."
+          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
+          "socratic_questions": [
+            "For environmental science Requirement 6a (Do research on one endangered species found in your state. Learn about its natural habitat,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2042,7 +2164,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Species That Was Endangered or)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2065,7 +2187,13 @@
               "3. Prepare a 100-word report on the species and include a drawing or photo",
               "4. Present your report to your patrol or troop"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
@@ -2104,7 +2232,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p056_img1.png",
           "title": "Req 6b: Recovered Species Case Study",
           "workbook_diagram_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
-          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species."
+          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
+          "socratic_questions": [
+            "For environmental science Requirement 6b (Do research on one species that was endangered or threatened but that has now recovered.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2128,7 +2259,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Environmental Science Careers and Pathways)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2147,19 +2278,20 @@
               "1. With your parent or guardian and counselor's approval, work with a natural resource professional to identify a completed project that has been designed",
               "2. Visit the site and report on what you saw to your patrol or troop"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)",
           "common_misconception_pair": {
             "misconception": "Scouts often think human habitat intervention always worsens conditions for sensitive native species.",
             "fact": "Professional habitat restoration incorporates native plant revegetation and physical hydrologic re-engineering."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Environmental Science Req 6c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 6c)",
@@ -2190,7 +2322,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p056_img1.png",
           "workbook_diagram_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
-          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species."
+          "workbook_visual_caption": "An illustration of a whooping crane highlights conservation efforts for endangered bird species.",
+          "socratic_questions": [
+            "For environmental science Requirement 6c (With your parent or guardian and counselor's approval, work with a natural resource), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2253,7 +2388,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Environmental Science Careers and Pathways)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2274,7 +2409,12 @@
           "2. (6b) Do research on one species that was endangered or threatened but that has now recovered",
           "3. (6c) Field Habitat Improvement Project"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think species become endangered almost exclusively due to direct overhunting.",
@@ -2459,7 +2599,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Conserve Resources or Use Resources)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2478,7 +2618,13 @@
               "1. Determine five ways to conserve resources or use resources more efficiently in your home, school, or camp.",
               "2. Practice at least two of these methods for at least one week."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
@@ -2516,7 +2662,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p054_img1.png",
           "workbook_diagram_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
-          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation."
+          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
+          "socratic_questions": [
+            "For environmental science Requirement 7a (Determine five ways to conserve resources or use resources more efficiently in your home,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2540,7 +2689,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist (Resource Recovery)",
+            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2561,7 +2710,13 @@
               "2. Collect samples or take photos of 10 items that can demonstrate the principle of Reduce, Reuse, Recycle.",
               "3. Explain your collection, how these materials are currently handled, and potential improvements."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
@@ -2599,7 +2754,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p054_img1.png",
           "workbook_diagram_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
-          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation."
+          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
+          "socratic_questions": [
+            "For environmental science Requirement 7b (Explain Resource Recovery and why it is important to reduce pollution. Collect samples or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2615,7 +2773,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Household That Will Become Hazardous)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2634,7 +2792,13 @@
               "1. Identify five items in your household that will become hazardous waste",
               "2. Explain how they should be properly stored, what special care is needed for disposal, and proper disposal options available in your area"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)",
           "common_misconception_pair": {
@@ -2672,7 +2836,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p054_img1.png",
           "workbook_diagram_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
-          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation."
+          "workbook_visual_caption": "Hands hold recyclable plastic bottles and metal cans to demonstrate resource conservation.",
+          "socratic_questions": [
+            "For environmental science Requirement 7c (Identify five items in your household that will become hazardous waste. Explain how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2727,7 +2894,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Environmental Science Hazards and First Aid)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2748,7 +2915,13 @@
           "2. (7b) Resource Recovery",
           "3. (7c) Household That Will Become Hazardous"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume recycling uses zero energy and completely eliminates manufacturing waste.",
@@ -2924,7 +3097,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist (Pollination and Its)",
+            "table_title": "Req 8a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2945,7 +3118,13 @@
               "2. Make a list of five pollinators and the plants that attract them in your region.",
               "3. Explain the importance of pollinators and what Scouts can do to support pollinators in their area."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -2984,7 +3163,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p063_img1.png",
           "title": "Req 8a: Regional Pollinators and Host Plants",
           "workbook_diagram_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
-          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination."
+          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
+          "socratic_questions": [
+            "For environmental science Requirement 8a (Investigate pollination and its importance to our environment and ecosystems. Make a list), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -3004,7 +3186,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 8b Quantitative Field Observation & Activity Log (Area with Flowering Plants During)",
+            "table_title": "Req 8b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -3027,7 +3209,14 @@
               "2. Record which pollinators are attracted to which plant.",
               "3. Explain the importance of pollinators and what Scouts can do to support pollinators in their area."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -3066,7 +3255,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p063_img1.png",
           "title": "Req 8b: One-Hour Field Pollination Observation",
           "workbook_diagram_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
-          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination."
+          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
+          "socratic_questions": [
+            "For environmental science Requirement 8b (Visit an area with flowering plants during pollination season for an hour to observe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -3090,7 +3282,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Learn About the Importance of)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3111,7 +3303,13 @@
               "2. Identify four crop-pollinator pairs.",
               "3. Explain the relationship of pollinators to agriculture."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)",
           "common_misconception_pair": {
@@ -3150,7 +3348,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/environmental_science_p063_img1.png",
           "title": "Req 8c: Agricultural Pollination Economics Study",
           "workbook_diagram_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
-          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination."
+          "workbook_visual_caption": "A bat hovers over a blooming desert cactus to feed on nectar and facilitate cross-pollination.",
+          "socratic_questions": [
+            "For environmental science Requirement 8c (Learn about the importance of pollination to agriculture, including the economic costs and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3205,7 +3406,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Pollination Discuss Pollination Environment)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3226,7 +3427,12 @@
           "2. (8b) Visit an area with flowering plants during pollination season for an hour to observe pollination",
           "3. (8c) Learn about the importance of pollination to agriculture, including the economic costs and benefits"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think only European honeybees are responsible for pollinating agricultural food crops.",
@@ -3408,7 +3614,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Environmental Science Origins and Evolution)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3431,7 +3637,13 @@
           "3. Learn where the species originated, how they were transported to this ecosystem, their life history, how they are spread",
           "4. Discuss what you learned with your counselor"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe introduced non-native species are harmless if they look attractive.",
@@ -3612,7 +3824,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Environmental Impact Topics)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3633,18 +3845,19 @@
           "2. Evaluate the purpose and benefit of the proposed project, alternatives (including a no-action alternative)",
           "3. Discuss with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think construction environmental reviews only check where trash will be dumped.",
         "fact": "Environmental impact statements evaluate alternatives and require mitigations for wetlands, soil, and wildlife."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Environmental Science Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Environmental Science Merit Badge Hub (Req 10)",
@@ -3842,7 +4055,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think environmental careers are limited strictly to park rangers in uniform.",

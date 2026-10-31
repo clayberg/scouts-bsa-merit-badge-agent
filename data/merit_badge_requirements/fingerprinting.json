@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Technical Comparison Matrix (Short History of Fingerprinting)",
+        "table_title": "Req 1 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Civil Identification for Background Records",
@@ -66,7 +66,13 @@
           "1. Give a short history of fingerprinting.",
           "2. Tell the difference between civil and criminal identification."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Civil Identification for Background Records",
+          "Criminal Identification for Law Enforcement"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fingerprint identification began exclusively as a police tool during modern nineteenth century criminal investigations.",
@@ -229,7 +235,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2a Technical Comparison Matrix (Automated Fingerprint Identification Systems AFIS)",
+            "table_title": "Req 2a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Law Enforcement AFIS Database Searches",
@@ -241,12 +247,22 @@
               "Biometric Access Control Verification Scanners"
             ],
             "row_labels": [
-              "1. Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Law Enforcement AFIS Database Searches",
+              "Biometric Access Control Verification Scanners"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
           "common_misconception_pair": {
@@ -284,7 +300,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p007_img1.png",
           "workbook_diagram_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
-          "workbook_visual_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification."
+          "workbook_visual_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 2a (Explain the difference between the automated fingerprint identification systems (AFIS) now), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -312,7 +331,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Discuss How Our Society Uses)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -324,12 +343,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how our society uses identification systems based on tokens, passwords, and biometrics"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how our society uses identification systems based on tokens, passwords, and biometrics"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)",
           "common_misconception_pair": {
@@ -367,7 +396,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p035_img1.png",
           "workbook_diagram_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
-          "workbook_visual_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification."
+          "workbook_visual_caption": "A digital biometric screen analyzes ridge points for automated fingerprint identification.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 2b (Discuss how our society uses identification systems based on tokens, passwords, and biometrics), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -401,7 +433,7 @@
         "ttl_days": 30
       },
       "topic_title": "Req 2: Automated and Biometric Security Systems",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -410,7 +442,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Automated Fingerprint Identification Systems AFIS)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Law Enforcement AFIS Database Searches",
@@ -429,7 +461,13 @@
           "1. (2a) Automated Fingerprint Identification Systems AFIS",
           "2. (2b) Discuss How Our Society Uses"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Law Enforcement AFIS Database Searches",
+          "Biometric Access Control Verification Scanners"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A smartphone fingerprint scanner queries national police databases whenever an owner unlocks the device.",
@@ -592,7 +630,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Surfaces of the Body Where)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -604,12 +642,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name the surfaces of the body where friction or papillary ridges are found"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name the surfaces of the body where friction or papillary ridges are found"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -648,7 +696,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p012_img1.png",
           "title": "Req 3a: Body Surfaces with Friction Ridges",
           "workbook_diagram_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
-          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification."
+          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 3a (Name the surfaces of the body where friction or papillary ridges are found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -668,7 +719,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Basic Principles Supporting the Science)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -680,12 +731,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -723,7 +784,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p033_img1.png",
           "workbook_diagram_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
-          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification."
+          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 3b (Name the two basic principles supporting the science of fingerprints and give a brief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -739,7 +803,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Positively Identify A Person Using)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -751,12 +815,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what it takes to positively identify a person using fingerprints"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what it takes to positively identify a person using fingerprints"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)",
           "common_misconception_pair": {
@@ -794,7 +868,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p033_img1.png",
           "workbook_diagram_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
-          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification."
+          "workbook_visual_caption": "A vintage hospital birth record displays newborn footprints used for civil identification.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 3c (Explain what it takes to positively identify a person using fingerprints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -824,7 +901,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Friction Ridge Anatomy and Identification",
-      "action_verb": "Demonstrate",
+      "action_verb": "Name",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -833,7 +910,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Surfaces of the Body Where)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -854,7 +931,13 @@
           "2. (3b) Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle",
           "3. (3c) Explain what it takes to positively identify a person using fingerprints"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Identical twins possess identical fingerprints because their genetic DNA codes are completely indistinguishable.",
@@ -1017,7 +1100,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Rolled and Plain Impressions)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1036,7 +1119,13 @@
               "1. Make both rolled and plain impressions.",
               "2. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
@@ -1074,7 +1163,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p016_img1.png",
           "workbook_diagram_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
-          "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges."
+          "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 4a (Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1090,7 +1182,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4b Quantitative Field Observation & Activity Log (Clear Adhesive Tape A Pencil)",
+            "table_title": "Req 4b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1104,12 +1196,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
@@ -1147,7 +1250,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/fingerprinting_p016_img1.png",
           "workbook_diagram_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
-          "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges."
+          "workbook_visual_caption": "An examiner rolls an ink-coated finger onto a recording card to capture friction ridges.",
+          "socratic_questions": [
+            "For fingerprinting Requirement 4b (Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1178,7 +1284,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Clear Set of Prints)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1199,7 +1305,14 @@
           "1. (4a) Rolled and Plain Impressions",
           "2. (4b) Clear Adhesive Tape A Pencil"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Thick pools of liquid ink on the inking plate produce the clearest fingerprint card impressions.",
@@ -1372,7 +1485,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (You Can Identify the Three)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1391,7 +1504,13 @@
           "1. Show your counselor you can identify the three basic types of fingerprint patterns and their subcategories.",
           "2. Using your own hand, identify the types of patterns you see."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Arch patterns are the most common fingerprint configuration found across the human population.",
@@ -1587,7 +1706,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Forensic fingerprint examiners learn their entire trade through a brief weekend law enforcement workshop.",

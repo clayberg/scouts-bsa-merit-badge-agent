@@ -63,7 +63,14 @@
               "3. Acute Physical / Medical Injury Risk",
               "4. Emergency Communication & Evacuation Protocol"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Hazard / Risk Factor",
+              "How to Anticipate & Spot Early",
+              "Preventive Controls & PPE",
+              "Acute First-Aid Response"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)",
           "common_misconception_pair": {
@@ -101,7 +108,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p003_img1.png",
           "workbook_diagram_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
-          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature."
+          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
+          "socratic_questions": [
+            "For cooking Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -146,7 +156,14 @@
               "3. Soft-Tissue Wound, Blister, or Sprain",
               "4. Life-Threatening Emergency Escalation"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Condition / Emergency",
+              "Recognizable Signs & Symptoms",
+              "Step-by-Step First-Aid Care",
+              "Field Prevention Standard"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)",
           "common_misconception_pair": {
@@ -184,7 +201,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p014_img1.png",
           "workbook_diagram_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
-          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature."
+          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
+          "socratic_questions": [
+            "For cooking Requirement 1b (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -200,7 +220,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Meat Fish Chicken Eggs Dairy)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -219,7 +239,13 @@
               "1. Describe how meat, fish, chicken, eggs, dairy products, and fresh vegetables should be stored, transported, and properly prepared for cooking",
               "2. Explain how to prevent cross-contamination"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)",
           "common_misconception_pair": {
@@ -257,7 +283,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p014_img1.png",
           "workbook_diagram_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
-          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature."
+          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
+          "socratic_questions": [
+            "For cooking Requirement 1c (Describe how meat, fish, chicken, eggs, dairy products, and fresh vegetables should be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -277,7 +306,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Food)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -296,7 +325,13 @@
               "1. Discuss with your counselor food allergies, food intolerance, and food-related illnesses and diseases.",
               "2. Explain why someone who handles or prepares food needs to be aware of these concerns."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)",
           "common_misconception_pair": {
@@ -335,7 +370,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p014_img1.png",
           "title": "Req 1d: Food Allergies and Food borne Illnesses",
           "workbook_diagram_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
-          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature."
+          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
+          "socratic_questions": [
+            "For cooking Requirement 1d (Discuss with your counselor food allergies, food intolerance, and food-related illnesses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1e",
@@ -351,7 +389,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1e Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Why)",
+            "table_title": "Req 1e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -370,7 +408,13 @@
               "1. Discuss with your counselor why reading food labels is important.",
               "2. Explain how to identify common allergens such as peanuts, tree nuts, milk, eggs, wheat, soy, and shellfish."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 64, p. 71)",
           "common_misconception_pair": {
@@ -409,7 +453,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p014_img1.png",
           "title": "Req 1e: Allergen Identification on Food Labels",
           "workbook_diagram_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
-          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature."
+          "workbook_visual_caption": "Digital probe food thermometer inserted into the thickest center of a roast to verify safe internal temperature.",
+          "socratic_questions": [
+            "For cooking Requirement 1e (Discuss with your counselor why reading food labels is important. Explain how to identify), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -491,7 +538,14 @@
           "4. (1d) Food Allergies Food Intolerance",
           "5. (1e) Reading Food Labels"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Hazard / Risk Factor",
+          "How to Anticipate & Spot Early",
+          "Preventive Controls & PPE",
+          "Acute First-Aid Response"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts think food that smells and tastes normal cannot cause foodborne illness.",
@@ -659,7 +713,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (MyPlate Food Guide or the)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -684,7 +738,13 @@
               "4. (4) Proteins",
               "5. (5) Dairy."
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)",
           "common_misconception_pair": {
@@ -723,7 +783,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p007_img1.png",
           "title": "Req 2a: MyPlate Food Groups and Servings",
           "workbook_diagram_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
-          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle."
+          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
+          "socratic_questions": [
+            "For cooking Requirement 2a (Using the MyPlate food guide or the current USDA nutrition model, give five examples for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -739,7 +802,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (You Should Limit Your Intake)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -751,12 +814,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain why you should limit your intake of oils and sugars"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain why you should limit your intake of oils and sugars"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)",
           "common_misconception_pair": {
@@ -794,7 +867,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p041_img1.png",
           "workbook_diagram_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
-          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle."
+          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
+          "socratic_questions": [
+            "For cooking Requirement 2b (Explain why you should limit your intake of oils and sugars), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -810,7 +886,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 2c Quantitative Field Observation & Activity Log (Track Your Daily Level)",
+            "table_title": "Req 2c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -835,7 +911,14 @@
               "3. Milestone 2 Observation & Measurements",
               "4. Final Summary, Totals & Counselor Review"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)",
           "common_misconception_pair": {
@@ -873,7 +956,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p041_img1.png",
           "workbook_diagram_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
-          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle."
+          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
+          "socratic_questions": [
+            "For cooking Requirement 2c (Track your daily level of activity and your daily caloric need based on your activity for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -889,7 +975,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Discuss Your Current Eating Habits)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -901,12 +987,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss your current eating habits with your counselor and what you can do to eat healthier, based on the MyPlate food guide"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss your current eating habits with your counselor and what you can do to eat healthier, based on the MyPlate food guide"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)",
           "common_misconception_pair": {
@@ -944,7 +1040,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p041_img1.png",
           "workbook_diagram_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
-          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle."
+          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
+          "socratic_questions": [
+            "For cooking Requirement 2d (Discuss your current eating habits with your counselor and what you can do to eat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2e",
@@ -960,7 +1059,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2e Structured Technical Study & Explanation Matrix (Discuss the Following Food)",
+            "table_title": "Req 2e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -979,7 +1078,13 @@
               "1. Discuss the following food label terms: calorie, fat, saturated fat, trans fat, cholesterol, sodium, carbohydrate, dietary fiber, sugar, and protein",
               "2. Explain how to calculate total carbohydrates and nutritional values for two servings, based on the serving size specified on the label"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 54, p. 61)",
           "common_misconception_pair": {
@@ -1018,7 +1123,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p041_img1.png",
           "title": "Req 2e: Understanding Nutrition Facts Labels",
           "workbook_diagram_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
-          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle."
+          "workbook_visual_caption": "Scout and parent selecting fresh vegetables and whole-food ingredients in the grocery produce aisle.",
+          "socratic_questions": [
+            "For cooking Requirement 2e (Discuss the following food label terms: calorie, fat, saturated fat, trans fat,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1061,7 +1169,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 2 Quantitative Field Observation & Activity Log (Cooking Applied Field Standard)",
+        "table_title": "Req 2 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1088,7 +1196,13 @@
           "4. (2d) Current Eating Habits",
           "5. (2e) Food Label Terms"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume all calories provide identical nutritional value regardless of the food source.",
@@ -1264,7 +1378,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Discuss the Following Cooking)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1283,7 +1397,13 @@
               "1. Discuss the following cooking methods",
               "2. For each one, describe the equipment needed, how temperature control is maintained, and name at least one food that can be cooked using that method: baking"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 24, p. 36)",
           "common_misconception_pair": {
@@ -1322,7 +1442,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p012_img1.png",
           "title": "Req 3a: Cooking Methods and Heat Control",
           "workbook_diagram_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
-          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface."
+          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
+          "socratic_questions": [
+            "For cooking Requirement 3a (Discuss the following cooking methods. For each one, describe the equipment needed, how), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1338,7 +1461,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3b Technical Comparison Matrix (Benefits of Using A Camp)",
+            "table_title": "Req 3b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Adjustable Camp Stove Heat Control",
@@ -1361,7 +1484,13 @@
               "3. Limitations, Cost & Maintenance Trade-Offs",
               "4. Safety & Selection Criteria"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Adjustable Camp Stove Heat Control",
+              "Charcoal and Wood Fire Cooking"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 24, p. 36)",
           "common_misconception_pair": {
@@ -1399,7 +1528,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p033_img2.png",
           "workbook_diagram_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
-          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface."
+          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
+          "socratic_questions": [
+            "For cooking Requirement 3b (Discuss the benefits of using a camp stove on an outing vs. a charcoal or wood fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1415,7 +1547,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Manage Your Time When Preparing)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1427,12 +1559,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe for your counselor how to manage your time when preparing a meal so components for each course are ready to serve at the correct time"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe for your counselor how to manage your time when preparing a meal so components for each course are ready to serve at the correct time"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 24, p. 36)",
           "common_misconception_pair": {
@@ -1470,7 +1612,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p033_img2.png",
           "workbook_diagram_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
-          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface."
+          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
+          "socratic_questions": [
+            "For cooking Requirement 3c (Describe for your counselor how to manage your time when preparing a meal so components for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1486,7 +1631,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Taste Texture and Smell Impact)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1498,12 +1643,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain and give examples of how taste, texture, and smell impact what we eat"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain and give examples of how taste, texture, and smell impact what we eat"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 24, p. 36)",
           "common_misconception_pair": {
@@ -1541,7 +1696,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p033_img2.png",
           "workbook_diagram_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
-          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface."
+          "workbook_visual_caption": "Two-burner propane camp stove connected to a regulated fuel cylinder on a level surface.",
+          "socratic_questions": [
+            "For cooking Requirement 3d (Explain and give examples of how taste, texture, and smell impact what we eat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1588,7 +1746,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Cooking Basics)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Adjustable Camp Stove Heat Control",
@@ -1611,7 +1769,13 @@
           "3. (3c) Counselor How to Manage",
           "4. (3d) Examples of How Taste Texture"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Adjustable Camp Stove Heat Control",
+          "Charcoal and Wood Fire Cooking"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Novices assume high heat cooks food faster without diminishing the final meal quality.",
@@ -1797,7 +1961,14 @@
               "2. Your menus should include enough to feed yourself and at least one adult, keeping in mind any special needs",
               "3. List the equipment and utensils needed to prepare and serve these meals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -1836,7 +2007,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "title": "Req 4a: Three-Day Nutritious Menu Planning",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4a (Using the MyPlate food guide or the current USDA nutrition model, plan menus for three full), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1877,7 +2051,14 @@
               "3. Meal 3 Recipe & Gear",
               "4. Sanitation & Safe Transport Check"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Recipe / Dish",
+              "Itemized Grocery & Spice List",
+              "Cooking Utensils & Heat Source",
+              "Cold-Chain / Trail Storage Plan"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -1915,7 +2096,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4b (Find recipes for each meal. Create a shopping list for your meals showing the amount of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1945,12 +2129,23 @@
               "Estimated Cost & Caloric Target"
             ],
             "row_labels": [
-              "1. Share and discuss your meal plan and shopping list with your counselor"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Share and discuss your meal plan and shopping list with your counselor"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -1989,7 +2184,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "title": "Req 4c: Counselor Menu and List Review",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4c (Share and discuss your meal plan and shopping list with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -2025,7 +2223,14 @@
               "3. Course 3 Preparation & Timing",
               "4. Clean-Up & Leave No Trace Verification"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -2063,7 +2268,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4d (Using at least five of the 10 cooking methods from requirement 3, prepare and serve), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -2100,7 +2308,14 @@
               "1. Time your cooking to have each meal ready to serve at the proper time.",
               "2. Have an adult verify the preparation of the meal to your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -2138,7 +2353,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4e (Time your cooking to have each meal ready to serve at the proper time. Have an adult verify), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -2174,7 +2392,14 @@
               "3. Meal 3 Diner Evaluation",
               "4. Self-Assessment & Lessons Learned"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal Served & Evaluator",
+              "Appearance, Aroma & Texture Rating",
+              "Flavor Balance & Temperature",
+              "Improvement Notes for Next Outing"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -2212,7 +2437,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p020_img1.png",
           "workbook_diagram_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
-          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning."
+          "workbook_visual_caption": "A young Scout prepares a fresh tomato sandwich at home to practice meal planning.",
+          "socratic_questions": [
+            "For cooking Requirement 4f (After each meal, ask a person you served to evaluate the meal on presentation and taste,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2272,7 +2500,14 @@
           "3. Dinner Menu Plan",
           "4. Trail Snack / Dessert Plan"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Meal / Course",
+          "MyPlate Food Groups & Recipe",
+          "Ingredient Quantities & Equipment",
+          "Estimated Cost & Caloric Target"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume cooking at home is always more expensive than purchasing restaurant takeout.",
@@ -2467,7 +2702,14 @@
               "4. Your menus should include enough food for each person, keeping in mind any special needs (such as food allergies)",
               "5. List the equipment and utensils needed to prepare and serve these meals"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2506,7 +2748,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "title": "Req 5a: Patrol Camp Menu Planning",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5a (Using the MyPlate food guide or the current USDA nutrition model, plan a menu that includes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2545,7 +2790,14 @@
               "2. Adjust menu items in the recipes for the number to be served.",
               "3. Create a shopping list and budget to determine the per-person cost."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2583,7 +2835,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5b (Find or create recipes for the four meals, the snack, and the dessert you have planned.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2608,12 +2863,23 @@
               "Estimated Cost & Caloric Target"
             ],
             "row_labels": [
-              "1. Share and discuss your menu plans and shopping list with your counselor"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Share and discuss your menu plans and shopping list with your counselor"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2652,7 +2918,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "title": "Req 5c: Counselor Camp Menu Review",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5c (Share and discuss your menu plans and shopping list with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2705,7 +2974,14 @@
               "3. Course 3 Preparation & Timing",
               "4. Clean-Up & Leave No Trace Verification"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2743,7 +3019,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5d (In the outdoors, using your menu plans and recipes for this requirement, cook two of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2775,7 +3054,14 @@
               "1. In the outdoors, using your menu plans and recipes for this requirement, prepare one snack and one dessert.",
               "2. Serve both of these to your patrol or a group of youth."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2813,7 +3099,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5e (In the outdoors, using your menu plans and recipes for this requirement, prepare one snack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
@@ -2847,7 +3136,14 @@
               "2. Discuss what you learned with your counselor, including any adjustments that could have improved or enhanced your meals.",
               "3. Tell how planning and preparation help ensure successful outdoor cooking."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2885,7 +3181,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5f (After each meal, have those you served evaluate the meal on presentation and taste, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5g",
@@ -2926,7 +3225,14 @@
               "3. Meal 3 Diner Evaluation",
               "4. Self-Assessment & Lessons Learned"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal Served & Evaluator",
+              "Appearance, Aroma & Texture Rating",
+              "Flavor Balance & Temperature",
+              "Improvement Notes for Next Outing"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -2964,7 +3270,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5g (Lead the clean-up of equipment, utensils, and the cooking site thoroughly after each meal.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5h",
@@ -2998,12 +3307,23 @@
               "Improvement Notes for Next Outing"
             ],
             "row_labels": [
-              "1. Discuss how you followed the Leave No Trace Seven Principles and the Outdoor Code when preparing your meals"
+              "1. Req 5h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how you followed the Leave No Trace Seven Principles and the Outdoor Code when preparing your meals"
+              "1. Req 5h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal Served & Evaluator",
+              "Appearance, Aroma & Texture Rating",
+              "Flavor Balance & Temperature",
+              "Improvement Notes for Next Outing"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 50)",
           "common_misconception_pair": {
@@ -3041,7 +3361,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p016_img1.png",
           "workbook_diagram_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
-          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°."
+          "workbook_visual_caption": "Scouts packing perishable foods into an insulated cooler with ice packs to keep cold food below 40°.",
+          "socratic_questions": [
+            "For cooking Requirement 5h (Discuss how you followed the Leave No Trace Seven Principles and the Outdoor Code when), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3121,7 +3444,14 @@
           "3. Dinner Menu Plan",
           "4. Trail Snack / Dessert Plan"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Meal / Course",
+          "MyPlate Food Groups & Recipe",
+          "Ingredient Quantities & Equipment",
+          "Estimated Cost & Caloric Target"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe scraping plates into camp soil feeds wildlife harmlessly without consequence.",
@@ -3312,7 +3642,14 @@
               "2. These meals must consider weight, not require refrigeration and are to be consumed by three to five people (including you)",
               "3. List the equipment and utensils needed to prepare and serve these meals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3351,7 +3688,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "title": "Req 6a: Shelf-Stable Trail Menu Planning",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6a (Using the MyPlate food guide or the current USDA nutrition model, plan a day of meals for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -3387,7 +3727,14 @@
               "3. Meal 3 Recipe & Gear",
               "4. Sanitation & Safe Transport Check"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Recipe / Dish",
+              "Itemized Grocery & Spice List",
+              "Cooking Utensils & Heat Source",
+              "Cold-Chain / Trail Storage Plan"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3425,7 +3772,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6b (Create a shopping list for your meals, showing the amount of food needed to prepare and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -3462,7 +3812,14 @@
               "1. Share and discuss your menu and shopping list with your counselor",
               "2. Your plan must include how to repackage foods for your hike or backpacking trip to eliminate as much bulk, weight, and garbage as possible"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal / Course",
+              "MyPlate Food Groups & Recipe",
+              "Ingredient Quantities & Equipment",
+              "Estimated Cost & Caloric Target"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3500,7 +3857,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6c (Share and discuss your menu and shopping list with your counselor. Your plan must include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -3541,7 +3901,14 @@
               "3. Course 3 Preparation & Timing",
               "4. Clean-Up & Leave No Trace Verification"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3579,7 +3946,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6d (While on a trail hike or backpacking trip, prepare and serve two meals and a snack from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -3613,7 +3983,14 @@
               "2. Discuss what you learned with your counselor, including any adjustments that could have improved or enhanced your meals.",
               "3. Tell how planning and preparation help ensure successful trail hiking or backpacking meals."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Dish / Course Prepared",
+              "Cooking Method & Heat Source",
+              "Prep & Cook Start/Finish Times",
+              "Safe Internal Temp & Hygiene Check"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3651,7 +4028,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6e (After each meal, have those you served evaluate the meal on presentation and taste, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
@@ -3692,7 +4072,14 @@
               "3. Meal 3 Diner Evaluation",
               "4. Self-Assessment & Lessons Learned"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Meal Served & Evaluator",
+              "Appearance, Aroma & Texture Rating",
+              "Flavor Balance & Temperature",
+              "Improvement Notes for Next Outing"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 21, p. 38)",
           "common_misconception_pair": {
@@ -3730,7 +4117,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p036_img1.png",
           "workbook_diagram_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
-          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base."
+          "workbook_visual_caption": "Cast-iron Dutch oven baking with glowing charcoal briquettes placed on the flanged lid and beneath the base.",
+          "socratic_questions": [
+            "For cooking Requirement 6f (Explain to your counselor how you should divide the food and cooking supplies among the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3794,7 +4184,14 @@
           "3. Dinner Menu Plan",
           "4. Trail Snack / Dessert Plan"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Meal / Course",
+          "MyPlate Food Groups & Recipe",
+          "Ingredient Quantities & Equipment",
+          "Estimated Cost & Caloric Target"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners believe canned goods are ideal trail food because cans resist crushing.",
@@ -3993,7 +4390,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 79, p. 81)",
           "common_misconception_pair": {
@@ -4031,12 +4434,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p078_img1.png",
           "workbook_diagram_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins.",
-          "workbook_visual_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins."
+          "workbook_visual_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins.",
+          "socratic_questions": [
+            "For cooking Requirement 7a (Identify three career opportunities that would use skills and knowledge in cooking. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Sharpen Your Cooking Skills and Improve Your Diet (and Even Your Social Life) (website)",
@@ -4051,7 +4457,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4065,14 +4471,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Cooking Merit Badge Pamphlet (p. 79, p. 81)",
           "common_misconception_pair": {
@@ -4102,7 +4514,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in cooking to pursue a personal hobby or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 7b: Culinary Arts Personal Hobbies",
           "pamphlet_summary": "Exploring cooking as a lifelong recreational hobby enables individuals to prepare healthful, affordable meals and host family gatherings. Joining cooking clubs or taking community workshops expands culinary skills without professional career commitments.",
           "pamphlet_excerpts": [
@@ -4111,7 +4523,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/cooking_p078_img1.png",
           "title": "Req 7b: Cooking as a Lifelong Hobby",
           "workbook_diagram_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins.",
-          "workbook_visual_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins."
+          "workbook_visual_caption": "An agricultural producer inspects fresh tomatoes to show where camp food begins.",
+          "socratic_questions": [
+            "For cooking Requirement 7b (Identify how you might use the skills and knowledge in cooking to pursue a personal hobby), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4177,7 +4592,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume all culinary careers involve working late nights on restaurant cook lines.",

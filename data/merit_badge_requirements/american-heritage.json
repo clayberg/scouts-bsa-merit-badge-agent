@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Declaration of Independence Pay Close)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -60,15 +60,21 @@
         ],
         "row_labels": [
           "1. Read the Declaration of Independence",
-          "2. Pay close attention to the section that begins with \"We hold these truths to be self-evident\" and ends with \"to provide new",
+          "2. Pay close attention to the section that begins with \"We hold these truths to be self-evident\" and ends with \"to provide new Guards for their future security.\"",
           "3. Then, share your writing with your counselor and discuss the importance of the Declaration to all Americans"
         ],
         "rows": [
           "1. Read the Declaration of Independence",
-          "2. Pay close attention to the section that begins with \"We hold these truths to be self-evident\" and ends with \"to provide new",
+          "2. Pay close attention to the section that begins with \"We hold these truths to be self-evident\" and ends with \"to provide new Guards for their future security.\"",
           "3. Then, share your writing with your counselor and discuss the importance of the Declaration to all Americans"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The Declaration of Independence established the legal structure and branches of the United States government.",
@@ -223,10 +229,10 @@
           "text": "Select two individuals from American history, one a political leader (a president, senator, etc.) and the other a private citizen (a writer, religious leader, etc.). Find out about each person's accomplishments and compare the contributions each has made to America's heritage.",
           "resources": [],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2a Technical Comparison Matrix (Individuals from American History)",
+            "table_title": "Req 2a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Contributions of Elected Political Leaders",
@@ -245,7 +251,13 @@
               "1. Select two individuals from American history, one a political leader (a president, senator, etc.) and the other a private citizen",
               "2. Find out about each person's accomplishments and compare the contributions each has made to America's heritage"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Contributions of Elected Political Leaders",
+              "Impact of Private Citizen Activists"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)",
           "common_misconception_pair": {
@@ -283,7 +295,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p007_img1.png",
           "workbook_diagram_caption": "A frontier settler family rests near their covered wagon during western migration.",
-          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration."
+          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration.",
+          "socratic_questions": [
+            "For american heritage Requirement 2a (Select two individuals from American history, one a political leader (a president, senator,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "2b",
@@ -300,10 +316,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Organization That Has Promoted)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -324,19 +340,20 @@
               "2. Find out why the organization believed this change was necessary and how it helped to accomplish the change.",
               "3. Discuss how this organization is related to events or situations from America's past."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)",
           "common_misconception_pair": {
             "misconception": "Social reform organizations were created by government mandates rather than voluntary citizen initiatives.",
             "fact": "Voluntary reform organizations like the Red Cross and labor leagues operated independently of state institutions to resolve social problems."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your American Heritage Req 2b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Heritage Merit Badge Hub (Req 2b)",
@@ -367,7 +384,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p026_img1.png",
           "workbook_diagram_caption": "A frontier settler family rests near their covered wagon during western migration.",
-          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration."
+          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration.",
+          "socratic_questions": [
+            "For american heritage Requirement 2b (With your counselor's approval, choose an organization that has promoted some type of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "2c",
@@ -380,10 +401,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Veterans of the U S)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -408,19 +429,20 @@
               "4. Find out what their experiences",
               "5. Ask the veterans what they believe they accomplished"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)",
           "common_misconception_pair": {
             "misconception": "All military veterans share identical combat perspectives regardless of their specific era or branch.",
             "fact": "Veterans provide specific tactical, logistical, and emotional insights that rarely appear in textbook summaries."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your American Heritage Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Heritage Merit Badge Hub (Req 2c)",
@@ -451,7 +473,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p026_img1.png",
           "workbook_diagram_caption": "A frontier settler family rests near their covered wagon during western migration.",
-          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration."
+          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration.",
+          "socratic_questions": [
+            "For american heritage Requirement 2c (With your counselor's approval, interview two veterans of the U. S. military. Find out what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "2d",
@@ -459,10 +485,10 @@
           "text": "With your counselor's approval, interview three people in your community of different ages and occupations. Ask these people what America means to them, what they think is special about this country, and what American traditions they feel are important to preserve.",
           "resources": [],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (People in Your Community)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -481,19 +507,20 @@
               "1. With your counselor's approval, interview three people in your community of different ages and occupations",
               "2. Ask these people what America means to them, what they think is special about this country, and what American traditions they feel are important to preserve"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)",
           "common_misconception_pair": {
             "misconception": "Community members of different age groups view American civic ideals in uniform ways.",
             "fact": "Varied generational and occupational viewpoints reveal how national heritage manifests differently across diverse community members."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your American Heritage Req 2d preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Heritage Merit Badge Hub (Req 2d)",
@@ -524,7 +551,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p026_img1.png",
           "workbook_diagram_caption": "A frontier settler family rests near their covered wagon during western migration.",
-          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration."
+          "workbook_visual_caption": "A frontier settler family rests near their covered wagon during western migration.",
+          "socratic_questions": [
+            "For american heritage Requirement 2d (With your counselor's approval, interview three people in your community of different ages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         }
       ],
       "resources": [
@@ -559,7 +590,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Individuals from American History)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Contributions of Elected Political Leaders",
@@ -582,7 +613,12 @@
           "3. (2c) Veterans of The U S",
           "4. (2d) People in Your Community"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Comparison Dimension",
+          "Contributions of Elected Political Leaders",
+          "Impact of Private Citizen Activists"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Historical change in the United States was accomplished exclusively by elected political officeholders.",
@@ -742,10 +778,10 @@
           "text": "Select a topic related to the United States that is currently in the news. Describe to your counselor what is happening. Explain how today's events are related to or affected by the events and values of America's past.",
           "resources": [],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Topic Related to the United)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -766,7 +802,13 @@
               "2. Describe to your counselor what is happening.",
               "3. Explain how today's events are related to or affected by the events and values of America's past."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)",
           "common_misconception_pair": {
@@ -804,7 +846,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p012_img1.png",
           "workbook_diagram_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
-          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage."
+          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
+          "socratic_questions": [
+            "For american heritage Requirement 3a (Select a topic related to the United States that is currently in the news. Describe to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "3b",
@@ -832,7 +878,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Adoption Tell About Any Changes)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -844,12 +890,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. For the following, describe its adoption, tell about any changes since its adoption, and explain how each one continues to influence Americans today: the flag"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. For the following, describe its adoption, tell about any changes since its adoption, and explain how each one continues to influence Americans today: the flag"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)",
           "common_misconception_pair": {
@@ -887,7 +943,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p019_img2.png",
           "workbook_diagram_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
-          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage."
+          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
+          "socratic_questions": [
+            "For american heritage Requirement 3b (For the following, describe its adoption, tell about any changes since its adoption, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -904,10 +963,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Family's History Find Out How)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -930,7 +989,13 @@
               "3. If your family immigrated to America, tell the reasons",
               "4. Share what you find with your counselor"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)",
           "common_misconception_pair": {
@@ -969,7 +1034,11 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p019_img2.png",
           "title": "Req 3c: Researching Family History and Events",
           "workbook_diagram_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
-          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage."
+          "workbook_visual_caption": "The Great Seal pyramid on currency reflects early American symbolism and heritage.",
+          "socratic_questions": [
+            "For american heritage Requirement 3c (Research your family's history. Find out how various events and situations in American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         }
       ],
       "resources": [
@@ -1007,16 +1076,16 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Contemporary Events and Heritage",
-      "action_verb": "Demonstrate",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "action_verb": "Describe",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
       "pamphlet_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)",
       "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Topic Related to the United)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1037,7 +1106,13 @@
           "2. (3b) Tracing American Symbols and Mottoes",
           "3. (3c) Research your family's history"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern political disputes are entirely unprecedented conflicts detached from constitutional history and past national values.",
@@ -1208,7 +1283,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist (National Register of Historic Places)",
+            "table_title": "Req 4a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1231,7 +1306,13 @@
               "3. Tell about any National Register properties in your area",
               "4. Share the map with your counselor, and describe the historical points you have indicated"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)",
           "common_misconception_pair": {
@@ -1269,18 +1350,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p043_img1.png",
           "workbook_diagram_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
-          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark."
+          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
+          "socratic_questions": [
+            "For american heritage Requirement 4a (Explain the National Register of Historic Places and how a property becomes eligible for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks.",
+          "text": "Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks like.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Event of Historical Importance That)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1303,7 +1387,13 @@
               "3. Tell your counselor about the event and how it affected local history.",
               "4. Describe how the area looked then and what it now looks."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)",
           "common_misconception_pair": {
@@ -1333,7 +1423,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks.",
+          "sub_req_text": "Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks like.",
           "topic_title": "Req 4b: Local Historical Event Investigation",
           "pamphlet_summary": "Investigating local history highlights how regional incidents shaped broader county and state development. Visiting local sites allows Scouts to examine physical terrain and architecture associated with historical turning points.",
           "pamphlet_excerpts": [
@@ -1342,18 +1432,21 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p043_img1.png",
           "title": "Req 4b: Researching Local Historical Events",
           "workbook_diagram_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
-          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark."
+          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
+          "socratic_questions": [
+            "For american heritage Requirement 4b (Research an event of historical importance that took place in or near your area. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
           "label": "(c)",
-          "text": "Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain.",
+          "text": "Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain why.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Town Neighborhood Started Ethnic)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1372,7 +1465,13 @@
               "1. Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part",
               "2. Find out how the area has changed over the past 50 years and try"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)",
           "common_misconception_pair": {
@@ -1402,7 +1501,7 @@
           ],
           "id": "4c",
           "sub_req_label": "4c",
-          "sub_req_text": "Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain.",
+          "sub_req_text": "Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain why.",
           "topic_title": "Req 4c: Neighborhood Origins and Evolution",
           "pamphlet_summary": "Examining local community origins reveals the diverse immigrant groups and industries that established municipal infrastructure. Tracking changes over five decades shows how suburbanization, transportation, and economics altered town character.",
           "pamphlet_excerpts": [
@@ -1410,7 +1509,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p043_img1.png",
           "workbook_diagram_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
-          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark."
+          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
+          "socratic_questions": [
+            "For american heritage Requirement 4c (Find out when, why, and how your town or neighborhood started, and what ethnic, national,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1421,7 +1523,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Active Event Person American)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1440,7 +1542,13 @@
               "1. Take an active part in a program about an event or person in American history.",
               "2. Report to your counselor about the program, the part you took, and the subject."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)",
           "common_misconception_pair": {
@@ -1478,7 +1586,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p043_img1.png",
           "workbook_diagram_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
-          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark."
+          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
+          "socratic_questions": [
+            "For american heritage Requirement 4d (Take an active part in a program about an event or person in American history. Report to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1494,7 +1605,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Historic Trail or Walk)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1515,7 +1626,12 @@
               "2. After your visit, share with your counselor what you have learned.",
               "3. Discuss the importance of this location and explain why you think it might qualify for National Register listing."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)",
           "common_misconception_pair": {
@@ -1553,7 +1669,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p043_img1.png",
           "workbook_diagram_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
-          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark."
+          "workbook_visual_caption": "Passengers board a vintage electric trolley preserved as a historic transit landmark.",
+          "socratic_questions": [
+            "For american heritage Requirement 4e (Visit a historic trail or walk in your area. After your visit, share with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1592,7 +1711,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (National Register of Historic Places)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1617,7 +1736,12 @@
           "4. (4d) Take an active part in a program about an event or person in American history",
           "5. (4e) Visit a historic trail or walk in your area"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any building older than fifty years automatically gains listing on the National Register of Historic Places.",
@@ -1793,10 +1917,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Motion Pictures)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1815,19 +1939,20 @@
               "1. Watch two motion pictures (with the approval and permission of your counselor and parent or guardian) that are set in some period of American history",
               "2. Describe to your counselor how accurate each film is with regard to the historical events depicted and also with regard to the way the characters are portrayed"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)",
           "common_misconception_pair": {
             "misconception": "Commercial historical films use actual transcripts and exact chronologies for every dramatized interaction.",
             "fact": "Filmmakers often alter historical dialogue, chronology, and character actions to fit dramatic feature film pacing constraints."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete American Heritage Req 5a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Heritage Merit Badge Hub (Req 5a)",
@@ -1858,7 +1983,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p048_img1.png",
           "workbook_diagram_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
-          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power."
+          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
+          "socratic_questions": [
+            "For american heritage Requirement 5a (Watch two motion pictures (with the approval and permission of your counselor and parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "5b",
@@ -1871,10 +2000,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Biography Someone Made Contribution)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1895,19 +2024,20 @@
               "2. Tell some things you admire about this individual and some things you do not admire.",
               "3. Explain why you think this person has made a positive or a negative contribution to America's heritage."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)",
           "common_misconception_pair": {
             "misconception": "Biographies only list celebrated heroic actions while omitting personal failures and professional controversies.",
             "fact": "Biographies reveal human flaws, personal doubts, and financial hardships alongside public accomplishments and victories."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your American Heritage Req 5b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America American Heritage Merit Badge Hub (Req 5b)",
@@ -1938,7 +2068,11 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p048_img1.png",
           "workbook_diagram_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
-          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power."
+          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
+          "socratic_questions": [
+            "For american heritage Requirement 5b (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         },
         {
           "sub_id": "5c",
@@ -1955,10 +2089,10 @@
             }
           ],
           "children": [],
-          "syllabus_bucket": "In-Class Concept",
+          "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Recordings of Popular Songs from)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1979,7 +2113,13 @@
               "2. Share five of these songs with your counselor, and describe how each song reflects the way people felt about the period",
               "3. If a recording is not available, have a copy of the lyrics available"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)",
           "common_misconception_pair": {
@@ -2018,7 +2158,11 @@
           "workbook_diagram_url": "assets/pamphlet_images/american_heritage_p048_img1.png",
           "title": "Req 5c: Analyzing Historical American Popular Songs",
           "workbook_diagram_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
-          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power."
+          "workbook_visual_caption": "Inventor Thomas Edison helped pioneer modern motion pictures and electric power.",
+          "socratic_questions": [
+            "For american heritage Requirement 5c (Listen to recordings of popular songs from various periods of American history. Share five), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ],
+          "execution_mode": "PREREQUISITE_CAMPOUT_HOME"
         }
       ],
       "resources": [
@@ -2065,15 +2209,15 @@
       },
       "topic_title": "Req 5: Cultural Media and Heritage",
       "action_verb": "Explain",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
       "pamphlet_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)",
       "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)",
-      "syllabus_bucket": "In-Class Concept",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Motion Pictures)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2094,18 +2238,19 @@
           "2. (5b) Read a biography (with your counselor's approval) of someone who has made a contribution to America's heritage",
           "3. (5c) Listen to recordings of popular songs from various periods of American history"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Hollywood historical feature films present completely factual and chronological records of actual events.",
         "fact": "Documentary evidence often reveals that dramatic films compress timelines, invent fictional composite characters, and alter settings for cinematic effect."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your American Heritage Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America American Heritage Merit Badge Hub (Req 5)",
@@ -2268,12 +2413,12 @@
       },
       "topic_title": "Req 6: Heritage Careers and Education",
       "action_verb": "Discuss",
-      "execution_mode": "IN_CLASS_DISCUSSION",
+      "execution_mode": "PREREQUISITE_CAMPOUT_HOME",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
       "pamphlet_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 33, p. 60)",
       "pamphlet_page_citation": "Official Scouting America American Heritage Merit Badge Pamphlet (p. 33, p. 60)",
-      "syllabus_bucket": "Make-Up Eligible",
+      "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "CAREER_EXPLORATION_CARD",
         "table_title": "Req 6 Career & Professional Pathway Investigation Matrix",
@@ -2297,7 +2442,13 @@
           "2. Pick one that interests you and explain how to prepare for this career.",
           "3. Discuss what education and training are required for this career."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Careers in American heritage are restricted exclusively to classroom history teaching positions.",

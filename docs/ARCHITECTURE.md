@@ -22,7 +22,7 @@ flowchart TD
 
     subgraph Stage2_3["Stages 2 & 3: 12-Archetype Storyboard, Multi-Option Unrolling & Visual Styling"]
         CoverageLoop -->|"100% Leaf Sub-Req Coverage"| Planner["4. SlideContentPlannerAgent (gemini-2.5-pro)\n12 Archetypes + 5-Part Facilitator Guide + 4-Pillar Workbooks"]
-        Planner --> Beautifier["5. SlideBeautifierAgent (gemini-2.5-flash)\nDeckStyleConfig + 5,625 Pre-Bundled Assets (149 Badges) + GitHub Batch Hydrator"]
+        Planner --> Beautifier["5. SlideBeautifierAgent (gemini-2.5-flash)\nDeckStyleConfig + 5,607 Pre-Bundled Assets (149 Badges) + GitHub Batch Hydrator"]
         Beautifier -.->|"Opt-In Only ($0.08 Gate)"| ImageStudio["8 & 9. WebImageSearchAgent & NanoBananaImageAgent"]
     end
 
@@ -57,7 +57,7 @@ flowchart LR
     subgraph Compute["Google Cloud Run v2 (us-central1, VPC Perimeter)"]
         CloudRun["Cloud Run Service: scouts-bsa-merit-badge-agent\n(min-instances=1, max-instances=10, SA: scouts-bsa-agent-sa)"]
         ModelArmor["ScoutsBSAModelArmorPlugin\n(Ingress + SSE Egress 3-Layer PII / YPT Firewall)"]
-        Hydrator["Local 5,625 Asset Cache (149 Badges) + On-Demand\nGitHub Raw Concurrent Batch Hydrator"]
+        Hydrator["Local 5,607 Asset Cache (149 Badges) + On-Demand\nGitHub Raw Concurrent Batch Hydrator"]
         IAP --> CloudRun
         CloudRun --- ModelArmor
         CloudRun --- Hydrator
@@ -89,4 +89,4 @@ flowchart LR
 | **Consolidated Material 3 Toolbars (`54 -> 19` Groups), `🧭 Guided Tour ▾` & 4-Tab Drawer** | Consolidates `54` loose controls into `19` Material 3 groups (Global Header `[📥 Download (.PPTX) | ▾]`, `[📘 Help & Tools | ▾]`, `[🗂️ My Decks | ▾]`, Auto-Slim Hero Banner; Tab 2 Multi-Session `S1..S4 | M` Blue Card Matrix with Quick-Add + `📥 Import Roster ▾`, `✅ Batch Sign-Off ▾`, and `[🪪 Print Blue Cards (#34124) | ▾]` supporting Per-Troop Privacy Isolation, Scoutbook `.CSV` with formula sanitization, and 3-Stage YPT Email Pack; Tab 3 `[📖 Counselor Workbook | 📝 Fillable Form (GTA §7.0.3.2) | 📄 1-Page Class Prep (CPP)]` + `[📥 Download (.PDF) | ▾]`; Tab 4 5-Pill StudioKit with `📦 Printable Handouts & Specs ▾`, `[🖨️ Print Agenda | ▾]`, `[📨 Compose in Gmail | ▾]`, Multi-Session `4x75m` + Snow-Day Shift presets, and Companion Dual-Badge `2-in-1` switcher), plus **8 narrated Guided Tours** and the **4-Tab Under-Stage Drawer (`.m3-understage-drawer`)** | `ui/index.html`, `ui/app.js`, `tests/test_conformance_and_a2ui.py` |
 | **Security, 3-Layer Context-Aware PII Guardrail, YPT & Privacy** | Bidirectional `ScoutsBSAModelArmorPlugin` (`src/agents/guardrails.py` & `src/observability/logging_setup.py`: ingress prompt + tool + response + outbound SSE egress scrubbing via `scrub_pii_from_structure()`) with our **3-Layer Context-Aware Phone Redaction Filter (`V36`)** (Layer 1 excludes 10-digit IDs in URLs/filenames to preserve all 92 official Scouting America Vimeo video links and PDF worksheets across 18 badges; Layer 2 allowlists NANPA toll-free prefixes `800/888/877/866/855/844/833` and canonical emergency/institutional hotlines `1-800-222-1222` Poison Control on First Aid Slide 3, `911`, `988`, `800-323-0736` BSA Scout Shop, `202-633-1000` Smithsonian; Layer 3 applies a `±55`-char institutional vs. personal hotword window while redacting personal phone numbers to `[REDACTED_PHONE]`), HMAC-SHA256 HITL gate, dedicated least-privilege IAM SAs (`terraform/iam.tf`, `memory_limit = "4Gi"`) | `src/agents/guardrails.py`, `src/observability/logging_setup.py`, `terraform/main.tf`, `terraform/iam.tf` |
 | **Resilience, Load Testing & Observability** | 3-state circuit breaker (`CLOSED -> OPEN -> HALF_OPEN`), exponential backoff with jitter, `/health` and `/readiness` probes, Honest Dual Latency (`first_status_event_ms` vs. `true_first_content_token_ms`), 5% `OnlineProductionAuditSampler`, and concurrent load testing (`tests/load/load_test.py` and `tests/load/locustfile.py`) | `src/observability/telemetry.py`, `src/observability/online_audit_sampler.py`, `tests/load/locustfile.py` |
-| **FinOps & Asset Hydration** | `5,625` pre-bundled visual assets across `149` badges (`$0.00` runtime image cost, `$0.184` cold deck, `$192.50/mo` 500-counselor Council TCO), `$1.00` `FinOpsBudgetPlugin` hard cap, plus per-badge concurrent GitHub Raw batch asset hydrator for lightweight bundle checkouts | `scripts/cost_model.py`, `src/tools/asset_hydrator.py` |
+| **FinOps & Asset Hydration** | `5,607` pre-bundled visual assets across `149` badges (`$0.00` runtime image cost, `$0.184` cold deck, `$192.50/mo` 500-counselor Council TCO), `$1.00` `FinOpsBudgetPlugin` hard cap, plus per-badge concurrent GitHub Raw batch asset hydrator for lightweight bundle checkouts | `scripts/cost_model.py`, `src/tools/asset_hydrator.py` |

@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Law Tell Some of Its)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -64,7 +64,13 @@
           "2. Tell some of its sources.",
           "3. Describe the functions it serves."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Laws only exist as written criminal statutes passed by Congress or state legislatures.",
@@ -216,7 +222,7 @@
         {
           "sub_id": "2a",
           "label": "(a)",
-          "text": "Justinian's Code, the Code of Hammurabi, and the Magna Carta.",
+          "text": "Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the jury system (c) Two famous trials in history.",
           "resources": [
             {
               "title": "Code of Justinian (website)",
@@ -243,7 +249,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Justinian's Code the Code of)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -255,12 +261,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Justinian's Code, the Code of Hammurabi, and the Magna Carta"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Justinian's Code, the Code of Hammurabi, and the Magna Carta"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
@@ -290,7 +306,7 @@
           ],
           "id": "2a",
           "sub_req_label": "2a",
-          "sub_req_text": "Justinian's Code, the Code of Hammurabi, and the Magna Carta.",
+          "sub_req_text": "Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the jury system (c) Two famous trials in history.",
           "topic_title": "Req 2a: Ancient Codifications of Law",
           "pamphlet_summary": "Ancient legal documents transitioned civilizations from arbitrary executive edicts to standardized written statutory principles. They established precedents for property preservation, standardized penalties, and procedural fairness under the law.",
           "pamphlet_excerpts": [
@@ -299,12 +315,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/law_p007_img1.png",
           "title": "Req 2a: Ancient Codes and Magna Carta",
           "workbook_diagram_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
-          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box."
+          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
+          "socratic_questions": [
+            "For law Requirement 2a (Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
           "label": "(b)",
-          "text": "The development of the jury system.",
+          "text": "The development of the jury system (c) Two famous trials in history.",
           "resources": [
             {
               "title": "Origins of Modern Jury System (website)",
@@ -315,7 +334,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Development of the Jury System)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -327,12 +346,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The development of the jury system"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The development of the jury system"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
@@ -362,7 +391,7 @@
           ],
           "id": "2b",
           "sub_req_label": "2b",
-          "sub_req_text": "The development of the jury system.",
+          "sub_req_text": "The development of the jury system (c) Two famous trials in history.",
           "topic_title": "Req 2b: Development of Modern Juries",
           "pamphlet_summary": "The jury system developed through English common law as a fundamental check against executive overreach. It guarantees that criminal guilt or civil liability is determined by a representative panel of peers.",
           "pamphlet_excerpts": [
@@ -370,7 +399,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p018_img1.png",
           "workbook_diagram_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
-          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box."
+          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
+          "socratic_questions": [
+            "For law Requirement 2b (The development of the jury system (c) Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -386,7 +418,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Famous Trials in History)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -398,12 +430,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Two famous trials in history"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Two famous trials in history"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)",
           "common_misconception_pair": {
@@ -441,7 +483,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p018_img1.png",
           "workbook_diagram_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
-          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box."
+          "workbook_visual_caption": "A lawyer presents legal arguments to empaneled citizens seated in a jury box.",
+          "socratic_questions": [
+            "For law Requirement 2c (Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -492,7 +537,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Law Origins and Evolution)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -513,7 +558,13 @@
           "2. (2b) The development of the jury system",
           "3. (2c) Two famous trials in history"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Trial by jury and codified statutory rights have existed in their current form since antiquity.",
@@ -690,7 +741,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Civil Law Is Tell What)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Private Remedies in Civil Lawsuits",
@@ -713,7 +764,13 @@
           "3. Tell the main differences between them",
           "4. Give examples"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Private Remedies in Civil Lawsuits",
+          "State Prosecution in Criminal Cases"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A single wrongful act can never result in both civil lawsuits and criminal prosecutions.",
@@ -881,7 +938,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Ask Five People Not More)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -902,7 +959,13 @@
           "2. Discuss their answers with them.",
           "3. Report your findings to your counselor."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Police officers spend nearly all their active shifts arresting violent felons in high-speed tactical situations.",
@@ -1075,7 +1138,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Several)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1094,7 +1157,13 @@
           "1. Discuss with your counselor several laws that were passed to protect the consumer and the seller.",
           "2. Describe several organizations that provide help to consumers and sellers."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The principle of buyer beware still leaves modern consumers completely unprotected against fraudulent business practices.",
@@ -1252,7 +1321,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Session of A Civil or)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1271,7 +1340,12 @@
               "1. Attend a session of a civil or criminal court.",
               "2. Write 250 words or more on what you saw."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)",
           "common_misconception_pair": {
@@ -1310,7 +1384,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/law_p056_img1.png",
           "title": "Req 6a: Live Court Session Observation",
           "workbook_diagram_caption": "A young advocate references an evidence display chart during a mock trial session.",
-          "workbook_visual_caption": "A young advocate references an evidence display chart during a mock trial session."
+          "workbook_visual_caption": "A young advocate references an evidence display chart during a mock trial session.",
+          "socratic_questions": [
+            "For law Requirement 6a (Attend a session of a civil or criminal court. Write 250 words or more on what you saw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1330,7 +1407,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Mock Trial with Your Troop)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1349,7 +1426,13 @@
               "1. Plan and conduct a mock trial with your troop, school class, or other group.",
               "2. After the trial is over, discuss it with the group."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)",
           "common_misconception_pair": {
@@ -1387,7 +1470,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p056_img1.png",
           "workbook_diagram_caption": "A young advocate references an evidence display chart during a mock trial session.",
-          "workbook_visual_caption": "A young advocate references an evidence display chart during a mock trial session."
+          "workbook_visual_caption": "A young advocate references an evidence display chart during a mock trial session.",
+          "socratic_questions": [
+            "For law Requirement 6b (Plan and conduct a mock trial with your troop, school class, or other group. After the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1418,7 +1504,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Session of A Civil or)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1437,7 +1523,12 @@
           "1. (6a) Attend a session of a civil or criminal court",
           "2. (6b) Plan and conduct a mock trial with your troop, school class, or other group"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Courtroom trials feature sudden surprise witnesses and uninhibited emotional outbursts like fictional television dramas.",
@@ -1605,7 +1696,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Arrange A Visit with A)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1626,7 +1717,12 @@
           "2. Find out his or her duties and responsibilities.",
           "3. Report what you have learned."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every practicing lawyer spends their workweek arguing cases before juries inside a courtroom.",
@@ -1799,7 +1895,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Becoming A Lawyer in Your)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1818,7 +1914,13 @@
           "1. Explain the requirements for becoming a lawyer in your state.",
           "2. Describe how judges are selected in your state."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any college graduate can immediately take the bar examination and begin practicing law anywhere.",
@@ -1991,7 +2093,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist (Jobs That Deal with Some)",
+        "table_title": "Req 9 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2012,7 +2114,13 @@
           "2. Tell which you prefer",
           "3. Core principles and practical standards for Careers Across the Legal System"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The only meaningful career paths within the legal system involve becoming a lawyer or a judge.",
@@ -2193,7 +2301,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Legal Aid Resources and Counsel Access)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2212,7 +2320,13 @@
           "1. Tell where people can go to obtain the help of a lawyer if they are unable to pay for one.",
           "2. Tell what you can do if you can afford a lawyer but do not know of any in your area."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The government provides free court-appointed attorneys to anyone who cannot afford one in any lawsuit.",
@@ -2364,7 +2478,7 @@
         {
           "sub_id": "11a",
           "label": "(a)",
-          "text": "Administrative.",
+          "text": "Administrative (b) Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental.",
           "resources": [
             {
               "title": "Understanding Administrative Law (website)",
@@ -2379,7 +2493,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11a Structured Technical Study & Explanation Matrix (Law Administrative Principles)",
+            "table_title": "Req 11a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2391,12 +2505,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Administrative"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Administrative"
+              "1. Req 11a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2426,7 +2550,7 @@
           ],
           "id": "11a",
           "sub_req_label": "11a",
-          "sub_req_text": "Administrative.",
+          "sub_req_text": "Administrative (b) Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental.",
           "topic_title": "Req 11a: Administrative Regulatory Jurisprudence",
           "pamphlet_summary": "Administrative law governs the creation, operation, and public oversight of government agencies. It ensures agencies adhere to statutory authority and procedural fairness when issuing regulations.",
           "pamphlet_excerpts": [
@@ -2434,12 +2558,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p030_img1.png",
           "workbook_diagram_caption": "Weapons often feature in criminal law investigations and statutory restrictions.",
-          "workbook_visual_caption": "Weapons often feature in criminal law investigations and statutory restrictions."
+          "workbook_visual_caption": "Weapons often feature in criminal law investigations and statutory restrictions.",
+          "socratic_questions": [
+            "For law Requirement 11a (Administrative (b) Alternative Dispute Resolution (c) Bankruptcy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
           "label": "(b)",
-          "text": "Alternative Dispute Resolution.",
+          "text": "Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental (f) Family.",
           "resources": [
             {
               "title": "Alternative Dispute Resolution (website)",
@@ -2454,7 +2581,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Alternative Dispute Resolution)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2466,12 +2593,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Alternative Dispute Resolution"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Alternative Dispute Resolution"
+              "1. Req 11b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2501,7 +2638,7 @@
           ],
           "id": "11b",
           "sub_req_label": "11b",
-          "sub_req_text": "Alternative Dispute Resolution.",
+          "sub_req_text": "Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental (f) Family.",
           "topic_title": "Req 11b: Alternative Dispute Resolution Frameworks",
           "pamphlet_summary": "Alternative dispute resolution offers collaborative mediation and binding arbitration to resolve disputes outside public courts. These mechanisms reduce litigation expenses, preserve confidentiality, and resolve conflicts more swiftly.",
           "pamphlet_excerpts": [
@@ -2509,12 +2646,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11b (Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11c",
           "label": "(c)",
-          "text": "Bankruptcy.",
+          "text": "Bankruptcy (d) Biotechnology (e) Environmental (f) Family (g) Immigration.",
           "resources": [
             {
               "title": "Bankruptcy Basics (website)",
@@ -2529,7 +2669,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11c Structured Technical Study & Explanation Matrix (Law Bankruptcy Principles)",
+            "table_title": "Req 11c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2541,12 +2681,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Bankruptcy"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Bankruptcy"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2576,7 +2726,7 @@
           ],
           "id": "11c",
           "sub_req_label": "11c",
-          "sub_req_text": "Bankruptcy.",
+          "sub_req_text": "Bankruptcy (d) Biotechnology (e) Environmental (f) Family (g) Immigration.",
           "topic_title": "Req 11c: Bankruptcy and Debt Restructuring",
           "pamphlet_summary": "Bankruptcy law provides overburdened debtors a fresh financial start while ensuring equitable asset distribution among creditors. Federal bankruptcy courts manage debt reorganization, orderly liquidation, and creditor repayment plans.",
           "pamphlet_excerpts": [
@@ -2584,12 +2734,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11c (Bankruptcy (d) Biotechnology (e) Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11d",
           "label": "(d)",
-          "text": "Biotechnology.",
+          "text": "Biotechnology (e) Environmental (f) Family (g) Immigration (h) Information Technology.",
           "resources": [
             {
               "title": "What Is Biotechnology Law? (website)",
@@ -2604,7 +2757,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11d Structured Technical Study & Explanation Matrix (Law Biotechnology Principles)",
+            "table_title": "Req 11d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2616,12 +2769,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Biotechnology"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Biotechnology"
+              "1. Req 11d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2651,7 +2814,7 @@
           ],
           "id": "11d",
           "sub_req_label": "11d",
-          "sub_req_text": "Biotechnology.",
+          "sub_req_text": "Biotechnology (e) Environmental (f) Family (g) Immigration (h) Information Technology.",
           "topic_title": "Req 11d: Biotechnology and Genetic Regulation",
           "pamphlet_summary": "Biotechnology law addresses the legal and ethical dilemmas arising from genetic research, pharmaceutical innovation, and bioengineering. It balances commercial patent protections against public safety regulations and ethical bioethics standards.",
           "pamphlet_excerpts": [
@@ -2659,12 +2822,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11d (Biotechnology (e) Environmental (f) Family), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11e",
           "label": "(e)",
-          "text": "Environmental.",
+          "text": "Environmental (f) Family (g) Immigration (h) Information Technology.",
           "resources": [
             {
               "title": "Environmental Law: A Short Introduction (video)",
@@ -2675,7 +2841,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11e Structured Technical Study & Explanation Matrix (Law Environmental Principles)",
+            "table_title": "Req 11e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2687,12 +2853,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Environmental"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Environmental"
+              "1. Req 11e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2722,7 +2898,7 @@
           ],
           "id": "11e",
           "sub_req_label": "11e",
-          "sub_req_text": "Environmental.",
+          "sub_req_text": "Environmental (f) Family (g) Immigration (h) Information Technology.",
           "topic_title": "Req 11e: Environmental Conservation Statutes",
           "pamphlet_summary": "Environmental law regulates the impact of human enterprise on air quality, water resources, and endangered species. It enforces statutory pollution standards, cleanup liability, and public environmental impact reporting.",
           "pamphlet_excerpts": [
@@ -2730,12 +2906,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11e (Environmental (f) Family (g) Immigration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11f",
           "label": "(f)",
-          "text": "Family.",
+          "text": "Family (g) Immigration (h) Information Technology.",
           "resources": [
             {
               "title": "Family Law (website)",
@@ -2750,7 +2929,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11f Structured Technical Study & Explanation Matrix (Law Family Principles)",
+            "table_title": "Req 11f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2762,12 +2941,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Family Domestic Relations Law"
+              "1. Req 11f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Family Domestic Relations Law"
+              "1. Req 11f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2797,7 +2986,7 @@
           ],
           "id": "11f",
           "sub_req_label": "11f",
-          "sub_req_text": "Family.",
+          "sub_req_text": "Family (g) Immigration (h) Information Technology.",
           "topic_title": "Req 11f: Domestic and Family Jurisprudence",
           "pamphlet_summary": "Family law addresses legal domestic relationships including marriage, divorce, child custody, adoption, and child support. It emphasizes the welfare of minor children and equitable division of domestic property.",
           "pamphlet_excerpts": [
@@ -2805,12 +2994,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11f (Family (g) Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11g",
           "label": "(g)",
-          "text": "Immigration.",
+          "text": "Immigration (h) Information Technology.",
           "resources": [
             {
               "title": "Immigration Law (website)",
@@ -2825,7 +3017,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11g Structured Technical Study & Explanation Matrix (Law Immigration Principles)",
+            "table_title": "Req 11g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2837,12 +3029,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Immigration"
+              "1. Req 11g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Immigration"
+              "1. Req 11g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2872,7 +3074,7 @@
           ],
           "id": "11g",
           "sub_req_label": "11g",
-          "sub_req_text": "Immigration.",
+          "sub_req_text": "Immigration (h) Information Technology.",
           "topic_title": "Req 11g: Immigration and Border Governance",
           "pamphlet_summary": "Immigration law regulates the legal entry, naturalization, visa categories, and removal of non-citizens. Federal statutes balance national economic needs, border security mandates, and international humanitarian asylum standards.",
           "pamphlet_excerpts": [
@@ -2880,7 +3082,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11g (Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11h",
@@ -2900,7 +3105,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11h Structured Technical Study & Explanation Matrix (Information Technology)",
+            "table_title": "Req 11h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2912,12 +3117,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Information Technology"
+              "1. Req 11h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Information Technology"
+              "1. Req 11h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -2955,12 +3170,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11h (Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11i",
           "label": "(i)",
-          "text": "Intellectual Property (Copyright, Patents, and Trademarks)",
+          "text": "Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy.",
           "resources": [
             {
               "title": "Intellectual Property Law (website)",
@@ -2975,7 +3193,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11i Structured Technical Study & Explanation Matrix (Intellectual Property Copyright Patents and)",
+            "table_title": "Req 11i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2987,12 +3205,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Intellectual Property (Copyright, Patents, and Trademarks)"
+              "1. Req 11i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11i Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Intellectual Property (Copyright, Patents, and Trademarks)"
+              "1. Req 11i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11i Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -3022,7 +3250,7 @@
           ],
           "id": "11i",
           "sub_req_label": "11i",
-          "sub_req_text": "Intellectual Property (Copyright, Patents, and Trademarks)",
+          "sub_req_text": "Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy.",
           "topic_title": "Req 11i: Intellectual Property Rights Protection",
           "pamphlet_summary": "Intellectual property law grants exclusive statutory protections for creative works, innovative inventions, and distinctive commercial trademarks. It encourages scientific innovation and artistic production by protecting economic rights.",
           "pamphlet_excerpts": [
@@ -3031,12 +3259,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "title": "Req 11i: Intellectual Property Protections",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11i (Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11j",
           "label": "(j)",
-          "text": "International.",
+          "text": "International (k) Privacy.",
           "resources": [
             {
               "title": "International Law (website)",
@@ -3051,7 +3282,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11j Structured Technical Study & Explanation Matrix (Law International Principles)",
+            "table_title": "Req 11j Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11j Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3063,12 +3294,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. International"
+              "1. Req 11j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11j Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. International"
+              "1. Req 11j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11j Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11j Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -3098,7 +3339,7 @@
           ],
           "id": "11j",
           "sub_req_label": "11j",
-          "sub_req_text": "International.",
+          "sub_req_text": "International (k) Privacy.",
           "topic_title": "Req 11j: International Treaties and Sovereignty",
           "pamphlet_summary": "International law coordinates diplomatic relations, ocean transit treaties, trade agreements, and humanitarian rules between sovereign states. It relies on multilateral treaties, customs, and international tribunals for diplomatic enforcement.",
           "pamphlet_excerpts": [
@@ -3106,7 +3347,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11j (International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11k",
@@ -3126,7 +3370,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11k Structured Technical Study & Explanation Matrix (Law Privacy Principles)",
+            "table_title": "Req 11k Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11k Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3138,12 +3382,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Core principles and practical standards for Individual Privacy Law"
+              "1. Req 11k Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11k Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11k Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Core principles and practical standards for Individual Privacy Law"
+              "1. Req 11k Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11k Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11k Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11k Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)",
           "common_misconception_pair": {
@@ -3181,7 +3435,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/law_p027_img1.png",
           "workbook_diagram_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
-          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations."
+          "workbook_visual_caption": "Posted legal signs warn the public against criminal trespass and civil violations.",
+          "socratic_questions": [
+            "For law Requirement 11k (Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3288,7 +3545,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 11 Structured Technical Study & Explanation Matrix (Discuss Society Areas Process)",
+        "table_title": "Req 11 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 11 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3319,7 +3576,13 @@
           "7. (11g) Law Immigration Principles",
           "8. (11h) Information Technology"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 11 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A general trial lawyer handles patent disputes, international treaties, and environmental regulations using the exact same procedures.",

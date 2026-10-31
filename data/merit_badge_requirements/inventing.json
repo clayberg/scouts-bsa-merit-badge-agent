@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Role of Inventors and Their)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -49,12 +49,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the role of inventors and their inventions in the economic development of the United States"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the role of inventors and their inventions in the economic development of the United States"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
@@ -93,7 +103,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p003_img1.png",
           "title": "Req 1a: Economic Development Through Invention",
           "workbook_diagram_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison.",
-          "workbook_visual_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison."
+          "workbook_visual_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison.",
+          "socratic_questions": [
+            "For inventing Requirement 1a (Explain to your counselor the role of inventors and their inventions in the economic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -113,7 +126,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Inventions and State How They)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -125,12 +138,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. List three inventions and state how they have helped humankind"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. List three inventions and state how they have helped humankind"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)",
           "common_misconception_pair": {
@@ -168,7 +191,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p021_img1.png",
           "workbook_diagram_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison.",
-          "workbook_visual_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison."
+          "workbook_visual_caption": "Historical sketches illustrate early light bulb designs pioneered by Thomas Edison.",
+          "socratic_questions": [
+            "For inventing Requirement 1b (List three inventions and state how they have helped humankind), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -211,7 +237,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Own Words Define Inventing Then)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -230,7 +256,13 @@
           "1. (1a) Explain to your counselor the role of inventors and their inventions in the economic development of the United States",
           "2. (1b) List three inventions and state how they have helped humankind"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inventing requires discovering a brand new scientific law rather than engineering a practical solution.",
@@ -393,7 +425,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Adult Who Has Invented A)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -412,19 +444,20 @@
               "1. With your parent or guardian's permission and counselor's approval, interview an adult who has invented a useful item or process.",
               "2. Report what you learned to your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
             "misconception": "Inventors build flawless commercial models on their very first physical fabrication attempt.",
             "fact": "Prototyping reveals hidden physical flaws that never appear in two dimensional concept sketches."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Inventing Req 2a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Inventing Merit Badge Hub (Req 2a)",
@@ -456,7 +489,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p007_img1.png",
           "title": "Req 2a: Interviewing an Adult Inventor",
           "workbook_diagram_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design.",
-          "workbook_visual_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design."
+          "workbook_visual_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design.",
+          "socratic_questions": [
+            "For inventing Requirement 2a (With your parent or guardian's permission and counselor's approval, interview an adult who), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -467,7 +503,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Inventors Select the One You)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -486,7 +522,13 @@
               "1. Read about three inventors.",
               "2. Select the one you find most interesting and tell your counselor what you learned."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)",
           "common_misconception_pair": {
@@ -524,7 +566,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p065_img2.png",
           "workbook_diagram_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design.",
-          "workbook_visual_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design."
+          "workbook_visual_caption": "A digital model of a supersonic reconnaissance aircraft displays advanced aerospace design.",
+          "socratic_questions": [
+            "For inventing Requirement 2b (Read about three inventors. Select the one you find most interesting and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -551,7 +596,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Permission Adult Invented Useful)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -570,7 +615,12 @@
           "1. (2a) With your parent or guardian's permission and counselor's approval, interview an adult who has invented a useful item or process",
           "2. (2b) Read about three inventors"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inventing occurs in an instantaneous flash of inspiration without needing deliberate iteration.",
@@ -746,7 +796,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Intellectual Property Explain Which Government)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -765,7 +815,13 @@
               "1. Define the term intellectual property",
               "2. Explain which government agencies oversee the protection of intellectual property, the types of intellectual property that can be protected, how such property is protected, and why protection is necessary"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)",
           "common_misconception_pair": {
@@ -803,7 +859,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p012_img1.png",
           "workbook_diagram_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
-          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights."
+          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
+          "socratic_questions": [
+            "For inventing Requirement 3a (Define the term intellectual property. Explain which government agencies oversee the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -819,7 +878,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Components of A Patent)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -831,12 +890,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the components of a patent and the different types of patents available"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the components of a patent and the different types of patents available"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)",
           "common_misconception_pair": {
@@ -874,7 +943,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p039_img1.png",
           "workbook_diagram_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
-          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights."
+          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
+          "socratic_questions": [
+            "For inventing Requirement 3b (Explain the components of a patent and the different types of patents available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -890,16 +962,16 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 3c Technical Comparison Matrix (Examine Your Scouting Gear)",
+            "table_title": "Req 3c Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "USPTO Patents and Trademark Registrations",
-              "Library of Congress Copyright Protections"
+              "Req 3c Comparison Criterion",
+              "Examine Characteristics & Standards",
+              "Counselor Characteristics & Standards"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "USPTO Patents and Trademark Registrations",
-              "Library of Congress Copyright Protections"
+              "Req 3c Comparison Criterion",
+              "Examine Characteristics & Standards",
+              "Counselor Characteristics & Standards"
             ],
             "row_labels": [
               "1. Examine your Scouting gear and find a patent number on a camping item you have used.",
@@ -913,19 +985,20 @@
               "3. Compare the finished item with the claims and drawings in the patent.",
               "4. Report what you learned to your counselor."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Comparison Criterion",
+              "Examine Characteristics & Standards",
+              "Counselor Characteristics & Standards"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)",
           "common_misconception_pair": {
             "misconception": "Patent numbers on commercial products are secret corporate tracking codes hidden from consumers.",
             "fact": "Official patent databases allow the public to read historical technical drawings and original claims."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Inventing Req 3c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Inventing Merit Badge Hub (Req 3c)",
@@ -956,7 +1029,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p039_img1.png",
           "workbook_diagram_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
-          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights."
+          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
+          "socratic_questions": [
+            "For inventing Requirement 3c (Examine your Scouting gear and find a patent number on a camping item you have used. With), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -972,7 +1048,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Patent Infringement)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -984,12 +1060,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the term patent infringement"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the term patent infringement"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)",
           "common_misconception_pair": {
@@ -1027,7 +1113,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p039_img1.png",
           "workbook_diagram_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
-          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights."
+          "workbook_visual_caption": "A diagram outlines four branches of intellectual property including patents and copyrights.",
+          "socratic_questions": [
+            "For inventing Requirement 3d (Explain to your counselor the term patent infringement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1074,7 +1163,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 3 Technical Comparison Matrix (Intellectual Property Explain Which Government)",
+        "table_title": "Req 3 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "USPTO Patents and Trademark Registrations",
@@ -1097,7 +1186,12 @@
           "3. (3c) Examine Your Scouting Gear",
           "4. (3d) Patent Infringement"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Comparison Dimension",
+          "USPTO Patents and Trademark Registrations",
+          "Library of Congress Copyright Protections"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A patent guarantees the inventor will achieve financial success and government funded manufacturing.",
@@ -1275,7 +1369,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Discuss Inventions Unpatented Invention)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1294,7 +1388,13 @@
           "1. Discuss with your counselor the types of inventions that are appropriate to share with others",
           "2. Tell your counselor about one unpatented invention and its impact on society"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Every useful invention must be patented to provide tangible benefit to the public.",
@@ -1462,7 +1562,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Commercially Available Product That You)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1483,7 +1583,13 @@
           "2. Make recommendations for improving the product, and make a sketch that shows your recommendations.",
           "3. Discuss your recommendations with your counselor."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Improving an existing product always requires adding complex electronic sensors and digital displays.",
@@ -1653,17 +1759,17 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Talk to Potential Users)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
               "1. Talk to potential users of your invention and determine their needs.",
@@ -1675,7 +1781,13 @@
               "2. Then, based on what you have learned, write a statement describing the invention and how it would help solve a problem.",
               "3. This statement should include a detailed sketch of the invention."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)",
           "common_misconception_pair": {
@@ -1713,7 +1825,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p056_img1.png",
           "workbook_diagram_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
-          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session."
+          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
+          "socratic_questions": [
+            "For inventing Requirement 6a (Talk to potential users of your invention and determine their needs. Then, based on what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1729,7 +1844,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Model of the Invention Using)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1748,7 +1863,13 @@
               "1. Create a model of the invention using clay, cardboard, or any other readily available material.",
               "2. List the materials necessary to build a working prototype of the invention."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)",
           "common_misconception_pair": {
@@ -1786,7 +1907,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p056_img1.png",
           "workbook_diagram_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
-          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session."
+          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
+          "socratic_questions": [
+            "For inventing Requirement 6b (Create a model of the invention using clay, cardboard, or any other readily available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1797,7 +1921,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 6c Quantitative Field Observation & Activity Log (Idea and the Model)",
+            "table_title": "Req 6c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1818,7 +1942,14 @@
               "1. Share the idea and the model with your counselor and potential users of your invention.",
               "2. Record their feedback in your notebook."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)",
           "common_misconception_pair": {
@@ -1856,7 +1987,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p056_img1.png",
           "workbook_diagram_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
-          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session."
+          "workbook_visual_caption": "A woman writes down and develops creative ideas in a notebook during a brainstorm session.",
+          "socratic_questions": [
+            "For inventing Requirement 6c (Share the idea and the model with your counselor and potential users of your invention.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1906,17 +2040,17 @@
       "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)",
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Think of An Item You)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (6a) Talk to potential users of your invention and determine their needs",
@@ -1928,7 +2062,13 @@
           "2. (6b) Create a model of the invention using clay, cardboard, or any other readily available material",
           "3. (6c) Share the idea and the model with your counselor and potential users of your invention"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inventors can design perfect solutions for users without ever consulting them directly.",
@@ -2101,7 +2241,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist (Working Prototype of the Item)",
+        "table_title": "Req 7 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2124,18 +2264,19 @@
           "3. Among the aspects to consider in your evaluation are cost, usefulness, marketability, appearance, and function.",
           "4. Describe how your original vision and expectations for your invention are similar or dissimilar to the prototype you built."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A working prototype that operates successfully once will never fail during regular daily use.",
         "fact": "Testing reveals unexpected component stress and material fatigue under repeated real world operation."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Inventing Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Inventing Merit Badge Hub (Req 7)",
@@ -2296,7 +2437,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Club or Team Robotics Team)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2315,7 +2456,13 @@
               "1. Participate with a club or team (robotics team, science club, or engineering club) that builds a useful item.",
               "2. Share your experience with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84)",
           "common_misconception_pair": {
@@ -2353,7 +2500,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p054_img1.png",
           "workbook_diagram_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool.",
-          "workbook_visual_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool."
+          "workbook_visual_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool.",
+          "socratic_questions": [
+            "For inventing Requirement 8a (Participate with a club or team (robotics team, science club, or engineering club) that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2381,7 +2531,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Museum or Exhibit Dedicated)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2393,12 +2543,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation of your visit to share with a group such as your troop or patrol"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation of your visit to share with a group such as your troop or patrol"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84)",
           "common_misconception_pair": {
@@ -2436,7 +2595,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/inventing_p054_img1.png",
           "workbook_diagram_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool.",
-          "workbook_visual_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool."
+          "workbook_visual_caption": "A line drawing details the folding components and versatile jaws of a pocket multi-tool.",
+          "socratic_questions": [
+            "For inventing Requirement 8b (Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2483,7 +2645,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Club or Team Robotics Team)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2502,7 +2664,12 @@
           "1. (8a) Club or Team Robotics Team",
           "2. (8b) Museum or Exhibit Dedicated"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Individual inventors always accomplish more progress working isolated from collaborative multidisciplinary teams.",
@@ -2704,7 +2871,13 @@
           "2. Discuss how you can prepare yourself to be creative and inventive to solve problems at home, in school, and in your community.",
           "3. Discuss three career fields that might utilize the skills of an inventor."
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inventors only need natural mechanical talent without formal study in science, math, or business.",

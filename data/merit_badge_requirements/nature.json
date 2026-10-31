@@ -48,7 +48,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Are Important to Animals)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -67,7 +67,13 @@
           "1. Name three ways in which plants are important to animals.",
           "2. Name a plant that is protected in your state or region, and explain why it is at risk."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Plants only provide shelter and shade rather than acting as primary food and oxygen sources.",
@@ -240,7 +246,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Animals Are Important)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -259,7 +265,13 @@
           "1. Name three ways in which animals are important to plants.",
           "2. Name an animal that is protected in your state or region, and explain why it is at risk."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Plants can reproduce and spread seeds across ecosystems entirely without any animal interaction.",
@@ -436,7 +448,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Food Chain)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -448,12 +460,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain"
+          "1. Trophic Dynamics",
+          "2. Terrestrial Sequence",
+          "3. Aquatic Sequence"
         ],
         "rows": [
-          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain"
+          "1. Trophic Dynamics",
+          "2. Terrestrial Sequence",
+          "3. Aquatic Sequence"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Apex predators sit at the top of food chains with infinite energy accumulated from lower levels.",
@@ -626,7 +648,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(1) Structured Technical Study & Explanation Matrix (Field Identify Eight Species of)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -638,12 +660,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. In the field, identify eight species of birds"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. In the field, identify eight species of birds"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -709,7 +741,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (Out A Birdhouse OR A)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -728,7 +760,13 @@
                   "1. Make and set out a birdhouse OR a feeding station OR a birdbath.",
                   "2. List what birds used it during a period of one month."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -776,7 +814,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Birds Field Species Birds)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -795,7 +833,13 @@
               "1. (4a(1)) In the field, identify eight species of birds",
               "2. (4a(2)) Make and set out a birdhouse OR a feeding station OR a birdbath"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -833,7 +877,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4a (Birds. Do ALL of the following: (1) In the field, identify eight species of birds. (2) Make), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -859,7 +906,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(1) Structured Technical Study & Explanation Matrix (Field Identify Three Species of)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -871,12 +918,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. In the field, identify three species of wild mammals"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. In the field, identify three species of wild mammals"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -938,7 +995,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(2) Structured Technical Study & Explanation Matrix (Plaster Wild Mammal)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -950,12 +1007,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Make plaster casts of the tracks of a wild mammal"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Make plaster casts of the tracks of a wild mammal"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1002,7 +1069,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Mammals Field Species Wild)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1021,7 +1088,13 @@
               "1. (4b(1)) In the field, identify three species of wild mammals",
               "2. (4b(2)) Make plaster casts of the tracks of a wild mammal"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -1059,7 +1132,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4b (Mammals. Do ALL of the following: (1) In the field, identify three species of wild mammals.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1085,7 +1161,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(1) Structured Technical Study & Explanation Matrix (You Can Recognize the Venomous)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1097,12 +1173,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Show that you can recognize the venomous snakes in your area"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Show that you can recognize the venomous snakes in your area"
+                  "1. Req 4c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1163,7 +1249,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(2) Structured Technical Study & Explanation Matrix (Field Identify Three Species of)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1175,12 +1261,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. In the field, identify three species of reptiles or amphibians"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. In the field, identify three species of reptiles or amphibians"
+                  "1. Req 4c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1242,7 +1338,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4c(3) Structured Technical Study & Explanation Matrix (Recognize One Species of Toad)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Req 4c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1261,7 +1357,13 @@
                   "1. Recognize one species of toad or frog by voice",
                   "2. OR identify one reptile or amphibian by eggs, den, burrow, or other signs"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1308,7 +1410,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Reptiles and Amphibians)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1329,7 +1431,13 @@
               "2. (4c(2)) In the field, identify three species of reptiles or amphibians",
               "3. (4c(3)) Recognize one species of toad or frog by voice"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -1367,7 +1475,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4c (Reptiles and Amphibians. Do ALL of the following: (1) Show that you can recognize the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1389,7 +1500,7 @@
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(1) Structured Technical Study & Explanation Matrix (Field or Through Photographs Species)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1408,7 +1519,13 @@
                   "1. Collect and identify either in the field or through photographs 10 species of insects or spiders.",
                   "2. Photos may be taken with your own equipment or gathered from other sources."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1473,7 +1590,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "TIME_SERIES_LOG_TABLE",
-                "table_title": "Req 4d(2) Quantitative Field Observation & Activity Log (Hatch An Insect from the)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Log Entry / Milestone",
                   "Date, Location & Conditions",
@@ -1498,7 +1615,14 @@
                   "3. OR keep larvae until they form pupae or cocoons",
                   "4. OR keep a colony of ants or bees through one season"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Log Entry / Milestone",
+                  "Date, Location & Conditions",
+                  "Recorded Measurements & Quantitative Data",
+                  "Analysis & Verification"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1546,7 +1670,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4d Quantitative Field Observation & Activity Log (Insects and Spiders)",
+            "table_title": "Req 4d Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1567,7 +1691,14 @@
               "1. (4d(1)) Collect and identify either in the field or through photographs 10 species of insects or spiders",
               "2. (4d(2)) Hatch an insect from the pupa or cocoon"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -1605,7 +1736,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4d (Insects and Spiders. Do ALL of the following: (1) Collect and identify either in the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1627,7 +1761,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4e(1) Structured Technical Study & Explanation Matrix (Species of Fish Native)",
+                "table_title": "Req 4e",
                 "headers": [
                   "Req 4e(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1639,12 +1773,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify two species of fish native to your area"
+                  "1. Req 4e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4e(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify two species of fish native to your area"
+                  "1. Req 4e(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4e(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4e(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4e(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1701,7 +1845,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4e(2) Structured Technical Study & Explanation Matrix (Animal Food Eaten by Fish)",
+                "table_title": "Req 4e",
                 "headers": [
                   "Req 4e(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1713,12 +1857,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Collect four kinds of animal food eaten by fish in the wild"
+                  "1. Req 4e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4e(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Collect four kinds of animal food eaten by fish in the wild"
+                  "1. Req 4e(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4e(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4e(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4e(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1765,7 +1919,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Fish Species Fish Native)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1784,7 +1938,13 @@
               "1. (4e(1)) Species of Fish Native",
               "2. (4e(2)) Animal Food Eaten By Fish"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -1822,7 +1982,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4e (Fish. Do ALL of the following: (1) Identify two species of fish native to your area. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1848,7 +2011,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4f(1) Structured Technical Study & Explanation Matrix (Species of Mollusks and Crustaceans)",
+                "table_title": "Req 4f",
                 "headers": [
                   "Req 4f(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1860,12 +2023,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Identify five species of mollusks and crustaceans"
+                  "1. Req 4f(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4f(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4f(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Identify five species of mollusks and crustaceans"
+                  "1. Req 4f(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4f(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4f(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4f(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1926,7 +2099,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4f(2) Structured Technical Study & Explanation Matrix (Nature Shells Principles)",
+                "table_title": "Req 4f",
                 "headers": [
                   "Req 4f(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1938,12 +2111,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Collect, mount, and label six shells"
+                  "1. Req 4f(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4f(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4f(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Collect, mount, and label six shells"
+                  "1. Req 4f(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4f(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4f(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4f(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -1990,7 +2173,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Mollusks and Crustaceans)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2009,7 +2192,13 @@
               "1. (4f(1)) Species of Mollusks and Crustaceans",
               "2. (4f(2)) Nature Shells Principles"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -2047,7 +2236,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4f (Mollusks and Crustaceans. Do ALL of the following: (1) Identify five species of mollusks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4g",
@@ -2069,7 +2261,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4g(1) Structured Technical Study & Explanation Matrix (Field Identify Species of Wild)",
+                "table_title": "Req 4g",
                 "headers": [
                   "Req 4g(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2081,12 +2273,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. In the field, identify 15 species of wild plants"
+                  "1. Req 4g(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4g(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4g(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. In the field, identify 15 species of wild plants"
+                  "1. Req 4g(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4g(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4g(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4g(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -2167,7 +2369,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4g(2)(a) Structured Technical Study & Explanation Matrix (Seeds Leaves)",
+                    "table_title": "Req 4g",
                     "headers": [
                       "Req 4g(2)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2179,12 +2381,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Collect and label the seeds of six plants OR the leaves of 12 plants"
+                      "1. Req 4g(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4g(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4g(2)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Collect and label the seeds of six plants OR the leaves of 12 plants"
+                      "1. Req 4g(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4g(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4g(2)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4g(2)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2233,7 +2445,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4g(2)(b) Structured Technical Study & Explanation Matrix (Seeds Leaves Catalog Photos)",
+                    "table_title": "Req 4g",
                     "headers": [
                       "Req 4g(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2245,12 +2457,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos"
+                      "1. Req 4g(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4g(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4g(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos"
+                      "1. Req 4g(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4g(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4g(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4g(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "Make-Up Eligible",
                   "curated_resources": [
@@ -2271,7 +2493,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4g(2) Structured Technical Study & Explanation Matrix (Seeds Leaves Seeds Leaves)",
+                "table_title": "Req 4g",
                 "headers": [
                   "Req 4g(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2290,7 +2512,13 @@
                   "1. (4g(2)(a)) Seeds Leaves",
                   "2. (4g(2)(b)) Seeds Leaves Catalog Photos"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4g(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -2337,7 +2565,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4g Structured Technical Study & Explanation Matrix (Field Identify Species of Wild)",
+            "table_title": "Req 4g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2356,7 +2584,13 @@
               "1. (4g(1)) Field Identify Species of Wild",
               "2. (4g(2)) Seeds Leaves Seeds Leaves"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -2394,7 +2628,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4g (Plants. Do ALL of the following: (1) In the field, identify 15 species of wild plants. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4h",
@@ -2416,7 +2653,7 @@
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4h(1) Structured Technical Study & Explanation Matrix (Soil That Represent Soils High)",
+                "table_title": "Req 4h",
                 "headers": [
                   "Req 4h(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2428,12 +2665,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Collect and identify three different types of soil that represent soils high in sand, clay and humus"
+                  "1. Req 4h(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4h(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4h(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Collect and identify three different types of soil that represent soils high in sand, clay and humus"
+                  "1. Req 4h(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4h(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4h(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4h(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -2494,7 +2741,7 @@
               "syllabus_bucket": "Make-Up Eligible",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4h(2) Structured Technical Study & Explanation Matrix (Rocks from Your Area)",
+                "table_title": "Req 4h",
                 "headers": [
                   "Req 4h(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2506,12 +2753,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Collect and identify five different types of rocks from your area"
+                  "1. Req 4h(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4h(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4h(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Collect and identify five different types of rocks from your area"
+                  "1. Req 4h(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4h(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4h(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4h(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
@@ -2558,7 +2815,7 @@
           "syllabus_bucket": "Make-Up Eligible",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4h Structured Technical Study & Explanation Matrix (Soils and Rocks)",
+            "table_title": "Req 4h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2577,7 +2834,13 @@
               "1. (4h(1)) Soil That Represent Soils High",
               "2. (4h(2)) Rocks From Your Area"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
           "common_misconception_pair": {
@@ -2615,7 +2878,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
           "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+          "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+          "socratic_questions": [
+            "For nature Requirement 4h (Soils and Rocks. Do ALL of the following: (1) Collect and identify three different types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2754,7 +3020,7 @@
       "syllabus_bucket": "Make-Up Eligible",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Fields A Birds)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2787,7 +3053,14 @@
           "7. (4g) Field Identify Species of Wild",
           "8. (4h) Soils and Rocks"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts can fulfill the five study fields by casually observing common domestic pets and backyard landscaping plants.",
@@ -2973,7 +3246,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2992,7 +3265,13 @@
           "1. Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code and how they relate to nature",
           "2. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Leaving biodegradable apple cores or bread crusts along hiking trails does not violate wilderness conservation standards.",
@@ -3159,7 +3438,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Nature Succession Principles)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3171,12 +3450,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what succession is to your counselor"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what succession is to your counselor"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -3214,7 +3503,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p020_img1.png",
           "workbook_diagram_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest.",
-          "workbook_visual_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest."
+          "workbook_visual_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest.",
+          "socratic_questions": [
+            "For nature Requirement 6a (Explain what succession is to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -3230,7 +3522,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Natural Area Forest Grassland Meadow)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3249,7 +3541,12 @@
               "1. Visit a natural area (forest, grassland, meadow, water feature) and explain what stage of succession (both plant and animal) the area is in. Talk",
               "2. Discuss what disturbances or changes have taken place in the past to create this landscape and what changes may occur in the future to change the landscape further"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -3287,7 +3584,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p020_img1.png",
           "workbook_diagram_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest.",
-          "workbook_visual_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest."
+          "workbook_visual_caption": "A small yellow warbler perches among flowering tree branches in an early spring forest.",
+          "socratic_questions": [
+            "For nature Requirement 6b (Visit a natural area (forest, grassland, meadow, water feature) and explain what stage of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3322,7 +3622,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Succession Natural Area Forest)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3341,7 +3641,12 @@
           "1. (6a) Nature Succession Principles",
           "2. (6b) Natural Area Forest Grassland Meadow"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Forests remain completely static and unchanging over centuries unless human timber harvesting clearcuts the land.",
@@ -3540,7 +3845,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
@@ -3578,12 +3889,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/nature_p011_img2.png",
           "workbook_diagram_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats.",
-          "workbook_visual_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats."
+          "workbook_visual_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats.",
+          "socratic_questions": [
+            "For nature Requirement 7a (Identify three career opportunities that would use skills and knowledge in Nature. Pick one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Other Hobbies in Your Journal: The Nature Journal Show (video)",
@@ -3598,7 +3912,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3612,14 +3926,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in Nature to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in Nature to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)",
           "common_misconception_pair": {
@@ -3649,7 +3969,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 7b: Amateur Natural History Pursuits",
           "pamphlet_summary": "Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science.",
           "pamphlet_excerpts": [
@@ -3658,7 +3978,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/nature_p011_img2.png",
           "title": "Req 7b: Lifelong Nature Hobby Planning",
           "workbook_diagram_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats.",
-          "workbook_visual_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats."
+          "workbook_visual_caption": "Boaters paddle across an open lake observing aquatic plants and shoreline habitats.",
+          "socratic_questions": [
+            "For nature Requirement 7b (Identify how you might use the skills and knowledge in Nature to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3724,7 +4047,13 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Nature careers and wildlife hobbies only require casual enthusiasm without scientific methodology or legal permitting knowledge.",

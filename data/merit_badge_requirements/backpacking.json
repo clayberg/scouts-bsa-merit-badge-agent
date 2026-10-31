@@ -51,7 +51,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss the Prevention of and)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -63,12 +63,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss the prevention of and treatment for the health concerns that could occur while backpacking, including hypothermia, heat reactions, frostbite, dehydration, insect stings, tick bites, snakebite, and blisters"
+          "1. Core Temperature Defense",
+          "2. Heat Cramp Resolution",
+          "3. Rapid Blister Prevention"
         ],
         "rows": [
-          "1. Discuss the prevention of and treatment for the health concerns that could occur while backpacking, including hypothermia, heat reactions, frostbite, dehydration, insect stings, tick bites, snakebite, and blisters"
+          "1. Core Temperature Defense",
+          "2. Heat Cramp Resolution",
+          "3. Rapid Blister Prevention"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think shivering means hypothermia has already reached its final and most dangerous stage.",
@@ -231,7 +241,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Basic Essentials to Be Carried)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -243,12 +253,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. List the 10 Scout Basic Essentials to be carried on any backpacking trek and explain why each item is necessary"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. List the 10 Scout Basic Essentials to be carried on any backpacking trek and explain why each item is necessary"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)",
           "common_misconception_pair": {
@@ -286,7 +306,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p007_img1.png",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 2a (List the 10 Scout Basic Essentials to be carried on any backpacking trek and explain why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -302,7 +325,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (You Can Limit the Weight)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -314,12 +337,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe 10 ways you can limit the weight and bulk to be carried in your pack without jeopardizing your health or safety"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe 10 ways you can limit the weight and bulk to be carried in your pack without jeopardizing your health or safety"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 56)",
           "common_misconception_pair": {
@@ -357,7 +390,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p053_img1.png",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 2b (Describe 10 ways you can limit the weight and bulk to be carried in your pack without), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -379,7 +415,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Essential Gear and Weight Control",
-      "action_verb": "Demonstrate",
+      "action_verb": "List",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never leave behind navigation tools, extra warmth, or signaling equipment to chase an arbitrary base weight goal.",
@@ -388,7 +424,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Basic Essentials to Be Carried)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -407,7 +443,13 @@
           "1. (2a) Basic Essentials to Be Carried",
           "2. (2b) You Can Limit The Weight"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe cutting safety gear and first aid supplies is acceptable to lighten pack weight.",
@@ -579,7 +621,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Limits on the Number of)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -591,12 +633,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define limits on the number of backpackers appropriate for a trek crew"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Define limits on the number of backpackers appropriate for a trek crew"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -635,7 +687,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p012_img1.png",
           "title": "Req 3a: Trek Crew Size Limits",
           "workbook_diagram_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
-          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek."
+          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 3a (Define limits on the number of backpackers appropriate for a trek crew), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -655,7 +710,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Trek Crew Should Be Organized)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -667,12 +722,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe how a trek crew should be organized"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe how a trek crew should be organized"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -710,7 +775,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p016_img1.png",
           "workbook_diagram_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
-          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek."
+          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 3b (Describe how a trek crew should be organized), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -721,7 +789,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (You Would Minimize Risk)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -733,12 +801,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell how you would minimize risk on a backpacking trek"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell how you would minimize risk on a backpacking trek"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -777,7 +855,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p016_img1.png",
           "title": "Req 3c: Backcountry Risk Minimization Strategies",
           "workbook_diagram_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
-          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek."
+          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 3c (Tell how you would minimize risk on a backpacking trek), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -793,7 +874,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Emergency Response)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -805,12 +886,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the purpose of an emergency response plan"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the purpose of an emergency response plan"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 17, p. 19)",
           "common_misconception_pair": {
@@ -848,7 +939,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p016_img1.png",
           "workbook_diagram_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
-          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek."
+          "workbook_visual_caption": "A structured trip plan form outlines itinerary, crew roster, and safety details for a trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 3d (Explain the purpose of an emergency response plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -882,7 +976,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Trek Crew Organization Management",
-      "action_verb": "Demonstrate",
+      "action_verb": "Define",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Designate an adult leader and senior youth to make conservative abort decisions whenever severe weather threatens the crew.",
@@ -891,7 +985,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Limits on the Number of)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -914,7 +1008,13 @@
           "3. (3c) Tell how you would minimize risk on a backpacking trek",
           "4. (3d) Explain the purpose of an emergency response plan"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume wilderness emergencies can be resolved entirely through improvisation without advance written plans.",
@@ -1082,7 +1182,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1094,12 +1194,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the importance of following the Leave No Trace Seven Principles and the Outdoor Code while backpacking, and at least five ways you can lessen the crew's impact on the environment"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the importance of following the Leave No Trace Seven Principles and the Outdoor Code while backpacking, and at least five ways you can lessen the crew's impact on the environment"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
@@ -1137,7 +1247,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p063_img2.png",
           "workbook_diagram_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
-          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace."
+          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
+          "socratic_questions": [
+            "For backpacking Requirement 4a (Describe the importance of following the Leave No Trace Seven Principles and the Outdoor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1153,7 +1266,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Handling Human and Other Wastes)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1172,7 +1285,13 @@
               "1. Describe proper methods of handling human and other wastes while on a backpacking trek.",
               "2. Describe the importance of and means to assure personal cleanliness while on a backpacking trek."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
@@ -1210,7 +1329,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p063_img2.png",
           "workbook_diagram_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
-          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace."
+          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
+          "socratic_questions": [
+            "For backpacking Requirement 4b (Describe proper methods of handling human and other wastes while on a backpacking trek.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1226,7 +1348,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Factors Are Important in Choosing)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1238,12 +1360,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell what factors are important in choosing a campsite"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell what factors are important in choosing a campsite"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 61, p. 67)",
           "common_misconception_pair": {
@@ -1281,7 +1413,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p063_img2.png",
           "workbook_diagram_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
-          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace."
+          "workbook_visual_caption": "A camper strains dishwater through a mesh screen to remove solid food bits per Leave No Trace.",
+          "socratic_questions": [
+            "For backpacking Requirement 4c (Tell what factors are important in choosing a campsite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1307,7 +1442,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Environmental Ethics and Sanitation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Describe",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never store food, lip balm, sunscreen, or trash inside sleeping shelters within designated bear country.",
@@ -1316,7 +1451,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1337,7 +1472,13 @@
           "2. (4b) Handling Human and Other Wastes",
           "3. (4c) Factors Are Important in Choosing"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Campers assume biodegradable soap is completely harmless when suds are rinsed directly into alpine lakes.",
@@ -1505,7 +1646,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Treat Water and Tell Why)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1517,12 +1658,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate two ways to treat water and tell why water treatment is essential"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate two ways to treat water and tell why water treatment is essential"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)",
           "common_misconception_pair": {
@@ -1561,7 +1712,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p026_img1.png",
           "title": "Req 5a: Backcountry Water Treatment Methods",
           "workbook_diagram_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms.",
-          "workbook_visual_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms."
+          "workbook_visual_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms.",
+          "socratic_questions": [
+            "For backpacking Requirement 5a (Demonstrate two ways to treat water and tell why water treatment is essential), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1577,7 +1731,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Staying Well-hydrated During A Trek)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1589,12 +1743,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the importance of staying well-hydrated during a trek"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the importance of staying well-hydrated during a trek"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 26, p. 84)",
           "common_misconception_pair": {
@@ -1632,7 +1796,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p026_img1.png",
           "workbook_diagram_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms.",
-          "workbook_visual_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms."
+          "workbook_visual_caption": "Severe lightning flashes across dark storm clouds, highlighting the hazard of open thunderstorms.",
+          "socratic_questions": [
+            "For backpacking Requirement 5b (Explain to your counselor the importance of staying well-hydrated during a trek), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1663,7 +1830,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Treat Water and Tell Why)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1682,7 +1849,13 @@
           "1. (5a) Demonstrate two ways to treat water and tell why water treatment is essential",
           "2. (5b) Explain to your counselor the importance of staying well-hydrated during a trek"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Hikers assume crystal clear mountain runoff flowing over granite rocks is completely safe for unboiled consumption.",
@@ -1850,7 +2023,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (You Can Read Topographic)",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1862,12 +2035,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate that you can read topographic maps"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate that you can read topographic maps"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
@@ -1905,7 +2088,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p014_img1.png",
           "workbook_diagram_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
-          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek."
+          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 6a (Demonstrate that you can read topographic maps), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1921,7 +2107,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Trek Use A Map and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1933,12 +2119,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. While on a trek, use a map and compass to establish your position on the ground at three different locations, OR use a GPS receiver to establish your position"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. While on a trek, use a map and compass to establish your position on the ground at three different locations, OR use a GPS receiver to establish your position"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
@@ -1977,7 +2173,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p014_img1.png",
           "title": "Req 6b: Establishing Position in Field",
           "workbook_diagram_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
-          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek."
+          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 6b (While on a trek, use a map and compass to establish your position on the ground at three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1993,7 +2192,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Stay Found)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2005,12 +2204,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how to stay found, and what to do if you get lost"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how to stay found, and what to do if you get lost"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 74, p. 75)",
           "common_misconception_pair": {
@@ -2048,7 +2257,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p014_img1.png",
           "workbook_diagram_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
-          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek."
+          "workbook_visual_caption": "Three backpackers wearing loaded packs examine a topographic trail map during an outdoor trek.",
+          "socratic_questions": [
+            "For backpacking Requirement 6c (Explain how to stay found, and what to do if you get lost), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2083,7 +2295,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (You Can Read Topographic)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2104,7 +2316,13 @@
           "2. (6b) Establishing Position in Field",
           "3. (6c) Explain how to stay found, and what to do if you get lost"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe the red magnetic needle of a compass points directly toward true geographic north everywhere.",
@@ -2282,7 +2500,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Deal with Inclement Weather)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2294,12 +2512,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Tell how to properly prepare for and deal with inclement weather"
+          "1. Preemptive Rain Shells",
+          "2. Lightning Safety Posture",
+          "3. Wind Chill Mitigation"
         ],
         "rows": [
-          "1. Tell how to properly prepare for and deal with inclement weather"
+          "1. Preemptive Rain Shells",
+          "2. Lightning Safety Posture",
+          "3. Wind Chill Mitigation"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts believe severe hypothermia requires freezing sub-zero temperatures and heavy snowfall to endanger backpackers.",
@@ -2467,7 +2695,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 8a Technical Comparison Matrix (Advantages and Disadvantages)",
+            "table_title": "Req 8a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Pressurized Isobutane Canister Stoves",
@@ -2479,12 +2707,22 @@
               "Refillable Liquid White Gas Stoves"
             ],
             "row_labels": [
-              "1. Explain the advantages and disadvantages of the different types of backpacking stoves using at least three different types of fuel"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the advantages and disadvantages of the different types of backpacking stoves using at least three different types of fuel"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Pressurized Isobutane Canister Stoves",
+              "Refillable Liquid White Gas Stoves"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
@@ -2522,7 +2760,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p053_img1.png",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 8a (Explain the advantages and disadvantages of the different types of backpacking stoves using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2533,7 +2774,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist (You Know)",
+            "table_title": "Req 8b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2556,7 +2797,13 @@
               "3. (video) How To LIGHT a CAMP STOVE!",
               "4. Both Canister and Liquid Fuel Stoves (video)"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
@@ -2594,7 +2841,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p053_img1.png",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 8b (Demonstrate that you know how to operate a backpacking stove safely and to handle liquid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -2605,7 +2855,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Meals Using A Stove and)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2617,12 +2867,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare three meals using a stove and fuel you can carry in a backpack"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Prepare three meals using a stove and fuel you can carry in a backpack"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
@@ -2661,7 +2921,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p053_img1.png",
           "title": "Req 8c: Preparing Three Backcountry Meals",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 8c (Prepare three meals using a stove and fuel you can carry in a backpack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -2677,7 +2940,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist (You Know How to Keep)",
+            "table_title": "Req 8d Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2689,12 +2952,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that you practice proper methods for food storage while on a backpacking trek"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that you practice proper methods for food storage while on a backpacking trek"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 53, p. 54)",
           "common_misconception_pair": {
@@ -2732,7 +3005,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p053_img1.png",
           "workbook_diagram_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
-          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices."
+          "workbook_visual_caption": "A portable liquid fuel camp stove features a warning label about safe outdoor refueling practices.",
+          "socratic_questions": [
+            "For backpacking Requirement 8d (Demonstrate that you know how to keep cooking and eating gear clean and sanitary, and that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2763,7 +3039,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 8 Technical Comparison Matrix (Advantages and Disadvantages)",
+        "table_title": "Req 8 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Pressurized Isobutane Canister Stoves",
@@ -2786,7 +3062,13 @@
           "3. (8c) Prepare three meals using a stove and fuel you can carry in a backpack",
           "4. (8d) Sanitary Dish washing and Food Storage"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Pressurized Isobutane Canister Stoves",
+          "Refillable Liquid White Gas Stoves"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume pressurized fuel canisters function at full heat output regardless of subfreezing temperatures.",
@@ -2949,7 +3231,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9a Structured Technical Study & Explanation Matrix (Includes A Schedule for A)",
+            "table_title": "Req 9a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2968,7 +3250,13 @@
               "1. Write a plan that includes a schedule for a patrol/crew backpacking hike of at least 2 miles.",
               "2. Resources: How To Plan Your First Backpacking Trip (video) Backpacking Trip Schedule (PDF)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -3007,7 +3295,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p041_img1.png",
           "title": "Req 9a: Two-Mile Conditioning Hike Plan",
           "workbook_diagram_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
-          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors."
+          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
+          "socratic_questions": [
+            "For backpacking Requirement 9a (Write a plan that includes a schedule for a patrol/crew backpacking hike of at least 2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9b",
@@ -3027,7 +3318,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9b Structured Technical Study & Explanation Matrix (Prehike Inspection)",
+            "table_title": "Req 9b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3039,12 +3330,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Conduct a prehike inspection of the patrol and its equipment"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Conduct a prehike inspection of the patrol and its equipment"
+              "1. Req 9b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -3082,7 +3383,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p041_img1.png",
           "workbook_diagram_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
-          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors."
+          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
+          "socratic_questions": [
+            "For backpacking Requirement 9b (Conduct a prehike inspection of the patrol and its equipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9c",
@@ -3098,7 +3402,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9c Structured Technical Study & Explanation Matrix (You Know)",
+            "table_title": "Req 9c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3110,12 +3414,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know how to properly pack your personal gear and your share of the crew's gear and food"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know how to properly pack your personal gear and your share of the crew's gear and food"
+              "1. Req 9c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -3153,7 +3467,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p041_img1.png",
           "workbook_diagram_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
-          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors."
+          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
+          "socratic_questions": [
+            "For backpacking Requirement 9c (Show that you know how to properly pack your personal gear and your share of the crew's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9d",
@@ -3169,7 +3486,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9d Structured Technical Study & Explanation Matrix (You Can Properly Shoulder)",
+            "table_title": "Req 9d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3181,12 +3498,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show you can properly shoulder your pack and adjust it for proper wear"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show you can properly shoulder your pack and adjust it for proper wear"
+              "1. Req 9d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -3224,7 +3551,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p041_img1.png",
           "workbook_diagram_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
-          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors."
+          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
+          "socratic_questions": [
+            "For backpacking Requirement 9d (Show you can properly shoulder your pack and adjust it for proper wear), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "9e",
@@ -3235,7 +3565,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 9e Structured Technical Study & Explanation Matrix (You Developed for Requirement 9(a)",
+            "table_title": "Req 9e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 9e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3247,12 +3577,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles"
+              "1. Req 9e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 9e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 9e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 9e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 56, p. 57)",
           "common_misconception_pair": {
@@ -3291,7 +3631,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p041_img1.png",
           "title": "Req 9e: Completing Conditioning Training Hike",
           "workbook_diagram_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
-          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors."
+          "workbook_visual_caption": "A Scout inspects bandages and medical supplies inside a portable zippered first aid kit outdoors.",
+          "socratic_questions": [
+            "For backpacking Requirement 9e (While using the plan you developed for requirement 9(a), carry your fully loaded pack to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3330,7 +3673,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Includes A Schedule for A)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3355,7 +3698,13 @@
           "4. (9d) Show you can properly shoulder your pack and adjust it for proper wear",
           "5. (9e) While using the plan you developed for requirement 9(a), carry your fully loaded pack to complete a hike of at least 2 miles"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts think packing the heaviest gear at the very bottom of the pack provides the best balance.",
@@ -3537,7 +3886,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 10 Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 10 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 10 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3556,7 +3905,13 @@
           "1. Following the Leave No Trace Seven Principles and the Outdoor Code, participate in at least three backpacking treks of at least three days each and at least 15",
           "2. Carry everything you will need throughout the trek"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 10 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume taking day packs while adults transport base camp gear fulfills multi-day backpacking trek requirements.",
@@ -3714,7 +4069,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 11a Quantitative Field Observation & Activity Log (Backpacking Trek)",
+            "table_title": "Req 11a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -3735,7 +4090,14 @@
               "1. Write a plan for a backpacking trek of at least five days using at least three different campsites and covering at least 30 miles",
               "2. Your plan must include a description of and route to the trek area, a schedule (including a daily schedule), a list of food and equipment needs, a safety and emergency plan, and a budget"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
@@ -3773,7 +4135,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p090_img1.png",
           "workbook_diagram_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
-          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking."
+          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
+          "socratic_questions": [
+            "For backpacking Requirement 11a (Write a plan for a backpacking trek of at least five days using at least three different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11b",
@@ -3784,7 +4149,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 11b Structured Technical Study & Explanation Matrix (Leave No Trace and Outdoor Ethics)",
+            "table_title": "Req 11b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 11b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3803,19 +4168,20 @@
               "1. Following the Leave No Trace Seven Principles and the Outdoor Code, take the trek as planned in requirement 11(a) that is at least five full days, covering",
               "2. While on trek, complete at least one service project approved by your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 11b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
             "misconception": "Scouts think establishing a base camp and taking five consecutive day hikes fulfills thirty-mile trek requirements.",
             "fact": "Moving camp across at least three distinct backcountry sites over five days tests crew endurance and camp efficiency."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Backpacking Req 11b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Backpacking Merit Badge Hub (Req 11b)",
@@ -3846,7 +4212,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p090_img1.png",
           "workbook_diagram_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
-          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking."
+          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
+          "socratic_questions": [
+            "For backpacking Requirement 11b (Following the Leave No Trace Seven Principles and the Outdoor Code, take the trek as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "11c",
@@ -3857,7 +4226,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 11c Quantitative Field Observation & Activity Log (Daily Journal During the Trek)",
+            "table_title": "Req 11c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -3871,12 +4240,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Keep a daily journal during the trek that includes a day-by-day description of your activities, including notes about what worked well and thoughts about improvements that could be made for the next trek"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Keep a daily journal during the trek that includes a day-by-day description of your activities, including notes about what worked well and thoughts about improvements that could be made for the next trek"
+              "1. Req 11c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 11c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 11c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Backpacking Merit Badge Pamphlet (p. 16, p. 92)",
           "common_misconception_pair": {
@@ -3914,7 +4294,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/backpacking_p090_img1.png",
           "workbook_diagram_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
-          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking."
+          "workbook_visual_caption": "A pair of telescoping trekking poles provides stability and reduces knee strain while hiking.",
+          "socratic_questions": [
+            "For backpacking Requirement 11c (Keep a daily journal during the trek that includes a day-by-day description of your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -3936,7 +4319,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 11 Quantitative Field Observation & Activity Log (Leave No Trace and Outdoor Ethics)",
+        "table_title": "Req 11 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -3959,7 +4342,13 @@
           "2. (11b) Leave No Trace and Outdoor Ethics",
           "3. (11c) Daily Journal During The Trek"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts assume trail journals are mere personal diaries containing only emotional reflections rather than technical observations.",

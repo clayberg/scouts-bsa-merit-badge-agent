@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (See or Read Three Full-length)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -68,7 +68,13 @@
           "4. If you chose to watch the plays, comment on the acting and the staging",
           "5. Note: Watching plays on television, video, or as a movie is not permitted"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A play review simply summarizes the plot without analyzing technical elements or performances.",
@@ -241,7 +247,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (One-act Will Minutes Must)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -260,7 +266,13 @@
           "1. Write a one-act play that will take at least 10 minutes to perform.",
           "2. The play must have a main character, conflict, and a climax."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Writing a short one-act play does not require defined conflict or structured character motivation.",
@@ -418,7 +430,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Major Part in A Full-length)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -437,7 +449,13 @@
               "1. Act a major part in a full-length play",
               "2. or act a part in three one-act plays"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -475,7 +493,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p012_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3a (Act a major part in a full-length play; or act a part in three one-act plays), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -486,7 +507,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Rehearse and Stage)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -507,7 +528,13 @@
               "2. Cast, rehearse, and stage it.",
               "3. The play must be at least 10 minutes long."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -545,18 +572,21 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3b (Direct a play. Cast, rehearse, and stage it. The play must be at least 10 minutes long), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
           "label": "(c)",
-          "text": "Design the set for a play or a theatrical production. Make a model.",
+          "text": "Design the set for a play or a theatrical production. Make a model of it.",
           "resources": [],
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist (Theatrical Production Make A Model)",
+            "table_title": "Req 3c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -575,7 +605,13 @@
               "1. Design the set for a play or a theatrical production.",
               "2. Make a model."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -605,7 +641,7 @@
           ],
           "id": "3c",
           "sub_req_label": "3c",
-          "sub_req_text": "Design the set for a play or a theatrical production. Make a model.",
+          "sub_req_text": "Design the set for a play or a theatrical production. Make a model of it.",
           "topic_title": "Req 3c: Scenic Design and Scale Modeling",
           "pamphlet_summary": "Scenic design transforms physical stage space into the dramatic environment dictated by the playwright. Building a scaled three-dimensional model communicates sightlines, playing levels, and functional entrance pathways to directors and builders.",
           "pamphlet_excerpts": [
@@ -613,7 +649,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3c (Design the set for a play or a theatrical production. Make a model of it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -624,7 +663,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Costumes for Five Characters)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -636,12 +675,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Design the costumes for five characters in a theatrical production set in a historical time"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Design the costumes for five characters in a theatrical production set in a historical time"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -679,7 +728,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3d (Design the costumes for five characters in a theatrical production set in a historical time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -690,7 +742,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Skill in Hair and Makeup)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -709,7 +761,13 @@
               "1. Show skill in hair and makeup design.",
               "2. Make up yourself or a friend as a historical figure, a clown, an extraterrestrial, or a monster as directed."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -747,7 +805,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3e (Show skill in hair and makeup design. Make up yourself or a friend as a historical figure,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3f",
@@ -758,7 +819,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3f Structured Technical Study & Explanation Matrix (Help with the Building and)",
+            "table_title": "Req 3f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -770,24 +831,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your counselor's approval, help with the building and painting of the scenery for a theatrical production"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your counselor's approval, help with the building and painting of the scenery for a theatrical production"
+              "1. Req 3f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
             "misconception": "Flats and platforms can be assembled with light hobby glue instead of structural fasteners.",
             "fact": "Scenery construction demands plumb framing, secure bracing, and flame-retardant paint treatments for fire safety."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Theater Req 3f preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Theater Merit Badge Hub (Req 3f)",
@@ -819,7 +885,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "title": "Req 3f: Building and Painting Stage Scenery",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3f (With your counselor's approval, help with the building and painting of the scenery for a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3g",
@@ -830,7 +899,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3g Structured Technical Study & Explanation Matrix (Lighting for A Play or)",
+            "table_title": "Req 3g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -849,19 +918,20 @@
               "1. With your counselor's approval, design the lighting for a play",
               "2. or help install, focus, color, program, and operate the lighting for a theatrical production"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
             "misconception": "Stage lighting merely illuminates the stage so the audience can see the actors clearly.",
             "fact": "Lighting designers blend key, fill, and backlight angles to sculpt performers and reveal texture."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Theater Req 3g preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Theater Merit Badge Hub (Req 3g)",
@@ -893,7 +963,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "title": "Req 3g: Designing and Operating Stage Lighting",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3g (With your counselor's approval, design the lighting for a play; or help install, focus,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3h",
@@ -904,7 +977,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3h Structured Technical Study & Explanation Matrix (Help Install Focus Equalize)",
+            "table_title": "Req 3h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -916,24 +989,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your counselor's approval, help install, focus, equalize, program, and operate the sound for a theatrical production"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your counselor's approval, help install, focus, equalize, program, and operate the sound for a theatrical production"
+              "1. Req 3h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
             "misconception": "Live theater sound simply involves turning up speaker volume without frequency equalization.",
             "fact": "Sound engineering balances dynamic vocal microphone equalization with atmospheric soundscapes and rapid cue playback."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Theater Req 3h preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Theater Merit Badge Hub (Req 3h)",
@@ -964,7 +1042,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3h (With your counselor's approval, help install, focus, equalize, program, and operate the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3i",
@@ -975,7 +1056,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3i Structured Technical Study & Explanation Matrix (Serve As the Stage Manager)",
+            "table_title": "Req 3i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -994,7 +1075,13 @@
               "1. Serve as the stage manager for a theatrical production.",
               "2. Document all cues and stage setups in your calling script."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -1032,7 +1119,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3i (Serve as the stage manager for a theatrical production. Document all cues and stage setups), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3j",
@@ -1043,7 +1133,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3j Structured Technical Study & Explanation Matrix (Serve As Musical Director)",
+            "table_title": "Req 3j Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3j Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1055,12 +1145,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Serve as musical director for a musical theater production"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Serve as musical director for a musical theater production"
+              "1. Req 3j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3j Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3j Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)",
           "common_misconception_pair": {
@@ -1098,7 +1198,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p048_img1.png",
           "workbook_diagram_caption": "A student director enthusiastically directs cast members in rehearsal.",
-          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal."
+          "workbook_visual_caption": "A student director enthusiastically directs cast members in rehearsal.",
+          "socratic_questions": [
+            "For theater Requirement 3j (Serve as musical director for a musical theater production), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1125,7 +1228,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor the)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1160,18 +1263,19 @@
           "9. (3i) Serve as the stage manager for a theatrical production",
           "10. (3j) Serve as musical director for a musical theater production"
         ],
-        "min_rows": 10
+        "min_rows": 10,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Backstage crew work is casual and does not require standardized industrial safety practices.",
         "fact": "Theatrical production environments present heavy overhead loads, high voltage electricity, and active mechanical hazards."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Theater Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Theater Merit Badge Hub (Req 3)",
@@ -1323,7 +1427,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (You Have Come Into A)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1342,11 +1446,17 @@
               "1. You have come into a large room.",
               "2. It is full of pictures, furniture, and other things of interest."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
-            "misconception": "A silent observer in a gallery can walk around without reacting to specific items.",
+            "misconception": "A silent observer in a gallery can walkaround without reacting to specific items.",
             "fact": "Establishing a large gallery requires distinct eye tracking, consistent object heights, and expressive spatial reactions."
           },
           "starting_requirement_gate": null,
@@ -1381,7 +1491,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "title": "Req 4a: Exploring an Interesting Room",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4a (You have come into a large room. It is full of pictures, furniture, and other things of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1392,7 +1505,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (You Are Getting on A)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1411,7 +1524,13 @@
               "1. As you are getting on a bus, your books fall into a puddle",
               "2. By the time you pick them up, the bus has driven"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
@@ -1450,7 +1569,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "title": "Req 4b: Dropping Books and Missing Bus",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4b (As you are getting on a bus, your books fall into a puddle. By the time you pick them up,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1461,7 +1583,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (You Have Failed A School)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1480,7 +1602,13 @@
               "1. You have failed a school test.",
               "2. You are talking with your teacher, who does not buy your story."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
@@ -1518,7 +1646,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4c (You have failed a school test. You are talking with your teacher, who does not buy your story), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1529,7 +1660,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (You Are at Camp)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1550,7 +1681,13 @@
               "2. You try to help them pass a cooking test.",
               "3. The Scout learns very slowly."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
@@ -1588,7 +1725,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4d (You are at camp with a new Scout. You try to help them pass a cooking test. The Scout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1599,7 +1739,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (You Are at A Banquet)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1622,7 +1762,13 @@
               "3. You don't like the vegetable.",
               "4. The dessert is ice cream."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
@@ -1660,7 +1806,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4e (You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1671,7 +1820,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (You Are A Circus Performer)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1683,12 +1832,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)",
           "common_misconception_pair": {
@@ -1726,7 +1885,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/theater_p027_img1.png",
           "workbook_diagram_caption": "A youth performs pantomime gestures without props during drama practice.",
-          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice."
+          "workbook_visual_caption": "A youth performs pantomime gestures without props during drama practice.",
+          "socratic_questions": [
+            "For theater Requirement 4f (You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1753,7 +1915,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Mime or Pantomime)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1780,7 +1942,13 @@
           "5. (4e) You are at a banquet",
           "6. (4f) You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pantomime is random arm waving without specific object dimensions, fixed points, or physical weight.",
@@ -1953,7 +2121,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Proscenium Arch Central or Arena)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1965,12 +2133,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the following: proscenium arch, central or arena staging, center stage, stage right, stage left, downstage, upstage, stage crew, flies, portal"
+          "1. Spatial Stage Direction Geometry",
+          "2. Architectural Proscenium Structures",
+          "3. Overhead Rigging Rigidity"
         ],
         "rows": [
-          "1. Explain the following: proscenium arch, central or arena staging, center stage, stage right, stage left, downstage, upstage, stage crew, flies, portal"
+          "1. Spatial Stage Direction Geometry",
+          "2. Architectural Proscenium Structures",
+          "3. Overhead Rigging Rigidity"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Stage directions are based on the audience's point of view rather than the actor's perspective.",

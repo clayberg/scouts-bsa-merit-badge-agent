@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Internet to Find A Blog)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,19 +56,20 @@
               "1. With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy",
               "2. Discuss with your counselor what details in the article were interesting to you, the questions it raises, and what ideas it addresses that you do not understand"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
             "misconception": "Scouts often believe web search results rank articles based solely on technical accuracy.",
             "fact": "Reputable energy journalism reports generation statistics using precise standard electrical and thermal units."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Energy Req 1a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Energy Merit Badge Hub (Req 1a)",
@@ -99,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p003_img1.png",
           "workbook_diagram_caption": "A Scout records fuel economy numbers from an automobile window price sticker.",
-          "workbook_visual_caption": "A Scout records fuel economy numbers from an automobile window price sticker."
+          "workbook_visual_caption": "A Scout records fuel economy numbers from an automobile window price sticker.",
+          "socratic_questions": [
+            "For energy Requirement 1a (With your parent or guardian's permission, use the internet to find a blog, podcast,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -110,7 +114,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (You Have Completed Requirements Through)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -129,7 +133,13 @@
               "1. After you have completed requirements 2 through 8, revisit your source for requirement 1",
               "2. Explain to your counselor what you have learned in completing the requirements that helps you better understand the article"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)",
           "common_misconception_pair": {
@@ -168,7 +178,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/energy_p012_img1.png",
           "title": "Req 1b: Revisiting Initial Energy Research",
           "workbook_diagram_caption": "A Scout records fuel economy numbers from an automobile window price sticker.",
-          "workbook_visual_caption": "A Scout records fuel economy numbers from an automobile window price sticker."
+          "workbook_visual_caption": "A Scout records fuel economy numbers from an automobile window price sticker.",
+          "socratic_questions": [
+            "For energy Requirement 1b (After you have completed requirements 2 through 8, revisit your source for requirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -199,7 +212,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Permission Use the Internet)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -218,7 +231,12 @@
           "1. (1a) With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy",
           "2. (1b) After you have completed requirements 2 through 8, revisit your source for requirement 1"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume popular online energy articles always present scientifically accurate data.",
@@ -414,7 +432,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Devices Use Energy)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -426,12 +444,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
           "common_misconception_pair": {
@@ -469,7 +497,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p007_img1.png",
           "workbook_diagram_caption": "An astronomical telescope collects radiant electromagnetic energy from stars.",
-          "workbook_visual_caption": "An astronomical telescope collects radiant electromagnetic energy from stars."
+          "workbook_visual_caption": "An astronomical telescope collects radiant electromagnetic energy from stars.",
+          "socratic_questions": [
+            "For energy Requirement 2a (Explain how THREE of the following devices use energy, and explain their energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -497,7 +528,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (System Energy Conversions This)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -509,12 +540,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Construct a system that makes at least two energy conversions and explain this to your counselor"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Construct a system that makes at least two energy conversions and explain this to your counselor"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)",
           "common_misconception_pair": {
@@ -552,7 +593,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p038_img1.png",
           "workbook_diagram_caption": "An astronomical telescope collects radiant electromagnetic energy from stars.",
-          "workbook_visual_caption": "An astronomical telescope collects radiant electromagnetic energy from stars."
+          "workbook_visual_caption": "An astronomical telescope collects radiant electromagnetic energy from stars.",
+          "socratic_questions": [
+            "For energy Requirement 2b (Construct a system that makes at least two energy conversions and explain this to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -627,7 +671,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (You Understand Energy Forms and)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -646,7 +690,13 @@
           "1. (2a) Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles",
           "2. (2b) Construct a system that makes at least two energy conversions and explain this to your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume consumed electrical energy disappears permanently from the surrounding physical environment.",
@@ -808,7 +858,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (System That Are Affected)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -820,12 +870,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the parts of the system that are affected by the energy movement"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the parts of the system that are affected by the energy movement"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
@@ -863,7 +923,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p047_img1.png",
           "workbook_diagram_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
-          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb."
+          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
+          "socratic_questions": [
+            "For energy Requirement 3a (Identify the parts of the system that are affected by the energy movement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -874,7 +937,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (System's Primary Source of Energy)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -886,12 +949,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name the system's primary source of energy"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name the system's primary source of energy"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
@@ -929,7 +1002,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p047_img1.png",
           "workbook_diagram_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
-          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb."
+          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
+          "socratic_questions": [
+            "For energy Requirement 3b (Name the system's primary source of energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -940,7 +1016,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Useful Outcomes of the System)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -952,12 +1028,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the useful outcomes of the system"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the useful outcomes of the system"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
@@ -995,7 +1081,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p047_img1.png",
           "workbook_diagram_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
-          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb."
+          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
+          "socratic_questions": [
+            "For energy Requirement 3c (Identify the useful outcomes of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1006,7 +1095,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Energy Losses of the System)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1018,12 +1107,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the energy losses of the system"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the energy losses of the system"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)",
           "common_misconception_pair": {
@@ -1061,7 +1160,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p047_img1.png",
           "workbook_diagram_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
-          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb."
+          "workbook_visual_caption": "A woman replaces an incandescent bulb with an energy-efficient fluorescent bulb.",
+          "socratic_questions": [
+            "For energy Requirement 3d (Identify the energy losses of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1088,7 +1190,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (You Understand Energy Efficiency by)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1111,7 +1213,13 @@
           "3. (3c) Useful Outcomes of The System",
           "4. (3d) Energy Losses of The System"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume ideal mechanical designs can run indefinitely without experiencing any energy loss.",
@@ -1278,7 +1386,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4a Quantitative Field Observation & Activity Log (Energy Used in Your Home)",
+            "table_title": "Req 4a Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1299,7 +1407,14 @@
               "1. List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, and tell how each is delivered and measured, and the current cost",
               "2. OR record the transportation fuel used, miles driven, miles per gallon, and trips using your family car or another vehicle"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
           "common_misconception_pair": {
@@ -1337,7 +1452,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p058_img1.png",
           "workbook_diagram_caption": "A modern building incorporates passive solar heating and energy-smart design.",
-          "workbook_visual_caption": "A modern building incorporates passive solar heating and energy-smart design."
+          "workbook_visual_caption": "A modern building incorporates passive solar heating and energy-smart design.",
+          "socratic_questions": [
+            "For energy Requirement 4a (List the types of energy used in your home such as electricity, wood, oil, liquid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1369,7 +1487,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (You and Your Family)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1392,7 +1510,13 @@
               "3. Explain what is meant by sustainable energy sources",
               "4. Explain how you can change your energy use through reuse and recycling"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)",
           "common_misconception_pair": {
@@ -1430,7 +1554,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p058_img1.png",
           "workbook_diagram_caption": "A modern building incorporates passive solar heating and energy-smart design.",
-          "workbook_visual_caption": "A modern building incorporates passive solar heating and energy-smart design."
+          "workbook_visual_caption": "A modern building incorporates passive solar heating and energy-smart design.",
+          "socratic_questions": [
+            "For energy Requirement 4b (Describe ways you and your family can use energy resources more wisely. In preparing your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1480,7 +1607,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Home Energy Audit Assessment",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1489,7 +1616,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Energy Audit of Your Home)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1510,7 +1637,14 @@
           "1. (4a) Energy Used in Your Home",
           "2. (4b) You and Your Family"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe residential appliances draw electrical power only when actively performing work cycles.",
@@ -1673,7 +1807,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Changes You Suggest Would Lower)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1685,12 +1819,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
           "common_misconception_pair": {
@@ -1728,7 +1872,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p054_img1.png",
           "workbook_diagram_caption": "An electric fan converts electrical power into mechanical airflow to cool air.",
-          "workbook_visual_caption": "An electric fan converts electrical power into mechanical airflow to cool air."
+          "workbook_visual_caption": "An electric fan converts electrical power into mechanical airflow to cool air.",
+          "socratic_questions": [
+            "For energy Requirement 5a (Explain how the changes you suggest would lower costs, reduce pollution, or otherwise), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1744,7 +1891,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Changes to Routines Habits or)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1763,7 +1910,13 @@
               "1. Explain what changes to routines, habits, or convenience are necessary to reduce energy waste.",
               "2. Tell why people might resist the changes you suggest."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)",
           "common_misconception_pair": {
@@ -1802,7 +1955,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/energy_p054_img1.png",
           "title": "Req 5b: Habit Changes and Resistance Factors",
           "workbook_diagram_caption": "An electric fan converts electrical power into mechanical airflow to cool air.",
-          "workbook_visual_caption": "An electric fan converts electrical power into mechanical airflow to cool air."
+          "workbook_visual_caption": "An electric fan converts electrical power into mechanical airflow to cool air.",
+          "socratic_questions": [
+            "For energy Requirement 5b (Explain what changes to routines, habits, or convenience are necessary to reduce energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1833,7 +1989,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Notebook Energy Waste School)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1852,7 +2008,13 @@
           "1. (5a) Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community",
           "2. (5b) Explain what changes to routines, habits, or convenience are necessary to reduce energy waste"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume public buildings waste energy solely due to broken mechanical heating systems.",
@@ -2023,7 +2185,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Energy Resources That Supply the)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2035,12 +2197,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The energy resources that supply the United States with most of its energy"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The energy resources that supply the United States with most of its energy"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
@@ -2079,7 +2251,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "title": "Req 6a: Primary United States Energy Sources",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 6a (The energy resources that supply the United States with most of its energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2099,7 +2274,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Energy Resources Used by the)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2111,12 +2286,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The share of energy resources used by the United States that comes from other countries"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The share of energy resources used by the United States that comes from other countries"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
@@ -2155,7 +2340,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "title": "Req 6b: Imported Energy Resource Shares",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 6b (The share of energy resources used by the United States that comes from other countries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2175,7 +2363,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Proportion of Energy Resources)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2187,12 +2375,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The proportion of energy resources used by homes, businesses, industry, and transportation"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The proportion of energy resources used by homes, businesses, industry, and transportation"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
@@ -2230,7 +2428,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 6c (The proportion of energy resources used by homes, businesses, industry, and transportation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2246,7 +2447,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Fuels Used to Generate America's)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2258,12 +2459,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The fuels used to generate America's electricity"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The fuels used to generate America's electricity"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
@@ -2301,7 +2512,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 6d (The fuels used to generate America's electricity), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2317,7 +2531,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (World's Known and Estimated Primary)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2329,12 +2543,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. The world's known and estimated primary energy resource reserves"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. The world's known and estimated primary energy resource reserves"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)",
           "common_misconception_pair": {
@@ -2372,7 +2596,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 6e (The world's known and estimated primary energy resource reserves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2431,7 +2658,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Pie Charts Showing the Following)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2456,7 +2683,13 @@
           "4. (6d) The fuels used to generate America's electricity",
           "5. (6e) The world's known and estimated primary energy resource reserves"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often assume current national electricity grids run almost entirely on clean renewable power.",
@@ -2608,7 +2841,7 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Biomass digesters or waste-to-energy plants.",
+          "text": "Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants.",
           "resources": [
             {
               "title": "Flexible Clean Energy: Powering Tomorrow with Biomass (video)",
@@ -2619,7 +2852,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Biomass Digesters or Waste-to-energy)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2631,12 +2864,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Biomass digesters or waste-to-energy plants"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Biomass digesters or waste-to-energy plants"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2666,7 +2909,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Biomass digesters or waste-to-energy plants.",
+          "sub_req_text": "Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants.",
           "topic_title": "Req 7a: Biomass Digester Plant Technology",
           "pamphlet_summary": "Scouts evaluate biomass digesters that convert farm manure and food scraps into pipeline-quality biomethane. Capturing methane prevents fugitive emissions while generating reliable, dispatchable renewable base-load power.",
           "pamphlet_excerpts": [
@@ -2674,12 +2917,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p075_img1.png",
           "workbook_diagram_caption": "Hydroelectric dam facilities generate electricity by converting falling water into usable power.",
-          "workbook_visual_caption": "Hydroelectric dam facilities generate electricity by converting falling water into usable power."
+          "workbook_visual_caption": "Hydroelectric dam facilities generate electricity by converting falling water into usable power.",
+          "socratic_questions": [
+            "For energy Requirement 7a (Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
           "label": "(b)",
-          "text": "Cogeneration plants.",
+          "text": "Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants.",
           "resources": [
             {
               "title": "The Combined Cycle Gas Turbine - the World's Most Efficient Power Machine (video)",
@@ -2690,7 +2936,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Energy Cogeneration Principles)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2702,12 +2948,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Cogeneration plants"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Cogeneration plants"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2737,7 +2993,7 @@
           ],
           "id": "7b",
           "sub_req_label": "7b",
-          "sub_req_text": "Cogeneration plants.",
+          "sub_req_text": "Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants.",
           "topic_title": "Req 7b: Combined Heat and Power",
           "pamphlet_summary": "Scouts investigate combined heat and power facilities that produce electricity and process steam simultaneously. Utilizing thermal exhaust doubles fuel efficiency compared to separate conventional generation systems.",
           "pamphlet_excerpts": [
@@ -2745,12 +3001,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7b (Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
           "label": "(c)",
-          "text": "Fossil fuel power plants.",
+          "text": "Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "resources": [
             {
               "title": "From Coal to Clean Energy: A Utility-Scale Milestone in New Mexico (video)",
@@ -2765,7 +3024,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Fossil Fuel Power)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2777,12 +3036,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fossil fuel power plants"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fossil fuel power plants"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2812,7 +3081,7 @@
           ],
           "id": "7c",
           "sub_req_label": "7c",
-          "sub_req_text": "Fossil fuel power plants.",
+          "sub_req_text": "Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "topic_title": "Req 7c: Fossil Fuel Plant Modernization",
           "pamphlet_summary": "Scouts study combined cycle plants and carbon capture systems designed to lower emissions per megawatt-hour. High-efficiency gas turbines provide critical grid balancing support for fluctuating renewable supplies.",
           "pamphlet_excerpts": [
@@ -2820,12 +3089,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7c (Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
           "label": "(d)",
-          "text": "Fuel cells.",
+          "text": "Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "resources": [
             {
               "title": "Fuel Cell Technology - the Future of Clean Energy (video)",
@@ -2836,7 +3108,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Fuel Cells)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2848,12 +3120,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fuel cells"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fuel cells"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2883,7 +3165,7 @@
           ],
           "id": "7d",
           "sub_req_label": "7d",
-          "sub_req_text": "Fuel cells.",
+          "sub_req_text": "Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "topic_title": "Req 7d: Electrochemical Fuel Cell Technology",
           "pamphlet_summary": "Scouts examine proton-exchange membrane fuel cells converting chemical fuels directly into direct current electricity. Fuel cells provide zero-emission motive power for heavy transit vehicles and stationary backup generators.",
           "pamphlet_excerpts": [
@@ -2891,12 +3173,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7d (Fuel cells (e) Geothermal power plants (f) Nuclear power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7e",
           "label": "(e)",
-          "text": "Geothermal power plants.",
+          "text": "Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "resources": [
             {
               "title": "The Secret Behind Iceland's Geothermal Energy (video)",
@@ -2911,7 +3196,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7e Structured Technical Study & Explanation Matrix (Geothermal Power)",
+            "table_title": "Req 7e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2923,12 +3208,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Geothermal power plants"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Geothermal power plants"
+              "1. Req 7e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -2958,7 +3253,7 @@
           ],
           "id": "7e",
           "sub_req_label": "7e",
-          "sub_req_text": "Geothermal power plants.",
+          "sub_req_text": "Geothermal power plants (f) Nuclear power plants (g) Solar power systems.",
           "topic_title": "Req 7e: Geothermal Energy Generation",
           "pamphlet_summary": "Scouts analyze geothermal systems that harness earth heat to produce continuous renewable electrical energy. Closed-loop reinjection wells prevent surface contamination and sustain deep reservoir fluid pressures.",
           "pamphlet_excerpts": [
@@ -2966,12 +3261,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7e (Geothermal power plants (f) Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7f",
           "label": "(f)",
-          "text": "Nuclear power plants.",
+          "text": "Nuclear power plants (g) Solar power systems.",
           "resources": [
             {
               "title": "The Path to a New Era for Nuclear Energy (video)",
@@ -2986,7 +3284,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7f Structured Technical Study & Explanation Matrix (Nuclear Power)",
+            "table_title": "Req 7f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2998,12 +3296,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Nuclear power plants"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Nuclear power plants"
+              "1. Req 7f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -3033,7 +3341,7 @@
           ],
           "id": "7f",
           "sub_req_label": "7f",
-          "sub_req_text": "Nuclear power plants.",
+          "sub_req_text": "Nuclear power plants (g) Solar power systems.",
           "topic_title": "Req 7f: Advanced Nuclear Power Systems",
           "pamphlet_summary": "Scouts review advanced fission designs featuring passive safety systems and accident-tolerant ceramic nuclear fuels. Nuclear plants provide high-capacity, carbon-free baseload electricity with strict regulatory safety standards.",
           "pamphlet_excerpts": [
@@ -3041,7 +3349,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7f (Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7g",
@@ -3057,7 +3368,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7g Structured Technical Study & Explanation Matrix (Solar Power Systems)",
+            "table_title": "Req 7g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3069,12 +3380,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Solar power systems"
+              "1. Req 7g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Solar power systems"
+              "1. Req 7g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -3112,12 +3433,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7g (Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7h",
           "label": "(h)",
-          "text": "Tidal energy, wave energy, or ocean thermal energy conversion devices.",
+          "text": "Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines.",
           "resources": [
             {
               "title": "OTEC: The Huge Ocean Energy Source You've Never Heard of (video)",
@@ -3128,7 +3452,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7h Structured Technical Study & Explanation Matrix (Tidal Energy Wave Energy or)",
+            "table_title": "Req 7h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3140,12 +3464,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tidal energy, wave energy, or ocean thermal energy conversion devices"
+              "1. Req 7h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tidal energy, wave energy, or ocean thermal energy conversion devices"
+              "1. Req 7h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -3175,7 +3509,7 @@
           ],
           "id": "7h",
           "sub_req_label": "7h",
-          "sub_req_text": "Tidal energy, wave energy, or ocean thermal energy conversion devices.",
+          "sub_req_text": "Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines.",
           "topic_title": "Req 7h: Ocean and Tidal Systems",
           "pamphlet_summary": "Scouts investigate tidal barrages, oscillating water columns, and ocean thermal energy conversion heat exchangers. Offshore marine systems face high corrosion and installation expenses but offer predictable power generation.",
           "pamphlet_excerpts": [
@@ -3184,7 +3518,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "title": "Req 7h: Tidal Wave and Ocean Thermal",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7h (Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7i",
@@ -3200,7 +3537,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7i Structured Technical Study & Explanation Matrix (Wind Turbines)",
+            "table_title": "Req 7i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3212,12 +3549,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Wind turbines"
+              "1. Req 7i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7i Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Wind turbines"
+              "1. Req 7i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7i Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)",
           "common_misconception_pair": {
@@ -3255,7 +3602,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/energy_p074_img1.png",
           "workbook_diagram_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
-          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems."
+          "workbook_visual_caption": "An oil pump jack extracts petroleum energy from underground reserves to fuel mechanical systems.",
+          "socratic_questions": [
+            "For energy Requirement 7i (Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3330,7 +3680,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Being Done)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3363,7 +3713,13 @@
           "8. (7h) Tidal energy, wave energy, or ocean thermal energy conversion devices",
           "9. (7i) Wind turbines"
         ],
-        "min_rows": 9
+        "min_rows": 9,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think renewable power systems operate without any environmental impact or safety hazards.",
@@ -3563,7 +3919,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe energy sector employment involves solely outdoor physical labor on drilling rigs.",

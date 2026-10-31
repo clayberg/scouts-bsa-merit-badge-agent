@@ -109,7 +109,7 @@ All `/api/v1/*` routes below also expose backward-compatible `/api/*` aliases in
 | `GET /api/v1/admin/diagnostics/assets` | Returns the 149-Badge Asset Health Matrix (`covers_present`, `emblems_present`, `pdfs_indexed_present`, `total_pamphlet_figures`, `total_nano_banana_heroes`), Prompt SHA-256 Manifest, and Zero-PII Guardrail Audit Log. | Super-User |
 | `POST /api/v1/admin/circuit-breakers/reset` | Resets all downstream circuit breakers back to `CLOSED`. | Super-User |
 | `POST /api/v1/admin/senators/refresh` | Triggers a forced refresh of the 100 U.S. Senators grounding cache (`24h` TTL) or a single state delegation from the Admin Console. | Super-User |
-| `POST /api/v1/admin/maintenance/purge-temp-cache` | Purges temporary web-search scratch files (`assets/badge_image_catalog/_web_search_cache/`) while preserving all 5,625 built-in 149-badge assets. | Super-User |
+| `POST /api/v1/admin/maintenance/purge-temp-cache` | Purges temporary web-search scratch files (`assets/badge_image_catalog/_web_search_cache/`) while preserving all 5,607 built-in 149-badge assets. | Super-User |
 | `POST /api/v1/admin/maintenance/repair-covers` | Verifies and repairs all 149 Merit Badge pamphlet covers and badge emblems on disk. | Super-User |
 | `GET /api/v1/admin/maintenance/snapshot` | Exports a downloadable Zero-PII JSON snapshot combining telemetry summary, 149-badge asset diagnostics, prompt SHA-256 hashes, and compliance audit events. | Super-User |
 | `GET /.well-known/agent.json` | Returns the A2A 1.0 Agent Card for discovery. | No |

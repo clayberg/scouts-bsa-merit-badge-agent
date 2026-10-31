@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Small-Boat Sailing Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,24 +45,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in small-boat sailing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in small-boat sailing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Wind direction remains completely constant across small bays and inland lake coves.",
             "fact": "Local topography causes abrupt localized wind velocity increases and directional wind shifts."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Small-Boat Sailing Merit Badge Hub (Req 1a)",
@@ -93,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p003_img1.png",
           "workbook_diagram_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
-          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1."
+          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -125,7 +133,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention Symptoms and First-aid Treatment)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -137,12 +145,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -180,7 +198,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p003_img1.png",
           "workbook_diagram_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
-          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1."
+          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -196,7 +217,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -215,7 +236,13 @@
               "1. Discuss the Scouting America Safety Afloat policy.",
               "2. Tell how it applies to small-boat sailing activities."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -253,7 +280,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p003_img1.png",
           "workbook_diagram_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
-          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1."
+          "workbook_visual_caption": "Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -295,7 +325,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: Small-Boat Sailing Hazard Management",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Always maintain a low crouch during tacks and jibes to clear the swinging boom path.",
@@ -304,7 +334,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Small-Boat Sailing Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -325,18 +355,19 @@
           "2. (1b) Prevention Symptoms and First-aid Treatment",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A life jacket is only necessary once winds reach whitecap conditions.",
         "fact": "Coast Guard approved life jackets must be securely fastened before boarding any small craft."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Small-Boat Sailing Merit Badge Hub (Req 1)",
@@ -508,7 +539,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -527,18 +558,19 @@
           "1. Before doing the following requirements, successfully complete the Scouting America swimmer test.",
           "2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Passing the beginner swim test grants full operational clearance for solo dinghy sailing.",
         "fact": "Sailors must complete the full one hundred yard swimmer classification test without stopping."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Small-Boat Sailing Merit Badge Hub (Req 2)",
@@ -705,7 +737,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Boat You)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -728,7 +760,13 @@
           "3. While no specific sail plan is recommended, it is suggested that the craft be smaller than 20 feet.",
           "4. The boat must be capsizable and have the capability of sailing to windward."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The centerboard acts purely as dead ballast weight to keep boats upright.",
@@ -896,7 +934,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -908,12 +946,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the nine points of the Scouting America Safety Afloat plan"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the nine points of the Scouting America Safety Afloat plan"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -951,7 +999,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4a (Discuss the nine points of the Scouting America Safety Afloat plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -967,7 +1018,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Road in General and Any)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -979,12 +1030,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the rules of the road in general and any specific rules or laws that apply to your area or state"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the rules of the road in general and any specific rules or laws that apply to your area or state"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1023,7 +1084,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "title": "Req 4b: Navigational Rules of Road",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4b (Explain the rules of the road in general and any specific rules or laws that apply to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1034,7 +1098,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Water Conditions the Hazards of)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1046,12 +1110,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1090,7 +1164,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "title": "Req 4c: Water and Wind Effects",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4c (Explain how water conditions, the hazards of weather, and heavy winds can affect both), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1114,7 +1191,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Discuss the Warning Signs of)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1126,12 +1203,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1170,7 +1257,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "title": "Req 4d: Storm Warnings and Responses",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4d (Discuss the warning signs of inclement weather and what to do should heavy winds develop or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1190,7 +1280,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Small-Boat Sailing Typical Principles)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1202,12 +1292,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare a typical float plan"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Prepare a typical float plan"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1245,7 +1345,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4e (Prepare a typical float plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1261,7 +1364,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Discuss the Proper Clothing Footwear)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1280,7 +1383,13 @@
               "1. Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather.",
               "2. Explain how choosing the proper clothing, footwear, and personal gear will help keep you comfortable and safe while sailing."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1318,7 +1427,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p004_img1.png",
           "workbook_diagram_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
-          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4."
+          "workbook_visual_caption": "Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection checkpoints for Requirement 4.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 4f (Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1373,7 +1485,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1400,7 +1512,13 @@
           "5. (4e) Prepare a typical float plan",
           "6. (4f) Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather"
         ],
-        "min_rows": 6
+        "min_rows": 6,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Sailboats always possess absolute right of way over every motorized vessel on waterways.",
@@ -1578,7 +1696,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Discuss Wind Direction Wind)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1597,7 +1715,13 @@
           "1. Discuss with your counselor how to identify the wind direction and wind indicators.",
           "2. Explain the importance of this task before setting sail."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "The wind felt while moving forward represents the exact direction of the true atmospheric wind.",
@@ -1755,7 +1879,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Boat for Sailing Including A)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1767,12 +1891,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Prepare a boat for sailing, including a safety inspection"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Prepare a boat for sailing, including a safety inspection"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1811,7 +1945,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "title": "Req 6a: Pre-Sail Safety Inspection",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6a (Prepare a boat for sailing, including a safety inspection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1827,7 +1964,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Get Underway from A Dock)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1839,12 +1976,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Get underway from a dock, mooring, or beach"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Get underway from a dock, mooring, or beach"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -1882,7 +2029,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6b (Get underway from a dock, mooring, or beach), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1910,7 +2060,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist (Round-trip Course Approved)",
+            "table_title": "Req 6c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1929,19 +2079,20 @@
               "1. Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail",
               "2. While sailing, demonstrate good helmsmanship skills"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
             "misconception": "Sails should remain pinned tightly against the boat centerline across all points of sail.",
             "fact": "Sails must be eased until they begin to luff, then trimmed slightly to maximize laminar flow."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Small-Boat Sailing Req 6c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Small-Boat Sailing Merit Badge Hub (Req 6c)",
@@ -1972,7 +2123,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6c (Properly set sails for a round-trip course approved by your counselor that will include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -1992,7 +2146,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Change Direction by Tacking Change)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2011,7 +2165,13 @@
               "1. Change direction by tacking",
               "2. change direction by jibing"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2049,7 +2209,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6d (Change direction by tacking; change direction by jibing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2060,7 +2223,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist (Getting Out)",
+            "table_title": "Req 6e Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2072,12 +2235,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate getting out of irons"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate getting out of irons"
+              "1. Req 6e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2116,7 +2289,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "title": "Req 6e: Recovering from Irons",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6e (Demonstrate getting out of irons), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6f",
@@ -2127,7 +2303,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist (Safety Position)",
+            "table_title": "Req 6f Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2139,12 +2315,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate the safety position"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate the safety position"
+              "1. Req 6f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2182,7 +2368,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6f (Demonstrate the safety position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6g",
@@ -2198,7 +2387,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6g Hands-On Skill Station & EDGE Verification Checklist (Capsize Procedures and the Rescue)",
+            "table_title": "Req 6g Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2221,7 +2410,13 @@
               "3. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore.",
               "4. Self-bailing boats are acceptable for this requirement."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2259,7 +2454,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6g (Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6h",
@@ -2275,7 +2473,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6h Hands-On Skill Station & EDGE Verification Checklist (Procedure to Take After Running)",
+            "table_title": "Req 6h Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2287,12 +2485,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate the procedure to take after running aground"
+              "1. Req 6h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate the procedure to take after running aground"
+              "1. Req 6h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2330,7 +2538,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6h (Demonstrate the procedure to take after running aground), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6i",
@@ -2341,7 +2552,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6i Structured Technical Study & Explanation Matrix (Accept A Single Line or)",
+            "table_title": "Req 6i Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6i Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2353,12 +2564,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths"
+              "1. Req 6i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6i Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths"
+              "1. Req 6i Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6i Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6i Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6i Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2397,7 +2618,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "title": "Req 6i: Accepting a Tow Safely",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6i (Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6j",
@@ -2408,7 +2632,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6j Structured Technical Study & Explanation Matrix (Upon Returning to the Dock)",
+            "table_title": "Req 6j Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6j Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2420,12 +2644,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer"
+              "1. Req 6j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6j Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer"
+              "1. Req 6j Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6j Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6j Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6j Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)",
           "common_misconception_pair": {
@@ -2463,7 +2697,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/small_boat_sailing_p006_img1.png",
           "workbook_diagram_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
-          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6."
+          "workbook_visual_caption": "Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for small-boat sailing safe swim defense and safety afloat reference figure in Requirement 6.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 6j (Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2522,7 +2759,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Safe Swim Defense and Safety Afloat)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2557,18 +2794,19 @@
           "9. (6i) Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths",
           "10. (6j) Securing Boat and Gear"
         ],
-        "min_rows": 10
+        "min_rows": 10,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Jibing is simply tacking backwards and requires no special sheet control or crew warning.",
         "fact": "Jibes bring the stern through the wind, causing rapid, violent boom swings requiring mainsheet control."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Small-Boat Sailing Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Small-Boat Sailing Merit Badge Hub (Req 6)",
@@ -2719,7 +2957,7 @@
         {
           "sub_id": "7a",
           "label": "(a)",
-          "text": "Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use.",
+          "text": "Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each.",
           "resources": [
             {
               "title": "Essential Sailing Knots (video)",
@@ -2734,7 +2972,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist (Square Reef Knot Clove Hitch)",
+            "table_title": "Req 7a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2753,7 +2991,13 @@
               "1. Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot.",
               "2. Demonstrate the use."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2783,7 +3027,7 @@
           ],
           "id": "7a",
           "sub_req_label": "7a",
-          "sub_req_text": "Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use.",
+          "sub_req_text": "Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each.",
           "topic_title": "Req 7a: Essential Nautical Knot Tying",
           "pamphlet_summary": "Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.",
           "pamphlet_excerpts": [
@@ -2791,7 +3035,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/small_boat_sailing_req_7_topic_visual.png",
           "workbook_diagram_caption": "Panels explain tacking protocols, jibing turns, and standardized helmsman voice commands used during small boat maneuvers.",
-          "workbook_visual_caption": "Panels explain tacking protocols, jibing turns, and standardized helmsman voice commands used during small boat maneuvers."
+          "workbook_visual_caption": "Panels explain tacking protocols, jibing turns, and standardized helmsman voice commands used during small boat maneuvers.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 7a (Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2811,7 +3058,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist (Heave A Line Coil A)",
+            "table_title": "Req 7b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2823,12 +3070,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to heave a line, coil a line, and fake down a line"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to heave a line, coil a line, and fake down a line"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2867,12 +3124,15 @@
           "workbook_diagram_url": "assets/images/small_boat_sailing_req_7_nano_hero.png",
           "title": "Req 7b: Heaving Coiling and Faking",
           "workbook_diagram_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline.",
-          "workbook_visual_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline."
+          "workbook_visual_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 7b (Show how to heave a line, coil a line, and fake down a line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
           "label": "(c)",
-          "text": "Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages.",
+          "text": "Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.",
           "resources": [
             {
               "title": "Lines and Usages for Sailing (website)",
@@ -2883,7 +3143,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 7c Technical Comparison Matrix (Discuss the Kinds of Lines)",
+            "table_title": "Req 7c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Low-Stretch Polyester Control Lines",
@@ -2902,7 +3162,13 @@
               "1. Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture.",
               "2. Explain the advantages and disadvantages."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Low-Stretch Polyester Control Lines",
+              "Shock-Absorbing Nylon Dock Lines"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)",
           "common_misconception_pair": {
@@ -2932,7 +3198,7 @@
           ],
           "id": "7c",
           "sub_req_label": "7c",
-          "sub_req_text": "Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages.",
+          "sub_req_text": "Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.",
           "topic_title": "Req 7c: Synthetic Cordage Fiber Construction",
           "pamphlet_summary": "Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats.",
           "pamphlet_excerpts": [
@@ -2940,7 +3206,10 @@
           ],
           "workbook_diagram_url": "assets/images/small_boat_sailing_req_7_nano_hero.png",
           "workbook_diagram_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline.",
-          "workbook_visual_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline."
+          "workbook_visual_caption": "A counselor guides a Scout through tying secure nautical knots with braided marine rope on the shoreline.",
+          "socratic_questions": [
+            "For small-boat sailing Requirement 7c (Discuss the kinds of lines used on sailboats and the types of fibers used in their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2983,7 +3252,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 7 Technical Comparison Matrix (Working Knowledge of Marlinespike Seamanship)",
+        "table_title": "Req 7 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Low-Stretch Polyester Control Lines",
@@ -3004,7 +3273,13 @@
           "2. (7b) Show how to heave a line, coil a line, and fake down a line",
           "3. (7c) Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Low-Stretch Polyester Control Lines",
+          "Shock-Absorbing Nylon Dock Lines"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Adding multiple extra half hitches on a mooring cleat improves knot holding strength.",
@@ -3177,7 +3452,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (You Would Care)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3189,12 +3464,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe how you would care for and maintain a sailboat and its gear throughout the year"
+          "1. Freshwater Hardware Rinse",
+          "2. Fiberglass Gelcoat Protection",
+          "3. Sail Cleaning Mildew"
         ],
         "rows": [
-          "1. Describe how you would care for and maintain a sailboat and its gear throughout the year"
+          "1. Freshwater Hardware Rinse",
+          "2. Fiberglass Gelcoat Protection",
+          "3. Sail Cleaning Mildew"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fiberglass hulls need no preventative maintenance because plastic and resin never deteriorate outdoors.",
@@ -3362,16 +3647,16 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 9 Technical Comparison Matrix (Sailing Terminology)",
+        "table_title": "Req 9 Technical Comparison Matrix",
         "headers": [
-          "Comparison Dimension",
-          "Close-Hauled Upwind Beating Course",
-          "Broad Reach and Running Downwind"
+          "Req 9 Comparison Criterion",
+          "Counselor Characteristics & Standards",
+          "Differences Characteristics & Standards"
         ],
         "column_headers": [
-          "Comparison Dimension",
-          "Close-Hauled Upwind Beating Course",
-          "Broad Reach and Running Downwind"
+          "Req 9 Comparison Criterion",
+          "Counselor Characteristics & Standards",
+          "Differences Characteristics & Standards"
         ],
         "row_labels": [
           "1. With your counselor, review sailing terminology and the points of sail.",
@@ -3381,7 +3666,13 @@
           "1. With your counselor, review sailing terminology and the points of sail.",
           "2. Discuss various types of sailboats in use today and explain their differences."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 9 Comparison Criterion",
+          "Counselor Characteristics & Standards",
+          "Differences Characteristics & Standards"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Catamarans are completely incapable of capsizing due to their wide multihull stance.",

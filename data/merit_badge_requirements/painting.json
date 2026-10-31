@@ -47,7 +47,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Safety Procedures to Follow When)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -59,12 +59,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings"
+          "1. Vapor Dispersion",
+          "2. Dust Suppression",
+          "3. Ignition Isolation"
         ],
         "rows": [
-          "1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings"
+          "1. Vapor Dispersion",
+          "2. Dust Suppression",
+          "3. Ignition Isolation"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Opening a single interior door provides sufficient ventilation when applying volatile chemical paint strippers indoors.",
@@ -231,7 +241,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Coatings Can Improve A Surface)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -243,12 +253,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain three ways that coatings can improve a surface"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain three ways that coatings can improve a surface"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
@@ -286,7 +306,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/painting_p007_img1.png",
           "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
-          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "socratic_questions": [
+            "For painting Requirement 2a (Explain three ways that coatings can improve a surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -306,7 +329,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Technical Comparison Matrix (Oil-based Paints Acrylic-based Paints and)",
+            "table_title": "Req 2b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Oil-Based and Alkyd Coatings",
@@ -318,12 +341,22 @@
               "Water-Based Latex and Acrylics"
             ],
             "row_labels": [
-              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the differences between oil-based paints, acrylic-based paints, and water-based paints"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Oil-Based and Alkyd Coatings",
+              "Water-Based Latex and Acrylics"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
@@ -362,7 +395,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
           "title": "Req 2b: Oil, Acrylic, and Water-Based Paints",
           "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
-          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "socratic_questions": [
+            "For painting Requirement 2b (Explain the differences between oil-based paints, acrylic-based paints, and water-based paints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -378,7 +414,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (You Would Apply Enamel Paint)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -390,12 +426,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
@@ -434,7 +480,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
           "title": "Req 2c: Enamel, Flat, Stain, and Varnish",
           "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
-          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "socratic_questions": [
+            "For painting Requirement 2c (Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -445,7 +494,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Painting Requirement 2d Techniques)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -457,12 +506,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell why each is best for these uses"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell why each is best for these uses"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)",
           "common_misconception_pair": {
@@ -500,7 +559,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/painting_p041_img1.png",
           "workbook_diagram_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
-          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller."
+          "workbook_visual_caption": "A youth applies a bright yellow coat of paint to an interior wall using a roller.",
+          "socratic_questions": [
+            "For painting Requirement 2d (Tell why each is best for these uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -530,7 +592,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Architectural Coatings Performance Characteristics",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -539,7 +601,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Coatings Can Improve A Surface)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Oil-Based and Alkyd Coatings",
@@ -562,7 +624,13 @@
           "3. (2c) Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen",
           "4. (2d) Tell why each is best for these uses"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Oil-Based and Alkyd Coatings",
+          "Water-Based Latex and Acrylics"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Paints function entirely as decorative coloring agents without serving structural protective barrier roles.",
@@ -739,7 +807,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Surfaces Using Patching Materials or)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -760,7 +828,13 @@
           "2. Suggested projects include an interior or exterior wall, a door, a piece of furniture, a concrete wall or floor, a porch rail, or a fence",
           "3. Your counselor must preapprove the projects"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Thick topcoat paint fills deep drywall dents and settles flush without requiring spackling paste.",
@@ -941,7 +1015,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Harmonizing Colors That You Have)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -953,12 +1027,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet"
+          "1. Complementary Balance",
+          "2. Analogous Harmony",
+          "3. Value Modulation"
         ],
         "rows": [
-          "1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet"
+          "1. Complementary Balance",
+          "2. Analogous Harmony",
+          "3. Value Modulation"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pairing two randomly chosen intense bright colors always produces an aesthetically harmonious finished project.",
@@ -1139,7 +1223,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Right Painting Equipment)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1151,12 +1235,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Show the right way to use, clean, maintain, and store painting equipment"
+          "1. Brush Cleaning",
+          "2. Comb Alignment",
+          "3. Roller Scraping"
         ],
         "rows": [
-          "1. Show the right way to use, clean, maintain, and store painting equipment"
+          "1. Brush Cleaning",
+          "2. Comb Alignment",
+          "3. Roller Scraping"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Leaving dirty brushes resting tip down inside solvent jars keeps them soft without causing damage.",
@@ -1333,7 +1427,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Ladder Safety Personal Hygiene)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1345,12 +1439,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting"
+          "1. Ladder Placement",
+          "2. Three Point Contact",
+          "3. Eye Protection"
         ],
         "rows": [
-          "1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting"
+          "1. Ladder Placement",
+          "2. Three Point Contact",
+          "3. Eye Protection"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standing on the very top step of a stepladder is acceptable if you maintain careful balance.",
@@ -1531,7 +1635,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Environmental and Health Issues Concerning)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1543,12 +1647,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint"
+          "1. Lead Containment",
+          "2. VOC Emissions",
+          "3. Liquid Waste"
         ],
         "rows": [
-          "1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint"
+          "1. Lead Containment",
+          "2. VOC Emissions",
+          "3. Liquid Waste"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Pouring residual latex paint onto outdoor soil or gravel driveway beds filters impurities safely.",
@@ -1746,19 +1860,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
             "misconception": "Entry level painting jobs require no classroom instruction or formal technical apprenticeship training.",
             "fact": "Union apprenticeship programs mandate hundreds of classroom hours in blueprint reading, chemistry, and safety."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Painting Req 8a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Painting Merit Badge Hub (Req 8a)",
@@ -1789,12 +1904,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/painting_p066_img1.png",
           "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
-          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
+          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
+          "socratic_questions": [
+            "For painting Requirement 8a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Easy Wall Painting DIY I Balcony make over I Yoga wall art (video)",
@@ -1805,7 +1923,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1819,14 +1937,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)",
           "common_misconception_pair": {
@@ -1856,7 +1980,7 @@
           ],
           "id": "8b",
           "sub_req_label": "8b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 8b: Coating Hobbies and Lifestyle",
           "pamphlet_summary": "Applying finishes extends to hobbies like furniture upcycling, fine art canvas painting, wooden boat restoration, and scale modeling. Engaging in decorative painting cultivates manual dexterity, color appreciation, and rewarding stress reduction.",
           "pamphlet_excerpts": [
@@ -1865,7 +1989,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/painting_p066_img1.png",
           "title": "Req 8b: Pursuing Painting Hobbies and Lifestyles",
           "workbook_diagram_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
-          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint."
+          "workbook_visual_caption": "A decorative metal patio chair is coated in durable light blue enamel paint.",
+          "socratic_questions": [
+            "For painting Requirement 8b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1927,7 +2054,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Commercial painters only perform manual brush rolling without understanding substrate chemistry or digital equipment.",

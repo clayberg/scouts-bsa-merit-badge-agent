@@ -32,25 +32,35 @@
           "children": [],
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
-            "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 1a Hands-On Skill Station & EDGE Verification Checklist (Rough Project Drawings Size)",
+            "organizer_type": "RULED_EXPLAIN_BOX",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "column_headers": [
-              "Sketch / Diagram Element",
-              "Required Labels & Dimensions",
-              "Field Observations & Counselor Notes"
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Make a rough sketch for each of your project drawings to determine the correct size of paper to format"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make a rough sketch for each of your project drawings to determine the correct size of paper to format"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p003_img1.png",
           "workbook_diagram_caption": "A student prepares paper and practices technical sketching at her desk.",
-          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk."
+          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk.",
+          "socratic_questions": [
+            "For drafting Requirement 1a (Make a rough sketch for each of your project drawings to determine the correct size of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -104,7 +117,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Single-stroke Vertical or Slant Gothic)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -116,12 +129,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Using either single-stroke vertical or slant Gothic lettering, fill in all important information in the title block sections of the formatted paper"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Using either single-stroke vertical or slant Gothic lettering, fill in all important information in the title block sections of the formatted paper"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)",
           "common_misconception_pair": {
@@ -159,7 +182,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p022_img1.png",
           "workbook_diagram_caption": "A student prepares paper and practices technical sketching at her desk.",
-          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk."
+          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk.",
+          "socratic_questions": [
+            "For drafting Requirement 1b (Using either single-stroke vertical or slant Gothic lettering, fill in all important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -193,17 +219,17 @@
       "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)",
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
-        "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Format TWO Sheets of Drawing)",
+        "organizer_type": "RULED_EXPLAIN_BOX",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "column_headers": [
-          "Sketch / Diagram Element",
-          "Required Labels & Dimensions",
-          "Field Observations & Counselor Notes"
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
           "1. (1a) Rough Project Drawings Size",
@@ -213,7 +239,13 @@
           "1. (1a) Rough Project Drawings Size",
           "2. (1b) Single-stroke Vertical or Slant Gothic"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Drafting paper borders can be drawn at any arbitrary distance from the edge.",
@@ -376,7 +408,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Architectural Make A Scale Drawing)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -399,7 +431,13 @@
               "3. Use an architect's scale and show dimensions to communicate the actual size of features.",
               "4. Include any important sectional drawings, notes, and considerations necessary for construction."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
@@ -437,7 +475,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p007_img1.png",
           "workbook_diagram_caption": "A detailed technical drawing displays precise room dimensions and walls.",
-          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls."
+          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls.",
+          "socratic_questions": [
+            "For drafting Requirement 2a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -453,7 +494,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Mechanical Make A Scale Drawing)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -476,7 +517,13 @@
               "3. Use an engineer's scale and show dimensions to communicate the actual size of features.",
               "4. Include any important sectional drawings, notes, and manufacturing considerations."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
@@ -514,7 +561,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p024_img1.png",
           "workbook_diagram_caption": "A detailed technical drawing displays precise room dimensions and walls.",
-          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls."
+          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls.",
+          "socratic_questions": [
+            "For drafting Requirement 2b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -530,7 +580,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Electrical Draw A Simple Schematic)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -551,7 +601,13 @@
               "2. Properly print a bill of materials including all of the major electrical components used in the circuit.",
               "3. Use standard drawing symbols to represent the electronic components."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)",
           "common_misconception_pair": {
@@ -589,7 +645,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p024_img1.png",
           "workbook_diagram_caption": "A detailed technical drawing displays precise room dimensions and walls.",
-          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls."
+          "workbook_visual_caption": "A detailed technical drawing displays precise room dimensions and walls.",
+          "socratic_questions": [
+            "For drafting Requirement 2c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -624,7 +683,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Formatted Sheet of Paper You)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -645,7 +704,13 @@
           "2. (2b) Mechanical Make A Scale Drawing",
           "3. (2c) Electrical Draw A Simple Schematic"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All lines on a manual technical manufacturing drawing should have identical darkness and thickness.",
@@ -808,7 +873,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist (Architectural Make A Scale Drawing)",
+            "table_title": "Req 3a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -831,7 +896,13 @@
               "3. Use an architect's scale and show dimensions to communicate the actual size of features.",
               "4. Include any important sectional drawings, notes, and considerations necessary for construction."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
@@ -869,7 +940,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p012_img1.png",
           "workbook_diagram_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
-          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees."
+          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
+          "socratic_questions": [
+            "For drafting Requirement 3a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -885,7 +959,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist (Mechanical Make A Scale Drawing)",
+            "table_title": "Req 3b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -908,7 +982,13 @@
               "3. Use an engineer's scale and show dimensions to communicate the actual size of features.",
               "4. Include any important sectional drawings, notes, and manufacturing considerations."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
@@ -946,7 +1026,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p049_img2.png",
           "workbook_diagram_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
-          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees."
+          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
+          "socratic_questions": [
+            "For drafting Requirement 3b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -962,7 +1045,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Electrical Draw A Simple Schematic)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -983,7 +1066,13 @@
               "2. Properly print a bill of materials including all of the major electrical components used in the circuit.",
               "3. Use standard drawing symbols to represent the electronic components."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)",
           "common_misconception_pair": {
@@ -1021,7 +1110,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p049_img2.png",
           "workbook_diagram_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
-          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees."
+          "workbook_visual_caption": "A colored landscape site plan illustrates outdoor zones, paths, and trees.",
+          "socratic_questions": [
+            "For drafting Requirement 3c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1056,7 +1148,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist (Produce A Computer-aided Design CAD)",
+        "table_title": "Req 3 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1077,7 +1169,13 @@
           "2. (3b) Mechanical Make A Scale Drawing",
           "3. (3c) Electrical Draw A Simple Schematic"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "CAD geometry must be scaled down manually while drawing lines in virtual design space.",
@@ -1235,7 +1333,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Copy of Your Drawings)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1254,7 +1352,13 @@
               "1. Present a copy of your drawings from requirements 2 and 3, either in paper or digital format to your counselor",
               "2. Your counselor will return a redlined version of your drawings indicating to add/remove/change a feature, material, BOM QTY"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)",
           "common_misconception_pair": {
@@ -1292,7 +1396,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p022_img1.png",
           "workbook_diagram_caption": "A student prepares paper and practices technical sketching at her desk.",
-          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk."
+          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk.",
+          "socratic_questions": [
+            "For drafting Requirement 4a (Present a copy of your drawings from requirements 2 and 3, either in paper or digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1308,7 +1415,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Correction from the Redline)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1320,12 +1427,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)",
           "common_misconception_pair": {
@@ -1363,7 +1480,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p022_img1.png",
           "workbook_diagram_caption": "A student prepares paper and practices technical sketching at her desk.",
-          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk."
+          "workbook_visual_caption": "A student prepares paper and practices technical sketching at her desk.",
+          "socratic_questions": [
+            "For drafting Requirement 4b (Make the correction from the redline, identify it on the drawings with a revision marker,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1390,7 +1510,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Copy of Your Drawings)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1409,7 +1529,13 @@
           "1. (4a) Copy of Your Drawings",
           "2. (4b) Correction From The Redline"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Corrected drawings should completely erase earlier revision records to make drawings look pristine.",
@@ -1577,7 +1703,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (CAD vs. Manual Drafting Workflow)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1598,7 +1724,13 @@
           "2. Tell about the benefits derived from using CAD for requirements 3 and 4",
           "3. Include in your discussion the software you used as well as other software options that are available"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "CAD drafters never need to understand manual drafting principles or fundamental drawing standards.",
@@ -1766,7 +1898,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Single-stroke Slant or Vertical Gothic)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1787,7 +1919,13 @@
           "2. Use the experience gained in fulfilling requirements 2 through 5 to support your opinion",
           "3. Use the formatted sheet of paper you prepared in requirement 1 for your lettering project"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Technical lettering guidelines allow expressive decorative flourishes if words remain somewhat legible.",
@@ -1956,7 +2094,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(1) Structured Technical Study & Explanation Matrix (Out How Much of the)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1969,13 +2107,19 @@
                 ],
                 "row_labels": [
                   "1. Find out how much of the drafting done there is manual and how much is done using CAD.",
-                  "2. If CAD is used, find out what software is used and how and why it was chosen."
+                  "2. If CAD is used, find out what software is used and how and why it"
                 ],
                 "rows": [
                   "1. Find out how much of the drafting done there is manual and how much is done using CAD.",
-                  "2. If CAD is used, find out what software is used and how and why it was chosen."
+                  "2. If CAD is used, find out what software is used and how and why it"
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2028,7 +2172,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(2) Structured Technical Study & Explanation Matrix (Drafting Careers and Pathways)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2049,7 +2193,13 @@
                   "2. Ask who uses the designs produced in the drafting area and how those designs are used",
                   "3. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2101,7 +2251,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7a(3) Structured Technical Study & Explanation Matrix (Ask How Important the Role)",
+                "table_title": "Req 7a",
                 "headers": [
                   "Req 7a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2120,7 +2270,13 @@
                   "1. Ask how important the role of drafting is to producing the end product or service that this business supplies.",
                   "2. Find out how drafting contributes to the company's end product or service."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2167,7 +2323,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Drafting Careers and Pathways)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2188,7 +2344,12 @@
               "2. (7a(2)) Ask about the drafting services provided",
               "3. (7a(3)) Ask how important the role of drafting is to producing the end product or service that this business supplies"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
@@ -2226,7 +2387,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
           "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-          "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+          "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+          "socratic_questions": [
+            "For drafting Requirement 7a (Visit a facility or industry workplace where drafting is part of the business. Ask to see), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2256,7 +2420,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7b(1) Structured Technical Study & Explanation Matrix (Drafting Tools Used in the)",
+                "table_title": "Req 7b",
                 "headers": [
                   "Req 7b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2277,7 +2441,13 @@
                   "2. Explain which tools are still used today and how their use has changed with the advent of new tools.",
                   "3. Discuss which tools are being made obsolete by newer tools in the industry."
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2330,7 +2500,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7b(2) Structured Technical Study & Explanation Matrix (Media Were Used Past)",
+                "table_title": "Req 7b",
                 "headers": [
                   "Req 7b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2349,7 +2519,13 @@
                   "1. Tell what media types were used in the past and how drawings were used, stored, and reproduced.",
                   "2. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2401,7 +2577,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss Whether the Types of)",
+                "table_title": "Req 7b",
                 "headers": [
                   "Req 7b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2420,7 +2596,13 @@
                   "1. Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers.",
                   "2. Briefly discuss how new media types are used in the industry today."
                 ],
-                "min_rows": 2
+                "min_rows": 2,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 7b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
@@ -2468,7 +2650,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Resources You Find on Your)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2489,19 +2671,20 @@
               "2. (7b(2)) Tell what media types were used in the past and how drawings were used, stored, and reproduced",
               "3. (7b(3)) Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
           "common_misconception_pair": {
             "misconception": "Drafting trade techniques have remained unchanged since the introduction of early CAD systems.",
             "fact": "Trade research reveals that drafters increasingly specialize in building information modeling and parametric solid modeling."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Drafting Req 7b with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Drafting Merit Badge Hub (Req 7b)",
@@ -2533,7 +2716,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
           "title": "Req 7b: Industry Research on Engineering Drawings",
           "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-          "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+          "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+          "socratic_questions": [
+            "For drafting Requirement 7b (Using resources you find on your own such as at the library and on the internet (with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2572,7 +2758,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Drafting Careers and Pathways)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2591,7 +2777,12 @@
           "1. (7a) Visit a facility or industry workplace where drafting is part of the business",
           "2. (7b) Using resources you find on your own such as at the library and on the internet (with your parent or guardian's permission), learn more about the drafting trade and discuss the following with your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern design firms have completely abandoned paper drawings, plotters, and physical shop prints.",
@@ -2796,7 +2987,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Drafting positions require no specialized post secondary training, technical degree, or formal certification.",

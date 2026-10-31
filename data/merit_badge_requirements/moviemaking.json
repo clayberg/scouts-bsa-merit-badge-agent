@@ -43,7 +43,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Discuss and Demonstrate the Proper)",
+        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -62,7 +62,13 @@
           "1. Discuss and demonstrate the proper elements of a good motion picture",
           "2. In your discussion, include visual storytelling, rhythm, the 180-axis rule, camera movement, framing and composition of camera shots, and lens selection"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think moving the camera constantly makes a scene feel dynamic and professional.",
@@ -225,7 +231,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Three- or Four-paragraph Treatment)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -237,12 +243,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In a three- or four-paragraph treatment, tell the story you plan to produce, making sure that the treatment conveys a visual picture"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In a three- or four-paragraph treatment, tell the story you plan to produce, making sure that the treatment conveys a visual picture"
+              "1. Req 2a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
@@ -280,7 +296,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p007_img1.png",
           "workbook_diagram_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
-          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes."
+          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
+          "socratic_questions": [
+            "For moviemaking Requirement 2a (In a three- or four-paragraph treatment, tell the story you plan to produce, making sure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -296,7 +315,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Storyboard for Your Motion Picture)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -315,7 +334,13 @@
               "1. Prepare a story board for your motion picture.",
               "2. Note: This can be done with rough sketches and stick figures."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
@@ -353,7 +378,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p027_img1.png",
           "workbook_diagram_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
-          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes."
+          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
+          "socratic_questions": [
+            "For moviemaking Requirement 2b (Prepare a storyboard for your motion picture. Note: This can be done with rough sketches), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -364,7 +392,7 @@
             {
               "sub_id": "2c(1)",
               "label": "(1)",
-              "text": "Using a tripod.",
+              "text": "Using a tripod (2) Panning a camera (3) Framing a shot (4) Selecting an angle (5) Selecting proper lighting.",
               "resources": [
                 {
                   "title": "7 Tripod Tricks for Filmaking (video)",
@@ -375,7 +403,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(1) Structured Technical Study & Explanation Matrix (Moviemaking Tripod Principles)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -387,12 +415,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Using a tripod"
+                  "1. Req 2c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Using a tripod"
+                  "1. Req 2c(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -422,7 +460,7 @@
               ],
               "id": "2c(1)",
               "sub_req_label": "2c(1)",
-              "sub_req_text": "Using a tripod.",
+              "sub_req_text": "Using a tripod (2) Panning a camera (3) Framing a shot (4) Selecting an angle (5) Selecting proper lighting.",
               "topic_title": "Req 2c(1): Tripod Setup and Camera Stabilization",
               "pamphlet_summary": "Tripod Setup and Camera Stabilization: Mount the camera securely on a fluid-head tripod, ensuring the legs are firmly planted and the bubble level is centered on uneven ground. Lock the pan and tilt controls between takes to eliminate subtle tremors and maintain crisp focus throughout static scenes (p. 26).",
               "pamphlet_excerpts": [
@@ -438,7 +476,7 @@
             {
               "sub_id": "2c(2)",
               "label": "(2)",
-              "text": "Panning a camera.",
+              "text": "Panning a camera (3) Framing a shot (4) Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "resources": [
                 {
                   "title": "Camera Panning (video)",
@@ -449,7 +487,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(2) Structured Technical Study & Explanation Matrix (Panning A Camera)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -461,12 +499,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Panning a camera"
+                  "1. Req 2c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Panning a camera"
+                  "1. Req 2c(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -496,7 +544,7 @@
               ],
               "id": "2c(2)",
               "sub_req_label": "2c(2)",
-              "sub_req_text": "Panning a camera.",
+              "sub_req_text": "Panning a camera (3) Framing a shot (4) Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "topic_title": "Req 2c(2): Horizontal Camera Panning Technique",
               "pamphlet_summary": "Horizontal Camera Panning Technique: Execute a smooth horizontal pan by rotating your upper torso from the hips while keeping your feet planted in the direction where the pan will end. Always hold a static shot for several seconds before starting the pan and after completing the movement to give editors clean cut points (p. 29).",
               "pamphlet_excerpts": [
@@ -512,7 +560,7 @@
             {
               "sub_id": "2c(3)",
               "label": "(3)",
-              "text": "Framing a shot.",
+              "text": "Framing a shot (4) Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "resources": [
                 {
                   "title": "Reverse Shot (video)",
@@ -527,7 +575,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(3) Structured Technical Study & Explanation Matrix (Framing A Shot)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -539,12 +587,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Framing a shot"
+                  "1. Req 2c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Framing a shot"
+                  "1. Req 2c(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -574,7 +632,7 @@
               ],
               "id": "2c(3)",
               "sub_req_label": "2c(3)",
-              "sub_req_text": "Framing a shot.",
+              "sub_req_text": "Framing a shot (4) Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "topic_title": "Req 2c(3): Cinematic Shot Framing and Composition",
               "pamphlet_summary": "Cinematic Shot Framing and Composition: Compose shots using the rule of thirds, positioning subjects along grid lines and leaving adequate headroom above the talent. Provide lead room in front of moving or looking subjects so they do not appear trapped against the edge of the frame (p. 32).",
               "pamphlet_excerpts": [
@@ -590,7 +648,7 @@
             {
               "sub_id": "2c(4)",
               "label": "(4)",
-              "text": "Selecting an angle.",
+              "text": "Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "resources": [
                 {
                   "title": "Filmmaking 101: 5 Camera Angles (video)",
@@ -605,7 +663,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(4) Structured Technical Study & Explanation Matrix (Selecting An Angle)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -617,12 +675,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Selecting an angle"
+                  "1. Req 2c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Selecting an angle"
+                  "1. Req 2c(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -652,7 +720,7 @@
               ],
               "id": "2c(4)",
               "sub_req_label": "2c(4)",
-              "sub_req_text": "Selecting an angle.",
+              "sub_req_text": "Selecting an angle (5) Selecting proper lighting (6) Handheld shooting.",
               "topic_title": "Req 2c(4): Camera Angle Selection and Perspective",
               "pamphlet_summary": "Camera Angle Selection and Perspective: Choose camera angles intentionally to influence how the audience perceives a character or scene. A low angle looking up conveys strength and authority, while a high angle looking down makes a subject appear vulnerable or small (p. 35).",
               "pamphlet_excerpts": [
@@ -668,7 +736,7 @@
             {
               "sub_id": "2c(5)",
               "label": "(5)",
-              "text": "Selecting proper lighting.",
+              "text": "Selecting proper lighting (6) Handheld shooting.",
               "resources": [
                 {
                   "title": "Ultimate Guide to Cinematic Lighting (video)",
@@ -683,7 +751,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(5) Structured Technical Study & Explanation Matrix (Selecting Proper Lighting)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -695,12 +763,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Selecting proper lighting"
+                  "1. Req 2c(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Selecting proper lighting"
+                  "1. Req 2c(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -730,7 +808,7 @@
               ],
               "id": "2c(5)",
               "sub_req_label": "2c(5)",
-              "sub_req_text": "Selecting proper lighting.",
+              "sub_req_text": "Selecting proper lighting (6) Handheld shooting.",
               "topic_title": "Req 2c(5): Scene Lighting Selection and Control",
               "pamphlet_summary": "Scene Lighting Selection and Control: Establish balanced three-point lighting by positioning a dominant key light to illuminate the subject, a softer fill light to open up harsh shadows, and a backlight to separate the actor from the background. When shooting outdoors, utilize natural sunlight as the key and position reflectors or diffusers to soften harsh facial shadows (p. 39).",
               "pamphlet_excerpts": [
@@ -761,7 +839,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2c(6) Structured Technical Study & Explanation Matrix (Handheld Shooting)",
+                "table_title": "Req 2c",
                 "headers": [
                   "Req 2c(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -773,12 +851,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Handheld shooting"
+                  "1. Req 2c(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Handheld shooting"
+                  "1. Req 2c(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2c(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2c(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2c(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -825,7 +913,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist (Motion Picture Shooting Techniques)",
+            "table_title": "Req 2c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -852,7 +940,13 @@
               "5. (2c(5)) Selecting Proper Lighting",
               "6. (2c(6)) Handheld Shooting"
             ],
-            "min_rows": 6
+            "min_rows": 6,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
@@ -890,7 +984,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p027_img1.png",
           "workbook_diagram_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
-          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes."
+          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
+          "socratic_questions": [
+            "For moviemaking Requirement 2c (Demonstrate the following motion picture shooting techniques: (1) Using a tripod (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -912,7 +1009,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2d(1) Structured Technical Study & Explanation Matrix (Court of Honor)",
+                "table_title": "Req 2d",
                 "headers": [
                   "Req 2d(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -924,12 +1021,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Film a court of honor and show it to an audience"
+                  "1. Req 2d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Film a court of honor and show it to an audience"
+                  "1. Req 2d(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2d(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -986,7 +1093,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2d(2) Structured Technical Study & Explanation Matrix (Short Feature of Your Own)",
+                "table_title": "Req 2d",
                 "headers": [
                   "Req 2d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -998,12 +1105,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Create a short feature of your own design, using the techniques you learned"
+                  "1. Req 2d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Create a short feature of your own design, using the techniques you learned"
+                  "1. Req 2d(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -1060,7 +1177,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 2d(3) Structured Technical Study & Explanation Matrix (Vignette Could Used Train)",
+                "table_title": "Req 2d",
                 "headers": [
                   "Req 2d(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1072,12 +1189,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Shoot a vignette that could be used to train a new Scout in a Scouting skill"
+                  "1. Req 2d(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Shoot a vignette that could be used to train a new Scout in a Scouting skill"
+                  "1. Req 2d(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 2d(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 2d(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 2d(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
               "common_misconception_pair": {
@@ -1124,7 +1251,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Motion Picture Shooting Techniques)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1145,7 +1272,13 @@
               "2. (2d(2)) Create a short feature of your own design, using the techniques you learned",
               "3. (2d(3)) Shoot a vignette that could be used to train a new Scout in a Scouting skill"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)",
           "common_misconception_pair": {
@@ -1183,7 +1316,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p027_img1.png",
           "workbook_diagram_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
-          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes."
+          "workbook_visual_caption": "A young filmmaker holds an official clapper board slate to sync sound and scene takes.",
+          "socratic_questions": [
+            "For moviemaking Requirement 2d (Using motion picture shooting techniques, plan ONE of the following programs. Start with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1266,7 +1402,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Three- or Four-paragraph Treatment)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1289,7 +1425,13 @@
           "3. (2c) Motion Picture Shooting Techniques",
           "4. (2d) Motion Picture Shooting Techniques"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A common misunderstanding is that storyboards require master artistic drawing skills to be useful.",
@@ -1452,7 +1594,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Television Production Studio)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1464,12 +1606,21 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's permission and your counselor's approval, visit a film set or television production studio and watch how production work is done"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your parent or guardian's permission and your counselor's approval, visit a film set or television production studio and watch how production work is done"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -1512,7 +1663,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p012_img1.png",
           "workbook_diagram_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky.",
-          "workbook_visual_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky."
+          "workbook_visual_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky.",
+          "socratic_questions": [
+            "For moviemaking Requirement 3a (With your parent or guardian's permission and your counselor's approval, visit a film set), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1532,7 +1686,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Elements of the Zoom Lens)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1544,12 +1698,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the elements of the zoom lens and three important parts"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the elements of the zoom lens and three important parts"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)",
           "common_misconception_pair": {
@@ -1587,7 +1751,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p023_img1.png",
           "workbook_diagram_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky.",
-          "workbook_visual_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky."
+          "workbook_visual_caption": "Silhouetted crew members frame a nighttime scene as fireworks burst across the dark sky.",
+          "socratic_questions": [
+            "For moviemaking Requirement 3b (Explain to your counselor the elements of the zoom lens and three important parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1622,7 +1789,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Permission Television Production Studio)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1641,7 +1808,12 @@
           "1. (3a) Television Production Studio",
           "2. (3b) Elements of The Zoom Lens"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People frequently believe zooming the lens produces the exact visual perspective change as physically tracking closer.",
@@ -1832,19 +2004,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
             "misconception": "Beginners think film careers offer stable nine-to-five office schedules with guaranteed permanent staff employment.",
             "fact": "Most professional film crew members work freelance contracts requiring proactive networking and financial budgeting between productions."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Moviemaking Req 4a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Moviemaking Merit Badge Hub (Req 4a)",
@@ -1875,12 +2048,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p032_img1.png",
           "workbook_diagram_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming.",
-          "workbook_visual_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming."
+          "workbook_visual_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming.",
+          "socratic_questions": [
+            "For moviemaking Requirement 4a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Filmmaking as a Hobby - Getting Started (video)",
@@ -1891,7 +2067,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1905,14 +2081,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)",
           "common_misconception_pair": {
@@ -1942,7 +2124,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 4b: Recreational Videography Lifestyle",
           "pamphlet_summary": "Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures.",
           "pamphlet_excerpts": [
@@ -1951,7 +2133,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/moviemaking_p032_img1.png",
           "title": "Req 4b: Filmmaking as a Creative Hobby",
           "workbook_diagram_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming.",
-          "workbook_visual_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming."
+          "workbook_visual_caption": "An ocean surfer rides a cresting wave providing dynamic subject matter for action filming.",
+          "socratic_questions": [
+            "For moviemaking Requirement 4b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2005,7 +2190,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Aspiring creators believe lucrative filmmaking careers only exist for above-the-line directors and celebrity actors.",

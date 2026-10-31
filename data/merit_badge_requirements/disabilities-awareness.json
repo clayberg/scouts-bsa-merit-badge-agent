@@ -41,7 +41,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Discuss Disabilities Awareness Disability)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -53,12 +53,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain and discuss with your counselor the following disabilities awareness terms: disability, accessibility, adaptation, accommodation, invisible disability, and person-first language"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain and discuss with your counselor the following disabilities awareness terms: disability, accessibility, adaptation, accommodation, invisible disability, and person-first language"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)",
           "common_misconception_pair": {
@@ -96,7 +106,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p003_img1.png",
           "workbook_diagram_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs.",
-          "workbook_visual_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs."
+          "workbook_visual_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 1a (Explain and discuss with your counselor the following disabilities awareness terms:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -124,7 +137,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Disability Etiquette Is Important)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -143,7 +156,13 @@
               "1. Explain why proper disability etiquette is important, and how it may differ depending on the specific disability.",
               "2. Give three examples."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)",
           "common_misconception_pair": {
@@ -181,7 +200,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p009_img1.png",
           "workbook_diagram_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs.",
-          "workbook_visual_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs."
+          "workbook_visual_caption": "A youth group visits an accessible facility, demonstrating inclusion for peers using wheelchairs.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 1b (Explain why proper disability etiquette is important, and how it may differ depending on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -223,7 +245,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Disability Terminology and Etiquette",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -232,7 +254,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Discuss Disabilities Awareness Disability)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -251,7 +273,13 @@
           "1. (1a) Discuss Disabilities Awareness Disability",
           "2. (1b) Disability Etiquette Is Important"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "People assume individuals with disabilities always need or want unsolicited physical assistance in public.",
@@ -428,7 +456,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Agency That Works with People)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -451,7 +479,12 @@
           "3. Learn about opportunities its members have for training, employment, and education.",
           "4. Discuss what you have learned with your counselor."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Disability agencies primarily function as sheltered care facilities offering non-vocational daytime supervision.",
@@ -618,7 +651,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Talk with A Scout Who)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -637,7 +670,13 @@
               "1. Talk with a Scout who has a disability and learn about the Scout's experiences taking part in Scouting activities and earning different merit badges",
               "2. Discuss what you have learned with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
           "common_misconception_pair": {
@@ -676,7 +715,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p028_img1.png",
           "title": "Req 3a: Scouting Experiences with a Disability",
           "workbook_diagram_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
-          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language."
+          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 3a (Talk with a Scout who has a disability and learn about the Scout's experiences taking part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -696,7 +738,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Talk with An Individual Who)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -715,7 +757,13 @@
               "1. Talk with an individual who has a disability and learn about this person's experiences and the activities in which this person likes to participate",
               "2. Discuss what you have learned with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
           "common_misconception_pair": {
@@ -754,7 +802,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p028_img1.png",
           "title": "Req 3b: Everyday Life and Personal Experiences",
           "workbook_diagram_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
-          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language."
+          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 3b (Talk with an individual who has a disability and learn about this person's experiences and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -778,7 +829,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Learn How People with Disabilities)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -797,7 +848,13 @@
               "1. Learn how people with disabilities take part in a particular adaptive sport or recreational activity.",
               "2. Discuss what you have learned with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
           "common_misconception_pair": {
@@ -835,7 +892,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p028_img1.png",
           "workbook_diagram_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
-          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language."
+          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 3c (Learn how people with disabilities take part in a particular adaptive sport or recreational), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -867,7 +927,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Learn About Independent Living Aids)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -886,7 +946,13 @@
               "1. Learn about independent living aids such as service animals, canes, and augmentative communication devices such as captioned telephones and videophones",
               "2. Discuss with your counselor how people use such aids"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
           "common_misconception_pair": {
@@ -924,7 +990,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p028_img1.png",
           "workbook_diagram_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
-          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language."
+          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 3d (Learn about independent living aids such as service animals, canes, and augmentative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3e",
@@ -948,7 +1017,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3e Structured Technical Study & Explanation Matrix (Activity That Helps Others Understand)",
+            "table_title": "Req 3e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -967,7 +1036,13 @@
               "1. Plan or participate in an activity that helps others understand what a person with a visible or invisible disability experiences.",
               "2. Discuss what you have learned with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)",
           "common_misconception_pair": {
@@ -1005,7 +1080,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p028_img1.png",
           "workbook_diagram_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
-          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language."
+          "workbook_visual_caption": "A finger-spelling chart illustrates hand positions for letters in American Sign Language.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 3e (Plan or participate in an activity that helps others understand what a person with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1088,7 +1166,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Talk with A Scout Who)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1113,7 +1191,13 @@
           "4. (3d) Independent Living and Communication Aids",
           "5. (3e) Plan or participate in an activity that helps others understand what a person with a visible or invisible disability experiences"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Simulating an impairment provides complete understanding of what living with a lifelong disability feels like.",
@@ -1265,7 +1349,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)",
+          "text": "Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation.",
           "resources": [
             {
               "title": "NYC Students with Disabilities Speaking About Accessible Schools (video)",
@@ -1280,13 +1364,13 @@
             {
               "sub_id": "4a(1)",
               "label": "(1)",
-              "text": "Your school.",
+              "text": "Your school (2) Your place of worship (3) A Scouting event or campsite.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(1) Structured Technical Study & Explanation Matrix (Disabilities Awareness School Principles)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1298,12 +1382,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Your school"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Your school"
+                  "1. Req 4a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1333,7 +1427,7 @@
               ],
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
-              "sub_req_text": "Your school.",
+              "sub_req_text": "Your school (2) Your place of worship (3) A Scouting event or campsite.",
               "topic_title": "Req 4a(1): School Physical Architectural Accessibility Audit",
               "pamphlet_summary": "School Physical Architectural Accessibility Audit: Scouts inspect educational buildings for physical access by measuring entryway ramp slopes, checking interior door clearance widths, and testing push-plate automatic door activators. Handbooks direct Scouts to record at least five functional accommodations such as lowered laboratory stations alongside five physical obstacles like heavy fire doors or elevated stage platforms (pp. 36-37).",
               "pamphlet_excerpts": [
@@ -1349,13 +1443,13 @@
             {
               "sub_id": "4a(2)",
               "label": "(2)",
-              "text": "Your place of worship.",
+              "text": "Your place of worship (3) A Scouting event or campsite.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (Place of Worship)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1367,12 +1461,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Your place of worship"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Your place of worship"
+                  "1. Req 4a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1402,7 +1506,7 @@
               ],
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
-              "sub_req_text": "Your place of worship.",
+              "sub_req_text": "Your place of worship (3) A Scouting event or campsite.",
               "topic_title": "Req 4a(2): Place of Worship Accessibility Audit",
               "pamphlet_summary": "Place of Worship Accessibility Audit: Scouts evaluate worship facilities to identify physical access features such as level ground entrances, wheelchair spaces integrated within congregational seating, and accessible fellowship halls. The audit requires cataloging five structural strengths alongside five impediments such as exterior stairways without ramps or raised choir lofts lacking lift systems (pp. 38-39).",
               "pamphlet_excerpts": [
@@ -1424,7 +1528,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(3) Structured Technical Study & Explanation Matrix (Scouting Event or Campsite)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1436,12 +1540,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A Scouting event or campsite"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A Scouting event or campsite"
+                  "1. Req 4a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1487,13 +1601,13 @@
             {
               "sub_id": "4a(4)",
               "label": "(4)",
-              "text": "A public exhibit or attraction (such as a theater, museum, or park)",
+              "text": "A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(4) Structured Technical Study & Explanation Matrix (Public Exhibit or Attraction)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1505,12 +1619,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A public exhibit or attraction (such as a theater, museum, or park)"
+                  "1. Req 4a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A public exhibit or attraction (such as a theater, museum, or park)"
+                  "1. Req 4a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1540,7 +1664,7 @@
               ],
               "id": "4a(4)",
               "sub_req_label": "4a(4)",
-              "sub_req_text": "A public exhibit or attraction (such as a theater, museum, or park)",
+              "sub_req_text": "A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation.",
               "topic_title": "Req 4a(4): Public Exhibit Physical Accessibility Survey",
               "pamphlet_summary": "Public Exhibit Physical Accessibility Survey: Scouts examine public venues like museums and theaters to assess barrier-free circulation, accessible seating sightlines, and lowered display casework. The handbook instructs Scouts to measure counter heights, test accessible route connectivity, and verify that emergency exit paths offer unobstructed egress for everyone (pp. 42-43).",
               "pamphlet_excerpts": [
@@ -1557,7 +1681,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Access Locations Notes Accessibility)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1580,7 +1704,13 @@
               "3. (4a(3)) Scouting Event or Campsite",
               "4. (4a(4)) Public Exhibit or Attraction"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
           "common_misconception_pair": {
@@ -1610,7 +1740,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park)",
+          "sub_req_text": "Option A, Access. Visit TWO of the following locations and take notes about the accessibility to people with disabilities. In your notes, give examples of five things that could be done to improve upon the site and five things about the site that make it friendly to people with disabilities. Discuss your observations with your counselor. (1) Your school (2) Your place of worship (3) A Scouting event or campsite (4) A public exhibit or attraction (such as a theater, museum, or park) (b) Option B, Accommodation.",
           "topic_title": "Req 4a: Physical Architectural Access Audit",
           "pamphlet_summary": "Auditing physical locations requires checking parking stalls, curb cuts, entrance ramps, and bathroom fixtures against ADA barrier-free standards. Scouts evaluate pathways of travel to detect physical obstructions, uneven pavement, and inadequate grab bars.",
           "pamphlet_excerpts": [
@@ -1618,7 +1748,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/disabilities_awareness_req_4_topic_visual.png",
           "workbook_diagram_caption": "Access / Accommodation procedures and verification checkpoints for Disabilities Awareness Requirement 4.",
-          "workbook_visual_caption": "Access / Accommodation procedures and verification checkpoints for Disabilities Awareness Requirement 4."
+          "workbook_visual_caption": "Access / Accommodation procedures and verification checkpoints for Disabilities Awareness Requirement 4.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 4a (Option A, Access. Visit TWO of the following locations and take notes about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1634,13 +1767,13 @@
             {
               "sub_id": "4b(1)",
               "label": "(1)",
-              "text": "Your school.",
+              "text": "Your school (2) Your place of worship (3) A Scouting event or campsite.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(1) Structured Technical Study & Explanation Matrix (Disabilities Awareness School Principles)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1652,12 +1785,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Your school"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Your school"
+                  "1. Req 4b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1687,7 +1830,7 @@
               ],
               "id": "4b(1)",
               "sub_req_label": "4b(1)",
-              "sub_req_text": "Your school.",
+              "sub_req_text": "Your school (2) Your place of worship (3) A Scouting event or campsite.",
               "topic_title": "Req 4b(1): School Invisible Disability Accommodation Review",
               "pamphlet_summary": "School Invisible Disability Accommodation Review: Scouts investigate academic environments to observe support systems for cognitive, sensory, and learning differences. Fieldwork highlights accommodations like quiet testing rooms, visual schedules, noise-reducing headphones, and specialized classroom seating designed to minimize sensory overload (pp. 52-53).",
               "pamphlet_excerpts": [
@@ -1703,13 +1846,13 @@
             {
               "sub_id": "4b(2)",
               "label": "(2)",
-              "text": "Your place of worship.",
+              "text": "Your place of worship (3) A Scouting event or campsite.",
               "resources": [],
               "children": [],
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(2) Structured Technical Study & Explanation Matrix (Place of Worship)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1721,12 +1864,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Your place of worship"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Your place of worship"
+                  "1. Req 4b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1756,7 +1909,7 @@
               ],
               "id": "4b(2)",
               "sub_req_label": "4b(2)",
-              "sub_req_text": "Your place of worship.",
+              "sub_req_text": "Your place of worship (3) A Scouting event or campsite.",
               "topic_title": "Req 4b(2): Place of Worship Invisible Disability Audit",
               "pamphlet_summary": "Place of Worship Invisible Disability Audit: Scouts examine faith communities to evaluate how services accommodate individuals with autism, anxiety, or sensory sensitivities. Key practices include providing sensory break rooms with live video feeds, printed visual agendas, and alternative low-sensory worship gatherings (pp. 54-55).",
               "pamphlet_excerpts": [
@@ -1778,7 +1931,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(3) Structured Technical Study & Explanation Matrix (Scouting Event or Campsite)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1790,12 +1943,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A Scouting event or campsite"
+                  "1. Req 4b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A Scouting event or campsite"
+                  "1. Req 4b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1847,7 +2010,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(4) Structured Technical Study & Explanation Matrix (Public Exhibit or Attraction)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1859,12 +2022,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. A public exhibit or attraction (such as a theater, museum, or park)"
+                  "1. Req 4b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. A public exhibit or attraction (such as a theater, museum, or park)"
+                  "1. Req 4b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 4b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 4b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
               "common_misconception_pair": {
@@ -1911,7 +2084,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Accommodation Locations Notes Observing)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1934,7 +2107,13 @@
               "3. (4b(3)) Scouting Event or Campsite",
               "4. (4b(4)) Public Exhibit or Attraction"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 36, p. 40)",
           "common_misconception_pair": {
@@ -1972,7 +2151,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p041_img1.png",
           "workbook_diagram_caption": "An interpreter provides American Sign Language translation for audience members at a large event.",
-          "workbook_visual_caption": "An interpreter provides American Sign Language translation for audience members at a large event."
+          "workbook_visual_caption": "An interpreter provides American Sign Language translation for audience members at a large event.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 4b (Option B, Accommodation. Visit TWO of the following locations and take notes while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2007,7 +2189,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Access Locations Notes Accessibility)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2026,7 +2208,12 @@
           "1. (4a) Access Locations Notes Accessibility",
           "2. (4b) Accommodation Locations Notes Observing"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Having a concrete ramp at a side entrance guarantees full building accessibility.",
@@ -2189,7 +2376,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Counselor-approved Disabilities Awareness)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2208,7 +2395,13 @@
               "1. Present a counselor-approved disabilities awareness program to a Cub Scout pack or other group.",
               "2. During your presentation, explain and use person-first language."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)",
           "common_misconception_pair": {
@@ -2247,7 +2440,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p046_img1.png",
           "title": "Req 5a: Presenting an Awareness Program",
           "workbook_diagram_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
-          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session."
+          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 5a (Present a counselor-approved disabilities awareness program to a Cub Scout pack or other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2263,7 +2459,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Out About Disabilities Awareness Education)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2282,7 +2478,13 @@
               "1. Find out about disabilities awareness education programs in your school or school system, or contact a disability advocacy agency.",
               "2. Volunteer with a program or agency for eight hours."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)",
           "common_misconception_pair": {
@@ -2320,7 +2522,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p046_img1.png",
           "workbook_diagram_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
-          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session."
+          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 5b (Find out about disabilities awareness education programs in your school or school system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2336,7 +2541,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Resources Such As Disability Advocacy)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2357,19 +2562,20 @@
               "2. List 10 myths and misconceptions about people with disabilities and learn the facts about each myth",
               "3. Share your list with your counselor, then use it to make a presentation to a Cub Scout pack or other group"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)",
           "common_misconception_pair": {
             "misconception": "Employees with disabilities show higher rates of workplace absenteeism and lower productivity than peers.",
             "fact": "Department of Labor studies show workers with disabilities have equal or superior attendance and job retention rates."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Disabilities Awareness Req 5c with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Disabilities Awareness Merit Badge Hub (Req 5c)",
@@ -2400,7 +2606,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/disabilities_awareness_p046_img1.png",
           "workbook_diagram_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
-          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session."
+          "workbook_visual_caption": "A guitarist in a wheelchair performs alongside a fellow musician during an inclusive music session.",
+          "socratic_questions": [
+            "For disabilities awareness Requirement 5c (Using resources such as disability advocacy agencies, government agencies, the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2435,7 +2644,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Disability Advocacy and Self-Determination)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2456,7 +2665,12 @@
           "2. (5b) Out About Disabilities Awareness Education",
           "3. (5c) Resources Such As Disability Advocacy"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Advocacy must always involve professional political lobbying or high-level legislative testimony.",
@@ -2642,7 +2856,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Commitment to Your Counselor Describing)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2661,7 +2875,13 @@
           "1. Make a commitment to your counselor describing what you will do to show a positive attitude about and toward people with disabilities and to encourage positive attitudes among others",
           "2. Discuss how your awareness has changed as a result of what you have learned"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Demonstrating a positive attitude toward disability simply means feeling sorry for individuals who face physical challenges.",
@@ -2852,14 +3072,20 @@
         "row_labels": [
           "1. Name five professions that provide services to people with disabilities.",
           "2. Pick one that interests you and find out the education, training, and experience required for this profession.",
-          "3. Discuss what you learn with your counselor, and tell why this profession interests you."
+          "3. Discuss what you learn with your counselor, and tell why this profession interests"
         ],
         "rows": [
           "1. Name five professions that provide services to people with disabilities.",
           "2. Pick one that interests you and find out the education, training, and experience required for this profession.",
-          "3. Discuss what you learn with your counselor, and tell why this profession interests you."
+          "3. Discuss what you learn with your counselor, and tell why this profession interests"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Careers supporting people with disabilities are limited exclusively to hospital nursing and medical doctor positions.",

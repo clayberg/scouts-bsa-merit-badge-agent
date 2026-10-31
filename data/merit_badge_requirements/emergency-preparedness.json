@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor the aspects of emergency preparedness and include in your discussion the kinds of questions that are important to ask yourself"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor the aspects of emergency preparedness and include in your discussion the kinds of questions that are important to ask yourself"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
           "common_misconception_pair": {
@@ -89,7 +99,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p003_img1.png",
           "title": "Req 1a: Core Preparedness Phases and Questions",
           "workbook_diagram_caption": "A homeowner boards up windows with plywood to protect against storm damage.",
-          "workbook_visual_caption": "A homeowner boards up windows with plywood to protect against storm damage."
+          "workbook_visual_caption": "A homeowner boards up windows with plywood to protect against storm damage.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 1a (Discuss with your counselor the aspects of emergency preparedness and include in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -100,7 +113,7 @@
             {
               "sub_id": "1b(1)",
               "label": "(1)",
-              "text": "Home stovetop or oven fire.",
+              "text": "Home stovetop or oven fire (2) Home flammable liquid fire.",
               "resources": [
                 {
                   "title": "How to Put Out a Stovetop Fire (video)",
@@ -111,7 +124,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(1) Structured Technical Study & Explanation Matrix (Home Stovetop or Oven Fire)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -123,12 +136,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Home stovetop or oven fire"
+                  "1. Req 1b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Home stovetop or oven fire"
+                  "1. Req 1b(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -158,7 +181,7 @@
               ],
               "id": "1b(1)",
               "sub_req_label": "1b(1)",
-              "sub_req_text": "Home stovetop or oven fire.",
+              "sub_req_text": "Home stovetop or oven fire (2) Home flammable liquid fire.",
               "topic_title": "Req 1b(1): Stovetop and Oven Fire Safety",
               "pamphlet_summary": "Stovetop and Oven Fire Safety: Smother kitchen grease fires by sliding a metal lid over the pan, turning off the heat source, and leaving the pan covered until completely cool. Keep oven doors shut tightly during an oven fire while turning off the power to starve the flames of oxygen (p. 15).",
               "pamphlet_excerpts": [
@@ -185,7 +208,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(2) Structured Technical Study & Explanation Matrix (Home Flammable Liquid Fire)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -197,12 +220,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Home flammable liquid fire"
+                  "1. Req 1b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Home flammable liquid fire"
+                  "1. Req 1b(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -248,7 +281,7 @@
             {
               "sub_id": "1b(3)",
               "label": "(3)",
-              "text": "Gas leak in or near a home or with outside cooking.",
+              "text": "Gas leak in or near a home or with outside cooking (4) Food poisoning (5) Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard.",
               "resources": [
                 {
                   "title": "What to Do If You Smell Gas (video)",
@@ -263,7 +296,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(3) Structured Technical Study & Explanation Matrix (Leak in or Near A)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -275,12 +308,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Gas leak in or near a home or with outside cooking"
+                  "1. Req 1b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Gas leak in or near a home or with outside cooking"
+                  "1. Req 1b(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -310,7 +353,7 @@
               ],
               "id": "1b(3)",
               "sub_req_label": "1b(3)",
-              "sub_req_text": "Gas leak in or near a home or with outside cooking.",
+              "sub_req_text": "Gas leak in or near a home or with outside cooking (4) Food poisoning (5) Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard.",
               "topic_title": "Req 1b(3): Residential and Outdoor Gas Leak Management",
               "pamphlet_summary": "Residential and Outdoor Gas Leak Management: Evacuate the area on foot immediately upon detecting the sulfur odor of leaking fuel gas without operating any electrical switches or phones inside the structure. Shut off outdoor tank cylinder valves if safely accessible, and notify the utility company from a safe distance outdoors (p. 18).",
               "pamphlet_excerpts": [
@@ -327,7 +370,7 @@
             {
               "sub_id": "1b(4)",
               "label": "(4)",
-              "text": "Food poisoning.",
+              "text": "Food poisoning (5) Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury.",
               "resources": [
                 {
                   "title": "Stomach Flu and Food Poisoning (video)",
@@ -346,7 +389,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(4) Structured Technical Study & Explanation Matrix (Food Poisoning)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -358,12 +401,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Food poisoning"
+                  "1. Req 1b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Food poisoning"
+                  "1. Req 1b(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -393,7 +446,7 @@
               ],
               "id": "1b(4)",
               "sub_req_label": "1b(4)",
-              "sub_req_text": "Food poisoning.",
+              "sub_req_text": "Food poisoning (5) Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury.",
               "topic_title": "Req 1b(4): Foodborne Illness Prevention and Response",
               "pamphlet_summary": "Foodborne Illness Prevention and Response: Prevent bacterial proliferation by keeping cold foods below 40 degrees Fahrenheit, cooking meats to recommended internal temperatures, and refrigerating perishable items within two hours. Treat acute food poisoning through oral rehydration with electrolyte fluids while monitoring for severe dehydration and shock (p. 20).",
               "pamphlet_excerpts": [
@@ -409,7 +462,7 @@
             {
               "sub_id": "1b(5)",
               "label": "(5)",
-              "text": "Automobile crash.",
+              "text": "Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident.",
               "resources": [
                 {
                   "title": "Responding to a Car Crash (video)",
@@ -420,7 +473,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(5) Structured Technical Study & Explanation Matrix (Automobile Crash)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(5) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -432,12 +485,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Automobile crash"
+                  "1. Req 1b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(5) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Automobile crash"
+                  "1. Req 1b(5) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(5) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(5) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(5) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -467,7 +530,7 @@
               ],
               "id": "1b(5)",
               "sub_req_label": "1b(5)",
-              "sub_req_text": "Automobile crash.",
+              "sub_req_text": "Automobile crash (6) Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident.",
               "topic_title": "Req 1b(5): Motor Vehicle Collision Scene Safety",
               "pamphlet_summary": "Motor Vehicle Collision Scene Safety: Secure the collision scene by activating hazard flashers, setting reflective triangles or flares upstream of traffic, and turning off ignitions on damaged vehicles. Do not move injured motorists unless an immediate threat such as fire or submersion makes relocation essential to survival (p. 24).",
               "pamphlet_excerpts": [
@@ -483,7 +546,7 @@
             {
               "sub_id": "1b(6)",
               "label": "(6)",
-              "text": "Vehicle stalled in the desert.",
+              "text": "Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases.",
               "resources": [
                 {
                   "title": "A Desert Survival Experience (video)",
@@ -494,7 +557,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(6) Structured Technical Study & Explanation Matrix (Vehicle Stalled in the Desert)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(6) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -506,12 +569,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Vehicle stalled in the desert"
+                  "1. Req 1b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(6) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Vehicle stalled in the desert"
+                  "1. Req 1b(6) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(6) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(6) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(6) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -541,7 +614,7 @@
               ],
               "id": "1b(6)",
               "sub_req_label": "1b(6)",
-              "sub_req_text": "Vehicle stalled in the desert.",
+              "sub_req_text": "Vehicle stalled in the desert (7) Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases.",
               "topic_title": "Req 1b(6): Desert Vehicle Breakdown Survival Strategies",
               "pamphlet_summary": "Desert Vehicle Breakdown Survival Strategies: Remain inside or directly beside the disabled vehicle to benefit from shade and provide a recognizable target for search aircraft. Ration physical exertion, raise the hood to signal distress, and drink available water in regular sips rather than dehydrating in an attempt to save it (p. 26).",
               "pamphlet_excerpts": [
@@ -557,7 +630,7 @@
             {
               "sub_id": "1b(7)",
               "label": "(7)",
-              "text": "Vehicle trapped in a blizzard.",
+              "text": "Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency.",
               "resources": [
                 {
                   "title": "6 Critical Tips You Need to Know in Order to Survive Being Stranded in Your Car in Freezing Temperatures (website w/ video)",
@@ -568,7 +641,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(7) Structured Technical Study & Explanation Matrix (Vehicle Trapped in A Blizzard)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(7) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -580,12 +653,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Vehicle trapped in a blizzard"
+                  "1. Req 1b(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(7) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Vehicle trapped in a blizzard"
+                  "1. Req 1b(7) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(7) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(7) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(7) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -615,7 +698,7 @@
               ],
               "id": "1b(7)",
               "sub_req_label": "1b(7)",
-              "sub_req_text": "Vehicle trapped in a blizzard.",
+              "sub_req_text": "Vehicle trapped in a blizzard (8) Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency.",
               "topic_title": "Req 1b(7): Blizzard Vehicle Entrapment Survival Protocols",
               "pamphlet_summary": "Blizzard Vehicle Entrapment Survival Protocols: Stay inside the automobile cabin, crack a downwind window slightly for fresh airflow, and tie a bright fluorescent cloth to the radio antenna. Run the engine and heater for only ten minutes each hour after clearing the exhaust pipe of snow drifts to avoid fatal carbon monoxide poisoning (p. 28).",
               "pamphlet_excerpts": [
@@ -631,7 +714,7 @@
             {
               "sub_id": "1b(8)",
               "label": "(8)",
-              "text": "Backcountry injury.",
+              "text": "Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place.",
               "resources": [
                 {
                   "title": "Patient Assessment (video)",
@@ -646,7 +729,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(8) Structured Technical Study & Explanation Matrix (Backcountry Injury)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(8) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -658,12 +741,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Backcountry injury"
+                  "1. Req 1b(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(8) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Backcountry injury"
+                  "1. Req 1b(8) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(8) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(8) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(8) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -693,7 +786,7 @@
               ],
               "id": "1b(8)",
               "sub_req_label": "1b(8)",
-              "sub_req_text": "Backcountry injury.",
+              "sub_req_text": "Backcountry injury (9) Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place.",
               "topic_title": "Req 1b(8): Backcountry Injury Stabilization and Evacuation",
               "pamphlet_summary": "Backcountry Injury Stabilization and Evacuation: Stabilize severe trauma by controlling bleeding, preventing hypothermia, and splinting fractures before assessing evacuation feasibility. Keep at least one buddy with the injured patient while two scouts travel together to summon emergency rescue services with written patient vitals (p. 31).",
               "pamphlet_excerpts": [
@@ -709,7 +802,7 @@
             {
               "sub_id": "1b(9)",
               "label": "(9)",
-              "text": "Boating or water accident.",
+              "text": "Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place.",
               "resources": [
                 {
                   "title": "Preventing and Managing Boating Accidents (website)",
@@ -720,7 +813,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(9) Structured Technical Study & Explanation Matrix (Boating or Water Accident)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(9) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -732,12 +825,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Boating or water accident"
+                  "1. Req 1b(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(9) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Boating or water accident"
+                  "1. Req 1b(9) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(9) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(9) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(9) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -767,7 +870,7 @@
               ],
               "id": "1b(9)",
               "sub_req_label": "1b(9)",
-              "sub_req_text": "Boating or water accident.",
+              "sub_req_text": "Boating or water accident (10) Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place.",
               "topic_title": "Req 1b(9): Watercraft Accident Rescue and Survival",
               "pamphlet_summary": "Watercraft Accident Rescue and Survival: Execute rescues using the reach, throw, row, and go sequence from shore or a stable craft without entering dangerous water recklessly. Stay with a capsized boat because its hull provides flotation and increased visibility for search-and-rescue teams (p. 34).",
               "pamphlet_excerpts": [
@@ -783,7 +886,7 @@
             {
               "sub_id": "1b(10)",
               "label": "(10)",
-              "text": "Toxic chemical spills and releases.",
+              "text": "Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire.",
               "resources": [
                 {
                   "title": "Chemical Spill Preparedness (video)",
@@ -798,7 +901,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(10) Structured Technical Study & Explanation Matrix (Toxic Chemical Spills)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(10) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -810,12 +913,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Toxic chemical spills and releases"
+                  "1. Req 1b(10) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(10) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(10) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Toxic chemical spills and releases"
+                  "1. Req 1b(10) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(10) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(10) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(10) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -845,7 +958,7 @@
               ],
               "id": "1b(10)",
               "sub_req_label": "1b(10)",
-              "sub_req_text": "Toxic chemical spills and releases.",
+              "sub_req_text": "Toxic chemical spills and releases (11) Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire.",
               "topic_title": "Req 1b(10): Hazardous Material Spill and Release Response",
               "pamphlet_summary": "Hazardous Material Spill and Release Response: Move upwind, uphill, and upstream of hazardous chemical vapors, or shelter in place by sealing an interior room with plastic sheeting and duct tape. Turn off heating, air conditioning, and ventilation fans to prevent contaminated external air from entering the living area (p. 38).",
               "pamphlet_excerpts": [
@@ -861,7 +974,7 @@
             {
               "sub_id": "1b(11)",
               "label": "(11)",
-              "text": "Nuclear power plant emergency.",
+              "text": "Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide).",
               "resources": [
                 {
                   "title": "How to Stay Safe in a Nuclear Emergency (video)",
@@ -872,7 +985,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(11) Structured Technical Study & Explanation Matrix (Nuclear Power Plant Emergency)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(11) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -884,12 +997,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Nuclear power plant emergency"
+                  "1. Req 1b(11) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(11) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(11) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Nuclear power plant emergency"
+                  "1. Req 1b(11) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(11) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(11) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(11) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -919,7 +1042,7 @@
               ],
               "id": "1b(11)",
               "sub_req_label": "1b(11)",
-              "sub_req_text": "Nuclear power plant emergency.",
+              "sub_req_text": "Nuclear power plant emergency (12) Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide).",
               "topic_title": "Req 1b(11): Nuclear Power Plant Radiological Protection",
               "pamphlet_summary": "Nuclear Power Plant Radiological Protection: Minimize radiological exposure by maximizing distance from the facility, reducing exposure time, and placing thick concrete or earthen shielding between yourself and the source. Monitor emergency broadcast channels and take potassium iodide only when specifically directed by state public health officials (p. 42).",
               "pamphlet_excerpts": [
@@ -935,7 +1058,7 @@
             {
               "sub_id": "1b(12)",
               "label": "(12)",
-              "text": "Fire or explosion in a public place.",
+              "text": "Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake.",
               "resources": [
                 {
                   "title": "How to Survive a Building Explosion (video)",
@@ -950,7 +1073,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(12) Structured Technical Study & Explanation Matrix (Fire or Explosion in A)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(12) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -962,12 +1085,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Fire or explosion in a public place"
+                  "1. Req 1b(12) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(12) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(12) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Fire or explosion in a public place"
+                  "1. Req 1b(12) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(12) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(12) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(12) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -997,7 +1130,7 @@
               ],
               "id": "1b(12)",
               "sub_req_label": "1b(12)",
-              "sub_req_text": "Fire or explosion in a public place.",
+              "sub_req_text": "Fire or explosion in a public place (13) Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake.",
               "topic_title": "Req 1b(12): Public Facility Fire and Explosion Response",
               "pamphlet_summary": "Public Facility Fire and Explosion Response: Locate secondary emergency exits immediately upon entering theaters, arenas, or malls so you do not rely solely on the main entrance in a crisis. Drop low beneath toxic smoke, crawl along perimeter walls toward the nearest unblocked exit, and never attempt to use passenger elevators (p. 46).",
               "pamphlet_excerpts": [
@@ -1014,7 +1147,7 @@
             {
               "sub_id": "1b(13)",
               "label": "(13)",
-              "text": "Violence in a public place.",
+              "text": "Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "resources": [
                 {
                   "title": "How to Respond to an Active Shooter (video)",
@@ -1025,7 +1158,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(13) Structured Technical Study & Explanation Matrix (Violence in A Public Place)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(13) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1037,12 +1170,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Violence in a public place"
+                  "1. Req 1b(13) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(13) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(13) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Violence in a public place"
+                  "1. Req 1b(13) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(13) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(13) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(13) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1072,7 +1215,7 @@
               ],
               "id": "1b(13)",
               "sub_req_label": "1b(13)",
-              "sub_req_text": "Violence in a public place.",
+              "sub_req_text": "Violence in a public place (14) Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "topic_title": "Req 1b(13): Public Active Threat Situational Response",
               "pamphlet_summary": "Public Active Threat Situational Response: Follow the Run, Hide, Fight protocol by evacuating immediately if an accessible escape route exists, leaving personal belongings behind. If escape is blocked, barricade doors with heavy furniture, turn off lights, silence cell phones, and commit to physical resistance only as an imminent last resort (p. 48).",
               "pamphlet_excerpts": [
@@ -1088,7 +1231,7 @@
             {
               "sub_id": "1b(14)",
               "label": "(14)",
-              "text": "Wildland fire.",
+              "text": "Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "resources": [
                 {
                   "title": "If You Are Trapped by a Wildfire (video)",
@@ -1103,7 +1246,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(14) Structured Technical Study & Explanation Matrix (Wildland Fire)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(14) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1115,12 +1258,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Wildland fire"
+                  "1. Req 1b(14) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(14) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(14) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Wildland fire"
+                  "1. Req 1b(14) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(14) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(14) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(14) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1150,7 +1303,7 @@
               ],
               "id": "1b(14)",
               "sub_req_label": "1b(14)",
-              "sub_req_text": "Wildland fire.",
+              "sub_req_text": "Wildland fire (15) Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "topic_title": "Req 1b(14): Wildland Fire Prevention and Evacuation",
               "pamphlet_summary": "Wildland Fire Prevention and Evacuation: Create a defensible space perimeter of thirty to one hundred feet around structures by clearing brush, dead pine needles, and combustible yard debris. Follow evacuation orders immediately when issued by public safety agencies, packing preassembled Go Bags and wearing protective natural-fiber clothing (p. 52).",
               "pamphlet_excerpts": [
@@ -1166,7 +1319,7 @@
             {
               "sub_id": "1b(15)",
               "label": "(15)",
-              "text": "Avalanche (snowslide or rockslide)",
+              "text": "Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "resources": [
                 {
                   "title": "Survive an Avalanche (video)",
@@ -1181,7 +1334,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(15) Structured Technical Study & Explanation Matrix (Avalanche Snowslide or Rockslide)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(15) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1193,12 +1346,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Avalanche (snowslide or rockslide)"
+                  "1. Req 1b(15) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(15) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(15) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Avalanche (snowslide or rockslide)"
+                  "1. Req 1b(15) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(15) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(15) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(15) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1228,7 +1391,7 @@
               ],
               "id": "1b(15)",
               "sub_req_label": "1b(15)",
-              "sub_req_text": "Avalanche (snowslide or rockslide)",
+              "sub_req_text": "Avalanche (snowslide or rockslide) (16) Earthquake (17) Tsunami.",
               "topic_title": "Req 1b(15): Avalanche and Rockslide Hazard Response",
               "pamphlet_summary": "Avalanche and Rockslide Hazard Response: Travel along ridgelines rather than beneath steep chutes, and ensure every group member carries an avalanche beacon, probe, and metal snow shovel. If caught in a slide, discard heavy equipment, make swimming motions toward the surface, and cup hands around your mouth to maintain a breathing cavity as motion stops (p. 56).",
               "pamphlet_excerpts": [
@@ -1244,7 +1407,7 @@
             {
               "sub_id": "1b(16)",
               "label": "(16)",
-              "text": "Earthquake.",
+              "text": "Earthquake (17) Tsunami.",
               "resources": [
                 {
                   "title": "10 Ways to Survive an Earthquake (video)",
@@ -1259,7 +1422,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(16) Structured Technical Study & Explanation Matrix (Emergency Preparedness Earthquake Principles)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(16) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1271,12 +1434,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Earthquake"
+                  "1. Req 1b(16) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(16) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(16) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Earthquake"
+                  "1. Req 1b(16) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(16) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(16) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(16) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1306,7 +1479,7 @@
               ],
               "id": "1b(16)",
               "sub_req_label": "1b(16)",
-              "sub_req_text": "Earthquake.",
+              "sub_req_text": "Earthquake (17) Tsunami.",
               "topic_title": "Req 1b(16): Earthquake Preparedness and Response Actions",
               "pamphlet_summary": "Earthquake Preparedness and Response Actions: Scouts practice the Drop, Cover, and Hold On technique beneath sturdy furniture while protecting their heads from falling debris. If outdoors, individuals must move to an open area clear of buildings, power lines, and chimneys until shaking stops (p. 16).",
               "pamphlet_excerpts": [
@@ -1333,7 +1506,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(17) Structured Technical Study & Explanation Matrix (Emergency Preparedness Tsunami Principles)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(17) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1345,12 +1518,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Emergency Preparedness Tsunami Principles"
+                  "1. Req 1b(17) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(17) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(17) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Emergency Preparedness Tsunami Principles"
+                  "1. Req 1b(17) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(17) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(17) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(17) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1396,7 +1579,7 @@
             {
               "sub_id": "1b(18)",
               "label": "(18)",
-              "text": "Major flooding or a flash flood with water outage.",
+              "text": "Major flooding or a flash flood with water outage (19) Hurricane with power outage (20) Tornado (21) Lightning storm.",
               "resources": [
                 {
                   "title": "How to Survive a Flood (video)",
@@ -1411,7 +1594,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(18) Structured Technical Study & Explanation Matrix (Major Flooding or A Flash)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(18) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1423,12 +1606,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Major flooding or a flash flood with water outage"
+                  "1. Req 1b(18) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(18) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(18) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Major flooding or a flash flood with water outage"
+                  "1. Req 1b(18) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(18) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(18) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(18) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1458,7 +1651,7 @@
               ],
               "id": "1b(18)",
               "sub_req_label": "1b(18)",
-              "sub_req_text": "Major flooding or a flash flood with water outage.",
+              "sub_req_text": "Major flooding or a flash flood with water outage (19) Hurricane with power outage (20) Tornado (21) Lightning storm.",
               "topic_title": "Req 1b(18): Flood Response and Water Outage",
               "pamphlet_summary": "Flood Response and Water Outage: Scouts must stay out of moving floodwaters and avoid driving or walking across flooded roads. Households should store a minimum of one gallon of potable water per person per day to maintain hydration and hygiene during municipal supply contamination (p. 18).",
               "pamphlet_excerpts": [
@@ -1474,7 +1667,7 @@
             {
               "sub_id": "1b(19)",
               "label": "(19)",
-              "text": "Hurricane with power outage.",
+              "text": "Hurricane with power outage (20) Tornado (21) Lightning storm.",
               "resources": [
                 {
                   "title": "How to Survive a Hurricane (video)",
@@ -1489,7 +1682,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(19) Structured Technical Study & Explanation Matrix (Hurricane with Power Outage)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(19) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1501,12 +1694,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Hurricane with power outage"
+                  "1. Req 1b(19) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(19) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(19) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Hurricane with power outage"
+                  "1. Req 1b(19) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(19) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(19) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(19) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1536,7 +1739,7 @@
               ],
               "id": "1b(19)",
               "sub_req_label": "1b(19)",
-              "sub_req_text": "Hurricane with power outage.",
+              "sub_req_text": "Hurricane with power outage (20) Tornado (21) Lightning storm.",
               "topic_title": "Req 1b(19): Hurricane Preparation and Power Outage",
               "pamphlet_summary": "Hurricane Preparation and Power Outage: Families prepare for incoming tropical systems by boarding windows, securing outdoor furniture, and charging essential battery-powered radios and flashlights. In prolonged electrical outages, backup generators must run exclusively outdoors far from open windows to prevent lethal exhaust accumulation (p. 20).",
               "pamphlet_excerpts": [
@@ -1552,7 +1755,7 @@
             {
               "sub_id": "1b(20)",
               "label": "(20)",
-              "text": "Tornado.",
+              "text": "Tornado (21) Lightning storm.",
               "resources": [
                 {
                   "title": "How to Prepare for a Tornado (website)",
@@ -1567,7 +1770,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(20) Structured Technical Study & Explanation Matrix (Emergency Preparedness Tornado Principles)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(20) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1579,12 +1782,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Core principles and practical standards for Emergency Preparedness Tornado Principles"
+                  "1. Req 1b(20) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(20) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(20) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Core principles and practical standards for Emergency Preparedness Tornado Principles"
+                  "1. Req 1b(20) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(20) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(20) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(20) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1614,7 +1827,7 @@
               ],
               "id": "1b(20)",
               "sub_req_label": "1b(20)",
-              "sub_req_text": "Tornado.",
+              "sub_req_text": "Tornado (21) Lightning storm.",
               "topic_title": "Req 1b(20): Tornado Shelter and Safety Procedures",
               "pamphlet_summary": "Tornado Shelter and Safety Procedures: The safest shelter during a twister is an underground storm cellar or an interior room on the lowest floor without windows, such as a bathroom or closet. Occupants should crouch low to the floor face down and cover their heads and necks with thick blankets or cushions (p. 21).",
               "pamphlet_excerpts": [
@@ -1645,7 +1858,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 1b(21) Structured Technical Study & Explanation Matrix (Lightning Storm)",
+                "table_title": "Req 1b",
                 "headers": [
                   "Req 1b(21) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1657,12 +1870,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Lightning storm"
+                  "1. Req 1b(21) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(21) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(21) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Lightning storm"
+                  "1. Req 1b(21) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 1b(21) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 1b(21) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 1b(21) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
               "common_misconception_pair": {
@@ -1709,7 +1932,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist (Spreadsheet or Another Method Approved)",
+            "table_title": "Req 1b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1766,19 +1989,20 @@
               "20. (1b(20)) Core principles and practical standards for Emergency Preparedness Tornado Principles",
               "21. (1b(21)) Lightning storm"
             ],
-            "min_rows": 21
+            "min_rows": 21,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)",
           "common_misconception_pair": {
             "misconception": "A single generic disaster checklist suffices for all emergency scenarios.",
             "fact": "Documented matrices delineate distinct operational phases tailored to specific local hazards."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Emergency Preparedness Req 1b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 1b)",
@@ -1809,7 +2033,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p020_img1.png",
           "workbook_diagram_caption": "A homeowner boards up windows with plywood to protect against storm damage.",
-          "workbook_visual_caption": "A homeowner boards up windows with plywood to protect against storm damage."
+          "workbook_visual_caption": "A homeowner boards up windows with plywood to protect against storm damage.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 1b (Using a chart, spreadsheet, or another method approved by your counselor, demonstrate your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1972,7 +2199,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist (Emergency Situations)",
+        "table_title": "Req 1 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1991,18 +2218,19 @@
           "1. (1a) Core Preparedness Phases and Questions",
           "2. (1b) Emergency Situation Analysis Chart"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Emergency preparedness begins only when severe weather warnings or alerts sound.",
         "fact": "Preparedness requires prior hazard mitigation, resource stockpiling, and regular rehearsal cycles."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "First Aid Merit Badge Required",
-        "gate_description": "Scout must earn the First Aid Merit Badge to complete Emergency Preparedness.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 1)",
@@ -2168,7 +2396,7 @@
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Family Meeting Discuss the Situations)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2187,7 +2415,13 @@
               "1. At a family meeting, discuss the situations on the chart you created for requirement 1(b) and make emergency plans for sheltering-in-place and for evacuation of your home",
               "2. Discuss your family meeting and plans with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)",
           "common_misconception_pair": {
@@ -2225,7 +2459,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p007_img1.png",
           "workbook_diagram_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
-          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety."
+          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 2a (At a family meeting, discuss the situations on the chart you created for requirement 1(b)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -2249,7 +2486,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Develop Escape Family Case)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -2270,7 +2507,13 @@
               "2. Draw a floor plan with escape routes and a map with a safe meeting place.",
               "3. Discuss your family's home escape plan with your counselor."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)",
           "common_misconception_pair": {
@@ -2308,7 +2551,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p031_img1.png",
           "workbook_diagram_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
-          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety."
+          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 2b (Develop and practice a plan of escape for your family in case of fire in your home. Draw a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -2336,7 +2582,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2355,19 +2601,20 @@
               "1. Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a family disaster kit for sheltering-in-place and for evacuation of your home",
               "2. Review the needs and uses of the items in a kit with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)",
           "common_misconception_pair": {
             "misconception": "Standard camping gear without modifications serves as a complete disaster kit.",
             "fact": "Emergency kits require specific survival documentation, specialized tools, and sanitation gear."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Emergency Preparedness Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 2c)",
@@ -2398,7 +2645,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p031_img1.png",
           "workbook_diagram_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
-          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety."
+          "workbook_visual_caption": "A boy presses the test button on a smoke detector to verify home fire safety.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 2c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2457,7 +2707,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Planning for Family Emergencies)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -2478,18 +2728,19 @@
           "2. (2b) Develop Escape Family Case",
           "3. (2c) Checklist in The Emergency Preparedness"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Families should rely on standard mobile telephone calls during major regional emergencies.",
         "fact": "Overloaded cellular circuits fail, whereas out-of-area text messaging routinely routes successfully."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Emergency Preparedness Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 2)",
@@ -2651,7 +2902,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Home Safety Checklist Included)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2670,19 +2921,20 @@
               "1. Using a home safety checklist included in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, inspect a home",
               "2. Present your completed checklist to and discuss your findings with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
             "misconception": "Smoke alarms remain fully functional as long as the test button beeps.",
             "fact": "Sensor degradation requires replacing entire smoke detector units every ten years."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Emergency Preparedness Req 3a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 3a)",
@@ -2713,7 +2965,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p012_img1.png",
           "workbook_diagram_caption": "A driver wears her seat belt properly to prevent injuries on the road.",
-          "workbook_visual_caption": "A driver wears her seat belt properly to prevent injuries on the road."
+          "workbook_visual_caption": "A driver wears her seat belt properly to prevent injuries on the road.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 3a (Using a home safety checklist included in the Emergency Preparedness merit badge pamphlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -2729,7 +2984,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Emergency Preparedness Hazards and First Aid)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2748,7 +3003,12 @@
               "1. Develop emergency prevention plans for five family activities outside the home, as approved by your counselor",
               "2. (Examples are taking a picnic to a park, seeing a movie, attending a worship service, an outing at a beach, traveling to visit a relative, or attending a ball)"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)",
           "common_misconception_pair": {
@@ -2791,7 +3051,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p021_img1.png",
           "workbook_diagram_caption": "A driver wears her seat belt properly to prevent injuries on the road.",
-          "workbook_visual_caption": "A driver wears her seat belt properly to prevent injuries on the road."
+          "workbook_visual_caption": "A driver wears her seat belt properly to prevent injuries on the road.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 3b (Develop emergency prevention plans for five family activities outside the home, as approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2822,7 +3085,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Emergency Preparedness Hazards and First Aid)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2841,7 +3104,12 @@
           "1. (3a) Home Safety Checklist Included",
           "2. (3b) Emergency Preparedness Hazards and First Aid"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Modern residential homes rarely contain life-threatening fire or tripping hazards.",
@@ -3003,7 +3271,7 @@
         {
           "sub_id": "4a",
           "label": "(a)",
-          "text": "Live household electric wire.",
+          "text": "Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire.",
           "resources": [
             {
               "title": "Rescue and First Aid for Electric Shock (video)",
@@ -3014,7 +3282,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Live Household Electric)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3026,12 +3294,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Live household electric wire"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Live household electric wire"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -3061,7 +3339,7 @@
           ],
           "id": "4a",
           "sub_req_label": "4a",
-          "sub_req_text": "Live household electric wire.",
+          "sub_req_text": "Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire.",
           "topic_title": "Req 4a: Live Electrical Wire Rescue",
           "pamphlet_summary": "Household current can cause ventricular fibrillation and muscular lockup. Rescuers must shut off the breaker or push wires using dry nonconductive broom handles.",
           "pamphlet_excerpts": [
@@ -3069,12 +3347,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p034_img1.png",
           "workbook_diagram_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
-          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid."
+          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 4a (Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
           "label": "(b)",
-          "text": "A structure filled with carbon monoxide.",
+          "text": "A structure filled with carbon monoxide (c) Clothes on fire.",
           "resources": [
             {
               "title": "Rescue from CO Poisoning (video)",
@@ -3085,7 +3366,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Structure Filled with Carbon Monoxide)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3097,12 +3378,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. A structure filled with carbon monoxide"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. A structure filled with carbon monoxide"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -3132,7 +3423,7 @@
           ],
           "id": "4b",
           "sub_req_label": "4b",
-          "sub_req_text": "A structure filled with carbon monoxide.",
+          "sub_req_text": "A structure filled with carbon monoxide (c) Clothes on fire.",
           "topic_title": "Req 4b: Carbon Monoxide Structure Extraction",
           "pamphlet_summary": "Carbon monoxide is an odorless, colorless gas that causes rapid unconsciousness. Rescuers must ventilate the space from outside and summon firefighters equipped with self-contained breathing apparatus.",
           "pamphlet_excerpts": [
@@ -3140,7 +3431,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p034_img1.png",
           "workbook_diagram_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
-          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid."
+          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 4b (A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -3156,7 +3450,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Clothes on Fire)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3168,12 +3462,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Clothes on fire"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Clothes on fire"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -3211,7 +3515,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p034_img1.png",
           "workbook_diagram_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
-          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid."
+          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 4c (Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -3231,7 +3538,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Drowning Using Nonswimming Rescues Including)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3243,12 +3550,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Drowning, using nonswimming rescues (including accidents on ice)"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Drowning, using nonswimming rescues (including accidents on ice)"
+              "1. Req 4d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)",
           "common_misconception_pair": {
@@ -3287,7 +3604,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p034_img1.png",
           "title": "Req 4d: Nonswimming Water and Ice Rescues",
           "workbook_diagram_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
-          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid."
+          "workbook_visual_caption": "A person dials an emergency telephone number on a smartphone to request aid.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 4d (Drowning, using nonswimming rescues (including accidents on ice)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3330,7 +3650,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist (Dangerous Situations Show How You)",
+        "table_title": "Req 4 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -3353,7 +3673,13 @@
           "3. (4c) Clothes on fire",
           "4. (4d) Drowning, using nonswimming rescues (including accidents on ice)"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A rescuer can safely pull a victim off an active power line with bare hands.",
@@ -3521,7 +3847,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Attracting and Communicating with Rescue)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3533,12 +3859,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show three ways of attracting and communicating with rescue aircraft or drones"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show three ways of attracting and communicating with rescue aircraft or drones"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -3576,7 +3912,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p040_img1.png",
           "workbook_diagram_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
-          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services."
+          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 5a (Show three ways of attracting and communicating with rescue aircraft or drones), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -3592,7 +3931,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3604,12 +3943,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show ways to attract the attention of searchers on the ground if you are lost in the wilderness"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show ways to attract the attention of searchers on the ground if you are lost in the wilderness"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -3647,7 +3996,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p040_img1.png",
           "workbook_diagram_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
-          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services."
+          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 5b (Show ways to attract the attention of searchers on the ground if you are lost in the wilderness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -3671,7 +4023,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Attract the Attention of Searchers)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -3683,12 +4035,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)",
           "common_misconception_pair": {
@@ -3726,7 +4088,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p040_img1.png",
           "workbook_diagram_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
-          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services."
+          "workbook_visual_caption": "A roadside sign warns travelers of seventy-two miles before the next services.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 5c (Show ways to attract the attention of searchers on the water if you are stranded with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -3769,7 +4134,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Signaling for Help)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3790,7 +4155,13 @@
           "2. (5b) Attract The Attention of Searchers",
           "3. (5c) Attract The Attention of Searchers"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Building a small single campfire provides enough smoke for aircraft detection.",
@@ -3968,7 +4339,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Moving An Injured Person)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -3987,7 +4358,13 @@
           "1. Moving an Injured Person",
           "2. With another person, show two good ways to transport an injured person out of a remote area using improvised stretchers to conserve the energy of rescuers"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A single rescuer can carry an injured adult over miles of rough terrain.",
@@ -4159,7 +4536,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (National Incident Management System NIMS)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4171,12 +4548,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the National Incident Management System (NIMS) and the local Incident Command System (ICS)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the National Incident Management System (NIMS) and the local Incident Command System (ICS)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)",
           "common_misconception_pair": {
@@ -4214,7 +4601,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p081_img1.png",
           "workbook_diagram_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
-          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill."
+          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 7a (Describe the National Incident Management System (NIMS) and the local Incident Command), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -4225,7 +4615,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Out How Your Community and)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4244,7 +4634,13 @@
               "1. Find out how your community and its leaders work to manage and to train for disasters.",
               "2. Discuss this information with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)",
           "common_misconception_pair": {
@@ -4283,7 +4679,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p081_img1.png",
           "title": "Req 7b: Community Disaster Management and Training",
           "workbook_diagram_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
-          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill."
+          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 7b (Find out how your community and its leaders work to manage and to train for disasters.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -4294,7 +4693,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Discuss Help Emergency Situation)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4306,12 +4705,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how a Scout troop can help in an emergency situation using ICS"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how a Scout troop can help in an emergency situation using ICS"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)",
           "common_misconception_pair": {
@@ -4349,7 +4758,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p081_img1.png",
           "workbook_diagram_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
-          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill."
+          "workbook_visual_caption": "An adult leader instructs Scouts wearing safety vests during a volunteer drill.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 7c (Discuss how a Scout troop can help in an emergency situation using ICS), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4380,7 +4792,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (National Incident Management System NIMS)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4401,7 +4813,13 @@
           "2. (7b) Find out how your community and its leaders work to manage and to train for disasters",
           "3. (7c) Discuss how a Scout troop can help in an emergency situation using ICS"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Emergency personnel use standard police ten-codes to communicate during interagency disaster responses.",
@@ -4564,7 +4982,7 @@
             {
               "sub_id": "8a(1)",
               "label": "(1)",
-              "text": "Crowd and traffic control.",
+              "text": "Crowd and traffic control (2) Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "resources": [
                 {
                   "title": "Guidelines for Managing Crowds (website)",
@@ -4575,7 +4993,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(1) Structured Technical Study & Explanation Matrix (Crowd and Traffic Control)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4587,12 +5005,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Crowd and traffic control"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Crowd and traffic control"
+                  "1. Req 8a(1) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(1) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(1) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
               "common_misconception_pair": {
@@ -4622,7 +5050,7 @@
               ],
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
-              "sub_req_text": "Crowd and traffic control.",
+              "sub_req_text": "Crowd and traffic control (2) Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "topic_title": "Req 8a(1): Crowd and Traffic Control Operations",
               "pamphlet_summary": "Crowd and Traffic Control Operations: Under adult leadership and municipal authority guidance, Scouts help direct pedestrian movement and keep roadways clear for emergency first responders. Scouts maintain safe perimeter boundaries using cones or tape while avoiding direct intervention in hazardous motor vehicle intersections (p. 46).",
               "pamphlet_excerpts": [
@@ -4638,7 +5066,7 @@
             {
               "sub_id": "8a(2)",
               "label": "(2)",
-              "text": "Messenger service during an incident.",
+              "text": "Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "resources": [
                 {
                   "title": "Social Media Messaging for Natural Disasters (website)",
@@ -4649,7 +5077,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(2) Structured Technical Study & Explanation Matrix (Messenger Service During An Incident)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4661,12 +5089,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Messenger service during an incident"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Messenger service during an incident"
+                  "1. Req 8a(2) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(2) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(2) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
               "common_misconception_pair": {
@@ -4696,7 +5134,7 @@
               ],
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
-              "sub_req_text": "Messenger service during an incident.",
+              "sub_req_text": "Messenger service during an incident (3) Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "topic_title": "Req 8a(2): Emergency Incident Messenger Service Duties",
               "pamphlet_summary": "Emergency Incident Messenger Service Duties: When cellular towers and two-way radio channels fail, Scouts deliver time-critical dispatches on foot or bicycle between incident command posts. Messengers operate in pairs and carry written communications with sender signatures to prevent verbal transcription errors (p. 47).",
               "pamphlet_excerpts": [
@@ -4712,7 +5150,7 @@
             {
               "sub_id": "8a(3)",
               "label": "(3)",
-              "text": "Collection and distribution services.",
+              "text": "Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "resources": [
                 {
                   "title": "Food Bank (video)",
@@ -4723,7 +5161,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(3) Structured Technical Study & Explanation Matrix (Collection and Distribution Services)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(3) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4735,12 +5173,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Collection and distribution services"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Collection and distribution services"
+                  "1. Req 8a(3) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(3) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(3) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(3) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
               "common_misconception_pair": {
@@ -4770,7 +5218,7 @@
               ],
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
-              "sub_req_text": "Collection and distribution services.",
+              "sub_req_text": "Collection and distribution services (4) Group feeding, shelter, and sanitation.",
               "topic_title": "Req 8a(3): Relief Supply Collection and Distribution",
               "pamphlet_summary": "Relief Supply Collection and Distribution: Troops assist community disaster response by receiving, sorting, and packaging donated relief goods at designated staging warehouses. Volunteers verify item usability, separate nonperishable goods by category, and record inventories to expedite aid delivery to displaced families (p. 48).",
               "pamphlet_excerpts": [
@@ -4797,7 +5245,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 8a(4) Structured Technical Study & Explanation Matrix (Feeding Shelter and Sanitation)",
+                "table_title": "Req 8a",
                 "headers": [
                   "Req 8a(4) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -4809,12 +5257,22 @@
                   "Field Example & Counselor Conference Notes"
                 ],
                 "row_labels": [
-                  "1. Group feeding, shelter, and sanitation"
+                  "1. Req 8a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(4) Practical Example & Counselor Conference Verification"
                 ],
                 "rows": [
-                  "1. Group feeding, shelter, and sanitation"
+                  "1. Req 8a(4) Core Concept, Definition & Pamphlet Standard",
+                  "2. Req 8a(4) Step-by-Step Procedure, Safety & Equipment Criteria",
+                  "3. Req 8a(4) Practical Example & Counselor Conference Verification"
                 ],
-                "min_rows": 1
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 8a(4) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
               "common_misconception_pair": {
@@ -4861,7 +5319,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor the)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4884,7 +5342,13 @@
               "3. (8a(3)) Collection and Distribution Services",
               "4. (8a(4)) Feeding Shelter and Sanitation"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -4923,7 +5387,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p082_img1.png",
           "title": "Req 8a: Troop Emergency Service Duties",
           "workbook_diagram_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
-          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management."
+          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 8a (Discuss with your counselor the duties that a Scout troop should be prepared to do, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -4934,7 +5401,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Written Plan for Mobilizing)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4953,7 +5420,13 @@
               "1. Prepare a written plan for mobilizing your troop when needed to do emergency service.",
               "2. If your troop already has a mobilization plan, present the plan to your counselor and tell your part in making the plan work."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -4991,7 +5464,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p082_img1.png",
           "workbook_diagram_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
-          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management."
+          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 8b (Prepare a written plan for mobilizing your troop when needed to do emergency service. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -5011,7 +5487,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8c Structured Technical Study & Explanation Matrix (Checklist in the Emergency Preparedness)",
+            "table_title": "Req 8c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5030,19 +5506,20 @@
               "1. Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a personal emergency service pack for a mobilization call",
               "2. Explain the needs and uses of the contents to your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
             "misconception": "Pack weight does not matter since emergency deployment supplies will stay in vehicles.",
             "fact": "Responders frequently carry gear on foot across debris, requiring light, balanced rucksacks."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Emergency Preparedness Req 8c preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Emergency Preparedness Merit Badge Hub (Req 8c)",
@@ -5073,7 +5550,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p082_img1.png",
           "workbook_diagram_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
-          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management."
+          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 8c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -5089,7 +5569,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Emergency Service Project Either A)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5108,7 +5588,13 @@
               "1. Take part in an emergency service project, either a real one or a practice exercise, with a Scouting troop or a community agency or at Scout camp or at a school",
               "2. Review what you learned and practiced with your counselor"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -5147,7 +5633,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p082_img1.png",
           "title": "Req 8d: Emergency Service Project Participation",
           "workbook_diagram_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
-          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management."
+          "workbook_visual_caption": "A Scout wearing a bike helmet assists with community event traffic management.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 8d (Take part in an emergency service project, either a real one or a practice exercise, with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5202,7 +5691,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Emergency Service)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -5225,7 +5714,12 @@
           "3. (8c) Personal Emergency Service Pack",
           "4. (8d) Emergency Service Project Participation"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Emergency mobilization implies immediate independent troop action without civic agency coordination.",
@@ -5403,7 +5897,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 9 Structured Technical Study & Explanation Matrix (Aid Merit Badge Earn)",
+        "table_title": "Req 9 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 9 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -5422,7 +5916,12 @@
           "1. First Aid Merit Badge.",
           "2. Earn the First Aid merit badge."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 9 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Basic first aid skills learned years ago remain sharp without ongoing practical recertification.",
@@ -5616,7 +6115,13 @@
               "2. Learn about how they chose this career and about their duties.",
               "3. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)",
           "common_misconception_pair": {
@@ -5654,7 +6159,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p086_img1.png",
           "workbook_diagram_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
-          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree."
+          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 10a (Interview an emergency services coordinator or a civil servant about their work in disaster), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10b",
@@ -5693,7 +6201,13 @@
               "3. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career.",
               "4. Discuss what you learned with your counselor and whether you might be interested in this career."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)",
           "common_misconception_pair": {
@@ -5731,12 +6245,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p086_img1.png",
           "workbook_diagram_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
-          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree."
+          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 10b (Identify three career opportunities that would use skills and knowledge in emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "10c",
           "label": "(c)",
-          "text": "Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "text": "Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Teen CERT Team Training (video)",
@@ -5747,7 +6264,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 10c Structured Technical Study & Explanation Matrix (You Might Use the Skills)",
+            "table_title": "Req 10c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 10c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5761,14 +6278,20 @@
             "row_labels": [
               "1. Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
             "rows": [
               "1. Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby",
               "2. Research the additional training required, expenses, and affiliation with organizations that would help you maximize",
-              "3. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued"
+              "3. Discuss what you learned with your counselor and share what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 10c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)",
           "common_misconception_pair": {
@@ -5798,7 +6321,7 @@
           ],
           "id": "10c",
           "sub_req_label": "10c",
-          "sub_req_text": "Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 10c: Preparedness Lifestyle and Hobbies",
           "pamphlet_summary": "Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness.",
           "pamphlet_excerpts": [
@@ -5807,7 +6330,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/emergency_preparedness_p086_img1.png",
           "title": "Req 10c: Preparedness Hobby and Community Service",
           "workbook_diagram_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
-          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree."
+          "workbook_visual_caption": "A branching pyramid diagram maps out a rapid troop mobilization call tree.",
+          "socratic_questions": [
+            "For emergency preparedness Requirement 10c (Identify how you might use the skills and knowledge in the field of emergency preparedness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5863,7 +6389,12 @@
           "2. (10b) Emergency Preparedness Careers and Pathways",
           "3. (10c) You Might Use The Skills"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Emergency management careers deal exclusively with responding on-scene in tactical rescue vehicles.",

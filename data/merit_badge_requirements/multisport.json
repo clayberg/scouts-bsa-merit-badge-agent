@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Multisport Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter during multisport activities and what you should do to anticipate, prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter during multisport activities and what you should do to anticipate, prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)",
           "common_misconception_pair": {
@@ -88,7 +98,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p003_img1.png",
           "workbook_diagram_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race.",
-          "workbook_visual_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race."
+          "workbook_visual_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race.",
+          "socratic_questions": [
+            "For multisport Requirement 1a (Explain to your counselor the most likely hazards you may encounter during multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -112,7 +125,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -124,12 +137,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while participating in multisport events, including abrasions, blisters, concussions"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show that you know first aid for injuries or illnesses that could occur while participating in multisport events, including abrasions, blisters, concussions"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)",
           "common_misconception_pair": {
@@ -167,7 +190,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p014_img1.png",
           "workbook_diagram_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race.",
-          "workbook_visual_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race."
+          "workbook_visual_caption": "A boy displays an abrasion on his knee sustained during an outdoor athletic race.",
+          "socratic_questions": [
+            "For multisport Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -206,7 +232,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Multisport Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -225,7 +251,13 @@
           "1. (1a) Multi sport Hazards and First Aid",
           "2. (1b) Emergency First Aid and Prevention"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Athletes only face dehydration in hot summer weather during the running segment.",
@@ -393,7 +425,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Discuss Having Physical Examination)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -414,7 +446,12 @@
               "2. Discuss why overall health, immunizations, medications, allergies, and medical history are covered during an examination.",
               "3. Tell your counselor when you last underwent a physical examination."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
@@ -452,7 +489,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p007_img1.png",
           "workbook_diagram_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
-          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety."
+          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
+          "socratic_questions": [
+            "For multisport Requirement 2a (Discuss the importance of having a physical examination each year. Discuss why overall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -476,7 +516,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Maintaining Good Health Habits Especially)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -488,12 +528,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the importance of maintaining good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the importance of maintaining good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
@@ -531,7 +581,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p021_img1.png",
           "workbook_diagram_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
-          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety."
+          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
+          "socratic_questions": [
+            "For multisport Requirement 2b (Explain the importance of maintaining good health habits, especially during training, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
@@ -547,7 +600,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (Healthy Diet)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -559,12 +612,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Define a healthy diet and explain the importance of maintaining a healthy diet"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Define a healthy diet and explain the importance of maintaining a healthy diet"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)",
           "common_misconception_pair": {
@@ -602,7 +665,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p021_img1.png",
           "workbook_diagram_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
-          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety."
+          "workbook_visual_caption": "Scouts gather around a table to inspect first aid supplies for athletic safety.",
+          "socratic_questions": [
+            "For multisport Requirement 2c (Define a healthy diet and explain the importance of maintaining a healthy diet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -645,7 +711,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Discuss Having Physical Examination)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -666,7 +732,12 @@
           "2. (2b) Maintaining Good Health Habits Especially",
           "3. (2c) Healthy Diet"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Active youth with no existing medical symptoms do not need annual medical examinations.",
@@ -834,7 +905,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -846,12 +917,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, biking, and running) and the order and distance of each sports segment"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, biking, and running) and the order and distance of each sports segment"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
@@ -890,12 +971,15 @@
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "title": "Req 3a: Event Segments and Race Distances",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 3a (Discuss with your counselor your level of familiarity and experience with the multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
           "label": "(b)",
-          "text": "Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon.",
+          "text": "Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon the most.",
           "resources": [
             {
               "title": "Multisport Disciplines (website)",
@@ -906,7 +990,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Multisport Event Swimming Biking or)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -918,12 +1002,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
@@ -953,7 +1047,7 @@
           ],
           "id": "3b",
           "sub_req_label": "3b",
-          "sub_req_text": "Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon.",
+          "sub_req_text": "Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon the most.",
           "topic_title": "Req 3b: Athletic Discipline Strength Assessment",
           "pamphlet_summary": "Objective self-assessment identifies mechanical inefficiencies in weaker disciplines while preserving established cardiovascular advantages. Focused practice on technical limiters yields faster overall finishing improvements than overtraining existing athletic proficiencies.",
           "pamphlet_excerpts": [
@@ -962,7 +1056,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "title": "Req 3b: Evaluating Personal Segment Strengths",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 3b (Explain to your counselor which multisport event (swimming, biking, or running) you feel is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -982,7 +1079,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Required Equipment)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -994,12 +1091,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Identify the required equipment for each of the three common multisport events (swimming, biking, and running)"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Identify the required equipment for each of the three common multisport events (swimming, biking, and running)"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
@@ -1037,7 +1144,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 3c (Identify the required equipment for each of the three common multisport events (swimming,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1053,7 +1163,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Based on Your Interests Experience)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1065,12 +1175,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Based on your interests, experience, and discussion with your counselor, select ONE of the following multisport formats to concentrate on for the remaining"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Based on your interests, experience, and discussion with your counselor, select ONE of the following multisport formats to concentrate on for the remaining"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)",
           "common_misconception_pair": {
@@ -1108,7 +1228,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 3d (Based on your interests, experience, and discussion with your counselor, select ONE of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1142,7 +1265,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Multisport Event Discipline Overview",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Bicycle helmets must bear CPSC safety certification stickers and remain undamaged by past impacts.",
@@ -1151,7 +1274,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Discuss with Your Counselor Your)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1174,7 +1297,13 @@
           "3. (3c) Identify the required equipment for each of the three common multisport events (swimming, biking, and running)",
           "4. (3d) Selecting Your Multisport Format"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Athletes can complete the three segments of a triathlon in any sequence they prefer.",
@@ -1368,7 +1497,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(1)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1380,12 +1509,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4a(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(1)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4a(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(1)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(1)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1431,7 +1570,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(1)(b) Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(1)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1443,14 +1582,20 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. ..",
+                      "1. Req 4a(1)(b) Core Concept, Technical Standard & Field Application",
                       "2. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim."
                     ],
                     "rows": [
-                      "1. ..",
+                      "1. Req 4a(1)(b) Core Concept, Technical Standard & Field Application",
                       "2. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim."
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(1)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1503,24 +1648,34 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "COMPARE_CONTRAST_2COL",
-                    "table_title": "Req 4a(1)(c) Technical Comparison Matrix (Pool Swim and An Open)",
+                    "table_title": "Req 4a",
                     "headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4a(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "column_headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4a(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4a(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(1)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4a(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(1)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1541,16 +1696,16 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 4a(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+                "table_title": "Req 4a",
                 "headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4a(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "column_headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4a(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "row_labels": [
                   "1. Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge",
@@ -1564,7 +1719,13 @@
                   "3. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim",
                   "4. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -1641,7 +1802,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(2)(a) Structured Technical Study & Explanation Matrix (Predictably Be Conspicuous Think Ahead)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(2)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1653,12 +1814,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4a(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4a(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(2)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1703,7 +1874,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(2)(b) Structured Technical Study & Explanation Matrix (Discuss What Should Be Checked)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1715,12 +1886,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4a(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4a(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1765,7 +1946,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(2)(c) Structured Technical Study & Explanation Matrix (Wearing A Properly Sized and)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(2)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1777,12 +1958,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4a(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4a(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(2)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(2)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1804,7 +1995,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4a(2) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Req 4a(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -1825,19 +2016,20 @@
                   "2. Discuss what should be checked regularly to make sure the bicycle is safe to ride",
                   "3. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4a(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Cyclists have right of way over motor vehicles and can rely entirely on drivers stopping at intersections.",
                 "fact": "Bicyclists must follow the same traffic laws as motor vehicles while actively scanning ahead to yield defensively when drivers fail to see them."
               },
-              "starting_requirement_gate": {
-                "gate_type": "EQUIPMENT_GATE",
-                "gate_label": "Required Field Gear / PPE Inspection",
-                "gate_description": "Bring required personal gear or PPE for Multisport Req 4a(2) inspection prior to hands-on station work.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a(2))",
@@ -1911,7 +2103,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4a(3)(a) Hands-On Skill Station & EDGE Verification Checklist (Run Warmup and Cool-down)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -1930,7 +2122,13 @@
                       "1. Demonstrate a proper run warmup and cool",
                       "2. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -1975,7 +2173,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4a(3)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Req 4a(3)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -1987,12 +2185,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4a(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(3)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4a(3)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(3)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(3)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4a(3)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2049,7 +2257,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4a(3)(c) Hands-On Skill Station & EDGE Verification Checklist (Important Running Drills Including High)",
+                    "table_title": "Req 4a",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -2061,12 +2269,22 @@
                       "Buddy / Counselor Sign-Off Notes"
                     ],
                     "row_labels": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4a(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(3)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4a(3)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4a(3)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4a(3)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2087,7 +2305,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)",
+                "table_title": "Req 4a",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2110,7 +2328,13 @@
                   "3. Learn and state the basic rules of the road for runners",
                   "4. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -2157,7 +2381,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4a Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Pre-Workout Dynamic Warmup Routine",
@@ -2178,19 +2402,20 @@
               "2. (4a(2)) Biking Predictably Conspicuous Think",
               "3. (4a(3)) Running A Demonstrate A Proper"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Pre-Workout Dynamic Warmup Routine",
+              "Post-Workout Gradual Cooldown Routine"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
             "misconception": "Pool lap swimming technique translates directly to open water navigation without adjustments in sighting.",
             "fact": "Open water swimming demands regular forward sighting strokes to maintain direction and avoid obstacles."
           },
-          "starting_requirement_gate": {
-            "gate_type": "EQUIPMENT_GATE",
-            "gate_label": "Required Field Gear / PPE Inspection",
-            "gate_description": "Bring required personal gear or PPE for Multisport Req 4a inspection prior to hands-on station work.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Multisport Merit Badge Hub (Req 4a)",
@@ -2221,7 +2446,10 @@
           ],
           "workbook_diagram_url": "assets/ai_illustrations/multisport_req_4_topic_visual.png",
           "workbook_diagram_caption": "Triathlon / Duathlon / Aquathlon procedures and verification checkpoints for Multisport Requirement 4.",
-          "workbook_visual_caption": "Triathlon / Duathlon / Aquathlon procedures and verification checkpoints for Multisport Requirement 4."
+          "workbook_visual_caption": "Triathlon / Duathlon / Aquathlon procedures and verification checkpoints for Multisport Requirement 4.",
+          "socratic_questions": [
+            "For multisport Requirement 4a (Option A, Triathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -2263,7 +2491,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4b(1)(a) Structured Technical Study & Explanation Matrix (Predictably Be Conspicuous Think Ahead)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Req 4b(1)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2275,12 +2503,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4b(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4b(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4b(1)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2325,7 +2563,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4b(1)(b) Structured Technical Study & Explanation Matrix (Discuss What Should Be Checked)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Req 4b(1)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2337,12 +2575,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4b(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4b(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4b(1)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2387,7 +2635,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4b(1)(c) Structured Technical Study & Explanation Matrix (Wearing A Properly Sized and)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Req 4b(1)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2399,12 +2647,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4b(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4b(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(1)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4b(1)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2426,7 +2684,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4b(1) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Req 4b(1) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -2447,19 +2705,20 @@
                   "2. Discuss what should be checked regularly to make sure the bicycle is safe to ride",
                   "3. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4b(1) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Duathlon cycling safety rules are less demanding than triathlon cycling rules because competitors avoid swimming in water.",
                 "fact": "Transitioning directly from a hard run onto a bicycle causes leg fatigue that increases the risk of road handling errors, requiring identical cycling safety vigilance."
               },
-              "starting_requirement_gate": {
-                "gate_type": "EQUIPMENT_GATE",
-                "gate_label": "Required Field Gear / PPE Inspection",
-                "gate_description": "Bring required personal gear or PPE for Multisport Req 4b(1) inspection prior to hands-on station work.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Multisport Merit Badge Hub (Req 4b(1))",
@@ -2533,7 +2792,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4b(2)(a) Hands-On Skill Station & EDGE Verification Checklist (Run Warmup and Cool-down)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -2552,7 +2811,13 @@
                       "1. Demonstrate a proper run warmup and cool",
                       "2. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2597,7 +2862,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4b(2)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Req 4b(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2609,12 +2874,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4b(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4b(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4b(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2671,7 +2946,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4b(2)(c) Hands-On Skill Station & EDGE Verification Checklist (Important Running Drills Including High)",
+                    "table_title": "Req 4b",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -2683,12 +2958,22 @@
                       "Buddy / Counselor Sign-Off Notes"
                     ],
                     "row_labels": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4b(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(2)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4b(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4b(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4b(2)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2709,7 +2994,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4b(2) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)",
+                "table_title": "Req 4b",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -2732,7 +3017,13 @@
                   "3. Learn and state the basic rules of the road for runners",
                   "4. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -2779,7 +3070,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist (Duathlon Biking)",
+            "table_title": "Req 4b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2798,19 +3089,20 @@
               "1. (4b(1)) Biking Predictably Conspicuous Think",
               "2. (4b(2)) Running A Demonstrate A Proper"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
             "misconception": "Bicycles should face oncoming traffic on road shoulders to monitor motor vehicles directly.",
             "fact": "Cyclists must ride with traffic flow on the right and obey every traffic control signal."
           },
-          "starting_requirement_gate": {
-            "gate_type": "EQUIPMENT_GATE",
-            "gate_label": "Required Field Gear / PPE Inspection",
-            "gate_description": "Bring required personal gear or PPE for Multisport Req 4b inspection prior to hands-on station work.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Multisport Merit Badge Hub (Req 4b)",
@@ -2841,7 +3133,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p033_img1.png",
           "workbook_diagram_caption": "A lightweight road bicycle is displayed showing gears and tires for multisport racing.",
-          "workbook_visual_caption": "A lightweight road bicycle is displayed showing gears and tires for multisport racing."
+          "workbook_visual_caption": "A lightweight road bicycle is displayed showing gears and tires for multisport racing.",
+          "socratic_questions": [
+            "For multisport Requirement 4b (Option B, Duathlon. (1) Biking (a) Explain to your counselor how to ride predictably, be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -2883,7 +3178,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(1)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2895,12 +3190,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4c(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4c(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4c(1)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -2941,7 +3246,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(1)(b) Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(1)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -2953,12 +3258,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim"
+                      "1. Req 4c(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim"
+                      "1. Req 4c(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4c(1)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3011,24 +3326,34 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "COMPARE_CONTRAST_2COL",
-                    "table_title": "Req 4c(1)(c) Technical Comparison Matrix (Pool Swim and An Open)",
+                    "table_title": "Req 4c",
                     "headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4c(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "column_headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4c(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4c(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4c(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(1)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4c(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3049,16 +3374,16 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 4c(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+                "table_title": "Req 4c",
                 "headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4c(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "column_headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4c(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "row_labels": [
                   "1. Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge",
@@ -3070,7 +3395,13 @@
                   "2. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim",
                   "3. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4c(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -3151,7 +3482,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4c(2)(a) Hands-On Skill Station & EDGE Verification Checklist (Run Warmup and Cool-down)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -3170,7 +3501,13 @@
                       "1. Demonstrate a proper run warmup and cool",
                       "2. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest"
                     ],
-                    "min_rows": 2
+                    "min_rows": 2,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3215,7 +3552,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4c(2)(b) Structured Technical Study & Explanation Matrix (Learn and State the Basic)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Req 4c(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3227,12 +3564,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4c(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Learn and state the basic rules of the road for runners"
+                      "1. Req 4c(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4c(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3289,7 +3636,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                    "table_title": "Req 4c(2)(c) Hands-On Skill Station & EDGE Verification Checklist (Important Running Drills Including High)",
+                    "table_title": "Req 4c",
                     "headers": [
                       "Skill Station Step",
                       "Required Technique & Safety Standard",
@@ -3301,12 +3648,22 @@
                       "Buddy / Counselor Sign-Off Notes"
                     ],
                     "row_labels": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4c(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(2)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
+                      "1. Req 4c(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4c(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4c(2)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Skill Station Step",
+                      "Required Technique & Safety Standard",
+                      "Buddy / Counselor Sign-Off Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3327,7 +3684,7 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-                "table_title": "Req 4c(2) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)",
+                "table_title": "Req 4c",
                 "headers": [
                   "Skill Station Step",
                   "Required Technique & Safety Standard",
@@ -3350,7 +3707,13 @@
                   "3. Learn and state the basic rules of the road for runners",
                   "4. Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks"
                 ],
-                "min_rows": 4
+                "min_rows": 4,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Skill Station Step",
+                  "Required Technique & Safety Standard",
+                  "Buddy / Counselor Sign-Off Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -3397,7 +3760,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4c Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4c Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Pre-Workout Dynamic Warmup Routine",
@@ -3416,7 +3779,13 @@
               "1. (4c(1)) Safe Swim Defense and Safety Afloat",
               "2. (4c(2)) Running A Demonstrate A Proper"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Pre-Workout Dynamic Warmup Routine",
+              "Post-Workout Gradual Cooldown Routine"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
@@ -3454,7 +3823,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p032_img3.png",
           "workbook_diagram_caption": "A triathlete wearing swim goggles and a cap powers through open water waves.",
-          "workbook_visual_caption": "A triathlete wearing swim goggles and a cap powers through open water waves."
+          "workbook_visual_caption": "A triathlete wearing swim goggles and a cap powers through open water waves.",
+          "socratic_questions": [
+            "For multisport Requirement 4c (Option C, Aquathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -3496,7 +3868,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(1)(a) Structured Technical Study & Explanation Matrix (Doing Requirements Through Earn the)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(1)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3508,12 +3880,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4d(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Before doing requirements 5 through 8, earn the Swimming merit badge"
+                      "1. Req 4d(1)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(1)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3554,7 +3936,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(1)(b) Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(1)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3566,12 +3948,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim"
+                      "1. Req 4d(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim"
+                      "1. Req 4d(1)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(1)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3624,24 +4016,34 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "COMPARE_CONTRAST_2COL",
-                    "table_title": "Req 4d(1)(c) Technical Comparison Matrix (Pool Swim and An Open)",
+                    "table_title": "Req 4d",
                     "headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4d(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "column_headers": [
-                      "Comparison Dimension",
-                      "Pre-Workout Dynamic Warmup Routine",
-                      "Post-Workout Gradual Cooldown Routine"
+                      "Req 4d(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4d(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit"
+                      "1. Req 4d(1)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(1)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(1)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(1)(c) Comparison Criterion",
+                      "A Pool Swim",
+                      "An Open Water Swim"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3662,16 +4064,16 @@
               "syllabus_bucket": "In-Class Demonstration",
               "workbook_organizer": {
                 "organizer_type": "COMPARE_CONTRAST_2COL",
-                "table_title": "Req 4d(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+                "table_title": "Req 4d",
                 "headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4d(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "column_headers": [
-                  "Comparison Dimension",
-                  "Pre-Workout Dynamic Warmup Routine",
-                  "Post-Workout Gradual Cooldown Routine"
+                  "Req 4d(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
                 ],
                 "row_labels": [
                   "1. Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge",
@@ -3683,7 +4085,13 @@
                   "2. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim",
                   "3. Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(1) Comparison Criterion",
+                  "A Pool Swim",
+                  "An Open Water Swim"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
@@ -3760,7 +4168,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(2)(a) Structured Technical Study & Explanation Matrix (Predictably Be Conspicuous Think Ahead)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(2)(a) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3772,12 +4180,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4d(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(a) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready"
+                      "1. Req 4d(2)(a) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(a) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(a) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(2)(a) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3822,7 +4240,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(2)(b) Structured Technical Study & Explanation Matrix (Discuss What Should Be Checked)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(2)(b) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3834,12 +4252,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4d(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(b) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Discuss what should be checked regularly to make sure the bicycle is safe to ride"
+                      "1. Req 4d(2)(b) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(b) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(b) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(2)(b) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3884,7 +4312,7 @@
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
-                    "table_title": "Req 4d(2)(c) Structured Technical Study & Explanation Matrix (Wearing A Properly Sized and)",
+                    "table_title": "Req 4d",
                     "headers": [
                       "Req 4d(2)(c) Study Prompt",
                       "Key Pamphlet Facts & Definitions",
@@ -3896,12 +4324,22 @@
                       "Field Example & Counselor Conference Notes"
                     ],
                     "row_labels": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4d(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(c) Practical Example & Counselor Conference Verification"
                     ],
                     "rows": [
-                      "1. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
+                      "1. Req 4d(2)(c) Core Concept, Definition & Pamphlet Standard",
+                      "2. Req 4d(2)(c) Step-by-Step Procedure, Safety & Equipment Criteria",
+                      "3. Req 4d(2)(c) Practical Example & Counselor Conference Verification"
                     ],
-                    "min_rows": 1
+                    "min_rows": 3,
+                    "pre_approval_gate": false,
+                    "columns": [
+                      "Req 4d(2)(c) Study Prompt",
+                      "Key Pamphlet Facts & Definitions",
+                      "Field Example & Counselor Conference Notes"
+                    ]
                   },
                   "syllabus_bucket": "In-Class Demonstration",
                   "curated_resources": [
@@ -3923,7 +4361,7 @@
               "syllabus_bucket": "In-Class Concept",
               "workbook_organizer": {
                 "organizer_type": "RULED_EXPLAIN_BOX",
-                "table_title": "Req 4d(2) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)",
+                "table_title": "Req 4d",
                 "headers": [
                   "Req 4d(2) Study Prompt",
                   "Key Pamphlet Facts & Definitions",
@@ -3944,19 +4382,20 @@
                   "2. Discuss what should be checked regularly to make sure the bicycle is safe to ride",
                   "3. Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather"
                 ],
-                "min_rows": 3
+                "min_rows": 3,
+                "pre_approval_gate": false,
+                "columns": [
+                  "Req 4d(2) Study Prompt",
+                  "Key Pamphlet Facts & Definitions",
+                  "Field Example & Counselor Conference Notes"
+                ]
               },
               "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
               "common_misconception_pair": {
                 "misconception": "Modern bicycles and safety equipment require inspection only after a mechanical breakdown or high-impact crash occurs.",
                 "fact": "Routine pre-ride safety checks and helmet fit evaluations are required before every ride to identify subtle structural compromises before they cause roadside failures."
               },
-              "starting_requirement_gate": {
-                "gate_type": "EQUIPMENT_GATE",
-                "gate_label": "Required Field Gear / PPE Inspection",
-                "gate_description": "Bring required personal gear or PPE for Multisport Req 4d(2) inspection prior to hands-on station work.",
-                "blocking_in_class": false
-              },
+              "starting_requirement_gate": null,
               "curated_resources": [
                 {
                   "title": "Official Scouting America Multisport Merit Badge Hub (Req 4d(2))",
@@ -3996,16 +4435,16 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 4d Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4d Technical Comparison Matrix",
             "headers": [
-              "Comparison Dimension",
-              "Pre-Workout Dynamic Warmup Routine",
-              "Post-Workout Gradual Cooldown Routine"
+              "Req 4d Comparison Criterion",
+              "A Pool Swim",
+              "An Open Water Swim"
             ],
             "column_headers": [
-              "Comparison Dimension",
-              "Pre-Workout Dynamic Warmup Routine",
-              "Post-Workout Gradual Cooldown Routine"
+              "Req 4d Comparison Criterion",
+              "A Pool Swim",
+              "An Open Water Swim"
             ],
             "row_labels": [
               "1. (4d(1)) Safe Swim Defense and Safety Afloat",
@@ -4015,19 +4454,20 @@
               "1. (4d(1)) Safe Swim Defense and Safety Afloat",
               "2. (4d(2)) Biking Predictably Conspicuous Think"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Comparison Criterion",
+              "A Pool Swim",
+              "An Open Water Swim"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)",
           "common_misconception_pair": {
             "misconception": "Tightening bicycle components by hand without checking tool torque is adequate for competitive cycling.",
             "fact": "Bicycle stem bolts and seat post clamps must be tightened to exact manufacturer torque specifications."
           },
-          "starting_requirement_gate": {
-            "gate_type": "EQUIPMENT_GATE",
-            "gate_label": "Required Field Gear / PPE Inspection",
-            "gate_description": "Bring required personal gear or PPE for Multisport Req 4d inspection prior to hands-on station work.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Multisport Merit Badge Hub (Req 4d)",
@@ -4058,7 +4498,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p032_img3.png",
           "workbook_diagram_caption": "A triathlete wearing swim goggles and a cap powers through open water waves.",
-          "workbook_visual_caption": "A triathlete wearing swim goggles and a cap powers through open water waves."
+          "workbook_visual_caption": "A triathlete wearing swim goggles and a cap powers through open water waves.",
+          "socratic_questions": [
+            "For multisport Requirement 4d (Option D, Aquabike. (1) Swimming (a) Before doing requirements 5 through 8, earn the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -4080,7 +4523,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 4 Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)",
+        "table_title": "Req 4 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Pre-Workout Dynamic Warmup Routine",
@@ -4103,18 +4546,19 @@
           "3. (4c) Safe Swim Defense and Safety Afloat",
           "4. (4d) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Pre-Workout Dynamic Warmup Routine",
+          "Post-Workout Gradual Cooldown Routine"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Proficient swimmers can conduct open water multisport training alone without surface safety watchers.",
         "fact": "Safe Swim Defense mandates qualified adult supervision and trained lifeguards before any aquatic training session."
       },
-      "starting_requirement_gate": {
-        "gate_type": "EQUIPMENT_GATE",
-        "gate_label": "Required Field Gear / PPE Inspection",
-        "gate_description": "Bring required personal gear or PPE for Multisport Req 4 inspection prior to hands-on station work.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Multisport Merit Badge Hub (Req 4)",
@@ -4288,7 +4732,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4307,7 +4751,13 @@
               "1. With guidance from your counselor, establish a four-week training plan that combines your chosen multisport format to develop proper techniques, gain self-confidence, and increase endurance",
               "2. Each session should last at least 25 minutes and include a proper warmup before the session and stretching afterward"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
@@ -4346,7 +4796,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p042_img1.png",
           "title": "Req 5a: Four-Week Structured Training Schedule",
           "workbook_diagram_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
-          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race."
+          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
+          "socratic_questions": [
+            "For multisport Requirement 5a (With guidance from your counselor, establish a four-week training plan that combines your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -4357,7 +4810,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Tracking Method to Monitor Your)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4369,12 +4822,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Use a chart or other tracking method to monitor your training and development during this period"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Use a chart or other tracking method to monitor your training and development during this period"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
@@ -4413,7 +4876,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p042_img1.png",
           "title": "Req 5b: Tracking Workouts and Progress",
           "workbook_diagram_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
-          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race."
+          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
+          "socratic_questions": [
+            "For multisport Requirement 5b (Use a chart or other tracking method to monitor your training and development during this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -4424,7 +4890,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Personal Goal for Improvement Based)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4436,12 +4902,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance"
+              "1. Req 5c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
@@ -4479,7 +4955,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p042_img1.png",
           "workbook_diagram_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
-          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race."
+          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
+          "socratic_questions": [
+            "For multisport Requirement 5c (Set a personal goal for improvement based on one or more of the following criteria: time,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -4490,7 +4969,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (End of Four Weeks Discuss)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4502,12 +4981,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)",
           "common_misconception_pair": {
@@ -4545,7 +5034,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p042_img1.png",
           "workbook_diagram_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
-          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race."
+          "workbook_visual_caption": "A swimmer executes a smooth freestyle stroke while training for a triathlon race.",
+          "socratic_questions": [
+            "For multisport Requirement 5d (At the end of four weeks, discuss your progress with your counselor and tell how your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -4575,7 +5067,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Multisport Progressive Conditioning Program",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Cease endurance exercise immediately if experiencing chest pain, dizziness, or profound shortness of breath.",
@@ -4584,7 +5076,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Guidance from Your Counselor Establish)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4607,7 +5099,13 @@
           "3. (5c) Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance",
           "4. (5d) At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Training at maximum intensity every single day produces the fastest cardiovascular endurance gains.",
@@ -4785,7 +5283,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Transition Area Setup and Flow)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -4804,7 +5302,13 @@
           "1. Learn the methods of setting up your transition area, which is where your bike equipment and/or running gear",
           "2. Discuss with your counselor how to smoothly and safely transition from one element to the next, such as mounting and dismounting your bike or adjusting your gear"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Athletes can leave transition equipment in any open floor space around the bike racks.",
@@ -4962,7 +5466,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Triathlon Swim M Bike)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -4974,12 +5478,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Triathlon (swim 100 m, bike 3 km, and run 1)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Triathlon (swim 100 m, bike 3 km, and run 1)"
+              "1. Req 7a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
@@ -5017,7 +5531,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p081_img1.png",
           "workbook_diagram_caption": "Competitors push their bicycles past racks during the transition phase of a race.",
-          "workbook_visual_caption": "Competitors push their bicycles past racks during the transition phase of a race."
+          "workbook_visual_caption": "Competitors push their bicycles past racks during the transition phase of a race.",
+          "socratic_questions": [
+            "For multisport Requirement 7a (Triathlon (swim 100 m, bike 3 km, and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -5028,7 +5545,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7b Structured Technical Study & Explanation Matrix (Duathlon Run 1.5 Km Bike)",
+            "table_title": "Req 7b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5040,12 +5557,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Duathlon (run 1.5 km, bike 3 km, and run 0.75)"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Duathlon (run 1.5 km, bike 3 km, and run 0.75)"
+              "1. Req 7b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
@@ -5083,7 +5610,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 7b (Duathlon (run 1.5 km, bike 3 km, and run 0.75)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -5094,7 +5624,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Aquathlon Swim M and Run)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5106,12 +5636,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Aquathlon (swim 100 m and run 1)"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Aquathlon (swim 100 m and run 1)"
+              "1. Req 7c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
@@ -5149,7 +5689,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 7c (Aquathlon (swim 100 m and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7d",
@@ -5160,7 +5703,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7d Structured Technical Study & Explanation Matrix (Aquabike Swim M and Bike)",
+            "table_title": "Req 7d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5172,12 +5715,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Aquabike (swim 100 m and bike 3)"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Aquabike (swim 100 m and bike 3)"
+              "1. Req 7d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 7d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 7d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)",
           "common_misconception_pair": {
@@ -5215,7 +5768,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p008_img1.png",
           "workbook_diagram_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
-          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock."
+          "workbook_visual_caption": "A vintage photo shows an early open water swimming competition from a wooden dock.",
+          "socratic_questions": [
+            "For multisport Requirement 7d (Aquabike (swim 100 m and bike 3)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -5237,7 +5793,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 7 Structured Technical Study & Explanation Matrix (Completing Requirements 1-6)",
+        "table_title": "Req 7 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 7 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -5260,7 +5816,13 @@
           "3. (7c) Aquathlon Swim M and Run",
           "4. (7d) Aqua bike Swim M and Bike"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 7 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Splitting event segments across consecutive days fulfills the requirements for the multisport culminating event.",
@@ -5423,7 +5985,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (You Can Continue Participating in)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5435,12 +5997,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Research and identify two ways you can continue participating in multisport after completing this merit badge"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Research and identify two ways you can continue participating in multisport after completing this merit badge"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
@@ -5479,7 +6051,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p059_img1.png",
           "title": "Req 8a: Continuing Multisport Participation",
           "workbook_diagram_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
-          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance."
+          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
+          "socratic_questions": [
+            "For multisport Requirement 8a (Research and identify two ways you can continue participating in multisport after), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -5499,7 +6074,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Multisport Careers and Pathways)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5518,7 +6093,13 @@
               "1. Research an Olympic, Paralympic, or professional triathlete (past or current).",
               "2. Share information on their background in the sport and what inspires you most about this individual."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
@@ -5556,7 +6137,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p059_img1.png",
           "workbook_diagram_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
-          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance."
+          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
+          "socratic_questions": [
+            "For multisport Requirement 8b (Research an Olympic, Paralympic, or professional triathlete (past or current). Share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8c",
@@ -5572,7 +6156,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist (Leadership by Starting A Training)",
+            "table_title": "Req 8c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -5584,12 +6168,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate leadership by starting a training group and educating your peers on the importance of physical activity, nutrition, and the disciplines of multisport"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate leadership by starting a training group and educating your peers on the importance of physical activity, nutrition, and the disciplines of multisport"
+              "1. Req 8c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
@@ -5627,7 +6221,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p059_img1.png",
           "workbook_diagram_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
-          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance."
+          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
+          "socratic_questions": [
+            "For multisport Requirement 8c (Demonstrate leadership by starting a training group and educating your peers on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8d",
@@ -5638,7 +6235,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8d Structured Technical Study & Explanation Matrix (Sign Sanctioned Multisport Event)",
+            "table_title": "Req 8d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5650,12 +6247,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Sign up for and participate in a sanctioned multisport event in your area"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Sign up for and participate in a sanctioned multisport event in your area"
+              "1. Req 8d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
@@ -5693,7 +6300,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p059_img1.png",
           "workbook_diagram_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
-          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance."
+          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
+          "socratic_questions": [
+            "For multisport Requirement 8d (Sign up for and participate in a sanctioned multisport event in your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8e",
@@ -5704,7 +6314,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8e Structured Technical Study & Explanation Matrix (Volunteer at A Local Multisport)",
+            "table_title": "Req 8e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -5716,12 +6326,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event"
+              "1. Req 8e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)",
           "common_misconception_pair": {
@@ -5759,7 +6379,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/multisport_p059_img1.png",
           "workbook_diagram_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
-          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance."
+          "workbook_visual_caption": "Young athletes jog along a paved trail to build cardiovascular running endurance.",
+          "socratic_questions": [
+            "For multisport Requirement 8e (Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -5802,7 +6425,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist (Multisport Careers and Pathways)",
+        "table_title": "Req 8 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -5827,7 +6450,12 @@
           "4. (8d) Sign up for and participate in a sanctioned multisport event in your area",
           "5. (8e) Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Multisport competition ends with high school and offers no adult or community participation pathways.",

@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Tour of A Library Discuss)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,7 +56,13 @@
               "1. Take a tour of a library.",
               "2. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p003_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 1a (Take a tour of a library. Discuss with your counselor how the library is organized and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -110,7 +119,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Learn How to Search for)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -122,12 +131,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
@@ -166,7 +185,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "title": "Req 1b: Author Title and Subject Searches",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 1b (Learn how to search for material using a library's card catalog or computerized catalog by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -182,7 +204,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Library Search the Card Catalog)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -194,12 +216,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
@@ -237,7 +269,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 1c (In a library, search the card catalog or computerized catalog for six books of four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -248,7 +283,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Assistance Librarian Shelves Books)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -260,12 +295,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
@@ -303,7 +348,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 1d (With the assistance of your counselor or the librarian, see if you can locate on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1e",
@@ -319,7 +367,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1e Structured Technical Study & Explanation Matrix (Library Card)",
+            "table_title": "Req 1e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -331,12 +379,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain what a library card is, why it is needed, and how to get one"
+              "1. Req 1e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain what a library card is, why it is needed, and how to get one"
+              "1. Req 1e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)",
           "common_misconception_pair": {
@@ -374,7 +432,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 1e (Explain what a library card is, why it is needed, and how to get one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -417,7 +478,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Tour of A Library Discuss)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -432,17 +493,22 @@
           "1. (1a) Take a tour of a library",
           "2. (1b) Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject",
           "3. (1c) Catalog Searches Across Four Genres",
-          "4. (1d) With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected",
+          "4. (1d) With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books",
           "5. (1e) Explain what a library card is, why it is needed, and how to get one"
         ],
         "rows": [
           "1. (1a) Take a tour of a library",
           "2. (1b) Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject",
           "3. (1c) Catalog Searches Across Four Genres",
-          "4. (1d) With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected",
+          "4. (1d) With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books",
           "5. (1e) Explain what a library card is, why it is needed, and how to get one"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe librarians memorize the location of every physical book in the building.",
@@ -600,7 +666,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Book You Have Enjoyed Find)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -619,7 +685,13 @@
               "1. Identify a book you have enjoyed.",
               "2. Find out what other books the author has written."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
@@ -657,7 +729,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p007_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 2a (Identify a book you have enjoyed. Find out what other books the author has written), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -677,7 +752,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Look at One or More)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -698,7 +773,13 @@
               "2. These can be based on year, subject, or even all time.",
               "3. Identify at least one book you would like to read."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)",
           "common_misconception_pair": {
@@ -737,7 +818,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "title": "Req 2b: Best Books Lists Selection",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 2b (Look at one or more \"best books\" lists. These can be based on year, subject, or even all), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -759,7 +843,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Author Bibliography and Reading Lists",
-      "action_verb": "Demonstrate",
+      "action_verb": "Identify",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -768,7 +852,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Book You Have Enjoyed Find)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -787,7 +871,13 @@
           "1. (2a) Identify a book you have enjoyed",
           "2. (2b) Look at one or more \"best books\" lists"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners think successful authors only produce works in a single genre or series.",
@@ -939,7 +1029,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading.",
+          "text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.",
           "resources": [
             {
               "title": "How to Write a Book Review (video)",
@@ -954,7 +1044,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Book Include What You Liked)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -975,7 +1065,13 @@
               "2. Include what you liked and/or didn't like about the book.",
               "3. Include whether you would recommend this book, and if so, who might enjoy reading."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -1005,7 +1101,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading.",
+          "sub_req_text": "Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.",
           "topic_title": "Req 3a: Written Book Review Composition",
           "pamphlet_summary": "An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics.",
           "pamphlet_excerpts": [
@@ -1013,7 +1109,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 3a (Write a review of the book. Include what you liked and/or didn't like about the book.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -1029,7 +1128,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Movie Based on the Book)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1054,7 +1153,13 @@
               "4. Which did you enjoy",
               "5. Discuss this with your counselor"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -1092,7 +1197,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 3b (Watch a movie based on the book. What was the same between the book and movie? What was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1108,7 +1216,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Book Talk to Your Class)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1120,12 +1228,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Give a book talk to your class, troop, or patrol"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Give a book talk to your class, troop, or patrol"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)",
           "common_misconception_pair": {
@@ -1163,7 +1281,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p021_img1.png",
           "workbook_diagram_caption": "A boy searches an electronic library catalog to discover new books.",
-          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books."
+          "workbook_visual_caption": "A boy searches an electronic library catalog to discover new books.",
+          "socratic_questions": [
+            "For reading Requirement 3c (Give a book talk to your class, troop, or patrol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1214,7 +1335,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Books Such As Poetry Fiction)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1235,7 +1356,13 @@
           "2. (3b) Movie Based on The Book",
           "3. (3c) Book Talk to Your Class"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts sometimes think a book review is merely a detailed chronological plot summary.",
@@ -1408,7 +1535,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Nonfiction Book or Magazine That)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1431,7 +1558,12 @@
           "3. Share your experience with your counselor",
           "4. Reading a merit badge pamphlet will not count toward completing this requirement"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume skipping procedural steps in a technical manual will save time without consequences.",
@@ -1613,7 +1745,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (World Around You)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1634,7 +1766,12 @@
           "2. Topics may include Scouting, sports, environmental problems, politics, social issues, current events, nature, religion",
           "3. Discuss what you have learned with your counselor"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Readers assume all published news outlets report current events with identical factual framing.",
@@ -1802,7 +1939,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6a Structured Technical Study & Explanation Matrix (Sick Blind or Homebound Person)",
+            "table_title": "Req 6a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1814,12 +1951,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Read to a sick, blind, or homebound person in a hospital or in an extended-care facility"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Read to a sick, blind, or homebound person in a hospital or in an extended-care facility"
+              "1. Req 6a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -1857,7 +2004,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p032_img1.png",
           "workbook_diagram_caption": "A reader concentrates on reading printed pages for study or leisure.",
-          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure."
+          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure.",
+          "socratic_questions": [
+            "For reading Requirement 6a (Read to a sick, blind, or homebound person in a hospital or in an extended-care facility), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1873,7 +2023,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (Volunteer Work at Your School)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1885,12 +2035,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Perform volunteer work at your school library or a public library"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Perform volunteer work at your school library or a public library"
+              "1. Req 6b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -1928,7 +2088,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p032_img1.png",
           "workbook_diagram_caption": "A reader concentrates on reading printed pages for study or leisure.",
-          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure."
+          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure.",
+          "socratic_questions": [
+            "For reading Requirement 6b (Perform volunteer work at your school library or a public library), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1944,7 +2107,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Stories to Younger Children)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1956,12 +2119,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Read stories to younger children, in a group or individually"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Read stories to younger children, in a group or individually"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -1999,7 +2172,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p032_img1.png",
           "workbook_diagram_caption": "A reader concentrates on reading printed pages for study or leisure.",
-          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure."
+          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure.",
+          "socratic_questions": [
+            "For reading Requirement 6c (Read stories to younger children, in a group or individually), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2015,7 +2191,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Organize A Book Swap)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2027,12 +2203,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Organize a book swap in your troop, school, or place of worship"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Organize a book swap in your troop, school, or place of worship"
+              "1. Req 6d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -2070,7 +2256,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p032_img1.png",
           "workbook_diagram_caption": "A reader concentrates on reading printed pages for study or leisure.",
-          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure."
+          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure.",
+          "socratic_questions": [
+            "For reading Requirement 6d (Organize a book swap in your troop, school, or place of worship), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2086,7 +2275,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Organize A Book)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2105,7 +2294,13 @@
               "1. Organize a book drive to collect books.",
               "2. Donate them to an organization in need."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)",
           "common_misconception_pair": {
@@ -2143,7 +2338,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/reading_p032_img1.png",
           "workbook_diagram_caption": "A reader concentrates on reading printed pages for study or leisure.",
-          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure."
+          "workbook_visual_caption": "A reader concentrates on reading printed pages for study or leisure.",
+          "socratic_questions": [
+            "For reading Requirement 6e (Organize a book drive to collect books. Donate them to an organization in need), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2186,7 +2384,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Permission Activities Devote Hours)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2211,7 +2409,12 @@
           "4. (6d) Organize A Book Swap",
           "5. (6e) Organize A Book"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Volunteers often think simply dropping off books fulfills the requirement without prior coordination.",
@@ -2407,7 +2610,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners assume careers requiring heavy reading are confined to traditional author or librarian roles.",

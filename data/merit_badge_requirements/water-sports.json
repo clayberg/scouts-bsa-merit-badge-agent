@@ -28,7 +28,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Water Sports Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -40,24 +40,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
             "misconception": "Water provides a completely soft surface that prevents physical impact injuries during falls.",
             "fact": "Hitting water at thirty miles per hour causes severe contusions and concussion trauma."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Water Sports Merit Badge Hub (Req 1a)",
@@ -88,7 +93,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p003_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
-          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp."
+          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
+          "socratic_questions": [
+            "For water sports Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -120,7 +128,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Prevention Symptoms and First-aid Treatment)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -132,12 +140,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
@@ -175,7 +193,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p031_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
-          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp."
+          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
+          "socratic_questions": [
+            "For water sports Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -191,7 +212,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -210,7 +231,13 @@
               "1. Review the Scouting America Safety Afloat policy.",
               "2. Tell how it applies to water sports."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)",
           "common_misconception_pair": {
@@ -248,7 +275,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p031_img1.png",
           "workbook_diagram_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
-          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp."
+          "workbook_visual_caption": "Responders provide emergency first aid care to a heat exhaustion victim resting on a tarp.",
+          "socratic_questions": [
+            "For water sports Requirement 1c (Review the Scouting America Safety Afloat policy. Tell how it applies to water sports), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -286,7 +316,7 @@
         "ttl_days": 7
       },
       "topic_title": "Req 1: Water Sports Hazard Mitigation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Always shut down the boat engine before bringing a fallen skier alongside or onto the swim platform.",
@@ -295,7 +325,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Water Sports Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -316,18 +346,19 @@
           "2. (1b) Prevention Symptoms and First-aid Treatment",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A boat operator can easily watch the skier behind the boat while steering forward.",
         "fact": "The law and safety standards require a separate observer to watch the skier continuously."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Water Sports Merit Badge Hub (Req 1)",
@@ -484,7 +515,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor the)",
+            "table_title": "Req 2a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -503,19 +534,20 @@
               "1. Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding",
               "2. Then demonstrate how to select and fit a life jacket for water sports activities"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
             "misconception": "A loose life jacket is safer because it allows freer arm movement while turning.",
             "fact": "Loose life jackets can ride up over the face and obstruct breathing during falls."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Water Sports Merit Badge Hub (Req 2a)",
@@ -547,7 +579,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p007_img1.png",
           "title": "Req 2a: Selecting and Fitting Ski Vests",
           "workbook_diagram_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.",
-          "workbook_visual_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress."
+          "workbook_visual_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.",
+          "socratic_questions": [
+            "For water sports Requirement 2a (Discuss with your counselor the characteristics of life jackets most appropriate for water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -563,7 +598,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Discuss the Water Sports Safety)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -584,7 +619,13 @@
               "2. Promise that you will live up to it and follow it in all water work for this merit badge.",
               "3. Review the safety precautions that must be used by the boat operator in pulling water skiers and wake boarders."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)",
           "common_misconception_pair": {
@@ -622,7 +663,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p041_img1.png",
           "workbook_diagram_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.",
-          "workbook_visual_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress."
+          "workbook_visual_caption": "An orange throwable ring buoy provides emergency flotation support for a swimmer in distress.",
+          "socratic_questions": [
+            "For water sports Requirement 2b (Review and discuss the Water Sports Safety Code with your counselor. Promise that you will), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -649,7 +693,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (Discuss with Your Counselor the)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -668,18 +712,19 @@
           "1. (2a) Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding",
           "2. (2b) Review and discuss the Water Sports Safety Code with your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Inflatable life vests work well for water skiing because they are lightweight and unobtrusive.",
         "fact": "High-speed water impacts can prevent automatic inflation or tear lightweight inflatable chambers instantly."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Water Sports Merit Badge Hub (Req 2)",
@@ -851,7 +896,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification Check)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -870,18 +915,19 @@
           "1. Before doing requirements 4 through 6, successfully complete the Scouting America swimmer test.",
           "2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Wearing a life jacket allows a non-swimmer to bypass the required swimmer test.",
         "fact": "Every participant must pass the standard swimmer test before beginning water sports instruction."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Water Sports Merit Badge Hub (Req 3)",
@@ -1048,7 +1094,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Skier Signals to the Safety)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1060,12 +1106,22 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water"
+          "1. Speed Increase Gesture",
+          "2. Speed Reduction Signal",
+          "3. Motor Cutoff Command"
         ],
         "rows": [
-          "1. Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water"
+          "1. Speed Increase Gesture",
+          "2. Speed Reduction Signal",
+          "3. Motor Cutoff Command"
         ],
-        "min_rows": 1
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Yelling loudly from behind the boat is an effective way to request speed changes.",
@@ -1245,7 +1301,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist (Enter the Water from A)",
+            "table_title": "Req 5a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1257,12 +1313,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Show how to enter the water from a boat and make a deepwater start without help"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show how to enter the water from a boat and make a deepwater start without help"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
@@ -1301,7 +1367,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "title": "Req 5a: Boat Entry and Deepwater Start",
           "workbook_diagram_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start.",
-          "workbook_visual_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start."
+          "workbook_visual_caption": "A skier in a lifejacket crouches in the water holding the tow handle for a deepwater start.",
+          "socratic_questions": [
+            "For water sports Requirement 5a (Show how to enter the water from a boat and make a deepwater start without help), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1325,7 +1394,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Starting from Outside the Wakes)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1337,12 +1406,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
@@ -1380,7 +1459,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "workbook_diagram_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.",
-          "workbook_visual_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start."
+          "workbook_visual_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.",
+          "socratic_questions": [
+            "For water sports Requirement 5b (Starting from outside the wakes, show you can cross both wakes four times and return to the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1391,7 +1473,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (You Can Fall Properly to)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1410,7 +1492,13 @@
               "1. Show you can fall properly to avoid an obstacle.",
               "2. Also show that you can drop handle and coast to a stop without losing your balance."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)",
           "common_misconception_pair": {
@@ -1449,7 +1537,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/water_sports_p058_img1.png",
           "title": "Req 5c: Safe Falling and Controlled Coasting",
           "workbook_diagram_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.",
-          "workbook_visual_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start."
+          "workbook_visual_caption": "A skier in a life jacket crouches in the water holding the tow handle for a deepwater start.",
+          "socratic_questions": [
+            "For water sports Requirement 5c (Show you can fall properly to avoid an obstacle. Also show that you can drop handle and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1500,7 +1591,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Showing Reasonable Control)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -1521,7 +1612,13 @@
           "2. (5b) Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling",
           "3. (5c) Show you can fall properly to avoid an obstacle"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Standing up quickly by muscle force alone lifts the skier out of deep water.",
@@ -1694,7 +1791,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 6 Structured Technical Study & Explanation Matrix (Shore Show That You Know)",
+        "table_title": "Req 6 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 6 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1715,7 +1812,13 @@
           "2. Then, in deep water, show you can adjust bindings to fit",
           "3. Recover and put on your ski(s) or wakeboard that has come off during a fall"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 6 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Bindings should be tightened as rigidly as downhill snow ski boots to maximize control.",

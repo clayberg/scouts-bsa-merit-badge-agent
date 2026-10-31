@@ -45,7 +45,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Motorboating Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -70,7 +70,13 @@
               "4. collisions",
               "5. falls overboard"
             ],
-            "min_rows": 5
+            "min_rows": 5,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
@@ -108,7 +114,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p003_img1.png",
           "workbook_diagram_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
-          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull."
+          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
+          "socratic_questions": [
+            "For motorboating Requirement 1a (Discuss with your counselor the following hazards you might encounter while motorboating:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -136,7 +145,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Emergency First Aid and Prevention)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -148,12 +157,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters"
+              "1. Req 1b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
@@ -191,7 +210,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p009_img1.png",
           "workbook_diagram_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
-          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull."
+          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
+          "socratic_questions": [
+            "For motorboating Requirement 1b (Explain first aid for injuries or illnesses that could occur while motorboating, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -207,7 +229,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -226,7 +248,13 @@
               "1. Discuss the Scouting America Safety Afloat policy.",
               "2. Tell how it applies to motor boating activities."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)",
           "common_misconception_pair": {
@@ -264,7 +292,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p009_img1.png",
           "workbook_diagram_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
-          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull."
+          "workbook_visual_caption": "Official state registration numbers and validation decals are displayed on a motorboat hull.",
+          "socratic_questions": [
+            "For motorboating Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -323,7 +354,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Motorboating Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -344,7 +375,13 @@
           "2. (1b) Emergency First Aid and Prevention",
           "3. (1c) Safe Swim Defense and Safety Afloat"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Boating hazards only occur during violent ocean storms or high speed operation.",
@@ -512,7 +549,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (BSA Swimmer Qualification and Safety)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -531,19 +568,20 @@
               "1. Before doing requirement 5, successfully complete the Scouting America swimmer test.",
               "2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
             "misconception": "Floating calmly in the shallow end qualifies a scout for deep water motorboating activities.",
             "fact": "The test requires swimming one hundred yards using strong strokes followed by resting floats."
           },
-          "starting_requirement_gate": {
-            "gate_type": "HARD_PREREQ_BADGE",
-            "gate_label": "BSA Swimmer Classification Gate",
-            "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-            "blocking_in_class": true
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Motorboating Merit Badge Hub (Req 2a)",
@@ -574,7 +612,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p007_img1.png",
           "workbook_diagram_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats.",
-          "workbook_visual_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats."
+          "workbook_visual_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats.",
+          "socratic_questions": [
+            "For motorboating Requirement 2a (Before doing requirement 5, successfully complete the Scouting America swimmer test. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -590,7 +631,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist (Personal Flotation Devices PFDs)",
+            "table_title": "Req 2b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -609,7 +650,13 @@
               "1. Name the different types of personal flotation devices (PFDs), and explain when each type should be used.",
               "2. Show how to choose and properly fit a PFD."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)",
           "common_misconception_pair": {
@@ -647,7 +694,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p018_img1.png",
           "workbook_diagram_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats.",
-          "workbook_visual_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats."
+          "workbook_visual_caption": "A compact marine signal flare provides emergency visual signaling for disabled boats.",
+          "socratic_questions": [
+            "For motorboating Requirement 2b (Name the different types of personal flotation devices (PFDs), and explain when each type), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -678,7 +728,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist (BSA Swimmer Qualification and Safety)",
+        "table_title": "Req 2 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -697,18 +747,19 @@
           "1. (2a) BSA Swimmer Qualification and Safety",
           "2. (2b) Personal Flotation Devices PFDs"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Any comfortable flotation cushion satisfies the life jacket requirement for youth on motorboats.",
         "fact": "Type I and II vests provide higher buoyancy designed to turn unconscious swimmers face up."
       },
-      "starting_requirement_gate": {
-        "gate_type": "HARD_PREREQ_BADGE",
-        "gate_label": "BSA Swimmer Classification Gate",
-        "gate_description": "Scout must complete the official BSA Swimmer test (100 yards + 1-minute float) before on-water skill stations.",
-        "blocking_in_class": true
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Motorboating Merit Badge Hub (Req 2)",
@@ -859,7 +910,7 @@
         {
           "sub_id": "3a",
           "label": "(a)",
-          "text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages.",
+          "text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
           "resources": [
             {
               "title": "Whats the Difference Between Inboard, Outboard & Stern drive Boat Engines? (video)",
@@ -874,7 +925,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Inboard Outboard and Inboard/outboard Motors)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -886,12 +937,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages"
+              "1. Req 3a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
@@ -921,7 +982,7 @@
           ],
           "id": "3a",
           "sub_req_label": "3a",
-          "sub_req_text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages.",
+          "sub_req_text": "Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.",
           "topic_title": "Req 3a: Marine Engine Drive Configurations",
           "pamphlet_summary": "Marine propulsion includes exterior outboard packages, inboard engines with separate rudder assemblies, and inboard outboard stern drive combinations. Drivers choose specific configurations based on draft requirements, maintenance accessibility, and steering performance.",
           "pamphlet_excerpts": [
@@ -929,7 +990,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p036_img1.png",
           "workbook_diagram_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
-          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat."
+          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
+          "socratic_questions": [
+            "For motorboating Requirement 3a (Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -949,7 +1013,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -961,12 +1025,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement"
+              "1. Req 3b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
@@ -1004,7 +1078,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p036_img1.png",
           "workbook_diagram_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
-          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat."
+          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
+          "socratic_questions": [
+            "For motorboating Requirement 3b (Explain the safety procedures and precautions involving handling fuel and engine servicing,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -1020,7 +1097,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Winterize A Boat Motor)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1032,12 +1109,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain how to winterize a boat motor and tell why this procedure is necessary"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain how to winterize a boat motor and tell why this procedure is necessary"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
@@ -1075,7 +1162,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p036_img1.png",
           "workbook_diagram_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
-          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat."
+          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
+          "socratic_questions": [
+            "For motorboating Requirement 3c (Explain how to winterize a boat motor and tell why this procedure is necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3d",
@@ -1091,7 +1181,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3d Structured Technical Study & Explanation Matrix (Safety Procedures and Precautions Involving)",
+            "table_title": "Req 3d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1103,12 +1193,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes"
+              "1. Req 3d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)",
           "common_misconception_pair": {
@@ -1146,7 +1246,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p036_img1.png",
           "workbook_diagram_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
-          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat."
+          "workbook_visual_caption": "A young skier secures his water skis at the dock edge before being towed by a motorboat.",
+          "socratic_questions": [
+            "For motorboating Requirement 3d (Explain the safety procedures and precautions involving swimmers and skiers in the water,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1184,7 +1287,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 3: Propulsion Mechanics Operational Safety",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Turn off the engine completely before allowing swimmers or water skiers near the stern or swim platform.",
@@ -1193,7 +1296,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Inboard Outboard and Inboard/outboard Motors)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1216,7 +1319,13 @@
           "3. (3c) Winterize A Boat Motor",
           "4. (3d) Safety Procedures and Precautions Involving"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Motorboat engine bays naturally ventilate all gasoline vapors without mechanical blowers.",
@@ -1379,7 +1488,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1391,12 +1500,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1434,7 +1553,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4a (Review how each item of the Scouting America Safety Afloat policy applies, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1450,7 +1572,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Laws That Apply to Recreational)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1471,7 +1593,13 @@
               "2. Have a permit to operate a motorboat, if required by the laws of your state.",
               "3. Discuss how you would find information regarding the boating laws in different states."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1509,7 +1637,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4b (Explain the rules or laws that apply to recreational boating in your area or state. Have a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1533,7 +1664,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Discuss How Hazards of Weather)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1545,12 +1676,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating"
+              "1. Req 4c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1588,7 +1729,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4c (Discuss how hazards of weather and heavy water conditions can affect safety and performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1599,7 +1743,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1618,7 +1762,13 @@
               "1. Promise that you will follow Scouting America Safety Afloat guidelines.",
               "2. Explain the meaning of each point."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1656,7 +1806,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4d (Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4e",
@@ -1672,7 +1825,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4e Structured Technical Study & Explanation Matrix (Equipment Required by Both State)",
+            "table_title": "Req 4e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1684,12 +1837,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat"
+              "1. Req 4e Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4e Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4e Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1727,7 +1890,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4e (Explain and show the correct use of equipment required by both state and federal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4f",
@@ -1743,7 +1909,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4f Structured Technical Study & Explanation Matrix (Federal and State)",
+            "table_title": "Req 4f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1755,12 +1921,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain federal and state rules for a ventilation system, and tell why these rules are required"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain federal and state rules for a ventilation system, and tell why these rules are required"
+              "1. Req 4f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1798,7 +1974,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4f (Explain federal and state rules for a ventilation system, and tell why these rules are required), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4g",
@@ -1814,7 +1993,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4g Structured Technical Study & Explanation Matrix (Sight Signals and Sound Signals)",
+            "table_title": "Req 4g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1826,12 +2005,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the use of lights (sight signals) and sound signals on motorboats"
+              "1. Req 4g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the use of lights (sight signals) and sound signals on motorboats"
+              "1. Req 4g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1869,7 +2058,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4g (Explain the use of lights (sight signals) and sound signals on motorboats), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4h",
@@ -1893,7 +2085,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4h Structured Technical Study & Explanation Matrix (Discuss the Common Types of)",
+            "table_title": "Req 4h Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4h Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1912,7 +2104,13 @@
               "1. Discuss the common types of anchors used in motor boating and under what conditions each would be preferred.",
               "2. Explain proper anchoring techniques."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4h Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)",
           "common_misconception_pair": {
@@ -1951,7 +2149,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p008_img1.png",
           "title": "Req 4h: Anchor Types and Anchoring Scope",
           "workbook_diagram_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
-          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake."
+          "workbook_visual_caption": "A motorized ski boat pulls an athlete across a wide lake while creating a broad wake.",
+          "socratic_questions": [
+            "For motorboating Requirement 4h (Discuss the common types of anchors used in motorboating and under what conditions each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2014,7 +2215,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Safe Swim Defense and Safety Afloat)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2045,7 +2246,13 @@
           "7. (4g) Explain the use of lights (sight signals) and sound signals on motorboats",
           "8. (4h) Discuss the common types of anchors used in motorboating and under what conditions each would be preferred"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Recreational motorboats are exempt from carrying sound signaling devices on inland lakes.",
@@ -2217,7 +2424,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Board and Assist Others in)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2236,7 +2443,13 @@
               "1. Board and assist others in boarding.",
               "2. Confirm that all passengers on board are wearing properly fitted lifejackets."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2275,7 +2488,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "title": "Req 5a: Safe Boarding and PFD Checks",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5a (Board and assist others in boarding. Confirm that all passengers on board are wearing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -2291,7 +2507,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Fuel the Boat)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2303,12 +2519,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Fuel the boat and complete a safety check"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Fuel the boat and complete a safety check"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2346,7 +2572,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5b (Fuel the boat and complete a safety check), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -2362,7 +2591,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Equipped Attach the Engine Cut-off)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2381,7 +2610,13 @@
               "1. If equipped, attach the engine cut-off switch link and safely start the motor.",
               "2. Get under way from dock side or from a beach launch."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2419,7 +2654,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5c (If equipped, attach the engine cut-off switch link and safely start the motor. Get underway), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -2435,7 +2673,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Run A Course)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2447,12 +2685,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2490,7 +2738,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5d (Run a course for at least a mile, showing procedures for overtaking and passing slower), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5e",
@@ -2501,7 +2752,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5e Structured Technical Study & Explanation Matrix (Stop and Secure the Boat)",
+            "table_title": "Req 5e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2520,7 +2771,13 @@
               "1. Stop and secure the boat in position on the open water using anchors.",
               "2. Raise and stow the anchor and get under way."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2558,7 +2815,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5e (Stop and secure the boat in position on the open water using anchors. Raise and stow the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5f",
@@ -2574,7 +2834,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5f Structured Technical Study & Explanation Matrix (Land or Dock the Boat)",
+            "table_title": "Req 5f Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5f Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2586,12 +2846,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Land or dock the boat, disembark, and assist others in doing"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Land or dock the boat, disembark, and assist others in doing"
+              "1. Req 5f Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5f Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5f Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5f Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2629,7 +2899,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5f (Land or dock the boat, disembark, and assist others in doing the same), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5g",
@@ -2649,7 +2922,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5g Structured Technical Study & Explanation Matrix (Moor Dock or Beach the)",
+            "table_title": "Req 5g Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5g Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2661,12 +2934,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Moor, dock, or beach the boat and secure all gear"
+              "1. Req 5g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5g Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Moor, dock, or beach the boat and secure all gear"
+              "1. Req 5g Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5g Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5g Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5g Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2705,7 +2988,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "title": "Req 5g: Mooring, Beaching, and Gear Stowing",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5g (Moor, dock, or beach the boat and secure all gear), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5h",
@@ -2725,7 +3011,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5h Hands-On Skill Station & EDGE Verification Checklist (Knots Used in Boating Cleating)",
+            "table_title": "Req 5h Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2737,12 +3023,22 @@
               "Buddy / Counselor Sign-Off Notes"
             ],
             "row_labels": [
-              "1. Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend"
+              "1. Req 5h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5h Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend"
+              "1. Req 5h Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5h Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5h Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)",
           "common_misconception_pair": {
@@ -2780,7 +3076,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/motorboating_p013_img1.png",
           "workbook_diagram_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
-          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock."
+          "workbook_visual_caption": "An instructor conducts a pre-launch boating safety briefing for youth scouts on the dock.",
+          "socratic_questions": [
+            "For motorboating Requirement 5h (Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2843,7 +3142,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (Adults on Board Demonstrate Proper)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2874,7 +3173,13 @@
           "7. (5g) Moor, dock, or beach the boat and secure all gear",
           "8. (5h) Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend"
         ],
-        "min_rows": 8
+        "min_rows": 8,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Boats maintain full directional steering control when the throttle drops to dead idle.",

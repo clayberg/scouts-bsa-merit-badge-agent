@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Tooth Structure and Look for)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -45,12 +45,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Study the tooth structure and look for decay"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Study the tooth structure and look for decay"
+              "1. Req 1a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -89,7 +99,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p003_img1.png",
           "title": "Req 1a: Studying Tooth Structure and Decay",
           "workbook_diagram_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
-          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones."
+          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
+          "socratic_questions": [
+            "For dentistry Requirement 1a (Study the tooth structure and look for decay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -100,7 +113,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Lower Molar Using the Radiographs)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -121,7 +134,13 @@
               "2. Label its parts and surfaces.",
               "3. Show surrounding structures such as bone and gum tissues."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -159,7 +178,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p014_img1.png",
           "workbook_diagram_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
-          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones."
+          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
+          "socratic_questions": [
+            "For dentistry Requirement 1b (Draw a lower molar, using the radiographs as a guide. Label its parts and surfaces. Show), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -170,7 +192,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Drawing Where the Nerves and)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -182,12 +204,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show on your drawing where the nerves and blood vessels enter and leave the tooth"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show on your drawing where the nerves and blood vessels enter and leave the tooth"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -226,7 +258,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p014_img1.png",
           "title": "Req 1c: Mapping Dental Nerves and Vessels",
           "workbook_diagram_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
-          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones."
+          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
+          "socratic_questions": [
+            "For dentistry Requirement 1c (Show on your drawing where the nerves and blood vessels enter and leave the tooth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1d",
@@ -237,7 +272,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1d Structured Technical Study & Explanation Matrix (Drawing Where Bacterial Plaque)",
+            "table_title": "Req 1d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -249,12 +284,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Show on your drawing where bacterial plaque is most likely to be found"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Show on your drawing where bacterial plaque is most likely to be found"
+              "1. Req 1d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 14, p. 16)",
           "common_misconception_pair": {
@@ -292,7 +337,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p014_img1.png",
           "workbook_diagram_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
-          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones."
+          "workbook_visual_caption": "A human skull demonstrates the anatomical alignment of teeth within the jawbones.",
+          "socratic_questions": [
+            "For dentistry Requirement 1d (Show on your drawing where bacterial plaque is most likely to be found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -319,7 +367,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (X-ray Radiographic Films or Images)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -342,7 +390,13 @@
           "3. (1c) Show on your drawing where the nerves and blood vessels enter and leave the tooth",
           "4. (1d) Show on your drawing where bacterial plaque is most likely to be found"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Scouts often believe tooth decay is visible on outer enamel before appearing on radiographs.",
@@ -509,7 +563,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Dental Decay and Gum Disease)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -528,7 +582,13 @@
               "1. Tell or write about what causes dental decay and gum disease.",
               "2. Tell how each of the following contributes to dental decay and gum disease: bacterial plaque, sugars, and acid."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
@@ -566,7 +626,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p007_img1.png",
           "workbook_diagram_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
-          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp."
+          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
+          "socratic_questions": [
+            "For dentistry Requirement 2a (Tell or write about what causes dental decay and gum disease. Tell how each of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -590,7 +653,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2b Structured Technical Study & Explanation Matrix (Possible Causes for Traumatic Tooth)",
+            "table_title": "Req 2b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -602,12 +665,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic activities during which a person should wear a mouth guard"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used to help prevent tooth trauma, and list the athletic activities during which a person should wear a mouth guard"
+              "1. Req 2b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
@@ -645,12 +718,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p009_img1.png",
           "workbook_diagram_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
-          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp."
+          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
+          "socratic_questions": [
+            "For dentistry Requirement 2b (Tell the possible causes for traumatic tooth loss, describe the types of mouth guards used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2c",
           "label": "(c)",
-          "text": "Explain the first-aid procedure for saving a tooth that has been knocked.",
+          "text": "Explain the first-aid procedure for saving a tooth that has been knocked out.",
           "resources": [
             {
               "title": "Knocked Out Teeth | First Aid (video)",
@@ -661,7 +737,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2c Structured Technical Study & Explanation Matrix (First-aid Procedure for Saving A)",
+            "table_title": "Req 2c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -673,12 +749,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Explain the first-aid procedure for saving a tooth that has been knocked"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Explain the first-aid procedure for saving a tooth that has been knocked"
+              "1. Req 2c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
@@ -708,7 +794,7 @@
           ],
           "id": "2c",
           "sub_req_label": "2c",
-          "sub_req_text": "Explain the first-aid procedure for saving a tooth that has been knocked.",
+          "sub_req_text": "Explain the first-aid procedure for saving a tooth that has been knocked out.",
           "topic_title": "Req 2c: Avulsed Tooth First Aid",
           "pamphlet_summary": "Reimplantation success depends on preserving viable periodontal ligament fibroblasts clinging to the dislodged root surface. Immediate replantation or storage in cold milk prevents cellular necrosis prior to professional splinting.",
           "pamphlet_excerpts": [
@@ -717,7 +803,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p009_img1.png",
           "title": "Req 2c: First Aid for Avulsed Teeth",
           "workbook_diagram_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
-          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp."
+          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
+          "socratic_questions": [
+            "For dentistry Requirement 2c (Explain the first-aid procedure for saving a tooth that has been knocked out), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2d",
@@ -737,7 +826,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2d Structured Technical Study & Explanation Matrix (Discuss How the Use of)",
+            "table_title": "Req 2d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -749,12 +838,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Discuss how the use of tobacco products can negatively affect your oral health"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Discuss how the use of tobacco products can negatively affect your oral health"
+              "1. Req 2d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 2d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 2d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 57)",
           "common_misconception_pair": {
@@ -793,7 +892,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p009_img1.png",
           "title": "Req 2d: Oral Health Risks of Tobacco",
           "workbook_diagram_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
-          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp."
+          "workbook_visual_caption": "An anatomical diagram illustrates an endodontic procedure treating decay inside tooth pulp.",
+          "socratic_questions": [
+            "For dentistry Requirement 2d (Discuss how the use of tobacco products can negatively affect your oral health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -839,7 +941,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Oral Pathology and Trauma",
-      "action_verb": "Demonstrate",
+      "action_verb": "Tell",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -848,7 +950,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Dental Decay and Gum Disease)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -871,7 +973,13 @@
           "3. (2c) Explain the first-aid procedure for saving a tooth that has been knocked",
           "4. (2d) Discuss how the use of tobacco products can negatively affect your oral health"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Gum disease only damages soft tissue margins without affecting underlying jawbone support.",
@@ -1039,7 +1147,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Arrange Dentist Whether Include)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1062,7 +1170,12 @@
           "3. Afterward, ask questions about things you want to know.",
           "4. Then tell your counselor what the dentist does during a checkup examination."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Dental visits are only necessary when a tooth aches or bleeds during brushing.",
@@ -1229,7 +1342,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Instruments and Five Pieces of)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1241,12 +1354,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Name at least five instruments and five pieces of equipment a dentist uses"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Name at least five instruments and five pieces of equipment a dentist uses"
+              "1. Req 4a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
@@ -1285,7 +1408,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p033_img4.png",
           "title": "Req 4a: Identifying Dental Instruments and Equipment",
           "workbook_diagram_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
-          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay."
+          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
+          "socratic_questions": [
+            "For dentistry Requirement 4a (Name at least five instruments and five pieces of equipment a dentist uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1301,7 +1427,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Help of A Dentist)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1313,12 +1439,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing bowl, a water measure, a plastic measure, model stone, and a spatula"
+              "1. Req 4b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 4b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 4b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
@@ -1356,7 +1492,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p033_img4.png",
           "workbook_diagram_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
-          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay."
+          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
+          "socratic_questions": [
+            "For dentistry Requirement 4b (With the help of a dentist, prepare a dental stone cast using a dental vibrator, a mixing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -1372,7 +1511,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 4c Quantitative Field Observation & Activity Log (Everything You Eat for Three)",
+            "table_title": "Req 4c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1395,7 +1534,14 @@
               "2. Circle those items that may provide the sugars that bacterial plaque needs to make acid.",
               "3. List snacks that you should avoid to help maintain the best oral health."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 29, p. 33)",
           "common_misconception_pair": {
@@ -1433,7 +1579,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p033_img4.png",
           "workbook_diagram_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
-          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay."
+          "workbook_visual_caption": "Prolonged bottle feeding with sugary liquids can contribute to early childhood dental decay.",
+          "socratic_questions": [
+            "For dentistry Requirement 4c (Keep a record of everything you eat for three days. Circle those items that may provide the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1472,7 +1621,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 4 Quantitative Field Observation & Activity Log (Instruments and Five Pieces of)",
+        "table_title": "Req 4 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -1495,7 +1644,13 @@
           "2. (4b) Pouring a Dental Stone Cast",
           "3. (4c) Keep a record of everything you eat for three days"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Adding extra water to thick dental stone mixtures makes casts set faster and stronger.",
@@ -1658,7 +1813,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Fluorides Help Prevent Tooth Decay)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1670,12 +1825,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth"
+              "1. Req 5a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
@@ -1713,7 +1878,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p024_img1.png",
           "workbook_diagram_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin.",
-          "workbook_visual_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin."
+          "workbook_visual_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin.",
+          "socratic_questions": [
+            "For dentistry Requirement 5a (How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1737,7 +1905,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Mouth Is Related to the)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1756,7 +1924,13 @@
               "1. How the mouth is related to the rest of the body.",
               "2. Topics might include chewing, saliva, enzymes, nutrition, and speech."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 33, p. 34)",
           "common_misconception_pair": {
@@ -1795,7 +1969,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p024_img1.png",
           "title": "Req 5b: Oral Function and Body Wellness",
           "workbook_diagram_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin.",
-          "workbook_visual_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin."
+          "workbook_visual_caption": "A magnified view shows bacterial plaque deposits forming along the gingival tooth margin.",
+          "socratic_questions": [
+            "For dentistry Requirement 5b (How the mouth is related to the rest of the body. Topics might include chewing, saliva,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1834,7 +2011,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Discuss Fluorides Help Prevent)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1853,7 +2030,13 @@
           "1. (5a) How fluorides help prevent tooth decay and the ways fluorides can be provided to the teeth",
           "2. (5b) How the mouth is related to the rest of the body"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Fluoride works only by coating teeth like a physical waterproof paint.",
@@ -2024,7 +2207,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (Model Tooth Out of Soap)",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2043,7 +2226,13 @@
               "1. Make a model tooth out of soap, clay, paper-mâché, or wax.",
               "2. Using a string and a large hand brush, show your troop or a school class proper tooth-brushing and flossing procedures."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
@@ -2081,7 +2270,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p027_img1.png",
           "workbook_diagram_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
-          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque."
+          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
+          "socratic_questions": [
+            "For dentistry Requirement 6a (Make a model tooth out of soap, clay, paper-mâché, or wax. Using a string and a large hand), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -2097,7 +2289,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist (Poster on the Prevention of)",
+            "table_title": "Req 6b Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -2116,7 +2308,13 @@
               "1. Make a poster on the prevention of dental disease.",
               "2. Show the importance of good oral health."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
@@ -2155,7 +2353,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p027_img1.png",
           "title": "Req 6b: Designing a Disease Prevention Poster",
           "workbook_diagram_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
-          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque."
+          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
+          "socratic_questions": [
+            "For dentistry Requirement 6b (Make a poster on the prevention of dental disease. Show the importance of good oral health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -2166,7 +2367,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6c Structured Technical Study & Explanation Matrix (Advertisements for Different Toothpastes)",
+            "table_title": "Req 6c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2187,7 +2388,13 @@
               "2. List the claims that each one makes.",
               "3. Tell about the accuracy of the advertisements."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
@@ -2225,7 +2432,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p027_img1.png",
           "workbook_diagram_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
-          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque."
+          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
+          "socratic_questions": [
+            "For dentistry Requirement 6c (Collect at least five advertisements for different toothpastes. List the claims that each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6d",
@@ -2236,7 +2446,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6d Structured Technical Study & Explanation Matrix (Feature Story for Your School)",
+            "table_title": "Req 6d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2255,7 +2465,13 @@
               "1. Write a feature story for your school newspaper on the proper care of teeth and gums.",
               "2. Include in your story how the use of tobacco products can negatively affect a person's oral health."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
@@ -2293,7 +2509,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p027_img1.png",
           "workbook_diagram_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
-          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque."
+          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
+          "socratic_questions": [
+            "For dentistry Requirement 6d (Write a feature story for your school newspaper on the proper care of teeth and gums.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6e",
@@ -2309,7 +2528,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6e Structured Technical Study & Explanation Matrix (Drawings and Write About the)",
+            "table_title": "Req 6e Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6e Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2328,7 +2547,13 @@
               "1. Make drawings and write about the progress of dental decay.",
               "2. Describe the types of dental filling and treatments a dentist can use to repair dental decay problems."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6e Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Dentistry Merit Badge Pamphlet (p. 26, p. 57)",
           "common_misconception_pair": {
@@ -2367,7 +2592,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/dentistry_p027_img1.png",
           "title": "Req 6e: Illustrating Decay Stages and Restorations",
           "workbook_diagram_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
-          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque."
+          "workbook_visual_caption": "A toothbrush cleans the lingual surfaces of teeth to remove food particles and plaque.",
+          "socratic_questions": [
+            "For dentistry Requirement 6e (Make drawings and write about the progress of dental decay. Describe the types of dental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2410,7 +2638,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist (Model Tooth Out of Soap)",
+        "table_title": "Req 6 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Skill Station Step",
           "Required Technique & Safety Standard",
@@ -2435,7 +2663,13 @@
           "4. (6d) Write a feature story for your school newspaper on the proper care of teeth and gums",
           "5. (6e) Make drawings and write about the progress of dental decay"
         ],
-        "min_rows": 5
+        "min_rows": 5,
+        "pre_approval_gate": false,
+        "columns": [
+          "Skill Station Step",
+          "Required Technique & Safety Standard",
+          "Buddy / Counselor Sign-Off Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Brushing harder with stiff bristles removes plaque biofilms more thoroughly without causing harm.",
@@ -2651,7 +2885,13 @@
           "3. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career.",
           "4. Discuss what you learned with your counselor and whether you might be interested in this career."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All personnel working inside a dental office complete identical four-year graduate dental programs.",

@@ -37,7 +37,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1a Structured Technical Study & Explanation Matrix (Composite Materials Hazards and First Aid)",
+            "table_title": "Req 1a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -56,7 +56,13 @@
               "1. Explain to your counselor the most likely hazards you may encounter while working with composite materials and what you should do to anticipate, mitigate, prevent, and respond to these hazards",
               "2. Describe the appropriate safety gear and clothing that should be used when working with composite materials"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p003_img1.png",
           "workbook_diagram_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
-          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1."
+          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
+          "socratic_questions": [
+            "For composite materials Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -114,7 +123,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Precautions That Must Be Taken)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -133,7 +142,13 @@
               "1. Explain the precautions that must be taken when handling, storing, and disposing of resins, reinforcements, and other materials used in composites",
               "2. Include in your discussion the importance of health, safety, and environmental responsibility and awareness"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
@@ -171,7 +186,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p003_img1.png",
           "workbook_diagram_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
-          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1."
+          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
+          "socratic_questions": [
+            "For composite materials Requirement 1b (Explain the precautions that must be taken when handling, storing, and disposing of resins,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1c",
@@ -187,7 +205,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1c Structured Technical Study & Explanation Matrix (Safety Data Sheet SDS)",
+            "table_title": "Req 1c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -199,12 +217,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe what a safety data sheet (SDS) is and tell why it is used"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe what a safety data sheet (SDS) is and tell why it is used"
+              "1. Req 1c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 1c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 1c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)",
           "common_misconception_pair": {
@@ -242,7 +270,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p003_img1.png",
           "workbook_diagram_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
-          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1."
+          "workbook_visual_caption": "Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.",
+          "socratic_questions": [
+            "For composite materials Requirement 1c (Describe what a safety data sheet (SDS) is and tell why it is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -276,7 +307,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 1: Composite Fabrication Hazard Management",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Work exclusively in cross-ventilated spaces with an operational eyewash station and an ABC dry chemical extinguisher.",
@@ -285,7 +316,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 1 Structured Technical Study & Explanation Matrix (Composite Materials Hazards and First Aid)",
+        "table_title": "Req 1 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 1 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -306,7 +337,13 @@
           "2. (1b) Precautions That Must Be Taken",
           "3. (1c) Safety Data Sheet SDS"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 1 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Resin mixtures cure strictly through room air drying rather than an internal exothermic chemical reaction.",
@@ -478,7 +515,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 2a Structured Technical Study & Explanation Matrix (Composite Materials Origins and Evolution)",
+            "table_title": "Req 2a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 2a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -491,13 +528,19 @@
             ],
             "row_labels": [
               "1. Explain what composite materials",
-              "2. Include a brief history of composites and how they have developed"
+              "2. Include a brief history of composites and how they"
             ],
             "rows": [
               "1. Explain what composite materials",
-              "2. Include a brief history of composites and how they have developed"
+              "2. Include a brief history of composites and how they"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 2a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)",
           "common_misconception_pair": {
@@ -535,7 +578,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p007_img1.png",
           "workbook_diagram_caption": "Early military aircraft utilized fiberglass and composite bonding techniques.",
-          "workbook_visual_caption": "Early military aircraft utilized fiberglass and composite bonding techniques."
+          "workbook_visual_caption": "Early military aircraft utilized fiberglass and composite bonding techniques.",
+          "socratic_questions": [
+            "For composite materials Requirement 2a (Explain what composite materials are. Include a brief history of composites and how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "2b",
@@ -551,7 +597,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 2b Technical Comparison Matrix (Similarities and Differences Between Composites)",
+            "table_title": "Req 2b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Engineered Fiber-Reinforced Composite Materials",
@@ -572,7 +618,13 @@
               "2. Describe the physical, electrical, mechanical, corrosive, flammability, cost, and other such properties.",
               "3. For each of these raw materials, give one example of how it can be shaped and used for a specific application."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Engineered Fiber-Reinforced Composite Materials",
+              "Traditional Metals and Natural Wood"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)",
           "common_misconception_pair": {
@@ -610,7 +662,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p016_img1.png",
           "workbook_diagram_caption": "Early military aircraft utilized fiberglass and composite bonding techniques.",
-          "workbook_visual_caption": "Early military aircraft utilized fiberglass and composite bonding techniques."
+          "workbook_visual_caption": "Early military aircraft utilized fiberglass and composite bonding techniques.",
+          "socratic_questions": [
+            "For composite materials Requirement 2b (Compare the similarities and differences between composites and wood, aluminum, copper, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -636,7 +691,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 2: Composite Structure Material Foundations",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Never machine composite panels using high-speed steel bits without active local exhaust ventilation equipment.",
@@ -645,7 +700,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 2 Technical Comparison Matrix (Composite Materials Origins and Evolution)",
+        "table_title": "Req 2 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Engineered Fiber-Reinforced Composite Materials",
@@ -664,7 +719,13 @@
           "1. (2a) Composite Materials Origins and Evolution",
           "2. (2b) Similarities and Differences Between Composites"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Engineered Fiber-Reinforced Composite Materials",
+          "Traditional Metals and Natural Wood"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Composite materials were first invented during the space program of the nineteen sixties.",
@@ -832,7 +893,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3a Structured Technical Study & Explanation Matrix (Discuss Three Different Composite Reinforcement)",
+            "table_title": "Req 3a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -851,7 +912,13 @@
               "1. Discuss three different composite reinforcement materials, their positive and negative characteristics, and their uses.",
               "2. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
@@ -889,7 +956,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p012_img1.png",
           "workbook_diagram_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
-          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication."
+          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
+          "socratic_questions": [
+            "For composite materials Requirement 3a (Discuss three different composite reinforcement materials, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3b",
@@ -905,7 +975,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3b Structured Technical Study & Explanation Matrix (Discuss Three Different Resins)",
+            "table_title": "Req 3b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -926,7 +996,13 @@
               "2. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials.",
               "3. Include thermoset resins and thermoplastic resins in your discussion."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
@@ -964,7 +1040,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p032_img1.png",
           "workbook_diagram_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
-          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication."
+          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
+          "socratic_questions": [
+            "For composite materials Requirement 3b (Discuss three different resins used in composites, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "3c",
@@ -975,7 +1054,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 3c Structured Technical Study & Explanation Matrix (Resins You Chose for Requirement)",
+            "table_title": "Req 3c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 3c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -987,12 +1066,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. For each of the three resins you chose for requirement 3(b), think of a new application that might be worth developing"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. For each of the three resins you chose for requirement 3(b), think of a new application that might be worth developing"
+              "1. Req 3c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 3c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 3c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 3c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)",
           "common_misconception_pair": {
@@ -1030,7 +1119,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p032_img1.png",
           "workbook_diagram_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
-          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication."
+          "workbook_visual_caption": "A technician sprays resin into a large mold during composite boat hull fabrication.",
+          "socratic_questions": [
+            "For composite materials Requirement 3c (For each of the three resins you chose for requirement 3(b), think of a new application), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1065,7 +1157,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Composite Materials Are Made Then)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1086,7 +1178,13 @@
           "2. (3b) Discuss Three Different Resins",
           "3. (3c) Resins You Chose for Requirement"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "All composite reinforcement fabrics possess identical tensile strength, stiffness, and electrical conductivity profiles.",
@@ -1244,7 +1342,7 @@
           "syllabus_bucket": "Pre-Class Prerequisite",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Company That Manufactures or Repairs)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1263,7 +1361,12 @@
               "1. Visit a company that manufactures or repairs products made with composites.",
               "2. Discuss what you learned with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)",
           "common_misconception_pair": {
@@ -1301,7 +1404,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p041_img1.png",
           "workbook_diagram_caption": "Workers in protective coveralls handle structural composite materials in a plant.",
-          "workbook_visual_caption": "Workers in protective coveralls handle structural composite materials in a plant."
+          "workbook_visual_caption": "Workers in protective coveralls handle structural composite materials in a plant.",
+          "socratic_questions": [
+            "For composite materials Requirement 4a (Visit a company that manufactures or repairs products made with composites. Discuss what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -1312,7 +1418,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Composites-related Websites Share and Discuss)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1331,7 +1437,13 @@
               "1. Find three composites-related websites.",
               "2. Share and discuss what you learned with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)",
           "common_misconception_pair": {
@@ -1369,7 +1481,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p041_img1.png",
           "workbook_diagram_caption": "Workers in protective coveralls handle structural composite materials in a plant.",
-          "workbook_visual_caption": "Workers in protective coveralls handle structural composite materials in a plant."
+          "workbook_visual_caption": "Workers in protective coveralls handle structural composite materials in a plant.",
+          "socratic_questions": [
+            "For composite materials Requirement 4b (Find three composites-related websites. Share and discuss what you learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [],
@@ -1391,7 +1506,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Company That Manufactures or Repairs)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1410,7 +1525,12 @@
           "1. (4a) Visit a company that manufactures or repairs products made with composites",
           "2. (4b) Find three composites-related websites"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Composite components are exclusively manufactured by hand brushing liquid resin into open female molds.",
@@ -1578,7 +1698,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Composite Materials to Complete Two)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1597,19 +1717,20 @@
               "1. Use composite materials to complete two projects, at least one of which must come from the Composite Materials merit badge pamphlet.",
               "2. The second project may come from the pamphlet OR may be one you select on your own that has been approved by your counselor in advance."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
             "misconception": "Thicker resin layers without cloth reinforcement make composite parts stronger and much more resilient.",
             "fact": "Vacuum bagging compacts wet laminates under fourteen pounds per square inch of uniform atmospheric pressure."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Composite Materials Req 5a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Composite Materials Merit Badge Hub (Req 5a)",
@@ -1640,7 +1761,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p058_img1.png",
           "workbook_diagram_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
-          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric."
+          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
+          "socratic_questions": [
+            "For composite materials Requirement 5a (Use composite materials to complete two projects, at least one of which must come from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1651,7 +1775,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Assistance Find An Appropriate Site)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1663,24 +1787,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your counselor's assistance, find an appropriate site where the projects can be safely completed under your counselor's supervision and/or the supervision"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your counselor's assistance, find an appropriate site where the projects can be safely completed under your counselor's supervision and/or the supervision"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
             "misconception": "Composite wet layups can be safely executed inside home kitchens or unventilated basements.",
             "fact": "Epoxy resins require ambient temperatures above sixty-five degrees Fahrenheit to achieve full chemical polymer cross-linking."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Composite Materials Req 5b preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Composite Materials Merit Badge Hub (Req 5b)",
@@ -1711,7 +1840,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p058_img1.png",
           "workbook_diagram_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
-          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric."
+          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
+          "socratic_questions": [
+            "For composite materials Requirement 5b (With your counselor's assistance, find an appropriate site where the projects can be safely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1722,7 +1854,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5c Structured Technical Study & Explanation Matrix (Finished Projects Will Be Evaluated)",
+            "table_title": "Req 5c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1741,7 +1873,13 @@
               "1. With your counselor, determine how the finished projects will be evaluated.",
               "2. Using those guidelines, evaluate the completed projects with your counselor."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)",
           "common_misconception_pair": {
@@ -1779,7 +1917,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p058_img1.png",
           "workbook_diagram_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
-          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric."
+          "workbook_visual_caption": "A plastic spreader and stir stick help apply liquid resin evenly over fabric.",
+          "socratic_questions": [
+            "For composite materials Requirement 5c (With your counselor, determine how the finished projects will be evaluated. Using those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1805,7 +1946,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 5: Project Fabrication and Quality Evaluation",
-      "action_verb": "Demonstrate",
+      "action_verb": "Discuss",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "Cure all mixed resin mixing cups on fireproof concrete surfaces away from combustible shop rags.",
@@ -1814,7 +1955,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 5 Structured Technical Study & Explanation Matrix (Composite Materials to Complete Two)",
+        "table_title": "Req 5 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 5 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1835,18 +1976,19 @@
           "2. (5b) Assistance Find An Appropriate Site",
           "3. (5c) Finished Projects Will Be Evaluated"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 5 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Adding extra hardener to liquid epoxy speeds up the curing cycle without weakening final laminate strength.",
         "fact": "Insufficient wax or polyvinyl alcohol mold release agent results in permanent mechanical bonding between part and mold."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Composite Materials Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Composite Materials Merit Badge Hub (Req 5)",
@@ -2039,19 +2181,20 @@
               "3. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview",
               "4. Discuss with your counselor both your findings and what about this profession might make it an interesting career"
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Career Research Dimension",
+              "Pamphlet & Industry Findings",
+              "Professional Interview / Source Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
           "common_misconception_pair": {
             "misconception": "Composite engineering positions require no formal post-secondary mathematics, physics, or chemistry university coursework.",
             "fact": "Aerospace composite tooling engineers often hold degrees in mechanical engineering or specialized materials science."
           },
-          "starting_requirement_gate": {
-            "gate_type": "PARENT_CONSENT_GATE",
-            "gate_label": "Parent/Guardian Consent & Review",
-            "gate_description": "Review and complete Composite Materials Req 6a with your parent or guardian's approval in compliance with BSA Youth Protection.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Composite Materials Merit Badge Hub (Req 6a)",
@@ -2082,12 +2225,15 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p072_img1.png",
           "workbook_diagram_caption": "SpaceShip One displays advanced carbon composite engineering in aerospace craft.",
-          "workbook_visual_caption": "SpaceShip One displays advanced carbon composite engineering in aerospace craft."
+          "workbook_visual_caption": "SpaceShip One displays advanced carbon composite engineering in aerospace craft.",
+          "socratic_questions": [
+            "For composite materials Requirement 6a (Explore careers related to the Composite Materials merit badge. Research one career to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
           "label": "(b)",
-          "text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "resources": [
             {
               "title": "Surfboard Shaping and Glassing (video)",
@@ -2102,7 +2248,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 6b Structured Technical Study & Explanation Matrix (You Could Use Knowledge and)",
+            "table_title": "Req 6b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 6b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2116,14 +2262,20 @@
             "row_labels": [
               "1. Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
             "rows": [
               "1. Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest.",
               "2. Research any training needed, expenses, and organizations that promote or support it.",
-              "3. Discuss with your counselor what short-term and long-term goals you might have if you pursued."
+              "3. Discuss with your counselor what short-term and long-term goals"
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 6b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)",
           "common_misconception_pair": {
@@ -2153,7 +2305,7 @@
           ],
           "id": "6b",
           "sub_req_label": "6b",
-          "sub_req_text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued.",
+          "sub_req_text": "Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.",
           "topic_title": "Req 6b: Recreational Composite Crafting Applications",
           "pamphlet_summary": "Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits.",
           "pamphlet_excerpts": [
@@ -2162,7 +2314,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/composite_materials_p072_img1.png",
           "title": "Req 6b: Composite Hobbies and Healthy Living",
           "workbook_diagram_caption": "Space Ship One displays advanced carbon composite engineering in aerospace craft.",
-          "workbook_visual_caption": "Space Ship One displays advanced carbon composite engineering in aerospace craft."
+          "workbook_visual_caption": "Space Ship One displays advanced carbon composite engineering in aerospace craft.",
+          "socratic_questions": [
+            "For composite materials Requirement 6b (Explore how you could use knowledge and skills from the Composite Materials merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2228,7 +2383,12 @@
           "3. Daily Responsibilities, Tools & Working Conditions",
           "4. Salary Range, Advancement Outlook & Personal Fit"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "columns": [
+          "Career Research Dimension",
+          "Pamphlet & Industry Findings",
+          "Professional Interview / Source Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Careers in composite materials are restricted entirely to entry-level manual factory layup technicians.",

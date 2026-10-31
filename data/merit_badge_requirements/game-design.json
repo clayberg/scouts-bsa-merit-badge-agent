@@ -33,7 +33,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 1a Technical Comparison Matrix (Games You Have Played)",
+            "table_title": "Req 1a Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Novelty and Fantasy Play Value",
@@ -56,7 +56,13 @@
               "3. Discuss with your counselor the play experience, what you enjoy in each game, and what you dislike.",
               "4. Make a chart to compare and contrast the games."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Novelty and Fantasy Play Value",
+              "Challenge and Threat Play Value"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)",
           "common_misconception_pair": {
@@ -94,7 +100,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p003_img1.png",
           "workbook_diagram_caption": "Friends gather around arcade racing machines to play interactive games.",
-          "workbook_visual_caption": "Friends gather around arcade racing machines to play interactive games."
+          "workbook_visual_caption": "Friends gather around arcade racing machines to play interactive games.",
+          "socratic_questions": [
+            "For game design Requirement 1a (Analyze four games you have played, each from a different medium. Identify the medium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "1b",
@@ -114,7 +123,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 1b Structured Technical Study & Explanation Matrix (Value and Provide)",
+            "table_title": "Req 1b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 1b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -133,7 +142,13 @@
               "1. Describe four types of play value and provide an example of a game built around each concept.",
               "2. Discuss with your counselor other reasons people play games."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 1b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)",
           "common_misconception_pair": {
@@ -171,7 +186,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p042_img1.png",
           "workbook_diagram_caption": "Friends gather around arcade racing machines to play interactive games.",
-          "workbook_visual_caption": "Friends gather around arcade racing machines to play interactive games."
+          "workbook_visual_caption": "Friends gather around arcade racing machines to play interactive games.",
+          "socratic_questions": [
+            "For game design Requirement 1b (Describe four types of play value and provide an example of a game built around each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -206,7 +224,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 1 Technical Comparison Matrix (Games You Have Played)",
+        "table_title": "Req 1 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Novelty and Fantasy Play Value",
@@ -225,7 +243,13 @@
           "1. (1a) Games You Have Played",
           "2. (1b) Value and Provide"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Novelty and Fantasy Play Value",
+          "Challenge and Threat Play Value"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Beginners often believe digital video games share identical operational design fundamentals with physical board games.",
@@ -406,7 +430,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 2 Structured Technical Study & Explanation Matrix (Discuss Game Relates Specific)",
+        "table_title": "Req 2 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 2 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -425,7 +449,13 @@
           "1. Discuss with your counselor FIVE of the following 17 game design terms",
           "2. For each term that you pick, describe how it relates to a specific game: story, setting, characters, play sequence, level design, interface design, difficulty"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 2 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A game difficulty setting is simply a mathematical adjustment to enemy health or damage values.",
@@ -614,7 +644,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 3 Structured Technical Study & Explanation Matrix (Intellectual Property)",
+        "table_title": "Req 3 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 3 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -637,7 +667,13 @@
           "3. Describe how intellectual property is protected and why protection is necessary.",
           "4. Define and give an example of a licensed property."
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 3 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Game developers can copyright abstract rule mechanics like roll-and-move or worker-placement.",
@@ -804,7 +840,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4a Structured Technical Study & Explanation Matrix (Game Where the Players Can)",
+            "table_title": "Req 4a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -823,7 +859,13 @@
               "1. Pick a game where the players can change the rules or objectives (examples: basketball, hearts, chess, kick ball).",
               "2. Briefly summarize the standard rules and objectives and play through the game normally."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
           "common_misconception_pair": {
@@ -862,7 +904,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p017_img1.png",
           "title": "Req 4a: Baseline Rules and Standard Play",
           "workbook_diagram_caption": "Two players manipulate game pieces while playing a table top board game.",
-          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game."
+          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game.",
+          "socratic_questions": [
+            "For game design Requirement 4a (Pick a game where the players can change the rules or objectives (examples: basketball,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4b",
@@ -878,7 +923,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4b Structured Technical Study & Explanation Matrix (Propose Changes to Several)",
+            "table_title": "Req 4b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -897,7 +942,13 @@
               "1. Propose changes to several rules or objectives.",
               "2. Predict how each change will affect game play."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
           "common_misconception_pair": {
@@ -935,7 +986,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p017_img1.png",
           "workbook_diagram_caption": "Two players manipulate game pieces while playing a table top board game.",
-          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game."
+          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game.",
+          "socratic_questions": [
+            "For game design Requirement 4b (Propose changes to several rules or objectives. Predict how each change will affect gameplay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4c",
@@ -955,7 +1009,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4c Structured Technical Study & Explanation Matrix (Game with One Rule or)",
+            "table_title": "Req 4c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -974,7 +1028,13 @@
               "1. Play the game with one rule or objective change, observing how the players' actions and emotional experiences are affected by the rule change",
               "2. Repeat this process with two other changes"
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
           "common_misconception_pair": {
@@ -1013,7 +1073,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p017_img1.png",
           "title": "Req 4c: Playtesting Modified Game Rules",
           "workbook_diagram_caption": "Two players manipulate game pieces while playing a table top board game.",
-          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game."
+          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game.",
+          "socratic_questions": [
+            "For game design Requirement 4c (Play the game with one rule or objective change, observing how the players' actions and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "4d",
@@ -1024,7 +1087,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 4d Structured Technical Study & Explanation Matrix (Changes Affected the Actions and)",
+            "table_title": "Req 4d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 4d Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1043,7 +1106,13 @@
               "1. Explain to your counselor how the changes affected the actions and experience of the players.",
               "2. Discuss the accuracy of your predictions."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 4d Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)",
           "common_misconception_pair": {
@@ -1082,7 +1151,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p017_img1.png",
           "title": "Req 4d: Analyzing Player Behavior and Outcomes",
           "workbook_diagram_caption": "Two players manipulate game pieces while playing a table top board game.",
-          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game."
+          "workbook_visual_caption": "Two players manipulate game pieces while playing a table top board game.",
+          "socratic_questions": [
+            "For game design Requirement 4d (Explain to your counselor how the changes affected the actions and experience of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1112,7 +1184,7 @@
         "ttl_days": 90
       },
       "topic_title": "Req 4: Rule Modification and Gameplay Testing",
-      "action_verb": "Demonstrate",
+      "action_verb": "Explain",
       "execution_mode": "IN_CLASS_DISCUSSION",
       "edge_phase": "Explain & Guide",
       "safety_callout": "",
@@ -1121,7 +1193,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 4 Structured Technical Study & Explanation Matrix (Game Where the Players Can)",
+        "table_title": "Req 4 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 4 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -1144,7 +1216,13 @@
           "3. (4c) Playtesting Modified Game Rules",
           "4. (4d) Explain to your counselor how the changes affected the actions and experience of the players"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Req 4 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Doubling resource generation or speed always makes a game twice as exciting for participants.",
@@ -1311,7 +1389,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5a Structured Technical Study & Explanation Matrix (Vision Statement for Your Game)",
+            "table_title": "Req 5a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1332,7 +1410,13 @@
               "2. Identify the medium, player format, objectives, and theme of the game.",
               "3. If suitable, describe the setting, story, and characters."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -1370,7 +1454,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p016_img1.png",
           "workbook_diagram_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
-          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit."
+          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
+          "socratic_questions": [
+            "For game design Requirement 5a (Write a vision statement for your game. Identify the medium, player format, objectives, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5b",
@@ -1381,7 +1468,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 5b Structured Technical Study & Explanation Matrix (Reason That Someone Would Want)",
+            "table_title": "Req 5b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 5b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -1393,12 +1480,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Describe the reason that someone would want to play your game"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Describe the reason that someone would want to play your game"
+              "1. Req 5b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 5b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -1436,7 +1533,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p016_img1.png",
           "workbook_diagram_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
-          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit."
+          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
+          "socratic_questions": [
+            "For game design Requirement 5b (Describe the reason that someone would want to play your game), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5c",
@@ -1452,7 +1552,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist (Preliminary Game Resources)",
+            "table_title": "Req 5c Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1471,7 +1571,13 @@
               "1. Make a preliminary list of the rules of the game.",
               "2. Define the resources."
             ],
-            "min_rows": 2
+            "min_rows": 2,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -1509,7 +1615,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p016_img1.png",
           "workbook_diagram_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
-          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit."
+          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
+          "socratic_questions": [
+            "For game design Requirement 5c (Make a preliminary list of the rules of the game. Define the resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "5d",
@@ -1525,7 +1634,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-            "table_title": "Req 5d Structured Technical Study & Explanation Matrix (Game Elements)",
+            "table_title": "Req 5d Structured Technical Study & Explanation Matrix",
             "headers": [
               "Sketch / Diagram Element",
               "Required Labels & Dimensions",
@@ -1537,12 +1646,22 @@
               "Field Observations & Counselor Notes"
             ],
             "row_labels": [
-              "1. Draw the game elements"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Draw the game elements"
+              "1. Req 5d Core Concept, Definition & Pamphlet Standard",
+              "2. Req 5d Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 5d Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Sketch / Diagram Element",
+              "Required Labels & Dimensions",
+              "Field Observations & Counselor Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)",
           "common_misconception_pair": {
@@ -1580,7 +1699,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p016_img1.png",
           "workbook_diagram_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
-          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit."
+          "workbook_visual_caption": "Boys participate in an active physical game inside an outdoor earthen pit.",
+          "socratic_questions": [
+            "For game design Requirement 5d (Draw the game elements), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -1623,7 +1745,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "SKETCH_AND_OBSERVATION_CANVAS",
-        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist (New Game Any Game Medium)",
+        "table_title": "Req 5 Hands-On Skill Station & EDGE Verification Checklist",
         "headers": [
           "Sketch / Diagram Element",
           "Required Labels & Dimensions",
@@ -1646,7 +1768,13 @@
           "3. (5c) Preliminary Game Resources",
           "4. (5d) Game Elements"
         ],
-        "min_rows": 4
+        "min_rows": 4,
+        "pre_approval_gate": false,
+        "columns": [
+          "Sketch / Diagram Element",
+          "Required Labels & Dimensions",
+          "Field Observations & Counselor Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "A designer should complete every piece of artwork and lore before writing any rules.",
@@ -1817,7 +1945,7 @@
           "syllabus_bucket": "In-Class Demonstration",
           "workbook_organizer": {
             "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
-            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist (Prototype Your Game)",
+            "table_title": "Req 6a Hands-On Skill Station & EDGE Verification Checklist",
             "headers": [
               "Skill Station Step",
               "Required Technique & Safety Standard",
@@ -1838,7 +1966,13 @@
               "2. If applicable, demonstrate to your counselor that you have addressed player safety through the rules and equipment.",
               "3. Record your work in your game design notebook."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Skill Station Step",
+              "Required Technique & Safety Standard",
+              "Buddy / Counselor Sign-Off Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)",
           "common_misconception_pair": {
@@ -1876,7 +2010,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p069_img1.png",
           "workbook_diagram_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
-          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool."
+          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
+          "socratic_questions": [
+            "For game design Requirement 6a (Prototype your game from requirement 5. If applicable, demonstrate to your counselor that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6b",
@@ -1892,7 +2029,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "COMPARE_CONTRAST_2COL",
-            "table_title": "Req 6b Technical Comparison Matrix (Prototype with As Many Other)",
+            "table_title": "Req 6b Technical Comparison Matrix",
             "headers": [
               "Comparison Dimension",
               "Early Functional Prototype Components",
@@ -1915,7 +2052,13 @@
               "3. Correct unclear rules, holes in the rules, dead ends, and obvious rule exploits.",
               "4. Change at least one rule, mechanic, or objective from your first version of the game, and describe why you are making the change."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Comparison Dimension",
+              "Early Functional Prototype Components",
+              "Iterative Playtest Feedback Loops"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)",
           "common_misconception_pair": {
@@ -1954,7 +2097,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p069_img1.png",
           "title": "Req 6b: Initial Playtesting and Designer Observation",
           "workbook_diagram_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
-          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool."
+          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
+          "socratic_questions": [
+            "For game design Requirement 6b (Test your prototype with as many other people as you need to meet the player format.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "6c",
@@ -1965,7 +2111,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 6c Quantitative Field Observation & Activity Log (Repeat 6(b at Least Two)",
+            "table_title": "Req 6c Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -1979,12 +2125,23 @@
               "Analysis & Verification"
             ],
             "row_labels": [
-              "1. Repeat 6(b) at least two more times and record the results in your game design notebook"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Repeat 6(b) at least two more times and record the results in your game design notebook"
+              "1. Req 6c Core Concept, Definition & Pamphlet Standard",
+              "2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 6c Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)",
           "common_misconception_pair": {
@@ -2023,7 +2180,10 @@
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p069_img1.png",
           "title": "Req 6c: Iterative Rule Revisions and Retesting",
           "workbook_diagram_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
-          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool."
+          "workbook_visual_caption": "A handmade cardboard spinner wheel illustrates a rapid game prototype tool.",
+          "socratic_questions": [
+            "For game design Requirement 6c (Repeat 6(b) at least two more times and record the results in your game design notebook), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2058,7 +2218,7 @@
       "syllabus_bucket": "In-Class Demonstration",
       "workbook_organizer": {
         "organizer_type": "COMPARE_CONTRAST_2COL",
-        "table_title": "Req 6 Technical Comparison Matrix (Note You)",
+        "table_title": "Req 6 Technical Comparison Matrix",
         "headers": [
           "Comparison Dimension",
           "Early Functional Prototype Components",
@@ -2079,18 +2239,19 @@
           "2. (6b) Test your prototype with as many other people as you need to meet the player format",
           "3. (6c) Repeat 6(b) at least two more times and record the results in your game design notebook"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Comparison Dimension",
+          "Early Functional Prototype Components",
+          "Iterative Playtest Feedback Loops"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Playtesting is primarily an opportunity for the designer to show friends a finished game.",
         "fact": "Playtesting is a rigorous troubleshooting process designed to break the game and reveal hidden mechanical flaws."
       },
-      "starting_requirement_gate": {
-        "gate_type": "COUNSELOR_PRE_APPROVAL",
-        "gate_label": "Counselor Pre-Approval Required",
-        "gate_description": "Review your Game Design Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-        "blocking_in_class": false
-      },
+      "starting_requirement_gate": null,
       "curated_resources": [
         {
           "title": "Official Scouting America Game Design Merit Badge Hub (Req 6)",
@@ -2251,7 +2412,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7a Structured Technical Study & Explanation Matrix (Instruction Sheet That Includes)",
+            "table_title": "Req 7a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2272,7 +2433,13 @@
               "2. Clearly describe how to set up the game, play the game, and end the game.",
               "3. List the game objectives."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -2310,7 +2477,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p082_img1.png",
           "workbook_diagram_caption": "Two boys arm wrestle, representing competitive conflict between players.",
-          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players."
+          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players.",
+          "socratic_questions": [
+            "For game design Requirement 7a (Write an instruction sheet that includes all of the information needed to play the game.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7b",
@@ -2321,7 +2491,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "TIME_SERIES_LOG_TABLE",
-            "table_title": "Req 7b Quantitative Field Observation & Activity Log (Prototype Players Played Witnessed)",
+            "table_title": "Req 7b Quantitative Field Observation & Activity Log",
             "headers": [
               "Log Entry / Milestone",
               "Date, Location & Conditions",
@@ -2346,7 +2516,14 @@
               "3. Watch them play the game, but do not provide them with instruction.",
               "4. Record their feedback in your game design notebook."
             ],
-            "min_rows": 4
+            "min_rows": 4,
+            "pre_approval_gate": false,
+            "columns": [
+              "Log Entry / Milestone",
+              "Date, Location & Conditions",
+              "Recorded Measurements & Quantitative Data",
+              "Analysis & Verification"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -2384,7 +2561,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p082_img1.png",
           "workbook_diagram_caption": "Two boys arm wrestle, representing competitive conflict between players.",
-          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players."
+          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players.",
+          "socratic_questions": [
+            "For game design Requirement 7b (Share your prototype from requirement 6 with a group of players that has not played it or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "7c",
@@ -2395,7 +2575,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 7c Structured Technical Study & Explanation Matrix (Game Design Notebook)",
+            "table_title": "Req 7c Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 7c Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2416,7 +2596,13 @@
               "2. Discuss the player reactions to your project and what you learned about the game design process.",
               "3. Based on your testing, determine what you like most about your game and suggest one or more changes."
             ],
-            "min_rows": 3
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 7c Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)",
           "common_misconception_pair": {
@@ -2454,7 +2640,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p082_img1.png",
           "workbook_diagram_caption": "Two boys arm wrestle, representing competitive conflict between players.",
-          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players."
+          "workbook_visual_caption": "Two boys arm wrestle, representing competitive conflict between players.",
+          "socratic_questions": [
+            "For game design Requirement 7c (Share your game design notebook with your counselor. Discuss the player reactions to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2481,7 +2670,7 @@
       "syllabus_bucket": "In-Class Concept",
       "workbook_organizer": {
         "organizer_type": "TIME_SERIES_LOG_TABLE",
-        "table_title": "Req 7 Quantitative Field Observation & Activity Log (Blind Test Your Game)",
+        "table_title": "Req 7 Quantitative Field Observation & Activity Log",
         "headers": [
           "Log Entry / Milestone",
           "Date, Location & Conditions",
@@ -2504,7 +2693,14 @@
           "2. (7b) Prototype Players Played Witnessed",
           "3. (7c) Game Design Notebook"
         ],
-        "min_rows": 3
+        "min_rows": 3,
+        "pre_approval_gate": false,
+        "columns": [
+          "Log Entry / Milestone",
+          "Date, Location & Conditions",
+          "Recorded Measurements & Quantitative Data",
+          "Analysis & Verification"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "If blind playtesters make a major rule mistake, the players were simply careless readers.",
@@ -2671,7 +2867,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8a Structured Technical Study & Explanation Matrix (Game Design Careers and Pathways)",
+            "table_title": "Req 8a Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8a Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2683,24 +2879,29 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. With your parent or guardian's permission and your counselor's approval, visit with a professional in the game development industry and ask them about their job and how it fits into the overall development process"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. With your parent or guardian's permission and your counselor's approval, visit with a professional in the game development industry and ask them about their job and how it fits into the overall development process"
+              "1. Req 8a Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8a Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8a Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8a Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)",
           "common_misconception_pair": {
             "misconception": "Game developers spend the majority of their workdays casually playing new video games.",
             "fact": "Professional developers spend their time writing code, debugging engine crashes, attending meetings, and balancing spreadsheets."
           },
-          "starting_requirement_gate": {
-            "gate_type": "COUNSELOR_PRE_APPROVAL",
-            "gate_label": "Counselor Pre-Approval Required",
-            "gate_description": "Review your Game Design Req 8a preparation with your Merit Badge Counselor before moving to subsequent tasks.",
-            "blocking_in_class": false
-          },
+          "starting_requirement_gate": null,
           "curated_resources": [
             {
               "title": "Official Scouting America Game Design Merit Badge Hub (Req 8a)",
@@ -2731,7 +2932,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p021_img1.png",
           "workbook_diagram_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game.",
-          "workbook_visual_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game."
+          "workbook_visual_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game.",
+          "socratic_questions": [
+            "For game design Requirement 8a (With your parent or guardian's permission and your counselor's approval, visit with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         },
         {
           "sub_id": "8b",
@@ -2747,7 +2951,7 @@
           "syllabus_bucket": "In-Class Concept",
           "workbook_organizer": {
             "organizer_type": "RULED_EXPLAIN_BOX",
-            "table_title": "Req 8b Structured Technical Study & Explanation Matrix (Game Design Careers and Pathways)",
+            "table_title": "Req 8b Structured Technical Study & Explanation Matrix",
             "headers": [
               "Req 8b Study Prompt",
               "Key Pamphlet Facts & Definitions",
@@ -2759,12 +2963,22 @@
               "Field Example & Counselor Conference Notes"
             ],
             "row_labels": [
-              "1. Meet with a professional in game development education and discuss the skills they emphasize in the classroom"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
             "rows": [
-              "1. Meet with a professional in game development education and discuss the skills they emphasize in the classroom"
+              "1. Req 8b Core Concept, Definition & Pamphlet Standard",
+              "2. Req 8b Step-by-Step Procedure, Safety & Equipment Criteria",
+              "3. Req 8b Practical Example & Counselor Conference Verification"
             ],
-            "min_rows": 1
+            "min_rows": 3,
+            "pre_approval_gate": false,
+            "columns": [
+              "Req 8b Study Prompt",
+              "Key Pamphlet Facts & Definitions",
+              "Field Example & Counselor Conference Notes"
+            ]
           },
           "pamphlet_page_citation": "Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)",
           "common_misconception_pair": {
@@ -2802,7 +3016,10 @@
           ],
           "workbook_diagram_url": "assets/pamphlet_images/game_design_p021_img1.png",
           "workbook_diagram_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game.",
-          "workbook_visual_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game."
+          "workbook_visual_caption": "A grid floor plan maps rooms and corridors for a table top role-playing game.",
+          "socratic_questions": [
+            "For game design Requirement 8b (Meet with a professional in game development education and discuss the skills they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?"
+          ]
         }
       ],
       "resources": [
@@ -2833,7 +3050,7 @@
       "syllabus_bucket": "Pre-Class Prerequisite",
       "workbook_organizer": {
         "organizer_type": "RULED_EXPLAIN_BOX",
-        "table_title": "Req 8 Structured Technical Study & Explanation Matrix (Game Design Careers and Pathways)",
+        "table_title": "Req 8 Structured Technical Study & Explanation Matrix",
         "headers": [
           "Req 8 Study Prompt",
           "Key Pamphlet Facts & Definitions",
@@ -2852,7 +3069,12 @@
           "1. (8a) Game Design Careers and Pathways",
           "2. (8b) Game Design Careers and Pathways"
         ],
-        "min_rows": 2
+        "min_rows": 2,
+        "columns": [
+          "Req 8 Study Prompt",
+          "Key Pamphlet Facts & Definitions",
+          "Field Example & Counselor Conference Notes"
+        ]
       },
       "common_misconception_pair": {
         "misconception": "Entering the game industry only requires playing a large volume of video games.",
