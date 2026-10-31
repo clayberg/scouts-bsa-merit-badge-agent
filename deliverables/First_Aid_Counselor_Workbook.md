@@ -608,7 +608,7 @@
 - **Common Myth:** Tilting the head back during a nosebleed stops bleeding by sending blood back inward.
 - **Pamphlet Fact:** Pinching the soft nostrils while leaning forward prevents blood from draining into the stomach.
 
-![Scout treating an injured hiker for shock on the trail by raising the legs and wrapping in a thermal blanket.](/assets/pamphlet_images/first_aid_p023_img1.png)
+![Uniformed Scout leader wearing blue nitrile gloves applying firm direct pressure with a sterile gauze pad over a forearm wound beside a stocked trail first-aid.](/assets/pamphlet_images/first_aid_p023_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -712,7 +712,7 @@
 - **Common Myth:** Forcing an asthmatic person to lie flat on their back opens restricted bronchial airways.
 - **Pamphlet Fact:** Assisting a patient with their prescribed albuterol inhaler relaxes constricted bronchial smooth muscles.
 
-![Female black widow spider displaying the characteristic red hourglass marking on the underside of the abdomen for First Aid Requirement 5.](/assets/pamphlet_images/first_aid_p082_img1.png)
+![Female black widow spider displaying the characteristic red hourglass marking on the underside of the abdomen.](/assets/pamphlet_images/first_aid_p082_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |

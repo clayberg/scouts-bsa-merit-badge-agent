@@ -55,7 +55,7 @@
 - **Common Myth:** Scouts who play varsity sports possess complete physical fitness without doing additional conditioning exercises.
 - **Pamphlet Fact:** Physical fitness combines cardiovascular endurance, muscular power, flexibility, and body composition rather than mere sports dominance.
 
-![Technical diagram of holistic health principles and field relationships in Personal Fitness (Requirement 1).](/assets/pamphlet_images/personal_fitness_p003_img1.png)
+![Cutaway visual diagram illustrating holistic health structure and components for Personal Fitness.](/assets/pamphlet_images/personal_fitness_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -154,7 +154,7 @@
 - **Common Myth:** A sports physical examination is identical to a comprehensive annual well child pediatric exam.
 - **Pamphlet Fact:** Preventive physical exams evaluate baseline developmental markers, cardiac function, and immunization status before strenuous programs begin.
 
-![Technical diagram of preventive care principles and field relationships in Personal Fitness (Requirement 2).](/assets/pamphlet_images/personal_fitness_p007_img1.png)
+![Cutaway visual diagram illustrating preventive care structure and components for Personal Fitness.](/assets/pamphlet_images/personal_fitness_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

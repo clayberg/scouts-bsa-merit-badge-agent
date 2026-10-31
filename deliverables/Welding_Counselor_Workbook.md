@@ -49,7 +49,7 @@
 - **Common Myth:** Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.
 - **Pamphlet Fact:** Sparks and molten slag can travel up to thirty-five feet across open shop floors.
 
-![Technical diagram of radiation burn danger principles and field relationships in Welding (Requirement 1).](/assets/pamphlet_images/welding_p003_img1.png)
+![Cutaway visual diagram illustrating radiation burn danger structure and components for Welding.](/assets/pamphlet_images/welding_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - **Common Myth:** Safety Data Sheets are administrative paperwork without relevance to daily shop work.
 - **Pamphlet Fact:** Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes.
 
-![Technical diagram of chemical data reference principles and field relationships in Welding (Requirement 2).](/assets/pamphlet_images/welding_p007_img1.png)
+![Cutaway visual diagram illustrating chemical data reference structure and components for Welding.](/assets/pamphlet_images/welding_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

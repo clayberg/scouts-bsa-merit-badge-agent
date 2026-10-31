@@ -76,7 +76,7 @@
 - **Common Myth:** Indoor showering accounts for almost all seasonal spikes in household water utility bills.
 - **Pamphlet Fact:** Outdoor lawn sprinkler irrigation typically causes the greatest summer water consumption surges.
 
-![Technical diagram of aquifer depletion principles and field relationships in Sustainability (Requirement 2).](/assets/pamphlet_images/sustainability_p007_img1.png)
+![Cutaway visual diagram illustrating aquifer depletion structure and components for Sustainability.](/assets/pamphlet_images/sustainability_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 - **Common Myth:** Open ocean aquaculture fish farming has zero impact on surrounding wild marine populations.
 - **Pamphlet Fact:** Poorly managed fish farms can spread parasites, diseases, and excess concentrated nutrient waste to wild fish.
 
-![Technical diagram of trophic calorie loss principles and field relationships in Sustainability (Requirement 3).](/assets/pamphlet_images/sustainability_p012_img1.png)
+![Cutaway visual diagram illustrating trophic calorie loss structure and components for Sustainability.](/assets/pamphlet_images/sustainability_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

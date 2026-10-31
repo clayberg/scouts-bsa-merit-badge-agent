@@ -1744,7 +1744,9 @@ html, body {
 .m3-construction-frame-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center center;
+  background: #FAF6F0;
   display: block;
   transition: opacity 280ms ease, transform 420ms ease;
 }

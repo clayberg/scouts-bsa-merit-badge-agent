@@ -57,7 +57,7 @@
 - **Common Myth:** Emergency questions only matter once an evacuation order is officially issued.
 - **Pamphlet Fact:** Proactive questioning uncovers critical supply shortages and structural hazards beforehand.
 
-![Technical diagram of mitigation phase principles and field relationships in Emergency Preparedness (Requirement 1).](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
+![Cutaway visual diagram illustrating mitigation phase structure and components for Emergency Preparedness.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -473,7 +473,7 @@
 - **Common Myth:** Sheltering-in-place simply means locking exterior doors and staying inside normally.
 - **Pamphlet Fact:** Chemical sheltering requires sealing vents, windows, and doors with plastic sheeting.
 
-![Technical diagram of shelter protocols principles and field relationships in Emergency Preparedness (Requirement 2).](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
+![Cutaway visual diagram illustrating shelter protocols structure and components for Emergency Preparedness.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -546,7 +546,7 @@
 - **Common Myth:** Smoke alarms remain fully functional as long as the test button beeps.
 - **Pamphlet Fact:** Sensor degradation requires replacing entire smoke detector units every ten years.
 
-![Technical diagram of electrical inspection principles and field relationships in Emergency Preparedness (Requirement 3).](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
+![Cutaway visual diagram illustrating electrical inspection structure and components for Emergency Preparedness.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -54,7 +54,7 @@
 - **Common Myth:** Residential swimming pools do not require perimeter fencing if adult swimmers are present.
 - **Pamphlet Fact:** Four sided physical barrier fencing prevents accidental deep water entry by unattended children.
 
-![Technical diagram of qualified supervision principles and field relationships in Swimming (Requirement 1).](/assets/pamphlet_images/swimming_p003_img1.png)
+![Cutaway visual diagram illustrating qualified supervision structure and components for Swimming.](/assets/pamphlet_images/swimming_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - **Common Myth:** Lifting the head straight forward out of the water improves breathing efficiency.
 - **Pamphlet Fact:** Rotary breathing requires turning the face sideways into the bow wave trough.
 
-![Technical diagram of front crawl rhythm principles and field relationships in Swimming (Requirement 3).](/assets/pamphlet_images/swimming_p012_img1.png)
+![Cutaway visual diagram illustrating front crawl rhythm structure and components for Swimming.](/assets/pamphlet_images/swimming_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

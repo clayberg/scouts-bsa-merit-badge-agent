@@ -52,7 +52,7 @@
 - **Common Myth:** Scouts consider passive background music identical to intentional active audio listening time.
 - **Pamphlet Fact:** The communication log tracks intentional exchanges rather than ambient background environmental sounds.
 
-![Technical diagram of daily interaction tracking principles and field relationships in Communication (Requirement 1).](/assets/pamphlet_images/communication_p003_img1.png)
+![Cutaway visual diagram illustrating daily interaction tracking structure and components for Communication.](/assets/pamphlet_images/communication_p003_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -136,7 +136,7 @@
 - **Common Myth:** A creative personal presentation requires displaying every possession and childhood memory chronologically.
 - **Pamphlet Fact:** Selecting three to five major artifacts creates a focused, memorable personal presentation.
 
-![Technical diagram of visual aid selection principles and field relationships in Communication (Requirement 2).](/assets/pamphlet_images/communication_p007_img1.png)
+![Cutaway visual diagram illustrating visual aid selection structure and components for Communication.](/assets/pamphlet_images/communication_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

@@ -101,7 +101,7 @@
 - **Common Myth:** Countries enter foreign alliances out of pure generosity without assessing their own strategic interests.
 - **Pamphlet Fact:** Sovereign foreign policy aims primarily to protect national security, trade wealth, and political independence.
 
-![Technical diagram of sovereign defense principles and field relationships in Citizenship In The World (Requirement 3).](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
+![Cutaway visual diagram illustrating sovereign defense structure and components for Citizenship In The World.](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

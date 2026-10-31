@@ -48,7 +48,7 @@
 - **Common Myth:** Beginners believe dull knives are safer than sharp knives because dull edges cut less.
 - **Pamphlet Fact:** Dull knives slip off food surfaces under excessive pressure and cause deep puncture wounds.
 
-![Technical diagram of temperature danger zone principles and field relationships in Cooking (Requirement 1).](/assets/pamphlet_images/cooking_p003_img1.png)
+![Cutaway visual diagram illustrating temperature danger zone structure and components for Cooking.](/assets/pamphlet_images/cooking_p003_img1.png)
 
 | Hazard / Risk Factor | How to Anticipate & Spot Early | Preventive Controls & PPE | Acute First-Aid Response |
 | :--- | :--- | :--- | :--- |
@@ -146,7 +146,7 @@
 - **Common Myth:** Beginners assume potato chips count toward the vegetable group on MyPlate.
 - **Pamphlet Fact:** Fried snack chips contain excess sodium and fats, excluding them from vegetable serving counts.
 
-![Technical diagram of plate proportion balance principles and field relationships in Cooking (Requirement 2).](/assets/pamphlet_images/cooking_p007_img1.png)
+![Cutaway visual diagram illustrating plate proportion balance structure and components for Cooking.](/assets/pamphlet_images/cooking_p007_img1.png)
 
 | USDA MyPlate Food Group | Two Examples of Foods in Group | Recommended Daily Servings (Youth) & Nutritional Benefit |
 | :--- | :--- | :--- |
@@ -249,7 +249,7 @@
 - **Common Myth:** Scouts believe boiling and simmering foods occur at the exact same liquid temperature.
 - **Pamphlet Fact:** Boiling occurs at two hundred twelve degrees Fahrenheit, whereas simmering remains between one hundred eighty-five and two hundred.
 
-![Technical diagram of baking heat distribution principles and field relationships in Cooking (Requirement 3).](/assets/pamphlet_images/cooking_p012_img1.png)
+![Cutaway visual diagram illustrating baking heat distribution structure and components for Cooking.](/assets/pamphlet_images/cooking_p012_img1.png)
 
 | Cooking Method | How Heat Transfers & Equipment Used | Temperature Control & Example Camp/Home Dish |
 | :--- | :--- | :--- |

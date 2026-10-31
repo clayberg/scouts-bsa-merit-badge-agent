@@ -100,7 +100,7 @@
 - **Common Myth:** Recreational swimming experience substitutes for formal Swimming merit badge completion records.
 - **Pamphlet Fact:** Swimming merit badge requirements validate survival floating and deep water surface entry skills.
 
-![Technical diagram of prerequisite badge completion principles and field relationships in Lifesaving (Requirement 2).](/assets/pamphlet_images/lifesaving_p007_img1.png)
+![Cutaway visual diagram illustrating prerequisite badge completion structure and components for Lifesaving.](/assets/pamphlet_images/lifesaving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Residential swimming pools present fewer drowning hazards than uncontrolled open water lakes.
 - **Pamphlet Fact:** Drop offs cause sudden immersion panic in nonswimmers who step off underwater ledges.
 
-![Technical diagram of silent distress recognition principles and field relationships in Lifesaving (Requirement 3).](/assets/pamphlet_images/lifesaving_p012_img1.png)
+![Cutaway visual diagram illustrating silent distress recognition structure and components for Lifesaving.](/assets/pamphlet_images/lifesaving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

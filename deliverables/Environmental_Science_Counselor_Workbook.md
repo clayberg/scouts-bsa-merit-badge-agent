@@ -77,7 +77,7 @@
 - **Common Myth:** Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.
 - **Pamphlet Fact:** Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits.
 
-![Technical diagram of abiotic influences principles and field relationships in Environmental Science (Requirement 2).](/assets/pamphlet_images/environmental_science_p007_img1.png)
+![Cutaway visual diagram illustrating abiotic influences structure and components for Environmental Science.](/assets/pamphlet_images/environmental_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 - **Common Myth:** Scouts often think airborne dust particles always fall harmlessly to the ground immediately.
 - **Pamphlet Fact:** Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation.
 
-![Technical diagram of particle dimensions principles and field relationships in Environmental Science (Requirement 3).](/assets/pamphlet_images/environmental_science_p012_img1.png)
+![Cutaway visual diagram illustrating particle dimensions structure and components for Environmental Science.](/assets/pamphlet_images/environmental_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

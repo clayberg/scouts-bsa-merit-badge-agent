@@ -54,7 +54,7 @@
 - **Common Myth:** Weather and climate mean the exact same atmospheric condition over short durations.
 - **Pamphlet Fact:** Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions.
 
-![Technical diagram of watch condition protocols principles and field relationships in Weather (Requirement 2).](/assets/pamphlet_images/weather_p007_img1.png)
+![Cutaway visual diagram illustrating watch condition protocols structure and components for Weather.](/assets/pamphlet_images/weather_p007_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

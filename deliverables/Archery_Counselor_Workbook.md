@@ -49,7 +49,7 @@
 - **Common Myth:** Arrows bounce harmlessly off wooden backstops due to low blunt impact speed.
 - **Pamphlet Fact:** Arrows travel at speeds exceeding one hundred fifty feet per second.
 
-![Technical diagram of projectile energy principles and field relationships in Archery (Requirement 1).](/assets/pamphlet_images/archery_p003_img1.png)
+![Cutaway visual diagram illustrating projectile energy structure and components for Archery.](/assets/pamphlet_images/archery_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Fletching feathers are purely decorative and can face any direction when loaded.
 - **Pamphlet Fact:** The index feather points perpendicular to the bowstring when nocked on traditional recurves.
 
-![Technical diagram of shaft anatomy principles and field relationships in Archery (Requirement 2).](/assets/pamphlet_images/archery_p007_img1.png)
+![Cutaway visual diagram illustrating shaft anatomy structure and components for Archery.](/assets/pamphlet_images/archery_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -268,7 +268,7 @@
 - **Common Myth:** Arm guards exist solely because inexperienced archers hold bows with poor posture.
 - **Pamphlet Fact:** Arm guards prevent loose jacket fabric from deflecting bowstrings during forward acceleration.
 
-![Technical diagram of finger protection principles and field relationships in Archery (Requirement 3).](/assets/pamphlet_images/archery_p012_img1.png)
+![Cutaway visual diagram illustrating finger protection structure and components for Archery.](/assets/pamphlet_images/archery_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

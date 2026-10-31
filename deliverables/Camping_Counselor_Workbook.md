@@ -56,7 +56,7 @@
 - **Common Myth:** Campers assume wild animals only enter campsites if food remains unattended inside cooking kettles.
 - **Pamphlet Fact:** Micro-scents on unwashed clothing or scented lip balm attract bears and rodents into tents.
 
-![Technical diagram of hypothermia prevention principles and field relationships in Camping (Requirement 1).](/assets/pamphlet_images/camping_p003_img1.png)
+![Cutaway visual diagram illustrating hypothermia prevention structure and components for Camping.](/assets/pamphlet_images/camping_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -119,7 +119,7 @@
 - **Common Myth:** Scouts think burying apple cores and food scraps protects wilderness ecosystems from trash accumulation.
 - **Pamphlet Fact:** Organic food scraps attract opportunistic wildlife and take years to decompose in cold climates.
 
-![Technical diagram of durable surface travel principles and field relationships in Camping (Requirement 2).](/assets/pamphlet_images/camping_p007_img1.png)
+![Cutaway visual diagram illustrating durable surface travel structure and components for Camping.](/assets/pamphlet_images/camping_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -147,7 +147,7 @@
 - **Common Myth:** Beginners believe a compass needle always points toward true geographic North Pole coordinates.
 - **Pamphlet Fact:** Magnetic needles align toward Earth's magnetic north pole, which shifts from true geographic north.
 
-![Technical diagram of contour line analysis principles and field relationships in Camping (Requirement 3).](/assets/pamphlet_images/camping_p012_img1.png)
+![Cutaway visual diagram illustrating contour line analysis structure and components for Camping.](/assets/pamphlet_images/camping_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

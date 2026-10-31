@@ -1,8 +1,8 @@
 # Rifle Shooting Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Rifle%20Shooting.pdf  
-**Digital Resource Guide (DRG):** 
+**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/rifle-shooting/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/rifle-shooting/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -13,7 +13,9 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Firearm Safety and Range Stewardship | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Supervised Range Marksmanship Qualification | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2a** | Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2b** | Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping | Identify | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2c** | Muzzleloading Rifle: Black Powder Safety, Loading & Grouping | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Shooting Sports Career Pathways | Identify | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
 ## 2. Pre-Class Prerequisite Checklist ('Bring Proof to Class')
@@ -22,7 +24,9 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Working under the supervision of a certified National Rifle Association (NRA) rifle instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (b) Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (c) Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
+- [ ] **Station Req 2a:** Scout must individually identify mastery of Requirement 2a to the Merit Badge Counselor.
+- [ ] **Station Req 2b:** Scout must individually identify mastery of Requirement 2b to the Merit Badge Counselor.
+- [ ] **Station Req 2c:** Scout must individually discuss mastery of Requirement 2c to the Merit Badge Counselor.
 
 ## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics
 
@@ -44,7 +48,7 @@
 - **Common Myth:** Small caliber rifle bullets lose destructive kinetic energy within a couple hundred yards.
 - **Pamphlet Fact:** A standard rimfire twenty-two caliber bullet can travel more than one mile.
 
-![Muzzle Direction Control diagram illustrating how always point the rifle barrel toward a designated safe direction downrange during handling.](/assets/pamphlet_images/rifle_shooting_p003_img1.png)
+![Technical diagram of muzzle direction control principles and field relationships in Rifle Shooting (Requirement 1).](/assets/pamphlet_images/rifle_shooting_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -230,12 +234,7 @@
 
 **Counselor Verification Standard (Req 1j):** Scout must individually explain Requirement 1j (Discuss with your counselor a list of sources you could contact for information on firearms and their use) to the Counselor.
 
-### Requirement 2 Section: Supervised Range Marksmanship Qualification
-**Parent Directive (2):** Working under the supervision of a certified National Rifle Association (NRA) rifle instructor and a certified range safety officer, at a nationally authorized camp property or at a commercial firearm range (as defined in the Scouting America National Range and Target Activities Manual ), do ONE of the following options: (a) Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (b) Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable. (c) Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
-**Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Section Organizer:** Skill Demonstration Checklist
-> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
-
-### Requirement 2a Section: Cartridge Rifle Marksmanship Option
+### Requirement 2a Section: Modern Cartridge Rifle: Parts, Safe Handling & Marksmanship
 **Parent Directive (2a):** Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following:
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Section Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
@@ -243,6 +242,7 @@
 #### Req 2a(1): Three Main Rifle Component Assemblies
 **Official Requirement 2a(1):** Identify the three main parts of a rifle, and tell how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
 - **Socratic Prompt (Ask Scouts First):** What would happen if you tried to fire a cartridge inside a rifle that lacked a properly bedded stock or a locked action?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Three Main Rifle Component Assemblies: Every rifle consists of the action, barrel, and stock working together as an integrated firearm system. The action loads, fires, and unloads cartridges, the barrel directs the bullet through spiral rifling, and the stock provides support and stability for the shooter (p. 14).
@@ -260,7 +260,7 @@
 | **2. Req 2a(1) Step-by-Step Procedure, Safety & Equipment Criteria** | Step 1 - Bench Equipment Setup: Place the cased rifle on the shooting bench pointing downrange toward targets. | Verify specific field notes / demonstration |
 | **3. Req 2a(1) Practical Example & Counselor Conference Verification** | Step 2 - Position Foundation: Assume a balanced prone position supporting the rifle forearm with bone support. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(1)):** Scout must individually explain Requirement 2a(1) (Identify the three main parts of a rifle, and tell how they function) to the Counselor.
+**Counselor Verification Standard (Req 2a(1)):** Scout must individually identify Requirement 2a(1) (Identify the three main parts of a rifle, and tell how they function) to the Counselor.
 
 #### Req 2a(2): Safe Rifle Handling and Storage Rules
 **Official Requirement 2a(2):** Identify and demonstrate the rules for safely storing and handling a rifle.
@@ -274,10 +274,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(2) Core Concept, Definition & Pamphlet Standard** | Safe Rifle Handling And Storage Rules: Shooters must always keep the muzzle pointed in a safe direction, keep fingers off the trigger until ready to shoot, and keep the action open and unloaded until ready to fire. Rifles should be locked in a secure safe or cabinet with ammunition stored separately in a cool, dry location (p. 18). | Verify specific field notes / demonstration |
-| **2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(2) (Identify and demonstrate the rules for safely storing and handling a rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(2) (Identify and demonstrate the rules for safely storing and handling a rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(2) Practical Example & Counselor Conference Verification** | Safe Rifle Handling And Storage Rules: Shooters must always keep the muzzle pointed in a safe direction, keep fingers off the trigger until ready to shoot, and keep the action open and unloaded until ready to fire. Rifles should be locked in a secure safe or cabinet with ammunition stored separately in a cool, dry location (p. 18). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(2)):** Scout must individually explain Requirement 2a(2) (Identify and demonstrate the rules for safely storing and handling a rifle) to the Counselor.
+**Counselor Verification Standard (Req 2a(2)):** Scout must individually identify Requirement 2a(2) (Identify and demonstrate the rules for safely storing and handling a rifle) to the Counselor.
 
 #### Req 2a(3): Rimfire and Centerfire Cartridge Anatomy
 **Official Requirement 2a(3):** Identify the two types of cartridges, their parts, and how they function.
@@ -291,10 +291,10 @@
 | Req 2a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(3) Core Concept, Definition & Pamphlet Standard** | Rimfire And Centerfire Cartridge Anatomy: Small arms ammunition is divided into rimfire and centerfire cartridges based on primer location. Each cartridge contains a case, primer, propellant, and bullet, with ignition occurring when the firing pin strikes either the soft rim or the central primer cup (p. 24). | Verify specific field notes / demonstration |
-| **2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(3) (Identify the two types of cartridges, their parts, and how they function) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(3) (Identify the two types of cartridges, their parts, and how they function) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(3) Practical Example & Counselor Conference Verification** | Rimfire And Centerfire Cartridge Anatomy: Small arms ammunition is divided into rimfire and centerfire cartridges based on primer location. Each cartridge contains a case, primer, propellant, and bullet, with ignition occurring when the firing pin strikes either the soft rim or the central primer cup (p. 24). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(3)):** Scout must individually explain Requirement 2a(3) (Identify the two types of cartridges, their parts, and how they function) to the Counselor.
+**Counselor Verification Standard (Req 2a(3)):** Scout must individually identify Requirement 2a(3) (Identify the two types of cartridges, their parts, and how they function) to the Counselor.
 
 #### Req 2a(4): Ammunition Malfunction Identification
 **Official Requirement 2a(4):** Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each.
@@ -308,10 +308,10 @@
 | Req 2a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(4) Core Concept, Definition & Pamphlet Standard** | Ammunition Malfunction Identification And Response: A misfire occurs when a primer fails to ignite, a hangfire is a delayed ignition, and a squib fire produces a reduced report that often lodges a bullet in the bore. In any failure to fire, keep the muzzle downrange for at least thirty seconds before opening the action, and inspect the bore for obstructions if a squib fire is suspected (p. 28). | Verify specific field notes / demonstration |
-| **2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(4) (Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow i) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(4) (Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow i) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(4) Practical Example & Counselor Conference Verification** | Ammunition Malfunction Identification And Response: A misfire occurs when a primer fails to ignite, a hangfire is a delayed ignition, and a squib fire produces a reduced report that often lodges a bullet in the bore. In any failure to fire, keep the muzzle downrange for at least thirty seconds before opening the action, and inspect the bore for obstructions if a squib fire is suspected (p. 28). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(4)):** Scout must individually explain Requirement 2a(4) (Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow i) to the Counselor.
+**Counselor Verification Standard (Req 2a(4)):** Scout must individually identify Requirement 2a(4) (Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow i) to the Counselor.
 
 #### Req 2a(5): Five Marksmanship Shooting Fundamentals
 **Official Requirement 2a(5):** Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through.
@@ -325,10 +325,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(5) Core Concept, Definition & Pamphlet Standard** | Accurate shooting requires integrating sight alignment and sight picture, respiratory pause, body stability, a smooth straight back trigger press, and follow-through. Maintaining the hold and sight picture for a moment after ignition prevents flinching and reveals shot placement (p. 34). | Verify specific field notes / demonstration |
-| **2. Req 2a(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(5) (Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigg) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(5) (Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigg) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(5) Practical Example & Counselor Conference Verification** | Accurate shooting requires integrating sight alignment and sight picture, respiratory pause, body stability, a smooth straight back trigger press, and follow-through. Maintaining the hold and sight picture for a moment after ignition prevents flinching and reveals shot placement (p. 34). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(5)):** Scout must individually explain Requirement 2a(5) (Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigg) to the Counselor.
+**Counselor Verification Standard (Req 2a(5)):** Scout must individually identify Requirement 2a(5) (Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigg) to the Counselor.
 
 #### Req 2a(6): Live Fire Range Safety Procedures
 **Official Requirement 2a(6):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands.
@@ -342,10 +342,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(6) Core Concept, Definition & Pamphlet Standard** | Live Fire Range Safety Procedures: Shooters on a live firing line must obey all Range Safety Officer commands immediately and stay behind the firing line until a cease fire is declared. Rifles must remain benched, unloaded, actions open, and clear of human touch whenever people are downrange (p. 42). | Verify specific field notes / demonstration |
-| **2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(6) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including unders) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(6) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including unders) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(6) Practical Example & Counselor Conference Verification** | Live Fire Range Safety Procedures: Shooters on a live firing line must obey all Range Safety Officer commands immediately and stay behind the firing line until a cease fire is declared. Rifles must remain benched, unloaded, actions open, and clear of human touch whenever people are downrange (p. 42). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(6)):** Scout must individually explain Requirement 2a(6) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including unders) to the Counselor.
+**Counselor Verification Standard (Req 2a(6)):** Scout must individually identify Requirement 2a(6) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including unders) to the Counselor.
 
 #### Req 2a(7): Rifle Cleaning Safety and Necessary Equipment
 **Official Requirement 2a(7):** Explain the basic safety rules for cleaning a rifle, and identify the materials needed.
@@ -359,10 +359,10 @@
 | Req 2a(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(7) Core Concept, Definition & Pamphlet Standard** | Rifle Cleaning Safety And Necessary Equipment: Before cleaning, the rifle action must be opened and both chamber and magazine checked to ensure no ammunition is present anywhere in the cleaning area. Standard supplies include a properly sized cleaning rod, bore guide, bronze brush, patches, solvent, light gun oil, and eye protection (p. 48). | Verify specific field notes / demonstration |
-| **2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(7) (Explain the basic safety rules for cleaning a rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(7) (Explain the basic safety rules for cleaning a rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(7) Practical Example & Counselor Conference Verification** | Rifle Cleaning Safety And Necessary Equipment: Before cleaning, the rifle action must be opened and both chamber and magazine checked to ensure no ammunition is present anywhere in the cleaning area. Standard supplies include a properly sized cleaning rod, bore guide, bronze brush, patches, solvent, light gun oil, and eye protection (p. 48). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(7)):** Scout must individually explain Requirement 2a(7) (Explain the basic safety rules for cleaning a rifle, and identify the materials needed) to the Counselor.
+**Counselor Verification Standard (Req 2a(7)):** Scout must individually identify Requirement 2a(7) (Explain the basic safety rules for cleaning a rifle, and identify the materials needed) to the Counselor.
 
 #### Req 2a(8): Proper Rifle Cleaning Procedure Demonstration
 **Official Requirement 2a(8):** Demonstrate how to clean a rifle properly and safely.
@@ -376,10 +376,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(8) Core Concept, Definition & Pamphlet Standard** | Proper Rifle Cleaning Procedure Demonstration: Clean the bore from breech to muzzle whenever possible using a bore guide and a rod with solvent soaked patches followed by a bronze bore brush. Dry the bore thoroughly with clean patches before applying a very light film of gun oil to the metal surfaces for corrosion protection (p. 50). | Verify specific field notes / demonstration |
-| **2. Req 2a(8) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(8) (Demonstrate how to clean a rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(8) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(8) (Demonstrate how to clean a rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(8) Practical Example & Counselor Conference Verification** | Proper Rifle Cleaning Procedure Demonstration: Clean the bore from breech to muzzle whenever possible using a bore guide and a rod with solvent soaked patches followed by a bronze bore brush. Dry the bore thoroughly with clean patches before applying a very light film of gun oil to the metal surfaces for corrosion protection (p. 50). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(8)):** Scout must individually explain Requirement 2a(8) (Demonstrate how to clean a rifle properly and safely) to the Counselor.
+**Counselor Verification Standard (Req 2a(8)):** Scout must individually identify Requirement 2a(8) (Demonstrate how to clean a rifle properly and safely) to the Counselor.
 
 #### Req 2a(9): Rifle Selection Criteria and Considerations
 **Official Requirement 2a(9):** Discuss what points you would consider in selecting a rifle.
@@ -393,10 +393,10 @@
 | Req 2a(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2a(9) Core Concept, Definition & Pamphlet Standard** | Rifle Selection Criteria And Considerations: Selecting an appropriate rifle involves evaluating the intended use, action type, caliber, stock fit, weight, and sight configuration. A rifle chosen for target marksmanship prioritizes precision balance, adjustable stocks, and match sights over rugged field portability (p. 54). | Verify specific field notes / demonstration |
-| **2. Req 2a(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2a(9) (Discuss what points you would consider in selecting a rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2a(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2a(9) (Discuss what points you would consider in selecting a rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2a(9) Practical Example & Counselor Conference Verification** | Rifle Selection Criteria And Considerations: Selecting an appropriate rifle involves evaluating the intended use, action type, caliber, stock fit, weight, and sight configuration. A rifle chosen for target marksmanship prioritizes precision balance, adjustable stocks, and match sights over rugged field portability (p. 54). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(9)):** Scout must individually explain Requirement 2a(9) (Discuss what points you would consider in selecting a rifle) to the Counselor.
+**Counselor Verification Standard (Req 2a(9)):** Scout must individually identify Requirement 2a(9) (Discuss what points you would consider in selecting a rifle) to the Counselor.
 
 #### Req 2a(10): Supported Group Shooting and Sight Adjustment
 **[Parent Directive]:** *Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following*
@@ -411,9 +411,9 @@
 | Req 2a(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter** | Supported Group Shooting And Sight Adjustment: Shooters fire three shot groups from a supported position at fifty feet, verifying consistency before attempting any sight adjustments. If groups are tight enough to be covered by a quarter, the rear sight is adjusted in the direction the bullet strikes need to move (p. 62). | Verify specific field notes / demonstration |
-| **2. Using these targets, explain how to adjust sights to zero a rifle** | Scout must individually explain Requirement 2a(10) (Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 ) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Using these targets, explain how to adjust sights to zero a rifle** | Scout must individually identify Requirement 2a(10) (Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 ) to the Counselor. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(10)):** Scout must individually explain Requirement 2a(10) (Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 ) to the Counselor.
+**Counselor Verification Standard (Req 2a(10)):** Scout must individually identify Requirement 2a(10) (Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 ) to the Counselor.
 
 #### Req 2a(11): Target Group Centering and Precision
 **[Parent Directive]:** *Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following*
@@ -428,23 +428,28 @@
 | Req 2a(11) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Adjust sights to center the group on the target and fire five groups (five shots per group)** | Target Group Centering And Precision Qualification: Scouts adjust rear sights for windage and elevation so the center of the shot group coincides with the point of aim in the bullseye. Firing five shot groups reinforces consistent trigger control and hold control across multiple targets on the qualification sheet (p. 64). | Verify specific field notes / demonstration |
-| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle** | Scout must individually explain Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
+| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle** | Scout must individually identify Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
 | **3. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9** | Target Group Centering And Precision Qualification: Scouts adjust rear sights for windage and elevation so the center of the shot group coincides with the point of aim in the bullseye. Firing five shot groups reinforces consistent trigger control and hold control across multiple targets on the qualification sheet (p. 64). | Verify specific field notes / demonstration |
-| **4. A-17 or TQ-1 targets: 7** | Scout must individually explain Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
+| **4. A-17 or TQ-1 targets: 7** | Scout must individually identify Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
 | **5** | Target Group Centering And Precision Qualification: Scouts adjust rear sights for windage and elevation so the center of the shot group coincides with the point of aim in the bullseye. Firing five shot groups reinforces consistent trigger control and hold control across multiple targets on the qualification sheet (p. 64). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2a(11)):** Scout must individually explain Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor.
+**Counselor Verification Standard (Req 2a(11)):** Scout must individually identify Requirement 2a(11) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor.
 
-### Requirement 2b Section: Air Rifle Marksmanship Option
+### Requirement 2b Section: Air Rifle (BB or Pellet): Safety, Fundamentals & Grouping
 **Parent Directive (2b):** Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following:
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Section Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
 
 #### Req 2b(1): Three Main Air Rifle Assemblies
 **Official Requirement 2b(1):** Identify the three main parts of an air rifle, and explain how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
 - **Socratic Prompt (Ask Scouts First):** How does the action of a pneumatic or spring piston air rifle generate propellant energy compared to a cartridge rifle?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Three Main Air Rifle Assemblies: An air rifle consists of the action, barrel, and stock, using compressed gas or a spring piston rather than burning powder to propel pellets. The action cocks the power plant and valves the gas, the barrel stabilizes the projectile, and the stock provides structural support (p. 68).
+- **Step-by-Step Facilitation & Station Procedure:**
+  - Step 1 - Bench Equipment Setup: Place the cased rifle on the shooting bench pointing downrange toward targets.
+  - Step 2 - Position Foundation: Assume a balanced prone position supporting the rifle forearm with bone support.
 - **Common Myth:** Air rifles do not contain rifling in their barrels because lead pellets are shaped like shuttlecocks.
 - **Pamphlet Fact:** Target air rifles feature precision rifled steel barrels that spin and stabilize pellets for extreme accuracy.
 
@@ -453,10 +458,10 @@
 | Req 2b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(1) Core Concept, Definition & Pamphlet Standard** | Three Main Air Rifle Assemblies: An air rifle consists of the action, barrel, and stock, using compressed gas or a spring piston rather than burning powder to propel pellets. The action cocks the power plant and valves the gas, the barrel stabilizes the projectile, and the stock provides structural support (p. 68). | Verify specific field notes / demonstration |
-| **2. Req 2b(1) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(1) (Identify the three main parts of an air rifle, and explain how they function) to the Counselor. | Verify specific field notes / demonstration |
-| **3. Req 2b(1) Practical Example & Counselor Conference Verification** | Three Main Air Rifle Assemblies: An air rifle consists of the action, barrel, and stock, using compressed gas or a spring piston rather than burning powder to propel pellets. The action cocks the power plant and valves the gas, the barrel stabilizes the projectile, and the stock provides structural support (p. 68). | Verify specific field notes / demonstration |
+| **2. Req 2b(1) Step-by-Step Procedure, Safety & Equipment Criteria** | Step 1 - Bench Equipment Setup: Place the cased rifle on the shooting bench pointing downrange toward targets. | Verify specific field notes / demonstration |
+| **3. Req 2b(1) Practical Example & Counselor Conference Verification** | Step 2 - Position Foundation: Assume a balanced prone position supporting the rifle forearm with bone support. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(1)):** Scout must individually explain Requirement 2b(1) (Identify the three main parts of an air rifle, and explain how they function) to the Counselor.
+**Counselor Verification Standard (Req 2b(1)):** Scout must individually identify Requirement 2b(1) (Identify the three main parts of an air rifle, and explain how they function) to the Counselor.
 
 #### Req 2b(2): Air Rifle Safe Storage and Handling
 **Official Requirement 2b(2):** Identify and demonstrate the rules for safely storing and handling an air rifle.
@@ -470,10 +475,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(2) Core Concept, Definition & Pamphlet Standard** | Air Rifle Safe Storage And Handling: Air rifles demand the exact same handling rules as powder firearms, requiring safe muzzle direction, finger off the trigger, and an open uncocked action. Store air rifles uncharged and unloaded in a locked cabinet with pellets and gas cylinders kept in a separate secure container (p. 72). | Verify specific field notes / demonstration |
-| **2. Req 2b(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(2) (Identify and demonstrate the rules for safely storing and handling an air rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(2) (Identify and demonstrate the rules for safely storing and handling an air rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(2) Practical Example & Counselor Conference Verification** | Air Rifle Safe Storage And Handling: Air rifles demand the exact same handling rules as powder firearms, requiring safe muzzle direction, finger off the trigger, and an open uncocked action. Store air rifles uncharged and unloaded in a locked cabinet with pellets and gas cylinders kept in a separate secure container (p. 72). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(2)):** Scout must individually explain Requirement 2b(2) (Identify and demonstrate the rules for safely storing and handling an air rifle) to the Counselor.
+**Counselor Verification Standard (Req 2b(2)):** Scout must individually identify Requirement 2b(2) (Identify and demonstrate the rules for safely storing and handling an air rifle) to the Counselor.
 
 #### Req 2b(3): Common Air Rifle Ammunition Types
 **Official Requirement 2b(3):** Identify the two most common types of air rifle ammunition.
@@ -487,10 +492,10 @@
 | Req 2b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(3) Core Concept, Definition & Pamphlet Standard** | Common Air Rifle Ammunition Types: The two standard types of air rifle ammunition are round steel BBs and waisted lead or alloy pellets, most commonly found in .177 caliber. Diabolo pellets feature an hourglass shape with a hollow skirt that expands against rifling to stabilize flight, whereas spherical BBs are designed primarily for smoothbore barrels (p. 28). | Verify specific field notes / demonstration |
-| **2. Req 2b(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(3) (Identify the two most common types of air rifle ammunition) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(3) (Identify the two most common types of air rifle ammunition) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(3) Practical Example & Counselor Conference Verification** | Common Air Rifle Ammunition Types: The two standard types of air rifle ammunition are round steel BBs and waisted lead or alloy pellets, most commonly found in .177 caliber. Diabolo pellets feature an hourglass shape with a hollow skirt that expands against rifling to stabilize flight, whereas spherical BBs are designed primarily for smoothbore barrels (p. 28). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(3)):** Scout must individually explain Requirement 2b(3) (Identify the two most common types of air rifle ammunition) to the Counselor.
+**Counselor Verification Standard (Req 2b(3)):** Scout must individually identify Requirement 2b(3) (Identify the two most common types of air rifle ammunition) to the Counselor.
 
 #### Req 2b(4): Fundamentals of Air Rifle Shooting
 **Official Requirement 2b(4):** Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through.
@@ -504,10 +509,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(4) Core Concept, Definition & Pamphlet Standard** | Fundamentals of Air Rifle Shooting: Consistent marksmanship requires mastering sight alignment and sight picture, establishing a natural respiratory pause, minimizing muzzle wobble through skeletal support, executing a smooth trigger squeeze straight back, and maintaining position after release (p. 34). | Verify specific field notes / demonstration |
-| **2. Req 2b(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(4) (Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, ) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(4) (Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, ) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(4) Practical Example & Counselor Conference Verification** | Fundamentals of Air Rifle Shooting: Consistent marksmanship requires mastering sight alignment and sight picture, establishing a natural respiratory pause, minimizing muzzle wobble through skeletal support, executing a smooth trigger squeeze straight back, and maintaining position after release (p. 34). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(4)):** Scout must individually explain Requirement 2b(4) (Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, ) to the Counselor.
+**Counselor Verification Standard (Req 2b(4)):** Scout must individually identify Requirement 2b(4) (Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, ) to the Counselor.
 
 #### Req 2b(5): Air Rifle Range Safety Procedures
 **Official Requirement 2b(5):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands.
@@ -521,10 +526,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(5) Core Concept, Definition & Pamphlet Standard** | Air Rifle Range Safety Procedures: Shooters must obey all range officer commands immediately, keep muzzles pointed downrange, insert clear barrel indicators when grounded, and stop firing instantly whenever a cease fire sounds (p. 24). | Verify specific field notes / demonstration |
-| **2. Req 2b(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(5) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding ) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(5) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding ) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(5) Practical Example & Counselor Conference Verification** | Air Rifle Range Safety Procedures: Shooters must obey all range officer commands immediately, keep muzzles pointed downrange, insert clear barrel indicators when grounded, and stop firing instantly whenever a cease fire sounds (p. 24). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(5)):** Scout must individually explain Requirement 2b(5) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding ) to the Counselor.
+**Counselor Verification Standard (Req 2b(5)):** Scout must individually identify Requirement 2b(5) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding ) to the Counselor.
 
 #### Req 2b(6): Air Rifle Cleaning Safety Guidelines
 **Official Requirement 2b(6):** Explain the basic safety rules for cleaning an air rifle, and identify the materials needed.
@@ -538,10 +543,10 @@
 | Req 2b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(6) Core Concept, Definition & Pamphlet Standard** | Air Rifle Cleaning Safety Guidelines: Before maintenance, the shooter must verify the rifle is completely unloaded, point the muzzle in a safe direction, and avoid using firearm petroleum solvents that degrade synthetic internal seals (p. 42). | Verify specific field notes / demonstration |
-| **2. Req 2b(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(6) (Explain the basic safety rules for cleaning an air rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(6) (Explain the basic safety rules for cleaning an air rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(6) Practical Example & Counselor Conference Verification** | Air Rifle Cleaning Safety Guidelines: Before maintenance, the shooter must verify the rifle is completely unloaded, point the muzzle in a safe direction, and avoid using firearm petroleum solvents that degrade synthetic internal seals (p. 42). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(6)):** Scout must individually explain Requirement 2b(6) (Explain the basic safety rules for cleaning an air rifle, and identify the materials needed) to the Counselor.
+**Counselor Verification Standard (Req 2b(6)):** Scout must individually identify Requirement 2b(6) (Explain the basic safety rules for cleaning an air rifle, and identify the materials needed) to the Counselor.
 
 #### Req 2b(7): Proper Air Rifle Cleaning Technique
 **Official Requirement 2b(7):** Demonstrate how to clean an air rifle properly and safely.
@@ -555,10 +560,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(7) Core Concept, Definition & Pamphlet Standard** | Proper Air Rifle Cleaning Technique: Air rifles are cleaned by pulling dry or lightly oiled cleaning pellets or a flexible pull through patch from breech to muzzle while protecting the crown from wear (p. 43). | Verify specific field notes / demonstration |
-| **2. Req 2b(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(7) (Demonstrate how to clean an air rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(7) (Demonstrate how to clean an air rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(7) Practical Example & Counselor Conference Verification** | Proper Air Rifle Cleaning Technique: Air rifles are cleaned by pulling dry or lightly oiled cleaning pellets or a flexible pull through patch from breech to muzzle while protecting the crown from wear (p. 43). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(7)):** Scout must individually explain Requirement 2b(7) (Demonstrate how to clean an air rifle properly and safely) to the Counselor.
+**Counselor Verification Standard (Req 2b(7)):** Scout must individually identify Requirement 2b(7) (Demonstrate how to clean an air rifle properly and safely) to the Counselor.
 
 #### Req 2b(8): Air Rifle Selection Considerations
 **Official Requirement 2b(8):** Discuss what points you would consider in selecting an air rifle.
@@ -572,10 +577,10 @@
 | Req 2b(8) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(8) Core Concept, Definition & Pamphlet Standard** | Choosing an air rifle involves evaluating the intended use, propulsion system such as spring piston, pneumatic, or CO2, stock fit and weight, sight options, and cocking effort (p. 30). | Verify specific field notes / demonstration |
-| **2. Req 2b(8) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(8) (Discuss what points you would consider in selecting an air rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(8) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(8) (Discuss what points you would consider in selecting an air rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(8) Practical Example & Counselor Conference Verification** | Choosing an air rifle involves evaluating the intended use, propulsion system such as spring piston, pneumatic, or CO2, stock fit and weight, sight options, and cocking effort (p. 30). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(8)):** Scout must individually explain Requirement 2b(8) (Discuss what points you would consider in selecting an air rifle) to the Counselor.
+**Counselor Verification Standard (Req 2b(8)):** Scout must individually identify Requirement 2b(8) (Discuss what points you would consider in selecting an air rifle) to the Counselor.
 
 #### Req 2b(9): Supported Position Marksmanship Grouping
 **[Parent Directive]:** *Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following*
@@ -590,10 +595,10 @@
 | Req 2b(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2b(9) Core Concept, Definition & Pamphlet Standard** | Supported Position Marksmanship Grouping Qualification: Shooters establish a stable, non-muscular resting platform from a benchrest or supported prone position to consistently place three shot clusters tightly enough that a quarter covers all three impacts across five separate targets (p. 36). | Verify specific field notes / demonstration |
-| **2. Req 2b(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2b(9) (Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB gun) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2b(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually identify Requirement 2b(9) (Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB gun) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2b(9) Practical Example & Counselor Conference Verification** | Supported Position Marksmanship Grouping Qualification: Shooters establish a stable, non-muscular resting platform from a benchrest or supported prone position to consistently place three shot clusters tightly enough that a quarter covers all three impacts across five separate targets (p. 36). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(9)):** Scout must individually explain Requirement 2b(9) (Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB gun) to the Counselor.
+**Counselor Verification Standard (Req 2b(9)):** Scout must individually identify Requirement 2b(9) (Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB gun) to the Counselor.
 
 #### Req 2b(10): Sight Adjustment and Target Zeroing
 **[Parent Directive]:** *Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following*
@@ -608,23 +613,28 @@
 | Req 2b(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Adjust sights to center the group on the target and fire five groups (five shots per group)** | Sight Adjustment and Target Zeroing: To shift the point of impact toward the center bullseye, the rear sight is moved in the exact direction the shooter wants the hits to travel on the target (p. 38). | Verify specific field notes / demonstration |
-| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air** | Scout must individually explain Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
+| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air** | Scout must individually identify Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
 | **3. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet** | Sight Adjustment and Target Zeroing: To shift the point of impact toward the center bullseye, the rear sight is moved in the exact direction the shooter wants the hits to travel on the target (p. 38). | Verify specific field notes / demonstration |
-| **4. Pellet rifle at 25 feet using TQ-5 targets: 8** | Scout must individually explain Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
+| **4. Pellet rifle at 25 feet using TQ-5 targets: 8** | Scout must individually identify Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor. | Verify specific field notes / demonstration |
 | **5. Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6** | Sight Adjustment and Target Zeroing: To shift the point of impact toward the center bullseye, the rear sight is moved in the exact direction the shooter wants the hits to travel on the target (p. 38). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2b(10)):** Scout must individually explain Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor.
+**Counselor Verification Standard (Req 2b(10)):** Scout must individually identify Requirement 2b(10) (Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that) to the Counselor.
 
-### Requirement 2c Section: Muzzleloading Black Powder Marksmanship
+### Requirement 2c Section: Muzzleloading Rifle: Black Powder Safety, Loading & Grouping
 **Parent Directive (2c):** Option C, Muzzleloading Rifle Shooting. Do ALL of the following:
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Section Organizer:** Skill Demonstration Checklist
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
 
 #### Req 2c(1): Muzzleloading Rifle Historical Development
 **Official Requirement 2c(1):** Discuss with your counselor a brief history of the development of muzzleloading rifles.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c
+> **Guide to Safe Scouting Warning:** Never load ammunition until the Range Safety Officer commands the firing line to load and commence firing.
 - **Socratic Prompt (Ask Scouts First):** How did the transition from the flintlock mechanism to the percussion cap alter the reliability and all-weather readiness of muzzleloading firearms?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Muzzleloading Rifle Historical Development: The evolution of black powder firearms progressed from early touchholes and matchlocks to wheel locks, flintlocks, and ultimately nineteenth century percussion cap ignition systems (p. 48).
+- **Step-by-Step Facilitation & Station Procedure:**
+  - Step 1 - Bench Equipment Setup: Place the cased rifle on the shooting bench pointing downrange toward targets.
+  - Step 2 - Position Foundation: Assume a balanced prone position supporting the rifle forearm with bone support.
 - **Common Myth:** Early smoothbore muskets and rifled muzzleloaders were developed at the same time and offered identical combat and hunting effectiveness.
 - **Pamphlet Fact:** Spiral rifling was developed after smoothbore muskets to spin the projectile, vastly increasing accurate range from fifty yards to well over two hundred yards.
 
@@ -633,10 +643,10 @@
 | Req 2c(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(1) Core Concept, Definition & Pamphlet Standard** | Muzzleloading Rifle Historical Development: The evolution of black powder firearms progressed from early touchholes and matchlocks to wheel locks, flintlocks, and ultimately nineteenth century percussion cap ignition systems (p. 48). | Verify specific field notes / demonstration |
-| **2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(1) (Discuss with your counselor a brief history of the development of muzzleloading rifles) to the Counselor. | Verify specific field notes / demonstration |
-| **3. Req 2c(1) Practical Example & Counselor Conference Verification** | Muzzleloading Rifle Historical Development: The evolution of black powder firearms progressed from early touchholes and matchlocks to wheel locks, flintlocks, and ultimately nineteenth century percussion cap ignition systems (p. 48). | Verify specific field notes / demonstration |
+| **2. Req 2c(1) Step-by-Step Procedure, Safety & Equipment Criteria** | Step 1 - Bench Equipment Setup: Place the cased rifle on the shooting bench pointing downrange toward targets. | Verify specific field notes / demonstration |
+| **3. Req 2c(1) Practical Example & Counselor Conference Verification** | Step 2 - Position Foundation: Assume a balanced prone position supporting the rifle forearm with bone support. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(1)):** Scout must individually explain Requirement 2c(1) (Discuss with your counselor a brief history of the development of muzzleloading rifles) to the Counselor.
+**Counselor Verification Standard (Req 2c(1)):** Scout must individually discuss Requirement 2c(1) (Discuss with your counselor a brief history of the development of muzzleloading rifles) to the Counselor.
 
 #### Req 2c(2): Principal Muzzleloading Rifle Components
 **Official Requirement 2c(2):** Identify principal parts of muzzleloading rifles and discuss how they function.
@@ -650,10 +660,10 @@
 | Req 2c(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(2) Core Concept, Definition & Pamphlet Standard** | Principal Muzzleloading Rifle Components: A muzzleloader consists of the lock mechanism that ignites the charge, the barrel and breech plug containing the explosion, the stock providing support, and the ramrod used to seat the projectile (p. 52). | Verify specific field notes / demonstration |
-| **2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(2) (Identify principal parts of muzzleloading rifles and discuss how they function) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(2) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(2) (Identify principal parts of muzzleloading rifles and discuss how they function) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(2) Practical Example & Counselor Conference Verification** | Principal Muzzleloading Rifle Components: A muzzleloader consists of the lock mechanism that ignites the charge, the barrel and breech plug containing the explosion, the stock providing support, and the ramrod used to seat the projectile (p. 52). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(2)):** Scout must individually explain Requirement 2c(2) (Identify principal parts of muzzleloading rifles and discuss how they function) to the Counselor.
+**Counselor Verification Standard (Req 2c(2)):** Scout must individually discuss Requirement 2c(2) (Identify principal parts of muzzleloading rifles and discuss how they function) to the Counselor.
 
 #### Req 2c(3): Muzzleloading Storage and Handling Rules
 **Official Requirement 2c(3):** Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle.
@@ -667,10 +677,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(3) Core Concept, Definition & Pamphlet Standard** | Muzzleloading Storage and Handling Rules: Muzzleloaders must be verified completely unloaded using a marked ramrod, stored unprimed in locked storage away from powder, and pointed in a safe direction at all times (p. 55). | Verify specific field notes / demonstration |
-| **2. Req 2c(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(3) (Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(3) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(3) (Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(3) Practical Example & Counselor Conference Verification** | Muzzleloading Storage and Handling Rules: Muzzleloaders must be verified completely unloaded using a marked ramrod, stored unprimed in locked storage away from powder, and pointed in a safe direction at all times (p. 55). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(3)):** Scout must individually explain Requirement 2c(3) (Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle) to the Counselor.
+**Counselor Verification Standard (Req 2c(3)):** Scout must individually discuss Requirement 2c(3) (Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle) to the Counselor.
 
 #### Req 2c(4): Black Powder Granulation Grades
 **Official Requirement 2c(4):** Identify the various grades of black powder and explain their proper and safe use.
@@ -684,10 +694,10 @@
 | Req 2c(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(4) Core Concept, Definition & Pamphlet Standard** | Black powder is categorized by grain size from coarsest Fg to finest FFFFg, with coarser grains burning slower in large bore rifles and fine FFFFg reserved strictly for flintlock priming pans (p. 58). | Verify specific field notes / demonstration |
-| **2. Req 2c(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(4) (Identify the various grades of black powder and explain their proper and safe use) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(4) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(4) (Identify the various grades of black powder and explain their proper and safe use) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(4) Practical Example & Counselor Conference Verification** | Black powder is categorized by grain size from coarsest Fg to finest FFFFg, with coarser grains burning slower in large bore rifles and fine FFFFg reserved strictly for flintlock priming pans (p. 58). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(4)):** Scout must individually explain Requirement 2c(4) (Identify the various grades of black powder and explain their proper and safe use) to the Counselor.
+**Counselor Verification Standard (Req 2c(4)):** Scout must individually discuss Requirement 2c(4) (Identify the various grades of black powder and explain their proper and safe use) to the Counselor.
 
 #### Req 2c(5): Black Powder Safe Storage Procedures
 **Official Requirement 2c(5):** Discuss proper safety procedures pertaining to black powder storage.
@@ -701,10 +711,10 @@
 | Req 2c(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(5) Core Concept, Definition & Pamphlet Standard** | Black Powder Safe Storage Procedures: Black powder must be kept strictly in its original conductive metal or approved plastic containers, secured inside a wooden lockbox away from sparks, heat, and percussion caps (p. 60). | Verify specific field notes / demonstration |
-| **2. Req 2c(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(5) (Discuss proper safety procedures pertaining to black powder storage) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(5) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(5) (Discuss proper safety procedures pertaining to black powder storage) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(5) Practical Example & Counselor Conference Verification** | Black Powder Safe Storage Procedures: Black powder must be kept strictly in its original conductive metal or approved plastic containers, secured inside a wooden lockbox away from sparks, heat, and percussion caps (p. 60). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(5)):** Scout must individually explain Requirement 2c(5) (Discuss proper safety procedures pertaining to black powder storage) to the Counselor.
+**Counselor Verification Standard (Req 2c(5)):** Scout must individually discuss Requirement 2c(5) (Discuss proper safety procedures pertaining to black powder storage) to the Counselor.
 
 #### Req 2c(6): Muzzleloading Projectile Load Components
 **[Parent Directive]:** *Option C, Muzzleloading Rifle Shooting. Do ALL of the following*
@@ -719,10 +729,10 @@
 | Req 2c(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(6) Core Concept, Definition & Pamphlet Standard** | Muzzleloading Projectile Load Components: A complete muzzleloader charge consists of a measured volume of black powder, a lubricated cloth patch, a pure lead round ball, and an external ignition primer such as a percussion cap or pan flash (p. 62). | Verify specific field notes / demonstration |
-| **2. Req 2c(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(6) (Discuss proper components of a load) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(6) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(6) (Discuss proper components of a load) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(6) Practical Example & Counselor Conference Verification** | Muzzleloading Projectile Load Components: A complete muzzleloader charge consists of a measured volume of black powder, a lubricated cloth patch, a pure lead round ball, and an external ignition primer such as a percussion cap or pan flash (p. 62). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(6)):** Scout must individually explain Requirement 2c(6) (Discuss proper components of a load) to the Counselor.
+**Counselor Verification Standard (Req 2c(6)):** Scout must individually discuss Requirement 2c(6) (Discuss proper components of a load) to the Counselor.
 
 #### Req 2c(7): Safe Muzzleloader Loading Equipment
 **Official Requirement 2c(7):** Identify proper procedures and accessories used for safely loading a muzzleloading rifle.
@@ -736,10 +746,10 @@
 | Req 2c(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(7) Core Concept, Definition & Pamphlet Standard** | Safe loading requires pouring powder from a standalone volumetric measure rather than directly from a powder horn, followed by a short starter and ramrod to seat the patched ball firmly against the powder without an air gap (p. 64). | Verify specific field notes / demonstration |
-| **2. Req 2c(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(7) (Identify proper procedures and accessories used for safely loading a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(7) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(7) (Identify proper procedures and accessories used for safely loading a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(7) Practical Example & Counselor Conference Verification** | Safe loading requires pouring powder from a standalone volumetric measure rather than directly from a powder horn, followed by a short starter and ramrod to seat the patched ball firmly against the powder without an air gap (p. 64). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(7)):** Scout must individually explain Requirement 2c(7) (Identify proper procedures and accessories used for safely loading a muzzleloading rifle) to the Counselor.
+**Counselor Verification Standard (Req 2c(7)):** Scout must individually discuss Requirement 2c(7) (Identify proper procedures and accessories used for safely loading a muzzleloading rifle) to the Counselor.
 
 #### Req 2c(8): Muzzleloader Malfunctions and Stoppage Procedures
 **Official Requirement 2c(8):** Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each.
@@ -753,9 +763,9 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire** | Muzzleloader Malfunctions and Stoppage Procedures: When a muzzleloader experiences a failure to fire, the shooter must keep the muzzle pointed downrange in a safe direction for at least 60 seconds before investigating the ignition cap or powder channel. Identifying the difference between a hangfire delay, a complete misfire, and a low-powered squib load prevents catastrophic barrel obstructions during subsequent loading attempts (p. 78). | Verify specific field notes / demonstration |
-| **2. Explain and demonstrate proper preventive measures, and the procedures to follow in response** | Scout must individually explain Requirement 2c(8) (Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squi) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Explain and demonstrate proper preventive measures, and the procedures to follow in response** | Scout must individually discuss Requirement 2c(8) (Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squi) to the Counselor. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(8)):** Scout must individually explain Requirement 2c(8) (Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squi) to the Counselor.
+**Counselor Verification Standard (Req 2c(8)):** Scout must individually discuss Requirement 2c(8) (Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squi) to the Counselor.
 
 #### Req 2c(9): Muzzleloading Range Safety and Commands
 **Official Requirement 2c(9):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands.
@@ -769,10 +779,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(9) Core Concept, Definition & Pamphlet Standard** | Muzzleloading Range Safety and Commands: Shooters must obey all range officer commands including cease-fires immediately and keep powder flasks covered behind the firing line while handling primed arms. Safe muzzleloader operation requires disciplined muzzle control, clear eye and ear protection, and methodical step-by-step loading only at designated stations (p. 74). | Verify specific field notes / demonstration |
-| **2. Req 2c(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(9) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, in) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(9) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(9) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, in) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(9) Practical Example & Counselor Conference Verification** | Muzzleloading Range Safety and Commands: Shooters must obey all range officer commands including cease-fires immediately and keep powder flasks covered behind the firing line while handling primed arms. Safe muzzleloader operation requires disciplined muzzle control, clear eye and ear protection, and methodical step-by-step loading only at designated stations (p. 74). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(9)):** Scout must individually explain Requirement 2c(9) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, in) to the Counselor.
+**Counselor Verification Standard (Req 2c(9)):** Scout must individually discuss Requirement 2c(9) (Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, in) to the Counselor.
 
 #### Req 2c(10): Muzzleloader Cleaning Safety and Materials
 **Official Requirement 2c(10):** Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
@@ -786,10 +796,10 @@
 | Req 2c(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(10) Core Concept, Definition & Pamphlet Standard** | Muzzleloader Cleaning Safety and Materials: Before cleaning a muzzleloader, the shooter must verify the rifle is completely unloaded by checking the nipple and running a marked ramrod down the bore. Essential cleaning equipment includes hot soapy water or commercial black powder solvent, a cleaning jag, cotton patches, a nipple wrench, and protective gun oil (p. 80). | Verify specific field notes / demonstration |
-| **2. Req 2c(10) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(10) (Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(10) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(10) (Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(10) Practical Example & Counselor Conference Verification** | Muzzleloader Cleaning Safety and Materials: Before cleaning a muzzleloader, the shooter must verify the rifle is completely unloaded by checking the nipple and running a marked ramrod down the bore. Essential cleaning equipment includes hot soapy water or commercial black powder solvent, a cleaning jag, cotton patches, a nipple wrench, and protective gun oil (p. 80). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(10)):** Scout must individually explain Requirement 2c(10) (Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed) to the Counselor.
+**Counselor Verification Standard (Req 2c(10)):** Scout must individually discuss Requirement 2c(10) (Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed) to the Counselor.
 
 #### Req 2c(11): Muzzleloader Bore and Action Cleaning
 **Official Requirement 2c(11):** Demonstrate how to clean a muzzleloading rifle properly and safely.
@@ -803,10 +813,10 @@
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(11) Core Concept, Definition & Pamphlet Standard** | Muzzleloader Bore and Action Cleaning: Cleaning involves pumping solvent patches through the bore with a fitted jag until patches emerge spotless, followed by thorough drying and oiling to prevent rust. The lock and nipple must be removed, flushed of corrosive residue, dried completely, and treated with light preservative oil before reassembly (p. 81). | Verify specific field notes / demonstration |
-| **2. Req 2c(11) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(11) (Demonstrate how to clean a muzzleloading rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(11) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(11) (Demonstrate how to clean a muzzleloading rifle properly and safely) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(11) Practical Example & Counselor Conference Verification** | Muzzleloader Bore and Action Cleaning: Cleaning involves pumping solvent patches through the bore with a fitted jag until patches emerge spotless, followed by thorough drying and oiling to prevent rust. The lock and nipple must be removed, flushed of corrosive residue, dried completely, and treated with light preservative oil before reassembly (p. 81). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(11)):** Scout must individually explain Requirement 2c(11) (Demonstrate how to clean a muzzleloading rifle properly and safely) to the Counselor.
+**Counselor Verification Standard (Req 2c(11)):** Scout must individually discuss Requirement 2c(11) (Demonstrate how to clean a muzzleloading rifle properly and safely) to the Counselor.
 
 #### Req 2c(12): Muzzleloading Rifle Selection Criteria
 **Official Requirement 2c(12):** Discuss what points you would consider in selecting a muzzleloading rifle.
@@ -820,10 +830,10 @@
 | Req 2c(12) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(12) Core Concept, Definition & Pamphlet Standard** | Muzzleloading Rifle Selection Criteria: Choosing a muzzleloader requires evaluating intended target shooting disciplines, barrel twist rate for round balls versus conical projectiles, and ignition system preferences between percussion cap and flintlock. Stock fit, rifle weight, caliber availability, and ease of takedown for maintenance also play major roles in rifle selection (p. 68). | Verify specific field notes / demonstration |
-| **2. Req 2c(12) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(12) (Discuss what points you would consider in selecting a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(12) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(12) (Discuss what points you would consider in selecting a muzzleloading rifle) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(12) Practical Example & Counselor Conference Verification** | Muzzleloading Rifle Selection Criteria: Choosing a muzzleloader requires evaluating intended target shooting disciplines, barrel twist rate for round balls versus conical projectiles, and ignition system preferences between percussion cap and flintlock. Stock fit, rifle weight, caliber availability, and ease of takedown for maintenance also play major roles in rifle selection (p. 68). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(12)):** Scout must individually explain Requirement 2c(12) (Discuss what points you would consider in selecting a muzzleloading rifle) to the Counselor.
+**Counselor Verification Standard (Req 2c(12)):** Scout must individually discuss Requirement 2c(12) (Discuss what points you would consider in selecting a muzzleloading rifle) to the Counselor.
 
 #### Req 2c(13): Supported Muzzleloader Grouping Qualification
 **[Parent Directive]:** *Option C, Muzzleloading Rifle Shooting. Do ALL of the following*
@@ -838,10 +848,10 @@
 | Req 2c(13) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 2c(13) Core Concept, Definition & Pamphlet Standard** | Shooting from a benchrest or supported prone position at 50 feet, the Scout must fire three distinct three-shot groups that each fit within the circular footprint of a standard soda can base. Consistent ball seating pressure on the powder column and identical patch lubrication are critical to producing tight, repeatable shot groups (p. 84). | Verify specific field notes / demonstration |
-| **2. Req 2c(13) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 2c(13) (Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fir) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 2c(13) Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually discuss Requirement 2c(13) (Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fir) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 2c(13) Practical Example & Counselor Conference Verification** | Shooting from a benchrest or supported prone position at 50 feet, the Scout must fire three distinct three-shot groups that each fit within the circular footprint of a standard soda can base. Consistent ball seating pressure on the powder column and identical patch lubrication are critical to producing tight, repeatable shot groups (p. 84). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(13)):** Scout must individually explain Requirement 2c(13) (Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fir) to the Counselor.
+**Counselor Verification Standard (Req 2c(13)):** Scout must individually discuss Requirement 2c(13) (Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fir) to the Counselor.
 
 #### Req 2c(14): Sight Adjustment and Group Centering
 **[Parent Directive]:** *Option C, Muzzleloading Rifle Shooting. Do ALL of the following*
@@ -856,12 +866,12 @@
 | Req 2c(14) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Adjust the sights to center the group on the target and fire three groups (five shots per group)** | Sight Adjustment and Group Centering: Rear sights must be moved in the direction you want the bullet impact to move on the target, either by drifting dovetail iron sights or turning adjustment screws. If physical sight adjustments are impractical on a borrowed club firearm, the Scout explains the mechanical procedure and fires three five-shot groups centered on target (p. 85). | Verify specific field notes / demonstration |
-| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle** | Scout must individually explain Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor. | Verify specific field notes / demonstration |
+| **2. In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle** | Scout must individually discuss Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor. | Verify specific field notes / demonstration |
 | **3. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7** | Sight Adjustment and Group Centering: Rear sights must be moved in the direction you want the bullet impact to move on the target, either by drifting dovetail iron sights or turning adjustment screws. If physical sight adjustments are impractical on a borrowed club firearm, the Scout explains the mechanical procedure and fires three five-shot groups centered on target (p. 85). | Verify specific field notes / demonstration |
-| **4. at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7** | Scout must individually explain Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor. | Verify specific field notes / demonstration |
+| **4. at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7** | Scout must individually discuss Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor. | Verify specific field notes / demonstration |
 | **5. Note: Other suitable NRA targets may be used if the specified targets are unavailable** | Sight Adjustment and Group Centering: Rear sights must be moved in the direction you want the bullet impact to move on the target, either by drifting dovetail iron sights or turning adjustment screws. If physical sight adjustments are impractical on a borrowed club firearm, the Scout explains the mechanical procedure and fires three five-shot groups centered on target (p. 85). | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2c(14)):** Scout must individually explain Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor.
+**Counselor Verification Standard (Req 2c(14)):** Scout must individually discuss Requirement 2c(14) (Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event) to the Counselor.
 
 ### Req 3: Shooting Sports Career Pathways
 **Official Requirement 3:** Identify how you could apply the skills and knowledge of safe and responsible use of firearms you learned in this merit badge to pursue a career or personal hobby. Research the additional training and experience you would need, expenses you may incur, and the affiliation with organizations that could help you maximize the positive impact and enjoyment you gain from it. Discuss what you learned with your counselor, and share what short-term and long-term goals you might have if you pursued this.
@@ -889,4 +899,4 @@
 | **2. Merit Badge Skills & Safety Practices Applied** | Range safety officers obtain credentials through formal National Rifle Association instructional courses. |
 | **3. Ongoing Practice, Equipment & Community Service Plan** | Competitive Marksmanship Pathways: Olympic biathlon and collegiate shooting athletes train under specialized coaches utilizing precision rifles. |
 
-**Counselor Verification Standard (Req 3):** Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Rifle Shooting Requirement 3 (shooting sports careers and lifelong hobbies) before signing the blue card.
+**Counselor Verification Standard (Req 3):** Scout must individually identify mastery of Requirement 3 to the Merit Badge Counselor.

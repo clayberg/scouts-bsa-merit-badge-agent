@@ -52,7 +52,7 @@
 - **Common Myth:** Any item costing more than fifty dollars qualifies as a major family expense.
 - **Pamphlet Fact:** A major expense represents a significant outlay relative to total household annual income.
 
-![Technical diagram of major expense assessment principles and field relationships in Personal Management (Requirement 1).](/assets/pamphlet_images/personal_management_p003_img1.png)
+![Cutaway visual diagram illustrating major expense assessment structure and components for Personal Management.](/assets/pamphlet_images/personal_management_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -138,7 +138,7 @@
 - **Common Myth:** Budgets only need to record fixed recurring income rather than variable earnings.
 - **Pamphlet Fact:** An effective personal budget accounts for fluctuating seasonal gifts alongside predictable weekly wages.
 
-![Technical diagram of weekly budget construction principles and field relationships in Personal Management (Requirement 2).](/assets/pamphlet_images/personal_management_p007_img1.png)
+![Cutaway visual diagram illustrating weekly budget construction structure and components for Personal Management.](/assets/pamphlet_images/personal_management_p007_img1.png)
 
 | 13-Week Budget Period / Category | Projected Income & Allowance ($) | Actual Expenses: Needs vs. Wants ($) | Net Savings & Budget Variance ($) |
 | :--- | :--- | :--- | :--- |
@@ -241,7 +241,7 @@
 - **Common Myth:** Receiving unexpected money always leads to responsible allocation into long term savings accounts.
 - **Pamphlet Fact:** Unchecked excitement upon getting money often triggers instant gratification spending on fleeting luxuries.
 
-![Technical diagram of emotional receipt response principles and field relationships in Personal Management (Requirement 3).](/assets/pamphlet_images/personal_management_p012_img1.png)
+![Cutaway visual diagram illustrating emotional receipt response structure and components for Personal Management.](/assets/pamphlet_images/personal_management_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -52,7 +52,7 @@
 - **Common Myth:** Observing hazards only happen while using optical equipment rather than navigating the dark site.
 - **Pamphlet Fact:** Tripping over equipment in low light causes common injuries during nighttime observing sessions.
 
-![Technical diagram of red light discipline principles and field relationships in Astronomy (Requirement 1).](/assets/pamphlet_images/astronomy_p003_img1.png)
+![Cutaway visual diagram illustrating red light discipline structure and components for Astronomy.](/assets/pamphlet_images/astronomy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -158,7 +158,7 @@
 - **Common Myth:** Binoculars lack sufficient optical power to display astronomical targets like the lunar surface.
 - **Pamphlet Fact:** Binoculars offer wide field stereoscopic viewing ideal for sweeping extended open star clusters.
 
-![Technical diagram of aperture light gathering principles and field relationships in Astronomy (Requirement 1).](/assets/pamphlet_images/astronomy_p012_img1.png)
+![Cutaway visual diagram illustrating aperture light gathering structure and components for Astronomy.](/assets/pamphlet_images/astronomy_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

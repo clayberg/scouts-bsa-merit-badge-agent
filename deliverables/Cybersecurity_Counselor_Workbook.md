@@ -56,7 +56,7 @@
 - **Common Myth:** Digital safety videos are strictly intended for adults rather than active youth users.
 - **Pamphlet Fact:** Viewing mandatory youth protection modules provides baseline rules for identifying suspicious digital interactions.
 
-![Technical diagram of digital footprint retention principles and field relationships in Cybersecurity (Requirement 1).](/assets/pamphlet_images/cybersecurity_p003_img1.png)
+![Cutaway visual diagram illustrating digital footprint retention structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -117,7 +117,7 @@
 - **Common Myth:** Online anonymity removes personal accountability for hurtful commentary posted on public message boards.
 - **Pamphlet Fact:** Kindness and courtesy online require treating remote users with dignity and constructive speech.
 
-![Technical diagram of digital trust principles principles and field relationships in Cybersecurity (Requirement 2).](/assets/pamphlet_images/cybersecurity_p007_img1.png)
+![Cutaway visual diagram illustrating digital trust principles structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -164,7 +164,7 @@
 - **Common Myth:** Automobiles run entirely on mechanical linkages without containing exploitable internal digital networks.
 - **Pamphlet Fact:** Modern vehicle engine management units and navigation clusters represent vulnerable networked computer systems.
 
-![Technical diagram of critical infrastructure defense principles and field relationships in Cybersecurity (Requirement 3).](/assets/pamphlet_images/cybersecurity_p012_img1.png)
+![Cutaway visual diagram illustrating critical infrastructure defense structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -212,7 +212,7 @@
 - **Common Myth:** Software flaws become active threats automatically before any attacker writes functional exploit code.
 - **Pamphlet Fact:** A vulnerability is an unpatched flaw, whereas an exploit is code triggering it.
 
-![Technical diagram of vulnerability exploitation mechanics principles and field relationships in Cybersecurity (Requirement 4).](/assets/pamphlet_images/cybersecurity_p004_img1.png)
+![Cutaway visual diagram illustrating vulnerability exploitation mechanics structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -347,7 +347,7 @@
 - **Common Myth:** Installing antivirus software eliminates the operational need for running network boundary firewalls.
 - **Pamphlet Fact:** Firewalls inspect incoming traffic packets against defined rule sets to filter unauthorized connections.
 
-![Technical diagram of firewall packet filtering principles and field relationships in Cybersecurity (Requirement 5).](/assets/pamphlet_images/cybersecurity_p005_img1.png)
+![Cutaway visual diagram illustrating firewall packet filtering structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -566,7 +566,7 @@
 - **Common Myth:** Symmetric encryption algorithms require two separate keys for encryption and decryption procedures.
 - **Pamphlet Fact:** End-to-end messaging encryption ensures only communicating endpoints possess keys to read transmitted text.
 
-![Technical diagram of asymmetric key handshake principles and field relationships in Cybersecurity (Requirement 6).](/assets/pamphlet_images/cybersecurity_p006_img1.png)
+![Cutaway visual diagram illustrating asymmetric key handshake structure and components for Cybersecurity.](/assets/pamphlet_images/cybersecurity_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -712,7 +712,7 @@
 - **Common Myth:** Youth cybersecurity competitions require advanced computer programming and software development experience upfront.
 - **Pamphlet Fact:** CyberPatriot challenges high school and middle school teams to secure simulated commercial networks.
 
-![Instructional Cybersecurity visual for Requirement 8 illustrating Information Assurance Four Pillars Model with labeled components and safety checkpoints.](/assets/ai_illustrations/cybersecurity_req_8_topic_visual.png)
+![Instructional Cybersecurity visual for illustrating Information Assurance Four Pillars Model with labeled components and safety checkpoints.](/assets/ai_illustrations/cybersecurity_req_8_topic_visual.png)
 
 | Req 8a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

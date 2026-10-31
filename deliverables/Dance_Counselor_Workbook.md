@@ -1,8 +1,8 @@
 # Dance Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** 
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
+**Official Pamphlet PDF:** https://www.scouting.org/skills/merit-badges/test-lab/dance/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/dance/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -26,8 +26,8 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Preventing Injury. Do the following: (a) Explain to your counselor how you can prevent injuries while participating in dancing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what you need to take into consideration before trying potentially dangerous moves including but not limited to jumps, flips, and lifts. (b) Explain to your counselor how to appropriately warm-up prior to dancing activities to protect joints and prevent injury. Demonstrate three dance warm-ups. (c) Show that you know first aid for injuries that could occur while dancing, including cuts, scratches, abrasions, concussions, blisters, sprains, stress fractures, tendonitis, and back injuries. (d) Explain the importance of wearing the right clothing and gear for dance, including appropriate footwear.
-- [ ] **Station Req 5:** Learn and Perform a Dance. Do the following: (a) Learn a dance. Use at least THREE types of warm-ups prior to your routine to prepare different muscle groups for the exercise. The dance may be solo, group, or partner dance and can use a memorized choreographed routine or an improvised dance. It should be a minimum of 2 minutes long or several shorter dances that add up to at least 2 minutes. The dance should demonstrate at least three different dance moves/steps and should contain music with Scout-appropriate lyrics, if applicable. (b) Perform the dance for your counselor or submit a video of your performance to your counselor. Describe to your counselor what precautions you took to avoid injury before and during your performance. Name or describe the 3 different dance moves that you learned, the 3 different warm-ups you chose, and the 5 Elements of Dance in your routine.
+- [ ] **Station Req 1:** Scout must individually explain mastery of Requirement 1 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually demonstrate mastery of Requirement 5 to the Merit Badge Counselor.
 
 ## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics
 
@@ -49,7 +49,7 @@
 - **Common Myth:** Dancers can rely entirely on natural flexibility without conditioning to avoid acute injuries.
 - **Pamphlet Fact:** Proper conditioning, spatial awareness, and scheduled hydration breaks significantly mitigate acute dancing injuries.
 
-![Dynamic Preparation diagram illustrating how active mobility exercises raise core body temperature and improve joint muscle elasticity.](/assets/pamphlet_images/dance_p003_img1.png)
+![Technical diagram of dynamic preparation principles and field relationships in Dance (Requirement 1).](/assets/pamphlet_images/dance_p003_img1.png)
 
 | Condition / Emergency | Recognizable Signs & Symptoms | Step-by-Step First-Aid Care | Field Prevention Standard |
 | :--- | :--- | :--- | :--- |
@@ -125,14 +125,14 @@
 - **Common Myth:** Dance elements only apply to classical theatrical ballet rather than social or street styles.
 - **Pamphlet Fact:** The five core dance elements combine in varying proportions across every traditional and contemporary genre.
 
-![Somatic Body diagram illustrating how dancers articulate specific muscle groups and skeletal structures with deliberate somatic control.](/assets/pamphlet_images/dance_p007_img1.png)
+![Technical diagram of somatic body principles and field relationships in Dance (Requirement 2).](/assets/pamphlet_images/dance_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Elements of Dance.** | Somatic Body: Dancers articulate specific muscle groups and skeletal structures with deliberate somatic control. | Verify specific field notes / demonstration |
 | **2. Describe the 5 Elements of dance: Body, Action (Relationships), Space, Time, and Energy.** | Spatial Awareness: Moving along varied pathways, orientations, and levels creates complex visual choreography patterns. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2):** Check that the Scout describes each required detail accurately with supporting notes in their workbook for Dance Requirement 2 (the five core dance elements) before signing the blue card.
+**Counselor Verification Standard (Req 2):** Scout must individually describe mastery of Requirement 2 to the Merit Badge Counselor.
 
 ### Requirement 3 Section: Global Dance Style Survey
 **Parent Directive (3):** Styles of Dance. Name and briefly describe SIX types or styles of dancing from the following list, noting if this is a dance that may be performed alone, if the dance generally requires a partner or group, or if it could be either a solo or partner dance. (a) Acrobatics/Acro Dance (b) Aerial (Silks, Hoop, etc.) (c) Ballet (d) Ballroom dances (e) Breakdancing (f) Clogging (g) Contemporary/Modern dance (h) Country-Western (i) Folk & Traditional/Cultural (j) Hip Hop (k) Jazz (l) Latin dances (m) Square dances (n) Swing dance (o) Tap dance
@@ -429,7 +429,7 @@
 - **Common Myth:** Most popular dance styles originated spontaneously within the modern United States media landscape.
 - **Pamphlet Fact:** Dance styles migrate across international borders through human travel, trade, and cultural preservation.
 
-![Historical Lineage diagram illustrating how tracing dance migration reveals how cultural traditions evolved across new global communities.](/assets/pamphlet_images/dance_p004_img1.png)
+![Technical diagram of historical lineage principles and field relationships in Dance (Requirement 4).](/assets/pamphlet_images/dance_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -559,7 +559,7 @@
 - **Common Myth:** One quick wrist shake constitutes a complete warmup for high energy dance choreography.
 - **Pamphlet Fact:** Targeted warmups activate motor units and lubricate articular cartilage across specific targeted regions.
 
-![Phased Rehearsals diagram illustrating how breaking choreography into small musical counts ensures accurate technical memory retention.](/assets/pamphlet_images/dance_p005_img1.png)
+![Technical diagram of phased rehearsals principles and field relationships in Dance (Requirement 5).](/assets/pamphlet_images/dance_p005_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -660,5 +660,4 @@
 | **2. Data Integrity** | Data Integrity: Complete survey responses provide measurable metrics on requirement clarity and workshop effectiveness. | Verify specific field notes / demonstration |
 | **3. Curriculum Enhancement** | Curriculum Enhancement: Student reflections highlight hands on exercises that best reinforce essential safety concepts. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 7):** Review the Scout's completed workbook entries and practical mastery for Dance Requirement 7 (test lab feedback and evaluation) before signing the blue card.
-))))
+**Counselor Verification Standard (Req 7):** Scout must individually complete mastery of Requirement 7 to the Merit Badge Counselor.
