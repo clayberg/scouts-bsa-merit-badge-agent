@@ -1,6 +1,6 @@
 # First Aid Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/First%20Aid.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/first-aid/
 
@@ -608,7 +608,7 @@
 - **Common Myth:** Tilting the head back during a nosebleed stops bleeding by sending blood back inward.
 - **Pamphlet Fact:** Pinching the soft nostrils while leaning forward prevents blood from draining into the stomach.
 
-![Uniformed Scout leader wearing blue nitrile gloves applying firm direct pressure with a sterile gauze pad over a forearm wound beside a stocked trail first-aid.](/assets/pamphlet_images/first_aid_p023_img1.png)
+![Uniformed Scout kneeling beside an injured hiker wrapped in a reflective emergency thermal blanket on a mountain trail to prevent shock.](/assets/pamphlet_images/first_aid_p023_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |

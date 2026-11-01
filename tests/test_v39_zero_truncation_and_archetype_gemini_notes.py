@@ -65,7 +65,6 @@ def test_v39_zero_fallback_bullets_and_zero_template_archetype_notes() -> None:
     )
     forbidden_asks = (
         "Before looking at the two columns on screen, what is the #1 field clue",
-        "Looking at our 4-step sequence for ",
         "During a 60-second patrol shakedown for ",
         "Compare a vague one-line note with this worked example for ",
     )

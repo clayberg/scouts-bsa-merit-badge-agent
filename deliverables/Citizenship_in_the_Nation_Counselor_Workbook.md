@@ -1,6 +1,6 @@
 # Citizenship in the Nation Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Citizenship%20in%20the%20Nation.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/citizenship-nation/
 

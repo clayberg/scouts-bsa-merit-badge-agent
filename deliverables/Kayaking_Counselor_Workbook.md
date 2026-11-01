@@ -1,8 +1,8 @@
 # Kayaking Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Kayaking.pdf  
-**Digital Resource Guide (DRG):** 
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/kayaking/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/kayaking/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -15,7 +15,7 @@
 | **1** | Req 1: Kayaking Safety and Hazard Management | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **2** | Req 2: Swimmer Classification Test Requirement | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 11, p. 37) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Personal Flotation and Safety Equipment | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Kayak Characteristics and Care Fundamentals | Name | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Kayak Characteristics and Care Fundamentals | Review | `In-Class Discussion` | **In-Class Concept** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **5** | Req 5: Double Bladed Paddle Mechanics | Discuss | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **6** | Req 6: Capsizing Recoveries and Assisted Rescues | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **7** | Req 7: Fundamental Kayak Stroke Mechanics | Demonstrate | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77) | `[ ____ / ____ / 2026 ]  Init: ____` |
@@ -27,11 +27,11 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 3:** Do the following: (a) Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking. (b) Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.
-- [ ] **Station Req 5:** Discuss the following: (a) Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and maintenance of a paddle
-- [ ] **Station Req 6:** Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following: (a) Safely capsize and perform a wet exit. (b) Reenter the kayak with assistance from a buddy boat. (c) Demonstrate a kayak-over-kayak rescue. (d) Demonstrate the HELP position. (e) Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed.
-- [ ] **Station Req 7:** As a solo paddler, use a properly equipped kayak to demonstrate the following: (a) Forward stroke (b) Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw
-- [ ] **Station Req 8:** As a solo paddler, use a properly equipped kayak to demonstrate the following: (a) Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak. (b) Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths. (c) Move abeam to the right 10 feet and to the left 10 feet. (d) Stop the boat in one boat length. (e) While maintaining forward motion, turn the kayak 90 degrees to the right and left. (f) Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes. (g) Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart.
+- [ ] **Station Req 3:** Scout must individually demonstrate mastery of Requirement 3 to the Merit Badge Counselor.
+- [ ] **Station Req 5:** Scout must individually discuss mastery of Requirement 5 to the Merit Badge Counselor.
+- [ ] **Station Req 6:** Scout must individually explain mastery of Requirement 6 to the Merit Badge Counselor.
+- [ ] **Station Req 7:** Scout must individually demonstrate mastery of Requirement 7 to the Merit Badge Counselor.
+- [ ] **Station Req 8:** Scout must individually demonstrate mastery of Requirement 8 to the Merit Badge Counselor.
 
 ## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics
 
@@ -53,7 +53,7 @@
 - **Common Myth:** Small river dams are safe to paddle over during normal water flow.
 - **Pamphlet Fact:** Low head dams create powerful reverse roller currents that trap kayaks beneath the surface.
 
-![Weather Assessment diagram illustrating how check local barometric trends and lightning forecast before launching on water.](/assets/pamphlet_images/kayaking_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of weather assessment used in Kayaking.](/assets/pamphlet_images/kayaking_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -120,14 +120,14 @@
 - **Common Myth:** Paddlers wearing life jackets do not need to pass aquatics swimming tests.
 - **Pamphlet Fact:** The jump into deep water proves a swimmer can handle disorienting accidental immersion.
 
-![Entry Assessment diagram illustrating how jump feet first into water over head height and surface easily.](/assets/pamphlet_images/kayaking_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of entry assessment used in Kayaking.](/assets/pamphlet_images/kayaking_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Before doing requirements 3 through 8, successfully complete the Scouting America swimmer test.** | Entry Assessment: Jump feet first into water over head height and surface easily. | Verify specific field notes / demonstration |
 | **2. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.** | Stroke Distance: Complete one hundred yards continuously with seventy five yards strong stroke. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 2):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Kayaking Requirement 2 (swimmer test and fitness qualification) before signing the blue card.
+**Counselor Verification Standard (Req 2):** Scout must individually explain mastery of Requirement 2 to the Merit Badge Counselor.
 
 ### Requirement 3 Section: Personal Flotation and Safety Equipment
 **Parent Directive (3):** Do the following:
@@ -147,7 +147,7 @@
 - **Common Myth:** Bulky offshore Type I life jackets are ideal for maneuvering nimble recreational kayaks.
 - **Pamphlet Fact:** Type III life jackets offer freedom of arm rotation needed for continuous paddling.
 
-![Jacket Fitting diagram illustrating how tighten side adjustment straps from waist upward to ensure snug torso contact.](/assets/pamphlet_images/kayaking_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of jacket fitting used in Kayaking.](/assets/pamphlet_images/kayaking_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -201,7 +201,7 @@
 | **2. Req 4a Step-by-Step Procedure, Safety & Equipment Criteria** | Step 1 - Component Identification: Point out the bow, stern, port, starboard, cockpit, and seat back. | Verify specific field notes / demonstration |
 | **3. Req 4a Practical Example & Counselor Conference Verification** | Step 2 - Hull Comparison: Contrast the wide beam of recreational hulls against narrow touring kayak designs. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 4a):** Scout must individually name Requirement 4a (Name and point out the major parts of a kayak) to the Counselor.
+**Counselor Verification Standard (Req 4a):** Scout must individually review Requirement 4a (Name and point out the major parts of a kayak) to the Counselor.
 
 #### Req 4b: Kayak Design and Hull Dynamics
 **Official Requirement 4b:** Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type.
@@ -215,9 +215,9 @@
 | Comparison Dimension | Long Straight-Tracking Touring Kayaks | Short High-Rocker Whitewater Kayaks |
 | :--- | :--- | :--- |
 | **1. Review the differences in the design between recreational, white water, and sea or touring kayaks.** | Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking. | Verify specific field notes / demonstration |
-| **2. Include how length, width, stability, and rocker are involved in the design of each type.** | Scout must individually name Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how ) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Include how length, width, stability, and rocker are involved in the design of each type.** | Scout must individually review Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how ) to the Counselor. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 4b):** Scout must individually name Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how ) to the Counselor.
+**Counselor Verification Standard (Req 4b):** Scout must individually review Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how ) to the Counselor.
 
 #### Req 4c: Kayak Storage and Hull Maintenance
 **Official Requirement 4c:** Explain the care, maintenance, and storage of a kayak.
@@ -231,10 +231,10 @@
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 4c Core Concept, Definition & Pamphlet Standard** | Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps. | Verify specific field notes / demonstration |
-| **2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually name Requirement 4c (Explain the care, maintenance, and storage of a kayak) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 4c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually review Requirement 4c (Explain the care, maintenance, and storage of a kayak) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 4c Practical Example & Counselor Conference Verification** | Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 4c):** Scout must individually name Requirement 4c (Explain the care, maintenance, and storage of a kayak) to the Counselor.
+**Counselor Verification Standard (Req 4c):** Scout must individually review Requirement 4c (Explain the care, maintenance, and storage of a kayak) to the Counselor.
 
 ### Requirement 5 Section: Double Bladed Paddle Mechanics
 **Parent Directive (5):** Discuss the following:

@@ -1,6 +1,6 @@
 {
   "manifest_version": "1.0.0",
-  "generated_at_utc": "2026-10-30T21:39:21.137870+00:00",
+  "generated_at_utc": "2026-11-01T03:00:19.684972+00:00",
   "total_curated_visual_assets": 5625,
   "total_official_merit_badges": 149,
   "builtin_pptx_templates": 29,
@@ -10,14 +10,14 @@
   "deployment_note": "The full 1.2 GB assets/ directory (5,625 PNG visual assets, 149 BSA Pamphlet PDFs, 29 PowerPoint templates, and 26 washed watercolor backdrops) is present in the live workspace and baked into the Argolis Cloud Run Docker container image (Dockerfile COPY assets/ ./assets/). The standalone go/capstone-app submission bundle omits bulk binary PNG/PDF media to satisfy the portal's < 30 MB upload cap (MAX_BUNDLE_SIZE_MB = 30).",
   "category_breakdown": {
     "ai_illustrations": {
-      "file_count": 2792,
-      "total_bytes": 628752544,
-      "total_mb": 599.63
+      "file_count": 2798,
+      "total_bytes": 619790958,
+      "total_mb": 591.08
     },
     "pamphlet_images": {
       "file_count": 2815,
-      "total_bytes": 296410879,
-      "total_mb": 282.68
+      "total_bytes": 296714455,
+      "total_mb": 282.97
     },
     "badge_emblems": {
       "file_count": 152,
@@ -30,9 +30,9 @@
       "total_mb": 16.0
     },
     "templates": {
-      "file_count": 140,
-      "total_bytes": 34769641,
-      "total_mb": 33.16
+      "file_count": 139,
+      "total_bytes": 38815598,
+      "total_mb": 37.02
     },
     "construction_anim": {
       "file_count": 15,
@@ -50,14 +50,14 @@
     {
       "category": "ai_illustrations",
       "rel_path": "assets/ai_illustrations/action_sports_req_1_topic_visual.png",
-      "size_bytes": "261634",
-      "sha256": "ce3dfc30ce855742aee99b56105babd6adc02eb63f67a76b513a719204a75cba"
+      "size_bytes": "261578",
+      "sha256": "0628248f25e9979b62fd118f8f6f707b6dbcdce078b0610840fdedb0e77bc82e"
     },
     {
       "category": "ai_illustrations",
       "rel_path": "assets/ai_illustrations/action_sports_req_2_nano_hero.png",
-      "size_bytes": "248686",
-      "sha256": "268dd6c078cbcb6de16c7d698413319b5d60119d24bc08d5987f3102212022d1"
+      "size_bytes": "248623",
+      "sha256": "fd99911f0636b2bd1d5b6b21bd774e8f7d83f5d7abe5afcbfbeb07973ba46ac4"
     },
     {
       "category": "pamphlet_images",

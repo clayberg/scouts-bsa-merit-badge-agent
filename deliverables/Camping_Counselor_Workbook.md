@@ -1,6 +1,6 @@
 # Camping Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Counselor:** Scoutmaster Alex Chen (Troop 344, Golden Gate Area Council) - `alex.chen@troop344.org`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Camping.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/camping/
 
@@ -56,7 +56,7 @@
 - **Common Myth:** Campers assume wild animals only enter campsites if food remains unattended inside cooking kettles.
 - **Pamphlet Fact:** Micro-scents on unwashed clothing or scented lip balm attract bears and rodents into tents.
 
-![Cutaway visual diagram illustrating hypothermia prevention structure and components for Camping.](/assets/pamphlet_images/camping_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of hypothermia prevention used in Camping.](/assets/pamphlet_images/camping_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -119,7 +119,7 @@
 - **Common Myth:** Scouts think burying apple cores and food scraps protects wilderness ecosystems from trash accumulation.
 - **Pamphlet Fact:** Organic food scraps attract opportunistic wildlife and take years to decompose in cold climates.
 
-![Cutaway visual diagram illustrating durable surface travel structure and components for Camping.](/assets/pamphlet_images/camping_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of durable surface travel used in Camping.](/assets/pamphlet_images/camping_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -147,7 +147,7 @@
 - **Common Myth:** Beginners believe a compass needle always points toward true geographic North Pole coordinates.
 - **Pamphlet Fact:** Magnetic needles align toward Earth's magnetic north pole, which shifts from true geographic north.
 
-![Cutaway visual diagram illustrating contour line analysis structure and components for Camping.](/assets/pamphlet_images/camping_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of contour line analysis used in Camping.](/assets/pamphlet_images/camping_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
