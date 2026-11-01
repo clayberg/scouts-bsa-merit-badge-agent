@@ -1342,10 +1342,6 @@ def get_slide_beautifier_agent(model_name: Optional[str] = None) -> adk.Agent:
 
 
 _V44_CURATED_CAPTIONS: Dict[str, str] = {
-    "first_aid_p023_img1.png": (
-        "Uniformed Scout leader wearing blue nitrile gloves applying firm direct pressure with a sterile gauze pad "
-        "over a forearm wound beside a stocked trail first-aid kit."
-    ),
     "first_aid_mental_health_support_nano.png": (
         "Two adult Scout leaders sitting calmly on a pine camp bench offering attentive peer listening, reassurance, "
         "and a warm drink to support a stressed hiker."
@@ -1436,6 +1432,34 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
         "Waterfront instructors in buckled USCG life jackets on a sunny camp dock demonstrating reaching pole rescue, "
         "ring buoy throw line readiness, and rowboat safety."
     ),
+    "first_aid_p023_img1.png": (
+        "Uniformed Scout kneeling beside an injured hiker wrapped in a reflective emergency thermal blanket on a mountain "
+        "trail to prevent shock."
+    ),
+    "first_aid_p085_img1.png": (
+        "North American raccoon, a common nocturnal wildlife reservoir for rabies virus transmission requiring immediate "
+        "soap-and-water wound washing and medical evaluation after any bite or scratch."
+    ),
+    "first_aid_req_5_topic_visual.png": (
+        "Two uniformed Scouts and an adult leader assisting a hiker seated on a trail bench using a handheld blue rescue "
+        "inhaler alongside an open first aid kit with an epinephrine auto-injector trainer."
+    ),
+    "first_aid_req_11_topic_visual.png": (
+        "Under a shaded canvas camp dining fly, a uniformed Scout applies a cool wet cloth to the forehead of a seated "
+        "hiker sipping water while a patrol mate prepares an insulated sleeping bag and warm layers."
+    ),
+    "citizenship_in_the_nation_p005_img1.png": (
+        "Turned hardwood courtroom gavel resting against its circular sound block, symbolizing impartial constitutional "
+        "justice and the rule of law."
+    ),
+    "citizenship_in_the_nation_p005_img2.png": (
+        "Uniformed Scout standing on the sunlit West Front lawn before the white marble dome of the United States Capitol "
+        "in Washington, D.C."
+    ),
+    "citizenship_in_the_nation_req_2_nano_hero.png": (
+        "Uniformed Scouts and neighbors greeting one another across a stone footbridge beside a brick schoolhouse and "
+        "library, with a classical courthouse, golden scales sculpture, and American flag across the green."
+    ),
     "emergency_preparedness_go_kit_nano.png": (
         "Organized 72-hour emergency preparedness pack flat-lay with hand-crank weather radio, headlamp, water filter, "
         "first-aid kit, whistle, thermal blanket, and spare batteries."
@@ -1460,8 +1484,14 @@ def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname
         flags=_v44_re.I,
     )
     cand = _v44_re.sub(
+        r"^Hands-on\s+(.+?)\s+demonstration\s+illustrating\s+(.+?)(?:\s+with\s+proper\s+field\s+technique.*)?[.!]?$",
+        r"Uniformed Scouts practicing \2 with organized patrol equipment and safety supervision.",
+        cand,
+        flags=_v44_re.I,
+    )
+    cand = _v44_re.sub(
         r"^Field\s+illustration\s+of\s+(.+?)\s+techniques\s+and\s+safety\s+practices\s+for\s+(.+?)\.?$",
-        r"Hands-on \2 demonstration illustrating \1 equipment and field posture.",
+        r"Uniformed Scouts practicing \1 with organized \2 equipment and safety checks.",
         cand,
         flags=_v44_re.I,
     )
@@ -1482,7 +1512,7 @@ def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname
     if len(cand) < 18:
         clean_t = str(slide_title or badge_name).split(":")[0]
         clean_t = _v44_re.sub(r"\b(?:Requirement|Req)s?\s+\d+[a-z0-9()\-]*", "", clean_t, flags=_v44_re.I).strip(" -,:;")
-        cand = f"Visual field guide scene showing {clean_t.lower()} equipment and practical technique for {badge_name}"
+        cand = f"Uniformed Scouts examining {clean_t.lower()} tools and safety steps at a {badge_name} station"
 
     cand = _v44_re.sub(r"\s+(?:and|or|with|for|in|of|to|on|at|by|from)$", "", cand, flags=_v44_re.I).strip(" .,:;-")
     if cand:

@@ -1,6 +1,6 @@
 # Weather Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Weather.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/weather/
 

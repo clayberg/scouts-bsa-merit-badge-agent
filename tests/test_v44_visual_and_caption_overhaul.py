@@ -57,22 +57,32 @@ EXPECTED_24_NANO_FILES = [
 
 
 def test_v44_all_24_new_nano_banana_images_installed_and_4x3() -> None:
-    """All 24 newly generated Nano Banana illustrations exist at exact 800x600 (4:3) dimensions."""
+    """All V44/V45 full-frame illustrations and restored authentic BSA pamphlet plates exist and are compressed."""
     for p in EXPECTED_24_NANO_FILES:
-        assert p.exists(), f"Missing newly generated Nano Banana image: {p}"
-        assert p.stat().st_size >= 25_000, f"Unexpectedly small PNG file ({p.stat().st_size} bytes): {p}"
+        assert p.exists(), f"Missing image: {p}"
+        assert p.stat().st_size >= 15_000, f"Unexpectedly small PNG file ({p.stat().st_size} bytes): {p}"
         with Image.open(p) as im:
-            assert im.size == (800, 600), f"Expected 800x600 (4:3) for {p.name}, got {im.size}"
+            if p.name == "first_aid_p023_img1.png":
+                # Restored genuine BSA First Aid pamphlet photograph (800x515) replacing severed-arm AI image
+                assert im.width == 800 and im.height >= 500, f"Unexpected size for {p.name}: {im.size}"
+            else:
+                assert im.size == (800, 600), f"Expected 800x600 (4:3) for {p.name}, got {im.size}"
 
 
 def test_v44_zero_formulaic_or_meta_requirement_captions_in_catalogs() -> None:
-    """Zero 'Field reference illustration', 'Official visual reference', or 'Requirement N' captions remain."""
+    """Zero formulaic ('Field reference', 'Hands-on demonstration', 'Cutaway visual diagram') or Requirement captions remain."""
     for cname in ("nano_banana_image_catalog.json", "pamphlet_image_catalog.json"):
         raw = json.loads((DATA_DIR / cname).read_text(encoding="utf-8"))
         for fname, entry in raw.items():
             cap = entry.get("caption", "") if isinstance(entry, dict) else str(entry)
             assert not re.search(r"\bField\s+(?:reference\s+)?illustration\s+(?:for|of)\b", cap, flags=re.I), (
                 f"Formulaic caption remains in {cname} [{fname}]: {cap}"
+            )
+            assert not re.search(r"\bHands-on\s+.+?\s+demonstration\s+illustrating\b", cap, flags=re.I), (
+                f"Hands-on template caption remains in {cname} [{fname}]: {cap}"
+            )
+            assert "Cutaway visual diagram illustrating" not in cap, (
+                f"Cutaway template caption remains in {cname} [{fname}]: {cap}"
             )
             assert not re.search(r"\bOfficial\s+.*?\s+visual\b", cap, flags=re.I), (
                 f"Official visual fallback remains in {cname} [{fname}]: {cap}"
