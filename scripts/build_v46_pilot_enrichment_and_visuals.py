@@ -349,7 +349,7 @@ PILOT_DOMAIN_BANK: Dict[str, Dict[str, Any]] = {
                 "req_number": "10",
                 "filename": "weather_diy_instruments_quadrant_v46_diagram.png",
                 "diagram_title": "Four Field Weather Instruments & Calibration Principles",
-                "caption": "Engineering calibration guide for building a wind vane, four-cup anemometer, graduated rain gauge, and human-hair hygrometer for Requirement 10a.",
+                "caption": "Engineering calibration guide for building a wind vane, four-cup anemometer, graduated rain gauge, and human-hair hygrometer.",
                 "rule_of_thumb": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
                 "nodes": [
                     ("Wind Vane (True North)", "Larger tail fin catches wind so pointer faces directly into incoming airflow; align with magnetic declination."),
@@ -489,7 +489,7 @@ PILOT_DOMAIN_BANK: Dict[str, Dict[str, Any]] = {
                 "req_number": "6",
                 "filename": "citizenship_nation_historic_speeches_v46_diagram.png",
                 "diagram_title": "Analyzing a Historic American Speech: Six-Part Framework",
-                "caption": "Structured analytical ladder for Requirement 6 covering speaker biography, historical crisis, core constitutional argument, national impact, and personal quote selection.",
+                "caption": "Structured analytical ladder covering speaker biography, historical crisis, core constitutional argument, national impact, and personal quote selection.",
                 "rule_of_thumb": "Great American speeches bridge the founding promises of 1776 and 1787 to an urgent national crisis.",
                 "nodes": [
                     ("1. Author & Historical Moment (6a-6b)", "Anchor the date, place, and national crossroads (e.g., Nov 19, 1863 Gettysburg or Aug 28, 1963 Lincoln Memorial)."),
@@ -572,7 +572,7 @@ PILOT_DOMAIN_BANK: Dict[str, Dict[str, Any]] = {
                 "req_number": "2",
                 "filename": "personal_management_13week_budget_v46_diagram.png",
                 "diagram_title": "13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants",
-                "caption": "Four-step zero-based personal budget pipeline for Requirement 2a tracking fixed obligations, Pay-Yourself-First savings, discretionary spending, and weekly variance checks.",
+                "caption": "Four-step zero-based personal budget pipeline tracking fixed obligations, Pay-Yourself-First savings, discretionary spending, and weekly variance checks.",
                 "rule_of_thumb": "Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
                 "nodes": [
                     ("1. Record Expected 13-Week Income", "List every predictable dollar: part-time job wages, lawn/babysitting earnings, and regular allowance."),

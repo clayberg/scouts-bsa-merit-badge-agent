@@ -1290,7 +1290,8 @@ def beautify_slide_storyboard(
             v46_item = v46_reqs_map.get(str(base_req_num)) if isinstance(v46_reqs_map, dict) else None
             if isinstance(v46_item, dict):
                 v46_conn_box = str(v46_item.get("real_world_connection_box") or "") or None
-                slide["real_world_connection_box"] = v46_conn_box
+                slide["v46_real_world_connection_box"] = v46_conn_box
+                slide["real_world_connection_box"] = None
                 slide["grounded_citation_label"] = str(v46_item.get("grounded_citation_label") or "") or None
                 slide["rule_of_thumb_mnemonic"] = str(v46_item.get("rule_of_thumb_mnemonic") or "")
                 slide["counselor_tabletop_demo"] = str(v46_item.get("counselor_tabletop_demo") or "")
@@ -1304,7 +1305,7 @@ def beautify_slide_storyboard(
             visual_theme=theme if theme != "STANDARD_CLEAN" else "MAGAZINE_ASYMMETRIC_SPLIT",  # type: ignore[arg-type]
             accent_palette_key=palette,  # type: ignore[arg-type]
             callout_badge_text=callout_badge[:32] if callout_badge else f"REQ {req_num}",
-            real_world_connection_box=v46_conn_box,
+            real_world_connection_box=None,
             ai_hero_image_prompt=ai_prompt,
             ai_hero_image_path=ai_path,
         )
