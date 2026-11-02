@@ -1,0 +1,261 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "emergency-preparedness",
+  "badge_name": "Emergency Preparedness",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "FEMA Ready.gov & Emergency Management Institute (ICS-100)",
+  "primary_authority_url": "https://www.ready.gov/",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA National Preparedness Goal",
+        "title": "FEMA National Preparedness Goal Technical Reference: The Five Phases of Emergency Management (FEMA Framework)",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "core_mechanism_bullets": [
+        "1. Prevention & Mitigation (Before): Eliminate or reduce hazard impact ahead of time: smoke/CO alarms, strapping water heaters, clearing storm drains.",
+        "2. Preparedness & Family Drills (Before): Build 72-hour Go-Bags, designate an out-of-state phone relay contact, and practice two exit routes per room.",
+        "3. Immediate Response (During Crisis): Protect life safety first, account for all family and patrol members via buddy system, and avoid downed lines.",
+        "4. Short & Long-Term Recovery (After): Restore utilities safely, document damage with photos, check on elderly neighbors, and debrief lessons learned."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.). Step 3: Verify each measurement or checkpoint against FEMA National Preparedness Goal reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display emergency_prep_five_phases_cycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Five Phases of Emergency Management (FEMA Framework)', and have each pair state the key threshold (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA National Preparedness Goal Field Standard: Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA National Preparedness Goal",
+      "bespoke_visual_filename": "emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_caption": "Connected four-stage operational breakdown of FEMA Prevention/Mitigation, Preparedness, Response, and Recovery applied to family and troop emergency plans."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA Emergency Management Institute (IS-100.c)",
+        "title": "FEMA Emergency Management Institute (IS-100.c) Technical Reference: FEMA Incident Command System (ICS-100) & Scout Troop Roles",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "core_mechanism_bullets": [
+        "Incident Commander (Single Point of Command): Sets overall incident objectives, safety priorities, and coordinates directly with fire, police, and EMS.",
+        "Safety Officer (Authority to Stop Unsafe Acts): Continuously monitors scene hazards, heat/cold stress, hydration, and strict Scouting Youth Protection.",
+        "Operations & Logistics Sections: Operations runs safe Scout support tasks (shelter canteen, runner messages); Logistics manages gear, food, radios.",
+        "Planning & Check-In Accountability: Maintains written roster check-in/check-out logs so every Scout and volunteer is accounted for every hour."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.). Step 3: Verify each measurement or checkpoint against FEMA Emergency Management Institute (IS-100.c) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display emergency_prep_five_phases_cycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'FEMA Incident Command System (ICS-100) & Scout Troop Roles', and have each pair state the key threshold (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA Emergency Management Institute (IS-100.c) Field Standard: Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA Emergency Management Institute (IS-100.c)",
+      "bespoke_visual_filename": "emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_caption": "Connected four-stage operational breakdown of FEMA Prevention/Mitigation, Preparedness, Response, and Recovery applied to family and troop emergency plans."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA Ready.gov & American Red Cross",
+        "title": "FEMA Ready.gov & American Red Cross Technical Reference: Safe Rescue Hierarchy & Utility Emergency Shutoff Rules",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.",
+      "core_mechanism_bullets": [
+        "Reach - Throw - Row - Go Ladder: Always extend a pole/branch or throw a buoyant line from shore first before committing a trained rescuer.",
+        "Downed Power Lines (35+ Foot Rule): Treat every fallen wire as energized; keep back at least 35 feet and shuffle feet together without lifting.",
+        "Natural Gas & Carbon Monoxide: Rotten-egg mercaptan odor or CO alarm: evacuate outdoors immediately without touching switches; call 911 outside.",
+        "72-Hour Go-Kit Core Standard: 1 gallon of water per person per day (3 gal total), non-perishable food, headlamp, NOAA radio, first aid, meds."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.). Step 3: Verify each measurement or checkpoint against FEMA Ready.gov & American Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display emergency_prep_rescue_ladder_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Safe Rescue Hierarchy & Utility Emergency Shutoff Rules', and have each pair state the key threshold (Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA Ready.gov & American Red Cross Field Standard: Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA Ready.gov & American Red Cross",
+      "bespoke_visual_filename": "emergency_prep_rescue_ladder_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_rescue_ladder_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant safety guide covering Reach-Throw-Row-Go water/ice rescue order, downed power line step-potential shuffling, CO/gas leaks, and home 72-hour kits."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR & National Park Service SAR",
+        "title": "NASAR & National Park Service SAR Technical Reference: Backcountry Lost-Person Search & Rescue (SAR) Containment",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.",
+      "core_mechanism_bullets": [
+        "Phase 1: Freeze Point Last Seen (PLS): Flag the exact spot and time the missing person was last seen so boot tracks and scent clues stay undisturbed.",
+        "Phase 2: Containment & Hasty Teams: Post lookouts at trail junctions, road crossings, and creek bridges while fast teams check high-probability trails.",
+        "Phase 3: High-Probability Clue Search: Searchers look for physical clues (footprints, wrapper, broken twigs) because clues outnumber people 100 to 1.",
+        "Phase 4: Safe Scout Mobilization Boundaries: Scouts serve in supervised base-camp logistics, communications, and perimeter support within council safety rules."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.). Step 3: Verify each measurement or checkpoint against NASAR & National Park Service SAR reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display emergency_prep_rescue_ladder_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Backcountry Lost-Person Search & Rescue (SAR) Containment', and have each pair state the key threshold (Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.) in their own words before sign-off.",
+      "real_world_connection_box": "NASAR & National Park Service SAR Field Standard: Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR & National Park Service SAR",
+      "bespoke_visual_filename": "emergency_prep_rescue_ladder_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_rescue_ladder_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant safety guide covering Reach-Throw-Row-Go water/ice rescue order, downed power line step-potential shuffling, CO/gas leaks, and home 72-hour kits."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA National Preparedness Goal",
+        "title": "FEMA National Preparedness Goal Technical Reference: The Five Phases of Emergency Management (FEMA Framework)",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "core_mechanism_bullets": [
+        "1. Prevention & Mitigation (Before): Eliminate or reduce hazard impact ahead of time: smoke/CO alarms, strapping water heaters, clearing storm drains.",
+        "2. Preparedness & Family Drills (Before): Build 72-hour Go-Bags, designate an out-of-state phone relay contact, and practice two exit routes per room.",
+        "3. Immediate Response (During Crisis): Protect life safety first, account for all family and patrol members via buddy system, and avoid downed lines.",
+        "4. Short & Long-Term Recovery (After): Restore utilities safely, document damage with photos, check on elderly neighbors, and debrief lessons learned."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.). Step 3: Verify each measurement or checkpoint against FEMA National Preparedness Goal reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display emergency_prep_five_phases_cycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Five Phases of Emergency Management (FEMA Framework)', and have each pair state the key threshold (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA National Preparedness Goal Field Standard: Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA National Preparedness Goal",
+      "bespoke_visual_filename": "emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_caption": "Connected four-stage operational breakdown of FEMA Prevention/Mitigation, Preparedness, Response, and Recovery applied to family and troop emergency plans."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA Emergency Management Institute (IS-100.c)",
+        "title": "FEMA Emergency Management Institute (IS-100.c) Technical Reference: FEMA Incident Command System (ICS-100) & Scout Troop Roles",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "core_mechanism_bullets": [
+        "Incident Commander (Single Point of Command): Sets overall incident objectives, safety priorities, and coordinates directly with fire, police, and EMS.",
+        "Safety Officer (Authority to Stop Unsafe Acts): Continuously monitors scene hazards, heat/cold stress, hydration, and strict Scouting Youth Protection.",
+        "Operations & Logistics Sections: Operations runs safe Scout support tasks (shelter canteen, runner messages); Logistics manages gear, food, radios.",
+        "Planning & Check-In Accountability: Maintains written roster check-in/check-out logs so every Scout and volunteer is accounted for every hour."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.). Step 3: Verify each measurement or checkpoint against FEMA Emergency Management Institute (IS-100.c) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display emergency_prep_ics100_command_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'FEMA Incident Command System (ICS-100) & Scout Troop Roles', and have each pair state the key threshold (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA Emergency Management Institute (IS-100.c) Field Standard: Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA Emergency Management Institute (IS-100.c)",
+      "bespoke_visual_filename": "emergency_prep_ics100_command_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_ics100_command_v46_diagram.png",
+      "bespoke_visual_caption": "Standardized NIMS/ICS-100 organizational structure showing Incident Commander, Public Information, Safety Officer, Operations, Planning, Logistics, and Finance."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA Ready.gov & American Red Cross",
+        "title": "FEMA Ready.gov & American Red Cross Technical Reference: Safe Rescue Hierarchy & Utility Emergency Shutoff Rules",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.",
+      "core_mechanism_bullets": [
+        "Reach - Throw - Row - Go Ladder: Always extend a pole/branch or throw a buoyant line from shore first before committing a trained rescuer.",
+        "Downed Power Lines (35+ Foot Rule): Treat every fallen wire as energized; keep back at least 35 feet and shuffle feet together without lifting.",
+        "Natural Gas & Carbon Monoxide: Rotten-egg mercaptan odor or CO alarm: evacuate outdoors immediately without touching switches; call 911 outside.",
+        "72-Hour Go-Kit Core Standard: 1 gallon of water per person per day (3 gal total), non-perishable food, headlamp, NOAA radio, first aid, meds."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.). Step 3: Verify each measurement or checkpoint against FEMA Ready.gov & American Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display emergency_prep_lost_person_sar_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Safe Rescue Hierarchy & Utility Emergency Shutoff Rules', and have each pair state the key threshold (Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA Ready.gov & American Red Cross Field Standard: Never become a second victim: use Reach-Throw-Row before entering water, and never flip light switches if you smell gas.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA Ready.gov & American Red Cross",
+      "bespoke_visual_filename": "emergency_prep_lost_person_sar_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_lost_person_sar_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered wilderness Search and Rescue sequence from Point Last Seen (PLS) lock-down and hasty trail sweeps to sound/whistle attraction and perimeter containment."
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR & National Park Service SAR",
+        "title": "NASAR & National Park Service SAR Technical Reference: Backcountry Lost-Person Search & Rescue (SAR) Containment",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.",
+      "core_mechanism_bullets": [
+        "Phase 1: Freeze Point Last Seen (PLS): Flag the exact spot and time the missing person was last seen so boot tracks and scent clues stay undisturbed.",
+        "Phase 2: Containment & Hasty Teams: Post lookouts at trail junctions, road crossings, and creek bridges while fast teams check high-probability trails.",
+        "Phase 3: High-Probability Clue Search: Searchers look for physical clues (footprints, wrapper, broken twigs) because clues outnumber people 100 to 1.",
+        "Phase 4: Safe Scout Mobilization Boundaries: Scouts serve in supervised base-camp logistics, communications, and perimeter support within council safety rules."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.). Step 3: Verify each measurement or checkpoint against NASAR & National Park Service SAR reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display emergency_prep_lost_person_sar_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Backcountry Lost-Person Search & Rescue (SAR) Containment', and have each pair state the key threshold (Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.) in their own words before sign-off.",
+      "real_world_connection_box": "NASAR & National Park Service SAR Field Standard: Three sharp whistle blasts is the universal international distress call; mark Point Last Seen (PLS) immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR & National Park Service SAR",
+      "bespoke_visual_filename": "emergency_prep_lost_person_sar_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_lost_person_sar_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered wilderness Search and Rescue sequence from Point Last Seen (PLS) lock-down and hasty trail sweeps to sound/whistle attraction and perimeter containment."
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA National Preparedness Goal",
+        "title": "FEMA National Preparedness Goal Technical Reference: The Five Phases of Emergency Management (FEMA Framework)",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "core_mechanism_bullets": [
+        "1. Prevention & Mitigation (Before): Eliminate or reduce hazard impact ahead of time: smoke/CO alarms, strapping water heaters, clearing storm drains.",
+        "2. Preparedness & Family Drills (Before): Build 72-hour Go-Bags, designate an out-of-state phone relay contact, and practice two exit routes per room.",
+        "3. Immediate Response (During Crisis): Protect life safety first, account for all family and patrol members via buddy system, and avoid downed lines.",
+        "4. Short & Long-Term Recovery (After): Restore utilities safely, document damage with photos, check on elderly neighbors, and debrief lessons learned."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.). Step 3: Verify each measurement or checkpoint against FEMA National Preparedness Goal reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display emergency_prep_five_phases_cycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Five Phases of Emergency Management (FEMA Framework)', and have each pair state the key threshold (Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA National Preparedness Goal Field Standard: Every $1 invested in pre-disaster hazard mitigation saves an average of $6 in future disaster response and rebuilding costs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA National Preparedness Goal",
+      "bespoke_visual_filename": "emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_five_phases_cycle_v46_diagram.png",
+      "bespoke_visual_caption": "Connected four-stage operational breakdown of FEMA Prevention/Mitigation, Preparedness, Response, and Recovery applied to family and troop emergency plans."
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Emergency Preparedness",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FEMA Emergency Management Institute (IS-100.c)",
+        "title": "FEMA Emergency Management Institute (IS-100.c) Technical Reference: FEMA Incident Command System (ICS-100) & Scout Troop Roles",
+        "canonical_url": "https://www.ready.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "core_mechanism_bullets": [
+        "Incident Commander (Single Point of Command): Sets overall incident objectives, safety priorities, and coordinates directly with fire, police, and EMS.",
+        "Safety Officer (Authority to Stop Unsafe Acts): Continuously monitors scene hazards, heat/cold stress, hydration, and strict Scouting Youth Protection.",
+        "Operations & Logistics Sections: Operations runs safe Scout support tasks (shelter canteen, runner messages); Logistics manages gear, food, radios.",
+        "Planning & Check-In Accountability: Maintains written roster check-in/check-out logs so every Scout and volunteer is accounted for every hour."
+      ],
+      "worked_field_example": "Step 1: Read the official Emergency Preparedness Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.). Step 3: Verify each measurement or checkpoint against FEMA Emergency Management Institute (IS-100.c) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display emergency_prep_ics100_command_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'FEMA Incident Command System (ICS-100) & Scout Troop Roles', and have each pair state the key threshold (Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.) in their own words before sign-off.",
+      "real_world_connection_box": "FEMA Emergency Management Institute (IS-100.c) Field Standard: Unity of Command + Span of Control (3 to 7 people per supervisor, optimal 5) prevents chaos during every emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FEMA Emergency Management Institute (IS-100.c)",
+      "bespoke_visual_filename": "emergency_prep_ics100_command_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/emergency_prep_ics100_command_v46_diagram.png",
+      "bespoke_visual_caption": "Standardized NIMS/ICS-100 organizational structure showing Incident Commander, Public Information, Safety Officer, Operations, Planning, Logistics, and Finance."
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "wilderness-survival",
+  "badge_name": "Wilderness Survival",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Forest Service & Mountain Rescue Association",
+  "primary_authority_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Forest Service & NOLS Wilderness Medicine",
+        "title": "U.S. Forest Service & NOLS Wilderness Medicine Technical Reference: S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "core_mechanism_bullets": [
+        "1. S - SIT Down Immediately & Breathe: Panic is the #1 wilderness killer; sit down for 5 full minutes, drink water, eat a snack, and calm your heart rate.",
+        "2. T - THINK Through Timeline & Assets: Inventory your Ten Essentials, daylight hours remaining before sunset, weather trend, and the trip plan left at home.",
+        "3. O - OBSERVE Terrain & Natural Shelter: Scan for wind-protected high dry ground away from widowmaker dead limbs, dry flash-flood washes, and avalanche chutes.",
+        "4. P - PLAN Before Dark (Rule of 3s): Prioritize (1) First Aid, (2) Insulated Shelter before dark (3 hr rule), (3) Fire & Water (3 day rule), (4) Distress Signals."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.). Step 3: Verify each measurement or checkpoint against U.S. Forest Service & NOLS Wilderness Medicine reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display wilderness_survival_stop_rule_of_3s_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)', and have each pair state the key threshold (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Forest Service & NOLS Wilderness Medicine Field Standard: Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Forest Service & NOLS Wilderness Medicine",
+      "bespoke_visual_filename": "wilderness_survival_stop_rule_of_3s_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_stop_rule_of_3s_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step backcountry survival decision hierarchy pairing Sit-Think-Observe-Plan (STOP) with physiological survival limits (3 minutes, 3 hours, 3 days, 3 weeks)."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Search & Rescue Task Force & NOLS",
+        "title": "U.S. Search & Rescue Task Force & NOLS Technical Reference: Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "core_mechanism_bullets": [
+        "Conduction (Direct Ground Contact): Insulate underneath first with 6 to 8 inches of compressed pine boughs, dry leaves, or a closed-cell foam pad.",
+        "Convection (Wind Stripping Warm Air): Pitch low A-frame debris hut perpendicular to wind with 3-foot leaf walls and zero unnecessary dead air volume.",
+        "Radiation (Infrared Loss from Head/Neck): An uncovered head and neck radiate up to 30 to 40 percent of resting body heat in freezing air; put on an insulated beanie.",
+        "Evaporation (Sweat & Wet Cotton): Cotton loses 90 percent of insulation when wet ('Cotton Kills'); ventilate layers while building shelter so you never soak base layers."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.). Step 3: Verify each measurement or checkpoint against U.S. Search & Rescue Task Force & NOLS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display wilderness_survival_heat_loss_shelter_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter', and have each pair state the key threshold (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Search & Rescue Task Force & NOLS Field Standard: Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Search & Rescue Task Force & NOLS",
+      "bespoke_visual_filename": "wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative heat-loss physics chart showing how ground insulation, windproof leaf walls, dry hats, and dry clothing block conduction, convection, radiation, and evaporation."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & ICAO Search and Rescue Manual",
+        "title": "U.S. Coast Guard & ICAO Search and Rescue Manual Technical Reference: Day & Night Distress Signals: Mirror Aiming & Ground Symbols",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.",
+      "core_mechanism_bullets": [
+        "Signal Mirror Finger-V Sight (10+ Miles): Hold mirror near chin, bounce sunlight onto outstretched V-fingers framing the distant aircraft, and wiggle flash across cockpit.",
+        "Universal 3-Blast Whistle Signal: A pealess 115 dB plastic whistle carries 1 to 2 miles with minimal energy long after shouting destroys your voice.",
+        "Three Signal Fires in a Triangle: Daytime: heap green pine boughs on hot flames for thick white smoke; Nighttime: burn dry crisp wood on an open ridge.",
+        "High-Contrast Ground Symbols (30+ Ft): Trample or lay 30-foot-tall letters (minimum 6:1 length-to-width ratio): V = Require Assistance, X = Require Medical Help."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.). Step 3: Verify each measurement or checkpoint against U.S. Coast Guard & ICAO Search and Rescue Manual reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display wilderness_survival_signals_mirror_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Day & Night Distress Signals: Mirror Aiming & Ground Symbols', and have each pair state the key threshold (Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Coast Guard & ICAO Search and Rescue Manual Field Standard: Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & ICAO Search and Rescue Manual",
+      "bespoke_visual_filename": "wilderness_survival_signals_mirror_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_signals_mirror_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant signaling field card showing the split-beam signal mirror peace-sign sight, 3-blast whistle code, smoky daytime vs. bright night fires, and ICAO V/X ground symbols."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC Backcountry Water Treatment Guide & EPA",
+        "title": "CDC Backcountry Water Treatment Guide & EPA Technical Reference: Backcountry Water Disinfection Methods & Pathogen Protection",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.",
+      "core_mechanism_bullets": [
+        "Method 1: Rolling Boil (Gold Standard): 1 full minute at sea level (3 minutes above 6,500 ft) neutralizes all viruses, bacteria, Giardia, and Cryptosporidium oocysts.",
+        "Method 2: 0.1-Micron Hollow-Fiber Filter: Physically strains out bacteria (E. coli, Salmonella) and protozoa (Giardia, Crypto) immediately; pair with drops if viruses suspected.",
+        "Method 3: Chlorine Dioxide Tablets: Effective against viruses, bacteria, and Giardia in 30 minutes (wait 4 hours in cold turbid water for Cryptosporidium).",
+        "Pre-Filter Turbid Water Through Bandana: Always pour cloudy creek water through a clean cloth first so sediment does not clog filter pores or shield microbes."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.). Step 3: Verify each measurement or checkpoint against CDC Backcountry Water Treatment Guide & EPA reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display wilderness_survival_water_purification_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Backcountry Water Disinfection Methods & Pathogen Protection', and have each pair state the key threshold (A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.) in their own words before sign-off.",
+      "real_world_connection_box": "CDC Backcountry Water Treatment Guide & EPA Field Standard: A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC Backcountry Water Treatment Guide & EPA",
+      "bespoke_visual_filename": "wilderness_survival_water_purification_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_water_purification_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered comparison of rolling-boil thermal sterilization, 0.1-micron hollow-fiber filtration, halogen chemical tablets, and UV light against viruses, bacteria, and Cryptosporidium."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Forest Service & NOLS Wilderness Medicine",
+        "title": "U.S. Forest Service & NOLS Wilderness Medicine Technical Reference: S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "core_mechanism_bullets": [
+        "1. S - SIT Down Immediately & Breathe: Panic is the #1 wilderness killer; sit down for 5 full minutes, drink water, eat a snack, and calm your heart rate.",
+        "2. T - THINK Through Timeline & Assets: Inventory your Ten Essentials, daylight hours remaining before sunset, weather trend, and the trip plan left at home.",
+        "3. O - OBSERVE Terrain & Natural Shelter: Scan for wind-protected high dry ground away from widowmaker dead limbs, dry flash-flood washes, and avalanche chutes.",
+        "4. P - PLAN Before Dark (Rule of 3s): Prioritize (1) First Aid, (2) Insulated Shelter before dark (3 hr rule), (3) Fire & Water (3 day rule), (4) Distress Signals."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.). Step 3: Verify each measurement or checkpoint against U.S. Forest Service & NOLS Wilderness Medicine reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display wilderness_survival_stop_rule_of_3s_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)', and have each pair state the key threshold (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Forest Service & NOLS Wilderness Medicine Field Standard: Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Forest Service & NOLS Wilderness Medicine",
+      "bespoke_visual_filename": "wilderness_survival_stop_rule_of_3s_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_stop_rule_of_3s_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step backcountry survival decision hierarchy pairing Sit-Think-Observe-Plan (STOP) with physiological survival limits (3 minutes, 3 hours, 3 days, 3 weeks)."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Search & Rescue Task Force & NOLS",
+        "title": "U.S. Search & Rescue Task Force & NOLS Technical Reference: Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "core_mechanism_bullets": [
+        "Conduction (Direct Ground Contact): Insulate underneath first with 6 to 8 inches of compressed pine boughs, dry leaves, or a closed-cell foam pad.",
+        "Convection (Wind Stripping Warm Air): Pitch low A-frame debris hut perpendicular to wind with 3-foot leaf walls and zero unnecessary dead air volume.",
+        "Radiation (Infrared Loss from Head/Neck): An uncovered head and neck radiate up to 30 to 40 percent of resting body heat in freezing air; put on an insulated beanie.",
+        "Evaporation (Sweat & Wet Cotton): Cotton loses 90 percent of insulation when wet ('Cotton Kills'); ventilate layers while building shelter so you never soak base layers."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.). Step 3: Verify each measurement or checkpoint against U.S. Search & Rescue Task Force & NOLS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display wilderness_survival_heat_loss_shelter_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter', and have each pair state the key threshold (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Search & Rescue Task Force & NOLS Field Standard: Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Search & Rescue Task Force & NOLS",
+      "bespoke_visual_filename": "wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative heat-loss physics chart showing how ground insulation, windproof leaf walls, dry hats, and dry clothing block conduction, convection, radiation, and evaporation."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & ICAO Search and Rescue Manual",
+        "title": "U.S. Coast Guard & ICAO Search and Rescue Manual Technical Reference: Day & Night Distress Signals: Mirror Aiming & Ground Symbols",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.",
+      "core_mechanism_bullets": [
+        "Signal Mirror Finger-V Sight (10+ Miles): Hold mirror near chin, bounce sunlight onto outstretched V-fingers framing the distant aircraft, and wiggle flash across cockpit.",
+        "Universal 3-Blast Whistle Signal: A pealess 115 dB plastic whistle carries 1 to 2 miles with minimal energy long after shouting destroys your voice.",
+        "Three Signal Fires in a Triangle: Daytime: heap green pine boughs on hot flames for thick white smoke; Nighttime: burn dry crisp wood on an open ridge.",
+        "High-Contrast Ground Symbols (30+ Ft): Trample or lay 30-foot-tall letters (minimum 6:1 length-to-width ratio): V = Require Assistance, X = Require Medical Help."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.). Step 3: Verify each measurement or checkpoint against U.S. Coast Guard & ICAO Search and Rescue Manual reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display wilderness_survival_signals_mirror_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Day & Night Distress Signals: Mirror Aiming & Ground Symbols', and have each pair state the key threshold (Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Coast Guard & ICAO Search and Rescue Manual Field Standard: Rule of Threes for Distress: 3 whistle blasts, 3 signal fires in a triangle, and a signal mirror flash visible 10+ miles to aircraft.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & ICAO Search and Rescue Manual",
+      "bespoke_visual_filename": "wilderness_survival_signals_mirror_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_signals_mirror_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant signaling field card showing the split-beam signal mirror peace-sign sight, 3-blast whistle code, smoky daytime vs. bright night fires, and ICAO V/X ground symbols."
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC Backcountry Water Treatment Guide & EPA",
+        "title": "CDC Backcountry Water Treatment Guide & EPA Technical Reference: Backcountry Water Disinfection Methods & Pathogen Protection",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.",
+      "core_mechanism_bullets": [
+        "Method 1: Rolling Boil (Gold Standard): 1 full minute at sea level (3 minutes above 6,500 ft) neutralizes all viruses, bacteria, Giardia, and Cryptosporidium oocysts.",
+        "Method 2: 0.1-Micron Hollow-Fiber Filter: Physically strains out bacteria (E. coli, Salmonella) and protozoa (Giardia, Crypto) immediately; pair with drops if viruses suspected.",
+        "Method 3: Chlorine Dioxide Tablets: Effective against viruses, bacteria, and Giardia in 30 minutes (wait 4 hours in cold turbid water for Cryptosporidium).",
+        "Pre-Filter Turbid Water Through Bandana: Always pour cloudy creek water through a clean cloth first so sediment does not clog filter pores or shield microbes."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.). Step 3: Verify each measurement or checkpoint against CDC Backcountry Water Treatment Guide & EPA reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display wilderness_survival_heat_loss_shelter_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Backcountry Water Disinfection Methods & Pathogen Protection', and have each pair state the key threshold (A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.) in their own words before sign-off.",
+      "real_world_connection_box": "CDC Backcountry Water Treatment Guide & EPA Field Standard: A rolling boil for 1 full minute (3 minutes above 6,500 ft elevation) kills 100 percent of viruses, bacteria, Giardia, and Cryptosporidium.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC Backcountry Water Treatment Guide & EPA",
+      "bespoke_visual_filename": "wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative heat-loss physics chart showing how ground insulation, windproof leaf walls, dry hats, and dry clothing block conduction, convection, radiation, and evaporation."
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Forest Service & NOLS Wilderness Medicine",
+        "title": "U.S. Forest Service & NOLS Wilderness Medicine Technical Reference: S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "core_mechanism_bullets": [
+        "1. S - SIT Down Immediately & Breathe: Panic is the #1 wilderness killer; sit down for 5 full minutes, drink water, eat a snack, and calm your heart rate.",
+        "2. T - THINK Through Timeline & Assets: Inventory your Ten Essentials, daylight hours remaining before sunset, weather trend, and the trip plan left at home.",
+        "3. O - OBSERVE Terrain & Natural Shelter: Scan for wind-protected high dry ground away from widowmaker dead limbs, dry flash-flood washes, and avalanche chutes.",
+        "4. P - PLAN Before Dark (Rule of 3s): Prioritize (1) First Aid, (2) Insulated Shelter before dark (3 hr rule), (3) Fire & Water (3 day rule), (4) Distress Signals."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.). Step 3: Verify each measurement or checkpoint against U.S. Forest Service & NOLS Wilderness Medicine reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display wilderness_survival_water_purification_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'S-T-O-P Protocol & Survival Priority Ladder (Rule of 3s)', and have each pair state the key threshold (Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Forest Service & NOLS Wilderness Medicine Field Standard: Remember S-T-O-P (Sit, Think, Observe, Plan) and the Rule of 3s: 3 hours without shelter in cold rain kills far faster than 3 days without water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Forest Service & NOLS Wilderness Medicine",
+      "bespoke_visual_filename": "wilderness_survival_water_purification_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_water_purification_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered comparison of rolling-boil thermal sterilization, 0.1-micron hollow-fiber filtration, halogen chemical tablets, and UV light against viruses, bacteria, and Cryptosporidium."
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Wilderness Survival",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Search & Rescue Task Force & NOLS",
+        "title": "U.S. Search & Rescue Task Force & NOLS Technical Reference: Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter",
+        "canonical_url": "https://www.fs.usda.gov/visit/know-before-you-go/if-you-get-lost"
+      },
+      "rule_of_thumb_mnemonic": "Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "core_mechanism_bullets": [
+        "Conduction (Direct Ground Contact): Insulate underneath first with 6 to 8 inches of compressed pine boughs, dry leaves, or a closed-cell foam pad.",
+        "Convection (Wind Stripping Warm Air): Pitch low A-frame debris hut perpendicular to wind with 3-foot leaf walls and zero unnecessary dead air volume.",
+        "Radiation (Infrared Loss from Head/Neck): An uncovered head and neck radiate up to 30 to 40 percent of resting body heat in freezing air; put on an insulated beanie.",
+        "Evaporation (Sweat & Wet Cotton): Cotton loses 90 percent of insulation when wet ('Cotton Kills'); ventilate layers while building shelter so you never soak base layers."
+      ],
+      "worked_field_example": "Step 1: Read the official Wilderness Survival Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.). Step 3: Verify each measurement or checkpoint against U.S. Search & Rescue Task Force & NOLS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display wilderness_survival_heat_loss_shelter_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stopping All Four Body Heat-Loss Mechanisms in an Emergency Shelter', and have each pair state the key threshold (Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. Search & Rescue Task Force & NOLS Field Standard: Cold damp ground steals heat 25x faster than still air via conduction: 6 inches of compressed dry leaves underneath beats 3 roof layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Search & Rescue Task Force & NOLS",
+      "bespoke_visual_filename": "wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/wilderness_survival_heat_loss_shelter_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative heat-loss physics chart showing how ground insulation, windproof leaf walls, dry hats, and dry clothing block conduction, convection, radiation, and evaporation."
+    }
+  }
+}

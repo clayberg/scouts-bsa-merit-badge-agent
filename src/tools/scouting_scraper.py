@@ -4504,6 +4504,43 @@ _CURATED_TO_OFFICIAL_REQ_MAP: Dict[str, Dict[str, str]] = {
 }
 
 
+_V46_DEEP_RESEARCH_OVERLAY_MEMO: Dict[str, Dict[str, Any]] = {}
+
+
+def _load_v46_deep_research_overlay(badge_name: str) -> Dict[str, Any]:
+    """Load pre-verified V46 Deep Research requirement overlays from data/v46_deep_research_cache/<slug>.json."""
+    import json as _json
+    import re as _re
+    from pathlib import Path as _Path
+
+    slug = _re.sub(r"[^a-z0-9]+", "-", str(badge_name or "").strip().lower()).strip("-")
+    if slug in _V46_DEEP_RESEARCH_OVERLAY_MEMO:
+        return _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug]
+    cache_path = _Path(__file__).resolve().parents[2] / "data" / "v46_deep_research_cache" / f"{slug}.json"
+    if cache_path.exists():
+        try:
+            payload = _json.loads(cache_path.read_text(encoding="utf-8"))
+            if isinstance(payload, dict):
+                _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = payload
+                return payload
+        except Exception:
+            pass
+    _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = {}
+    return {}
+
+
+def _enrich_req_dict_with_v46_overlay(req_d: Dict[str, Any], v46_entry: Optional[Dict[str, Any]]) -> None:
+    if not isinstance(v46_entry, dict):
+        return
+    req_d["v46_enrichment"] = dict(v46_entry)
+    req_d["real_world_connection_box"] = v46_entry.get("real_world_connection_box")
+    req_d["grounded_citation_label"] = v46_entry.get("grounded_citation_label")
+    req_d["rule_of_thumb_mnemonic"] = v46_entry.get("rule_of_thumb_mnemonic")
+    req_d["counselor_tabletop_demo"] = v46_entry.get("counselor_tabletop_demo")
+    req_d["v46_bespoke_visual_url"] = v46_entry.get("bespoke_visual_url")
+    req_d["v46_bespoke_visual_caption"] = v46_entry.get("bespoke_visual_caption")
+
+
 def _merge_curated_with_official_requirements(
     badge_name: str,
     raw_reqs: List[Dict[str, Any]],
@@ -4531,9 +4568,12 @@ def _merge_curated_with_official_requirements(
                 if r.get(dict_key) and not existing.get(dict_key):
                     existing[dict_key] = r[dict_key]
 
+    v46_overlay = _load_v46_deep_research_overlay(badge_name)
+    v46_reqs = v46_overlay.get("requirements") if isinstance(v46_overlay, dict) else {}
     merged_reqs: List[Dict[str, Any]] = []
     for off_r in official_reqs:
         r_num = str(off_r.get("req_number", ""))
+        v46_entry = v46_reqs.get(r_num) if isinstance(v46_reqs, dict) else None
         if r_num in curated_by_num:
             c_req = dict(curated_by_num[r_num])
             m_req = dict(c_req)
@@ -4564,6 +4604,7 @@ def _merge_curated_with_official_requirements(
                 "homework_verification_note",
                 "workbook_diagram_url",
                 "workbook_diagram_caption",
+                "topic_slides",
             ):
                 if not m_req.get(fallback_k) and c_req.get(fallback_k):
                     m_req[fallback_k] = c_req[fallback_k]
@@ -4579,9 +4620,7 @@ def _merge_curated_with_official_requirements(
                     f"Req {r_num}:",
                     str(m_req["topic_title"]),
                 )
-            # Drop legacy static topic_slides from BENCHMARK_BADGES_DATA so decompose_requirement_into_topic_slides
-            # dynamically builds slides from the authoritative V36 official requirement data.
-            m_req.pop("topic_slides", None)
+            _enrich_req_dict_with_v46_overlay(m_req, v46_entry)
             merged_reqs.append(m_req)
         else:
             m_off = dict(off_r)
@@ -4589,6 +4628,7 @@ def _merge_curated_with_official_requirements(
             m_off["req_number"] = r_num
             m_off["req_text"] = off_r.get("req_text", "")
             m_off["sub_requirements"] = list(off_r.get("sub_requirements") or [])
+            _enrich_req_dict_with_v46_overlay(m_off, v46_entry)
             merged_reqs.append(m_off)
     return merged_reqs
 
@@ -5953,9 +5993,20 @@ def _resolve_workbook_diagram_url(
             return "assets/ai_illustrations/camping_req_7_nano_hero.png"
         if r_clean in ("2", "2a", "7", "7a") and ("leave no trace" in tl or "outdoor code" in tl or b_low == "camping"):
             return "assets/ai_illustrations/camping_req_2_nano_hero.png"
-    elif b_low in ("environmental science", "sustainability", "soil and water conservation"):
+    elif b_low == "environmental science":
+        return "assets/ai_illustrations/environmental_science_watershed_runoff_v46_diagram.png"
+    elif b_low in ("sustainability", "soil and water conservation"):
         if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl):
             return "assets/ai_illustrations/weather_hydrologic_cycle_nano.png"
+
+    # 3b. Check V46 Deep Research Bespoke Technical Diagram cache when present on disk
+    v46_ov = _load_v46_deep_research_overlay(badge_name)
+    v46_reqs_map = v46_ov.get("requirements") if isinstance(v46_ov, dict) else {}
+    v46_cand = v46_reqs_map.get(r_clean) or v46_reqs_map.get(r_parent) if isinstance(v46_reqs_map, dict) else None
+    if isinstance(v46_cand, dict) and v46_cand.get("bespoke_visual_filename"):
+        v46_rel = f"assets/ai_illustrations/{v46_cand['bespoke_visual_filename']}"
+        if (Path(__file__).resolve().parents[2] / v46_rel).exists():
+            return v46_rel
 
     # 4. Authentic BSA Pamphlet figure or Nano Hero illustration for any requirement
     hero_exact_rel = f"assets/ai_illustrations/{slug}_req_{r_clean}_nano_hero.png"

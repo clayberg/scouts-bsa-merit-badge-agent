@@ -1280,12 +1280,31 @@ def beautify_slide_storyboard(
         if not slide.get("subtitle"):
             slide["subtitle"] = f"Req {req_num} • {theme.replace('_', ' ').title()}"
 
+        # V46: Populate verified Deep Research provenance, rule of thumb, tabletop demo, and bespoke diagram metadata
+        v46_conn_box: Optional[str] = None
+        try:
+            from src.tools.scouting_scraper import _load_v46_deep_research_overlay
+
+            v46_ov = _load_v46_deep_research_overlay(badge_name)
+            v46_reqs_map = v46_ov.get("requirements") if isinstance(v46_ov, dict) else {}
+            v46_item = v46_reqs_map.get(str(base_req_num)) if isinstance(v46_reqs_map, dict) else None
+            if isinstance(v46_item, dict):
+                v46_conn_box = str(v46_item.get("real_world_connection_box") or "") or None
+                slide["real_world_connection_box"] = v46_conn_box
+                slide["grounded_citation_label"] = str(v46_item.get("grounded_citation_label") or "") or None
+                slide["rule_of_thumb_mnemonic"] = str(v46_item.get("rule_of_thumb_mnemonic") or "")
+                slide["counselor_tabletop_demo"] = str(v46_item.get("counselor_tabletop_demo") or "")
+                slide["v46_bespoke_visual_url"] = str(v46_item.get("bespoke_visual_url") or "")
+                slide["v46_bespoke_visual_caption"] = str(v46_item.get("bespoke_visual_caption") or "")
+        except Exception:
+            v46_conn_box = None
+
         spec = SlideBeautificationSpec(
             slide_index=idx,
             visual_theme=theme if theme != "STANDARD_CLEAN" else "MAGAZINE_ASYMMETRIC_SPLIT",  # type: ignore[arg-type]
             accent_palette_key=palette,  # type: ignore[arg-type]
             callout_badge_text=callout_badge[:32] if callout_badge else f"REQ {req_num}",
-            real_world_connection_box=None,
+            real_world_connection_box=v46_conn_box,
             ai_hero_image_prompt=ai_prompt,
             ai_hero_image_path=ai_path,
         )

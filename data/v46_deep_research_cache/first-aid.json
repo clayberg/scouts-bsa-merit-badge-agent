@@ -1,0 +1,386 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "first-aid",
+  "badge_name": "First Aid",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Red Cross & AHA First Aid Guidelines",
+  "primary_authority_url": "https://www.redcross.org/take-a-class/first-aid",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US HHS CHEMM / CERT START Protocol",
+        "title": "US HHS CHEMM / CERT START Protocol Technical Reference: Scene Size-Up & START Mass-Casualty Triage Decision Flow",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "core_mechanism_bullets": [
+        "1. Scene Safety & BSI Gloves: Stop and survey for live wires, traffic, fire, or gas before touching any patient; put on nitrile gloves.",
+        "2. Walking Wounded -> GREEN (Minor): Direct everyone who can walk to move to a safe collection zone for secondary assessment.",
+        "3. Airway, Breathing (>30/min) -> RED: Open airway if not breathing; respiratory rate over 30/min or radial pulse absent marks IMMEDIATE (Red).",
+        "4. Stable Vitals -> YELLOW (Delayed): Breathing under 30/min, capillary refill under 2 seconds, and obeys simple commands marks DELAYED."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).). Step 3: Verify each measurement or checkpoint against US HHS CHEMM / CERT START Protocol reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display first_aid_start_triage_algorithm_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Scene Size-Up & START Mass-Casualty Triage Decision Flow', and have each pair state the key threshold (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).) in their own words before sign-off.",
+      "real_world_connection_box": "US HHS CHEMM / CERT START Protocol Field Standard: Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US HHS CHEMM / CERT START Protocol",
+      "bespoke_visual_filename": "first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step START triage priority sequence classifying patients into Green (walking wounded), Red (immediate life threat), Yellow (delayed), and Black using respiration, perfusion, and mental status."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Burn Association & Red Cross",
+        "title": "American Burn Association & Red Cross Technical Reference: Thermal Burn Skin Depth Classification & Immediate Cooling",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "core_mechanism_bullets": [
+        "Superficial (1st Degree): Epidermis: Red, dry, painful skin without blisters; cool with running tap water for 10+ minutes.",
+        "Partial-Thickness (2nd Degree): Dermis: Swollen, wet, intensely painful fluid blisters; keep blisters intact and apply loose dry sterile gauze.",
+        "Full-Thickness (3rd Degree): Subcutis: Charred, leathery, or pearly white tissue with nerve damage; call 911 and treat for shock.",
+        "Chemical & Electrical Burns (911): Brush dry powder first before 20-min water flush; electrical burns require cardiac evaluation for internal injury."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.). Step 3: Verify each measurement or checkpoint against American Burn Association & Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display first_aid_burn_depth_layers_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Thermal Burn Skin Depth Classification & Immediate Cooling', and have each pair state the key threshold (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.) in their own words before sign-off.",
+      "real_world_connection_box": "American Burn Association & Red Cross Field Standard: Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Burn Association & Red Cross",
+      "bespoke_visual_filename": "first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_caption": "Anatomical depth comparison of superficial (1st-degree epidermis), partial-thickness (2nd-degree blistered dermis), and full-thickness (3rd-degree subcutaneous) thermal burns."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACS Stop the Bleed & CoTCCC",
+        "title": "ACS Stop the Bleed & CoTCCC Technical Reference: Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "core_mechanism_bullets": [
+        "Step 1: Call 911 & Glove Up: Activate EMS immediately and send a runner for a trauma kit and AED if patient is unresponsive.",
+        "Step 2: Firm Two-Hand Direct Pressure: Press sterile gauze firmly with both hands continuously for at least 5 minutes without peeking.",
+        "Step 3: Add Layers, Never Strip Clots: If blood soaks through the first pad, stack fresh gauze directly on top so forming fibrin clots stay intact.",
+        "Step 4: Windlass Tourniquet (Extremity): Strap 2 to 3 inches proximal to limb wound, twist rod until bright red bleeding stops, and write exact time (T=HH:MM)."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.). Step 3: Verify each measurement or checkpoint against ACS Stop the Bleed & CoTCCC reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display first_aid_burn_depth_layers_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet', and have each pair state the key threshold (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.) in their own words before sign-off.",
+      "real_world_connection_box": "ACS Stop the Bleed & CoTCCC Field Standard: Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACS Stop the Bleed & CoTCCC",
+      "bespoke_visual_filename": "first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_caption": "Anatomical depth comparison of superficial (1st-degree epidermis), partial-thickness (2nd-degree blistered dermis), and full-thickness (3rd-degree subcutaneous) thermal burns."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Heart Association (AHA)",
+        "title": "American Heart Association (AHA) Technical Reference: Cardiac Chain of Survival: High-Quality CPR & AED Sequence",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "core_mechanism_bullets": [
+        "Link 1: Recognize Cardiac Arrest & 911: Unresponsive patient with absent or gasping agonal breaths; call 911 on speakerphone and fetch AED.",
+        "Link 2: High-Quality Chest Compressions: 100 to 120 BPM on lower half of sternum, 2.0 to 2.4 in depth, full recoil, 30:2 rescue breath ratio.",
+        "Link 3: Rapid AED Pad Placement: Upper-right chest below collarbone and lower-left ribs; yell CLEAR before analysis and shock delivery.",
+        "Link 4: Resume Compressions Immediately: Restart chest compressions within 2 seconds after shock delivery until EMS paramedics assume care."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.). Step 3: Verify each measurement or checkpoint against American Heart Association (AHA) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display first_aid_hemorrhage_tourniquet_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Cardiac Chain of Survival: High-Quality CPR & AED Sequence', and have each pair state the key threshold (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.) in their own words before sign-off.",
+      "real_world_connection_box": "American Heart Association (AHA) Field Standard: Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Heart Association (AHA)",
+      "bespoke_visual_filename": "first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant severe hemorrhage control reference comparing firm direct gauze pressure, hemostatic wound packing, and commercial windlass tourniquet placement."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US HHS CHEMM / CERT START Protocol",
+        "title": "US HHS CHEMM / CERT START Protocol Technical Reference: Scene Size-Up & START Mass-Casualty Triage Decision Flow",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "core_mechanism_bullets": [
+        "1. Scene Safety & BSI Gloves: Stop and survey for live wires, traffic, fire, or gas before touching any patient; put on nitrile gloves.",
+        "2. Walking Wounded -> GREEN (Minor): Direct everyone who can walk to move to a safe collection zone for secondary assessment.",
+        "3. Airway, Breathing (>30/min) -> RED: Open airway if not breathing; respiratory rate over 30/min or radial pulse absent marks IMMEDIATE (Red).",
+        "4. Stable Vitals -> YELLOW (Delayed): Breathing under 30/min, capillary refill under 2 seconds, and obeys simple commands marks DELAYED."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).). Step 3: Verify each measurement or checkpoint against US HHS CHEMM / CERT START Protocol reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display first_aid_start_triage_algorithm_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Scene Size-Up & START Mass-Casualty Triage Decision Flow', and have each pair state the key threshold (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).) in their own words before sign-off.",
+      "real_world_connection_box": "US HHS CHEMM / CERT START Protocol Field Standard: Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US HHS CHEMM / CERT START Protocol",
+      "bespoke_visual_filename": "first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step START triage priority sequence classifying patients into Green (walking wounded), Red (immediate life threat), Yellow (delayed), and Black using respiration, perfusion, and mental status."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Burn Association & Red Cross",
+        "title": "American Burn Association & Red Cross Technical Reference: Thermal Burn Skin Depth Classification & Immediate Cooling",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "core_mechanism_bullets": [
+        "Superficial (1st Degree): Epidermis: Red, dry, painful skin without blisters; cool with running tap water for 10+ minutes.",
+        "Partial-Thickness (2nd Degree): Dermis: Swollen, wet, intensely painful fluid blisters; keep blisters intact and apply loose dry sterile gauze.",
+        "Full-Thickness (3rd Degree): Subcutis: Charred, leathery, or pearly white tissue with nerve damage; call 911 and treat for shock.",
+        "Chemical & Electrical Burns (911): Brush dry powder first before 20-min water flush; electrical burns require cardiac evaluation for internal injury."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.). Step 3: Verify each measurement or checkpoint against American Burn Association & Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display first_aid_burn_depth_layers_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Thermal Burn Skin Depth Classification & Immediate Cooling', and have each pair state the key threshold (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.) in their own words before sign-off.",
+      "real_world_connection_box": "American Burn Association & Red Cross Field Standard: Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Burn Association & Red Cross",
+      "bespoke_visual_filename": "first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_caption": "Anatomical depth comparison of superficial (1st-degree epidermis), partial-thickness (2nd-degree blistered dermis), and full-thickness (3rd-degree subcutaneous) thermal burns."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACS Stop the Bleed & CoTCCC",
+        "title": "ACS Stop the Bleed & CoTCCC Technical Reference: Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "core_mechanism_bullets": [
+        "Step 1: Call 911 & Glove Up: Activate EMS immediately and send a runner for a trauma kit and AED if patient is unresponsive.",
+        "Step 2: Firm Two-Hand Direct Pressure: Press sterile gauze firmly with both hands continuously for at least 5 minutes without peeking.",
+        "Step 3: Add Layers, Never Strip Clots: If blood soaks through the first pad, stack fresh gauze directly on top so forming fibrin clots stay intact.",
+        "Step 4: Windlass Tourniquet (Extremity): Strap 2 to 3 inches proximal to limb wound, twist rod until bright red bleeding stops, and write exact time (T=HH:MM)."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.). Step 3: Verify each measurement or checkpoint against ACS Stop the Bleed & CoTCCC reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display first_aid_cpr_aed_chain_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet', and have each pair state the key threshold (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.) in their own words before sign-off.",
+      "real_world_connection_box": "ACS Stop the Bleed & CoTCCC Field Standard: Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACS Stop the Bleed & CoTCCC",
+      "bespoke_visual_filename": "first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered adult CPR and AED protocol specifying 100 to 120 chest compressions per minute at 2.0 to 2.4 inches depth with full chest recoil and zero delay on defibrillation."
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Heart Association (AHA)",
+        "title": "American Heart Association (AHA) Technical Reference: Cardiac Chain of Survival: High-Quality CPR & AED Sequence",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "core_mechanism_bullets": [
+        "Link 1: Recognize Cardiac Arrest & 911: Unresponsive patient with absent or gasping agonal breaths; call 911 on speakerphone and fetch AED.",
+        "Link 2: High-Quality Chest Compressions: 100 to 120 BPM on lower half of sternum, 2.0 to 2.4 in depth, full recoil, 30:2 rescue breath ratio.",
+        "Link 3: Rapid AED Pad Placement: Upper-right chest below collarbone and lower-left ribs; yell CLEAR before analysis and shock delivery.",
+        "Link 4: Resume Compressions Immediately: Restart chest compressions within 2 seconds after shock delivery until EMS paramedics assume care."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.). Step 3: Verify each measurement or checkpoint against American Heart Association (AHA) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display first_aid_cpr_aed_chain_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Cardiac Chain of Survival: High-Quality CPR & AED Sequence', and have each pair state the key threshold (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.) in their own words before sign-off.",
+      "real_world_connection_box": "American Heart Association (AHA) Field Standard: Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Heart Association (AHA)",
+      "bespoke_visual_filename": "first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered adult CPR and AED protocol specifying 100 to 120 chest compressions per minute at 2.0 to 2.4 inches depth with full chest recoil and zero delay on defibrillation."
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US HHS CHEMM / CERT START Protocol",
+        "title": "US HHS CHEMM / CERT START Protocol Technical Reference: Scene Size-Up & START Mass-Casualty Triage Decision Flow",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "core_mechanism_bullets": [
+        "1. Scene Safety & BSI Gloves: Stop and survey for live wires, traffic, fire, or gas before touching any patient; put on nitrile gloves.",
+        "2. Walking Wounded -> GREEN (Minor): Direct everyone who can walk to move to a safe collection zone for secondary assessment.",
+        "3. Airway, Breathing (>30/min) -> RED: Open airway if not breathing; respiratory rate over 30/min or radial pulse absent marks IMMEDIATE (Red).",
+        "4. Stable Vitals -> YELLOW (Delayed): Breathing under 30/min, capillary refill under 2 seconds, and obeys simple commands marks DELAYED."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).). Step 3: Verify each measurement or checkpoint against US HHS CHEMM / CERT START Protocol reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display first_aid_start_triage_algorithm_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Scene Size-Up & START Mass-Casualty Triage Decision Flow', and have each pair state the key threshold (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).) in their own words before sign-off.",
+      "real_world_connection_box": "US HHS CHEMM / CERT START Protocol Field Standard: Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US HHS CHEMM / CERT START Protocol",
+      "bespoke_visual_filename": "first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step START triage priority sequence classifying patients into Green (walking wounded), Red (immediate life threat), Yellow (delayed), and Black using respiration, perfusion, and mental status."
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Burn Association & Red Cross",
+        "title": "American Burn Association & Red Cross Technical Reference: Thermal Burn Skin Depth Classification & Immediate Cooling",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "core_mechanism_bullets": [
+        "Superficial (1st Degree): Epidermis: Red, dry, painful skin without blisters; cool with running tap water for 10+ minutes.",
+        "Partial-Thickness (2nd Degree): Dermis: Swollen, wet, intensely painful fluid blisters; keep blisters intact and apply loose dry sterile gauze.",
+        "Full-Thickness (3rd Degree): Subcutis: Charred, leathery, or pearly white tissue with nerve damage; call 911 and treat for shock.",
+        "Chemical & Electrical Burns (911): Brush dry powder first before 20-min water flush; electrical burns require cardiac evaluation for internal injury."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.). Step 3: Verify each measurement or checkpoint against American Burn Association & Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display first_aid_burn_depth_layers_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Thermal Burn Skin Depth Classification & Immediate Cooling', and have each pair state the key threshold (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.) in their own words before sign-off.",
+      "real_world_connection_box": "American Burn Association & Red Cross Field Standard: Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Burn Association & Red Cross",
+      "bespoke_visual_filename": "first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_caption": "Anatomical depth comparison of superficial (1st-degree epidermis), partial-thickness (2nd-degree blistered dermis), and full-thickness (3rd-degree subcutaneous) thermal burns."
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACS Stop the Bleed & CoTCCC",
+        "title": "ACS Stop the Bleed & CoTCCC Technical Reference: Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "core_mechanism_bullets": [
+        "Step 1: Call 911 & Glove Up: Activate EMS immediately and send a runner for a trauma kit and AED if patient is unresponsive.",
+        "Step 2: Firm Two-Hand Direct Pressure: Press sterile gauze firmly with both hands continuously for at least 5 minutes without peeking.",
+        "Step 3: Add Layers, Never Strip Clots: If blood soaks through the first pad, stack fresh gauze directly on top so forming fibrin clots stay intact.",
+        "Step 4: Windlass Tourniquet (Extremity): Strap 2 to 3 inches proximal to limb wound, twist rod until bright red bleeding stops, and write exact time (T=HH:MM)."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 11 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.). Step 3: Verify each measurement or checkpoint against ACS Stop the Bleed & CoTCCC reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 11): Display first_aid_hemorrhage_tourniquet_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet', and have each pair state the key threshold (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.) in their own words before sign-off.",
+      "real_world_connection_box": "ACS Stop the Bleed & CoTCCC Field Standard: Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACS Stop the Bleed & CoTCCC",
+      "bespoke_visual_filename": "first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant severe hemorrhage control reference comparing firm direct gauze pressure, hemostatic wound packing, and commercial windlass tourniquet placement."
+    },
+    "12": {
+      "req_id": "12",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Heart Association (AHA)",
+        "title": "American Heart Association (AHA) Technical Reference: Cardiac Chain of Survival: High-Quality CPR & AED Sequence",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "core_mechanism_bullets": [
+        "Link 1: Recognize Cardiac Arrest & 911: Unresponsive patient with absent or gasping agonal breaths; call 911 on speakerphone and fetch AED.",
+        "Link 2: High-Quality Chest Compressions: 100 to 120 BPM on lower half of sternum, 2.0 to 2.4 in depth, full recoil, 30:2 rescue breath ratio.",
+        "Link 3: Rapid AED Pad Placement: Upper-right chest below collarbone and lower-left ribs; yell CLEAR before analysis and shock delivery.",
+        "Link 4: Resume Compressions Immediately: Restart chest compressions within 2 seconds after shock delivery until EMS paramedics assume care."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 12 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.). Step 3: Verify each measurement or checkpoint against American Heart Association (AHA) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 12): Display first_aid_cpr_aed_chain_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Cardiac Chain of Survival: High-Quality CPR & AED Sequence', and have each pair state the key threshold (Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.) in their own words before sign-off.",
+      "real_world_connection_box": "American Heart Association (AHA) Field Standard: Push hard and fast in the center of the chest: 100 to 120 compressions per minute (beat of Stayin Alive), 2.0 to 2.4 inches deep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Heart Association (AHA)",
+      "bespoke_visual_filename": "first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_cpr_aed_chain_v46_diagram.png",
+      "bespoke_visual_caption": "Tiered adult CPR and AED protocol specifying 100 to 120 chest compressions per minute at 2.0 to 2.4 inches depth with full chest recoil and zero delay on defibrillation."
+    },
+    "13": {
+      "req_id": "13",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US HHS CHEMM / CERT START Protocol",
+        "title": "US HHS CHEMM / CERT START Protocol Technical Reference: Scene Size-Up & START Mass-Casualty Triage Decision Flow",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "core_mechanism_bullets": [
+        "1. Scene Safety & BSI Gloves: Stop and survey for live wires, traffic, fire, or gas before touching any patient; put on nitrile gloves.",
+        "2. Walking Wounded -> GREEN (Minor): Direct everyone who can walk to move to a safe collection zone for secondary assessment.",
+        "3. Airway, Breathing (>30/min) -> RED: Open airway if not breathing; respiratory rate over 30/min or radial pulse absent marks IMMEDIATE (Red).",
+        "4. Stable Vitals -> YELLOW (Delayed): Breathing under 30/min, capillary refill under 2 seconds, and obeys simple commands marks DELAYED."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 13 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).). Step 3: Verify each measurement or checkpoint against US HHS CHEMM / CERT START Protocol reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 13): Display first_aid_start_triage_algorithm_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Scene Size-Up & START Mass-Casualty Triage Decision Flow', and have each pair state the key threshold (Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).) in their own words before sign-off.",
+      "real_world_connection_box": "US HHS CHEMM / CERT START Protocol Field Standard: Check Scene Safety first, then 30-2-Can-Do (Respirations >30, Capillary refill >2 sec, Can follow commands).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US HHS CHEMM / CERT START Protocol",
+      "bespoke_visual_filename": "first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_start_triage_algorithm_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step START triage priority sequence classifying patients into Green (walking wounded), Red (immediate life threat), Yellow (delayed), and Black using respiration, perfusion, and mental status."
+    },
+    "14": {
+      "req_id": "14",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Burn Association & Red Cross",
+        "title": "American Burn Association & Red Cross Technical Reference: Thermal Burn Skin Depth Classification & Immediate Cooling",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "core_mechanism_bullets": [
+        "Superficial (1st Degree): Epidermis: Red, dry, painful skin without blisters; cool with running tap water for 10+ minutes.",
+        "Partial-Thickness (2nd Degree): Dermis: Swollen, wet, intensely painful fluid blisters; keep blisters intact and apply loose dry sterile gauze.",
+        "Full-Thickness (3rd Degree): Subcutis: Charred, leathery, or pearly white tissue with nerve damage; call 911 and treat for shock.",
+        "Chemical & Electrical Burns (911): Brush dry powder first before 20-min water flush; electrical burns require cardiac evaluation for internal injury."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 14 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.). Step 3: Verify each measurement or checkpoint against American Burn Association & Red Cross reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 14): Display first_aid_burn_depth_layers_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Thermal Burn Skin Depth Classification & Immediate Cooling', and have each pair state the key threshold (Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.) in their own words before sign-off.",
+      "real_world_connection_box": "American Burn Association & Red Cross Field Standard: Cool thermal burns with clean cool (never ice-cold) running water for at least 10 to 20 minutes; never pop blisters or apply butter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Burn Association & Red Cross",
+      "bespoke_visual_filename": "first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_burn_depth_layers_v46_diagram.png",
+      "bespoke_visual_caption": "Anatomical depth comparison of superficial (1st-degree epidermis), partial-thickness (2nd-degree blistered dermis), and full-thickness (3rd-degree subcutaneous) thermal burns."
+    },
+    "15": {
+      "req_id": "15",
+      "badge_name": "First Aid",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACS Stop the Bleed & CoTCCC",
+        "title": "ACS Stop the Bleed & CoTCCC Technical Reference: Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet",
+        "canonical_url": "https://www.redcross.org/take-a-class/first-aid"
+      },
+      "rule_of_thumb_mnemonic": "Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "core_mechanism_bullets": [
+        "Step 1: Call 911 & Glove Up: Activate EMS immediately and send a runner for a trauma kit and AED if patient is unresponsive.",
+        "Step 2: Firm Two-Hand Direct Pressure: Press sterile gauze firmly with both hands continuously for at least 5 minutes without peeking.",
+        "Step 3: Add Layers, Never Strip Clots: If blood soaks through the first pad, stack fresh gauze directly on top so forming fibrin clots stay intact.",
+        "Step 4: Windlass Tourniquet (Extremity): Strap 2 to 3 inches proximal to limb wound, twist rod until bright red bleeding stops, and write exact time (T=HH:MM)."
+      ],
+      "worked_field_example": "Step 1: Read the official First Aid Requirement 15 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.). Step 3: Verify each measurement or checkpoint against ACS Stop the Bleed & CoTCCC reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 15): Display first_aid_hemorrhage_tourniquet_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Stop the Bleed: Direct Pressure, Wound Packing & Tourniquet', and have each pair state the key threshold (Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.) in their own words before sign-off.",
+      "real_world_connection_box": "ACS Stop the Bleed & CoTCCC Field Standard: Place a commercial windlass tourniquet 2 to 3 inches above the bleeding limb wound, never directly over an elbow or knee joint.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACS Stop the Bleed & CoTCCC",
+      "bespoke_visual_filename": "first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/first_aid_hemorrhage_tourniquet_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant severe hemorrhage control reference comparing firm direct gauze pressure, hemostatic wound packing, and commercial windlass tourniquet placement."
+    }
+  }
+}

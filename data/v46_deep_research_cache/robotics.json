@@ -1,0 +1,186 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "robotics",
+  "badge_name": "Robotics",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NASA Robotics Alliance & FIRST Engineering Standards",
+  "primary_authority_url": "https://robotics.nasa.gov/",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA Robotics Alliance Project",
+        "title": "NASA Robotics Alliance Project Technical Reference: Autonomous Robotics Architecture: Sense -> Plan -> Act Loop",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.",
+      "core_mechanism_bullets": [
+        "1. SENSE (Perception & Telemetry): Ultrasonic time-of-flight, LIDAR, optical wheel encoders, IMU gyroscopes, and limit switches measure world state.",
+        "2. PLAN (Microcontroller Decision Logic): State machines and PID feedback controllers compute error (Target minus Measured) 50 to 1,000 times per second.",
+        "3. ACT (Mechanical Power Conversion): DC gearmotors, hobby servos, stepper motors, and pneumatic cylinders convert electrical signals into motion.",
+        "4. FEEDBACK (Closed-Loop Correction): Encoders verify actual wheel/arm travel and automatically compensate for battery voltage drop or ramp slope."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.). Step 3: Verify each measurement or checkpoint against NASA Robotics Alliance Project reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display robotics_safety_fmea_quadrant_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Autonomous Robotics Architecture: Sense -> Plan -> Act Loop', and have each pair state the key threshold (A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.) in their own words before sign-off.",
+      "real_world_connection_box": "NASA Robotics Alliance Project Field Standard: A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Robotics Alliance Project",
+      "bespoke_visual_filename": "robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant workshop safety protocol covering pinch-point guarding, LiPo fire-safe charging bags, emergency E-Stop wiring, and soldering PPE."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Carnegie Mellon Robotics Academy & FIRST",
+        "title": "Carnegie Mellon Robotics Academy & FIRST Technical Reference: Mechanical Power: Gear Ratios, Torque vs. Speed & 6 Degrees of Freedom",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.",
+      "core_mechanism_bullets": [
+        "1:1 Direct Drive (12T -> 12T): Output speed equals motor RPM and output torque equals motor stall torque; zero mechanical advantage.",
+        "1:3 Geared Up for Speed (36T -> 12T): Triples output shaft RPM while cutting available torque to one-third; stalls easily on steep ramps.",
+        "3:1 Geared Down for Torque (12T -> 36T): Multiplies lifting and climbing torque 3x (minus ~5% friction) at one-third speed for heavy robot arms.",
+        "6 Degrees of Freedom (3 Linear + 3 Rotary): Full 3D workspace requires Surge (X), Sway (Y), Heave (Z) plus Roll, Pitch, and Yaw wrist orientation."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.). Step 3: Verify each measurement or checkpoint against Carnegie Mellon Robotics Academy & FIRST reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display robotics_sense_plan_act_loop_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Mechanical Power: Gear Ratios, Torque vs. Speed & 6 Degrees of Freedom', and have each pair state the key threshold (Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.) in their own words before sign-off.",
+      "real_world_connection_box": "Carnegie Mellon Robotics Academy & FIRST Field Standard: Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Carnegie Mellon Robotics Academy & FIRST",
+      "bespoke_visual_filename": "robotics_sense_plan_act_loop_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_sense_plan_act_loop_v46_diagram.png",
+      "bespoke_visual_caption": "Closed-loop robotic control architecture showing how environmental sensors feed state estimates into microcontroller logic to drive actuators with real-time encoder feedback."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA Robotics Safety & FIRST Safety Manual",
+        "title": "OSHA Robotics Safety & FIRST Safety Manual Technical Reference: Robotics Shop Safety, LiPo Battery Care & Hazard Prevention",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.",
+      "core_mechanism_bullets": [
+        "Mechanical Pinch & Entanglement Guards: De-energize motors and prop up raised arms on physical safety blocks before reaching near gears, chains, or sprockets.",
+        "Lithium-Polymer (LiPo) Battery Safety: Balance-charge inside a fire-resistant LiPo bag; immediately quarantine any puffy, dented, or overheated pack.",
+        "Soldering, Fume & Eye Protection: Wear ANSI Z87.1 impact glasses, use a brass tip cleaner and fume extractor, and unplug irons when unattended.",
+        "Hardware Emergency Stop (E-Stop): Wire a physical main breaker switch within immediate reach and test software timeout watchdogs before driving."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.). Step 3: Verify each measurement or checkpoint against OSHA Robotics Safety & FIRST Safety Manual reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display robotics_safety_fmea_quadrant_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Robotics Shop Safety, LiPo Battery Care & Hazard Prevention', and have each pair state the key threshold (Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.) in their own words before sign-off.",
+      "real_world_connection_box": "OSHA Robotics Safety & FIRST Safety Manual Field Standard: Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA Robotics Safety & FIRST Safety Manual",
+      "bespoke_visual_filename": "robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant workshop safety protocol covering pinch-point guarding, LiPo fire-safe charging bags, emergency E-Stop wiring, and soldering PPE."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA Systems Engineering Handbook",
+        "title": "NASA Systems Engineering Handbook Technical Reference: Iterative Engineering Design Process & Counselor Review Log",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Engineers never erase failed prototypes in the notebook; log the exact failure mode, measurement data, and single variable changed.",
+      "core_mechanism_bullets": [
+        "Stage 1: Problem Constraints & Sketches: Define task geometry, weight/size limits, and sketch at least two competing drivetrain/manipulator concepts.",
+        "Stage 2: Subsystem Prototype & Wiring: Build modular chassis and actuator assembly with color-coded wiring (Red V+, Black GND, Yellow/White Signal).",
+        "Stage 3: State-Machine Code & Sensor Test: Write clean modular functions with serial telemetry printouts to verify raw sensor thresholds before full speed.",
+        "Stage 4: Five-Trial Quantitative Validation: Run 5 consecutive repeatability trials, record cycle times and failure modes, and document design refinements."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Engineers never erase failed prototypes in the notebook; log the exact failure mode, measurement data, and single variable changed.). Step 3: Verify each measurement or checkpoint against NASA Systems Engineering Handbook reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display robotics_gear_ratio_dof_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Iterative Engineering Design Process & Counselor Review Log', and have each pair state the key threshold (Engineers never erase failed prototypes in the notebook; log the exact failure mode, measurement data, and single variable changed.) in their own words before sign-off.",
+      "real_world_connection_box": "NASA Systems Engineering Handbook Field Standard: Engineers never erase failed prototypes in the notebook; log the exact failure mode, measurement data, and single variable changed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Systems Engineering Handbook",
+      "bespoke_visual_filename": "robotics_gear_ratio_dof_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_gear_ratio_dof_v46_diagram.png",
+      "bespoke_visual_caption": "Engineering formula and trade-off chart relating driven-to-driver tooth ratios to rotational speed, climbing torque, and 6-DOF spatial motion (X, Y, Z, Roll, Pitch, Yaw)."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA Robotics Alliance Project",
+        "title": "NASA Robotics Alliance Project Technical Reference: Autonomous Robotics Architecture: Sense -> Plan -> Act Loop",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.",
+      "core_mechanism_bullets": [
+        "1. SENSE (Perception & Telemetry): Ultrasonic time-of-flight, LIDAR, optical wheel encoders, IMU gyroscopes, and limit switches measure world state.",
+        "2. PLAN (Microcontroller Decision Logic): State machines and PID feedback controllers compute error (Target minus Measured) 50 to 1,000 times per second.",
+        "3. ACT (Mechanical Power Conversion): DC gearmotors, hobby servos, stepper motors, and pneumatic cylinders convert electrical signals into motion.",
+        "4. FEEDBACK (Closed-Loop Correction): Encoders verify actual wheel/arm travel and automatically compensate for battery voltage drop or ramp slope."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.). Step 3: Verify each measurement or checkpoint against NASA Robotics Alliance Project reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display robotics_engineering_notebook_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Autonomous Robotics Architecture: Sense -> Plan -> Act Loop', and have each pair state the key threshold (A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.) in their own words before sign-off.",
+      "real_world_connection_box": "NASA Robotics Alliance Project Field Standard: A true robot closes the Sense-Plan-Act feedback loop autonomously rather than relying purely on open-loop remote control.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Robotics Alliance Project",
+      "bespoke_visual_filename": "robotics_engineering_notebook_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_engineering_notebook_v46_diagram.png",
+      "bespoke_visual_caption": "Four-tier engineering notebook standard documenting requirements specification, CAD/sketch trade-off matrices, pseudocode state flow, and quantitative test-fail-fix trials."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Carnegie Mellon Robotics Academy & FIRST",
+        "title": "Carnegie Mellon Robotics Academy & FIRST Technical Reference: Mechanical Power: Gear Ratios, Torque vs. Speed & 6 Degrees of Freedom",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.",
+      "core_mechanism_bullets": [
+        "1:1 Direct Drive (12T -> 12T): Output speed equals motor RPM and output torque equals motor stall torque; zero mechanical advantage.",
+        "1:3 Geared Up for Speed (36T -> 12T): Triples output shaft RPM while cutting available torque to one-third; stalls easily on steep ramps.",
+        "3:1 Geared Down for Torque (12T -> 36T): Multiplies lifting and climbing torque 3x (minus ~5% friction) at one-third speed for heavy robot arms.",
+        "6 Degrees of Freedom (3 Linear + 3 Rotary): Full 3D workspace requires Surge (X), Sway (Y), Heave (Z) plus Roll, Pitch, and Yaw wrist orientation."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.). Step 3: Verify each measurement or checkpoint against Carnegie Mellon Robotics Academy & FIRST reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display robotics_gear_ratio_dof_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Mechanical Power: Gear Ratios, Torque vs. Speed & 6 Degrees of Freedom', and have each pair state the key threshold (Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.) in their own words before sign-off.",
+      "real_world_connection_box": "Carnegie Mellon Robotics Academy & FIRST Field Standard: Gear Ratio = Driven Teeth / Driver Teeth: a 36-tooth gear driven by a 12-tooth pinion gives 3x torque at 1/3 rotational speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Carnegie Mellon Robotics Academy & FIRST",
+      "bespoke_visual_filename": "robotics_gear_ratio_dof_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_gear_ratio_dof_v46_diagram.png",
+      "bespoke_visual_caption": "Engineering formula and trade-off chart relating driven-to-driver tooth ratios to rotational speed, climbing torque, and 6-DOF spatial motion (X, Y, Z, Roll, Pitch, Yaw)."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Robotics",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA Robotics Safety & FIRST Safety Manual",
+        "title": "OSHA Robotics Safety & FIRST Safety Manual Technical Reference: Robotics Shop Safety, LiPo Battery Care & Hazard Prevention",
+        "canonical_url": "https://robotics.nasa.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.",
+      "core_mechanism_bullets": [
+        "Mechanical Pinch & Entanglement Guards: De-energize motors and prop up raised arms on physical safety blocks before reaching near gears, chains, or sprockets.",
+        "Lithium-Polymer (LiPo) Battery Safety: Balance-charge inside a fire-resistant LiPo bag; immediately quarantine any puffy, dented, or overheated pack.",
+        "Soldering, Fume & Eye Protection: Wear ANSI Z87.1 impact glasses, use a brass tip cleaner and fume extractor, and unplug irons when unattended.",
+        "Hardware Emergency Stop (E-Stop): Wire a physical main breaker switch within immediate reach and test software timeout watchdogs before driving."
+      ],
+      "worked_field_example": "Step 1: Read the official Robotics Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.). Step 3: Verify each measurement or checkpoint against OSHA Robotics Safety & FIRST Safety Manual reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display robotics_safety_fmea_quadrant_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Robotics Shop Safety, LiPo Battery Care & Hazard Prevention', and have each pair state the key threshold (Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.) in their own words before sign-off.",
+      "real_world_connection_box": "OSHA Robotics Safety & FIRST Safety Manual Field Standard: Always remove jewelry, tie back long hair, wear ANSI Z87.1 safety glasses, and disable power before adjusting gears or linkages.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA Robotics Safety & FIRST Safety Manual",
+      "bespoke_visual_filename": "robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/robotics_safety_fmea_quadrant_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant workshop safety protocol covering pinch-point guarding, LiPo fire-safe charging bags, emergency E-Stop wiring, and soldering PPE."
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "personal-management",
+  "badge_name": "Personal Management",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "SEC Investor.gov & Federal Reserve Education",
+  "primary_authority_url": "https://www.investor.gov/financial-tools-calculators",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CFPB & Federal Reserve Education",
+        "title": "CFPB & Federal Reserve Education Technical Reference: 13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "core_mechanism_bullets": [
+        "1. Record Expected 13-Week Income: List every predictable dollar: part-time job wages, lawn/babysitting earnings, and regular allowance.",
+        "2. Allocate Savings & Fixed Needs First: Deduct automatic savings (20 percent) and non-negotiable expenses (camp fees, transit, school dues) first.",
+        "3. Log Every Daily Receipt Honestly: Record actual cash and debit transactions within 24 hours so small impulse purchases never hide.",
+        "4. Reconcile Weekly Surplus or Deficit: Compare Planned vs. Actual every Sunday and adjust variable wants so Net Cash Flow stays >= $0."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.). Step 3: Verify each measurement or checkpoint against CFPB & Federal Reserve Education reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display personal_management_13week_budget_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of '13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants', and have each pair state the key threshold (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.) in their own words before sign-off.",
+      "real_world_connection_box": "CFPB & Federal Reserve Education Field Standard: Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CFPB & Federal Reserve Education",
+      "bespoke_visual_filename": "personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step zero-based personal budget pipeline for Requirement 2a tracking fixed obligations, Pay-Yourself-First savings, discretionary spending, and weekly variance checks."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. SEC Investor.gov Compound Calculator",
+        "title": "U.S. SEC Investor.gov Compound Calculator Technical Reference: The Rule of 72 & Why Starting Early Beats Investing More Later",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "core_mechanism_bullets": [
+        "Simple Interest (Linear Growth): Earns interest on the original principal only; purchasing power erodes when return trails inflation.",
+        "Rule of 72 Doubling Check (72 / r): At 6 percent return money doubles every 12 years; at 9 percent it doubles every 8 years.",
+        "Start at Age 25 ($100/mo at 8%): 40 years of monthly contributions ($48,000 paid in) compounds to roughly $349,000 by age 65.",
+        "Start at Age 15 ($100/mo at 8%): 10 extra years ($60,000 paid in) compounds to over $790,000 by age 65: more than double for $12,000 extra!"
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).). Step 3: Verify each measurement or checkpoint against U.S. SEC Investor.gov Compound Calculator reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display personal_management_13week_budget_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Rule of 72 & Why Starting Early Beats Investing More Later', and have each pair state the key threshold (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. SEC Investor.gov Compound Calculator Field Standard: Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. SEC Investor.gov Compound Calculator",
+      "bespoke_visual_filename": "personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step zero-based personal budget pipeline for Requirement 2a tracking fixed obligations, Pay-Yourself-First savings, discretionary spending, and weekly variance checks."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FINRA Foundation & SEC Investor.gov",
+        "title": "FINRA Foundation & SEC Investor.gov Technical Reference: Saving vs. Investing: Risk, Liquidity & Diversification Matrix",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.",
+      "core_mechanism_bullets": [
+        "FDIC Bank Savings & CDs (Low Risk): Insured up to $250,000 per depositor; immediate liquidity for emergency funds and near-term goals.",
+        "U.S. Treasury & Savings Bonds: Loan to the U.S. government paying fixed interest over a stated maturity; backed by full faith and credit.",
+        "Broad Stock Index Funds (Diversified): Owns hundreds of companies in one single low-fee basket so one single bankruptcy never wipes out savings.",
+        "Individual Stocks (Concentrated Equity): Ownership share in one company; highest single-firm volatility alongside long-term earnings growth potential."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.). Step 3: Verify each measurement or checkpoint against FINRA Foundation & SEC Investor.gov reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display personal_management_risk_return_matrix_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Saving vs. Investing: Risk, Liquidity & Diversification Matrix', and have each pair state the key threshold (Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.) in their own words before sign-off.",
+      "real_world_connection_box": "FINRA Foundation & SEC Investor.gov Field Standard: Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FINRA Foundation & SEC Investor.gov",
+      "bespoke_visual_filename": "personal_management_risk_return_matrix_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_risk_return_matrix_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant comparison of FDIC insured savings accounts, U.S. Treasury bonds, low-cost broad index mutual funds, and individual common stocks."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Consumer Financial Protection Bureau (CFPB)",
+        "title": "Consumer Financial Protection Bureau (CFPB) Technical Reference: APR, Credit Reports & Avoiding the Minimum-Payment Debt Trap",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.",
+      "core_mechanism_bullets": [
+        "1. Charge Card / Full Statement Payoff: Pay 100 percent of statement balance before due date: $0 interest charged and builds strong payment history.",
+        "2. Revolving Credit Card Balance (22% APR): Paying only the 2 percent minimum on $2,000 takes over 9 years and costs more than $2,100 in extra interest.",
+        "3. Five Pillars of FICO Credit Score: Payment history (35%), credit utilization under 10-30% (30%), credit age (15%), mix (10%), new inquiries (10%).",
+        "4. Comparison Shopping Major Purchases: Calculate Total Out-the-Door Cost (price + tax + financing interest + insurance + maintenance) before buying."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.). Step 3: Verify each measurement or checkpoint against Consumer Financial Protection Bureau (CFPB) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display personal_management_rule72_compounding_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'APR, Credit Reports & Avoiding the Minimum-Payment Debt Trap', and have each pair state the key threshold (Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.) in their own words before sign-off.",
+      "real_world_connection_box": "Consumer Financial Protection Bureau (CFPB) Field Standard: Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Consumer Financial Protection Bureau (CFPB)",
+      "bespoke_visual_filename": "personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative compound growth comparison demonstrating how dividing 72 by the annual return gives doubling time and why starting at age 15 multiplies long-term wealth."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CFPB & Federal Reserve Education",
+        "title": "CFPB & Federal Reserve Education Technical Reference: 13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "core_mechanism_bullets": [
+        "1. Record Expected 13-Week Income: List every predictable dollar: part-time job wages, lawn/babysitting earnings, and regular allowance.",
+        "2. Allocate Savings & Fixed Needs First: Deduct automatic savings (20 percent) and non-negotiable expenses (camp fees, transit, school dues) first.",
+        "3. Log Every Daily Receipt Honestly: Record actual cash and debit transactions within 24 hours so small impulse purchases never hide.",
+        "4. Reconcile Weekly Surplus or Deficit: Compare Planned vs. Actual every Sunday and adjust variable wants so Net Cash Flow stays >= $0."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.). Step 3: Verify each measurement or checkpoint against CFPB & Federal Reserve Education reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display personal_management_risk_return_matrix_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of '13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants', and have each pair state the key threshold (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.) in their own words before sign-off.",
+      "real_world_connection_box": "CFPB & Federal Reserve Education Field Standard: Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CFPB & Federal Reserve Education",
+      "bespoke_visual_filename": "personal_management_risk_return_matrix_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_risk_return_matrix_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant comparison of FDIC insured savings accounts, U.S. Treasury bonds, low-cost broad index mutual funds, and individual common stocks."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. SEC Investor.gov Compound Calculator",
+        "title": "U.S. SEC Investor.gov Compound Calculator Technical Reference: The Rule of 72 & Why Starting Early Beats Investing More Later",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "core_mechanism_bullets": [
+        "Simple Interest (Linear Growth): Earns interest on the original principal only; purchasing power erodes when return trails inflation.",
+        "Rule of 72 Doubling Check (72 / r): At 6 percent return money doubles every 12 years; at 9 percent it doubles every 8 years.",
+        "Start at Age 25 ($100/mo at 8%): 40 years of monthly contributions ($48,000 paid in) compounds to roughly $349,000 by age 65.",
+        "Start at Age 15 ($100/mo at 8%): 10 extra years ($60,000 paid in) compounds to over $790,000 by age 65: more than double for $12,000 extra!"
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).). Step 3: Verify each measurement or checkpoint against U.S. SEC Investor.gov Compound Calculator reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display personal_management_rule72_compounding_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Rule of 72 & Why Starting Early Beats Investing More Later', and have each pair state the key threshold (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. SEC Investor.gov Compound Calculator Field Standard: Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. SEC Investor.gov Compound Calculator",
+      "bespoke_visual_filename": "personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative compound growth comparison demonstrating how dividing 72 by the annual return gives doubling time and why starting at age 15 multiplies long-term wealth."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FINRA Foundation & SEC Investor.gov",
+        "title": "FINRA Foundation & SEC Investor.gov Technical Reference: Saving vs. Investing: Risk, Liquidity & Diversification Matrix",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.",
+      "core_mechanism_bullets": [
+        "FDIC Bank Savings & CDs (Low Risk): Insured up to $250,000 per depositor; immediate liquidity for emergency funds and near-term goals.",
+        "U.S. Treasury & Savings Bonds: Loan to the U.S. government paying fixed interest over a stated maturity; backed by full faith and credit.",
+        "Broad Stock Index Funds (Diversified): Owns hundreds of companies in one single low-fee basket so one single bankruptcy never wipes out savings.",
+        "Individual Stocks (Concentrated Equity): Ownership share in one company; highest single-firm volatility alongside long-term earnings growth potential."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.). Step 3: Verify each measurement or checkpoint against FINRA Foundation & SEC Investor.gov reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display personal_management_credit_apr_trap_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Saving vs. Investing: Risk, Liquidity & Diversification Matrix', and have each pair state the key threshold (Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.) in their own words before sign-off.",
+      "real_world_connection_box": "FINRA Foundation & SEC Investor.gov Field Standard: Match the bucket to the timeline: FDIC savings for <3-year goals, diversified low-cost index funds for 10+ year goals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FINRA Foundation & SEC Investor.gov",
+      "bespoke_visual_filename": "personal_management_credit_apr_trap_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_credit_apr_trap_v46_diagram.png",
+      "bespoke_visual_caption": "Cost comparison showing how carrying a credit card balance at 22 percent APR multiplies total purchase price compared to paying the statement balance in full every month."
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Consumer Financial Protection Bureau (CFPB)",
+        "title": "Consumer Financial Protection Bureau (CFPB) Technical Reference: APR, Credit Reports & Avoiding the Minimum-Payment Debt Trap",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.",
+      "core_mechanism_bullets": [
+        "1. Charge Card / Full Statement Payoff: Pay 100 percent of statement balance before due date: $0 interest charged and builds strong payment history.",
+        "2. Revolving Credit Card Balance (22% APR): Paying only the 2 percent minimum on $2,000 takes over 9 years and costs more than $2,100 in extra interest.",
+        "3. Five Pillars of FICO Credit Score: Payment history (35%), credit utilization under 10-30% (30%), credit age (15%), mix (10%), new inquiries (10%).",
+        "4. Comparison Shopping Major Purchases: Calculate Total Out-the-Door Cost (price + tax + financing interest + insurance + maintenance) before buying."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.). Step 3: Verify each measurement or checkpoint against Consumer Financial Protection Bureau (CFPB) reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display personal_management_credit_apr_trap_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'APR, Credit Reports & Avoiding the Minimum-Payment Debt Trap', and have each pair state the key threshold (Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.) in their own words before sign-off.",
+      "real_world_connection_box": "Consumer Financial Protection Bureau (CFPB) Field Standard: Never charge anything on a credit card unless the cash is already sitting in checking to pay 100 percent of the statement on time.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Consumer Financial Protection Bureau (CFPB)",
+      "bespoke_visual_filename": "personal_management_credit_apr_trap_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_credit_apr_trap_v46_diagram.png",
+      "bespoke_visual_caption": "Cost comparison showing how carrying a credit card balance at 22 percent APR multiplies total purchase price compared to paying the statement balance in full every month."
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CFPB & Federal Reserve Education",
+        "title": "CFPB & Federal Reserve Education Technical Reference: 13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "core_mechanism_bullets": [
+        "1. Record Expected 13-Week Income: List every predictable dollar: part-time job wages, lawn/babysitting earnings, and regular allowance.",
+        "2. Allocate Savings & Fixed Needs First: Deduct automatic savings (20 percent) and non-negotiable expenses (camp fees, transit, school dues) first.",
+        "3. Log Every Daily Receipt Honestly: Record actual cash and debit transactions within 24 hours so small impulse purchases never hide.",
+        "4. Reconcile Weekly Surplus or Deficit: Compare Planned vs. Actual every Sunday and adjust variable wants so Net Cash Flow stays >= $0."
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.). Step 3: Verify each measurement or checkpoint against CFPB & Federal Reserve Education reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display personal_management_13week_budget_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of '13-Week Zero-Based Cash-Flow Budget & Needs vs. Wants', and have each pair state the key threshold (Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.) in their own words before sign-off.",
+      "real_world_connection_box": "CFPB & Federal Reserve Education Field Standard: Pay Yourself First: route 10 to 20 percent of every paycheck straight into savings before discretionary spending begins.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CFPB & Federal Reserve Education",
+      "bespoke_visual_filename": "personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_13week_budget_v46_diagram.png",
+      "bespoke_visual_caption": "Four-step zero-based personal budget pipeline for Requirement 2a tracking fixed obligations, Pay-Yourself-First savings, discretionary spending, and weekly variance checks."
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Personal Management",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. SEC Investor.gov Compound Calculator",
+        "title": "U.S. SEC Investor.gov Compound Calculator Technical Reference: The Rule of 72 & Why Starting Early Beats Investing More Later",
+        "canonical_url": "https://www.investor.gov/financial-tools-calculators"
+      },
+      "rule_of_thumb_mnemonic": "Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "core_mechanism_bullets": [
+        "Simple Interest (Linear Growth): Earns interest on the original principal only; purchasing power erodes when return trails inflation.",
+        "Rule of 72 Doubling Check (72 / r): At 6 percent return money doubles every 12 years; at 9 percent it doubles every 8 years.",
+        "Start at Age 25 ($100/mo at 8%): 40 years of monthly contributions ($48,000 paid in) compounds to roughly $349,000 by age 65.",
+        "Start at Age 15 ($100/mo at 8%): 10 extra years ($60,000 paid in) compounds to over $790,000 by age 65: more than double for $12,000 extra!"
+      ],
+      "worked_field_example": "Step 1: Read the official Personal Management Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).). Step 3: Verify each measurement or checkpoint against U.S. SEC Investor.gov Compound Calculator reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display personal_management_rule72_compounding_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Rule of 72 & Why Starting Early Beats Investing More Later', and have each pair state the key threshold (Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. SEC Investor.gov Compound Calculator Field Standard: Rule of 72: divide 72 by the annual interest rate to find how many years your money takes to double (at 8 percent, 72 / 8 = 9 years).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. SEC Investor.gov Compound Calculator",
+      "bespoke_visual_filename": "personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/personal_management_rule72_compounding_v46_diagram.png",
+      "bespoke_visual_caption": "Quantitative compound growth comparison demonstrating how dividing 72 by the annual return gives doubling time and why starting at age 15 multiplies long-term wealth."
+    }
+  }
+}

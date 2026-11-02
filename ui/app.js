@@ -23173,5 +23173,29 @@ if (document.readyState === "loading") {
   initInteractiveGuidedDemoWalkthroughs();
 }
 
+// V46 Content Enrichment Presentation Mode Controller (Enriched Masterclass default vs Pamphlet Core)
+state.contentEnrichmentMode =
+  (typeof localStorage !== "undefined" && localStorage.getItem("scouts_v46_enrichment_mode")) ||
+  "ENRICHED_MASTERCLASS";
+
+window.setContentEnrichmentMode = function setContentEnrichmentMode(mode) {
+  const normalized = mode === "PAMPHLET_CORE" ? "PAMPHLET_CORE" : "ENRICHED_MASTERCLASS";
+  state.contentEnrichmentMode = normalized;
+  try {
+    localStorage.setItem("scouts_v46_enrichment_mode", normalized);
+  } catch (_err) {
+    // Ignore storage quota errors in private browsing
+  }
+  document.body.dataset.contentEnrichmentMode = normalized;
+  if (typeof renderActiveSlide === "function") {
+    try {
+      renderActiveSlide();
+    } catch (_renderErr) {
+      // Safe no-op before initial deck load
+    }
+  }
+};
+
+
 
 

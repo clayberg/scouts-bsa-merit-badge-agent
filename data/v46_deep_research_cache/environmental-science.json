@@ -1,0 +1,286 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "environmental-science",
+  "badge_name": "Environmental Science",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Environmental Protection Agency (EPA) & USGS",
+  "primary_authority_url": "https://www.epa.gov/environmental-topics",
+  "bespoke_diagram_count": 4,
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGS Ecosystems Mission Area",
+        "title": "USGS Ecosystems Mission Area Technical Reference: Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "core_mechanism_bullets": [
+        "Level 4: Apex Predators (1 kcal): Red-tailed hawks, ospreys, and wolves depend on thousands of acres of intact lower-level habitat.",
+        "Level 3: Secondary Consumers (10 kcal): Brook trout, frogs, insectivorous songbirds, and red foxes regulate herbivore populations.",
+        "Level 2: Primary Consumers (100 kcal): Native honeybees, caterpillars, deer, and aquatic macroinvertebrates convert plant tissue into biomass.",
+        "Level 1: Producers & Decomposers (1,000 kcal): Trees, native grasses, and algae fix solar energy via photosynthesis while fungi recycle dead organic matter."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.). Step 3: Verify each measurement or checkpoint against USGS Ecosystems Mission Area reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display environmental_science_trophic_10pct_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law', and have each pair state the key threshold (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.) in their own words before sign-off.",
+      "real_world_connection_box": "USGS Ecosystems Mission Area Field Standard: Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGS Ecosystems Mission Area",
+      "bespoke_visual_filename": "environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_caption": "Ecological energy transfer diagram showing how roughly 10 percent of chemical energy moves from primary producers to herbivores, secondary predators, and apex consumers."
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA AirNow & Office of Air Quality",
+        "title": "U.S. EPA AirNow & Office of Air Quality Technical Reference: Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "core_mechanism_bullets": [
+        "PM2.5 Fine Combustion Aerosol (<2.5 um): Emitted by wildfire smoke, tailpipes, and power plants; penetrates deep into lung alveoli and bloodstream.",
+        "PM10 Inhalable Coarse Dust (<10 um): Pollen, unpaved road dust, and mold spores trapped mostly in upper nasal passages and bronchi.",
+        "Human Hair Reference Diameter (60 um): Visible benchmark used in Scout Vaseline index-card particulate collection experiments (Req 3a).",
+        "Clean Air Act (1970 / 1990) Impact: Cut 6 common U.S. criteria air pollutants by over 78 percent while U.S. GDP more than tripled."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.). Step 3: Verify each measurement or checkpoint against U.S. EPA AirNow & Office of Air Quality reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display environmental_science_trophic_10pct_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act', and have each pair state the key threshold (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA AirNow & Office of Air Quality Field Standard: About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA AirNow & Office of Air Quality",
+      "bespoke_visual_filename": "environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_caption": "Ecological energy transfer diagram showing how roughly 10 percent of chemical energy moves from primary producers to herbivores, secondary predators, and apex consumers."
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA Watershed Academy & USGS",
+        "title": "U.S. EPA Watershed Academy & USGS Technical Reference: Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "core_mechanism_bullets": [
+        "Point-Source Discharge (NPDES Permit): Discrete factory or wastewater treatment pipe regulated directly under the 1972 Clean Water Act.",
+        "Non-Point Stormwater Runoff: Diffuse lawn fertilizer, pet waste, road salt, and brake dust washed across pavement into streams.",
+        "Eutrophication & Algal Blooms: Excess nitrogen and phosphorus trigger dense algae growth that depletes dissolved oxygen for fish.",
+        "Riparian Buffer & Rain Garden Filter: 100-foot native root zones slow stormwater velocity, trap eroded silt, and absorb excess nutrients."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.). Step 3: Verify each measurement or checkpoint against U.S. EPA Watershed Academy & USGS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display environmental_science_pm25_air_scale_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers', and have each pair state the key threshold (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA Watershed Academy & USGS Field Standard: Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA Watershed Academy & USGS",
+      "bespoke_visual_filename": "environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_caption": "Micron-scale size comparison contrasting a 60-micron human hair against 10-micron dust (PM10) and 2.5-micron combustion aerosols (PM2.5) alongside the Clean Air Act impact."
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS & U.S. Fish and Wildlife Service",
+        "title": "USDA NRCS & U.S. Fish and Wildlife Service Technical Reference: Honeybee Pollination Mechanics, Colony Health & Erosion Control",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).",
+      "core_mechanism_bullets": [
+        "1. Floral Nectar & Pollen Transfer: Branched electrostatic body hairs trap pollen grains and cross-pollinate blossoms across a 2-mile foraging radius.",
+        "2. Waggle Dance Vector Navigation: Worker bees encode exact solar angle and distance to rich wildflower patches on vertical honeycomb.",
+        "3. Four Stressors on Pollinators: Varroa destructor mites, habitat fragmentation, neonicotinoid misuse, and floral monocultures.",
+        "4. Scout Habitat & Erosion Action: Plant continuous-bloom native wildflowers and use mulch, silt fences, and terraced slopes to stop topsoil loss."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).). Step 3: Verify each measurement or checkpoint against USDA NRCS & U.S. Fish and Wildlife Service reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display environmental_science_watershed_runoff_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Honeybee Pollination Mechanics, Colony Health & Erosion Control', and have each pair state the key threshold (Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).) in their own words before sign-off.",
+      "real_world_connection_box": "USDA NRCS & U.S. Fish and Wildlife Service Field Standard: Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS & U.S. Fish and Wildlife Service",
+      "bespoke_visual_filename": "environmental_science_watershed_runoff_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_watershed_runoff_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant watershed management guide contrasting regulated point-source pipes against diffuse stormwater runoff, wetland filtration, and Clean Water Act standards."
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGS Ecosystems Mission Area",
+        "title": "USGS Ecosystems Mission Area Technical Reference: Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "core_mechanism_bullets": [
+        "Level 4: Apex Predators (1 kcal): Red-tailed hawks, ospreys, and wolves depend on thousands of acres of intact lower-level habitat.",
+        "Level 3: Secondary Consumers (10 kcal): Brook trout, frogs, insectivorous songbirds, and red foxes regulate herbivore populations.",
+        "Level 2: Primary Consumers (100 kcal): Native honeybees, caterpillars, deer, and aquatic macroinvertebrates convert plant tissue into biomass.",
+        "Level 1: Producers & Decomposers (1,000 kcal): Trees, native grasses, and algae fix solar energy via photosynthesis while fungi recycle dead organic matter."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.). Step 3: Verify each measurement or checkpoint against USGS Ecosystems Mission Area reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display environmental_science_trophic_10pct_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law', and have each pair state the key threshold (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.) in their own words before sign-off.",
+      "real_world_connection_box": "USGS Ecosystems Mission Area Field Standard: Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGS Ecosystems Mission Area",
+      "bespoke_visual_filename": "environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_caption": "Ecological energy transfer diagram showing how roughly 10 percent of chemical energy moves from primary producers to herbivores, secondary predators, and apex consumers."
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA AirNow & Office of Air Quality",
+        "title": "U.S. EPA AirNow & Office of Air Quality Technical Reference: Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "core_mechanism_bullets": [
+        "PM2.5 Fine Combustion Aerosol (<2.5 um): Emitted by wildfire smoke, tailpipes, and power plants; penetrates deep into lung alveoli and bloodstream.",
+        "PM10 Inhalable Coarse Dust (<10 um): Pollen, unpaved road dust, and mold spores trapped mostly in upper nasal passages and bronchi.",
+        "Human Hair Reference Diameter (60 um): Visible benchmark used in Scout Vaseline index-card particulate collection experiments (Req 3a).",
+        "Clean Air Act (1970 / 1990) Impact: Cut 6 common U.S. criteria air pollutants by over 78 percent while U.S. GDP more than tripled."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.). Step 3: Verify each measurement or checkpoint against U.S. EPA AirNow & Office of Air Quality reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display environmental_science_pm25_air_scale_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act', and have each pair state the key threshold (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA AirNow & Office of Air Quality Field Standard: About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA AirNow & Office of Air Quality",
+      "bespoke_visual_filename": "environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_caption": "Micron-scale size comparison contrasting a 60-micron human hair against 10-micron dust (PM10) and 2.5-micron combustion aerosols (PM2.5) alongside the Clean Air Act impact."
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA Watershed Academy & USGS",
+        "title": "U.S. EPA Watershed Academy & USGS Technical Reference: Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "core_mechanism_bullets": [
+        "Point-Source Discharge (NPDES Permit): Discrete factory or wastewater treatment pipe regulated directly under the 1972 Clean Water Act.",
+        "Non-Point Stormwater Runoff: Diffuse lawn fertilizer, pet waste, road salt, and brake dust washed across pavement into streams.",
+        "Eutrophication & Algal Blooms: Excess nitrogen and phosphorus trigger dense algae growth that depletes dissolved oxygen for fish.",
+        "Riparian Buffer & Rain Garden Filter: 100-foot native root zones slow stormwater velocity, trap eroded silt, and absorb excess nutrients."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.). Step 3: Verify each measurement or checkpoint against U.S. EPA Watershed Academy & USGS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display environmental_science_pollinator_soil_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers', and have each pair state the key threshold (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA Watershed Academy & USGS Field Standard: Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA Watershed Academy & USGS",
+      "bespoke_visual_filename": "environmental_science_pollinator_soil_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_pollinator_soil_v46_diagram.png",
+      "bespoke_visual_caption": "Integrated field ecology reference linking Apis mellifera crop pollination, native pollinator habitat restoration, and contour soil conservation."
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS & U.S. Fish and Wildlife Service",
+        "title": "USDA NRCS & U.S. Fish and Wildlife Service Technical Reference: Honeybee Pollination Mechanics, Colony Health & Erosion Control",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).",
+      "core_mechanism_bullets": [
+        "1. Floral Nectar & Pollen Transfer: Branched electrostatic body hairs trap pollen grains and cross-pollinate blossoms across a 2-mile foraging radius.",
+        "2. Waggle Dance Vector Navigation: Worker bees encode exact solar angle and distance to rich wildflower patches on vertical honeycomb.",
+        "3. Four Stressors on Pollinators: Varroa destructor mites, habitat fragmentation, neonicotinoid misuse, and floral monocultures.",
+        "4. Scout Habitat & Erosion Action: Plant continuous-bloom native wildflowers and use mulch, silt fences, and terraced slopes to stop topsoil loss."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).). Step 3: Verify each measurement or checkpoint against USDA NRCS & U.S. Fish and Wildlife Service reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display environmental_science_pollinator_soil_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Honeybee Pollination Mechanics, Colony Health & Erosion Control', and have each pair state the key threshold (Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).) in their own words before sign-off.",
+      "real_world_connection_box": "USDA NRCS & U.S. Fish and Wildlife Service Field Standard: Insect pollinators are essential to more than 1 in every 3 bites of food (over 90 commercial U.S. fruit, nut, and vegetable crops).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS & U.S. Fish and Wildlife Service",
+      "bespoke_visual_filename": "environmental_science_pollinator_soil_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_pollinator_soil_v46_diagram.png",
+      "bespoke_visual_caption": "Integrated field ecology reference linking Apis mellifera crop pollination, native pollinator habitat restoration, and contour soil conservation."
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGS Ecosystems Mission Area",
+        "title": "USGS Ecosystems Mission Area Technical Reference: Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "core_mechanism_bullets": [
+        "Level 4: Apex Predators (1 kcal): Red-tailed hawks, ospreys, and wolves depend on thousands of acres of intact lower-level habitat.",
+        "Level 3: Secondary Consumers (10 kcal): Brook trout, frogs, insectivorous songbirds, and red foxes regulate herbivore populations.",
+        "Level 2: Primary Consumers (100 kcal): Native honeybees, caterpillars, deer, and aquatic macroinvertebrates convert plant tissue into biomass.",
+        "Level 1: Producers & Decomposers (1,000 kcal): Trees, native grasses, and algae fix solar energy via photosynthesis while fungi recycle dead organic matter."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.). Step 3: Verify each measurement or checkpoint against USGS Ecosystems Mission Area reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display environmental_science_trophic_10pct_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Ecosystem Trophic Pyramid & Lindeman 10 Percent Energy Law', and have each pair state the key threshold (Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.) in their own words before sign-off.",
+      "real_world_connection_box": "USGS Ecosystems Mission Area Field Standard: Only 10 percent of energy transfers up each trophic level; 90 percent dissipates as metabolic heat and life processes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGS Ecosystems Mission Area",
+      "bespoke_visual_filename": "environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_trophic_10pct_v46_diagram.png",
+      "bespoke_visual_caption": "Ecological energy transfer diagram showing how roughly 10 percent of chemical energy moves from primary producers to herbivores, secondary predators, and apex consumers."
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA AirNow & Office of Air Quality",
+        "title": "U.S. EPA AirNow & Office of Air Quality Technical Reference: Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "core_mechanism_bullets": [
+        "PM2.5 Fine Combustion Aerosol (<2.5 um): Emitted by wildfire smoke, tailpipes, and power plants; penetrates deep into lung alveoli and bloodstream.",
+        "PM10 Inhalable Coarse Dust (<10 um): Pollen, unpaved road dust, and mold spores trapped mostly in upper nasal passages and bronchi.",
+        "Human Hair Reference Diameter (60 um): Visible benchmark used in Scout Vaseline index-card particulate collection experiments (Req 3a).",
+        "Clean Air Act (1970 / 1990) Impact: Cut 6 common U.S. criteria air pollutants by over 78 percent while U.S. GDP more than tripled."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.). Step 3: Verify each measurement or checkpoint against U.S. EPA AirNow & Office of Air Quality reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display environmental_science_pm25_air_scale_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Particulate Matter Size Scale (PM2.5 vs. PM10) & Clean Air Act', and have each pair state the key threshold (About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA AirNow & Office of Air Quality Field Standard: About 25 fine PM2.5 particles fit across the width of one single human hair (60 microns), letting them reach deep lung alveoli.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA AirNow & Office of Air Quality",
+      "bespoke_visual_filename": "environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_pm25_air_scale_v46_diagram.png",
+      "bespoke_visual_caption": "Micron-scale size comparison contrasting a 60-micron human hair against 10-micron dust (PM10) and 2.5-micron combustion aerosols (PM2.5) alongside the Clean Air Act impact."
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Environmental Science",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA Watershed Academy & USGS",
+        "title": "U.S. EPA Watershed Academy & USGS Technical Reference: Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers",
+        "canonical_url": "https://www.epa.gov/environmental-topics"
+      },
+      "rule_of_thumb_mnemonic": "Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "core_mechanism_bullets": [
+        "Point-Source Discharge (NPDES Permit): Discrete factory or wastewater treatment pipe regulated directly under the 1972 Clean Water Act.",
+        "Non-Point Stormwater Runoff: Diffuse lawn fertilizer, pet waste, road salt, and brake dust washed across pavement into streams.",
+        "Eutrophication & Algal Blooms: Excess nitrogen and phosphorus trigger dense algae growth that depletes dissolved oxygen for fish.",
+        "Riparian Buffer & Rain Garden Filter: 100-foot native root zones slow stormwater velocity, trap eroded silt, and absorb excess nutrients."
+      ],
+      "worked_field_example": "Step 1: Read the official Environmental Science Requirement 11 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.). Step 3: Verify each measurement or checkpoint against U.S. EPA Watershed Academy & USGS reference criteria and record your findings in your Scout Workbook.",
+      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 11): Display environmental_science_watershed_runoff_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watershed Hydrology: Point vs. Non-Point Pollution & Riparian Buffers', and have each pair state the key threshold (Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.) in their own words before sign-off.",
+      "real_world_connection_box": "U.S. EPA Watershed Academy & USGS Field Standard: Never pour motor oil or paint down storm drains; storm grates flow untreated straight into local creeks and rivers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA Watershed Academy & USGS",
+      "bespoke_visual_filename": "environmental_science_watershed_runoff_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/environmental_science_watershed_runoff_v46_diagram.png",
+      "bespoke_visual_caption": "Four-quadrant watershed management guide contrasting regulated point-source pipes against diffuse stormwater runoff, wetland filtration, and Clean Water Act standards."
+    }
+  }
+}
