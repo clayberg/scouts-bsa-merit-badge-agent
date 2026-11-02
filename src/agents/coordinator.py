@@ -781,6 +781,16 @@ def run_merit_badge_workflow(
         deck_blueprint = beautify_res.get("blueprint")
         if isinstance(beautify_res.get("storyboard"), dict):
             storyboard = beautify_res["storyboard"]
+        try:
+            from src.agents.beautifier import _apply_v46_deep_research_masterclass_slides
+
+            if isinstance(storyboard, dict) and isinstance(storyboard.get("slides"), list):
+                _apply_v46_deep_research_masterclass_slides(
+                    badge_name=badge_name,
+                    slides=storyboard["slides"],
+                )
+        except Exception:
+            pass
 
         theme_label = {"STANDARD": "Crisp White", "BEAUTIFIED": "Warm Cream", "STUDIO": "Dark Slate"}.get(
             str(beautification_tier or "BEAUTIFIED").upper(), "Warm Cream"

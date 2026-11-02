@@ -1312,6 +1312,7 @@ def beautify_slide_storyboard(
         slide_specs.append(spec)
 
     _apply_v44_visual_and_caption_integrity_pass(badge_name=badge_name, slides=slides)
+    _apply_v46_deep_research_masterclass_slides(badge_name=badge_name, slides=slides)
 
     blueprint = DeckVisualBlueprint(
         badge_name=badge_name,
@@ -1657,4 +1658,165 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
                 slide_title=str(s.get("title") or ""),
                 fname=fn,
             )
+
+
+def _apply_v46_deep_research_masterclass_slides(
+    badge_name: str,
+    slides: List[Dict[str, Any]],
+) -> None:
+    """Inject 4 dedicated V46 Deep-Research & Nano Banana Cutaway Masterclass slides per Pilot Badge."""
+    if not isinstance(slides, list) or not slides:
+        return
+    import re
+    from pathlib import Path
+    from src.agents.planner import _sanitize_no_ellipsis_or_emdash
+
+    # Avoid double-injection if called more than once (check persistent `title` prefix preserved by Pydantic SlideSpec)
+    if any(
+        isinstance(s, dict)
+        and (
+            s.get("is_v46_deep_research_slide")
+            or str(s.get("title") or "").startswith("Deep-Research Field Lab:")
+        )
+        for s in slides
+    ):
+        return
+    try:
+        from src.tools.scouting_scraper import _load_v46_deep_research_overlay
+
+        v46_ov = _load_v46_deep_research_overlay(badge_name)
+    except Exception:
+        return
+    if not isinstance(v46_ov, dict) or not v46_ov.get("requirements"):
+        return
+
+    reqs_map: Dict[str, Any] = v46_ov.get("requirements") or {}
+    ai_dir = Path(__file__).resolve().parents[2] / "assets" / "ai_illustrations"
+
+    # Select the 4 unique bespoke Nano Banana visual clusters in canonical requirement order
+    selected_clusters: List[tuple[str, Dict[str, Any]]] = []
+    seen_v46_files: set[str] = set()
+    for rnum, item in reqs_map.items():
+        if not isinstance(item, dict):
+            continue
+        fn = str(item.get("bespoke_visual_filename") or "").strip()
+        if not fn or fn in seen_v46_files:
+            continue
+        if not (ai_dir / fn).exists():
+            continue
+        seen_v46_files.add(fn)
+        selected_clusters.append((str(rnum), item))
+        if len(selected_clusters) >= 4:
+            break
+
+    if not selected_clusters:
+        return
+
+    for cluster_idx, (rnum, item) in enumerate(selected_clusters, start=1):
+        fn = str(item.get("bespoke_visual_filename") or "").strip()
+        rel_path = f"assets/ai_illustrations/{fn}"
+        web_url = f"/assets/ai_illustrations/{fn}"
+        # Guarantee zero duplicate visual filenames across the entire deck: reserve `fn` exclusively for this V46 Masterclass slide
+        for existing_s in slides:
+            if not isinstance(existing_s, dict):
+                continue
+            ex_dp = str(existing_s.get("diagram_path") or existing_s.get("ai_hero_image_path") or "")
+            if fn and fn in ex_dp:
+                existing_s["diagram_path"] = None
+                existing_s["diagram_url"] = None
+                existing_s["ai_hero_image_path"] = None
+                existing_s["visual_caption"] = ""
+        rule_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("rule_of_thumb_mnemonic") or "").strip())
+        worked_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("worked_field_example") or "").strip())
+        conn_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("real_world_connection_box") or "").strip())
+        demo_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("counselor_tabletop_demo") or "").strip())
+        cite_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("grounded_citation_label") or "").strip())
+        raw_cap = _sanitize_no_ellipsis_or_emdash(str(item.get("bespoke_visual_caption") or "").strip())
+        clean_cap = _sanitize_v44_caption(
+            raw_cap,
+            badge_name=badge_name,
+            slide_title=f"{badge_name} Technical Field Reference",
+            fname=fn,
+        )
+
+        # Find the last slide belonging to this top-level requirement rnum so the deep-dive follows it naturally
+        insert_pos = len(slides)
+        matched_any = False
+        for idx_s, s_obj in enumerate(slides):
+            if not isinstance(s_obj, dict):
+                continue
+            s_req = str(s_obj.get("base_req_number") or s_obj.get("req_number") or "").strip()
+            s_base = re.match(r"^(\d+)", s_req)
+            s_base_str = s_base.group(1) if s_base else s_req
+            if s_base_str == str(rnum):
+                insert_pos = idx_s + 1
+                matched_any = True
+        if not matched_any:
+            # Proportional fallback across deck quarters
+            insert_pos = min(len(slides), max(1, int(round((cluster_idx / 4.0) * len(slides)))))
+
+        # Clean concise title grounded in the requirement domain
+        short_cite = cite_txt.split(",")[0].split("(")[0].strip()[:48] or f"{badge_name} Field Guide"
+        slide_title = f"Deep-Research Field Lab: Req {rnum} Applied Science & Practice"
+        slide_subtitle = f"Req {rnum} Masterclass Enrichment • {short_cite}"
+
+        bullets = [
+            f"Quantitative Rule of Thumb: {rule_txt}",
+            f"Worked Field Example: {worked_txt}",
+            f"Primary Source Grounding: {conn_txt} ({cite_txt})",
+        ]
+        cards = [
+            {
+                "badge": "RULE OF THUMB",
+                "title": "Quantitative Field Rule",
+                "body": rule_txt,
+            },
+            {
+                "badge": "WORKED EXAMPLE",
+                "title": "Applied Step-by-Step Calculation",
+                "body": worked_txt,
+            },
+            {
+                "badge": "PRIMARY SOURCE",
+                "title": short_cite,
+                "body": f"{conn_txt} Source: {cite_txt}.",
+            },
+        ]
+        presenter_notes = _sanitize_no_ellipsis_or_emdash(
+            f"[V46 DEEP-RESEARCH MASTERCLASS MODULE | Req {rnum}]\n"
+            f"3-Minute Counselor Tabletop Demo: {demo_txt}\n"
+            f"Quantitative Rule of Thumb: {rule_txt}\n"
+            f"Worked Field Example: {worked_txt}\n"
+            f"Primary Reference Citation: {cite_txt}"
+        )
+
+        new_slide: Dict[str, Any] = {
+            "slide_id": f"v46_deep_research_{cluster_idx}_req_{rnum}",
+            "is_v46_deep_research_slide": True,
+            "v46_cluster_index": cluster_idx,
+            "req_number": str(rnum),
+            "base_req_number": str(rnum),
+            "title": slide_title,
+            "subtitle": slide_subtitle,
+            "archetype": "SPLIT_VISUAL_EXPLAINER",
+            "visual_theme": "MAGAZINE_ASYMMETRIC_SPLIT",
+            "diagram_path": rel_path,
+            "diagram_url": web_url,
+            "ai_hero_image_path": rel_path,
+            "hero_image_url": web_url,
+            "image_url": web_url,
+            "visual_caption": clean_cap,
+            "bullet_points": bullets,
+            "cards": cards,
+            "presenter_notes": presenter_notes,
+            "v46_real_world_connection_box": conn_txt,
+            "real_world_connection_box": None,
+            "grounded_citation_label": cite_txt,
+            "rule_of_thumb_mnemonic": rule_txt,
+            "counselor_tabletop_demo": demo_txt,
+            "v46_bespoke_visual_url": web_url,
+            "v46_bespoke_visual_caption": clean_cap,
+        }
+        slides.insert(insert_pos, new_slide)
+
 

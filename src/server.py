@@ -756,6 +756,14 @@ async def api_run_workflow(
         hit_obj = _WORKFLOW_RESULT_CACHE.get(cache_key) or _WORKFLOW_RESULT_CACHE.get(fallback_cache_key)
         if hit_obj is not None:
             cached_res = copy.deepcopy(hit_obj)
+            try:
+                from src.agents.beautifier import _apply_v46_deep_research_masterclass_slides
+
+                _sb_slides = ((cached_res.get("storyboard") or {}).get("slides"))
+                if isinstance(_sb_slides, list):
+                    _apply_v46_deep_research_masterclass_slides(badge_name=req.badge_name, slides=_sb_slides)
+            except Exception:
+                pass
             cached_res["counselor_info"] = counselor_info
             cached_res["cache_hit"] = True
             if req.webhook_url:
