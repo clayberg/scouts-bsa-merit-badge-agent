@@ -51,13 +51,27 @@ def test_v37_all_149_gemini_cache_files_present_and_merged() -> None:
 
 
 def test_v37_automated_image_compression_gate() -> None:
-    """Verify compress_all_images.py exists and no uncompressed bloated PNGs exist in docs/images/."""
+    """Verify compress_all_images.py exists and all 6,180+ repository images in assets/ and docs/ are <= 500 KB."""
+    from PIL import Image
+
     comp_script = REPO_ROOT / "scripts" / "compress_all_images.py"
     assert comp_script.exists()
 
     docs_imgs = list((REPO_ROOT / "docs" / "images").glob("*.png"))
     assert len(docs_imgs) >= 9
     for img in docs_imgs:
-        assert img.stat().st_size < 950_000, (
+        assert img.stat().st_size < 500_000, (
             f"Uncompressed bloated PNG in docs/images/: {img.name} ({img.stat().st_size} bytes)"
         )
+
+    for sub in ("ai_illustrations", "pamphlet_images", "pamphlet_covers", "web_images", "diagrams", "templates", "badge_emblems"):
+        sub_dir = REPO_ROOT / "assets" / sub
+        for p in sub_dir.rglob("*"):
+            if p.is_file() and p.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp"):
+                assert p.stat().st_size <= 500_000, (
+                    f"Image over 500 KB in assets/{sub}: {p.name} ({p.stat().st_size} bytes)"
+                )
+            if p.is_file() and p.suffix.lower() == ".png" and sub in ("ai_illustrations", "pamphlet_images", "pamphlet_covers", "web_images", "diagrams"):
+                with Image.open(p) as im:
+                    assert im.mode == "P", f"Unquantized PNG ({im.mode}) in assets/{sub}/{p.name}"
+
