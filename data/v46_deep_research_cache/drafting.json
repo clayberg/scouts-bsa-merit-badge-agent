@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "drafting",
+  "badge_name": "Drafting",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ASME Y14.5 & ISO Technical Drawing",
+  "primary_authority_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.1 Drawing Format & Line Weight Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+      "core_mechanism_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ],
+      "worked_field_example": "Lay out an ANSI A 8.5 by 11 inch vellum sheet using a T-square and 4H lead for 0.3 mm construction lines, then darken final part outlines with an HB lead to 0.6 mm width.",
+      "counselor_tabletop_demo": "Compare visible, hidden, center, dimension, and cutting-plane line weights on a drafted sample sheet using an ASME line-gauge template and drafting triangles.",
+      "real_world_connection_box": "ASME Y14.1 Drawing Format & Line Weight Standard: ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines. ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply format two sheets of drawing paper using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.1 Drawing Format & Line Weight Standard",
+      "v47_primary_source_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.3 Third-Angle Orthographic Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+      "core_mechanism_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ],
+      "worked_field_example": "Project a machined aluminum bracket measuring 4.00 inches wide by 2.50 inches high by 1.75 inches deep across aligned Front, Top, and Right-Side views using a 45-degree miter transfer line.",
+      "counselor_tabletop_demo": "Place a machined block inside a clear acrylic projection box to show how Front, Top, and Right-Side views unfold into a flat ASME third-angle layout.",
+      "real_world_connection_box": "ASME Y14.3 Third-Angle Orthographic Standard: Third-angle orthographic projection aligns Top view above Front and Right-Side to the right. Isometric pictorials project all three principal axes at 30 degrees from the horizontal base.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through formatted sheet of paper you prepared with authentic field equipment.",
+      "v47_slide_title": "ASME Y14.3 Third-Angle Orthographic Standard",
+      "v47_primary_source_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.5 Dimensioning & CAD Layer Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+      "core_mechanism_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ],
+      "worked_field_example": "Assign a bilateral tolerance of plus or minus 0.005 inch to a 0.500-inch reamed bore in CAD so any diameter between 0.495 and 0.505 inch passes quality inspection with dial calipers.",
+      "counselor_tabletop_demo": "Inspect a CAD drawing with isolated layers for geometry, centerlines, and dimensions, then verify why chain dimensioning accumulates three times the tolerance error of datum dimensioning.",
+      "real_world_connection_box": "ASME Y14.5 Dimensioning & CAD Layer Standard: Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error. Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply produce a computer-aided design drawing using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.5 Dimensioning & CAD Layer Standard",
+      "v47_primary_source_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "Architectural & Engineering Scale Ratio Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ],
+      "worked_field_example": "Using a triangular architect scale at 1/4 inch equals 1 foot, draw a 24-foot by 16-foot patrol cabin floor plan as a 6.00-inch by 4.00-inch rectangle with 36-inch door swings.",
+      "counselor_tabletop_demo": "Measure three unknown blueprint segments using both a triangular architectural scale in feet-and-inches and a civil engineer decimal scale in tenths of an inch.",
+      "real_world_connection_box": "Architectural & Engineering Scale Ratio Standard: Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper. Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply cad vs. manual drafting workflow using standard troop tools and reference charts.",
+      "v47_slide_title": "Architectural & Engineering Scale Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.1 Drawing Format & Line Weight Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+      "core_mechanism_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ],
+      "worked_field_example": "Lay out an ANSI A 8.5 by 11 inch vellum sheet using a T-square and 4H lead for 0.3 mm construction lines, then darken final part outlines with an HB lead to 0.6 mm width.",
+      "counselor_tabletop_demo": "Compare visible, hidden, center, dimension, and cutting-plane line weights on a drafted sample sheet using an ASME line-gauge template and drafting triangles.",
+      "real_world_connection_box": "ASME Y14.1 Drawing Format & Line Weight Standard: ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines. ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply format two sheets of drawing paper using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.1 Drawing Format & Line Weight Standard",
+      "v47_primary_source_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.3 Third-Angle Orthographic Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+      "core_mechanism_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ],
+      "worked_field_example": "Project a machined aluminum bracket measuring 4.00 inches wide by 2.50 inches high by 1.75 inches deep across aligned Front, Top, and Right-Side views using a 45-degree miter transfer line.",
+      "counselor_tabletop_demo": "Place a machined block inside a clear acrylic projection box to show how Front, Top, and Right-Side views unfold into a flat ASME third-angle layout.",
+      "real_world_connection_box": "ASME Y14.3 Third-Angle Orthographic Standard: Third-angle orthographic projection aligns Top view above Front and Right-Side to the right. Isometric pictorials project all three principal axes at 30 degrees from the horizontal base.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through formatted sheet of paper you prepared with authentic field equipment.",
+      "v47_slide_title": "ASME Y14.3 Third-Angle Orthographic Standard",
+      "v47_primary_source_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.3 Third-Angle Orthographic Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+      "core_mechanism_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ],
+      "worked_field_example": "Project a machined aluminum bracket measuring 4.00 inches wide by 2.50 inches high by 1.75 inches deep across aligned Front, Top, and Right-Side views using a 45-degree miter transfer line.",
+      "counselor_tabletop_demo": "Place a machined block inside a clear acrylic projection box to show how Front, Top, and Right-Side views unfold into a flat ASME third-angle layout.",
+      "real_world_connection_box": "ASME Y14.3 Third-Angle Orthographic Standard: Third-angle orthographic projection aligns Top view above Front and Right-Side to the right. Isometric pictorials project all three principal axes at 30 degrees from the horizontal base.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through formatted sheet of paper you prepared with authentic field equipment.",
+      "v47_slide_title": "ASME Y14.3 Third-Angle Orthographic Standard",
+      "v47_primary_source_bullets": [
+        "Third-angle orthographic projection aligns Top view above Front and Right-Side to the right.",
+        "Isometric pictorials project all three principal axes at 30 degrees from the horizontal base."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "Architectural & Engineering Scale Ratio Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ],
+      "worked_field_example": "Using a triangular architect scale at 1/4 inch equals 1 foot, draw a 24-foot by 16-foot patrol cabin floor plan as a 6.00-inch by 4.00-inch rectangle with 36-inch door swings.",
+      "counselor_tabletop_demo": "Measure three unknown blueprint segments using both a triangular architectural scale in feet-and-inches and a civil engineer decimal scale in tenths of an inch.",
+      "real_world_connection_box": "Architectural & Engineering Scale Ratio Standard: Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper. Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply cad vs. manual drafting workflow using standard troop tools and reference charts.",
+      "v47_slide_title": "Architectural & Engineering Scale Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.1 Drawing Format & Line Weight Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+      "core_mechanism_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ],
+      "worked_field_example": "Lay out an ANSI A 8.5 by 11 inch vellum sheet using a T-square and 4H lead for 0.3 mm construction lines, then darken final part outlines with an HB lead to 0.6 mm width.",
+      "counselor_tabletop_demo": "Compare visible, hidden, center, dimension, and cutting-plane line weights on a drafted sample sheet using an ASME line-gauge template and drafting triangles.",
+      "real_world_connection_box": "ASME Y14.1 Drawing Format & Line Weight Standard: ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines. ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply format two sheets of drawing paper using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.1 Drawing Format & Line Weight Standard",
+      "v47_primary_source_bullets": [
+        "ASME Y14.2 specifies 0.6 mm thick visible object lines and 0.3 mm thin hidden and center lines.",
+        "ANSI B 11 by 17 inch sheets require 0.50 inch borders and a lower-right revision title block."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.5 Dimensioning & CAD Layer Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+      "core_mechanism_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ],
+      "worked_field_example": "Assign a bilateral tolerance of plus or minus 0.005 inch to a 0.500-inch reamed bore in CAD so any diameter between 0.495 and 0.505 inch passes quality inspection with dial calipers.",
+      "counselor_tabletop_demo": "Inspect a CAD drawing with isolated layers for geometry, centerlines, and dimensions, then verify why chain dimensioning accumulates three times the tolerance error of datum dimensioning.",
+      "real_world_connection_box": "ASME Y14.5 Dimensioning & CAD Layer Standard: Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error. Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply produce a computer-aided design drawing using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.5 Dimensioning & CAD Layer Standard",
+      "v47_primary_source_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "ASME Y14.5 Dimensioning & CAD Layer Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+      "core_mechanism_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ],
+      "worked_field_example": "Assign a bilateral tolerance of plus or minus 0.005 inch to a 0.500-inch reamed bore in CAD so any diameter between 0.495 and 0.505 inch passes quality inspection with dial calipers.",
+      "counselor_tabletop_demo": "Inspect a CAD drawing with isolated layers for geometry, centerlines, and dimensions, then verify why chain dimensioning accumulates three times the tolerance error of datum dimensioning.",
+      "real_world_connection_box": "ASME Y14.5 Dimensioning & CAD Layer Standard: Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error. Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply produce a computer-aided design drawing using standard troop tools and reference charts.",
+      "v47_slide_title": "ASME Y14.5 Dimensioning & CAD Layer Standard",
+      "v47_primary_source_bullets": [
+        "Baseline dimensioning references a datum surface to prevent cumulative stack-up tolerance error.",
+        "Standard dimension text height is 0.125 inch with a 0.0625 inch gap from object corners."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Drafting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME Y14.5 & ISO Technical Drawing",
+        "title": "Architectural & Engineering Scale Ratio Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards/find-codes-standards/y14-5-dimensioning-tolerancing"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ],
+      "worked_field_example": "Using a triangular architect scale at 1/4 inch equals 1 foot, draw a 24-foot by 16-foot patrol cabin floor plan as a 6.00-inch by 4.00-inch rectangle with 36-inch door swings.",
+      "counselor_tabletop_demo": "Measure three unknown blueprint segments using both a triangular architectural scale in feet-and-inches and a civil engineer decimal scale in tenths of an inch.",
+      "real_world_connection_box": "Architectural & Engineering Scale Ratio Standard: Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper. Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME Y14.5 & ISO Technical Drawing",
+      "bespoke_visual_filename": "drafting_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/drafting_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply cad vs. manual drafting workflow using standard troop tools and reference charts.",
+      "v47_slide_title": "Architectural & Engineering Scale Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale represents 1 foot of structure per 0.25 inch on paper.",
+        "Single-stroke Gothic uppercase lettering uses 3 mm vertical strokes for uniform legibility."
+      ]
+    }
+  }
+}

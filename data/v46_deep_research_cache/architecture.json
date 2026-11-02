@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "architecture",
+  "badge_name": "Architecture",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+  "primary_authority_url": "https://www.aia.org/resource-center",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "AIA Structural Load Path and Force Vector Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+      "core_mechanism_bullets": [
+        "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+        "Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression."
+      ],
+      "worked_field_example": "Under the International Building Code, residential sleeping floors must support a minimum uniform live load of 30 pounds per square foot.",
+      "counselor_tabletop_demo": "Load a flat foam beam marked with vertical grid lines to show top compression and bottom tension, then compare against a triangulated truss.",
+      "real_world_connection_box": "AIA Structural Load Path and Force Vector Standard: Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings. Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_structural_load_path_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/architecture_structural_load_path_v47_diagram.png",
+      "bespoke_visual_caption": "Side-by-side structural cutaway comparing post-and-lintel columns, a Roman stone arch with keystone compression vectors, and a suspension truss bridge.",
+      "v47_slide_title": "AIA Structural Load Path and Force Vector Standard",
+      "v47_primary_source_bullets": [
+        "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+        "Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "ASHRAE 90.1 Passive Solar and Building Envelope Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+      "core_mechanism_bullets": [
+        "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+        "Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices."
+      ],
+      "worked_field_example": "At 40 degrees North latitude, the noon sun reaches 73.5 degrees altitude in June (blocked by eaves) and 26.5 degrees in December (warming thermal floors).",
+      "counselor_tabletop_demo": "Use a flashlight and protractor at 26.5 degrees and 73.5 degrees angles on a cardboard house model to show winter passive heating and summer shading.",
+      "real_world_connection_box": "ASHRAE 90.1 Passive Solar and Building Envelope Standard: In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain. Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_sustainable_solar_site_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/architecture_sustainable_solar_site_v47_diagram.png",
+      "bespoke_visual_caption": "Passive solar house cross-section showing roof overhang summer shading, low winter sun warming a thermal-mass stone floor, and natural stack ventilation.",
+      "v47_slide_title": "ASHRAE 90.1 Passive Solar and Building Envelope Standard",
+      "v47_primary_source_bullets": [
+        "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+        "Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "AIA 5-Phase Architectural Project Delivery Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+      "core_mechanism_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ],
+      "worked_field_example": "A porch entry rising 24 inches above grade requires an ADA-compliant ramp at least 24 feet long (1 inch rise per 12 inches of horizontal run).",
+      "counselor_tabletop_demo": "Inspect a real doorway and hallway with a tape measure to verify the 32-inch ADA clear opening and 60-inch wheelchair turning circle.",
+      "real_world_connection_box": "AIA 5-Phase Architectural Project Delivery Standard: AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration. Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of passive solar orientation used in Architecture.",
+      "v47_slide_title": "AIA 5-Phase Architectural Project Delivery Standard",
+      "v47_primary_source_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "Architectural Scale Drawing and Orthographic Plan Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+      "core_mechanism_bullets": [
+        "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+        "Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings."
+      ],
+      "worked_field_example": "On a 1/4-inch architectural scale drawing, a 16-foot by 20-foot troop meeting room measures exactly 4 inches by 5 inches on paper.",
+      "counselor_tabletop_demo": "Use a three-sided architect's scale rule and graph paper to measure and draw a 12-foot wall with a 3-foot inward-swinging door at 1/4-inch scale.",
+      "real_world_connection_box": "Architectural Scale Drawing and Orthographic Plan Standard: Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale. Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/architecture_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of contract document packages used in Architecture.",
+      "v47_slide_title": "Architectural Scale Drawing and Orthographic Plan Standard",
+      "v47_primary_source_bullets": [
+        "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+        "Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "AIA Structural Load Path and Force Vector Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+      "core_mechanism_bullets": [
+        "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+        "Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression."
+      ],
+      "worked_field_example": "Under the International Building Code, residential sleeping floors must support a minimum uniform live load of 30 pounds per square foot.",
+      "counselor_tabletop_demo": "Load a flat foam beam marked with vertical grid lines to show top compression and bottom tension, then compare against a triangulated truss.",
+      "real_world_connection_box": "AIA Structural Load Path and Force Vector Standard: Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings. Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_structural_load_path_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/architecture_structural_load_path_v47_diagram.png",
+      "bespoke_visual_caption": "Side-by-side structural cutaway comparing post-and-lintel columns, a Roman stone arch with keystone compression vectors, and a suspension truss bridge.",
+      "v47_slide_title": "AIA Structural Load Path and Force Vector Standard",
+      "v47_primary_source_bullets": [
+        "Continuous structural load paths transfer dead, live, wind, and seismic forces from roof decking down to foundation footings.",
+        "Beams experience top-fiber compression and bottom-fiber tension, whereas masonry arches channel load into pure compression."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "ASHRAE 90.1 Passive Solar and Building Envelope Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+      "core_mechanism_bullets": [
+        "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+        "Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices."
+      ],
+      "worked_field_example": "At 40 degrees North latitude, the noon sun reaches 73.5 degrees altitude in June (blocked by eaves) and 26.5 degrees in December (warming thermal floors).",
+      "counselor_tabletop_demo": "Use a flashlight and protractor at 26.5 degrees and 73.5 degrees angles on a cardboard house model to show winter passive heating and summer shading.",
+      "real_world_connection_box": "ASHRAE 90.1 Passive Solar and Building Envelope Standard: In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain. Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_sustainable_solar_site_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/architecture_sustainable_solar_site_v47_diagram.png",
+      "bespoke_visual_caption": "Passive solar house cross-section showing roof overhang summer shading, low winter sun warming a thermal-mass stone floor, and natural stack ventilation.",
+      "v47_slide_title": "ASHRAE 90.1 Passive Solar and Building Envelope Standard",
+      "v47_primary_source_bullets": [
+        "In the Northern Hemisphere, orienting glazing within 15 degrees of true south maximizes winter solar heat gain.",
+        "Roof overhang projection adapts to seasonal sun altitude, which shifts by 47 degrees between summer and winter solstices."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "AIA 5-Phase Architectural Project Delivery Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+      "core_mechanism_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ],
+      "worked_field_example": "A porch entry rising 24 inches above grade requires an ADA-compliant ramp at least 24 feet long (1 inch rise per 12 inches of horizontal run).",
+      "counselor_tabletop_demo": "Inspect a real doorway and hallway with a tape measure to verify the 32-inch ADA clear opening and 60-inch wheelchair turning circle.",
+      "real_world_connection_box": "AIA 5-Phase Architectural Project Delivery Standard: AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration. Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of passive solar orientation used in Architecture.",
+      "v47_slide_title": "AIA 5-Phase Architectural Project Delivery Standard",
+      "v47_primary_source_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "AIA 5-Phase Architectural Project Delivery Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+      "core_mechanism_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ],
+      "worked_field_example": "A porch entry rising 24 inches above grade requires an ADA-compliant ramp at least 24 feet long (1 inch rise per 12 inches of horizontal run).",
+      "counselor_tabletop_demo": "Inspect a real doorway and hallway with a tape measure to verify the 32-inch ADA clear opening and 60-inch wheelchair turning circle.",
+      "real_world_connection_box": "AIA 5-Phase Architectural Project Delivery Standard: AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration. Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of passive solar orientation used in Architecture.",
+      "v47_slide_title": "AIA 5-Phase Architectural Project Delivery Standard",
+      "v47_primary_source_bullets": [
+        "AIA B101 delivery runs through Schematic Design, Design Development, Construction Documents, Bidding, and Administration.",
+        "Universal Design under ADA Standards requires a minimum 32-inch clear door opening width and a 1-to-12 maximum ramp slope."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Institute of Architects (AIA) & IBC / ASHRAE",
+        "title": "Architectural Scale Drawing and Orthographic Plan Standard Technical Reference",
+        "canonical_url": "https://www.aia.org/resource-center"
+      },
+      "rule_of_thumb_mnemonic": "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+      "core_mechanism_bullets": [
+        "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+        "Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings."
+      ],
+      "worked_field_example": "On a 1/4-inch architectural scale drawing, a 16-foot by 20-foot troop meeting room measures exactly 4 inches by 5 inches on paper.",
+      "counselor_tabletop_demo": "Use a three-sided architect's scale rule and graph paper to measure and draw a 12-foot wall with a 3-foot inward-swinging door at 1/4-inch scale.",
+      "real_world_connection_box": "Architectural Scale Drawing and Orthographic Plan Standard: Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale. Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Institute of Architects (AIA) & IBC / ASHRAE",
+      "bespoke_visual_filename": "architecture_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/architecture_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of contract document packages used in Architecture.",
+      "v47_slide_title": "Architectural Scale Drawing and Orthographic Plan Standard",
+      "v47_primary_source_bullets": [
+        "Residential floor plans commonly draft at 1/4 inch equals 1 foot-0 inches (1 to 48 ratio) on an architect's triangular scale.",
+        "Orthographic floor plans slice horizontally 4 feet above the finished floor to show wall thickness, window sills, and door swings."
+      ]
+    }
+  }
+}

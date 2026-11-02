@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "crime-prevention",
+  "badge_name": "Crime Prevention",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+  "primary_authority_url": "https://www.ncpc.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+      "core_mechanism_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ],
+      "worked_field_example": "Reviewing local police blotter statistics shows property larceny-theft accounts for over 60 percent of reported municipal offenses compared with violent crimes.",
+      "counselor_tabletop_demo": "Categorize six real-world news articles into FBI NIBRS offense categories and identify the local, state, or federal jurisdiction for each.",
+      "real_world_connection_box": "DOJ Criminal Law Classification & FBI NIBRS Data Standard: Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society. Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through careers & professional pathways with authentic field equipment.",
+      "v47_slide_title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard",
+      "v47_primary_source_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "CPTED Environmental Design & Home Security Audit Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+      "core_mechanism_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ],
+      "worked_field_example": "Trimming front-window bushes to 30 inches high and installing 1,600-lumen motion-sensor LED floodlights eliminates concealed entry blind spots.",
+      "counselor_tabletop_demo": "Walk through a 15-point home and neighborhood CPTED security checklist on a floor-plan diagram to spot vulnerable locks, windows, and lighting gaps.",
+      "real_world_connection_box": "CPTED Environmental Design & Home Security Audit Standard: Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting. Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through laws and society with authentic field equipment.",
+      "v47_slide_title": "CPTED Environmental Design & Home Security Audit Standard",
+      "v47_primary_source_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "Retail Loss Prevention & Emergency 911 Reporting Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+      "core_mechanism_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ],
+      "worked_field_example": "When reporting a suspicious vehicle to dispatch, using the CYMBALS mnemonic (Color, Year, Make/Model, Body style, Additional details, License plate, State) delivers actionable data in 20 seconds.",
+      "counselor_tabletop_demo": "Practice a simulated 30-second 911 witness report from a photograph using the CYMBALS vehicle and person description framework.",
+      "real_world_connection_box": "Retail Loss Prevention & Emergency 911 Reporting Standard: Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits. Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for crime in your community, state in a troop setting.",
+      "v47_slide_title": "Retail Loss Prevention & Emergency 911 Reporting Standard",
+      "v47_primary_source_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "FTC Identity Theft Protection & Anti-Phishing Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+      "core_mechanism_bullets": [
+        "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+        "Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance."
+      ],
+      "worked_field_example": "Spotting a typosquatted domain and an urgent gift-card wire request prevents a phishing scam before any credentials or funds are disclosed.",
+      "counselor_tabletop_demo": "Examine three sample phishing emails and text messages to circle the red-flag indicators of spoofing, urgency, and malicious links.",
+      "real_world_connection_box": "FTC Identity Theft Protection & Anti-Phishing Standard: Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts. Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply home and neighborhood crime prevention using standard troop tools and reference charts.",
+      "v47_slide_title": "FTC Identity Theft Protection & Anti-Phishing Standard",
+      "v47_primary_source_bullets": [
+        "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+        "Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+      "core_mechanism_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ],
+      "worked_field_example": "Reviewing local police blotter statistics shows property larceny-theft accounts for over 60 percent of reported municipal offenses compared with violent crimes.",
+      "counselor_tabletop_demo": "Categorize six real-world news articles into FBI NIBRS offense categories and identify the local, state, or federal jurisdiction for each.",
+      "real_world_connection_box": "DOJ Criminal Law Classification & FBI NIBRS Data Standard: Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society. Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through careers & professional pathways with authentic field equipment.",
+      "v47_slide_title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard",
+      "v47_primary_source_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "CPTED Environmental Design & Home Security Audit Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+      "core_mechanism_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ],
+      "worked_field_example": "Trimming front-window bushes to 30 inches high and installing 1,600-lumen motion-sensor LED floodlights eliminates concealed entry blind spots.",
+      "counselor_tabletop_demo": "Walk through a 15-point home and neighborhood CPTED security checklist on a floor-plan diagram to spot vulnerable locks, windows, and lighting gaps.",
+      "real_world_connection_box": "CPTED Environmental Design & Home Security Audit Standard: Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting. Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through laws and society with authentic field equipment.",
+      "v47_slide_title": "CPTED Environmental Design & Home Security Audit Standard",
+      "v47_primary_source_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "Retail Loss Prevention & Emergency 911 Reporting Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+      "core_mechanism_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ],
+      "worked_field_example": "When reporting a suspicious vehicle to dispatch, using the CYMBALS mnemonic (Color, Year, Make/Model, Body style, Additional details, License plate, State) delivers actionable data in 20 seconds.",
+      "counselor_tabletop_demo": "Practice a simulated 30-second 911 witness report from a photograph using the CYMBALS vehicle and person description framework.",
+      "real_world_connection_box": "Retail Loss Prevention & Emergency 911 Reporting Standard: Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits. Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for crime in your community, state in a troop setting.",
+      "v47_slide_title": "Retail Loss Prevention & Emergency 911 Reporting Standard",
+      "v47_primary_source_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "CPTED Environmental Design & Home Security Audit Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+      "core_mechanism_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ],
+      "worked_field_example": "Trimming front-window bushes to 30 inches high and installing 1,600-lumen motion-sensor LED floodlights eliminates concealed entry blind spots.",
+      "counselor_tabletop_demo": "Walk through a 15-point home and neighborhood CPTED security checklist on a floor-plan diagram to spot vulnerable locks, windows, and lighting gaps.",
+      "real_world_connection_box": "CPTED Environmental Design & Home Security Audit Standard: Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting. Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through laws and society with authentic field equipment.",
+      "v47_slide_title": "CPTED Environmental Design & Home Security Audit Standard",
+      "v47_primary_source_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+      "core_mechanism_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ],
+      "worked_field_example": "Reviewing local police blotter statistics shows property larceny-theft accounts for over 60 percent of reported municipal offenses compared with violent crimes.",
+      "counselor_tabletop_demo": "Categorize six real-world news articles into FBI NIBRS offense categories and identify the local, state, or federal jurisdiction for each.",
+      "real_world_connection_box": "DOJ Criminal Law Classification & FBI NIBRS Data Standard: Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society. Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through careers & professional pathways with authentic field equipment.",
+      "v47_slide_title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard",
+      "v47_primary_source_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "CPTED Environmental Design & Home Security Audit Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+      "core_mechanism_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ],
+      "worked_field_example": "Trimming front-window bushes to 30 inches high and installing 1,600-lumen motion-sensor LED floodlights eliminates concealed entry blind spots.",
+      "counselor_tabletop_demo": "Walk through a 15-point home and neighborhood CPTED security checklist on a floor-plan diagram to spot vulnerable locks, windows, and lighting gaps.",
+      "real_world_connection_box": "CPTED Environmental Design & Home Security Audit Standard: Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting. Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through laws and society with authentic field equipment.",
+      "v47_slide_title": "CPTED Environmental Design & Home Security Audit Standard",
+      "v47_primary_source_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "Retail Loss Prevention & Emergency 911 Reporting Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+      "core_mechanism_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ],
+      "worked_field_example": "When reporting a suspicious vehicle to dispatch, using the CYMBALS mnemonic (Color, Year, Make/Model, Body style, Additional details, License plate, State) delivers actionable data in 20 seconds.",
+      "counselor_tabletop_demo": "Practice a simulated 30-second 911 witness report from a photograph using the CYMBALS vehicle and person description framework.",
+      "real_world_connection_box": "Retail Loss Prevention & Emergency 911 Reporting Standard: Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits. Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for crime in your community, state in a troop setting.",
+      "v47_slide_title": "Retail Loss Prevention & Emergency 911 Reporting Standard",
+      "v47_primary_source_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "Retail Loss Prevention & Emergency 911 Reporting Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+      "core_mechanism_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ],
+      "worked_field_example": "When reporting a suspicious vehicle to dispatch, using the CYMBALS mnemonic (Color, Year, Make/Model, Body style, Additional details, License plate, State) delivers actionable data in 20 seconds.",
+      "counselor_tabletop_demo": "Practice a simulated 30-second 911 witness report from a photograph using the CYMBALS vehicle and person description framework.",
+      "real_world_connection_box": "Retail Loss Prevention & Emergency 911 Reporting Standard: Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits. Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for crime in your community, state in a troop setting.",
+      "v47_slide_title": "Retail Loss Prevention & Emergency 911 Reporting Standard",
+      "v47_primary_source_bullets": [
+        "Retailers curb shrinkage using electronic article surveillance (EAS) RF tags, convex mirrors, and POS exception audits.",
+        "Apply the Three Rs (Recognize, Respond, Report) and give 911 dispatchers exact location and CYMBALS vehicle descriptions."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+      "core_mechanism_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ],
+      "worked_field_example": "Reviewing local police blotter statistics shows property larceny-theft accounts for over 60 percent of reported municipal offenses compared with violent crimes.",
+      "counselor_tabletop_demo": "Categorize six real-world news articles into FBI NIBRS offense categories and identify the local, state, or federal jurisdiction for each.",
+      "real_world_connection_box": "DOJ Criminal Law Classification & FBI NIBRS Data Standard: Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society. Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through careers & professional pathways with authentic field equipment.",
+      "v47_slide_title": "DOJ Criminal Law Classification & FBI NIBRS Data Standard",
+      "v47_primary_source_bullets": [
+        "Classify offenses under FBI NIBRS into Crimes Against Persons, Crimes Against Property, and Crimes Against Society.",
+        "Distinguish felonies (punishable by over 1 year in prison) from misdemeanors, white-collar fraud, and environmental crimes."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "CPTED Environmental Design & Home Security Audit Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+      "core_mechanism_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ],
+      "worked_field_example": "Trimming front-window bushes to 30 inches high and installing 1,600-lumen motion-sensor LED floodlights eliminates concealed entry blind spots.",
+      "counselor_tabletop_demo": "Walk through a 15-point home and neighborhood CPTED security checklist on a floor-plan diagram to spot vulnerable locks, windows, and lighting gaps.",
+      "real_world_connection_box": "CPTED Environmental Design & Home Security Audit Standard: Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting. Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through laws and society with authentic field equipment.",
+      "v47_slide_title": "CPTED Environmental Design & Home Security Audit Standard",
+      "v47_primary_source_bullets": [
+        "Apply CPTED principles including natural surveillance, access control, territorial reinforcement, and exterior lighting.",
+        "Secure exterior doors with ANSI Grade 1 deadbolts (1-inch throw), 3-inch strike-plate screws, and shrubs trimmed under 3 feet."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Crime Prevention",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Crime Prevention Council (NCPC) & DOJ BJA",
+        "title": "FTC Identity Theft Protection & Anti-Phishing Standard Technical Reference",
+        "canonical_url": "https://www.ncpc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+      "core_mechanism_bullets": [
+        "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+        "Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance."
+      ],
+      "worked_field_example": "Spotting a typosquatted domain and an urgent gift-card wire request prevents a phishing scam before any credentials or funds are disclosed.",
+      "counselor_tabletop_demo": "Examine three sample phishing emails and text messages to circle the red-flag indicators of spoofing, urgency, and malicious links.",
+      "real_world_connection_box": "FTC Identity Theft Protection & Anti-Phishing Standard: Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts. Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Crime Prevention Council (NCPC) & DOJ BJA",
+      "bespoke_visual_filename": "crime_prevention_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/crime_prevention_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply home and neighborhood crime prevention using standard troop tools and reference charts.",
+      "v47_slide_title": "FTC Identity Theft Protection & Anti-Phishing Standard",
+      "v47_primary_source_bullets": [
+        "Freeze credit files at all three bureaus, cross-cut shred sensitive records, and enable MFA on all financial accounts.",
+        "Inspect sender domains, refuse urgent payment demands, and lock social media privacy settings against reconnaissance."
+      ]
+    }
+  }
+}

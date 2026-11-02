@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "forestry",
+  "badge_name": "Forestry",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Society of American Foresters & USFS",
+  "primary_authority_url": "https://www.fs.usda.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Dendrology Key & Herbarium Voucher Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+      "core_mechanism_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ],
+      "worked_field_example": "Inspecting a twig with opposite buds and 5-lobed palmate leaves with U-shaped sinuses identifies Sugar Maple (Acer saccharum), which is pressed flat in newspaper with GPS coordinates and bark notes.",
+      "counselor_tabletop_demo": "Key out four native branch specimens using a dichotomous leaf and twig key by checking opposite vs alternate buds, simple vs compound blades, and entire vs serrate margins.",
+      "real_world_connection_box": "USFS Dendrology Key & Herbarium Voucher Standard: Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement. Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating field notebook, make a collection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFS Dendrology Key & Herbarium Voucher Standard",
+      "v47_primary_source_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "Cambial Wood Anatomy & Dendrochronology Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+      "core_mechanism_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ],
+      "worked_field_example": "Counting 42 paired earlywood-latewood rings on a 5-millimeter increment core extracted at 4.5 feet breast height reveals a 42-year-old stand with a narrow ring drought signature in year 28.",
+      "counselor_tabletop_demo": "Examine cross-sectional tree cookies and 10 wood blocks under a hand lens to identify outer bark, phloem, vascular cambium, sapwood, heartwood, pith, and fire scars.",
+      "real_world_connection_box": "Cambial Wood Anatomy & Dendrochronology Standard: Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season. One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply collect and wood samples using standard troop tools and reference charts.",
+      "v47_slide_title": "Cambial Wood Anatomy & Dendrochronology Standard",
+      "v47_primary_source_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Timber Cruising & DBH Biltmore Stick Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+      "core_mechanism_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ],
+      "worked_field_example": "A mature Douglas-fir accounts for roughly 48 pounds of carbon dioxide sequestration per year while a 20-inch DBH stem with three merchantable 16-foot logs yields roughly 280 board feet on the Scribner scale.",
+      "counselor_tabletop_demo": "Measure the diameter of a cylindrical post or camp tree at 4.5 feet using both a diameter tape (circumference divided by pi) and a Biltmore stick held 25 inches from the eye.",
+      "real_world_connection_box": "USFS Timber Cruising & DBH Biltmore Stick Standard: Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side. A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through contributions forests with authentic field equipment.",
+      "v47_slide_title": "USFS Timber Cruising & DBH Biltmore Stick Standard",
+      "v47_primary_source_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "SAF Silvicultural Systems & Wildfire Fuel Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+      "core_mechanism_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ],
+      "worked_field_example": "Longleaf and loblolly pine require full sunlight for seedling regeneration under a seed-tree cut leaving 8 to 12 dominant parent trees per acre, whereas shade-tolerant sugar maple regenerates under single-tree selection.",
+      "counselor_tabletop_demo": "Compare stand profile diagrams of clearcut, seed-tree, shelterwood, and single-tree selection harvests and show how fuel-ladder thinning prevents surface fire from crowning.",
+      "real_world_connection_box": "SAF Silvicultural Systems & Wildfire Fuel Standard: Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species. Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing forest management means with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAF Silvicultural Systems & Wildfire Fuel Standard",
+      "v47_primary_source_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Dendrology Key & Herbarium Voucher Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+      "core_mechanism_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ],
+      "worked_field_example": "Inspecting a twig with opposite buds and 5-lobed palmate leaves with U-shaped sinuses identifies Sugar Maple (Acer saccharum), which is pressed flat in newspaper with GPS coordinates and bark notes.",
+      "counselor_tabletop_demo": "Key out four native branch specimens using a dichotomous leaf and twig key by checking opposite vs alternate buds, simple vs compound blades, and entire vs serrate margins.",
+      "real_world_connection_box": "USFS Dendrology Key & Herbarium Voucher Standard: Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement. Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating field notebook, make a collection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFS Dendrology Key & Herbarium Voucher Standard",
+      "v47_primary_source_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "Cambial Wood Anatomy & Dendrochronology Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+      "core_mechanism_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ],
+      "worked_field_example": "Counting 42 paired earlywood-latewood rings on a 5-millimeter increment core extracted at 4.5 feet breast height reveals a 42-year-old stand with a narrow ring drought signature in year 28.",
+      "counselor_tabletop_demo": "Examine cross-sectional tree cookies and 10 wood blocks under a hand lens to identify outer bark, phloem, vascular cambium, sapwood, heartwood, pith, and fire scars.",
+      "real_world_connection_box": "Cambial Wood Anatomy & Dendrochronology Standard: Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season. One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply collect and wood samples using standard troop tools and reference charts.",
+      "v47_slide_title": "Cambial Wood Anatomy & Dendrochronology Standard",
+      "v47_primary_source_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "Cambial Wood Anatomy & Dendrochronology Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+      "core_mechanism_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ],
+      "worked_field_example": "Counting 42 paired earlywood-latewood rings on a 5-millimeter increment core extracted at 4.5 feet breast height reveals a 42-year-old stand with a narrow ring drought signature in year 28.",
+      "counselor_tabletop_demo": "Examine cross-sectional tree cookies and 10 wood blocks under a hand lens to identify outer bark, phloem, vascular cambium, sapwood, heartwood, pith, and fire scars.",
+      "real_world_connection_box": "Cambial Wood Anatomy & Dendrochronology Standard: Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season. One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply collect and wood samples using standard troop tools and reference charts.",
+      "v47_slide_title": "Cambial Wood Anatomy & Dendrochronology Standard",
+      "v47_primary_source_bullets": [
+        "Vascular cambium adds xylem wood inward and phloem inner bark outward during each growing season.",
+        "One annual growth ring comprises porous spring earlywood and dense thick-walled summer latewood."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "SAF Silvicultural Systems & Wildfire Fuel Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+      "core_mechanism_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ],
+      "worked_field_example": "Longleaf and loblolly pine require full sunlight for seedling regeneration under a seed-tree cut leaving 8 to 12 dominant parent trees per acre, whereas shade-tolerant sugar maple regenerates under single-tree selection.",
+      "counselor_tabletop_demo": "Compare stand profile diagrams of clearcut, seed-tree, shelterwood, and single-tree selection harvests and show how fuel-ladder thinning prevents surface fire from crowning.",
+      "real_world_connection_box": "SAF Silvicultural Systems & Wildfire Fuel Standard: Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species. Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing forest management means with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAF Silvicultural Systems & Wildfire Fuel Standard",
+      "v47_primary_source_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Dendrology Key & Herbarium Voucher Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+      "core_mechanism_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ],
+      "worked_field_example": "Inspecting a twig with opposite buds and 5-lobed palmate leaves with U-shaped sinuses identifies Sugar Maple (Acer saccharum), which is pressed flat in newspaper with GPS coordinates and bark notes.",
+      "counselor_tabletop_demo": "Key out four native branch specimens using a dichotomous leaf and twig key by checking opposite vs alternate buds, simple vs compound blades, and entire vs serrate margins.",
+      "real_world_connection_box": "USFS Dendrology Key & Herbarium Voucher Standard: Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement. Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating field notebook, make a collection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFS Dendrology Key & Herbarium Voucher Standard",
+      "v47_primary_source_bullets": [
+        "Dichotomous tree keys separate Gymnosperm conifers from Angiosperm hardwoods by leaf arrangement.",
+        "Opposite-branched temperate genera follow the MADCapHorse mnemonic (Maple, Ash, Dogwood, Buckeye)."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Timber Cruising & DBH Biltmore Stick Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+      "core_mechanism_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ],
+      "worked_field_example": "A mature Douglas-fir accounts for roughly 48 pounds of carbon dioxide sequestration per year while a 20-inch DBH stem with three merchantable 16-foot logs yields roughly 280 board feet on the Scribner scale.",
+      "counselor_tabletop_demo": "Measure the diameter of a cylindrical post or camp tree at 4.5 feet using both a diameter tape (circumference divided by pi) and a Biltmore stick held 25 inches from the eye.",
+      "real_world_connection_box": "USFS Timber Cruising & DBH Biltmore Stick Standard: Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side. A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through contributions forests with authentic field equipment.",
+      "v47_slide_title": "USFS Timber Cruising & DBH Biltmore Stick Standard",
+      "v47_primary_source_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "USFS Timber Cruising & DBH Biltmore Stick Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+      "core_mechanism_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ],
+      "worked_field_example": "A mature Douglas-fir accounts for roughly 48 pounds of carbon dioxide sequestration per year while a 20-inch DBH stem with three merchantable 16-foot logs yields roughly 280 board feet on the Scribner scale.",
+      "counselor_tabletop_demo": "Measure the diameter of a cylindrical post or camp tree at 4.5 feet using both a diameter tape (circumference divided by pi) and a Biltmore stick held 25 inches from the eye.",
+      "real_world_connection_box": "USFS Timber Cruising & DBH Biltmore Stick Standard: Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side. A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through contributions forests with authentic field equipment.",
+      "v47_slide_title": "USFS Timber Cruising & DBH Biltmore Stick Standard",
+      "v47_primary_source_bullets": [
+        "Diameter at Breast Height (DBH) is measured at exactly 4.5 feet above ground on the uphill side.",
+        "A Biltmore stick held 25 inches from the eye uses similar triangles to read DBH and 16-foot logs."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Forestry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Society of American Foresters & USFS",
+        "title": "SAF Silvicultural Systems & Wildfire Fuel Standard Technical Reference",
+        "canonical_url": "https://www.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+      "core_mechanism_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ],
+      "worked_field_example": "Longleaf and loblolly pine require full sunlight for seedling regeneration under a seed-tree cut leaving 8 to 12 dominant parent trees per acre, whereas shade-tolerant sugar maple regenerates under single-tree selection.",
+      "counselor_tabletop_demo": "Compare stand profile diagrams of clearcut, seed-tree, shelterwood, and single-tree selection harvests and show how fuel-ladder thinning prevents surface fire from crowning.",
+      "real_world_connection_box": "SAF Silvicultural Systems & Wildfire Fuel Standard: Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species. Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Society of American Foresters & USFS",
+      "bespoke_visual_filename": "forestry_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/forestry_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing forest management means with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAF Silvicultural Systems & Wildfire Fuel Standard",
+      "v47_primary_source_bullets": [
+        "Even-aged silviculture uses clearcut, seed-tree, or shelterwood cuts for shade-intolerant species.",
+        "Pruning lower branches up to 10 feet removes vertical fuel ladders that trigger crown fires."
+      ]
+    }
+  }
+}

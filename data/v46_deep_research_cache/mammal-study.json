@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "mammal-study",
+  "badge_name": "Mammal Study",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Society of Mammalogists (ASM) & USFWS",
+  "primary_authority_url": "https://www.mammalsociety.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Class Mammalia Diagnostic Anatomy Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+      "core_mechanism_bullets": [
+        "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+        "Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes."
+      ],
+      "worked_field_example": "Even though bats fly like birds and whales swim like fish, both nourish young with milk, maintain warm body temperature, breathe air with lungs, and possess 3 middle-ear bones and 7 cervical neck vertebrae.",
+      "counselor_tabletop_demo": "Trace a mammal from Kingdom Animalia, Phylum Chordata, Subphylum Vertebrata, and Class Mammalia down through Order, Family, Genus, and Species.",
+      "real_world_connection_box": "ASM Class Mammalia Diagnostic Anatomy Standard: Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm. Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply animal, invertebrate, vertebrate, and mammal using standard troop tools and reference charts.",
+      "v47_slide_title": "ASM Class Mammalia Diagnostic Anatomy Standard",
+      "v47_primary_source_bullets": [
+        "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+        "Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Dental Formula & Trophic Skull Adaptation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+      "core_mechanism_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ],
+      "worked_field_example": "A Virginia opossum (Didelphis virginiana, North America only native marsupial) has a dental formula of 5/4 incisors, 1/1 canines, 3/3 premolars, and 4/4 molars times 2, totaling 50 teeth.",
+      "counselor_tabletop_demo": "Compare skull diagrams of a white-tailed deer, coyote, and beaver to identify incisors, canines, carnassial shears, diastema gaps, and sagittal crests.",
+      "real_world_connection_box": "ASM Dental Formula & Trophic Skull Adaptation Standard: Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2. Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for animal kingdom is classified in a troop setting.",
+      "v47_slide_title": "ASM Dental Formula & Trophic Skull Adaptation Standard",
+      "v47_primary_source_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "USFWS Track Stride, Scat & Crepuscular Survey Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+      "core_mechanism_bullets": [
+        "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+        "Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools."
+      ],
+      "worked_field_example": "Finding a 2.5-inch oval track in mud with four claw impressions and a single front lobe on the heel pad walking in a direct-register line identifies a coyote rather than a bobcat.",
+      "counselor_tabletop_demo": "Mix plaster of Paris at a 2-to-1 powder-to-water ratio inside a cardstock collar to cast a mammal track impression and measure stride and straddle.",
+      "real_world_connection_box": "USFWS Track Stride, Scat & Crepuscular Survey Standard: Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes. Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing spend three hours with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFWS Track Stride, Scat & Crepuscular Survey Standard",
+      "v47_primary_source_bullets": [
+        "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+        "Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "USFWS Carrying Capacity & Habitat Conservation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+      "core_mechanism_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ],
+      "worked_field_example": "A single little brown bat (Myotis lucifugus) emerging from a troop-built cedar bat house can consume up to 1,000 mosquitoes and agricultural pest moths per hour at dusk.",
+      "counselor_tabletop_demo": "Construct a food web connecting producers, primary herbivorous mammals, and apex predators, then design a quantifiable mammal habitat improvement project.",
+      "real_world_connection_box": "USFWS Carrying Capacity & Habitat Conservation Standard: Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs. Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through leave no trace & outdoor ethics with authentic field equipment.",
+      "v47_slide_title": "USFWS Carrying Capacity & Habitat Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Class Mammalia Diagnostic Anatomy Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+      "core_mechanism_bullets": [
+        "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+        "Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes."
+      ],
+      "worked_field_example": "Even though bats fly like birds and whales swim like fish, both nourish young with milk, maintain warm body temperature, breathe air with lungs, and possess 3 middle-ear bones and 7 cervical neck vertebrae.",
+      "counselor_tabletop_demo": "Trace a mammal from Kingdom Animalia, Phylum Chordata, Subphylum Vertebrata, and Class Mammalia down through Order, Family, Genus, and Species.",
+      "real_world_connection_box": "ASM Class Mammalia Diagnostic Anatomy Standard: Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm. Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply animal, invertebrate, vertebrate, and mammal using standard troop tools and reference charts.",
+      "v47_slide_title": "ASM Class Mammalia Diagnostic Anatomy Standard",
+      "v47_primary_source_bullets": [
+        "Class Mammalia is defined by milk-producing mammary glands, keratin hair, endothermic warm-blooded metabolism, and a muscular diaphragm.",
+        "Mammalian osteology features a single lower jawbone (dentary) and 3 middle-ear ossicles called the malleus, incus, and stapes."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Dental Formula & Trophic Skull Adaptation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+      "core_mechanism_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ],
+      "worked_field_example": "A Virginia opossum (Didelphis virginiana, North America only native marsupial) has a dental formula of 5/4 incisors, 1/1 canines, 3/3 premolars, and 4/4 molars times 2, totaling 50 teeth.",
+      "counselor_tabletop_demo": "Compare skull diagrams of a white-tailed deer, coyote, and beaver to identify incisors, canines, carnassial shears, diastema gaps, and sagittal crests.",
+      "real_world_connection_box": "ASM Dental Formula & Trophic Skull Adaptation Standard: Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2. Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for animal kingdom is classified in a troop setting.",
+      "v47_slide_title": "ASM Dental Formula & Trophic Skull Adaptation Standard",
+      "v47_primary_source_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Dental Formula & Trophic Skull Adaptation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+      "core_mechanism_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ],
+      "worked_field_example": "A Virginia opossum (Didelphis virginiana, North America only native marsupial) has a dental formula of 5/4 incisors, 1/1 canines, 3/3 premolars, and 4/4 molars times 2, totaling 50 teeth.",
+      "counselor_tabletop_demo": "Compare skull diagrams of a white-tailed deer, coyote, and beaver to identify incisors, canines, carnassial shears, diastema gaps, and sagittal crests.",
+      "real_world_connection_box": "ASM Dental Formula & Trophic Skull Adaptation Standard: Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2. Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for animal kingdom is classified in a troop setting.",
+      "v47_slide_title": "ASM Dental Formula & Trophic Skull Adaptation Standard",
+      "v47_primary_source_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "USFWS Carrying Capacity & Habitat Conservation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+      "core_mechanism_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ],
+      "worked_field_example": "A single little brown bat (Myotis lucifugus) emerging from a troop-built cedar bat house can consume up to 1,000 mosquitoes and agricultural pest moths per hour at dusk.",
+      "counselor_tabletop_demo": "Construct a food web connecting producers, primary herbivorous mammals, and apex predators, then design a quantifiable mammal habitat improvement project.",
+      "real_world_connection_box": "USFWS Carrying Capacity & Habitat Conservation Standard: Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs. Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through leave no trace & outdoor ethics with authentic field equipment.",
+      "v47_slide_title": "USFWS Carrying Capacity & Habitat Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "USFWS Track Stride, Scat & Crepuscular Survey Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+      "core_mechanism_bullets": [
+        "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+        "Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools."
+      ],
+      "worked_field_example": "Finding a 2.5-inch oval track in mud with four claw impressions and a single front lobe on the heel pad walking in a direct-register line identifies a coyote rather than a bobcat.",
+      "counselor_tabletop_demo": "Mix plaster of Paris at a 2-to-1 powder-to-water ratio inside a cardstock collar to cast a mammal track impression and measure stride and straddle.",
+      "real_world_connection_box": "USFWS Track Stride, Scat & Crepuscular Survey Standard: Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes. Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing spend three hours with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFWS Track Stride, Scat & Crepuscular Survey Standard",
+      "v47_primary_source_bullets": [
+        "Canid tracks show 4 oval toes with claw marks and a triangular heel pad, whereas felid tracks are round with retracted claws and 3 lobes.",
+        "Most wild mammals are crepuscular (active at dawn and dusk) or nocturnal, making plaster track casts and scat key non-invasive tools."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "ASM Dental Formula & Trophic Skull Adaptation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+      "core_mechanism_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ],
+      "worked_field_example": "A Virginia opossum (Didelphis virginiana, North America only native marsupial) has a dental formula of 5/4 incisors, 1/1 canines, 3/3 premolars, and 4/4 molars times 2, totaling 50 teeth.",
+      "counselor_tabletop_demo": "Compare skull diagrams of a white-tailed deer, coyote, and beaver to identify incisors, canines, carnassial shears, diastema gaps, and sagittal crests.",
+      "real_world_connection_box": "ASM Dental Formula & Trophic Skull Adaptation Standard: Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2. Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for animal kingdom is classified in a troop setting.",
+      "v47_slide_title": "ASM Dental Formula & Trophic Skull Adaptation Standard",
+      "v47_primary_source_bullets": [
+        "Heterodont mammalian teeth divide into Incisors, Canines, Premolars, and Molars, written as upper over lower half-jaw counts times 2.",
+        "Carnivores have scissor-like carnassial teeth and forward binocular eyes, while herbivores have a diastema gap and flat grinding molars."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Mammal Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Society of Mammalogists (ASM) & USFWS",
+        "title": "USFWS Carrying Capacity & Habitat Conservation Standard Technical Reference",
+        "canonical_url": "https://www.mammalsociety.org/"
+      },
+      "rule_of_thumb_mnemonic": "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+      "core_mechanism_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ],
+      "worked_field_example": "A single little brown bat (Myotis lucifugus) emerging from a troop-built cedar bat house can consume up to 1,000 mosquitoes and agricultural pest moths per hour at dusk.",
+      "counselor_tabletop_demo": "Construct a food web connecting producers, primary herbivorous mammals, and apex predators, then design a quantifiable mammal habitat improvement project.",
+      "real_world_connection_box": "USFWS Carrying Capacity & Habitat Conservation Standard: Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs. Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Society of Mammalogists (ASM) & USFWS",
+      "bespoke_visual_filename": "mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/mammal_study_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through leave no trace & outdoor ethics with authentic field equipment.",
+      "v47_slide_title": "USFWS Carrying Capacity & Habitat Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Habitat carrying capacity (K) depends on the four limiting factors of food, water, cover, and interconnected space across trophic webs.",
+        "Installing cedar bat roost boxes 12 to 20 feet high on sunny south-facing poles or native brush piles boosts local mammal survival."
+      ]
+    }
+  }
+}

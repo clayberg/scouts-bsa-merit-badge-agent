@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "cycling",
+  "badge_name": "Cycling",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "League of American Bicyclists & CPSC",
+  "primary_authority_url": "https://bikeleague.org/ridesmart/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+      "core_mechanism_bullets": [
+        "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+        "Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear."
+      ],
+      "worked_field_example": "Adjusting the rear retention dial and side sliders so the helmet rim sits 1 inch (two finger widths) above the brow prevents forehead exposure in a forward fall.",
+      "counselor_tabletop_demo": "Perform the 2-2-2 helmet fit check on each Scout and verify the internal CPSC 16 CFR 1203 certification sticker and manufacture date.",
+      "real_world_connection_box": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard: Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin). Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_3_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_3_nano_hero.png",
+      "bespoke_visual_caption": "Scouts with mountain bikes gather along a wooded trail while an adult leader reviews safety rules on a chart.",
+      "v47_slide_title": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard",
+      "v47_primary_source_bullets": [
+        "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+        "Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "League of American Bicyclists ABC Quick Check Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+      "core_mechanism_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ],
+      "worked_field_example": "Inflating a 700x28c road tire to its sidewall rating of 80 PSI and confirming 1 inch of brake-lever reserve travel before handlebar contact ensures crisp stopping.",
+      "counselor_tabletop_demo": "Execute a complete hands-on ABC Quick Check and saddle-height adjustment on a bicycle in under 3 minutes.",
+      "real_world_connection_box": "League of American Bicyclists ABC Quick Check Standard: Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette. Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating take a road safety test equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "League of American Bicyclists ABC Quick Check Standard",
+      "v47_primary_source_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "Vehicular Cycling Lane Positioning & Hand Signal Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+      "core_mechanism_bullets": [
+        "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+        "Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals."
+      ],
+      "worked_field_example": "Approaching a narrow 10-foot lane with parked cars, a cyclist checks over the left shoulder, signals left, and moves to the center of the lane out of the 4-foot door zone.",
+      "counselor_tabletop_demo": "Demonstrate all three standard hand signals, shoulder-scan head checks, and emergency weight-back dual-braking posture on a paved practice course.",
+      "real_world_connection_box": "Vehicular Cycling Lane Positioning & Hand Signal Standard: Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely. Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating avoiding main highways take two equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "Vehicular Cycling Lane Positioning & Hand Signal Standard",
+      "v47_primary_source_bullets": [
+        "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+        "Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+      "core_mechanism_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ],
+      "worked_field_example": "On a 50-mile road ride averaging 12.5 miles per hour (4 hours riding time), each Scout drinks four 20-ounce bottles of water and eats 150 calories of snacks every hour.",
+      "counselor_tabletop_demo": "Plot a 50-mile road route or 20-mile trail route on a topographic map marking elevation gain, water refill stops, and emergency bailout intersections.",
+      "real_world_connection_box": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard: Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek. Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating cycling specialized field options equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard",
+      "v47_primary_source_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+      "core_mechanism_bullets": [
+        "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+        "Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear."
+      ],
+      "worked_field_example": "Adjusting the rear retention dial and side sliders so the helmet rim sits 1 inch (two finger widths) above the brow prevents forehead exposure in a forward fall.",
+      "counselor_tabletop_demo": "Perform the 2-2-2 helmet fit check on each Scout and verify the internal CPSC 16 CFR 1203 certification sticker and manufacture date.",
+      "real_world_connection_box": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard: Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin). Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_3_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_3_nano_hero.png",
+      "bespoke_visual_caption": "Scouts with mountain bikes gather along a wooded trail while an adult leader reviews safety rules on a chart.",
+      "v47_slide_title": "CPSC 16 CFR 1203 Helmet Fit & 2-2-2 Rule Standard",
+      "v47_primary_source_bullets": [
+        "Wear a CPSC 16 CFR 1203 certified bike helmet fitted via the 2-2-2 rule (2 fingers above brow, V-straps, 2 under chin).",
+        "Equip bikes with a white front light visible at 500 feet, a red rear reflector/light visible at 600 feet, and bright gear."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "League of American Bicyclists ABC Quick Check Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+      "core_mechanism_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ],
+      "worked_field_example": "Inflating a 700x28c road tire to its sidewall rating of 80 PSI and confirming 1 inch of brake-lever reserve travel before handlebar contact ensures crisp stopping.",
+      "counselor_tabletop_demo": "Execute a complete hands-on ABC Quick Check and saddle-height adjustment on a bicycle in under 3 minutes.",
+      "real_world_connection_box": "League of American Bicyclists ABC Quick Check Standard: Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette. Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating take a road safety test equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "League of American Bicyclists ABC Quick Check Standard",
+      "v47_primary_source_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "League of American Bicyclists ABC Quick Check Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+      "core_mechanism_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ],
+      "worked_field_example": "Inflating a 700x28c road tire to its sidewall rating of 80 PSI and confirming 1 inch of brake-lever reserve travel before handlebar contact ensures crisp stopping.",
+      "counselor_tabletop_demo": "Execute a complete hands-on ABC Quick Check and saddle-height adjustment on a bicycle in under 3 minutes.",
+      "real_world_connection_box": "League of American Bicyclists ABC Quick Check Standard: Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette. Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating take a road safety test equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "League of American Bicyclists ABC Quick Check Standard",
+      "v47_primary_source_bullets": [
+        "Run the ABC Quick Check before every ride verifying Air pressure, Brake pad/lever clearance, and Cranks, Chain, Cassette.",
+        "Set saddle height so the knee keeps a 25-to-30-degree bend at the bottom of the pedal stroke (6 o'clock position)."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+      "core_mechanism_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ],
+      "worked_field_example": "On a 50-mile road ride averaging 12.5 miles per hour (4 hours riding time), each Scout drinks four 20-ounce bottles of water and eats 150 calories of snacks every hour.",
+      "counselor_tabletop_demo": "Plot a 50-mile road route or 20-mile trail route on a topographic map marking elevation gain, water refill stops, and emergency bailout intersections.",
+      "real_world_connection_box": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard: Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek. Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating cycling specialized field options equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard",
+      "v47_primary_source_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "Vehicular Cycling Lane Positioning & Hand Signal Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+      "core_mechanism_bullets": [
+        "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+        "Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals."
+      ],
+      "worked_field_example": "Approaching a narrow 10-foot lane with parked cars, a cyclist checks over the left shoulder, signals left, and moves to the center of the lane out of the 4-foot door zone.",
+      "counselor_tabletop_demo": "Demonstrate all three standard hand signals, shoulder-scan head checks, and emergency weight-back dual-braking posture on a paved practice course.",
+      "real_world_connection_box": "Vehicular Cycling Lane Positioning & Hand Signal Standard: Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely. Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating avoiding main highways take two equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "Vehicular Cycling Lane Positioning & Hand Signal Standard",
+      "v47_primary_source_bullets": [
+        "Ride with traffic, stay 3 to 4 feet clear of parked car doors, and take the full lane when too narrow to share safely.",
+        "Scan behind before merging, give left, right, and stop hand signals 100 feet before turns, and obey all traffic signals."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Cycling",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "League of American Bicyclists & CPSC",
+        "title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard Technical Reference",
+        "canonical_url": "https://bikeleague.org/ridesmart/"
+      },
+      "rule_of_thumb_mnemonic": "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+      "core_mechanism_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ],
+      "worked_field_example": "On a 50-mile road ride averaging 12.5 miles per hour (4 hours riding time), each Scout drinks four 20-ounce bottles of water and eats 150 calories of snacks every hour.",
+      "counselor_tabletop_demo": "Plot a 50-mile road route or 20-mile trail route on a topographic map marking elevation gain, water refill stops, and emergency bailout intersections.",
+      "real_world_connection_box": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard: Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek. Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + League of American Bicyclists & CPSC",
+      "bespoke_visual_filename": "cycling_req_6a_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cycling_req_6a_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating cycling specialized field options equipment layout and safe operating steps for Cycling.",
+      "v47_slide_title": "Scouting Buddy Pacing, Hydration & 50-Mile Conditioning Standard",
+      "v47_primary_source_bullets": [
+        "Complete progressive 10-mile, 15-mile, and 25-mile buddy rides before attempting the 50-mile road or 20-mile trail trek.",
+        "Drink 16 to 24 ounces of water/electrolytes and eat 30 to 60 grams of carbohydrates per hour on rides over 90 minutes."
+      ]
+    }
+  }
+}

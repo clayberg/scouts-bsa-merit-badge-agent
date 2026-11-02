@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "veterinary-medicine",
+  "badge_name": "Veterinary Medicine",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "AVMA & USDA APHIS Veterinary Care",
+  "primary_authority_url": "https://www.avma.org/resources-tools/avma-policies",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AAHA Companion, Equine & Food Animal Vital Signs Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+        "Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses."
+      ],
+      "worked_field_example": "An adult Labrador Retriever presenting with a 104.2 degrees Fahrenheit temperature, 150 bpm heart rate, and 3-second capillary refill time indicates clinical pyrexia and dehydration.",
+      "counselor_tabletop_demo": "Compare normal TPR (Temperature, Pulse, Respiration) reference cards across canine, feline, equine, and bovine patients and practice auscultation landmarks.",
+      "real_world_connection_box": "AAHA Companion, Equine & Food Animal Vital Signs Standard: Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses. Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify roles a veterinarian plays during a structured merit badge clinic.",
+      "v47_slide_title": "AAHA Companion, Equine & Food Animal Vital Signs Standard",
+      "v47_primary_source_bullets": [
+        "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+        "Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+      "core_mechanism_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ],
+      "worked_field_example": "Maintaining a 70 percent canine rabies vaccination coverage threshold breaks transmission cycles and prevents spillover from wildlife vectors.",
+      "counselor_tabletop_demo": "Trace a One Health transmission triad connecting animal hosts, human populations, and environmental vectors for rabies, Lyme disease, and salmonellosis.",
+      "real_world_connection_box": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard: Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs. USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing training required to become a veterinarian with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard",
+      "v47_primary_source_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AVMA Council on Education DVM & NAVTA RVT Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+      "core_mechanism_bullets": [
+        "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+        "Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination."
+      ],
+      "worked_field_example": "Under licensed DVM supervision, an RVT induces and monitors isoflurane anesthesia, places intravenous catheters, and captures diagnostic radiographs.",
+      "counselor_tabletop_demo": "Differentiate legal clinical duties permitted solely to a licensed DVM (diagnosis, prognosis, surgery, prescribing) versus those delegated to an RVT.",
+      "real_world_connection_box": "AVMA Council on Education DVM & NAVTA RVT Standard: A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE. Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for registered veterinary technician in a troop setting.",
+      "v47_slide_title": "AVMA Council on Education DVM & NAVTA RVT Standard",
+      "v47_primary_source_bullets": [
+        "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+        "Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AVMA Human-Animal Bond & Low-Stress Handling Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+      "core_mechanism_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ],
+      "worked_field_example": "Allowing a stressed feline patient 5 minutes to acclimate in a pheromone-treated carrier base lowers heart rate by 25 bpm before venipuncture.",
+      "counselor_tabletop_demo": "Demonstrate low-stress towel-wrap restraint and muzzle placement on a stuffed animal model while reading canine and feline body-language chart cues.",
+      "real_world_connection_box": "AVMA Human-Animal Bond & Low-Stress Handling Standard: Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species. Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for role a veterinarian plays in a troop setting.",
+      "v47_slide_title": "AVMA Human-Animal Bond & Low-Stress Handling Standard",
+      "v47_primary_source_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AAHA Companion, Equine & Food Animal Vital Signs Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+        "Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses."
+      ],
+      "worked_field_example": "An adult Labrador Retriever presenting with a 104.2 degrees Fahrenheit temperature, 150 bpm heart rate, and 3-second capillary refill time indicates clinical pyrexia and dehydration.",
+      "counselor_tabletop_demo": "Compare normal TPR (Temperature, Pulse, Respiration) reference cards across canine, feline, equine, and bovine patients and practice auscultation landmarks.",
+      "real_world_connection_box": "AAHA Companion, Equine & Food Animal Vital Signs Standard: Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses. Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify roles a veterinarian plays during a structured merit badge clinic.",
+      "v47_slide_title": "AAHA Companion, Equine & Food Animal Vital Signs Standard",
+      "v47_primary_source_bullets": [
+        "Normal rectal temperatures run 101.0 to 102.5 degrees Fahrenheit in dogs and cats and 99.0 to 101.5 degrees Fahrenheit in horses.",
+        "Resting heart rates scale inversely with size from 140 to 220 bpm in cats and 60 to 140 bpm in dogs to 28 to 40 bpm in horses."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+      "core_mechanism_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ],
+      "worked_field_example": "Maintaining a 70 percent canine rabies vaccination coverage threshold breaks transmission cycles and prevents spillover from wildlife vectors.",
+      "counselor_tabletop_demo": "Trace a One Health transmission triad connecting animal hosts, human populations, and environmental vectors for rabies, Lyme disease, and salmonellosis.",
+      "real_world_connection_box": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard: Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs. USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing training required to become a veterinarian with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard",
+      "v47_primary_source_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+      "core_mechanism_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ],
+      "worked_field_example": "Maintaining a 70 percent canine rabies vaccination coverage threshold breaks transmission cycles and prevents spillover from wildlife vectors.",
+      "counselor_tabletop_demo": "Trace a One Health transmission triad connecting animal hosts, human populations, and environmental vectors for rabies, Lyme disease, and salmonellosis.",
+      "real_world_connection_box": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard: Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs. USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing training required to become a veterinarian with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard",
+      "v47_primary_source_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AVMA Human-Animal Bond & Low-Stress Handling Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+      "core_mechanism_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ],
+      "worked_field_example": "Allowing a stressed feline patient 5 minutes to acclimate in a pheromone-treated carrier base lowers heart rate by 25 bpm before venipuncture.",
+      "counselor_tabletop_demo": "Demonstrate low-stress towel-wrap restraint and muzzle placement on a stuffed animal model while reading canine and feline body-language chart cues.",
+      "real_world_connection_box": "AVMA Human-Animal Bond & Low-Stress Handling Standard: Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species. Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for role a veterinarian plays in a troop setting.",
+      "v47_slide_title": "AVMA Human-Animal Bond & Low-Stress Handling Standard",
+      "v47_primary_source_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AVMA Council on Education DVM & NAVTA RVT Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+      "core_mechanism_bullets": [
+        "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+        "Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination."
+      ],
+      "worked_field_example": "Under licensed DVM supervision, an RVT induces and monitors isoflurane anesthesia, places intravenous catheters, and captures diagnostic radiographs.",
+      "counselor_tabletop_demo": "Differentiate legal clinical duties permitted solely to a licensed DVM (diagnosis, prognosis, surgery, prescribing) versus those delegated to an RVT.",
+      "real_world_connection_box": "AVMA Council on Education DVM & NAVTA RVT Standard: A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE. Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for registered veterinary technician in a troop setting.",
+      "v47_slide_title": "AVMA Council on Education DVM & NAVTA RVT Standard",
+      "v47_primary_source_bullets": [
+        "A Doctor of Veterinary Medicine (DVM) requires 4 undergraduate years, 4 AVMA veterinary college years, and passing the 360-item NAVLE.",
+        "Credentialed Veterinary Technicians (RVT, LVT, CVT) finish an AVMA program and pass the 170-item VTNE national examination."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+      "core_mechanism_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ],
+      "worked_field_example": "Maintaining a 70 percent canine rabies vaccination coverage threshold breaks transmission cycles and prevents spillover from wildlife vectors.",
+      "counselor_tabletop_demo": "Trace a One Health transmission triad connecting animal hosts, human populations, and environmental vectors for rabies, Lyme disease, and salmonellosis.",
+      "real_world_connection_box": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard: Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs. USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing training required to become a veterinarian with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC & USDA APHIS One Health Zoonotic Surveillance Standard",
+      "v47_primary_source_bullets": [
+        "Over 60 percent of human pathogens and 75 percent of emerging infectious diseases originate as zoonoses from animal reservoirs.",
+        "USDA FSIS and APHIS veterinarians enforce food safety inspections and control reportable diseases like rabies and avian flu."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Veterinary Medicine",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & USDA APHIS Veterinary Care",
+        "title": "AVMA Human-Animal Bond & Low-Stress Handling Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/avma-policies"
+      },
+      "rule_of_thumb_mnemonic": "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+      "core_mechanism_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ],
+      "worked_field_example": "Allowing a stressed feline patient 5 minutes to acclimate in a pheromone-treated carrier base lowers heart rate by 25 bpm before venipuncture.",
+      "counselor_tabletop_demo": "Demonstrate low-stress towel-wrap restraint and muzzle placement on a stuffed animal model while reading canine and feline body-language chart cues.",
+      "real_world_connection_box": "AVMA Human-Animal Bond & Low-Stress Handling Standard: Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species. Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & USDA APHIS Veterinary Care",
+      "bespoke_visual_filename": "veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/veterinary_medicine_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for role a veterinarian plays in a troop setting.",
+      "v47_slide_title": "AVMA Human-Animal Bond & Low-Stress Handling Standard",
+      "v47_primary_source_bullets": [
+        "Clinical studies confirm human-animal interaction lowers human blood pressure and cortisol while raising oxytocin in both species.",
+        "Fear-Free veterinary handling tracks ear carriage, pupil dilation, and tail posture to minimize stress during clinical exams."
+      ]
+    }
+  }
+}

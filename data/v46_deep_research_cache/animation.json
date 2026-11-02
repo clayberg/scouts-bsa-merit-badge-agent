@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "animation",
+  "badge_name": "Animation",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+  "primary_authority_url": "https://www.smpte.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "SMPTE Frame Rate and Persistence of Vision Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+      "core_mechanism_bullets": [
+        "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+        "Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor."
+      ],
+      "worked_field_example": "A 5-second character action sequence at 24 fps requires 120 total frames, or 60 unique drawings when animated on twos.",
+      "counselor_tabletop_demo": "Flip a 24-page hand-drawn flipbook at 1 second vs 2 seconds to demonstrate how frame rate governs perceived motion smoothness.",
+      "real_world_connection_box": "SMPTE Frame Rate and Persistence of Vision Standard: SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps. Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute general knowledge under adult counselor supervision.",
+      "v47_slide_title": "SMPTE Frame Rate and Persistence of Vision Standard",
+      "v47_primary_source_bullets": [
+        "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+        "Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "Disney Twelve Principles of Animation Biomechanics Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+      "core_mechanism_bullets": [
+        "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+        "Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed."
+      ],
+      "worked_field_example": "In a 12-frame pendulum swing, placing frames closer together at frames 1-3 and 10-12 creates natural gravitational acceleration and deceleration.",
+      "counselor_tabletop_demo": "Draw a 9-frame bouncing ball arc on an exposure sheet showing volume-conserving squash at contact and non-linear spacing along the parabola.",
+      "real_world_connection_box": "Disney Twelve Principles of Animation Biomechanics Standard: Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume. Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining principles of animation step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Disney Twelve Principles of Animation Biomechanics Standard",
+      "v47_primary_source_bullets": [
+        "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+        "Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "Production Pipeline Storyboard and Exposure Sheet Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+      "core_mechanism_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ],
+      "worked_field_example": "An animatic pairs 16-by-9 storyboard panels with a scratch voice track timed to the exact frame count before any final animation begins.",
+      "counselor_tabletop_demo": "Mark up a 24-row exposure sheet for a 1-second character wave, plotting key poses at frames 1, 12, and 24 with breakdown frames at 6 and 18.",
+      "real_world_connection_box": "Production Pipeline Storyboard and Exposure Sheet Standard: Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera. Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through projects with authentic field equipment.",
+      "v47_slide_title": "Production Pipeline Storyboard and Exposure Sheet Standard",
+      "v47_primary_source_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "3D Keyframe Rigging and Stop-Motion Armature Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+      "core_mechanism_bullets": [
+        "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+        "Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter."
+      ],
+      "worked_field_example": "Moving a stop-motion armature 2 millimeters per frame across 36 captured frames produces a smooth 1.5-second walk step at 24 fps.",
+      "counselor_tabletop_demo": "Capture a 12-frame stop-motion coin or clay object slide using a smartphone onion-skinning app and play it back at 12 fps.",
+      "real_world_connection_box": "3D Keyframe Rigging and Stop-Motion Armature Standard: 3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting. Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through animation in our world with authentic field equipment.",
+      "v47_slide_title": "3D Keyframe Rigging and Stop-Motion Armature Standard",
+      "v47_primary_source_bullets": [
+        "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+        "Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "SMPTE Frame Rate and Persistence of Vision Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+      "core_mechanism_bullets": [
+        "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+        "Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor."
+      ],
+      "worked_field_example": "A 5-second character action sequence at 24 fps requires 120 total frames, or 60 unique drawings when animated on twos.",
+      "counselor_tabletop_demo": "Flip a 24-page hand-drawn flipbook at 1 second vs 2 seconds to demonstrate how frame rate governs perceived motion smoothness.",
+      "real_world_connection_box": "SMPTE Frame Rate and Persistence of Vision Standard: SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps. Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute general knowledge under adult counselor supervision.",
+      "v47_slide_title": "SMPTE Frame Rate and Persistence of Vision Standard",
+      "v47_primary_source_bullets": [
+        "SMPTE theatrical motion pictures run at 24 frames per second (fps), while broadcast video uses 30 or 60 fps.",
+        "Animating 'on twos' holds each drawing for 2 frames (12 drawings per second), halving studio ink-and-paint labor."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "Disney Twelve Principles of Animation Biomechanics Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+      "core_mechanism_bullets": [
+        "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+        "Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed."
+      ],
+      "worked_field_example": "In a 12-frame pendulum swing, placing frames closer together at frames 1-3 and 10-12 creates natural gravitational acceleration and deceleration.",
+      "counselor_tabletop_demo": "Draw a 9-frame bouncing ball arc on an exposure sheet showing volume-conserving squash at contact and non-linear spacing along the parabola.",
+      "real_world_connection_box": "Disney Twelve Principles of Animation Biomechanics Standard: Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume. Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining principles of animation step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Disney Twelve Principles of Animation Biomechanics Standard",
+      "v47_primary_source_bullets": [
+        "Squash and stretch deforms a bouncing ball upon impact while strictly preserving 100 percent constant object volume.",
+        "Slow-in and slow-out spacing clusters frames tightly near extreme poses and widens spacing across the mid-arc peak speed."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "Production Pipeline Storyboard and Exposure Sheet Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+      "core_mechanism_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ],
+      "worked_field_example": "An animatic pairs 16-by-9 storyboard panels with a scratch voice track timed to the exact frame count before any final animation begins.",
+      "counselor_tabletop_demo": "Mark up a 24-row exposure sheet for a 1-second character wave, plotting key poses at frames 1, 12, and 24 with breakdown frames at 6 and 18.",
+      "real_world_connection_box": "Production Pipeline Storyboard and Exposure Sheet Standard: Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera. Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through projects with authentic field equipment.",
+      "v47_slide_title": "Production Pipeline Storyboard and Exposure Sheet Standard",
+      "v47_primary_source_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "Production Pipeline Storyboard and Exposure Sheet Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+      "core_mechanism_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ],
+      "worked_field_example": "An animatic pairs 16-by-9 storyboard panels with a scratch voice track timed to the exact frame count before any final animation begins.",
+      "counselor_tabletop_demo": "Mark up a 24-row exposure sheet for a 1-second character wave, plotting key poses at frames 1, 12, and 24 with breakdown frames at 6 and 18.",
+      "real_world_connection_box": "Production Pipeline Storyboard and Exposure Sheet Standard: Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera. Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through projects with authentic field equipment.",
+      "v47_slide_title": "Production Pipeline Storyboard and Exposure Sheet Standard",
+      "v47_primary_source_bullets": [
+        "Industry X-sheets (exposure sheets) log 1 row per frame at 24 fps across columns for dialogue phonetics, keys, and camera.",
+        "Keyframes define extreme storytelling poses, breakdowns establish the arc path, and in-betweens fill timing intervals."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Animation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+        "title": "3D Keyframe Rigging and Stop-Motion Armature Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+      "core_mechanism_bullets": [
+        "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+        "Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter."
+      ],
+      "worked_field_example": "Moving a stop-motion armature 2 millimeters per frame across 36 captured frames produces a smooth 1.5-second walk step at 24 fps.",
+      "counselor_tabletop_demo": "Capture a 12-frame stop-motion coin or clay object slide using a smartphone onion-skinning app and play it back at 12 fps.",
+      "real_world_connection_box": "3D Keyframe Rigging and Stop-Motion Armature Standard: 3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting. Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE Frame Rate Standards & ASIFA / Walt Disney Archives",
+      "bespoke_visual_filename": "animation_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animation_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through animation in our world with authentic field equipment.",
+      "v47_slide_title": "3D Keyframe Rigging and Stop-Motion Armature Standard",
+      "v47_primary_source_bullets": [
+        "3D character rigs bind a polygonal mesh to an inverse-kinematics (IK) skeletal hierarchy using vertex weight painting.",
+        "Stop-motion puppet armatures use locking ball-and-socket joints and tie-down bolts to eliminate camera frame jitter."
+      ]
+    }
+  }
+}

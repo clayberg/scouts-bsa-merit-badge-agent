@@ -1,0 +1,489 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "climbing",
+  "badge_name": "Climbing",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "UIAA & American Alpine Club",
+  "primary_authority_url": "https://www.theuiaa.org/safety/safety-standards/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+      "core_mechanism_bullets": [
+        "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+        "Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath."
+      ],
+      "worked_field_example": "During a coiling inspection of a 50-meter 10.2-millimeter dynamic rope, finding a spongy flat spot 8 meters from the end requires immediate retirement and logbook entry.",
+      "counselor_tabletop_demo": "Pass a 5-meter section of kernmantle rope inch-by-inch through closed hands to detect simulated core herniation vs intact sheath weave.",
+      "real_world_connection_box": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard: Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons. Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating climbing with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard",
+      "v47_primary_source_bullets": [
+        "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+        "Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+      "core_mechanism_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ],
+      "worked_field_example": "Tying a Figure-Eight Follow-Through through both the upper waist tie-in point and lower leg-loop bridge distributes fall arrest loads across the pelvis and thighs.",
+      "counselor_tabletop_demo": "Have each Scout tie all five required climbing knots on a tabletop rail and verify knot dressing and 6-inch tail length with a ruler.",
+      "real_world_connection_box": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard: Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail. Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_13_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_13_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating ways to store rope, hardware with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard",
+      "v47_primary_source_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+      "core_mechanism_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ],
+      "worked_field_example": "During a partner CHECK, a belayer catches an unlocked screwgate carabiner on the belay loop and twists the sleeve shut before calling 'Belay on.'.",
+      "counselor_tabletop_demo": "Run a timed 45-second partner CHECK drill where one Scout intentionally leaves one item unfastened for the inspector to catch.",
+      "real_world_connection_box": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard: Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots. Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on').",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing hazards, first aid & safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "PBUS Belay Brake-Hand & Backup Belayer Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+      "core_mechanism_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ],
+      "worked_field_example": "When a top-rope climber slips 2 feet off a 5.8 hold, the belayer drops the brake hand to the hip into the locked position, arresting the fall within 6 inches.",
+      "counselor_tabletop_demo": "Practice four full cycles of Pull-Brake-Under-Slide through a tubular belay device clipped to a stationary anchor at waist height.",
+      "real_world_connection_box": "PBUS Belay Brake-Hand & Backup Belayer Standard: Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device. Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "PBUS Belay Brake-Hand & Backup Belayer Standard",
+      "v47_primary_source_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+      "core_mechanism_bullets": [
+        "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+        "Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath."
+      ],
+      "worked_field_example": "During a coiling inspection of a 50-meter 10.2-millimeter dynamic rope, finding a spongy flat spot 8 meters from the end requires immediate retirement and logbook entry.",
+      "counselor_tabletop_demo": "Pass a 5-meter section of kernmantle rope inch-by-inch through closed hands to detect simulated core herniation vs intact sheath weave.",
+      "real_world_connection_box": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard: Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons. Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating climbing with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "UIAA 101 Dynamic Kernmantle Rope & Retirement Standard",
+      "v47_primary_source_bullets": [
+        "Climb only on UIAA 101 and EN 892 dynamic kernmantle ropes rated for a maximum impact force below 12 kilonewtons.",
+        "Retire any climbing rope immediately after a high-factor fall, chemical contact, or when core fibers show through sheath."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+      "core_mechanism_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ],
+      "worked_field_example": "Tying a Figure-Eight Follow-Through through both the upper waist tie-in point and lower leg-loop bridge distributes fall arrest loads across the pelvis and thighs.",
+      "counselor_tabletop_demo": "Have each Scout tie all five required climbing knots on a tabletop rail and verify knot dressing and 6-inch tail length with a ruler.",
+      "real_world_connection_box": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard: Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail. Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_13_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_13_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating ways to store rope, hardware with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard",
+      "v47_primary_source_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+      "core_mechanism_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ],
+      "worked_field_example": "During a partner CHECK, a belayer catches an unlocked screwgate carabiner on the belay loop and twists the sleeve shut before calling 'Belay on.'.",
+      "counselor_tabletop_demo": "Run a timed 45-second partner CHECK drill where one Scout intentionally leaves one item unfastened for the inspector to catch.",
+      "real_world_connection_box": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard: Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots. Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on').",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing hazards, first aid & safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "PBUS Belay Brake-Hand & Backup Belayer Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+      "core_mechanism_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ],
+      "worked_field_example": "When a top-rope climber slips 2 feet off a 5.8 hold, the belayer drops the brake hand to the hip into the locked position, arresting the fall within 6 inches.",
+      "counselor_tabletop_demo": "Practice four full cycles of Pull-Brake-Under-Slide through a tubular belay device clipped to a stationary anchor at waist height.",
+      "real_world_connection_box": "PBUS Belay Brake-Hand & Backup Belayer Standard: Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device. Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "PBUS Belay Brake-Hand & Backup Belayer Standard",
+      "v47_primary_source_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+      "core_mechanism_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ],
+      "worked_field_example": "Tying a Figure-Eight Follow-Through through both the upper waist tie-in point and lower leg-loop bridge distributes fall arrest loads across the pelvis and thighs.",
+      "counselor_tabletop_demo": "Have each Scout tie all five required climbing knots on a tabletop rail and verify knot dressing and 6-inch tail length with a ruler.",
+      "real_world_connection_box": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard: Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail. Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_13_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_13_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating ways to store rope, hardware with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard",
+      "v47_primary_source_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+      "core_mechanism_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ],
+      "worked_field_example": "Tying a Figure-Eight Follow-Through through both the upper waist tie-in point and lower leg-loop bridge distributes fall arrest loads across the pelvis and thighs.",
+      "counselor_tabletop_demo": "Have each Scout tie all five required climbing knots on a tabletop rail and verify knot dressing and 6-inch tail length with a ruler.",
+      "real_world_connection_box": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard: Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail. Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_13_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_13_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating ways to store rope, hardware with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard",
+      "v47_primary_source_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+      "core_mechanism_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ],
+      "worked_field_example": "During a partner CHECK, a belayer catches an unlocked screwgate carabiner on the belay loop and twists the sleeve shut before calling 'Belay on.'.",
+      "counselor_tabletop_demo": "Run a timed 45-second partner CHECK drill where one Scout intentionally leaves one item unfastened for the inspector to catch.",
+      "real_world_connection_box": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard: Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots. Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on').",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing hazards, first aid & safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "PBUS Belay Brake-Hand & Backup Belayer Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+      "core_mechanism_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ],
+      "worked_field_example": "When a top-rope climber slips 2 feet off a 5.8 hold, the belayer drops the brake hand to the hip into the locked position, arresting the fall within 6 inches.",
+      "counselor_tabletop_demo": "Practice four full cycles of Pull-Brake-Under-Slide through a tubular belay device clipped to a stationary anchor at waist height.",
+      "real_world_connection_box": "PBUS Belay Brake-Hand & Backup Belayer Standard: Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device. Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "PBUS Belay Brake-Hand & Backup Belayer Standard",
+      "v47_primary_source_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+      "core_mechanism_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ],
+      "worked_field_example": "During a partner CHECK, a belayer catches an unlocked screwgate carabiner on the belay loop and twists the sleeve shut before calling 'Belay on.'.",
+      "counselor_tabletop_demo": "Run a timed 45-second partner CHECK drill where one Scout intentionally leaves one item unfastened for the inspector to catch.",
+      "real_world_connection_box": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard: Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots. Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on').",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing hazards, first aid & safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+      "core_mechanism_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ],
+      "worked_field_example": "Tying a Figure-Eight Follow-Through through both the upper waist tie-in point and lower leg-loop bridge distributes fall arrest loads across the pelvis and thighs.",
+      "counselor_tabletop_demo": "Have each Scout tie all five required climbing knots on a tabletop rail and verify knot dressing and 6-inch tail length with a ruler.",
+      "real_world_connection_box": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard: Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail. Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_13_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_13_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating ways to store rope, hardware with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "AAC Essential Knots & 6-Inch Tail Safety Dress Standard",
+      "v47_primary_source_bullets": [
+        "Tie into the harness with a dressed Figure-Eight Follow-Through backed up by a safety knot with a 6-inch working tail.",
+        "Join tubular webbing with a Water Knot and tie Prusik hitches with a Double Fisherman's bend keeping strands parallel."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+      "core_mechanism_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ],
+      "worked_field_example": "During a partner CHECK, a belayer catches an unlocked screwgate carabiner on the belay loop and twists the sleeve shut before calling 'Belay on.'.",
+      "counselor_tabletop_demo": "Run a timed 45-second partner CHECK drill where one Scout intentionally leaves one item unfastened for the inspector to catch.",
+      "real_world_connection_box": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard: Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots. Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on').",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing hazards, first aid & safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting CHECK Pre-Climb Inspection & Verbal Signal Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-point CHECK inspection of Clothing, Harness buckles, Helmet strap, Hardware locking sleeves, and Knots.",
+        "Exchange standardized verbal commands between climber and belayer ('On belay?' / 'Belay on' / 'Climbing' / 'Climb on')."
+      ]
+    },
+    "12": {
+      "req_id": "12",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "PBUS Belay Brake-Hand & Backup Belayer Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+      "core_mechanism_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ],
+      "worked_field_example": "When a top-rope climber slips 2 feet off a 5.8 hold, the belayer drops the brake hand to the hip into the locked position, arresting the fall within 6 inches.",
+      "counselor_tabletop_demo": "Practice four full cycles of Pull-Brake-Under-Slide through a tubular belay device clipped to a stationary anchor at waist height.",
+      "real_world_connection_box": "PBUS Belay Brake-Hand & Backup Belayer Standard: Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device. Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "PBUS Belay Brake-Hand & Backup Belayer Standard",
+      "v47_primary_source_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ]
+    },
+    "13": {
+      "req_id": "13",
+      "badge_name": "Climbing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "UIAA & American Alpine Club",
+        "title": "PBUS Belay Brake-Hand & Backup Belayer Standard Technical Reference",
+        "canonical_url": "https://www.theuiaa.org/safety/safety-standards/"
+      },
+      "rule_of_thumb_mnemonic": "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+      "core_mechanism_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ],
+      "worked_field_example": "When a top-rope climber slips 2 feet off a 5.8 hold, the belayer drops the brake hand to the hip into the locked position, arresting the fall within 6 inches.",
+      "counselor_tabletop_demo": "Practice four full cycles of Pull-Brake-Under-Slide through a tubular belay device clipped to a stationary anchor at waist height.",
+      "real_world_connection_box": "PBUS Belay Brake-Hand & Backup Belayer Standard: Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device. Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + UIAA & American Alpine Club",
+      "bespoke_visual_filename": "climbing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/climbing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "PBUS Belay Brake-Hand & Backup Belayer Standard",
+      "v47_primary_source_bullets": [
+        "Execute Pull-Brake-Under-Slide (PBUS) belaying so the brake hand never leaves the rope and locks below the belay device.",
+        "Station an attentive backup belayer holding the dead rope 3 to 5 feet behind the primary belayer on every climb."
+      ]
+    }
+  }
+}

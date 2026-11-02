@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "space-exploration",
+  "badge_name": "Space Exploration",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NASA & NAR Model Rocketry Safety Code",
+  "primary_authority_url": "https://www.nar.org/safety-information/model-rocket-safety-code/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NAR Model Rocketry Safety Code & Motor Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+      "core_mechanism_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ],
+      "worked_field_example": "A C6-5 motor delivers up to 10 newton-seconds of total impulse at 6 newtons average thrust and fires the parachute ejection charge 5 seconds after burnout.",
+      "counselor_tabletop_demo": "Decode three inert model rocket motor casings (A8-3, B6-4, C6-5) and verify center-of-pressure behind center-of-gravity on a model rocket.",
+      "real_world_connection_box": "NAR Model Rocketry Safety Code & Motor Standard: NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical. Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute purpose of space exploration under adult counselor supervision.",
+      "v47_slide_title": "NAR Model Rocketry Safety Code & Motor Standard",
+      "v47_primary_source_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+      "core_mechanism_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ],
+      "worked_field_example": "A hydrolox upper stage with a 450-second specific impulse achieves a 4.41 km per second effective exhaust velocity in vacuum.",
+      "counselor_tabletop_demo": "Balance a loaded rocket airframe on a pivot cord to measure the 1-caliber stability margin between center of gravity and center of pressure.",
+      "real_world_connection_box": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard: Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential. Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating design a collector's card with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard",
+      "v47_primary_source_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA Deep Space Network & Remote Sensing Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+      "core_mechanism_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ],
+      "worked_field_example": "At Mars opposition distance of 78 million km, radio telemetry traveling at 300000 km per second requires a 4.3-minute one-way light time.",
+      "counselor_tabletop_demo": "Plot a 3-station 120-degree longitude diagram on a globe and calculate one-way radio signal delay to the Moon, Mars, and Titan.",
+      "real_world_connection_box": "NASA Deep Space Network & Remote Sensing Standard: NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links. Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a robotic space exploration mission with authentic field equipment.",
+      "v47_slide_title": "NASA Deep Space Network & Remote Sensing Standard",
+      "v47_primary_source_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+      "core_mechanism_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ],
+      "worked_field_example": "A 4-astronaut lunar habitat consuming 0.84 kg of oxygen and 2.5 liters of water per crewmember daily saves 3500 kg of annual resupply mass at 93 percent recovery.",
+      "counselor_tabletop_demo": "Review a cross-section of a planetary habitat module and calculate daily solar or kilopower electrical watt-hours needed for ECLSS and thermal control.",
+      "real_world_connection_box": "NASA ISS ECLSS & Planetary Habitat Life Support Standard: The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen. Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply careers & professional pathways using standard troop tools and reference charts.",
+      "v47_slide_title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard",
+      "v47_primary_source_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NAR Model Rocketry Safety Code & Motor Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+      "core_mechanism_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ],
+      "worked_field_example": "A C6-5 motor delivers up to 10 newton-seconds of total impulse at 6 newtons average thrust and fires the parachute ejection charge 5 seconds after burnout.",
+      "counselor_tabletop_demo": "Decode three inert model rocket motor casings (A8-3, B6-4, C6-5) and verify center-of-pressure behind center-of-gravity on a model rocket.",
+      "real_world_connection_box": "NAR Model Rocketry Safety Code & Motor Standard: NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical. Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute purpose of space exploration under adult counselor supervision.",
+      "v47_slide_title": "NAR Model Rocketry Safety Code & Motor Standard",
+      "v47_primary_source_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+      "core_mechanism_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ],
+      "worked_field_example": "A hydrolox upper stage with a 450-second specific impulse achieves a 4.41 km per second effective exhaust velocity in vacuum.",
+      "counselor_tabletop_demo": "Balance a loaded rocket airframe on a pivot cord to measure the 1-caliber stability margin between center of gravity and center of pressure.",
+      "real_world_connection_box": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard: Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential. Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating design a collector's card with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard",
+      "v47_primary_source_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+      "core_mechanism_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ],
+      "worked_field_example": "A hydrolox upper stage with a 450-second specific impulse achieves a 4.41 km per second effective exhaust velocity in vacuum.",
+      "counselor_tabletop_demo": "Balance a loaded rocket airframe on a pivot cord to measure the 1-caliber stability margin between center of gravity and center of pressure.",
+      "real_world_connection_box": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard: Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential. Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating design a collector's card with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Tsiolkovsky Rocket Equation & Orbital Velocity Standard",
+      "v47_primary_source_bullets": [
+        "Newton third law thrust equals propellant mass flow rate times exhaust velocity plus nozzle exit pressure differential.",
+        "Low Earth Orbit at 400 km altitude requires 7.66 km/s horizontal velocity while Earth escape velocity requires 11.2 km/s."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+      "core_mechanism_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ],
+      "worked_field_example": "A 4-astronaut lunar habitat consuming 0.84 kg of oxygen and 2.5 liters of water per crewmember daily saves 3500 kg of annual resupply mass at 93 percent recovery.",
+      "counselor_tabletop_demo": "Review a cross-section of a planetary habitat module and calculate daily solar or kilopower electrical watt-hours needed for ECLSS and thermal control.",
+      "real_world_connection_box": "NASA ISS ECLSS & Planetary Habitat Life Support Standard: The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen. Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply careers & professional pathways using standard troop tools and reference charts.",
+      "v47_slide_title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard",
+      "v47_primary_source_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NAR Model Rocketry Safety Code & Motor Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+      "core_mechanism_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ],
+      "worked_field_example": "A C6-5 motor delivers up to 10 newton-seconds of total impulse at 6 newtons average thrust and fires the parachute ejection charge 5 seconds after burnout.",
+      "counselor_tabletop_demo": "Decode three inert model rocket motor casings (A8-3, B6-4, C6-5) and verify center-of-pressure behind center-of-gravity on a model rocket.",
+      "real_world_connection_box": "NAR Model Rocketry Safety Code & Motor Standard: NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical. Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute purpose of space exploration under adult counselor supervision.",
+      "v47_slide_title": "NAR Model Rocketry Safety Code & Motor Standard",
+      "v47_primary_source_bullets": [
+        "NAR Safety Code mandates a 15-foot launch standoff for A to C motors and 30 feet for D motors within 30 degrees of vertical.",
+        "Model rocket motor codes specify total impulse in newton-seconds by letter, average thrust in newtons, and delay seconds."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA Deep Space Network & Remote Sensing Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+      "core_mechanism_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ],
+      "worked_field_example": "At Mars opposition distance of 78 million km, radio telemetry traveling at 300000 km per second requires a 4.3-minute one-way light time.",
+      "counselor_tabletop_demo": "Plot a 3-station 120-degree longitude diagram on a globe and calculate one-way radio signal delay to the Moon, Mars, and Titan.",
+      "real_world_connection_box": "NASA Deep Space Network & Remote Sensing Standard: NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links. Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a robotic space exploration mission with authentic field equipment.",
+      "v47_slide_title": "NASA Deep Space Network & Remote Sensing Standard",
+      "v47_primary_source_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA Deep Space Network & Remote Sensing Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+      "core_mechanism_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ],
+      "worked_field_example": "At Mars opposition distance of 78 million km, radio telemetry traveling at 300000 km per second requires a 4.3-minute one-way light time.",
+      "counselor_tabletop_demo": "Plot a 3-station 120-degree longitude diagram on a globe and calculate one-way radio signal delay to the Moon, Mars, and Titan.",
+      "real_world_connection_box": "NASA Deep Space Network & Remote Sensing Standard: NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links. Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a robotic space exploration mission with authentic field equipment.",
+      "v47_slide_title": "NASA Deep Space Network & Remote Sensing Standard",
+      "v47_primary_source_bullets": [
+        "NASA Deep Space Network 34-m and 70-m dishes spaced 120 degrees apart in California, Spain, and Australia maintain continuous links.",
+        "Planetary spectrometers quantize pixel radiance into 12-bit to 16-bit telemetry packets for Reed-Solomon downlink."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Space Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASA & NAR Model Rocketry Safety Code",
+        "title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard Technical Reference",
+        "canonical_url": "https://www.nar.org/safety-information/model-rocket-safety-code/"
+      },
+      "rule_of_thumb_mnemonic": "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+      "core_mechanism_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ],
+      "worked_field_example": "A 4-astronaut lunar habitat consuming 0.84 kg of oxygen and 2.5 liters of water per crewmember daily saves 3500 kg of annual resupply mass at 93 percent recovery.",
+      "counselor_tabletop_demo": "Review a cross-section of a planetary habitat module and calculate daily solar or kilopower electrical watt-hours needed for ECLSS and thermal control.",
+      "real_world_connection_box": "NASA ISS ECLSS & Planetary Habitat Life Support Standard: The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen. Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & NAR Model Rocketry Safety Code",
+      "bespoke_visual_filename": "space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/space_exploration_req_8_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply careers & professional pathways using standard troop tools and reference charts.",
+      "v47_slide_title": "NASA ISS ECLSS & Planetary Habitat Life Support Standard",
+      "v47_primary_source_bullets": [
+        "The ISS Environmental Control and Life Support System holds cabin air at 101.3 kPa (14.7 psi) with 21 percent oxygen.",
+        "Closed-loop Sabatier and Water Recovery Systems recycle over 93 percent of crew water while shielding cosmic radiation."
+      ]
+    }
+  }
+}

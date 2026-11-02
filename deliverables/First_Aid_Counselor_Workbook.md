@@ -301,7 +301,7 @@
 
 #### Req 3b: Thermal Burns and Scalds
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
-**Official Requirement 3b:** Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness.
+**Official Requirement 3b:** Superficial, partial thickness, and full thickness thermal (heat) burns or scalds
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3b First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -312,10 +312,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Superficial, partial thickness, and full thickness thermal - Clinical Signs & Recognition** | Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Superficial, partial thickness, and full thickness thermal - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Elect) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Superficial, partial thickness, and full thickness thermal - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Superficial, partial thickness, and full thickness thermal - Field Prevention & When to Call 911** | Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3b):** Scout must individually describe Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Elect) to the Counselor.
+**Counselor Verification Standard (Req 3b):** Scout must individually describe Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds) to the Counselor.
 
 #### Req 3c: Chemical Skin and Eye Burns
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
@@ -391,7 +391,7 @@
 
 #### Req 3g: Frostnip and Cold Tissue Injuries
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
-**Official Requirement 3g:** Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns.
+**Official Requirement 3g:** Immersion foot, frostnip, frostbite, and ice burns
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3g First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -402,10 +402,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Immersion foot, frostnip, frostbite, and ice burns (h) - Clinical Signs & Recognition** | Cold injuries range from non-freezing immersion foot to deep ice crystallization within freezing tissue cells. Responders gently warm extremities with warm water baths only when subsequent refreezing can be prevented. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Immersion foot, frostnip, frostbite, and ice burns (h) - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Immersion foot, frostnip, frostbite, and ice burns (h) - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Immersion foot, frostnip, frostbite, and ice burns (h) - Field Prevention & When to Call 911** | Cold injuries range from non-freezing immersion foot to deep ice crystallization within freezing tissue cells. Responders gently warm extremities with warm water baths only when subsequent refreezing can be prevented. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3g):** Scout must individually describe Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns) to the Counselor.
+**Counselor Verification Standard (Req 3g):** Scout must individually describe Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns) to the Counselor.
 
 #### Req 3h: Abrasions, Chafing, and Rope Burns
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
@@ -447,7 +447,7 @@
 
 #### Req 3j: Splinters and Fishhook Punctures
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
-**Official Requirement 3j:** Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants.
+**Official Requirement 3j:** Puncture wounds from splinters, rope splinters, nails, and fish hooks
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3j First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -458,10 +458,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Puncture wounds from splinters, rope splinters, nails, and - Clinical Signs & Recognition** | Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Puncture wounds from splinters, rope splinters, nails, and - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Puncture wounds from splinters, rope splinters, nails, and - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Puncture wounds from splinters, rope splinters, nails, and - Field Prevention & When to Call 911** | Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3j):** Scout must individually describe Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants) to the Counselor.
+**Counselor Verification Standard (Req 3j):** Scout must individually describe Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks) to the Counselor.
 
 #### Req 3k: Poisonous Plant Contact Rashes
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
@@ -483,7 +483,7 @@
 
 #### Req 3l: Tick and Chigger Bites
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
-**Official Requirement 3l:** Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human.
+**Official Requirement 3l:** Bug bites of chiggers, ticks, mosquitoes, and biting gnats
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3l First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -494,10 +494,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Bug bites of chiggers, ticks, mosquitoes, and biting gnats - Clinical Signs & Recognition** | Insect bites cause local histamine release, while ticks transmit pathogens such as Lyme disease spirochetes. Ticks are removed by pulling steadily backward with tweezers, followed by washing the site with soap. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Bug bites of chiggers, ticks, mosquitoes, and biting gnats - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a ) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Bug bites of chiggers, ticks, mosquitoes, and biting gnats - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Bug bites of chiggers, ticks, mosquitoes, and biting gnats - Field Prevention & When to Call 911** | Insect bites cause local histamine release, while ticks transmit pathogens such as Lyme disease spirochetes. Ticks are removed by pulling steadily backward with tweezers, followed by washing the site with soap. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3l):** Scout must individually describe Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a ) to the Counselor.
+**Counselor Verification Standard (Req 3l):** Scout must individually describe Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats) to the Counselor.
 
 #### Req 3m: Bee and Wasp Stings
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
@@ -555,7 +555,7 @@
 
 #### Req 3p: Animal and Human Bites
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
-**Official Requirement 3p:** Bite of a pet or wild mammal or human (q) Bite of a venomous snake.
+**Official Requirement 3p:** Bite of a pet or wild mammal or human
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3p First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3p (Bite of a pet or wild mammal or human (q) Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -566,10 +566,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Bite of a pet or wild mammal or human (q) Bite of a venomous - Clinical Signs & Recognition** | Mammalian and human bites introduce polymicrobial oral pathogens deep into soft tissues, creating high infection risk. Responders irrigate the wound thoroughly with potable water and seek evaluation for rabies and antibiotic therapy. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Bite of a pet or wild mammal or human (q) Bite of a venomous - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3p (Bite of a pet or wild mammal or human (q) Bite of a venomous snake) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Bite of a pet or wild mammal or human (q) Bite of a venomous - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 3p (Bite of a pet or wild mammal or human) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Bite of a pet or wild mammal or human (q) Bite of a venomous - Field Prevention & When to Call 911** | Mammalian and human bites introduce polymicrobial oral pathogens deep into soft tissues, creating high infection risk. Responders irrigate the wound thoroughly with potable water and seek evaluation for rabies and antibiotic therapy. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3p):** Scout must individually describe Requirement 3p (Bite of a pet or wild mammal or human (q) Bite of a venomous snake) to the Counselor.
+**Counselor Verification Standard (Req 3p):** Scout must individually describe Requirement 3p (Bite of a pet or wild mammal or human) to the Counselor.
 
 #### Req 3q: Venomous Snakebites
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
@@ -724,7 +724,7 @@
 
 #### Req 5c: Life Threatening Anaphylaxis
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
-**Official Requirement 5c:** Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness.
+**Official Requirement 5c:** Anaphylaxis from an insect bite or sting or from food or product allergy
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5c Structured Technical Study & Explanation Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -735,10 +735,10 @@
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Req 5c Core Concept, Definition & Pamphlet Standard** | Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude ) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Req 5c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Req 5c Practical Example & Counselor Conference Verification** | Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 5c):** Scout must individually explain Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude ) to the Counselor.
+**Counselor Verification Standard (Req 5c):** Scout must individually explain Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy) to the Counselor.
 
 #### Req 5d: Smoke and Fume Inhalation
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
@@ -845,7 +845,7 @@
 
 #### Req 6d: Overdose and Alcohol Poisoning
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
-**Official Requirement 6d:** Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock.
+**Official Requirement 6d:** Drug overdose and alcohol poisoning
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6d First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6d (Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -856,14 +856,14 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Drug overdose and alcohol poisoning (e) Underwater hypoxic - Clinical Signs & Recognition** | Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Drug overdose and alcohol poisoning (e) Underwater hypoxic - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6d (Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Ligh) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Drug overdose and alcohol poisoning (e) Underwater hypoxic - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6d (Drug overdose and alcohol poisoning) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Drug overdose and alcohol poisoning (e) Underwater hypoxic - Field Prevention & When to Call 911** | Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 6d):** Scout must individually explain Requirement 6d (Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Ligh) to the Counselor.
+**Counselor Verification Standard (Req 6d):** Scout must individually explain Requirement 6d (Drug overdose and alcohol poisoning) to the Counselor.
 
 #### Req 6e: Underwater Hypoxic Blackout
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
-**Official Requirement 6e:** Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock.
+**Official Requirement 6e:** Underwater hypoxic blackout
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6e First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6e (Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -874,14 +874,14 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Underwater hypoxic blackout (f) Cold water shock and drowning - Clinical Signs & Recognition** | Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Underwater hypoxic blackout (f) Cold water shock and drowning - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6e (Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Underwater hypoxic blackout (f) Cold water shock and drowning - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6e (Underwater hypoxic blackout) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Underwater hypoxic blackout (f) Cold water shock and drowning - Field Prevention & When to Call 911** | Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 6e):** Scout must individually explain Requirement 6e (Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock) to the Counselor.
+**Counselor Verification Standard (Req 6e):** Scout must individually explain Requirement 6e (Underwater hypoxic blackout) to the Counselor.
 
 #### Req 6f: Cold Water Immersion and Drowning
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
-**Official Requirement 6f:** Cold water shock and drowning (g) Lightning strike and electric shock.
+**Official Requirement 6f:** Cold water shock and drowning
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6f First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6f (Cold water shock and drowning (g) Lightning strike and electric shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -892,10 +892,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Cold water shock and drowning (g) Lightning strike and - Clinical Signs & Recognition** | Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Cold water shock and drowning (g) Lightning strike and - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6f (Cold water shock and drowning (g) Lightning strike and electric shock) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Cold water shock and drowning (g) Lightning strike and - Step-by-Step First-Aid Care** | Scout must individually explain Requirement 6f (Cold water shock and drowning) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Cold water shock and drowning (g) Lightning strike and - Field Prevention & When to Call 911** | Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 6f):** Scout must individually explain Requirement 6f (Cold water shock and drowning (g) Lightning strike and electric shock) to the Counselor.
+**Counselor Verification Standard (Req 6f):** Scout must individually explain Requirement 6f (Cold water shock and drowning) to the Counselor.
 
 #### Req 6g: Lightning and Electrical Shock
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
@@ -1391,7 +1391,7 @@
 
 #### Req 11a: Dehydration and Overhydration Risks
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
-**Official Requirement 11a:** Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure.
+**Official Requirement 11a:** Dehydration and over-hydration
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immerse heatstroke victims in cold water immediately, as delaying cooling leads to fatal brain damage.
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11a (Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
@@ -1411,11 +1411,11 @@
 | **2. Req 11a Step-by-Step Procedure, Safety & Equipment Criteria** | Step 1 - Environmental Relocation: Move the patient out of direct sunlight or freezing wind into shelter immediately. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Req 11a Practical Example & Counselor Conference Verification** | Step 2 - Heatstroke Cooling: Immerse heatstroke patients in cold water or apply wet cloths to neck and armpits. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 11a):** Scout must individually describe Requirement 11a (Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat str) to the Counselor.
+**Counselor Verification Standard (Req 11a):** Scout must individually describe Requirement 11a (Dehydration and over-hydration) to the Counselor.
 
 #### Req 11b: Exertional Heat Cramps
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
-**Official Requirement 11b:** Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure (f) Hypothermia.
+**Official Requirement 11b:** Heat cramps and muscle pain after exertion
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11b Structured Technical Study & Explanation Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11b (Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -1426,10 +1426,10 @@
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Req 11b Core Concept, Definition & Pamphlet Standard** | Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually describe Requirement 11b (Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Req 11b Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually describe Requirement 11b (Heat cramps and muscle pain after exertion) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Req 11b Practical Example & Counselor Conference Verification** | Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 11b):** Scout must individually describe Requirement 11b (Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with) to the Counselor.
+**Counselor Verification Standard (Req 11b):** Scout must individually describe Requirement 11b (Heat cramps and muscle pain after exertion) to the Counselor.
 
 #### Req 11c: Recognizing Heat Exhaustion
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
@@ -1471,7 +1471,7 @@
 
 #### Req 11e: Cold Induced Chest Pain
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
-**Official Requirement 11e:** Chest pains associated with cold exposure (f) Hypothermia.
+**Official Requirement 11e:** Chest pains associated with cold exposure
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11e Structured Technical Study & Explanation Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11e (Chest pains associated with cold exposure (f) Hypothermia), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -1482,10 +1482,10 @@
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Req 11e Core Concept, Definition & Pamphlet Standard** | Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually describe Requirement 11e (Chest pains associated with cold exposure (f) Hypothermia) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Req 11e Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually describe Requirement 11e (Chest pains associated with cold exposure) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Req 11e Practical Example & Counselor Conference Verification** | Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 11e):** Scout must individually describe Requirement 11e (Chest pains associated with cold exposure (f) Hypothermia) to the Counselor.
+**Counselor Verification Standard (Req 11e):** Scout must individually describe Requirement 11e (Chest pains associated with cold exposure) to the Counselor.
 
 #### Req 11f: Hypothermia Prevention and Rewarming
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
@@ -1637,7 +1637,7 @@
 
 #### Req 13c: Food Poisoning and Dehydration
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*
-**Official Requirement 13c:** Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke.
+**Official Requirement 13c:** Vomiting and diarrhea associated with food poisoning
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13c First-Aid Assessment, Treatment & Prevention Matrix
 - **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13c (Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -1648,10 +1648,10 @@
 | Condition / Emergency | Signs & Symptoms (Recognition) | First-Aid Treatment Procedure | Prevention & Safety Strategy |
 | :--- | :--- | :--- | :--- |
 | **1. Vomiting and diarrhea associated with food poisoning (d) - Clinical Signs & Recognition** | Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
-| **2. Vomiting and diarrhea associated with food poisoning (d) - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 13c (Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
+| **2. Vomiting and diarrhea associated with food poisoning (d) - Step-by-Step First-Aid Care** | Scout must individually describe Requirement 13c (Vomiting and diarrhea associated with food poisoning) to the Counselor. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 | **3. Vomiting and diarrhea associated with food poisoning (d) - Field Prevention & When to Call 911** | Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits. | Verify specific field notes / demonstration | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 13c):** Scout must individually describe Requirement 13c (Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke) to the Counselor.
+**Counselor Verification Standard (Req 13c):** Scout must individually describe Requirement 13c (Vomiting and diarrhea associated with food poisoning) to the Counselor.
 
 #### Req 13d: Acute Abdominal Pain Assessment
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*

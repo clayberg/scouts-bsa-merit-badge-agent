@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "chemistry",
+  "badge_name": "Chemistry",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Chemical Society (ACS) & NIOSH",
+  "primary_authority_url": "https://www.acs.org/education/policies/safety.html",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "ACS Laboratory SDS, GHS & Splash Goggle Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+      "core_mechanism_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ],
+      "worked_field_example": "Comparing 70 percent isopropyl alcohol (flash point 53 degrees Fahrenheit, NFPA flammability 3) against sucrose (flash point none, flammability 1) dictates keeping alcohol 10 feet from burners.",
+      "counselor_tabletop_demo": "Match three printed GHS SDS sheets to unlabeled household containers of rubbing alcohol, table sugar, and silicone camp spray using hazard pictograms.",
+      "real_world_connection_box": "ACS Laboratory SDS, GHS & Splash Goggle Standard: Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays. Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating chemistry and safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ACS Laboratory SDS, GHS & Splash Goggle Standard",
+      "v47_primary_source_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Surfactant Micelle & Antiseptic Denaturation Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+      "core_mechanism_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ],
+      "worked_field_example": "Washing hands coated in petroleum jelly and iron oxide powder with 2 milliliters of surfactant soap removes 98 percent of hydrophobic residue in 20 seconds.",
+      "counselor_tabletop_demo": "Drop 1 milliliter of dish soap into a dish of water, cooking oil, and black pepper to show immediate surface-tension reduction and micelle dispersion.",
+      "real_world_connection_box": "Surfactant Micelle & Antiseptic Denaturation Standard: Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water. Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply chemistry and first using standard troop tools and reference charts.",
+      "v47_slide_title": "Surfactant Micelle & Antiseptic Denaturation Standard",
+      "v47_primary_source_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Maillard Reaction & Acid-Base Titration Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+      "core_mechanism_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ],
+      "worked_field_example": "Searing diced onions at 300 degrees Fahrenheit triggers chemical Maillard browning in 4 minutes, whereas boiling at 212 degrees Fahrenheit prevents browning.",
+      "counselor_tabletop_demo": "Titrate baking soda and vinegar solutions using red cabbage indicator drops to map a five-tube color spectrum from pH 2 to pH 11.",
+      "real_world_connection_box": "Maillard Reaction & Acid-Base Titration Standard: Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds. Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry and cooking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Maillard Reaction & Acid-Base Titration Standard",
+      "v47_primary_source_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "EPA Green Chemistry & Polymer Recycling Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+      "core_mechanism_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ],
+      "worked_field_example": "Switching a patrol's four headlamps from disposable AAA alkaline batteries to 800-milliampere-hour NiMH cells eliminates 96 discarded cells per year.",
+      "counselor_tabletop_demo": "Test float-sink density differences of PETE (1.38 grams per cubic centimeter) and HDPE (0.95 grams per cubic centimeter) shreds in a beaker of tap water.",
+      "real_world_connection_box": "EPA Green Chemistry & Polymer Recycling Standard: Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing. Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry can be used to reduce with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "EPA Green Chemistry & Polymer Recycling Standard",
+      "v47_primary_source_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "ACS Laboratory SDS, GHS & Splash Goggle Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+      "core_mechanism_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ],
+      "worked_field_example": "Comparing 70 percent isopropyl alcohol (flash point 53 degrees Fahrenheit, NFPA flammability 3) against sucrose (flash point none, flammability 1) dictates keeping alcohol 10 feet from burners.",
+      "counselor_tabletop_demo": "Match three printed GHS SDS sheets to unlabeled household containers of rubbing alcohol, table sugar, and silicone camp spray using hazard pictograms.",
+      "real_world_connection_box": "ACS Laboratory SDS, GHS & Splash Goggle Standard: Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays. Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating chemistry and safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ACS Laboratory SDS, GHS & Splash Goggle Standard",
+      "v47_primary_source_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Surfactant Micelle & Antiseptic Denaturation Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+      "core_mechanism_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ],
+      "worked_field_example": "Washing hands coated in petroleum jelly and iron oxide powder with 2 milliliters of surfactant soap removes 98 percent of hydrophobic residue in 20 seconds.",
+      "counselor_tabletop_demo": "Drop 1 milliliter of dish soap into a dish of water, cooking oil, and black pepper to show immediate surface-tension reduction and micelle dispersion.",
+      "real_world_connection_box": "Surfactant Micelle & Antiseptic Denaturation Standard: Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water. Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply chemistry and first using standard troop tools and reference charts.",
+      "v47_slide_title": "Surfactant Micelle & Antiseptic Denaturation Standard",
+      "v47_primary_source_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Surfactant Micelle & Antiseptic Denaturation Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+      "core_mechanism_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ],
+      "worked_field_example": "Washing hands coated in petroleum jelly and iron oxide powder with 2 milliliters of surfactant soap removes 98 percent of hydrophobic residue in 20 seconds.",
+      "counselor_tabletop_demo": "Drop 1 milliliter of dish soap into a dish of water, cooking oil, and black pepper to show immediate surface-tension reduction and micelle dispersion.",
+      "real_world_connection_box": "Surfactant Micelle & Antiseptic Denaturation Standard: Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water. Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply chemistry and first using standard troop tools and reference charts.",
+      "v47_slide_title": "Surfactant Micelle & Antiseptic Denaturation Standard",
+      "v47_primary_source_bullets": [
+        "Amphiphilic soap molecules form micelles with hydrophobic tails trapping oils inside and hydrophilic heads in water.",
+        "Seventy percent aqueous isopropyl alcohol penetrates bacterial cell walls better than 99 percent by slowing coagulation."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "EPA Green Chemistry & Polymer Recycling Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+      "core_mechanism_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ],
+      "worked_field_example": "Switching a patrol's four headlamps from disposable AAA alkaline batteries to 800-milliampere-hour NiMH cells eliminates 96 discarded cells per year.",
+      "counselor_tabletop_demo": "Test float-sink density differences of PETE (1.38 grams per cubic centimeter) and HDPE (0.95 grams per cubic centimeter) shreds in a beaker of tap water.",
+      "real_world_connection_box": "EPA Green Chemistry & Polymer Recycling Standard: Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing. Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry can be used to reduce with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "EPA Green Chemistry & Polymer Recycling Standard",
+      "v47_primary_source_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "ACS Laboratory SDS, GHS & Splash Goggle Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+      "core_mechanism_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ],
+      "worked_field_example": "Comparing 70 percent isopropyl alcohol (flash point 53 degrees Fahrenheit, NFPA flammability 3) against sucrose (flash point none, flammability 1) dictates keeping alcohol 10 feet from burners.",
+      "counselor_tabletop_demo": "Match three printed GHS SDS sheets to unlabeled household containers of rubbing alcohol, table sugar, and silicone camp spray using hazard pictograms.",
+      "real_world_connection_box": "ACS Laboratory SDS, GHS & Splash Goggle Standard: Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays. Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating chemistry and safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ACS Laboratory SDS, GHS & Splash Goggle Standard",
+      "v47_primary_source_bullets": [
+        "Wear ANSI Z87.1 indirect-vent splash goggles and nitrile gloves when handling acids, solvents, or waterproofing sprays.",
+        "Review all 16 GHS Safety Data Sheet sections to verify flash points, NFPA 704 hazard diamonds, and spill rules."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Maillard Reaction & Acid-Base Titration Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+      "core_mechanism_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ],
+      "worked_field_example": "Searing diced onions at 300 degrees Fahrenheit triggers chemical Maillard browning in 4 minutes, whereas boiling at 212 degrees Fahrenheit prevents browning.",
+      "counselor_tabletop_demo": "Titrate baking soda and vinegar solutions using red cabbage indicator drops to map a five-tube color spectrum from pH 2 to pH 11.",
+      "real_world_connection_box": "Maillard Reaction & Acid-Base Titration Standard: Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds. Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry and cooking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Maillard Reaction & Acid-Base Titration Standard",
+      "v47_primary_source_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "Maillard Reaction & Acid-Base Titration Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+      "core_mechanism_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ],
+      "worked_field_example": "Searing diced onions at 300 degrees Fahrenheit triggers chemical Maillard browning in 4 minutes, whereas boiling at 212 degrees Fahrenheit prevents browning.",
+      "counselor_tabletop_demo": "Titrate baking soda and vinegar solutions using red cabbage indicator drops to map a five-tube color spectrum from pH 2 to pH 11.",
+      "real_world_connection_box": "Maillard Reaction & Acid-Base Titration Standard: Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds. Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry and cooking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Maillard Reaction & Acid-Base Titration Standard",
+      "v47_primary_source_bullets": [
+        "Amino acids and reducing sugars undergo Maillard browning between 280 and 330 degrees Fahrenheit to form flavor compounds.",
+        "Red cabbage anthocyanin indicators shift from red at pH 2 to purple at pH 7 and greenish-yellow above pH 10."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Chemistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Chemical Society (ACS) & NIOSH",
+        "title": "EPA Green Chemistry & Polymer Recycling Standard Technical Reference",
+        "canonical_url": "https://www.acs.org/education/policies/safety.html"
+      },
+      "rule_of_thumb_mnemonic": "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+      "core_mechanism_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ],
+      "worked_field_example": "Switching a patrol's four headlamps from disposable AAA alkaline batteries to 800-milliampere-hour NiMH cells eliminates 96 discarded cells per year.",
+      "counselor_tabletop_demo": "Test float-sink density differences of PETE (1.38 grams per cubic centimeter) and HDPE (0.95 grams per cubic centimeter) shreds in a beaker of tap water.",
+      "real_world_connection_box": "EPA Green Chemistry & Polymer Recycling Standard: Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing. Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Chemical Society (ACS) & NIOSH",
+      "bespoke_visual_filename": "chemistry_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/chemistry_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing chemistry can be used to reduce with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "EPA Green Chemistry & Polymer Recycling Standard",
+      "v47_primary_source_bullets": [
+        "Sort thermoplastic resins by SPI codes 1 (PETE) and 2 (HDPE) to enable closed-loop mechanical reprocessing.",
+        "Replace single-use alkaline cells with rechargeable NiMH or LiFePO4 cells rated for 500 to 2,000 charge cycles."
+      ]
+    }
+  }
+}

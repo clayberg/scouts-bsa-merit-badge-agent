@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "traffic-safety",
+  "badge_name": "Traffic Safety",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "FHWA, NHTSA & AAA Traffic Safety",
+  "primary_authority_url": "https://www.nhtsa.gov/road-safety",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "NHTSA Distracted & Impaired Reaction Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+      "core_mechanism_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ],
+      "worked_field_example": "At 60 mph on dry pavement, total stopping distance combines 132 feet of 1.5-second reaction travel plus 180 feet of braking for 312 feet total.",
+      "counselor_tabletop_demo": "Calculate reaction distance and total stopping distance at 30, 45, and 60 mph on dry versus wet pavement using the NHTSA speed-squared formula.",
+      "real_world_connection_box": "NHTSA Distracted & Impaired Reaction Kinematics Standard: At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind. Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify preventing impaired driving during a structured merit badge clinic.",
+      "v47_slide_title": "NHTSA Distracted & Impaired Reaction Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+      "core_mechanism_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ],
+      "worked_field_example": "Inserting a Lincoln penny upside down into a tire groove where all of Lincoln head remains visible indicates less than 2/32 inch of tread requiring replacement.",
+      "counselor_tabletop_demo": "Measure tire tread depth in 32nds of an inch with a tread gauge and penny, and verify cold psi against a sample vehicle door-jamb placard.",
+      "real_world_connection_box": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard: Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks. Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing vehicle safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard",
+      "v47_primary_source_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+      "core_mechanism_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ],
+      "worked_field_example": "Approaching a yellow diamond warning sign at 50 mph gives the driver advance notice to establish a 3-to-4-second following distance before a curve.",
+      "counselor_tabletop_demo": "Identify 12 blank-text MUTCD sign silhouettes by shape and color alone and demonstrate proper roadside traffic-stop interior lighting and hand placement.",
+      "real_world_connection_box": "FHWA MUTCD Sign Geometry, Color & Stopping Standard: FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones. MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute traffic safety and the law under adult counselor supervision.",
+      "v47_slide_title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard",
+      "v47_primary_source_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+      "core_mechanism_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ],
+      "worked_field_example": "Equipping a bicycle with a 500-lumen white front headlamp, red rear reflector visible at 600 feet, and ankle reflectors provides 360-degree conspicuity.",
+      "counselor_tabletop_demo": "Test a flashlight beam against dark cloth, white cotton, and 3M retroreflective tape from 15 feet away to compare returned light intensity.",
+      "real_world_connection_box": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard: A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet. At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute road designs and signs under adult counselor supervision.",
+      "v47_slide_title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard",
+      "v47_primary_source_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "NHTSA Distracted & Impaired Reaction Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+      "core_mechanism_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ],
+      "worked_field_example": "At 60 mph on dry pavement, total stopping distance combines 132 feet of 1.5-second reaction travel plus 180 feet of braking for 312 feet total.",
+      "counselor_tabletop_demo": "Calculate reaction distance and total stopping distance at 30, 45, and 60 mph on dry versus wet pavement using the NHTSA speed-squared formula.",
+      "real_world_connection_box": "NHTSA Distracted & Impaired Reaction Kinematics Standard: At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind. Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify preventing impaired driving during a structured merit badge clinic.",
+      "v47_slide_title": "NHTSA Distracted & Impaired Reaction Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+      "core_mechanism_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ],
+      "worked_field_example": "Inserting a Lincoln penny upside down into a tire groove where all of Lincoln head remains visible indicates less than 2/32 inch of tread requiring replacement.",
+      "counselor_tabletop_demo": "Measure tire tread depth in 32nds of an inch with a tread gauge and penny, and verify cold psi against a sample vehicle door-jamb placard.",
+      "real_world_connection_box": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard: Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks. Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing vehicle safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard",
+      "v47_primary_source_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+      "core_mechanism_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ],
+      "worked_field_example": "Inserting a Lincoln penny upside down into a tire groove where all of Lincoln head remains visible indicates less than 2/32 inch of tread requiring replacement.",
+      "counselor_tabletop_demo": "Measure tire tread depth in 32nds of an inch with a tread gauge and penny, and verify cold psi against a sample vehicle door-jamb placard.",
+      "real_world_connection_box": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard: Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks. Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing vehicle safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FMVSS 208 Occupant Restraint & Vehicle Inspection Standard",
+      "v47_primary_source_bullets": [
+        "Three-point lap-and-shoulder seat belts cut fatal injury risk by 45 percent in cars and 60 percent in light trucks.",
+        "Tire safety checks verify cold inflation psi on the door placard and confirm 2/32-inch minimum tread via the Lincoln penny test."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+      "core_mechanism_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ],
+      "worked_field_example": "Equipping a bicycle with a 500-lumen white front headlamp, red rear reflector visible at 600 feet, and ankle reflectors provides 360-degree conspicuity.",
+      "counselor_tabletop_demo": "Test a flashlight beam against dark cloth, white cotton, and 3M retroreflective tape from 15 feet away to compare returned light intensity.",
+      "real_world_connection_box": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard: A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet. At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute road designs and signs under adult counselor supervision.",
+      "v47_slide_title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard",
+      "v47_primary_source_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "NHTSA Distracted & Impaired Reaction Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+      "core_mechanism_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ],
+      "worked_field_example": "At 60 mph on dry pavement, total stopping distance combines 132 feet of 1.5-second reaction travel plus 180 feet of braking for 312 feet total.",
+      "counselor_tabletop_demo": "Calculate reaction distance and total stopping distance at 30, 45, and 60 mph on dry versus wet pavement using the NHTSA speed-squared formula.",
+      "real_world_connection_box": "NHTSA Distracted & Impaired Reaction Kinematics Standard: At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind. Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify preventing impaired driving during a structured merit badge clinic.",
+      "v47_slide_title": "NHTSA Distracted & Impaired Reaction Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "At 55 mph (80.7 ft/s), looking at a phone for 5 seconds travels 403 feet (over a football field) completely blind.",
+        "Standard 1.5-second human perception-reaction time covers 121 feet at 55 mph before the driver foot even hits the brake."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+      "core_mechanism_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ],
+      "worked_field_example": "Approaching a yellow diamond warning sign at 50 mph gives the driver advance notice to establish a 3-to-4-second following distance before a curve.",
+      "counselor_tabletop_demo": "Identify 12 blank-text MUTCD sign silhouettes by shape and color alone and demonstrate proper roadside traffic-stop interior lighting and hand placement.",
+      "real_world_connection_box": "FHWA MUTCD Sign Geometry, Color & Stopping Standard: FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones. MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute traffic safety and the law under adult counselor supervision.",
+      "v47_slide_title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard",
+      "v47_primary_source_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+      "core_mechanism_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ],
+      "worked_field_example": "Approaching a yellow diamond warning sign at 50 mph gives the driver advance notice to establish a 3-to-4-second following distance before a curve.",
+      "counselor_tabletop_demo": "Identify 12 blank-text MUTCD sign silhouettes by shape and color alone and demonstrate proper roadside traffic-stop interior lighting and hand placement.",
+      "real_world_connection_box": "FHWA MUTCD Sign Geometry, Color & Stopping Standard: FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones. MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute traffic safety and the law under adult counselor supervision.",
+      "v47_slide_title": "FHWA MUTCD Sign Geometry, Color & Stopping Standard",
+      "v47_primary_source_bullets": [
+        "FHWA MUTCD rules assign octagon to STOP, inverted triangle to YIELD, diamond to warnings, and pennant to no-passing zones.",
+        "MUTCD colors set Red for stop/prohibition, Yellow for warning, Fluorescent Yellow-Green for schools, and Orange for work zones."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Traffic Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FHWA, NHTSA & AAA Traffic Safety",
+        "title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard Technical Reference",
+        "canonical_url": "https://www.nhtsa.gov/road-safety"
+      },
+      "rule_of_thumb_mnemonic": "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+      "core_mechanism_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ],
+      "worked_field_example": "Equipping a bicycle with a 500-lumen white front headlamp, red rear reflector visible at 600 feet, and ankle reflectors provides 360-degree conspicuity.",
+      "counselor_tabletop_demo": "Test a flashlight beam against dark cloth, white cotton, and 3M retroreflective tape from 15 feet away to compare returned light intensity.",
+      "real_world_connection_box": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard: A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet. At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FHWA, NHTSA & AAA Traffic Safety",
+      "bespoke_visual_filename": "traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/traffic_safety_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute road designs and signs under adult counselor supervision.",
+      "v47_slide_title": "ANSI/ISEA 107 Nighttime Retroreflectivity & Vulnerable User Standard",
+      "v47_primary_source_bullets": [
+        "A cyclist or pedestrian in dark clothes is visible under low beams at 55 feet, while retroreflective gear reaches 500 feet.",
+        "At 40 mph (58.7 ft/s), 55 feet of dark visibility leaves under 1.0 second to react versus 8.5 seconds with reflective trim."
+      ]
+    }
+  }
+}

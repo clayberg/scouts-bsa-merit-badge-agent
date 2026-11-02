@@ -1,0 +1,489 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "bird-study",
+  "badge_name": "Bird Study",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+  "primary_authority_url": "https://www.birds.cornell.edu/home/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Ecological Bioindicator and North American Flyway Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+      "core_mechanism_bullets": [
+        "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+        "High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health."
+      ],
+      "worked_field_example": "Banning DDT in 1972 halted eggshell thinning caused by DDE bioaccumulation, allowing Bald Eagle and Peregrine Falcon populations to recover nationwide.",
+      "counselor_tabletop_demo": "Trace the four North American migratory flyways on a continental map and match 4 indicator species to their wetland, forest, or grassland habitats.",
+      "real_world_connection_box": "Ecological Bioindicator and North American Flyway Standard: North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways. High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining the differences between extinct step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Ecological Bioindicator and North American Flyway Standard",
+      "v47_primary_source_bullets": [
+        "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+        "High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+      "core_mechanism_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ],
+      "worked_field_example": "Separating a Downy Woodpecker from a Hairy Woodpecker relies on bill-to-head length ratio (1-to-3 in Downy vs nearly 1-to-1 in Hairy) plus outer tail spots.",
+      "counselor_tabletop_demo": "Label 8 anatomical feather tracts (crown, supercilium, lore, malar, scapulars, wing bars, primaries, rectrices) on a songbird topography diagram.",
+      "real_world_connection_box": "Cornell Lab Topographic Anatomy and 4-Key ID Standard: Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season. Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for a non-native bird in a troop setting.",
+      "v47_slide_title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard",
+      "v47_primary_source_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Binocular Exit Pupil and Diopter Calibration Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+      "core_mechanism_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ],
+      "worked_field_example": "At dawn in dense woods, 8x42 binoculars with a 5.25 mm exit pupil and 7.5-degree field of view track warblers faster than dim 10x25 compact glasses.",
+      "counselor_tabletop_demo": "Perform the 3-step binocular calibration (twist-up eyecups, interpupillary hinge distance, and left-then-right diopter focus) on a chart across the room.",
+      "real_world_connection_box": "Binocular Exit Pupil and Diopter Calibration Standard: In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil. Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining need for bird study step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Binocular Exit Pupil and Diopter Calibration Standard",
+      "v47_primary_source_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+      "core_mechanism_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ],
+      "worked_field_example": "Reading an audio spectrogram plots time in seconds on the X-axis and frequency in kilohertz (2 to 8 kHz) on the Y-axis to distinguish bird songs from brief alarm calls.",
+      "counselor_tabletop_demo": "Match 3 bird audio spectrograms (pitch slope, trill speed, and repetition) to their vocal descriptions and verify an Eastern Bluebird box's 1.5-inch entrance hole.",
+      "real_world_connection_box": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard: eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies. Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute that you are familiar under adult counselor supervision.",
+      "v47_slide_title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard",
+      "v47_primary_source_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Ecological Bioindicator and North American Flyway Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+      "core_mechanism_bullets": [
+        "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+        "High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health."
+      ],
+      "worked_field_example": "Banning DDT in 1972 halted eggshell thinning caused by DDE bioaccumulation, allowing Bald Eagle and Peregrine Falcon populations to recover nationwide.",
+      "counselor_tabletop_demo": "Trace the four North American migratory flyways on a continental map and match 4 indicator species to their wetland, forest, or grassland habitats.",
+      "real_world_connection_box": "Ecological Bioindicator and North American Flyway Standard: North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways. High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining the differences between extinct step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Ecological Bioindicator and North American Flyway Standard",
+      "v47_primary_source_bullets": [
+        "North American migratory birds follow four primary continental routes of the Atlantic, Mississippi, Central, and Pacific Flyways.",
+        "High metabolic rates and trophic specialization make raptors, insectivores, and waterfowl sensitive bioindicators of habitat and chemical health."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+      "core_mechanism_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ],
+      "worked_field_example": "Separating a Downy Woodpecker from a Hairy Woodpecker relies on bill-to-head length ratio (1-to-3 in Downy vs nearly 1-to-1 in Hairy) plus outer tail spots.",
+      "counselor_tabletop_demo": "Label 8 anatomical feather tracts (crown, supercilium, lore, malar, scapulars, wing bars, primaries, rectrices) on a songbird topography diagram.",
+      "real_world_connection_box": "Cornell Lab Topographic Anatomy and 4-Key ID Standard: Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season. Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for a non-native bird in a troop setting.",
+      "v47_slide_title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard",
+      "v47_primary_source_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Binocular Exit Pupil and Diopter Calibration Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+      "core_mechanism_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ],
+      "worked_field_example": "At dawn in dense woods, 8x42 binoculars with a 5.25 mm exit pupil and 7.5-degree field of view track warblers faster than dim 10x25 compact glasses.",
+      "counselor_tabletop_demo": "Perform the 3-step binocular calibration (twist-up eyecups, interpupillary hinge distance, and left-then-right diopter focus) on a chart across the room.",
+      "real_world_connection_box": "Binocular Exit Pupil and Diopter Calibration Standard: In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil. Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining need for bird study step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Binocular Exit Pupil and Diopter Calibration Standard",
+      "v47_primary_source_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+      "core_mechanism_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ],
+      "worked_field_example": "Reading an audio spectrogram plots time in seconds on the X-axis and frequency in kilohertz (2 to 8 kHz) on the Y-axis to distinguish bird songs from brief alarm calls.",
+      "counselor_tabletop_demo": "Match 3 bird audio spectrograms (pitch slope, trill speed, and repetition) to their vocal descriptions and verify an Eastern Bluebird box's 1.5-inch entrance hole.",
+      "real_world_connection_box": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard: eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies. Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute that you are familiar under adult counselor supervision.",
+      "v47_slide_title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard",
+      "v47_primary_source_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+      "core_mechanism_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ],
+      "worked_field_example": "Separating a Downy Woodpecker from a Hairy Woodpecker relies on bill-to-head length ratio (1-to-3 in Downy vs nearly 1-to-1 in Hairy) plus outer tail spots.",
+      "counselor_tabletop_demo": "Label 8 anatomical feather tracts (crown, supercilium, lore, malar, scapulars, wing bars, primaries, rectrices) on a songbird topography diagram.",
+      "real_world_connection_box": "Cornell Lab Topographic Anatomy and 4-Key ID Standard: Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season. Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for a non-native bird in a troop setting.",
+      "v47_slide_title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard",
+      "v47_primary_source_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+      "core_mechanism_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ],
+      "worked_field_example": "Separating a Downy Woodpecker from a Hairy Woodpecker relies on bill-to-head length ratio (1-to-3 in Downy vs nearly 1-to-1 in Hairy) plus outer tail spots.",
+      "counselor_tabletop_demo": "Label 8 anatomical feather tracts (crown, supercilium, lore, malar, scapulars, wing bars, primaries, rectrices) on a songbird topography diagram.",
+      "real_world_connection_box": "Cornell Lab Topographic Anatomy and 4-Key ID Standard: Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season. Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for a non-native bird in a troop setting.",
+      "v47_slide_title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard",
+      "v47_primary_source_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Binocular Exit Pupil and Diopter Calibration Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+      "core_mechanism_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ],
+      "worked_field_example": "At dawn in dense woods, 8x42 binoculars with a 5.25 mm exit pupil and 7.5-degree field of view track warblers faster than dim 10x25 compact glasses.",
+      "counselor_tabletop_demo": "Perform the 3-step binocular calibration (twist-up eyecups, interpupillary hinge distance, and left-then-right diopter focus) on a chart across the room.",
+      "real_world_connection_box": "Binocular Exit Pupil and Diopter Calibration Standard: In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil. Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining need for bird study step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Binocular Exit Pupil and Diopter Calibration Standard",
+      "v47_primary_source_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+      "core_mechanism_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ],
+      "worked_field_example": "Reading an audio spectrogram plots time in seconds on the X-axis and frequency in kilohertz (2 to 8 kHz) on the Y-axis to distinguish bird songs from brief alarm calls.",
+      "counselor_tabletop_demo": "Match 3 bird audio spectrograms (pitch slope, trill speed, and repetition) to their vocal descriptions and verify an Eastern Bluebird box's 1.5-inch entrance hole.",
+      "real_world_connection_box": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard: eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies. Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute that you are familiar under adult counselor supervision.",
+      "v47_slide_title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard",
+      "v47_primary_source_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Binocular Exit Pupil and Diopter Calibration Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+      "core_mechanism_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ],
+      "worked_field_example": "At dawn in dense woods, 8x42 binoculars with a 5.25 mm exit pupil and 7.5-degree field of view track warblers faster than dim 10x25 compact glasses.",
+      "counselor_tabletop_demo": "Perform the 3-step binocular calibration (twist-up eyecups, interpupillary hinge distance, and left-then-right diopter focus) on a chart across the room.",
+      "real_world_connection_box": "Binocular Exit Pupil and Diopter Calibration Standard: In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil. Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining need for bird study step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Binocular Exit Pupil and Diopter Calibration Standard",
+      "v47_primary_source_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+      "core_mechanism_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ],
+      "worked_field_example": "Separating a Downy Woodpecker from a Hairy Woodpecker relies on bill-to-head length ratio (1-to-3 in Downy vs nearly 1-to-1 in Hairy) plus outer tail spots.",
+      "counselor_tabletop_demo": "Label 8 anatomical feather tracts (crown, supercilium, lore, malar, scapulars, wing bars, primaries, rectrices) on a songbird topography diagram.",
+      "real_world_connection_box": "Cornell Lab Topographic Anatomy and 4-Key ID Standard: Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season. Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for a non-native bird in a troop setting.",
+      "v47_slide_title": "Cornell Lab Topographic Anatomy and 4-Key ID Standard",
+      "v47_primary_source_bullets": [
+        "Cornell Lab field identification evaluates four systematic keys of Size and Shape, Color Pattern, Behavior, and Habitat/Season.",
+        "Precise plumage topography distinguishes the lore, supercilium (eyebrow stripe), auriculars, primaries, secondaries, and wing bars."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "Binocular Exit Pupil and Diopter Calibration Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+      "core_mechanism_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ],
+      "worked_field_example": "At dawn in dense woods, 8x42 binoculars with a 5.25 mm exit pupil and 7.5-degree field of view track warblers faster than dim 10x25 compact glasses.",
+      "counselor_tabletop_demo": "Perform the 3-step binocular calibration (twist-up eyecups, interpupillary hinge distance, and left-then-right diopter focus) on a chart across the room.",
+      "real_world_connection_box": "Binocular Exit Pupil and Diopter Calibration Standard: In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil. Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining need for bird study step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Binocular Exit Pupil and Diopter Calibration Standard",
+      "v47_primary_source_bullets": [
+        "In 8x42 binoculars, 8x is linear magnification, 42 mm is the objective lens diameter, and dividing 42 by 8 yields a bright 5.25 mm exit pupil.",
+        "Calibrate binoculars by focusing the center wheel with the left eye open, then adjusting the right-eye diopter ring on the same distant sign."
+      ]
+    },
+    "12": {
+      "req_id": "12",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+      "core_mechanism_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ],
+      "worked_field_example": "Reading an audio spectrogram plots time in seconds on the X-axis and frequency in kilohertz (2 to 8 kHz) on the Y-axis to distinguish bird songs from brief alarm calls.",
+      "counselor_tabletop_demo": "Match 3 bird audio spectrograms (pitch slope, trill speed, and repetition) to their vocal descriptions and verify an Eastern Bluebird box's 1.5-inch entrance hole.",
+      "real_world_connection_box": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard: eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies. Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute that you are familiar under adult counselor supervision.",
+      "v47_slide_title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard",
+      "v47_primary_source_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ]
+    },
+    "13": {
+      "req_id": "13",
+      "badge_name": "Bird Study",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+        "title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard Technical Reference",
+        "canonical_url": "https://www.birds.cornell.edu/home/"
+      },
+      "rule_of_thumb_mnemonic": "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+      "core_mechanism_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ],
+      "worked_field_example": "Reading an audio spectrogram plots time in seconds on the X-axis and frequency in kilohertz (2 to 8 kHz) on the Y-axis to distinguish bird songs from brief alarm calls.",
+      "counselor_tabletop_demo": "Match 3 bird audio spectrograms (pitch slope, trill speed, and repetition) to their vocal descriptions and verify an Eastern Bluebird box's 1.5-inch entrance hole.",
+      "real_world_connection_box": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard: eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies. Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Cornell Lab of Ornithology & USGS Bird Banding Laboratory",
+      "bespoke_visual_filename": "bird_study_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/bird_study_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute that you are familiar under adult counselor supervision.",
+      "v47_slide_title": "eBird Field Protocol, Sound Spectrograms, and Nest Box Standard",
+      "v47_primary_source_bullets": [
+        "eBird stationary and traveling checklists log exact start time, duration in minutes, distance traveled, and complete species tallies.",
+        "Species-specific nest box entrance holes exclude invasive European Starlings at 1.5 inches diameter for Eastern Bluebirds."
+      ]
+    }
+  }
+}

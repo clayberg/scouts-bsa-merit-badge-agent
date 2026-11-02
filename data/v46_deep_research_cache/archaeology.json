@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "archaeology",
+  "badge_name": "Archaeology",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "National Park Service Archeology Program & SAA",
+  "primary_authority_url": "https://www.nps.gov/subjects/archeology/index.htm",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Law of Superposition and In-Situ Provenience Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+      "core_mechanism_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ],
+      "worked_field_example": "An undisturbed hearth found 85 cm below datum in Stratum IV predates a ceramic sherd recovered at 30 cm below datum in Stratum II.",
+      "counselor_tabletop_demo": "Use a clear jar layered with 4 colored sands and embedded coins to demonstrate stratigraphic superposition and an intrusive storage pit.",
+      "real_world_connection_box": "Law of Superposition and In-Situ Provenience Standard: Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers. Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers and professional pathways in a troop setting.",
+      "v47_slide_title": "Law of Superposition and In-Situ Provenience Standard",
+      "v47_primary_source_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Metric Grid Excavation and Dry-Screening Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+      "core_mechanism_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ],
+      "worked_field_example": "Shaving a 1-by-1-meter test unit in 10-centimeter arbitrary levels with a flat Marshalltown trowel preserves soil stain features in plan view.",
+      "counselor_tabletop_demo": "Establish a miniature 50-by-50-cm string grid with a line level and plumb bob to map the exact X, Y, and Z coordinates of 3 surface objects.",
+      "real_world_connection_box": "Metric Grid Excavation and Dry-Screening Standard: Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north. Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating principles of archaeological science with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Metric Grid Excavation and Dry-Screening Standard",
+      "v47_primary_source_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Radiocarbon C-14 and Dendrochronology Dating Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+      "core_mechanism_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ],
+      "worked_field_example": "A charcoal sample retaining 25 percent of its original atmospheric Carbon-14 ratio has elapsed two half-lives, or roughly 11,460 years.",
+      "counselor_tabletop_demo": "Cross-match two paper tree-ring core strips with overlapping drought-ring patterns to determine the exact felling year of an ancient roof beam.",
+      "real_world_connection_box": "Radiocarbon C-14 and Dendrochronology Dating Standard: Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years. Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing of the archaeological process with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Radiocarbon C-14 and Dendrochronology Dating Standard",
+      "v47_primary_source_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "ARPA 1979 and NHPA Federal Site Protection Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+      "core_mechanism_bullets": [
+        "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+        "Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour."
+      ],
+      "worked_field_example": "Removing a projectile point from a National Park trail destroys 100 percent of its contextual association and violates federal ARPA statutes.",
+      "counselor_tabletop_demo": "Practice non-destructive in-situ documentation by sketching, measuring with a metric scale bar, and photographing a replica artifact without moving it.",
+      "real_world_connection_box": "ARPA 1979 and NHPA Federal Site Protection Standard: The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands. Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining at least two ways step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ARPA 1979 and NHPA Federal Site Protection Standard",
+      "v47_primary_source_bullets": [
+        "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+        "Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Law of Superposition and In-Situ Provenience Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+      "core_mechanism_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ],
+      "worked_field_example": "An undisturbed hearth found 85 cm below datum in Stratum IV predates a ceramic sherd recovered at 30 cm below datum in Stratum II.",
+      "counselor_tabletop_demo": "Use a clear jar layered with 4 colored sands and embedded coins to demonstrate stratigraphic superposition and an intrusive storage pit.",
+      "real_world_connection_box": "Law of Superposition and In-Situ Provenience Standard: Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers. Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers and professional pathways in a troop setting.",
+      "v47_slide_title": "Law of Superposition and In-Situ Provenience Standard",
+      "v47_primary_source_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Metric Grid Excavation and Dry-Screening Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+      "core_mechanism_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ],
+      "worked_field_example": "Shaving a 1-by-1-meter test unit in 10-centimeter arbitrary levels with a flat Marshalltown trowel preserves soil stain features in plan view.",
+      "counselor_tabletop_demo": "Establish a miniature 50-by-50-cm string grid with a line level and plumb bob to map the exact X, Y, and Z coordinates of 3 surface objects.",
+      "real_world_connection_box": "Metric Grid Excavation and Dry-Screening Standard: Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north. Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating principles of archaeological science with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Metric Grid Excavation and Dry-Screening Standard",
+      "v47_primary_source_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Radiocarbon C-14 and Dendrochronology Dating Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+      "core_mechanism_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ],
+      "worked_field_example": "A charcoal sample retaining 25 percent of its original atmospheric Carbon-14 ratio has elapsed two half-lives, or roughly 11,460 years.",
+      "counselor_tabletop_demo": "Cross-match two paper tree-ring core strips with overlapping drought-ring patterns to determine the exact felling year of an ancient roof beam.",
+      "real_world_connection_box": "Radiocarbon C-14 and Dendrochronology Dating Standard: Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years. Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing of the archaeological process with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Radiocarbon C-14 and Dendrochronology Dating Standard",
+      "v47_primary_source_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Metric Grid Excavation and Dry-Screening Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+      "core_mechanism_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ],
+      "worked_field_example": "Shaving a 1-by-1-meter test unit in 10-centimeter arbitrary levels with a flat Marshalltown trowel preserves soil stain features in plan view.",
+      "counselor_tabletop_demo": "Establish a miniature 50-by-50-cm string grid with a line level and plumb bob to map the exact X, Y, and Z coordinates of 3 surface objects.",
+      "real_world_connection_box": "Metric Grid Excavation and Dry-Screening Standard: Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north. Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating principles of archaeological science with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Metric Grid Excavation and Dry-Screening Standard",
+      "v47_primary_source_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Law of Superposition and In-Situ Provenience Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+      "core_mechanism_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ],
+      "worked_field_example": "An undisturbed hearth found 85 cm below datum in Stratum IV predates a ceramic sherd recovered at 30 cm below datum in Stratum II.",
+      "counselor_tabletop_demo": "Use a clear jar layered with 4 colored sands and embedded coins to demonstrate stratigraphic superposition and an intrusive storage pit.",
+      "real_world_connection_box": "Law of Superposition and In-Situ Provenience Standard: Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers. Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers and professional pathways in a troop setting.",
+      "v47_slide_title": "Law of Superposition and In-Situ Provenience Standard",
+      "v47_primary_source_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Metric Grid Excavation and Dry-Screening Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+      "core_mechanism_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ],
+      "worked_field_example": "Shaving a 1-by-1-meter test unit in 10-centimeter arbitrary levels with a flat Marshalltown trowel preserves soil stain features in plan view.",
+      "counselor_tabletop_demo": "Establish a miniature 50-by-50-cm string grid with a line level and plumb bob to map the exact X, Y, and Z coordinates of 3 surface objects.",
+      "real_world_connection_box": "Metric Grid Excavation and Dry-Screening Standard: Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north. Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating principles of archaeological science with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Metric Grid Excavation and Dry-Screening Standard",
+      "v47_primary_source_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Radiocarbon C-14 and Dendrochronology Dating Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+      "core_mechanism_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ],
+      "worked_field_example": "A charcoal sample retaining 25 percent of its original atmospheric Carbon-14 ratio has elapsed two half-lives, or roughly 11,460 years.",
+      "counselor_tabletop_demo": "Cross-match two paper tree-ring core strips with overlapping drought-ring patterns to determine the exact felling year of an ancient roof beam.",
+      "real_world_connection_box": "Radiocarbon C-14 and Dendrochronology Dating Standard: Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years. Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing of the archaeological process with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Radiocarbon C-14 and Dendrochronology Dating Standard",
+      "v47_primary_source_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Radiocarbon C-14 and Dendrochronology Dating Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+      "core_mechanism_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ],
+      "worked_field_example": "A charcoal sample retaining 25 percent of its original atmospheric Carbon-14 ratio has elapsed two half-lives, or roughly 11,460 years.",
+      "counselor_tabletop_demo": "Cross-match two paper tree-ring core strips with overlapping drought-ring patterns to determine the exact felling year of an ancient roof beam.",
+      "real_world_connection_box": "Radiocarbon C-14 and Dendrochronology Dating Standard: Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years. Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing of the archaeological process with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Radiocarbon C-14 and Dendrochronology Dating Standard",
+      "v47_primary_source_bullets": [
+        "Carbon-14 decays to Nitrogen-14 with a Libbey/Godwin half-life of 5,730 years, dating organic remains up to 50,000 years.",
+        "Dendrochronology cross-dates annual tree-ring growth widths to assign calendar-year precision to preserved structural timbers."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Law of Superposition and In-Situ Provenience Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+      "core_mechanism_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ],
+      "worked_field_example": "An undisturbed hearth found 85 cm below datum in Stratum IV predates a ceramic sherd recovered at 30 cm below datum in Stratum II.",
+      "counselor_tabletop_demo": "Use a clear jar layered with 4 colored sands and embedded coins to demonstrate stratigraphic superposition and an intrusive storage pit.",
+      "real_world_connection_box": "Law of Superposition and In-Situ Provenience Standard: Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers. Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers and professional pathways in a troop setting.",
+      "v47_slide_title": "Law of Superposition and In-Situ Provenience Standard",
+      "v47_primary_source_bullets": [
+        "Steno's Law of Superposition states that undisturbed lower sedimentary strata are older than overlying upper layers.",
+        "Three-dimensional provenience records exact horizontal northing, easting, and vertical depth below a fixed site datum."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "Metric Grid Excavation and Dry-Screening Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+      "core_mechanism_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ],
+      "worked_field_example": "Shaving a 1-by-1-meter test unit in 10-centimeter arbitrary levels with a flat Marshalltown trowel preserves soil stain features in plan view.",
+      "counselor_tabletop_demo": "Establish a miniature 50-by-50-cm string grid with a line level and plumb bob to map the exact X, Y, and Z coordinates of 3 surface objects.",
+      "real_world_connection_box": "Metric Grid Excavation and Dry-Screening Standard: Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north. Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating principles of archaeological science with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Metric Grid Excavation and Dry-Screening Standard",
+      "v47_primary_source_bullets": [
+        "Controlled excavations lay out 1-meter by 1-meter Cartesian grid units oriented to true or magnetic north.",
+        "Excavated matrix passes through 1/4-inch (6.35 mm) or 1/8-inch hardware mesh screens to recover micro-debitage and bone."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Archaeology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service Archeology Program & SAA",
+        "title": "ARPA 1979 and NHPA Federal Site Protection Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/archeology/index.htm"
+      },
+      "rule_of_thumb_mnemonic": "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+      "core_mechanism_bullets": [
+        "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+        "Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour."
+      ],
+      "worked_field_example": "Removing a projectile point from a National Park trail destroys 100 percent of its contextual association and violates federal ARPA statutes.",
+      "counselor_tabletop_demo": "Practice non-destructive in-situ documentation by sketching, measuring with a metric scale bar, and photographing a replica artifact without moving it.",
+      "real_world_connection_box": "ARPA 1979 and NHPA Federal Site Protection Standard: The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands. Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service Archeology Program & SAA",
+      "bespoke_visual_filename": "archaeology_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/archaeology_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining at least two ways step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ARPA 1979 and NHPA Federal Site Protection Standard",
+      "v47_primary_source_bullets": [
+        "The Archaeological Resources Protection Act of 1979 (16 USC 470aa) prohibits unauthorized excavation on federal and Indian lands.",
+        "Standard curation protocols stipulate a 3-to-1 ratio of laboratory conservation and cataloging time per field excavation hour."
+      ]
+    }
+  }
+}

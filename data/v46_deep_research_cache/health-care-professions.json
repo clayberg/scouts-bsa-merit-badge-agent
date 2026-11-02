@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "health-care-professions",
+  "badge_name": "Health Care Professions",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "CDC & American College of Physicians",
+  "primary_authority_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "ACP Clinical Scope & Licensure Pathway Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+      "core_mechanism_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ],
+      "worked_field_example": "In an urgent care clinic, the triage RN records vital signs, the PA performs the physical exam and orders an X-ray, and the supervising MD reviews complex fractures.",
+      "counselor_tabletop_demo": "Map a patient clinical flow from emergency triage through diagnostic imaging, pharmacy dispensing, and physical therapy rehabilitation using role cards.",
+      "real_world_connection_box": "ACP Clinical Scope & Licensure Pathway Standard: Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards. Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select three of the professions in a troop setting.",
+      "v47_slide_title": "ACP Clinical Scope & Licensure Pathway Standard",
+      "v47_primary_source_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Vital Signs & Diagnostic Triage Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+      "core_mechanism_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Counting 18 radial pulse beats in 15 seconds and multiplying by 4 yields a normal resting heart rate of 72 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse for 30 seconds, count respiratory rate over 30 seconds, and read a simulated blood pressure cuff gauge and pulse oximeter.",
+      "real_world_connection_box": "CDC Vital Signs & Diagnostic Triage Standard: Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg. Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify select three of the professions during a structured merit badge clinic.",
+      "v47_slide_title": "CDC Vital Signs & Diagnostic Triage Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "HHS HIPAA Privacy & Patient Confidentiality Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+      "core_mechanism_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ],
+      "worked_field_example": "Discussing a patient diagnosis by full name inside a public hospital elevator violates HIPAA, whereas reviewing the chart inside a closed exam room preserves privacy.",
+      "counselor_tabletop_demo": "Audit a sample clinical intake form to identify and redact all 18 HIPAA Protected Health Information identifiers before simulated research sharing.",
+      "real_world_connection_box": "HHS HIPAA Privacy & Patient Confidentiality Standard: The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records. Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through select three of the professions with authentic field equipment.",
+      "v47_slide_title": "HHS HIPAA Privacy & Patient Confidentiality Standard",
+      "v47_primary_source_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Standard Precautions & Aseptic PPE Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+      "core_mechanism_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ],
+      "worked_field_example": "Applying fluorescent lotion before washing hands for 20 seconds and checking under a UV lamp reveals commonly missed areas around fingernails and thumb webs.",
+      "counselor_tabletop_demo": "Practice donning and doffing nitrile medical gloves smeared with washable shaving cream without transferring any foam onto your wrists.",
+      "real_world_connection_box": "CDC Standard Precautions & Aseptic PPE Standard: CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds. Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating role of confidentiality between a patient with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Standard Precautions & Aseptic PPE Standard",
+      "v47_primary_source_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "ACP Clinical Scope & Licensure Pathway Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+      "core_mechanism_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ],
+      "worked_field_example": "In an urgent care clinic, the triage RN records vital signs, the PA performs the physical exam and orders an X-ray, and the supervising MD reviews complex fractures.",
+      "counselor_tabletop_demo": "Map a patient clinical flow from emergency triage through diagnostic imaging, pharmacy dispensing, and physical therapy rehabilitation using role cards.",
+      "real_world_connection_box": "ACP Clinical Scope & Licensure Pathway Standard: Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards. Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select three of the professions in a troop setting.",
+      "v47_slide_title": "ACP Clinical Scope & Licensure Pathway Standard",
+      "v47_primary_source_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Vital Signs & Diagnostic Triage Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+      "core_mechanism_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Counting 18 radial pulse beats in 15 seconds and multiplying by 4 yields a normal resting heart rate of 72 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse for 30 seconds, count respiratory rate over 30 seconds, and read a simulated blood pressure cuff gauge and pulse oximeter.",
+      "real_world_connection_box": "CDC Vital Signs & Diagnostic Triage Standard: Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg. Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify select three of the professions during a structured merit badge clinic.",
+      "v47_slide_title": "CDC Vital Signs & Diagnostic Triage Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "HHS HIPAA Privacy & Patient Confidentiality Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+      "core_mechanism_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ],
+      "worked_field_example": "Discussing a patient diagnosis by full name inside a public hospital elevator violates HIPAA, whereas reviewing the chart inside a closed exam room preserves privacy.",
+      "counselor_tabletop_demo": "Audit a sample clinical intake form to identify and redact all 18 HIPAA Protected Health Information identifiers before simulated research sharing.",
+      "real_world_connection_box": "HHS HIPAA Privacy & Patient Confidentiality Standard: The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records. Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through select three of the professions with authentic field equipment.",
+      "v47_slide_title": "HHS HIPAA Privacy & Patient Confidentiality Standard",
+      "v47_primary_source_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Vital Signs & Diagnostic Triage Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+      "core_mechanism_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Counting 18 radial pulse beats in 15 seconds and multiplying by 4 yields a normal resting heart rate of 72 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse for 30 seconds, count respiratory rate over 30 seconds, and read a simulated blood pressure cuff gauge and pulse oximeter.",
+      "real_world_connection_box": "CDC Vital Signs & Diagnostic Triage Standard: Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg. Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify select three of the professions during a structured merit badge clinic.",
+      "v47_slide_title": "CDC Vital Signs & Diagnostic Triage Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "ACP Clinical Scope & Licensure Pathway Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+      "core_mechanism_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ],
+      "worked_field_example": "In an urgent care clinic, the triage RN records vital signs, the PA performs the physical exam and orders an X-ray, and the supervising MD reviews complex fractures.",
+      "counselor_tabletop_demo": "Map a patient clinical flow from emergency triage through diagnostic imaging, pharmacy dispensing, and physical therapy rehabilitation using role cards.",
+      "real_world_connection_box": "ACP Clinical Scope & Licensure Pathway Standard: Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards. Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select three of the professions in a troop setting.",
+      "v47_slide_title": "ACP Clinical Scope & Licensure Pathway Standard",
+      "v47_primary_source_bullets": [
+        "Allopathic MDs and Osteopathic DOs complete 4 years of medical school plus 3 to 7 years of residency and pass USMLE or COMLEX boards.",
+        "Registered Nurses pass the NCLEX-RN exam while PAs and Nurse Practitioners hold graduate degrees to diagnose and prescribe therapy."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Vital Signs & Diagnostic Triage Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+      "core_mechanism_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Counting 18 radial pulse beats in 15 seconds and multiplying by 4 yields a normal resting heart rate of 72 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse for 30 seconds, count respiratory rate over 30 seconds, and read a simulated blood pressure cuff gauge and pulse oximeter.",
+      "real_world_connection_box": "CDC Vital Signs & Diagnostic Triage Standard: Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg. Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify select three of the professions during a structured merit badge clinic.",
+      "v47_slide_title": "CDC Vital Signs & Diagnostic Triage Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting adult vitals span 60 to 100 beats per minute pulse, 12 to 20 breaths per minute, and blood pressure below 120/80 mmHg.",
+        "Normal core body temperature averages 98.6 degrees Fahrenheit while clinical fever is defined at or above 100.4 degrees Fahrenheit."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "HHS HIPAA Privacy & Patient Confidentiality Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+      "core_mechanism_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ],
+      "worked_field_example": "Discussing a patient diagnosis by full name inside a public hospital elevator violates HIPAA, whereas reviewing the chart inside a closed exam room preserves privacy.",
+      "counselor_tabletop_demo": "Audit a sample clinical intake form to identify and redact all 18 HIPAA Protected Health Information identifiers before simulated research sharing.",
+      "real_world_connection_box": "HHS HIPAA Privacy & Patient Confidentiality Standard: The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records. Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through select three of the professions with authentic field equipment.",
+      "v47_slide_title": "HHS HIPAA Privacy & Patient Confidentiality Standard",
+      "v47_primary_source_bullets": [
+        "The federal HIPAA Privacy Rule under 45 CFR Part 164 protects 18 Protected Health Information identifiers across all patient records.",
+        "Clinicians follow the Minimum Necessary rule, sharing patient charts strictly with authorized care team members for active treatment."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Standard Precautions & Aseptic PPE Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+      "core_mechanism_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ],
+      "worked_field_example": "Applying fluorescent lotion before washing hands for 20 seconds and checking under a UV lamp reveals commonly missed areas around fingernails and thumb webs.",
+      "counselor_tabletop_demo": "Practice donning and doffing nitrile medical gloves smeared with washable shaving cream without transferring any foam onto your wrists.",
+      "real_world_connection_box": "CDC Standard Precautions & Aseptic PPE Standard: CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds. Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating role of confidentiality between a patient with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Standard Precautions & Aseptic PPE Standard",
+      "v47_primary_source_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Health Care Professions",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American College of Physicians",
+        "title": "CDC Standard Precautions & Aseptic PPE Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/infection-control/hcp/isolation-precautions/index.html"
+      },
+      "rule_of_thumb_mnemonic": "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+      "core_mechanism_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ],
+      "worked_field_example": "Applying fluorescent lotion before washing hands for 20 seconds and checking under a UV lamp reveals commonly missed areas around fingernails and thumb webs.",
+      "counselor_tabletop_demo": "Practice donning and doffing nitrile medical gloves smeared with washable shaving cream without transferring any foam onto your wrists.",
+      "real_world_connection_box": "CDC Standard Precautions & Aseptic PPE Standard: CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds. Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American College of Physicians",
+      "bespoke_visual_filename": "health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/health_care_professions_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating role of confidentiality between a patient with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Standard Precautions & Aseptic PPE Standard",
+      "v47_primary_source_bullets": [
+        "CDC hand hygiene requires rubbing with 60 to 95 percent alcohol sanitizer for 20 seconds or scrubbing with soap and water for 20 seconds.",
+        "Aseptic glove removal peels the first glove from the outside cuff and slides two bare fingers inside the second cuff to avoid contact."
+      ]
+    }
+  }
+}

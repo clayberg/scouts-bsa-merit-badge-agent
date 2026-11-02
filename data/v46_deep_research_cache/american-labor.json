@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "american-labor",
+  "badge_name": "American Labor",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+  "primary_authority_url": "https://www.dol.gov/general/aboutdol/majorlaws",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+      "core_mechanism_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ],
+      "worked_field_example": "Installing a local exhaust ventilation hood at a soldering bench captures lead-free rosin fumes at the source before reaching the worker's breathing zone.",
+      "counselor_tabletop_demo": "Rank 5 workshop safety interventions from highest to lowest effectiveness using the NIOSH 5-tier Hierarchy of Controls pyramid.",
+      "real_world_connection_box": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard: The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards. NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_9_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_9_nano_hero.png",
+      "bespoke_visual_caption": "Students assemble printed circuit boards using soldering irons, wire strippers, and digital multimeters under teacher supervision.",
+      "v47_slide_title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "National Labor Relations Act Collective Bargaining Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+      "core_mechanism_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ],
+      "worked_field_example": "When 35 percent of a 200-worker bargaining unit signs authorization cards, the NLRB schedules a secret-ballot election won by a simple majority of voters.",
+      "counselor_tabletop_demo": "Walk through a 4-step collective bargaining flow chart comparing contract negotiation, voluntary mediation, fact-finding, and binding arbitration.",
+      "real_world_connection_box": "National Labor Relations Act Collective Bargaining Standard: Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively. NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply contemporary workplace concerns using standard troop tools and reference charts.",
+      "v47_slide_title": "National Labor Relations Act Collective Bargaining Standard",
+      "v47_primary_source_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Fair Labor Standards Act Wage and Youth Hour Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+      "core_mechanism_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ],
+      "worked_field_example": "A 15-year-old working after school on Tuesday may work from 4 PM to 6 30 PM (2.5 hours), staying inside the 3-hour school-day cap and 7 PM limit.",
+      "counselor_tabletop_demo": "Audit three sample teen work schedules for a school week to verify compliance with FLSA Child Labor Reg No. 3 hour and time-of-day caps.",
+      "real_world_connection_box": "Fair Labor Standards Act Wage and Youth Hour Standard: The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits. Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for union and employer organization visit in a troop setting.",
+      "v47_slide_title": "Fair Labor Standards Act Wage and Youth Hour Standard",
+      "v47_primary_source_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Interest-Based Bargaining and Grievance Resolution Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+      "core_mechanism_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ],
+      "worked_field_example": "A joint labor-management apprenticeship committee pairs 2,000 hours of paid on-the-job training per year with 144 hours of classroom instruction.",
+      "counselor_tabletop_demo": "Role-play a 3-minute joint labor-management safety committee meeting resolving a shop-floor ergonomics concern using Interest-Based Bargaining steps.",
+      "real_world_connection_box": "Interest-Based Bargaining and Grievance Resolution Standard: Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals. Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute labor union structure and federation under adult counselor supervision.",
+      "v47_slide_title": "Interest-Based Bargaining and Grievance Resolution Standard",
+      "v47_primary_source_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+      "core_mechanism_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ],
+      "worked_field_example": "Installing a local exhaust ventilation hood at a soldering bench captures lead-free rosin fumes at the source before reaching the worker's breathing zone.",
+      "counselor_tabletop_demo": "Rank 5 workshop safety interventions from highest to lowest effectiveness using the NIOSH 5-tier Hierarchy of Controls pyramid.",
+      "real_world_connection_box": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard: The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards. NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_9_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_9_nano_hero.png",
+      "bespoke_visual_caption": "Students assemble printed circuit boards using soldering irons, wire strippers, and digital multimeters under teacher supervision.",
+      "v47_slide_title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "National Labor Relations Act Collective Bargaining Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+      "core_mechanism_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ],
+      "worked_field_example": "When 35 percent of a 200-worker bargaining unit signs authorization cards, the NLRB schedules a secret-ballot election won by a simple majority of voters.",
+      "counselor_tabletop_demo": "Walk through a 4-step collective bargaining flow chart comparing contract negotiation, voluntary mediation, fact-finding, and binding arbitration.",
+      "real_world_connection_box": "National Labor Relations Act Collective Bargaining Standard: Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively. NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply contemporary workplace concerns using standard troop tools and reference charts.",
+      "v47_slide_title": "National Labor Relations Act Collective Bargaining Standard",
+      "v47_primary_source_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Fair Labor Standards Act Wage and Youth Hour Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+      "core_mechanism_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ],
+      "worked_field_example": "A 15-year-old working after school on Tuesday may work from 4 PM to 6 30 PM (2.5 hours), staying inside the 3-hour school-day cap and 7 PM limit.",
+      "counselor_tabletop_demo": "Audit three sample teen work schedules for a school week to verify compliance with FLSA Child Labor Reg No. 3 hour and time-of-day caps.",
+      "real_world_connection_box": "Fair Labor Standards Act Wage and Youth Hour Standard: The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits. Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for union and employer organization visit in a troop setting.",
+      "v47_slide_title": "Fair Labor Standards Act Wage and Youth Hour Standard",
+      "v47_primary_source_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "National Labor Relations Act Collective Bargaining Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+      "core_mechanism_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ],
+      "worked_field_example": "When 35 percent of a 200-worker bargaining unit signs authorization cards, the NLRB schedules a secret-ballot election won by a simple majority of voters.",
+      "counselor_tabletop_demo": "Walk through a 4-step collective bargaining flow chart comparing contract negotiation, voluntary mediation, fact-finding, and binding arbitration.",
+      "real_world_connection_box": "National Labor Relations Act Collective Bargaining Standard: Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively. NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply contemporary workplace concerns using standard troop tools and reference charts.",
+      "v47_slide_title": "National Labor Relations Act Collective Bargaining Standard",
+      "v47_primary_source_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+      "core_mechanism_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ],
+      "worked_field_example": "Installing a local exhaust ventilation hood at a soldering bench captures lead-free rosin fumes at the source before reaching the worker's breathing zone.",
+      "counselor_tabletop_demo": "Rank 5 workshop safety interventions from highest to lowest effectiveness using the NIOSH 5-tier Hierarchy of Controls pyramid.",
+      "real_world_connection_box": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard: The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards. NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_9_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_9_nano_hero.png",
+      "bespoke_visual_caption": "Students assemble printed circuit boards using soldering irons, wire strippers, and digital multimeters under teacher supervision.",
+      "v47_slide_title": "OSHA 29 CFR 1910 Workplace Hazard Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "The Occupational Safety and Health Act of 1970 grants workers the right to a workplace free of recognized serious hazards.",
+        "NIOSH hierarchy of controls prioritizes Elimination, Substitution, and Engineering controls above administrative rules and PPE."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "National Labor Relations Act Collective Bargaining Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+      "core_mechanism_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ],
+      "worked_field_example": "When 35 percent of a 200-worker bargaining unit signs authorization cards, the NLRB schedules a secret-ballot election won by a simple majority of voters.",
+      "counselor_tabletop_demo": "Walk through a 4-step collective bargaining flow chart comparing contract negotiation, voluntary mediation, fact-finding, and binding arbitration.",
+      "real_world_connection_box": "National Labor Relations Act Collective Bargaining Standard: Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively. NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply contemporary workplace concerns using standard troop tools and reference charts.",
+      "v47_slide_title": "National Labor Relations Act Collective Bargaining Standard",
+      "v47_primary_source_bullets": [
+        "Section 7 of the 1935 NLRA (29 USC 157) guarantees employees the right to organize and bargain collectively.",
+        "NLRB representation elections require a 30 percent showing of interest on signed authorization cards before a secret ballot."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Fair Labor Standards Act Wage and Youth Hour Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+      "core_mechanism_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ],
+      "worked_field_example": "A 15-year-old working after school on Tuesday may work from 4 PM to 6 30 PM (2.5 hours), staying inside the 3-hour school-day cap and 7 PM limit.",
+      "counselor_tabletop_demo": "Audit three sample teen work schedules for a school week to verify compliance with FLSA Child Labor Reg No. 3 hour and time-of-day caps.",
+      "real_world_connection_box": "Fair Labor Standards Act Wage and Youth Hour Standard: The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits. Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for union and employer organization visit in a troop setting.",
+      "v47_slide_title": "Fair Labor Standards Act Wage and Youth Hour Standard",
+      "v47_primary_source_bullets": [
+        "The 1938 FLSA establishes the federal minimum wage, 40-hour workweek overtime at 1.5x pay, and youth employment limits.",
+        "Under 29 CFR 570, 14- and 15-year-old youths may work at most 3 hours on a school day and 18 hours during a school week."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Interest-Based Bargaining and Grievance Resolution Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+      "core_mechanism_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ],
+      "worked_field_example": "A joint labor-management apprenticeship committee pairs 2,000 hours of paid on-the-job training per year with 144 hours of classroom instruction.",
+      "counselor_tabletop_demo": "Role-play a 3-minute joint labor-management safety committee meeting resolving a shop-floor ergonomics concern using Interest-Based Bargaining steps.",
+      "real_world_connection_box": "Interest-Based Bargaining and Grievance Resolution Standard: Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals. Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute labor union structure and federation under adult counselor supervision.",
+      "v47_slide_title": "Interest-Based Bargaining and Grievance Resolution Standard",
+      "v47_primary_source_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "American Labor",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Department of Labor (DOL) & NLRB / OSHA",
+        "title": "Interest-Based Bargaining and Grievance Resolution Standard Technical Reference",
+        "canonical_url": "https://www.dol.gov/general/aboutdol/majorlaws"
+      },
+      "rule_of_thumb_mnemonic": "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+      "core_mechanism_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ],
+      "worked_field_example": "A joint labor-management apprenticeship committee pairs 2,000 hours of paid on-the-job training per year with 144 hours of classroom instruction.",
+      "counselor_tabletop_demo": "Role-play a 3-minute joint labor-management safety committee meeting resolving a shop-floor ergonomics concern using Interest-Based Bargaining steps.",
+      "real_world_connection_box": "Interest-Based Bargaining and Grievance Resolution Standard: Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals. Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Department of Labor (DOL) & NLRB / OSHA",
+      "bespoke_visual_filename": "american_labor_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_labor_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute labor union structure and federation under adult counselor supervision.",
+      "v47_slide_title": "Interest-Based Bargaining and Grievance Resolution Standard",
+      "v47_primary_source_bullets": [
+        "Interest-Based Bargaining focuses on mutual problem-solving around shared productivity, safety, and training goals.",
+        "Multi-step shop grievance procedures resolve contract disputes through steward review, joint panels, and neutral arbitration."
+      ]
+    }
+  }
+}

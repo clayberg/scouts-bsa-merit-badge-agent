@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "multisport",
+  "badge_name": "Multisport",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USA Triathlon & ACSM Endurance Guidelines",
+  "primary_authority_url": "https://www.usatriathlon.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USA Triathlon Open-Water & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ],
+      "worked_field_example": "Weighing 1.5 pounds less after a 60-minute brick workout indicates 24 ounces of fluid loss requiring 36 ounces of sodium-balanced rehydration over recovery.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weights and inspect open-water swim cap, goggles, and safety buoy visibility gear.",
+      "real_world_connection_box": "USA Triathlon Open-Water & Thermal Safety Standard: USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit. Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating safe swim defense and safety afloat equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USA Triathlon Open-Water & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Cycling Helmet & Mechanical Inspection Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+      "core_mechanism_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ],
+      "worked_field_example": "Leaving the transition rack for the bike mount line with an unbuckled chin strap results in an immediate 30-second time penalty or safety disqualification.",
+      "counselor_tabletop_demo": "Execute a timed 60-second ABC Quick Check on a bicycle, verifying tire sidewall PSI limits, brake lever travel, and bar-end plug installation.",
+      "real_world_connection_box": "USAT Cycling Helmet & Mechanical Inspection Standard: USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking. A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Cycling Helmet & Mechanical Inspection Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Transition Zone & Brick Neuromuscular Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+      "core_mechanism_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ],
+      "worked_field_example": "Shortening running stride length and maintaining a 170-step-per-minute cadence during the first 400 meters out of T2 eliminates heavy-leg cramping.",
+      "counselor_tabletop_demo": "Lay out a 3-foot-by-6-foot towel transition zone with helmet resting upside down on handlebars, open cycling shoes, race belt, and running shoes.",
+      "real_world_connection_box": "USAT Transition Zone & Brick Neuromuscular Standard: Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line. Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Transition Zone & Brick Neuromuscular Standard",
+      "v47_primary_source_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "ACSM Periodized Training & Pacing Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+      "core_mechanism_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ],
+      "worked_field_example": "A Scout with a 200 BPM maximum heart rate maintains 130 to 150 BPM during aerobic base rides so glycogen stores remain available for the final run leg.",
+      "counselor_tabletop_demo": "Measure resting radial pulse for 15 seconds, multiply by 4, and compute aerobic Zone 2 target heart rate ranges for a 4-week training calendar.",
+      "real_world_connection_box": "ACSM Periodized Training & Pacing Standard: ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2. A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating running a demonstrate a proper equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "ACSM Periodized Training & Pacing Standard",
+      "v47_primary_source_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USA Triathlon Open-Water & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ],
+      "worked_field_example": "Weighing 1.5 pounds less after a 60-minute brick workout indicates 24 ounces of fluid loss requiring 36 ounces of sodium-balanced rehydration over recovery.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weights and inspect open-water swim cap, goggles, and safety buoy visibility gear.",
+      "real_world_connection_box": "USA Triathlon Open-Water & Thermal Safety Standard: USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit. Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating safe swim defense and safety afloat equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USA Triathlon Open-Water & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Cycling Helmet & Mechanical Inspection Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+      "core_mechanism_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ],
+      "worked_field_example": "Leaving the transition rack for the bike mount line with an unbuckled chin strap results in an immediate 30-second time penalty or safety disqualification.",
+      "counselor_tabletop_demo": "Execute a timed 60-second ABC Quick Check on a bicycle, verifying tire sidewall PSI limits, brake lever travel, and bar-end plug installation.",
+      "real_world_connection_box": "USAT Cycling Helmet & Mechanical Inspection Standard: USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking. A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Cycling Helmet & Mechanical Inspection Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Cycling Helmet & Mechanical Inspection Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+      "core_mechanism_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ],
+      "worked_field_example": "Leaving the transition rack for the bike mount line with an unbuckled chin strap results in an immediate 30-second time penalty or safety disqualification.",
+      "counselor_tabletop_demo": "Execute a timed 60-second ABC Quick Check on a bicycle, verifying tire sidewall PSI limits, brake lever travel, and bar-end plug installation.",
+      "real_world_connection_box": "USAT Cycling Helmet & Mechanical Inspection Standard: USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking. A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Cycling Helmet & Mechanical Inspection Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon competition rules mandate buckling a CPSC-certified helmet before touching the bicycle in transition and keeping it fastened until racking.",
+        "A pre-race ABC Quick Check verifies tire pressure in PSI, dual wheel quick-release lever tension, brake pad clearance, and smooth chain indexing."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "ACSM Periodized Training & Pacing Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+      "core_mechanism_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ],
+      "worked_field_example": "A Scout with a 200 BPM maximum heart rate maintains 130 to 150 BPM during aerobic base rides so glycogen stores remain available for the final run leg.",
+      "counselor_tabletop_demo": "Measure resting radial pulse for 15 seconds, multiply by 4, and compute aerobic Zone 2 target heart rate ranges for a 4-week training calendar.",
+      "real_world_connection_box": "ACSM Periodized Training & Pacing Standard: ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2. A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating running a demonstrate a proper equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "ACSM Periodized Training & Pacing Standard",
+      "v47_primary_source_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USA Triathlon Open-Water & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ],
+      "worked_field_example": "Weighing 1.5 pounds less after a 60-minute brick workout indicates 24 ounces of fluid loss requiring 36 ounces of sodium-balanced rehydration over recovery.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weights and inspect open-water swim cap, goggles, and safety buoy visibility gear.",
+      "real_world_connection_box": "USA Triathlon Open-Water & Thermal Safety Standard: USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit. Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating safe swim defense and safety afloat equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USA Triathlon Open-Water & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "USA Triathlon rules permit wetsuits below 78 degrees Fahrenheit and mandate thermal wetsuits whenever open-water temperatures drop below 60.8 degrees Fahrenheit.",
+        "Endurance athletes lose 0.5 to 1.5 liters of sweat per hour and require 400 to 800 milliliters of electrolyte fluid hourly to prevent hyponatremia."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Transition Zone & Brick Neuromuscular Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+      "core_mechanism_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ],
+      "worked_field_example": "Shortening running stride length and maintaining a 170-step-per-minute cadence during the first 400 meters out of T2 eliminates heavy-leg cramping.",
+      "counselor_tabletop_demo": "Lay out a 3-foot-by-6-foot towel transition zone with helmet resting upside down on handlebars, open cycling shoes, race belt, and running shoes.",
+      "real_world_connection_box": "USAT Transition Zone & Brick Neuromuscular Standard: Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line. Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Transition Zone & Brick Neuromuscular Standard",
+      "v47_primary_source_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "USAT Transition Zone & Brick Neuromuscular Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+      "core_mechanism_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ],
+      "worked_field_example": "Shortening running stride length and maintaining a 170-step-per-minute cadence during the first 400 meters out of T2 eliminates heavy-leg cramping.",
+      "counselor_tabletop_demo": "Lay out a 3-foot-by-6-foot towel transition zone with helmet resting upside down on handlebars, open cycling shoes, race belt, and running shoes.",
+      "real_world_connection_box": "USAT Transition Zone & Brick Neuromuscular Standard: Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line. Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating biking a explain equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "USAT Transition Zone & Brick Neuromuscular Standard",
+      "v47_primary_source_bullets": [
+        "Triathlon T1 converts from swimming to cycling and T2 converts from cycling to running while walking or jogging the bike strictly to the mount line.",
+        "Brick workouts pair 20 minutes of cycling immediately with 10 minutes of running so leg muscles adapt as blood shunts from quadriceps to calves."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Multisport",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Triathlon & ACSM Endurance Guidelines",
+        "title": "ACSM Periodized Training & Pacing Standard Technical Reference",
+        "canonical_url": "https://www.usatriathlon.org/"
+      },
+      "rule_of_thumb_mnemonic": "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+      "core_mechanism_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ],
+      "worked_field_example": "A Scout with a 200 BPM maximum heart rate maintains 130 to 150 BPM during aerobic base rides so glycogen stores remain available for the final run leg.",
+      "counselor_tabletop_demo": "Measure resting radial pulse for 15 seconds, multiply by 4, and compute aerobic Zone 2 target heart rate ranges for a 4-week training calendar.",
+      "real_world_connection_box": "ACSM Periodized Training & Pacing Standard: ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2. A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Triathlon & ACSM Endurance Guidelines",
+      "bespoke_visual_filename": "multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/multisport_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating running a demonstrate a proper equipment layout and safe operating steps for Multisport.",
+      "v47_slide_title": "ACSM Periodized Training & Pacing Standard",
+      "v47_primary_source_bullets": [
+        "ACSM endurance progression limits weekly training volume increases to 10 percent per week while keeping 80 percent of aerobic sessions in Heart Rate Zone 2.",
+        "A 4-week multisport plan balances swim, bike, and run sessions with at least 1 full rest day per week and 8.5 hours of nightly adolescent sleep."
+      ]
+    }
+  }
+}

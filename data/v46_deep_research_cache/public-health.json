@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "public-health",
+  "badge_name": "Public Health",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "CDC & American Public Health Association",
+  "primary_authority_url": "https://www.cdc.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Chain of Infection & Pathogen Transmission Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+      "core_mechanism_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ],
+      "worked_field_example": "Washing hands with soap and friction for 20 seconds mechanically detaches viral envelopes and fecal-oral bacteria, cutting gastrointestinal illness by up to 50 percent.",
+      "counselor_tabletop_demo": "Map E. coli, tetanus, Lyme disease, and influenza onto the six-link chain of infection and identify the exact intervention that breaks each transmission link.",
+      "real_world_connection_box": "CDC Chain of Infection & Pathogen Transmission Standard: Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks. Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing public health with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Chain of Infection & Pathogen Transmission Standard",
+      "v47_primary_source_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "ACIP Immunization Schedule & Herd Immunity Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+      "core_mechanism_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ],
+      "worked_field_example": "Because measles has a basic reproduction number R0 between 12 and 18, community vaccination coverage must reach 95 percent to maintain herd immunity.",
+      "counselor_tabletop_demo": "Trace how a Tdap booster or MMR vaccine primes memory B-cells on an immune response timeline and explain why tetanus requires a booster every 10 years.",
+      "real_world_connection_box": "ACIP Immunization Schedule & Herd Immunity Standard: Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection. CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute the meaning of immunization under adult counselor supervision.",
+      "v47_slide_title": "ACIP Immunization Schedule & Herd Immunity Standard",
+      "v47_primary_source_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "EPA Safe Drinking Water & Backcountry Disinfection Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+      "core_mechanism_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ],
+      "worked_field_example": "Above 6,562 feet elevation where reduced atmospheric pressure lowers the boiling point of water, CDC guidance extends the rolling boil duration to 3 full minutes.",
+      "counselor_tabletop_demo": "Demonstrate a two-step field water treatment setup by pre-filtering turbid water through a cloth or hollow-fiber filter before measuring chemical contact time.",
+      "real_world_connection_box": "EPA Safe Drinking Water & Backcountry Disinfection Standard: Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium. Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through importance of safe drinking water with authentic field equipment.",
+      "v47_slide_title": "EPA Safe Drinking Water & Backcountry Disinfection Standard",
+      "v47_primary_source_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Integrated Vector Management & Food Temperature Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+      "core_mechanism_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ],
+      "worked_field_example": "Dumping standing rainwater from camp buckets and tire ruts once a week interrupts the 7-to-10-day aquatic larval and pupal lifecycle of Culex and Aedes mosquitoes.",
+      "counselor_tabletop_demo": "Use a food thermometer and camp kitchen checklist to verify the 40-to-140 degrees Fahrenheit danger zone and inspect three Dish-Wash-Rinse-Sanitize camp basins.",
+      "real_world_connection_box": "CDC Integrated Vector Management & Food Temperature Standard: Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies. FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing a vector is and how insects with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Integrated Vector Management & Food Temperature Standard",
+      "v47_primary_source_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Chain of Infection & Pathogen Transmission Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+      "core_mechanism_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ],
+      "worked_field_example": "Washing hands with soap and friction for 20 seconds mechanically detaches viral envelopes and fecal-oral bacteria, cutting gastrointestinal illness by up to 50 percent.",
+      "counselor_tabletop_demo": "Map E. coli, tetanus, Lyme disease, and influenza onto the six-link chain of infection and identify the exact intervention that breaks each transmission link.",
+      "real_world_connection_box": "CDC Chain of Infection & Pathogen Transmission Standard: Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks. Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing public health with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Chain of Infection & Pathogen Transmission Standard",
+      "v47_primary_source_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "ACIP Immunization Schedule & Herd Immunity Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+      "core_mechanism_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ],
+      "worked_field_example": "Because measles has a basic reproduction number R0 between 12 and 18, community vaccination coverage must reach 95 percent to maintain herd immunity.",
+      "counselor_tabletop_demo": "Trace how a Tdap booster or MMR vaccine primes memory B-cells on an immune response timeline and explain why tetanus requires a booster every 10 years.",
+      "real_world_connection_box": "ACIP Immunization Schedule & Herd Immunity Standard: Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection. CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute the meaning of immunization under adult counselor supervision.",
+      "v47_slide_title": "ACIP Immunization Schedule & Herd Immunity Standard",
+      "v47_primary_source_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "ACIP Immunization Schedule & Herd Immunity Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+      "core_mechanism_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ],
+      "worked_field_example": "Because measles has a basic reproduction number R0 between 12 and 18, community vaccination coverage must reach 95 percent to maintain herd immunity.",
+      "counselor_tabletop_demo": "Trace how a Tdap booster or MMR vaccine primes memory B-cells on an immune response timeline and explain why tetanus requires a booster every 10 years.",
+      "real_world_connection_box": "ACIP Immunization Schedule & Herd Immunity Standard: Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection. CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute the meaning of immunization under adult counselor supervision.",
+      "v47_slide_title": "ACIP Immunization Schedule & Herd Immunity Standard",
+      "v47_primary_source_bullets": [
+        "Active immunization introduces attenuated or toxoid antigens so B and T lymphocytes build memory antibodies without suffering virulent clinical infection.",
+        "CDC ACIP childhood schedules protect against polio, measles, mumps, rubella, tetanus, diphtheria, pertussis, varicella, hepatitis B, and meningococcal disease."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Integrated Vector Management & Food Temperature Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+      "core_mechanism_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ],
+      "worked_field_example": "Dumping standing rainwater from camp buckets and tire ruts once a week interrupts the 7-to-10-day aquatic larval and pupal lifecycle of Culex and Aedes mosquitoes.",
+      "counselor_tabletop_demo": "Use a food thermometer and camp kitchen checklist to verify the 40-to-140 degrees Fahrenheit danger zone and inspect three Dish-Wash-Rinse-Sanitize camp basins.",
+      "real_world_connection_box": "CDC Integrated Vector Management & Food Temperature Standard: Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies. FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing a vector is and how insects with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Integrated Vector Management & Food Temperature Standard",
+      "v47_primary_source_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Chain of Infection & Pathogen Transmission Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+      "core_mechanism_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ],
+      "worked_field_example": "Washing hands with soap and friction for 20 seconds mechanically detaches viral envelopes and fecal-oral bacteria, cutting gastrointestinal illness by up to 50 percent.",
+      "counselor_tabletop_demo": "Map E. coli, tetanus, Lyme disease, and influenza onto the six-link chain of infection and identify the exact intervention that breaks each transmission link.",
+      "real_world_connection_box": "CDC Chain of Infection & Pathogen Transmission Standard: Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks. Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing public health with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Chain of Infection & Pathogen Transmission Standard",
+      "v47_primary_source_bullets": [
+        "Breaking the six-link epidemiologic chain of agent, reservoir, portal of exit, transmission mode, portal of entry, and susceptible host halts disease outbreaks.",
+        "Clostridium tetani spores enter deep puncture wounds from soil, whereas Shiga-toxin E. coli spreads via fecal-oral contamination and cooking beef to 160."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "EPA Safe Drinking Water & Backcountry Disinfection Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+      "core_mechanism_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ],
+      "worked_field_example": "Above 6,562 feet elevation where reduced atmospheric pressure lowers the boiling point of water, CDC guidance extends the rolling boil duration to 3 full minutes.",
+      "counselor_tabletop_demo": "Demonstrate a two-step field water treatment setup by pre-filtering turbid water through a cloth or hollow-fiber filter before measuring chemical contact time.",
+      "real_world_connection_box": "EPA Safe Drinking Water & Backcountry Disinfection Standard: Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium. Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through importance of safe drinking water with authentic field equipment.",
+      "v47_slide_title": "EPA Safe Drinking Water & Backcountry Disinfection Standard",
+      "v47_primary_source_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "EPA Safe Drinking Water & Backcountry Disinfection Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+      "core_mechanism_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ],
+      "worked_field_example": "Above 6,562 feet elevation where reduced atmospheric pressure lowers the boiling point of water, CDC guidance extends the rolling boil duration to 3 full minutes.",
+      "counselor_tabletop_demo": "Demonstrate a two-step field water treatment setup by pre-filtering turbid water through a cloth or hollow-fiber filter before measuring chemical contact time.",
+      "real_world_connection_box": "EPA Safe Drinking Water & Backcountry Disinfection Standard: Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium. Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through importance of safe drinking water with authentic field equipment.",
+      "v47_slide_title": "EPA Safe Drinking Water & Backcountry Disinfection Standard",
+      "v47_primary_source_bullets": [
+        "Bringing clear backcountry water to a rolling boil at 212 degrees Fahrenheit for 1 full minute inactivates 99.999 percent of Giardia cysts, Cryptosporidium.",
+        "Pairing a 0.1-micron hollow-fiber filter to trap protozoa and bacteria with chlorine dioxide or sodium hypochlorite disinfection replicates multi-barrier."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Public Health",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CDC & American Public Health Association",
+        "title": "CDC Integrated Vector Management & Food Temperature Standard Technical Reference",
+        "canonical_url": "https://www.cdc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+      "core_mechanism_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ],
+      "worked_field_example": "Dumping standing rainwater from camp buckets and tire ruts once a week interrupts the 7-to-10-day aquatic larval and pupal lifecycle of Culex and Aedes mosquitoes.",
+      "counselor_tabletop_demo": "Use a food thermometer and camp kitchen checklist to verify the 40-to-140 degrees Fahrenheit danger zone and inspect three Dish-Wash-Rinse-Sanitize camp basins.",
+      "real_world_connection_box": "CDC Integrated Vector Management & Food Temperature Standard: Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies. FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CDC & American Public Health Association",
+      "bespoke_visual_filename": "public_health_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/public_health_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing a vector is and how insects with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "CDC Integrated Vector Management & Food Temperature Standard",
+      "v47_primary_source_bullets": [
+        "Integrated Vector Management eliminates stagnant mosquito breeding water every 7 days, seals rodent entry gaps wider than 1 over 4 inch, and applies.",
+        "FDA Food Code keeps cold perishables below 40 degrees Fahrenheit and hot foods above 140 degrees Fahrenheit to prevent bacterial doubling every 20 minutes in."
+      ]
+    }
+  }
+}

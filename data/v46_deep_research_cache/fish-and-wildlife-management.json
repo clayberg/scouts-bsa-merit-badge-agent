@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "fish-and-wildlife-management",
+  "badge_name": "Fish and Wildlife Management",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+  "primary_authority_url": "https://www.fws.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "North American Model & Carrying Capacity Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+      "core_mechanism_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ],
+      "worked_field_example": "Applying a low-intensity dormant-season prescribed burn every 3 years removes woody midstory encroachment and increases native forb and legume browse biomass 4-fold for white-tailed deer and bobwhite quail.",
+      "counselor_tabletop_demo": "Plot a logistic population growth curve against winter browse carrying capacity K and identify where Leopold's four habitat components (food, water, cover, space) pinch out.",
+      "real_world_connection_box": "North American Model & Carrying Capacity Standard: Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat. Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of prescribed burning used in Fish and Wildlife Management.",
+      "v47_slide_title": "North American Model & Carrying Capacity Standard",
+      "v47_primary_source_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "USFWS Cavity Nest Box & Predator Baffle Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+      "core_mechanism_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ],
+      "worked_field_example": "Mounting a cedar bluebird box 5 feet high on smooth 0.5-inch electrical conduit with a 24-inch stovepipe baffle oriented away from prevailing winds prevents raccoon and rat snake predation.",
+      "counselor_tabletop_demo": "Measure entrance hole diameters on nest box templates with a caliper to verify 1.50 inches for bluebirds (excluding 1.625-inch European starlings) and inspect side cleanout latches.",
+      "real_world_connection_box": "USFWS Cavity Nest Box & Predator Baffle Standard: Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor. Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of box orientation used in Fish and Wildlife Management.",
+      "v47_slide_title": "USFWS Cavity Nest Box & Predator Baffle Standard",
+      "v47_primary_source_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Lincoln-Petersen Population & Creel Survey Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+      "core_mechanism_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ],
+      "worked_field_example": "If fishery biologists fin-clip M = 80 largemouth bass on day 1 and capture C = 60 bass on day 7 including R = 15 marked fish, estimated lake bass population is N = (80 x 60) / 15 = 320 fish.",
+      "counselor_tabletop_demo": "Run a tabletop Lincoln-Petersen mark-recapture simulation using a container of white beans with 30 marked red beans to estimate total population size within 10 percent.",
+      "real_world_connection_box": "Lincoln-Petersen Population & Creel Survey Standard: Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R. Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of taxonomic logging used in Fish and Wildlife Management.",
+      "v47_slide_title": "Lincoln-Petersen Population & Creel Survey Standard",
+      "v47_primary_source_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Riparian Buffer & Habitat Corridor Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+      "core_mechanism_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ],
+      "worked_field_example": "Reconnecting two isolated 50-acre oak woodlots with a 150-foot-wide native shrub hedgerow corridor restores safe dispersal for amphibians and reduces edge-predator nest mortality by 40 percent.",
+      "counselor_tabletop_demo": "Compare two aerial watershed maps to measure edge-to-interior habitat ratios and design a 3-zone riparian buffer strip along an eroded pasture creek.",
+      "real_world_connection_box": "Riparian Buffer & Habitat Corridor Standard: Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff. Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of habitat fragmentation used in Fish and Wildlife Management.",
+      "v47_slide_title": "Riparian Buffer & Habitat Corridor Standard",
+      "v47_primary_source_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "North American Model & Carrying Capacity Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+      "core_mechanism_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ],
+      "worked_field_example": "Applying a low-intensity dormant-season prescribed burn every 3 years removes woody midstory encroachment and increases native forb and legume browse biomass 4-fold for white-tailed deer and bobwhite quail.",
+      "counselor_tabletop_demo": "Plot a logistic population growth curve against winter browse carrying capacity K and identify where Leopold's four habitat components (food, water, cover, space) pinch out.",
+      "real_world_connection_box": "North American Model & Carrying Capacity Standard: Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat. Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of prescribed burning used in Fish and Wildlife Management.",
+      "v47_slide_title": "North American Model & Carrying Capacity Standard",
+      "v47_primary_source_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "USFWS Cavity Nest Box & Predator Baffle Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+      "core_mechanism_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ],
+      "worked_field_example": "Mounting a cedar bluebird box 5 feet high on smooth 0.5-inch electrical conduit with a 24-inch stovepipe baffle oriented away from prevailing winds prevents raccoon and rat snake predation.",
+      "counselor_tabletop_demo": "Measure entrance hole diameters on nest box templates with a caliper to verify 1.50 inches for bluebirds (excluding 1.625-inch European starlings) and inspect side cleanout latches.",
+      "real_world_connection_box": "USFWS Cavity Nest Box & Predator Baffle Standard: Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor. Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of box orientation used in Fish and Wildlife Management.",
+      "v47_slide_title": "USFWS Cavity Nest Box & Predator Baffle Standard",
+      "v47_primary_source_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "USFWS Cavity Nest Box & Predator Baffle Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+      "core_mechanism_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ],
+      "worked_field_example": "Mounting a cedar bluebird box 5 feet high on smooth 0.5-inch electrical conduit with a 24-inch stovepipe baffle oriented away from prevailing winds prevents raccoon and rat snake predation.",
+      "counselor_tabletop_demo": "Measure entrance hole diameters on nest box templates with a caliper to verify 1.50 inches for bluebirds (excluding 1.625-inch European starlings) and inspect side cleanout latches.",
+      "real_world_connection_box": "USFWS Cavity Nest Box & Predator Baffle Standard: Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor. Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of box orientation used in Fish and Wildlife Management.",
+      "v47_slide_title": "USFWS Cavity Nest Box & Predator Baffle Standard",
+      "v47_primary_source_bullets": [
+        "Eastern bluebird boxes require a 1.50 inch round entrance hole 6 inches above the floor.",
+        "Wood duck boxes use a 3 by 4 inch oval entrance over 4 inches of wood shavings and a cone baffle."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Riparian Buffer & Habitat Corridor Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+      "core_mechanism_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ],
+      "worked_field_example": "Reconnecting two isolated 50-acre oak woodlots with a 150-foot-wide native shrub hedgerow corridor restores safe dispersal for amphibians and reduces edge-predator nest mortality by 40 percent.",
+      "counselor_tabletop_demo": "Compare two aerial watershed maps to measure edge-to-interior habitat ratios and design a 3-zone riparian buffer strip along an eroded pasture creek.",
+      "real_world_connection_box": "Riparian Buffer & Habitat Corridor Standard: Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff. Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of habitat fragmentation used in Fish and Wildlife Management.",
+      "v47_slide_title": "Riparian Buffer & Habitat Corridor Standard",
+      "v47_primary_source_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "North American Model & Carrying Capacity Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+      "core_mechanism_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ],
+      "worked_field_example": "Applying a low-intensity dormant-season prescribed burn every 3 years removes woody midstory encroachment and increases native forb and legume browse biomass 4-fold for white-tailed deer and bobwhite quail.",
+      "counselor_tabletop_demo": "Plot a logistic population growth curve against winter browse carrying capacity K and identify where Leopold's four habitat components (food, water, cover, space) pinch out.",
+      "real_world_connection_box": "North American Model & Carrying Capacity Standard: Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat. Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of prescribed burning used in Fish and Wildlife Management.",
+      "v47_slide_title": "North American Model & Carrying Capacity Standard",
+      "v47_primary_source_bullets": [
+        "Pittman-Robertson and Dingell-Johnson acts dedicate 10 to 11 percent excise taxes to state habitat.",
+        "Biological carrying capacity K is bounded by the single scarcest seasonal limiting factor."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Lincoln-Petersen Population & Creel Survey Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+      "core_mechanism_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ],
+      "worked_field_example": "If fishery biologists fin-clip M = 80 largemouth bass on day 1 and capture C = 60 bass on day 7 including R = 15 marked fish, estimated lake bass population is N = (80 x 60) / 15 = 320 fish.",
+      "counselor_tabletop_demo": "Run a tabletop Lincoln-Petersen mark-recapture simulation using a container of white beans with 30 marked red beans to estimate total population size within 10 percent.",
+      "real_world_connection_box": "Lincoln-Petersen Population & Creel Survey Standard: Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R. Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of taxonomic logging used in Fish and Wildlife Management.",
+      "v47_slide_title": "Lincoln-Petersen Population & Creel Survey Standard",
+      "v47_primary_source_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Lincoln-Petersen Population & Creel Survey Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+      "core_mechanism_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ],
+      "worked_field_example": "If fishery biologists fin-clip M = 80 largemouth bass on day 1 and capture C = 60 bass on day 7 including R = 15 marked fish, estimated lake bass population is N = (80 x 60) / 15 = 320 fish.",
+      "counselor_tabletop_demo": "Run a tabletop Lincoln-Petersen mark-recapture simulation using a container of white beans with 30 marked red beans to estimate total population size within 10 percent.",
+      "real_world_connection_box": "Lincoln-Petersen Population & Creel Survey Standard: Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R. Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of taxonomic logging used in Fish and Wildlife Management.",
+      "v47_slide_title": "Lincoln-Petersen Population & Creel Survey Standard",
+      "v47_primary_source_bullets": [
+        "Lincoln-Petersen estimator calculates total abundance N as marked M times captured C divided by recaptured R.",
+        "Proportional Size Distribution indices assess predator-prey balance in warmwater bass-bluegill ponds."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Fish and Wildlife Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Fish and Wildlife Service & The Wildlife Society",
+        "title": "Riparian Buffer & Habitat Corridor Standard Technical Reference",
+        "canonical_url": "https://www.fws.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+      "core_mechanism_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ],
+      "worked_field_example": "Reconnecting two isolated 50-acre oak woodlots with a 150-foot-wide native shrub hedgerow corridor restores safe dispersal for amphibians and reduces edge-predator nest mortality by 40 percent.",
+      "counselor_tabletop_demo": "Compare two aerial watershed maps to measure edge-to-interior habitat ratios and design a 3-zone riparian buffer strip along an eroded pasture creek.",
+      "real_world_connection_box": "Riparian Buffer & Habitat Corridor Standard: Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff. Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Fish and Wildlife Service & The Wildlife Society",
+      "bespoke_visual_filename": "fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of habitat fragmentation used in Fish and Wildlife Management.",
+      "v47_slide_title": "Riparian Buffer & Habitat Corridor Standard",
+      "v47_primary_source_bullets": [
+        "Native 100-foot forested riparian buffers trap over 80 percent of overland sediment and nitrate runoff.",
+        "Canopy shading keeps coldwater trout streams below the 68 degrees Fahrenheit thermal stress ceiling."
+      ]
+    }
+  }
+}

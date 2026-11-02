@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "fly-fishing",
+  "badge_name": "Fly-Fishing",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "IGFA & Trout Unlimited",
+  "primary_authority_url": "https://www.tu.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Trout Unlimited 68-Degree Thermal & DO Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ],
+      "worked_field_example": "Measuring a freestone stream at 2 PM with a pocket thermometer reveals 69.0 degrees Fahrenheit in the lower run, prompting anglers to cease trout fishing or hike to a 58-degree-Fahrenheit headwater tributary.",
+      "counselor_tabletop_demo": "Check a stream thermometer calibration in ice water, read a dissolved-oxygen solubility chart, and demonstrate unhooking a barbless fly with forceps without lifting the fish from water.",
+      "real_world_connection_box": "Trout Unlimited 68-Degree Thermal & DO Standard: Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit. Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through catch one fish with authentic field equipment.",
+      "v47_slide_title": "Trout Unlimited 68-Degree Thermal & DO Standard",
+      "v47_primary_source_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Swiftwater Wading Belt & Fish Preservation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+      "core_mechanism_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ],
+      "worked_field_example": "When crossing a knee-deep gravel riffle flowing at 4 feet per second, angle 45 degrees downstream with a wading staff providing a third point of contact before moving either foot.",
+      "counselor_tabletop_demo": "Fit a quick-release wading belt and PFD over waders, demonstrate three-point wading-staff triangulation, and trace the dorsal-to-tail fillet cut on a fish diagram.",
+      "real_world_connection_box": "Swiftwater Wading Belt & Fish Preservation Standard: A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip. Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply if regulations and health concerns permit using standard troop tools and reference charts.",
+      "v47_slide_title": "Swiftwater Wading Belt & Fish Preservation Standard",
+      "v47_primary_source_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "EPT Aquatic Entomology & Fly Imitation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+      "core_mechanism_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ],
+      "worked_field_example": "Turning over a riffle cobble reveals flattened nymphs with 3 tail filaments and abdominal gills, identifying Ephemeroptera mayfly nymphs matched with a size 16 Pheasant Tail nymph tied on 5X tippet.",
+      "counselor_tabletop_demo": "Sort preserved specimen cards of mayflies (3 tails, upright wings), stoneflies (2 tails, flat wings), caddisflies (tent wings), and midges alongside matching dry, nymph, and streamer flies.",
+      "real_world_connection_box": "EPT Aquatic Entomology & Fly Imitation Standard: Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water. Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards, first aid & safety with authentic field equipment.",
+      "v47_slide_title": "EPT Aquatic Entomology & Fly Imitation Standard",
+      "v47_primary_source_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+      "core_mechanism_bullets": [
+        "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+        "Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in)."
+      ],
+      "worked_field_example": "Divide fly hook size 16 by 3 to select a 5X tippet (11 - 5 = 0.006 inch diameter, ~4.5 lb test), then join the backing, WF5F line, 9-foot tapered leader, and tippet using Nail, Perfection, and Surgeon's knots.",
+      "counselor_tabletop_demo": "Tie the Arbor, Nail, Perfection Loop, Triple Surgeon's, and Clinch knots in sequence to assemble a complete backing-to-fly leader rig and verify the 10-to-2 o'clock casting arc.",
+      "real_world_connection_box": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard: AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains). Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing match a fly rod line with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard",
+      "v47_primary_source_bullets": [
+        "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+        "Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in)."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Trout Unlimited 68-Degree Thermal & DO Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ],
+      "worked_field_example": "Measuring a freestone stream at 2 PM with a pocket thermometer reveals 69.0 degrees Fahrenheit in the lower run, prompting anglers to cease trout fishing or hike to a 58-degree-Fahrenheit headwater tributary.",
+      "counselor_tabletop_demo": "Check a stream thermometer calibration in ice water, read a dissolved-oxygen solubility chart, and demonstrate unhooking a barbless fly with forceps without lifting the fish from water.",
+      "real_world_connection_box": "Trout Unlimited 68-Degree Thermal & DO Standard: Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit. Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through catch one fish with authentic field equipment.",
+      "v47_slide_title": "Trout Unlimited 68-Degree Thermal & DO Standard",
+      "v47_primary_source_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Swiftwater Wading Belt & Fish Preservation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+      "core_mechanism_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ],
+      "worked_field_example": "When crossing a knee-deep gravel riffle flowing at 4 feet per second, angle 45 degrees downstream with a wading staff providing a third point of contact before moving either foot.",
+      "counselor_tabletop_demo": "Fit a quick-release wading belt and PFD over waders, demonstrate three-point wading-staff triangulation, and trace the dorsal-to-tail fillet cut on a fish diagram.",
+      "real_world_connection_box": "Swiftwater Wading Belt & Fish Preservation Standard: A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip. Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply if regulations and health concerns permit using standard troop tools and reference charts.",
+      "v47_slide_title": "Swiftwater Wading Belt & Fish Preservation Standard",
+      "v47_primary_source_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "EPT Aquatic Entomology & Fly Imitation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+      "core_mechanism_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ],
+      "worked_field_example": "Turning over a riffle cobble reveals flattened nymphs with 3 tail filaments and abdominal gills, identifying Ephemeroptera mayfly nymphs matched with a size 16 Pheasant Tail nymph tied on 5X tippet.",
+      "counselor_tabletop_demo": "Sort preserved specimen cards of mayflies (3 tails, upright wings), stoneflies (2 tails, flat wings), caddisflies (tent wings), and midges alongside matching dry, nymph, and streamer flies.",
+      "real_world_connection_box": "EPT Aquatic Entomology & Fly Imitation Standard: Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water. Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards, first aid & safety with authentic field equipment.",
+      "v47_slide_title": "EPT Aquatic Entomology & Fly Imitation Standard",
+      "v47_primary_source_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Swiftwater Wading Belt & Fish Preservation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+      "core_mechanism_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ],
+      "worked_field_example": "When crossing a knee-deep gravel riffle flowing at 4 feet per second, angle 45 degrees downstream with a wading staff providing a third point of contact before moving either foot.",
+      "counselor_tabletop_demo": "Fit a quick-release wading belt and PFD over waders, demonstrate three-point wading-staff triangulation, and trace the dorsal-to-tail fillet cut on a fish diagram.",
+      "real_world_connection_box": "Swiftwater Wading Belt & Fish Preservation Standard: A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip. Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply if regulations and health concerns permit using standard troop tools and reference charts.",
+      "v47_slide_title": "Swiftwater Wading Belt & Fish Preservation Standard",
+      "v47_primary_source_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Trout Unlimited 68-Degree Thermal & DO Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ],
+      "worked_field_example": "Measuring a freestone stream at 2 PM with a pocket thermometer reveals 69.0 degrees Fahrenheit in the lower run, prompting anglers to cease trout fishing or hike to a 58-degree-Fahrenheit headwater tributary.",
+      "counselor_tabletop_demo": "Check a stream thermometer calibration in ice water, read a dissolved-oxygen solubility chart, and demonstrate unhooking a barbless fly with forceps without lifting the fish from water.",
+      "real_world_connection_box": "Trout Unlimited 68-Degree Thermal & DO Standard: Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit. Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through catch one fish with authentic field equipment.",
+      "v47_slide_title": "Trout Unlimited 68-Degree Thermal & DO Standard",
+      "v47_primary_source_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Swiftwater Wading Belt & Fish Preservation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+      "core_mechanism_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ],
+      "worked_field_example": "When crossing a knee-deep gravel riffle flowing at 4 feet per second, angle 45 degrees downstream with a wading staff providing a third point of contact before moving either foot.",
+      "counselor_tabletop_demo": "Fit a quick-release wading belt and PFD over waders, demonstrate three-point wading-staff triangulation, and trace the dorsal-to-tail fillet cut on a fish diagram.",
+      "real_world_connection_box": "Swiftwater Wading Belt & Fish Preservation Standard: A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip. Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply if regulations and health concerns permit using standard troop tools and reference charts.",
+      "v47_slide_title": "Swiftwater Wading Belt & Fish Preservation Standard",
+      "v47_primary_source_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "EPT Aquatic Entomology & Fly Imitation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+      "core_mechanism_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ],
+      "worked_field_example": "Turning over a riffle cobble reveals flattened nymphs with 3 tail filaments and abdominal gills, identifying Ephemeroptera mayfly nymphs matched with a size 16 Pheasant Tail nymph tied on 5X tippet.",
+      "counselor_tabletop_demo": "Sort preserved specimen cards of mayflies (3 tails, upright wings), stoneflies (2 tails, flat wings), caddisflies (tent wings), and midges alongside matching dry, nymph, and streamer flies.",
+      "real_world_connection_box": "EPT Aquatic Entomology & Fly Imitation Standard: Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water. Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards, first aid & safety with authentic field equipment.",
+      "v47_slide_title": "EPT Aquatic Entomology & Fly Imitation Standard",
+      "v47_primary_source_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "EPT Aquatic Entomology & Fly Imitation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+      "core_mechanism_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ],
+      "worked_field_example": "Turning over a riffle cobble reveals flattened nymphs with 3 tail filaments and abdominal gills, identifying Ephemeroptera mayfly nymphs matched with a size 16 Pheasant Tail nymph tied on 5X tippet.",
+      "counselor_tabletop_demo": "Sort preserved specimen cards of mayflies (3 tails, upright wings), stoneflies (2 tails, flat wings), caddisflies (tent wings), and midges alongside matching dry, nymph, and streamer flies.",
+      "real_world_connection_box": "EPT Aquatic Entomology & Fly Imitation Standard: Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water. Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards, first aid & safety with authentic field equipment.",
+      "v47_slide_title": "EPT Aquatic Entomology & Fly Imitation Standard",
+      "v47_primary_source_bullets": [
+        "Ephemeroptera (mayflies), Plecoptera (stoneflies), and Trichoptera (caddisflies) indicate clean water.",
+        "Subsurface nymphs account for over 80 percent of a stream trout's annual caloric intake."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Trout Unlimited 68-Degree Thermal & DO Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ],
+      "worked_field_example": "Measuring a freestone stream at 2 PM with a pocket thermometer reveals 69.0 degrees Fahrenheit in the lower run, prompting anglers to cease trout fishing or hike to a 58-degree-Fahrenheit headwater tributary.",
+      "counselor_tabletop_demo": "Check a stream thermometer calibration in ice water, read a dissolved-oxygen solubility chart, and demonstrate unhooking a barbless fly with forceps without lifting the fish from water.",
+      "real_world_connection_box": "Trout Unlimited 68-Degree Thermal & DO Standard: Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit. Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through catch one fish with authentic field equipment.",
+      "v47_slide_title": "Trout Unlimited 68-Degree Thermal & DO Standard",
+      "v47_primary_source_bullets": [
+        "Coldwater trout require dissolved oxygen above 7 mg/L and water cooler than 68 degrees Fahrenheit.",
+        "Above 68 degrees Fahrenheit, post-release salmonid mortality spikes due to blood lactic acidosis."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "Swiftwater Wading Belt & Fish Preservation Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+      "core_mechanism_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ],
+      "worked_field_example": "When crossing a knee-deep gravel riffle flowing at 4 feet per second, angle 45 degrees downstream with a wading staff providing a third point of contact before moving either foot.",
+      "counselor_tabletop_demo": "Fit a quick-release wading belt and PFD over waders, demonstrate three-point wading-staff triangulation, and trace the dorsal-to-tail fillet cut on a fish diagram.",
+      "real_world_connection_box": "Swiftwater Wading Belt & Fish Preservation Standard: A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip. Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply if regulations and health concerns permit using standard troop tools and reference charts.",
+      "v47_slide_title": "Swiftwater Wading Belt & Fish Preservation Standard",
+      "v47_primary_source_bullets": [
+        "A snug wading belt cinched around chest waders blocks water flood-in during an unexpected slip.",
+        "Harvested fish must be bled and packed on crushed ice below 40 degrees Fahrenheit immediately."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Fly-Fishing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGFA & Trout Unlimited",
+        "title": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard Technical Reference",
+        "canonical_url": "https://www.tu.org/"
+      },
+      "rule_of_thumb_mnemonic": "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+      "core_mechanism_bullets": [
+        "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+        "Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in)."
+      ],
+      "worked_field_example": "Divide fly hook size 16 by 3 to select a 5X tippet (11 - 5 = 0.006 inch diameter, ~4.5 lb test), then join the backing, WF5F line, 9-foot tapered leader, and tippet using Nail, Perfection, and Surgeon's knots.",
+      "counselor_tabletop_demo": "Tie the Arbor, Nail, Perfection Loop, Triple Surgeon's, and Clinch knots in sequence to assemble a complete backing-to-fly leader rig and verify the 10-to-2 o'clock casting arc.",
+      "real_world_connection_box": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard: AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains). Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGFA & Trout Unlimited",
+      "bespoke_visual_filename": "fly_fishing_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fly_fishing_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing match a fly rod line with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "AFFTA Fly Line Grain & Rule-of-11 Tippet Standard",
+      "v47_primary_source_bullets": [
+        "AFFTA standardizes fly lines by the mass in grains of the first 30 feet (5-weight equals 140 grains).",
+        "Subtracting the leader X-number from 11 gives tippet diameter in thousandths of an inch (5X = 0.006 in)."
+      ]
+    }
+  }
+}

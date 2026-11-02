@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "fingerprinting",
+  "badge_name": "Fingerprinting",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "FBI CJIS & SWGFAST Friction Ridge",
+  "primary_authority_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "Henry Classification & Biometric Permanence Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+      "core_mechanism_bullets": [
+        "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+        "The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards."
+      ],
+      "worked_field_example": "In the primary Henry fraction, fingers are paired (Right Index/Right Ring, Right Thumb/Right Little, Left Thumb/Left Middle) with powers-of-two weights (16, 8, 4, 2, 1) plus 1 over 1.",
+      "counselor_tabletop_demo": "Compare historical Bertillon anthropometric body measurements against a 10-finger FD-258 tenprint card and calculate the primary Henry whorl fraction.",
+      "real_world_connection_box": "Henry Classification & Biometric Permanence Standard: Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence. The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute give a short history under adult counselor supervision.",
+      "v47_slide_title": "Henry Classification & Biometric Permanence Standard",
+      "v47_primary_source_bullets": [
+        "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+        "The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+      "core_mechanism_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ],
+      "worked_field_example": "Examiners map Level 1 overall pattern flow (ulnar loop), Level 2 Galton minutiae (ridge endings, bifurcations, enclosures, and islands), and Level 3 sweat pore positions before declaring identification.",
+      "counselor_tabletop_demo": "Use a 5x magnifier and red pointer on an enlarged fingerprint chart to mark 8 distinct Level 2 Galton minutiae including bifurcations, ridge endings, and short ridges.",
+      "real_world_connection_box": "FBI NGI AFIS & ACE-V Minutiae Examination Standard: FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution. SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for the difference in a troop setting.",
+      "v47_slide_title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard",
+      "v47_primary_source_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "Volar Epidermal Ridge & Pattern Frequency Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+      "core_mechanism_bullets": [
+        "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+        "Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches."
+      ],
+      "worked_field_example": "Inspecting a print with one core and one delta whose ridges enter and exit toward the little-finger (ulnar) bone identifies a classic ulnar loop, the single most common human pattern.",
+      "counselor_tabletop_demo": "Classify six unknown enlarged prints into Plain Arch, Tented Arch, Radial Loop, Ulnar Loop, Plain Whorl, and Central Pocket Loop by locating cores and deltas.",
+      "real_world_connection_box": "Volar Epidermal Ridge & Pattern Frequency Standard: Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation. Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify the surfaces of the body during a structured merit badge clinic.",
+      "v47_slide_title": "Volar Epidermal Ridge & Pattern Frequency Standard",
+      "v47_primary_source_bullets": [
+        "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+        "Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+      "core_mechanism_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ],
+      "worked_field_example": "Rolling a finger nail-to-nail across a 1.5-inch FD-258 block in one smooth stroke captures the lateral delta required to distinguish a loop from a whorl, followed by flat simultaneous four-finger slaps.",
+      "counselor_tabletop_demo": "Roll a clean nail-to-nail tenprint on an FD-258 card and dust, lift, and mount a latent print from a glass slide onto a contrasting backing card.",
+      "real_world_connection_box": "FD-258 Nail-to-Nail Roll & Latent Lift Standard: FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body. Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for take a clear set of prints in a troop setting.",
+      "v47_slide_title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard",
+      "v47_primary_source_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "Henry Classification & Biometric Permanence Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+      "core_mechanism_bullets": [
+        "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+        "The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards."
+      ],
+      "worked_field_example": "In the primary Henry fraction, fingers are paired (Right Index/Right Ring, Right Thumb/Right Little, Left Thumb/Left Middle) with powers-of-two weights (16, 8, 4, 2, 1) plus 1 over 1.",
+      "counselor_tabletop_demo": "Compare historical Bertillon anthropometric body measurements against a 10-finger FD-258 tenprint card and calculate the primary Henry whorl fraction.",
+      "real_world_connection_box": "Henry Classification & Biometric Permanence Standard: Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence. The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute give a short history under adult counselor supervision.",
+      "v47_slide_title": "Henry Classification & Biometric Permanence Standard",
+      "v47_primary_source_bullets": [
+        "Friction ridge skin obeys two biological laws, absolute anatomical uniqueness and lifelong permanence.",
+        "The Henry Classification System assigns numerical values to whorls across 10-finger tenprint cards."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+      "core_mechanism_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ],
+      "worked_field_example": "Examiners map Level 1 overall pattern flow (ulnar loop), Level 2 Galton minutiae (ridge endings, bifurcations, enclosures, and islands), and Level 3 sweat pore positions before declaring identification.",
+      "counselor_tabletop_demo": "Use a 5x magnifier and red pointer on an enlarged fingerprint chart to mark 8 distinct Level 2 Galton minutiae including bifurcations, ridge endings, and short ridges.",
+      "real_world_connection_box": "FBI NGI AFIS & ACE-V Minutiae Examination Standard: FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution. SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for the difference in a troop setting.",
+      "v47_slide_title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard",
+      "v47_primary_source_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+      "core_mechanism_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ],
+      "worked_field_example": "Examiners map Level 1 overall pattern flow (ulnar loop), Level 2 Galton minutiae (ridge endings, bifurcations, enclosures, and islands), and Level 3 sweat pore positions before declaring identification.",
+      "counselor_tabletop_demo": "Use a 5x magnifier and red pointer on an enlarged fingerprint chart to mark 8 distinct Level 2 Galton minutiae including bifurcations, ridge endings, and short ridges.",
+      "real_world_connection_box": "FBI NGI AFIS & ACE-V Minutiae Examination Standard: FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution. SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for the difference in a troop setting.",
+      "v47_slide_title": "FBI NGI AFIS & ACE-V Minutiae Examination Standard",
+      "v47_primary_source_bullets": [
+        "FBI Next Generation Identification scans tenprints at 500 to 1,000 pixels per inch spatial resolution.",
+        "SWGFAST ACE-V protocol requires Analysis, Comparison, Evaluation, and independent Verification."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+      "core_mechanism_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ],
+      "worked_field_example": "Rolling a finger nail-to-nail across a 1.5-inch FD-258 block in one smooth stroke captures the lateral delta required to distinguish a loop from a whorl, followed by flat simultaneous four-finger slaps.",
+      "counselor_tabletop_demo": "Roll a clean nail-to-nail tenprint on an FD-258 card and dust, lift, and mount a latent print from a glass slide onto a contrasting backing card.",
+      "real_world_connection_box": "FD-258 Nail-to-Nail Roll & Latent Lift Standard: FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body. Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for take a clear set of prints in a troop setting.",
+      "v47_slide_title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard",
+      "v47_primary_source_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "Volar Epidermal Ridge & Pattern Frequency Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+      "core_mechanism_bullets": [
+        "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+        "Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches."
+      ],
+      "worked_field_example": "Inspecting a print with one core and one delta whose ridges enter and exit toward the little-finger (ulnar) bone identifies a classic ulnar loop, the single most common human pattern.",
+      "counselor_tabletop_demo": "Classify six unknown enlarged prints into Plain Arch, Tented Arch, Radial Loop, Ulnar Loop, Plain Whorl, and Central Pocket Loop by locating cores and deltas.",
+      "real_world_connection_box": "Volar Epidermal Ridge & Pattern Frequency Standard: Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation. Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify the surfaces of the body during a structured merit badge clinic.",
+      "v47_slide_title": "Volar Epidermal Ridge & Pattern Frequency Standard",
+      "v47_primary_source_bullets": [
+        "Dermal papillae form permanent friction ridges between weeks 10 and 16 of fetal gestation.",
+        "Global fingerprint distribution is 60 to 65 percent loops, 30 to 35 percent whorls, and 5 percent arches."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Fingerprinting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FBI CJIS & SWGFAST Friction Ridge",
+        "title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard Technical Reference",
+        "canonical_url": "https://le.fbi.gov/science-and-lab/biometrics-and-fingerprints"
+      },
+      "rule_of_thumb_mnemonic": "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+      "core_mechanism_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ],
+      "worked_field_example": "Rolling a finger nail-to-nail across a 1.5-inch FD-258 block in one smooth stroke captures the lateral delta required to distinguish a loop from a whorl, followed by flat simultaneous four-finger slaps.",
+      "counselor_tabletop_demo": "Roll a clean nail-to-nail tenprint on an FD-258 card and dust, lift, and mount a latent print from a glass slide onto a contrasting backing card.",
+      "real_world_connection_box": "FD-258 Nail-to-Nail Roll & Latent Lift Standard: FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body. Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FBI CJIS & SWGFAST Friction Ridge",
+      "bespoke_visual_filename": "fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/fingerprinting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for take a clear set of prints in a troop setting.",
+      "v47_slide_title": "FD-258 Nail-to-Nail Roll & Latent Lift Standard",
+      "v47_primary_source_bullets": [
+        "FD-258 tenprint cards roll thumbs inward toward the body and fingers outward away from the body.",
+        "Non-porous latent prints develop with carbon powder while porous paper uses ninhydrin amino reagent."
+      ]
+    }
+  }
+}

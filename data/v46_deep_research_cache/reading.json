@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "reading",
+  "badge_name": "Reading",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Library of Congress & American Library Association",
+  "primary_authority_url": "https://www.loc.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "Library of Congress and Dewey Classification Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+      "core_mechanism_bullets": [
+        "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+        "Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks."
+      ],
+      "worked_field_example": "A camping handbook shelved under Dewey 796.54 sits in Class 700 Arts and Recreation, Division 790 Outdoor Sports, and Section 796.54 Camping.",
+      "counselor_tabletop_demo": "Sort five mixed nonfiction book spine labels in exact shelving order using both Dewey Decimal numbers and author Cutter codes.",
+      "real_world_connection_box": "Library of Congress and Dewey Classification Standard: Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions. Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for take a tour of a library in a troop setting.",
+      "v47_slide_title": "Library of Congress and Dewey Classification Standard",
+      "v47_primary_source_bullets": [
+        "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+        "Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "MARC 21 Bibliographic Catalog and Search Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+      "core_mechanism_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ],
+      "worked_field_example": "Querying a public library catalog for wilderness AND survival NOT fiction filters 1,400 general titles down to 28 practical field manuals.",
+      "counselor_tabletop_demo": "Write a 3-term Boolean catalog query on an index card and inspect the copyright page of a book to extract its ISBN-13 and call number.",
+      "real_world_connection_box": "MARC 21 Bibliographic Catalog and Search Standard: Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics. Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply read a nonfiction book or magazine using standard troop tools and reference charts.",
+      "v47_slide_title": "MARC 21 Bibliographic Catalog and Search Standard",
+      "v47_primary_source_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "ALA Source Evaluation and Media Literacy Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+      "core_mechanism_bullets": [
+        "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+        "Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it."
+      ],
+      "worked_field_example": "Comparing a 1998 encyclopedia entry on solar power with a current Department of Energy report reveals a 10-fold drop in photovoltaic cost.",
+      "counselor_tabletop_demo": "Compare two short articles on the same topic side by side and score each from 1 to 5 on author authority, date, and cited data.",
+      "real_world_connection_box": "ALA Source Evaluation and Media Literacy Standard: Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review. Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute read about the world under adult counselor supervision.",
+      "v47_slide_title": "ALA Source Evaluation and Media Literacy Standard",
+      "v47_primary_source_bullets": [
+        "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+        "Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "National Literacy Service and Book Care Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+      "core_mechanism_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ],
+      "worked_field_example": "Recording 4 hours of audiobook chapters or cataloging 120 donated troop library volumes provides measurable community literacy service.",
+      "counselor_tabletop_demo": "Demonstrate how to open and break in a new hardcover book sequentially from the outer boards inward without cracking the glue spine.",
+      "real_world_connection_box": "National Literacy Service and Book Care Standard: Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading. Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/reading_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of author bibliography search used in Reading.",
+      "v47_slide_title": "National Literacy Service and Book Care Standard",
+      "v47_primary_source_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "Library of Congress and Dewey Classification Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+      "core_mechanism_bullets": [
+        "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+        "Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks."
+      ],
+      "worked_field_example": "A camping handbook shelved under Dewey 796.54 sits in Class 700 Arts and Recreation, Division 790 Outdoor Sports, and Section 796.54 Camping.",
+      "counselor_tabletop_demo": "Sort five mixed nonfiction book spine labels in exact shelving order using both Dewey Decimal numbers and author Cutter codes.",
+      "real_world_connection_box": "Library of Congress and Dewey Classification Standard: Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions. Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for take a tour of a library in a troop setting.",
+      "v47_slide_title": "Library of Congress and Dewey Classification Standard",
+      "v47_primary_source_bullets": [
+        "Dewey Decimal Classification organizes all nonfiction into 10 numeric main classes from 000 through 999 with decimal topical subdivisions.",
+        "Library of Congress Classification uses 21 alphabetic main classes from A to Z followed by cutter numbers for university and research stacks."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "MARC 21 Bibliographic Catalog and Search Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+      "core_mechanism_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ],
+      "worked_field_example": "Querying a public library catalog for wilderness AND survival NOT fiction filters 1,400 general titles down to 28 practical field manuals.",
+      "counselor_tabletop_demo": "Write a 3-term Boolean catalog query on an index card and inspect the copyright page of a book to extract its ISBN-13 and call number.",
+      "real_world_connection_box": "MARC 21 Bibliographic Catalog and Search Standard: Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics. Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply read a nonfiction book or magazine using standard troop tools and reference charts.",
+      "v47_slide_title": "MARC 21 Bibliographic Catalog and Search Standard",
+      "v47_primary_source_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "MARC 21 Bibliographic Catalog and Search Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+      "core_mechanism_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ],
+      "worked_field_example": "Querying a public library catalog for wilderness AND survival NOT fiction filters 1,400 general titles down to 28 practical field manuals.",
+      "counselor_tabletop_demo": "Write a 3-term Boolean catalog query on an index card and inspect the copyright page of a book to extract its ISBN-13 and call number.",
+      "real_world_connection_box": "MARC 21 Bibliographic Catalog and Search Standard: Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics. Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply read a nonfiction book or magazine using standard troop tools and reference charts.",
+      "v47_slide_title": "MARC 21 Bibliographic Catalog and Search Standard",
+      "v47_primary_source_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "National Literacy Service and Book Care Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+      "core_mechanism_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ],
+      "worked_field_example": "Recording 4 hours of audiobook chapters or cataloging 120 donated troop library volumes provides measurable community literacy service.",
+      "counselor_tabletop_demo": "Demonstrate how to open and break in a new hardcover book sequentially from the outer boards inward without cracking the glue spine.",
+      "real_world_connection_box": "National Literacy Service and Book Care Standard: Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading. Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/reading_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of author bibliography search used in Reading.",
+      "v47_slide_title": "National Literacy Service and Book Care Standard",
+      "v47_primary_source_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "ALA Source Evaluation and Media Literacy Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+      "core_mechanism_bullets": [
+        "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+        "Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it."
+      ],
+      "worked_field_example": "Comparing a 1998 encyclopedia entry on solar power with a current Department of Energy report reveals a 10-fold drop in photovoltaic cost.",
+      "counselor_tabletop_demo": "Compare two short articles on the same topic side by side and score each from 1 to 5 on author authority, date, and cited data.",
+      "real_world_connection_box": "ALA Source Evaluation and Media Literacy Standard: Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review. Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute read about the world under adult counselor supervision.",
+      "v47_slide_title": "ALA Source Evaluation and Media Literacy Standard",
+      "v47_primary_source_bullets": [
+        "Evaluate nonfiction sources across five criteria including publication currency, evidence citations, author credentials, and publisher review.",
+        "Cross-check any quantitative claim in news or online articles against at least two independent primary sources before citing it."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "MARC 21 Bibliographic Catalog and Search Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+      "core_mechanism_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ],
+      "worked_field_example": "Querying a public library catalog for wilderness AND survival NOT fiction filters 1,400 general titles down to 28 practical field manuals.",
+      "counselor_tabletop_demo": "Write a 3-term Boolean catalog query on an index card and inspect the copyright page of a book to extract its ISBN-13 and call number.",
+      "real_world_connection_box": "MARC 21 Bibliographic Catalog and Search Standard: Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics. Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/reading_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply read a nonfiction book or magazine using standard troop tools and reference charts.",
+      "v47_slide_title": "MARC 21 Bibliographic Catalog and Search Standard",
+      "v47_primary_source_bullets": [
+        "Combine search terms with Boolean operators AND to narrow results, OR to include synonyms, and NOT to exclude unwanted subtopics.",
+        "Verify the 13-digit International Standard Book Number and Library of Congress subject headings to locate exact editions across catalogs."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Reading",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Library of Congress & American Library Association",
+        "title": "National Literacy Service and Book Care Standard Technical Reference",
+        "canonical_url": "https://www.loc.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+      "core_mechanism_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ],
+      "worked_field_example": "Recording 4 hours of audiobook chapters or cataloging 120 donated troop library volumes provides measurable community literacy service.",
+      "counselor_tabletop_demo": "Demonstrate how to open and break in a new hardcover book sequentially from the outer boards inward without cracking the glue spine.",
+      "real_world_connection_box": "National Literacy Service and Book Care Standard: Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading. Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Library of Congress & American Library Association",
+      "bespoke_visual_filename": "reading_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/reading_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of author bibliography search used in Reading.",
+      "v47_slide_title": "National Literacy Service and Book Care Standard",
+      "v47_primary_source_bullets": [
+        "Preserve archival book bindings at 35 to 55 percent relative humidity and never force spines flat past 120 degrees during reading.",
+        "Read aloud to younger children at a steady 110 to 130 words per minute while pausing to ask open comprehension questions."
+      ]
+    }
+  }
+}

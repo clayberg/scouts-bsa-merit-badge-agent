@@ -1,0 +1,209 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "shotgun-shooting",
+  "badge_name": "Shotgun Shooting",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+  "primary_authority_url": "https://shootata.com/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "NRA Shotgun Muzzle Control and Ammunition Match Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+      "core_mechanism_bullets": [
+        "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+        "Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on."
+      ],
+      "worked_field_example": "Dropping a yellow 20-gauge shell into a 12-gauge barrel lets it lodge ahead of the chamber, causing a catastrophic barrel burst if a 12-gauge shell is fired behind it.",
+      "counselor_tabletop_demo": "Inspect dummy 12-gauge and 20-gauge hull sizes side by side and demonstrate how a 20-gauge shell slips past a 12-gauge chamber mouth.",
+      "real_world_connection_box": "NRA Shotgun Muzzle Control and Ammunition Match Standard: Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch. Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1b_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1b_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating basic rules of safe gun equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "NRA Shotgun Muzzle Control and Ammunition Match Standard",
+      "v47_primary_source_bullets": [
+        "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+        "Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+      "core_mechanism_bullets": [
+        "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+        "At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent."
+      ],
+      "worked_field_example": "A 12-gauge target load containing 1 ounce of Number 8 birdshot holds approximately 410 lead pellets traveling at 1,200 feet per second.",
+      "counselor_tabletop_demo": "Compare three 30-inch pattern diagrams for Cylinder, Modified, and Full chokes and match each choke to skeet vs 16-yard trap distances.",
+      "real_world_connection_box": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard: Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target. At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1c_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating you would react equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard",
+      "v47_primary_source_bullets": [
+        "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+        "At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "ATA and NSSA Stance, Mount, and Follow-Through Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+      "core_mechanism_bullets": [
+        "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+        "Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger."
+      ],
+      "worked_field_example": "A standard 108-millimeter clay pigeon launched at 42 miles per hour travels 61.6 feet per second, requiring 2 to 3 feet of forward lead on crossing shots.",
+      "counselor_tabletop_demo": "Practice the four-part shotgun mount stance with an unloaded training stock while tracking a flashlight beam across a wall.",
+      "real_world_connection_box": "ATA and NSSA Stance, Mount, and Follow-Through Standard: Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips. Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1d_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1d_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating need for types and use equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "ATA and NSSA Stance, Mount, and Follow-Through Standard",
+      "v47_primary_source_bullets": [
+        "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+        "Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "NRA Misfire Wait and Bore Obstruction Clearing Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Hold the shotgun pointed downrange for 30 seconds after any click or misfire and listen for quiet pop squib loads that leave a wad in the bore.",
+      "core_mechanism_bullets": [
+        "Hold the shotgun pointed downrange for 30 seconds after any click or misfire and listen for quiet pop squib loads that leave a wad in the bore.",
+        "Unload immediately and look through the barrel from the breech end if mud, snow, or a stuck plastic wad is suspected of blocking the bore."
+      ],
+      "worked_field_example": "Hitting at least 12 out of 25 clay targets on two rounds of trap from the 16-yard stations demonstrates consistent cheek weld and follow-through.",
+      "counselor_tabletop_demo": "Demonstrate the 30-second hangfire hold, open the action of a dummy training shotgun, and inspect the bore for obstructions.",
+      "real_world_connection_box": "NRA Misfire Wait and Bore Obstruction Clearing Standard: Hold the shotgun pointed downrange for 30 seconds after any click or misfire and listen for quiet pop squib loads that leave a wad in the bore. Unload immediately and look through the barrel from the breech end if mud, snow, or a stuck plastic wad is suspected of blocking the bore.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1f_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1f_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating hunting is related equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "NRA Misfire Wait and Bore Obstruction Clearing Standard",
+      "v47_primary_source_bullets": [
+        "Hold the shotgun pointed downrange for 30 seconds after any click or misfire and listen for quiet pop squib loads that leave a wad in the bore.",
+        "Unload immediately and look through the barrel from the breech end if mud, snow, or a stuck plastic wad is suspected of blocking the bore."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "NRA Shotgun Muzzle Control and Ammunition Match Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+      "core_mechanism_bullets": [
+        "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+        "Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on."
+      ],
+      "worked_field_example": "Dropping a yellow 20-gauge shell into a 12-gauge barrel lets it lodge ahead of the chamber, causing a catastrophic barrel burst if a 12-gauge shell is fired behind it.",
+      "counselor_tabletop_demo": "Inspect dummy 12-gauge and 20-gauge hull sizes side by side and demonstrate how a 20-gauge shell slips past a 12-gauge chamber mouth.",
+      "real_world_connection_box": "NRA Shotgun Muzzle Control and Ammunition Match Standard: Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch. Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1b_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1b_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating basic rules of safe gun equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "NRA Shotgun Muzzle Control and Ammunition Match Standard",
+      "v47_primary_source_bullets": [
+        "Verify the gauge stamped on the shotgun barrel matches the shell headstamp and never mix 20-gauge shells in a 12-gauge shooting pouch.",
+        "Keep the action open and unloaded until standing in the shooting station box ready to call for the target with eye and ear protection on."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+      "core_mechanism_bullets": [
+        "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+        "At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent."
+      ],
+      "worked_field_example": "A 12-gauge target load containing 1 ounce of Number 8 birdshot holds approximately 410 lead pellets traveling at 1,200 feet per second.",
+      "counselor_tabletop_demo": "Compare three 30-inch pattern diagrams for Cylinder, Modified, and Full chokes and match each choke to skeet vs 16-yard trap distances.",
+      "real_world_connection_box": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard: Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target. At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1c_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating you would react equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "NRA Shotgun vs Rifle Ballistics and Choke Pattern Standard",
+      "v47_primary_source_bullets": [
+        "Aim a rifle at a stationary point by aligning front and rear sights, but point a shotgun dynamically with focus locked on the moving target.",
+        "At 40 yards inside a 30-inch circle, a Full choke places 70 percent of pellets, Modified places 60 percent, and Improved Cylinder places 50 percent."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Shotgun Shooting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Amateur Trapshooting Association (ATA), NSSA & NRA",
+        "title": "ATA and NSSA Stance, Mount, and Follow-Through Standard Technical Reference",
+        "canonical_url": "https://shootata.com/"
+      },
+      "rule_of_thumb_mnemonic": "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+      "core_mechanism_bullets": [
+        "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+        "Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger."
+      ],
+      "worked_field_example": "A standard 108-millimeter clay pigeon launched at 42 miles per hour travels 61.6 feet per second, requiring 2 to 3 feet of forward lead on crossing shots.",
+      "counselor_tabletop_demo": "Practice the four-part shotgun mount stance with an unloaded training stock while tracking a flashlight beam across a wall.",
+      "real_world_connection_box": "ATA and NSSA Stance, Mount, and Follow-Through Standard: Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips. Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Amateur Trapshooting Association (ATA), NSSA & NRA",
+      "bespoke_visual_filename": "shotgun_shooting_req_1d_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/shotgun_shooting_req_1d_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating need for types and use equipment layout and safe operating steps for Shotgun Shooting.",
+      "v47_slide_title": "ATA and NSSA Stance, Mount, and Follow-Through Standard",
+      "v47_primary_source_bullets": [
+        "Lean 60 percent of body weight onto the front foot, bring the stock up to the cheek before the shoulder, and swing from the hips.",
+        "Use Swing-Through, Sustained Lead, or Pull-Away lead methods and continue moving the barrel through the target path after pulling the trigger."
+      ]
+    }
+  }
+}

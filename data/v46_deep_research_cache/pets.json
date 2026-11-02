@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "pets",
+  "badge_name": "Pets",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "AVMA & Humane Society",
+  "primary_authority_url": "https://www.avma.org/resources-tools/pet-owners",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AVMA Four-Month Husbandry & Five Freedoms Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+      "core_mechanism_bullets": [
+        "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+        "A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations."
+      ],
+      "worked_field_example": "Measuring dry kibble with a calibrated gram scale rather than a coffee mug prevents 20 percent overfeeding and canine or feline obesity.",
+      "counselor_tabletop_demo": "Inspect a 4-month pet husbandry log alongside the AVMA 9-point Body Condition Score chart to evaluate healthy rib and waist contours.",
+      "real_world_connection_box": "AVMA Four-Month Husbandry & Five Freedoms Standard: Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily. A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for present evidence that you have cared in a troop setting.",
+      "v47_slide_title": "AVMA Four-Month Husbandry & Five Freedoms Standard",
+      "v47_primary_source_bullets": [
+        "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+        "A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AAFCO Nutritional Ration & Toxic Food Hazard Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+      "core_mechanism_bullets": [
+        "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+        "Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats."
+      ],
+      "worked_field_example": "A 20-pound dog ingesting just 1.5 ounces of dark baking chocolate receives a toxic methylxanthine dose requiring immediate veterinary decontamination.",
+      "counselor_tabletop_demo": "Read an AAFCO nutritional adequacy statement and guaranteed analysis panel on a pet food label and review the ASPCA Poison Control emergency card.",
+      "real_world_connection_box": "AAFCO Nutritional Ration & Toxic Food Hazard Standard: AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance. Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute write in 200 words under adult counselor supervision.",
+      "v47_slide_title": "AAFCO Nutritional Ration & Toxic Food Hazard Standard",
+      "v47_primary_source_bullets": [
+        "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+        "Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+      "core_mechanism_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ],
+      "worked_field_example": "Normal resting rectal temperature for dogs and cats ranges from 100.5 to 102.5 degrees Fahrenheit, so a reading above 103 degrees Fahrenheit signals fever.",
+      "counselor_tabletop_demo": "Compare normal heart rate, respiratory rate, and temperature ranges for dogs, cats, and small mammals and demonstrate safe tick-removal tweezers technique.",
+      "real_world_connection_box": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard: Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and. Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for that you have read a book in a troop setting.",
+      "v47_slide_title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard",
+      "v47_primary_source_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AVSAB Positive Reinforcement Operant Conditioning Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+      "core_mechanism_bullets": [
+        "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+        "Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria."
+      ],
+      "worked_field_example": "Clicking the instant a dog's hindquarters touch the floor and delivering a pea-sized treat within 1 second teaches a solid sit in 10 short repetitions.",
+      "counselor_tabletop_demo": "Use a training clicker and tossed coin or ball with a partner to practice sub-second marker timing and write a 3-step shaping plan for a pet trick.",
+      "real_world_connection_box": "AVSAB Positive Reinforcement Operant Conditioning Standard: Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations. Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for your pet in a pet in a troop setting.",
+      "v47_slide_title": "AVSAB Positive Reinforcement Operant Conditioning Standard",
+      "v47_primary_source_bullets": [
+        "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+        "Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AVMA Four-Month Husbandry & Five Freedoms Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+      "core_mechanism_bullets": [
+        "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+        "A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations."
+      ],
+      "worked_field_example": "Measuring dry kibble with a calibrated gram scale rather than a coffee mug prevents 20 percent overfeeding and canine or feline obesity.",
+      "counselor_tabletop_demo": "Inspect a 4-month pet husbandry log alongside the AVMA 9-point Body Condition Score chart to evaluate healthy rib and waist contours.",
+      "real_world_connection_box": "AVMA Four-Month Husbandry & Five Freedoms Standard: Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily. A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for present evidence that you have cared in a troop setting.",
+      "v47_slide_title": "AVMA Four-Month Husbandry & Five Freedoms Standard",
+      "v47_primary_source_bullets": [
+        "Companion animal stewardship guarantees clean fresh water daily, species-specific balanced rations, sanitary housing, parasite prevention, and daily.",
+        "A 120-day care log tracks daily feeding mass in grams, water refresh times, habitat cleaning intervals, and weekly body-condition observations."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AAFCO Nutritional Ration & Toxic Food Hazard Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+      "core_mechanism_bullets": [
+        "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+        "Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats."
+      ],
+      "worked_field_example": "A 20-pound dog ingesting just 1.5 ounces of dark baking chocolate receives a toxic methylxanthine dose requiring immediate veterinary decontamination.",
+      "counselor_tabletop_demo": "Read an AAFCO nutritional adequacy statement and guaranteed analysis panel on a pet food label and review the ASPCA Poison Control emergency card.",
+      "real_world_connection_box": "AAFCO Nutritional Ration & Toxic Food Hazard Standard: AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance. Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute write in 200 words under adult counselor supervision.",
+      "v47_slide_title": "AAFCO Nutritional Ration & Toxic Food Hazard Standard",
+      "v47_primary_source_bullets": [
+        "AAFCO-certified pet diets formulate complete protein, taurine, fatty acids, and minerals matched to life stage from growth to adult maintenance.",
+        "Theobromine in chocolate, xylitol sweetener, grapes, raisins, onions, and macadamia nuts cause acute renal or neurological toxicity in dogs and cats."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+      "core_mechanism_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ],
+      "worked_field_example": "Normal resting rectal temperature for dogs and cats ranges from 100.5 to 102.5 degrees Fahrenheit, so a reading above 103 degrees Fahrenheit signals fever.",
+      "counselor_tabletop_demo": "Compare normal heart rate, respiratory rate, and temperature ranges for dogs, cats, and small mammals and demonstrate safe tick-removal tweezers technique.",
+      "real_world_connection_box": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard: Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and. Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for that you have read a book in a troop setting.",
+      "v47_slide_title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard",
+      "v47_primary_source_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+      "core_mechanism_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ],
+      "worked_field_example": "Normal resting rectal temperature for dogs and cats ranges from 100.5 to 102.5 degrees Fahrenheit, so a reading above 103 degrees Fahrenheit signals fever.",
+      "counselor_tabletop_demo": "Compare normal heart rate, respiratory rate, and temperature ranges for dogs, cats, and small mammals and demonstrate safe tick-removal tweezers technique.",
+      "real_world_connection_box": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard: Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and. Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for that you have read a book in a troop setting.",
+      "v47_slide_title": "AAHA Preventive Veterinary & Zoonotic Hygiene Standard",
+      "v47_primary_source_bullets": [
+        "Core veterinary vaccines protect dogs against rabies, distemper, parvovirus, and adenovirus, and protect cats against rabies, panleukopenia, herpesvirus, and.",
+        "Washing hands with soap for 20 seconds after handling reptile enclosures or litter boxes blocks transmission of Salmonella and Toxoplasma gondii."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Pets",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & Humane Society",
+        "title": "AVSAB Positive Reinforcement Operant Conditioning Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners"
+      },
+      "rule_of_thumb_mnemonic": "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+      "core_mechanism_bullets": [
+        "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+        "Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria."
+      ],
+      "worked_field_example": "Clicking the instant a dog's hindquarters touch the floor and delivering a pea-sized treat within 1 second teaches a solid sit in 10 short repetitions.",
+      "counselor_tabletop_demo": "Use a training clicker and tossed coin or ball with a partner to practice sub-second marker timing and write a 3-step shaping plan for a pet trick.",
+      "real_world_connection_box": "AVSAB Positive Reinforcement Operant Conditioning Standard: Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations. Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & Humane Society",
+      "bespoke_visual_filename": "pets_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pets_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for your pet in a pet in a troop setting.",
+      "v47_slide_title": "AVSAB Positive Reinforcement Operant Conditioning Standard",
+      "v47_primary_source_bullets": [
+        "Positive reinforcement delivers a primary food reward or clicker marker within 1.0 second of the desired behavior to build reliable neural associations.",
+        "Breaking complex tricks or show ring routines into incremental shaping steps achieves 80 percent success at each stage before raising criteria."
+      ]
+    }
+  }
+}

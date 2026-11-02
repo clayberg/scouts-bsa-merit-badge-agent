@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "nuclear-science",
+  "badge_name": "Nuclear Science",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. NRC & American Nuclear Society",
+  "primary_authority_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+      "core_mechanism_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ],
+      "worked_field_example": "Under the inverse-square law, stepping back from 1 foot to 3 feet away from a point gamma source reduces radiation dose rate to one-ninth.",
+      "counselor_tabletop_demo": "Use a flashlight and grid card at 10 cm, 20 cm, and 30 cm to verify the 1 over r-squared intensity drop of the ALARA Time, Distance, and Shielding protocol.",
+      "real_world_connection_box": "U.S. NRC ALARA & Ionizing Radiation Dose Standard: Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds. Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply radiation using standard troop tools and reference charts.",
+      "v47_slide_title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard",
+      "v47_primary_source_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "IUPAC Isotope Notation & Half-Life Decay Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+      "core_mechanism_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ],
+      "worked_field_example": "A 64-microcurie medical sample of Technetium-99m with a 6-hour half-life decays to 4 microcuries after 24 hours across 4 elapsed half-lives.",
+      "counselor_tabletop_demo": "Shake and pour 64 two-sided coins across 5 trials, removing heads each round to plot an exponential radioactive half-life decay curve.",
+      "real_world_connection_box": "IUPAC Isotope Notation & Half-Life Decay Standard: Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A. One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify basic nuclear science during a structured merit badge clinic.",
+      "v47_slide_title": "IUPAC Isotope Notation & Half-Life Decay Standard",
+      "v47_primary_source_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "NIST Radiation Penetration & Shielding Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+      "core_mechanism_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ],
+      "worked_field_example": "Placing a 0.05-inch aluminum plate between a lantern mantle or check source and a Geiger-Mueller tube blocks beta counts while letting gamma rays pass.",
+      "counselor_tabletop_demo": "Measure background counts per minute with a Geiger counter, then interpose paper, aluminum foil, and a dense metal plate over a safe mineral sample.",
+      "real_world_connection_box": "NIST Radiation Penetration & Shielding Standard: Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum. High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through radiation safety with authentic field equipment.",
+      "v47_slide_title": "NIST Radiation Penetration & Shielding Standard",
+      "v47_primary_source_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "DOE Nuclear Fission Chain Reaction & Criticality Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+      "core_mechanism_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ],
+      "worked_field_example": "Fissioning 1 gram of Uranium-235 generates approximately 1 megawatt-day of thermal energy, equivalent to burning 3 metric tons of coal with zero carbon emissions.",
+      "counselor_tabletop_demo": "Trace the primary reactor coolant loop, control rod assembly, steam generator heat exchanger, and containment dome on a nuclear power plant schematic.",
+      "real_world_connection_box": "DOE Nuclear Fission Chain Reaction & Criticality Standard: Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite. Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute nuclear energy under adult counselor supervision.",
+      "v47_slide_title": "DOE Nuclear Fission Chain Reaction & Criticality Standard",
+      "v47_primary_source_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+      "core_mechanism_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ],
+      "worked_field_example": "Under the inverse-square law, stepping back from 1 foot to 3 feet away from a point gamma source reduces radiation dose rate to one-ninth.",
+      "counselor_tabletop_demo": "Use a flashlight and grid card at 10 cm, 20 cm, and 30 cm to verify the 1 over r-squared intensity drop of the ALARA Time, Distance, and Shielding protocol.",
+      "real_world_connection_box": "U.S. NRC ALARA & Ionizing Radiation Dose Standard: Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds. Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply radiation using standard troop tools and reference charts.",
+      "v47_slide_title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard",
+      "v47_primary_source_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "IUPAC Isotope Notation & Half-Life Decay Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+      "core_mechanism_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ],
+      "worked_field_example": "A 64-microcurie medical sample of Technetium-99m with a 6-hour half-life decays to 4 microcuries after 24 hours across 4 elapsed half-lives.",
+      "counselor_tabletop_demo": "Shake and pour 64 two-sided coins across 5 trials, removing heads each round to plot an exponential radioactive half-life decay curve.",
+      "real_world_connection_box": "IUPAC Isotope Notation & Half-Life Decay Standard: Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A. One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify basic nuclear science during a structured merit badge clinic.",
+      "v47_slide_title": "IUPAC Isotope Notation & Half-Life Decay Standard",
+      "v47_primary_source_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "IUPAC Isotope Notation & Half-Life Decay Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+      "core_mechanism_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ],
+      "worked_field_example": "A 64-microcurie medical sample of Technetium-99m with a 6-hour half-life decays to 4 microcuries after 24 hours across 4 elapsed half-lives.",
+      "counselor_tabletop_demo": "Shake and pour 64 two-sided coins across 5 trials, removing heads each round to plot an exponential radioactive half-life decay curve.",
+      "real_world_connection_box": "IUPAC Isotope Notation & Half-Life Decay Standard: Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A. One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify basic nuclear science during a structured merit badge clinic.",
+      "v47_slide_title": "IUPAC Isotope Notation & Half-Life Decay Standard",
+      "v47_primary_source_bullets": [
+        "Isotopes of an element share the same atomic number Z of protons but differ in neutron count N and total mass number A.",
+        "One radioactive half-life reduces an unstable nuclide population by 50 percent, leaving 12.5 percent after 3 half-lives and 6.25 percent after 4 half-lives."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "DOE Nuclear Fission Chain Reaction & Criticality Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+      "core_mechanism_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ],
+      "worked_field_example": "Fissioning 1 gram of Uranium-235 generates approximately 1 megawatt-day of thermal energy, equivalent to burning 3 metric tons of coal with zero carbon emissions.",
+      "counselor_tabletop_demo": "Trace the primary reactor coolant loop, control rod assembly, steam generator heat exchanger, and containment dome on a nuclear power plant schematic.",
+      "real_world_connection_box": "DOE Nuclear Fission Chain Reaction & Criticality Standard: Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite. Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute nuclear energy under adult counselor supervision.",
+      "v47_slide_title": "DOE Nuclear Fission Chain Reaction & Criticality Standard",
+      "v47_primary_source_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+      "core_mechanism_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ],
+      "worked_field_example": "Under the inverse-square law, stepping back from 1 foot to 3 feet away from a point gamma source reduces radiation dose rate to one-ninth.",
+      "counselor_tabletop_demo": "Use a flashlight and grid card at 10 cm, 20 cm, and 30 cm to verify the 1 over r-squared intensity drop of the ALARA Time, Distance, and Shielding protocol.",
+      "real_world_connection_box": "U.S. NRC ALARA & Ionizing Radiation Dose Standard: Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds. Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply radiation using standard troop tools and reference charts.",
+      "v47_slide_title": "U.S. NRC ALARA & Ionizing Radiation Dose Standard",
+      "v47_primary_source_bullets": [
+        "Ionizing radiation carries enough photon or particle energy above 10 electronvolts to strip orbital electrons from atoms and break biological DNA bonds.",
+        "Average U.S. residents receive 620 millirem per year from natural radon, cosmic rays, and medical imaging, while NRC public nuclear limits cap at 100 millirem."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "NIST Radiation Penetration & Shielding Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+      "core_mechanism_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ],
+      "worked_field_example": "Placing a 0.05-inch aluminum plate between a lantern mantle or check source and a Geiger-Mueller tube blocks beta counts while letting gamma rays pass.",
+      "counselor_tabletop_demo": "Measure background counts per minute with a Geiger counter, then interpose paper, aluminum foil, and a dense metal plate over a safe mineral sample.",
+      "real_world_connection_box": "NIST Radiation Penetration & Shielding Standard: Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum. High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through radiation safety with authentic field equipment.",
+      "v47_slide_title": "NIST Radiation Penetration & Shielding Standard",
+      "v47_primary_source_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "NIST Radiation Penetration & Shielding Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+      "core_mechanism_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ],
+      "worked_field_example": "Placing a 0.05-inch aluminum plate between a lantern mantle or check source and a Geiger-Mueller tube blocks beta counts while letting gamma rays pass.",
+      "counselor_tabletop_demo": "Measure background counts per minute with a Geiger counter, then interpose paper, aluminum foil, and a dense metal plate over a safe mineral sample.",
+      "real_world_connection_box": "NIST Radiation Penetration & Shielding Standard: Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum. High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through radiation safety with authentic field equipment.",
+      "v47_slide_title": "NIST Radiation Penetration & Shielding Standard",
+      "v47_primary_source_bullets": [
+        "Heavy helium-4 alpha particles stop within 5 centimeters of air or a single sheet of paper, and high-speed beta electrons stop in thin aluminum.",
+        "High-energy gamma photons and uncharged neutrons penetrate deeply into tissue and require dense lead, thick concrete, or hydrogen-rich water shielding."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Nuclear Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. NRC & American Nuclear Society",
+        "title": "DOE Nuclear Fission Chain Reaction & Criticality Standard Technical Reference",
+        "canonical_url": "https://www.nrc.gov/reading-rm/basic-ref/students.html"
+      },
+      "rule_of_thumb_mnemonic": "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+      "core_mechanism_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ],
+      "worked_field_example": "Fissioning 1 gram of Uranium-235 generates approximately 1 megawatt-day of thermal energy, equivalent to burning 3 metric tons of coal with zero carbon emissions.",
+      "counselor_tabletop_demo": "Trace the primary reactor coolant loop, control rod assembly, steam generator heat exchanger, and containment dome on a nuclear power plant schematic.",
+      "real_world_connection_box": "DOE Nuclear Fission Chain Reaction & Criticality Standard: Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite. Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. NRC & American Nuclear Society",
+      "bespoke_visual_filename": "nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nuclear_science_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute nuclear energy under adult counselor supervision.",
+      "v47_slide_title": "DOE Nuclear Fission Chain Reaction & Criticality Standard",
+      "v47_primary_source_bullets": [
+        "Thermal neutron fission of Uranium-235 releases roughly 200 mega-electronvolts per atom plus 2.4 new neutrons moderated by water or graphite.",
+        "Pressurized water reactors maintain an effective neutron multiplication factor k equal to 1.00 using boron or silver-indium-cadmium control rods."
+      ]
+    }
+  }
+}

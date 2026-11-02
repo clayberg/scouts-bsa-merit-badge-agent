@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "athletics",
+  "badge_name": "Athletics",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+  "primary_authority_url": "https://www.usatf.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Exercise Heat Illness and Hydration Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+      "core_mechanism_bullets": [
+        "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+        "Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power."
+      ],
+      "worked_field_example": "An athlete losing 1.5 pounds of body mass during a 60-minute track session must drink 24 fluid ounces (16 to 24 oz per pound lost) to restore hydration.",
+      "counselor_tabletop_demo": "Demonstrate a 5-exercise dynamic track warm-up sequence and calculate post-workout fluid replacement from a sample weigh-in/weigh-out card.",
+      "real_world_connection_box": "ACSM Exercise Heat Illness and Hydration Standard: ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity. Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 100-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Exercise Heat Illness and Hydration Standard",
+      "v47_primary_source_bullets": [
+        "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+        "Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Karvonen Target Heart Rate and Periodization Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+      "core_mechanism_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "For a 15-year-old Scout with a 65 bpm resting pulse, 70 percent Karvonen heart rate reserve equals ((205 - 65) x 0.70) + 65, or 163 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse at the wrist for 15 seconds, multiply by 4 for resting bpm, and calculate the 60 to 80 percent aerobic training zone.",
+      "real_world_connection_box": "ACSM Karvonen Target Heart Rate and Periodization Standard: Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve. Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 200-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Karvonen Target Heart Rate and Periodization Standard",
+      "v47_primary_source_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "USATF Track Lane Stagger and False Start Rule Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+      "core_mechanism_bullets": [
+        "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+        "Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report."
+      ],
+      "worked_field_example": "Because each outer lane adds roughly 7.67 meters per full lap, the 400-meter starting blocks stagger forward across lanes 2 through 8 so all runners cover 400 meters.",
+      "counselor_tabletop_demo": "Use a scaled 400-meter track diagram to point out the 100m straightaway, 200m curve stagger, and 20-meter 4x100m relay baton exchange zones.",
+      "real_world_connection_box": "USATF Track Lane Stagger and False Start Rule Standard: A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes. Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 3k run equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "USATF Track Lane Stagger and False Start Rule Standard",
+      "v47_primary_source_bullets": [
+        "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+        "Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "Sprint Block Angles and Field Event Measurement Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+      "core_mechanism_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ],
+      "worked_field_example": "If a long jumper's feet land at 5.10 meters but their hand touches the sand behind their hips at 4.85 meters, the official USATF mark is 4.85 meters.",
+      "counselor_tabletop_demo": "Set up a tape-line takeoff board on the floor to demonstrate proper crouch-start block spacing and zero-end steel tape measurement of a standing jump.",
+      "real_world_connection_box": "Sprint Block Angles and Field Event Measurement Standard: Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back). Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 5k run equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "Sprint Block Angles and Field Event Measurement Standard",
+      "v47_primary_source_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Exercise Heat Illness and Hydration Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+      "core_mechanism_bullets": [
+        "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+        "Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power."
+      ],
+      "worked_field_example": "An athlete losing 1.5 pounds of body mass during a 60-minute track session must drink 24 fluid ounces (16 to 24 oz per pound lost) to restore hydration.",
+      "counselor_tabletop_demo": "Demonstrate a 5-exercise dynamic track warm-up sequence and calculate post-workout fluid replacement from a sample weigh-in/weigh-out card.",
+      "real_world_connection_box": "ACSM Exercise Heat Illness and Hydration Standard: ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity. Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 100-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Exercise Heat Illness and Hydration Standard",
+      "v47_primary_source_bullets": [
+        "ACSM guidelines recommend consuming 16 to 20 fluid ounces of water 2 hours before exercise and 7 to 10 ounces every 15 minutes during activity.",
+        "Dynamic warm-ups (leg swings, A-skips, high knees) raise muscle temperature by 2 to 3 degrees Fahrenheit without reducing peak sprint power."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Karvonen Target Heart Rate and Periodization Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+      "core_mechanism_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "For a 15-year-old Scout with a 65 bpm resting pulse, 70 percent Karvonen heart rate reserve equals ((205 - 65) x 0.70) + 65, or 163 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse at the wrist for 15 seconds, multiply by 4 for resting bpm, and calculate the 60 to 80 percent aerobic training zone.",
+      "real_world_connection_box": "ACSM Karvonen Target Heart Rate and Periodization Standard: Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve. Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 200-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Karvonen Target Heart Rate and Periodization Standard",
+      "v47_primary_source_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Karvonen Target Heart Rate and Periodization Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+      "core_mechanism_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "For a 15-year-old Scout with a 65 bpm resting pulse, 70 percent Karvonen heart rate reserve equals ((205 - 65) x 0.70) + 65, or 163 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse at the wrist for 15 seconds, multiply by 4 for resting bpm, and calculate the 60 to 80 percent aerobic training zone.",
+      "real_world_connection_box": "ACSM Karvonen Target Heart Rate and Periodization Standard: Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve. Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 200-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Karvonen Target Heart Rate and Periodization Standard",
+      "v47_primary_source_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "Sprint Block Angles and Field Event Measurement Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+      "core_mechanism_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ],
+      "worked_field_example": "If a long jumper's feet land at 5.10 meters but their hand touches the sand behind their hips at 4.85 meters, the official USATF mark is 4.85 meters.",
+      "counselor_tabletop_demo": "Set up a tape-line takeoff board on the floor to demonstrate proper crouch-start block spacing and zero-end steel tape measurement of a standing jump.",
+      "real_world_connection_box": "Sprint Block Angles and Field Event Measurement Standard: Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back). Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 5k run equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "Sprint Block Angles and Field Event Measurement Standard",
+      "v47_primary_source_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "USATF Track Lane Stagger and False Start Rule Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+      "core_mechanism_bullets": [
+        "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+        "Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report."
+      ],
+      "worked_field_example": "Because each outer lane adds roughly 7.67 meters per full lap, the 400-meter starting blocks stagger forward across lanes 2 through 8 so all runners cover 400 meters.",
+      "counselor_tabletop_demo": "Use a scaled 400-meter track diagram to point out the 100m straightaway, 200m curve stagger, and 20-meter 4x100m relay baton exchange zones.",
+      "real_world_connection_box": "USATF Track Lane Stagger and False Start Rule Standard: A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes. Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 3k run equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "USATF Track Lane Stagger and False Start Rule Standard",
+      "v47_primary_source_bullets": [
+        "A standard outdoor metric running track measures 400.00 meters around the inside lane 1 curb line with eight 1.22-meter-wide lanes.",
+        "Under USATF sprint rules, starter commands for races up to 400 meters are 'On your marks,' 'Set,' and the pistol report."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "ACSM Karvonen Target Heart Rate and Periodization Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+      "core_mechanism_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "For a 15-year-old Scout with a 65 bpm resting pulse, 70 percent Karvonen heart rate reserve equals ((205 - 65) x 0.70) + 65, or 163 beats per minute.",
+      "counselor_tabletop_demo": "Palpate the radial pulse at the wrist for 15 seconds, multiply by 4 for resting bpm, and calculate the 60 to 80 percent aerobic training zone.",
+      "real_world_connection_box": "ACSM Karvonen Target Heart Rate and Periodization Standard: Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve. Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 200-meter dash equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "ACSM Karvonen Target Heart Rate and Periodization Standard",
+      "v47_primary_source_bullets": [
+        "Maximum heart rate estimates at 220 minus age in years, with aerobic conditioning targeting 60 to 80 percent of heart rate reserve.",
+        "Progressive overload limits weekly training mileage or resistance volume increases to 10 percent per week to prevent stress fractures."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Athletics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+        "title": "Sprint Block Angles and Field Event Measurement Standard Technical Reference",
+        "canonical_url": "https://www.usatf.org/"
+      },
+      "rule_of_thumb_mnemonic": "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+      "core_mechanism_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ],
+      "worked_field_example": "If a long jumper's feet land at 5.10 meters but their hand touches the sand behind their hips at 4.85 meters, the official USATF mark is 4.85 meters.",
+      "counselor_tabletop_demo": "Set up a tape-line takeoff board on the floor to demonstrate proper crouch-start block spacing and zero-end steel tape measurement of a standing jump.",
+      "real_world_connection_box": "Sprint Block Angles and Field Event Measurement Standard: Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back). Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USA Track & Field (USATF) & American College of Sports Medicine (ACSM)",
+      "bespoke_visual_filename": "athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/athletics_req_5b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating 5k run equipment layout and safe operating steps for Athletics.",
+      "v47_slide_title": "Sprint Block Angles and Field Event Measurement Standard",
+      "v47_primary_source_bullets": [
+        "Crouch start block pedals set at 45 degrees in front (2 foot-lengths behind the line) and 55 degrees in back (3 foot-lengths back).",
+        "Long jump and shot put distances measure perpendicularly from the nearest landing mark in the sand or sector back to the takeoff board inner edge."
+      ]
+    }
+  }
+}

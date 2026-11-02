@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "landscape-architecture",
+  "badge_name": "Landscape Architecture",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ASLA & USDA NRCS",
+  "primary_authority_url": "https://www.asla.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Site Grading, Drainage & Bioswale Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+      "core_mechanism_bullets": [
+        "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+        "ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps."
+      ],
+      "worked_field_example": "Over a 20-foot lawn run away from a camp nature center foundation, a 2 percent drainage grade drops the soil elevation by 0.4 feet (4.8 inches) into a vegetated bioswale.",
+      "counselor_tabletop_demo": "Read contour lines on a landscape site plan to identify high points, drainage swales, and ADA ramp slopes using an engineer scale.",
+      "real_world_connection_box": "ASLA Site Grading, Drainage & Bioswale Standard: Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet. ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_grading_swale_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/landscape_architecture_grading_swale_v47_diagram.png",
+      "bespoke_visual_caption": "Site grading and stormwater bioswale cross-section showing a terraced stone retaining wall with weep drainage, sloped swale, and deep-rooted native rain garden.",
+      "v47_slide_title": "ASLA Site Grading, Drainage & Bioswale Standard",
+      "v47_primary_source_bullets": [
+        "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+        "ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Microclimate Windbreak & Solar Canopy Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+      "core_mechanism_bullets": [
+        "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+        "Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height."
+      ],
+      "worked_field_example": "A row of 20-foot Norway spruce trees planted upwind on the northwest border of a cabin shelters a leeward yard extending 200 to 300 feet downwind and cuts heating energy loss by 20 percent.",
+      "counselor_tabletop_demo": "Sketch a microclimate planting diagram around a building showing summer afternoon sun angles, winter prevailing wind vectors, and deciduous versus evergreen placement.",
+      "real_world_connection_box": "ASLA Microclimate Windbreak & Solar Canopy Standard: Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms. Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_windbreak_canopy_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/landscape_architecture_windbreak_canopy_v47_diagram.png",
+      "bespoke_visual_caption": "Microclimate site plan cutaway showing evergreen conifers deflecting winter wind over a cabin alongside deciduous summer shade trees.",
+      "v47_slide_title": "ASLA Microclimate Windbreak & Solar Canopy Standard",
+      "v47_primary_source_bullets": [
+        "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+        "Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Spatial Circulation & Outdoor Room Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+      "core_mechanism_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ],
+      "worked_field_example": "Placing a 4-foot-tall evergreen hedge along a parking lot edge screens car headlights at eye level for seated visitors while maintaining open sightlines for security.",
+      "counselor_tabletop_demo": "Draw a functional bubble diagram and circulation flow arrow overlay for a school courtyard or park before converting it into a scaled plan view.",
+      "real_world_connection_box": "ASLA Spatial Circulation & Outdoor Room Standard: Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces. Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/landscape_architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of spatial definition used in Landscape Architecture.",
+      "v47_slide_title": "ASLA Spatial Circulation & Outdoor Room Standard",
+      "v47_primary_source_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+      "core_mechanism_bullets": [
+        "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+        "Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding."
+      ],
+      "worked_field_example": "A young red oak sapling planted from a 15-gallon pot with a 3-foot spread must be drawn as a 40-to-50-foot circle (1 inch diameter at 1 inch equals 40 feet scale) on the master plan.",
+      "counselor_tabletop_demo": "Use an architect or engineer scale to draw mature canopy circles, shrub masses, and hardscape walkways at 1/8 inch equals 1 foot scale.",
+      "real_world_connection_box": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard: The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature. Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/landscape_architecture_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of hardiness zones used in Landscape Architecture.",
+      "v47_slide_title": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard",
+      "v47_primary_source_bullets": [
+        "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+        "Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Site Grading, Drainage & Bioswale Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+      "core_mechanism_bullets": [
+        "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+        "ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps."
+      ],
+      "worked_field_example": "Over a 20-foot lawn run away from a camp nature center foundation, a 2 percent drainage grade drops the soil elevation by 0.4 feet (4.8 inches) into a vegetated bioswale.",
+      "counselor_tabletop_demo": "Read contour lines on a landscape site plan to identify high points, drainage swales, and ADA ramp slopes using an engineer scale.",
+      "real_world_connection_box": "ASLA Site Grading, Drainage & Bioswale Standard: Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet. ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_grading_swale_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/landscape_architecture_grading_swale_v47_diagram.png",
+      "bespoke_visual_caption": "Site grading and stormwater bioswale cross-section showing a terraced stone retaining wall with weep drainage, sloped swale, and deep-rooted native rain garden.",
+      "v47_slide_title": "ASLA Site Grading, Drainage & Bioswale Standard",
+      "v47_primary_source_bullets": [
+        "Site grading standards pitch turf and soil at a 2 percent minimum slope (0.25 inch per foot) away from building foundations for 10 feet.",
+        "ADA accessible walkways maintain a cross-slope under 2 percent and a running slope under 5 percent, or up to 8.33 percent on ramps."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Microclimate Windbreak & Solar Canopy Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+      "core_mechanism_bullets": [
+        "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+        "Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height."
+      ],
+      "worked_field_example": "A row of 20-foot Norway spruce trees planted upwind on the northwest border of a cabin shelters a leeward yard extending 200 to 300 feet downwind and cuts heating energy loss by 20 percent.",
+      "counselor_tabletop_demo": "Sketch a microclimate planting diagram around a building showing summer afternoon sun angles, winter prevailing wind vectors, and deciduous versus evergreen placement.",
+      "real_world_connection_box": "ASLA Microclimate Windbreak & Solar Canopy Standard: Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms. Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_windbreak_canopy_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/landscape_architecture_windbreak_canopy_v47_diagram.png",
+      "bespoke_visual_caption": "Microclimate site plan cutaway showing evergreen conifers deflecting winter wind over a cabin alongside deciduous summer shade trees.",
+      "v47_slide_title": "ASLA Microclimate Windbreak & Solar Canopy Standard",
+      "v47_primary_source_bullets": [
+        "Deciduous shade trees on south and west building walls block up to 75 percent of summer solar heat while bare winter branches warm rooms.",
+        "Evergreen conifer windbreaks on the winter windward side cut wind speed across a leeward zone extending 10 to 15 times the tree height."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Spatial Circulation & Outdoor Room Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+      "core_mechanism_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ],
+      "worked_field_example": "Placing a 4-foot-tall evergreen hedge along a parking lot edge screens car headlights at eye level for seated visitors while maintaining open sightlines for security.",
+      "counselor_tabletop_demo": "Draw a functional bubble diagram and circulation flow arrow overlay for a school courtyard or park before converting it into a scaled plan view.",
+      "real_world_connection_box": "ASLA Spatial Circulation & Outdoor Room Standard: Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces. Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/landscape_architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of spatial definition used in Landscape Architecture.",
+      "v47_slide_title": "ASLA Spatial Circulation & Outdoor Room Standard",
+      "v47_primary_source_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "ASLA Spatial Circulation & Outdoor Room Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+      "core_mechanism_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ],
+      "worked_field_example": "Placing a 4-foot-tall evergreen hedge along a parking lot edge screens car headlights at eye level for seated visitors while maintaining open sightlines for security.",
+      "counselor_tabletop_demo": "Draw a functional bubble diagram and circulation flow arrow overlay for a school courtyard or park before converting it into a scaled plan view.",
+      "real_world_connection_box": "ASLA Spatial Circulation & Outdoor Room Standard: Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces. Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/landscape_architecture_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of spatial definition used in Landscape Architecture.",
+      "v47_slide_title": "ASLA Spatial Circulation & Outdoor Room Standard",
+      "v47_primary_source_bullets": [
+        "Landscape design organizes sites into ground plane paving, vertical wall or shrub planes, and overhead tree canopy to frame spaces.",
+        "Primary pedestrian walkways require 5 to 8 feet of clear width for two-way foot traffic, separated from vehicles by planting buffers."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Landscape Architecture",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASLA & USDA NRCS",
+        "title": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard Technical Reference",
+        "canonical_url": "https://www.asla.org/"
+      },
+      "rule_of_thumb_mnemonic": "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+      "core_mechanism_bullets": [
+        "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+        "Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding."
+      ],
+      "worked_field_example": "A young red oak sapling planted from a 15-gallon pot with a 3-foot spread must be drawn as a 40-to-50-foot circle (1 inch diameter at 1 inch equals 40 feet scale) on the master plan.",
+      "counselor_tabletop_demo": "Use an architect or engineer scale to draw mature canopy circles, shrub masses, and hardscape walkways at 1/8 inch equals 1 foot scale.",
+      "real_world_connection_box": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard: The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature. Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASLA & USDA NRCS",
+      "bespoke_visual_filename": "landscape_architecture_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/landscape_architecture_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of hardiness zones used in Landscape Architecture.",
+      "v47_slide_title": "USDA Plant Hardiness Zone & Mature Canopy Scale Standard",
+      "v47_primary_source_bullets": [
+        "The USDA Plant Hardiness Zone Map divides North America into 13 zones by 10 degrees Fahrenheit average annual minimum winter temperature.",
+        "Landscape plans draw trees and shrubs at 75 to 100 percent of mature crown diameter rather than nursery pot size to prevent crowding."
+      ]
+    }
+  }
+}

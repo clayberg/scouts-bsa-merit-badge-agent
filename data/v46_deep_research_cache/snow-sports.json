@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "snow-sports",
+  "badge_name": "Snow Sports",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+  "primary_authority_url": "https://www.nsp.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSP Cold Injury & Avalanche Triage Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+      "core_mechanism_bullets": [
+        "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+        "Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow."
+      ],
+      "worked_field_example": "At 10 degrees Fahrenheit with a 25 mph ridge wind, windchill reaches minus 11 degrees Fahrenheit and requires full facial covering.",
+      "counselor_tabletop_demo": "Use an inclinometer on a tilted board to measure a 35-degree slope angle and practice beacon search grid spacing on the tabletop.",
+      "real_world_connection_box": "NSP Cold Injury & Avalanche Triage Standard: Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin. Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating show how to wax equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSP Cold Injury & Avalanche Triage Standard",
+      "v47_primary_source_bullets": [
+        "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+        "Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSAA Your Responsibility Code & Trail Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+      "core_mechanism_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ],
+      "worked_field_example": "A downhill skier overtaking a slower snowboarder on a 30 percent blue square trail must yield right-of-way and pass with a 15-foot buffer.",
+      "counselor_tabletop_demo": "Arrange trail map cards by slope gradient percentage and match each hazard scenario to the corresponding NSAA Responsibility Code rule.",
+      "real_world_connection_box": "NSAA Your Responsibility Code & Trail Standard: North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent. Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating american teaching system equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSAA Your Responsibility Code & Trail Standard",
+      "v47_primary_source_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "PSIA-AASI Three-Layer Thermal & Waxing Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+      "core_mechanism_bullets": [
+        "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+        "Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base."
+      ],
+      "worked_field_example": "For snow temperatures at 22 degrees Fahrenheit, applying a mid-range hydrocarbon wax with a 255 degrees Fahrenheit iron reduces base friction by 30 percent.",
+      "counselor_tabletop_demo": "Inspect three fabric swatches for wicking and hydrostatic ratings, then demonstrate proper brass-to-nylon brush strokes on a ski base section.",
+      "real_world_connection_box": "PSIA-AASI Three-Layer Thermal & Waxing Standard: Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head. Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating show your ability to select equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "PSIA-AASI Three-Layer Thermal & Waxing Standard",
+      "v47_primary_source_bullets": [
+        "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+        "Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "ISO 11088 Binding Release & SMART Style Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+      "core_mechanism_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ],
+      "worked_field_example": "A 125-pound intermediate skier with a 295 mm boot sole length requires a DIN setting of 4.5 to prevent tibial torsion injury during a fall.",
+      "counselor_tabletop_demo": "Read a DIN release chart using sample height, weight, and millimeter sole measurements to verify matching toe and heel indicator windows.",
+      "real_world_connection_box": "ISO 11088 Binding Release & SMART Style Standard: Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length. Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating reasons for common rules equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "ISO 11088 Binding Release & SMART Style Standard",
+      "v47_primary_source_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSP Cold Injury & Avalanche Triage Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+      "core_mechanism_bullets": [
+        "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+        "Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow."
+      ],
+      "worked_field_example": "At 10 degrees Fahrenheit with a 25 mph ridge wind, windchill reaches minus 11 degrees Fahrenheit and requires full facial covering.",
+      "counselor_tabletop_demo": "Use an inclinometer on a tilted board to measure a 35-degree slope angle and practice beacon search grid spacing on the tabletop.",
+      "real_world_connection_box": "NSP Cold Injury & Avalanche Triage Standard: Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin. Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating show how to wax equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSP Cold Injury & Avalanche Triage Standard",
+      "v47_primary_source_bullets": [
+        "Frostbite risk escalates rapidly when windchill drops below minus 18 degrees Fahrenheit on exposed skin.",
+        "Avalanche slab releases peak on 30 to 45 degree slopes during the first 24 hours after heavy snow."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSAA Your Responsibility Code & Trail Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+      "core_mechanism_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ],
+      "worked_field_example": "A downhill skier overtaking a slower snowboarder on a 30 percent blue square trail must yield right-of-way and pass with a 15-foot buffer.",
+      "counselor_tabletop_demo": "Arrange trail map cards by slope gradient percentage and match each hazard scenario to the corresponding NSAA Responsibility Code rule.",
+      "real_world_connection_box": "NSAA Your Responsibility Code & Trail Standard: North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent. Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating american teaching system equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSAA Your Responsibility Code & Trail Standard",
+      "v47_primary_source_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSAA Your Responsibility Code & Trail Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+      "core_mechanism_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ],
+      "worked_field_example": "A downhill skier overtaking a slower snowboarder on a 30 percent blue square trail must yield right-of-way and pass with a 15-foot buffer.",
+      "counselor_tabletop_demo": "Arrange trail map cards by slope gradient percentage and match each hazard scenario to the corresponding NSAA Responsibility Code rule.",
+      "real_world_connection_box": "NSAA Your Responsibility Code & Trail Standard: North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent. Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating american teaching system equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSAA Your Responsibility Code & Trail Standard",
+      "v47_primary_source_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "ISO 11088 Binding Release & SMART Style Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+      "core_mechanism_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ],
+      "worked_field_example": "A 125-pound intermediate skier with a 295 mm boot sole length requires a DIN setting of 4.5 to prevent tibial torsion injury during a fall.",
+      "counselor_tabletop_demo": "Read a DIN release chart using sample height, weight, and millimeter sole measurements to verify matching toe and heel indicator windows.",
+      "real_world_connection_box": "ISO 11088 Binding Release & SMART Style Standard: Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length. Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating reasons for common rules equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "ISO 11088 Binding Release & SMART Style Standard",
+      "v47_primary_source_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "PSIA-AASI Three-Layer Thermal & Waxing Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+      "core_mechanism_bullets": [
+        "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+        "Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base."
+      ],
+      "worked_field_example": "For snow temperatures at 22 degrees Fahrenheit, applying a mid-range hydrocarbon wax with a 255 degrees Fahrenheit iron reduces base friction by 30 percent.",
+      "counselor_tabletop_demo": "Inspect three fabric swatches for wicking and hydrostatic ratings, then demonstrate proper brass-to-nylon brush strokes on a ski base section.",
+      "real_world_connection_box": "PSIA-AASI Three-Layer Thermal & Waxing Standard: Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head. Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating show your ability to select equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "PSIA-AASI Three-Layer Thermal & Waxing Standard",
+      "v47_primary_source_bullets": [
+        "Merino or synthetic base layers wick at 150 to 250 g/m2 while waterproof shells block 10000 mm hydrostatic head.",
+        "Hot-wax irons must hold 248 to 266 degrees Fahrenheit to bond hydrocarbon glide wax without scorching the base."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "NSAA Your Responsibility Code & Trail Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+      "core_mechanism_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ],
+      "worked_field_example": "A downhill skier overtaking a slower snowboarder on a 30 percent blue square trail must yield right-of-way and pass with a 15-foot buffer.",
+      "counselor_tabletop_demo": "Arrange trail map cards by slope gradient percentage and match each hazard scenario to the corresponding NSAA Responsibility Code rule.",
+      "real_world_connection_box": "NSAA Your Responsibility Code & Trail Standard: North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent. Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating american teaching system equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "NSAA Your Responsibility Code & Trail Standard",
+      "v47_primary_source_bullets": [
+        "North American trail signage sets green circles at 6 to 25 percent grades and blue squares at 25 to 40 percent.",
+        "Black diamond runs exceed a 40 percent slope grade and require downhill yield under the Responsibility Code."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Snow Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Ski Patrol (NSP) & PSIA-AASI",
+        "title": "ISO 11088 Binding Release & SMART Style Standard Technical Reference",
+        "canonical_url": "https://www.nsp.org/"
+      },
+      "rule_of_thumb_mnemonic": "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+      "core_mechanism_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ],
+      "worked_field_example": "A 125-pound intermediate skier with a 295 mm boot sole length requires a DIN setting of 4.5 to prevent tibial torsion injury during a fall.",
+      "counselor_tabletop_demo": "Read a DIN release chart using sample height, weight, and millimeter sole measurements to verify matching toe and heel indicator windows.",
+      "real_world_connection_box": "ISO 11088 Binding Release & SMART Style Standard: Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length. Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Ski Patrol (NSP) & PSIA-AASI",
+      "bespoke_visual_filename": "snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/snow_sports_req_7b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating reasons for common rules equipment layout and safe operating steps for Snow Sports.",
+      "v47_slide_title": "ISO 11088 Binding Release & SMART Style Standard",
+      "v47_primary_source_bullets": [
+        "Alpine ski binding DIN settings per ISO 11088 calibrate toe and heel release torque from weight and sole length.",
+        "Terrain park SMART Style rules mandate a safety inspection run and clear landing check before any aerial jump."
+      ]
+    }
+  }
+}

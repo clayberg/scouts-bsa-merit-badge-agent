@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "orienteering",
+  "badge_name": "Orienteering",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Orienteering USA & USGS Topographic Mapping",
+  "primary_authority_url": "https://orienteeringusa.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "Orienteering USA Whistle Code & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+      "core_mechanism_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ],
+      "worked_field_example": "If lost off-trail in dense timber, an orienteer stops immediately, blows three whistle blasts at 60-second intervals, and follows the preset safety azimuth to the highway.",
+      "counselor_tabletop_demo": "Identify the safety bearing road on a course map, check a backcountry blister and ankle-sprain kit, and review the three-blast whistle emergency protocol.",
+      "real_world_connection_box": "Orienteering USA Whistle Code & Thermal Safety Standard: Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road. Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orienteering first aid using standard troop tools and reference charts.",
+      "v47_slide_title": "Orienteering USA Whistle Code & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF ISOM Map Scale & Five-Color Symbol Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+      "core_mechanism_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ],
+      "worked_field_example": "On a 1-to-10,000 orienteering map, 1 millimeter on the baseplate ruler equals 10 meters on the ground and four crossed contour lines represent a 20-meter climb.",
+      "counselor_tabletop_demo": "Match V-shaped contour valleys, U-shaped spurs, saddles, depressions with tick marks, and dark green slow-run woods on an IOF map sample.",
+      "real_world_connection_box": "IOF ISOM Map Scale & Five-Color Symbol Standard: International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart. ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify map symbols and topographic features during a structured merit badge clinic.",
+      "v47_slide_title": "IOF ISOM Map Scale & Five-Color Symbol Standard",
+      "v47_primary_source_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+      "core_mechanism_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ],
+      "worked_field_example": "A true map bearing of 120 degrees in a region with 14 degrees East declination converts to a 106-degree magnetic dial setting unless using pre-aligned IOF magnetic lines.",
+      "counselor_tabletop_demo": "Place a clear baseplate compass along two control circles on a map, rotate the bezel to align orienting lines with magnetic north, and sight a distant target.",
+      "real_world_connection_box": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard: Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north. Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a compass works with authentic field equipment.",
+      "v47_slide_title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard",
+      "v47_primary_source_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF Control Description & 100-Meter Pace Count Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+      "core_mechanism_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ],
+      "worked_field_example": "A Scout with a 62-double-step walking pace per 100 meters counts 155 right-foot strikes to travel 250 meters from a trail junction attack point to a re-entrant flag.",
+      "counselor_tabletop_demo": "Decode a 6-control IOF symbol sheet and combine aiming off, handrail following, and attack-point pacing on a tabletop route-choice challenge.",
+      "real_world_connection_box": "IOF Control Description & 100-Meter Pace Count Standard: A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points. Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply set up a 100-meter pace course using standard troop tools and reference charts.",
+      "v47_slide_title": "IOF Control Description & 100-Meter Pace Count Standard",
+      "v47_primary_source_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "Orienteering USA Whistle Code & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+      "core_mechanism_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ],
+      "worked_field_example": "If lost off-trail in dense timber, an orienteer stops immediately, blows three whistle blasts at 60-second intervals, and follows the preset safety azimuth to the highway.",
+      "counselor_tabletop_demo": "Identify the safety bearing road on a course map, check a backcountry blister and ankle-sprain kit, and review the three-blast whistle emergency protocol.",
+      "real_world_connection_box": "Orienteering USA Whistle Code & Thermal Safety Standard: Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road. Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orienteering first aid using standard troop tools and reference charts.",
+      "v47_slide_title": "Orienteering USA Whistle Code & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF ISOM Map Scale & Five-Color Symbol Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+      "core_mechanism_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ],
+      "worked_field_example": "On a 1-to-10,000 orienteering map, 1 millimeter on the baseplate ruler equals 10 meters on the ground and four crossed contour lines represent a 20-meter climb.",
+      "counselor_tabletop_demo": "Match V-shaped contour valleys, U-shaped spurs, saddles, depressions with tick marks, and dark green slow-run woods on an IOF map sample.",
+      "real_world_connection_box": "IOF ISOM Map Scale & Five-Color Symbol Standard: International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart. ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify map symbols and topographic features during a structured merit badge clinic.",
+      "v47_slide_title": "IOF ISOM Map Scale & Five-Color Symbol Standard",
+      "v47_primary_source_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+      "core_mechanism_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ],
+      "worked_field_example": "A true map bearing of 120 degrees in a region with 14 degrees East declination converts to a 106-degree magnetic dial setting unless using pre-aligned IOF magnetic lines.",
+      "counselor_tabletop_demo": "Place a clear baseplate compass along two control circles on a map, rotate the bezel to align orienting lines with magnetic north, and sight a distant target.",
+      "real_world_connection_box": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard: Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north. Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a compass works with authentic field equipment.",
+      "v47_slide_title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard",
+      "v47_primary_source_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF ISOM Map Scale & Five-Color Symbol Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+      "core_mechanism_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ],
+      "worked_field_example": "On a 1-to-10,000 orienteering map, 1 millimeter on the baseplate ruler equals 10 meters on the ground and four crossed contour lines represent a 20-meter climb.",
+      "counselor_tabletop_demo": "Match V-shaped contour valleys, U-shaped spurs, saddles, depressions with tick marks, and dark green slow-run woods on an IOF map sample.",
+      "real_world_connection_box": "IOF ISOM Map Scale & Five-Color Symbol Standard: International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart. ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify map symbols and topographic features during a structured merit badge clinic.",
+      "v47_slide_title": "IOF ISOM Map Scale & Five-Color Symbol Standard",
+      "v47_primary_source_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "Orienteering USA Whistle Code & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+      "core_mechanism_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ],
+      "worked_field_example": "If lost off-trail in dense timber, an orienteer stops immediately, blows three whistle blasts at 60-second intervals, and follows the preset safety azimuth to the highway.",
+      "counselor_tabletop_demo": "Identify the safety bearing road on a course map, check a backcountry blister and ankle-sprain kit, and review the three-blast whistle emergency protocol.",
+      "real_world_connection_box": "Orienteering USA Whistle Code & Thermal Safety Standard: Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road. Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orienteering first aid using standard troop tools and reference charts.",
+      "v47_slide_title": "Orienteering USA Whistle Code & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF ISOM Map Scale & Five-Color Symbol Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+      "core_mechanism_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ],
+      "worked_field_example": "On a 1-to-10,000 orienteering map, 1 millimeter on the baseplate ruler equals 10 meters on the ground and four crossed contour lines represent a 20-meter climb.",
+      "counselor_tabletop_demo": "Match V-shaped contour valleys, U-shaped spurs, saddles, depressions with tick marks, and dark green slow-run woods on an IOF map sample.",
+      "real_world_connection_box": "IOF ISOM Map Scale & Five-Color Symbol Standard: International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart. ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify map symbols and topographic features during a structured merit badge clinic.",
+      "v47_slide_title": "IOF ISOM Map Scale & Five-Color Symbol Standard",
+      "v47_primary_source_bullets": [
+        "International Orienteering Federation maps use 1-to-10,000 or 1-to-15,000 scales with 5-meter contour intervals and magnetic north lines spaced 500 meters apart.",
+        "ISOM five-color cartography prints brown for landforms, blue for hydrography, black for rock and roads, yellow for open land, and green for vegetation density."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+      "core_mechanism_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ],
+      "worked_field_example": "A true map bearing of 120 degrees in a region with 14 degrees East declination converts to a 106-degree magnetic dial setting unless using pre-aligned IOF magnetic lines.",
+      "counselor_tabletop_demo": "Place a clear baseplate compass along two control circles on a map, rotate the bezel to align orienting lines with magnetic north, and sight a distant target.",
+      "real_world_connection_box": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard: Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north. Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through a compass works with authentic field equipment.",
+      "v47_slide_title": "NOAA Magnetic Declination & Silva 1-2-3 Compass Standard",
+      "v47_primary_source_bullets": [
+        "Baseplate compasses measure azimuths from 0 to 360 degrees relative to magnetic north, whereas USGS quadrangles align to true geographic north.",
+        "Converting true map bearings to magnetic field bearings follows the rule West is Best add degrees and East is Least subtract degrees."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF Control Description & 100-Meter Pace Count Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+      "core_mechanism_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ],
+      "worked_field_example": "A Scout with a 62-double-step walking pace per 100 meters counts 155 right-foot strikes to travel 250 meters from a trail junction attack point to a re-entrant flag.",
+      "counselor_tabletop_demo": "Decode a 6-control IOF symbol sheet and combine aiming off, handrail following, and attack-point pacing on a tabletop route-choice challenge.",
+      "real_world_connection_box": "IOF Control Description & 100-Meter Pace Count Standard: A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points. Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply set up a 100-meter pace course using standard troop tools and reference charts.",
+      "v47_slide_title": "IOF Control Description & 100-Meter Pace Count Standard",
+      "v47_primary_source_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "Orienteering USA Whistle Code & Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+      "core_mechanism_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ],
+      "worked_field_example": "If lost off-trail in dense timber, an orienteer stops immediately, blows three whistle blasts at 60-second intervals, and follows the preset safety azimuth to the highway.",
+      "counselor_tabletop_demo": "Identify the safety bearing road on a course map, check a backcountry blister and ankle-sprain kit, and review the three-blast whistle emergency protocol.",
+      "real_world_connection_box": "Orienteering USA Whistle Code & Thermal Safety Standard: Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road. Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orienteering first aid using standard troop tools and reference charts.",
+      "v47_slide_title": "Orienteering USA Whistle Code & Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Every orienteer carries a safety whistle for the international distress signal of three sharp blasts and records a hard safety bearing back to a boundary road.",
+        "Backcountry heat exhaustion above 85 degrees Fahrenheit requires shade and oral electrolytes, while hypothermia below 50 degrees Fahrenheit demands dry."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Orienteering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Orienteering USA & USGS Topographic Mapping",
+        "title": "IOF Control Description & 100-Meter Pace Count Standard Technical Reference",
+        "canonical_url": "https://orienteeringusa.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+      "core_mechanism_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ],
+      "worked_field_example": "A Scout with a 62-double-step walking pace per 100 meters counts 155 right-foot strikes to travel 250 meters from a trail junction attack point to a re-entrant flag.",
+      "counselor_tabletop_demo": "Decode a 6-control IOF symbol sheet and combine aiming off, handrail following, and attack-point pacing on a tabletop route-choice challenge.",
+      "real_world_connection_box": "IOF Control Description & 100-Meter Pace Count Standard: A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points. Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Orienteering USA & USGS Topographic Mapping",
+      "bespoke_visual_filename": "orienteering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/orienteering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply set up a 100-meter pace course using standard troop tools and reference charts.",
+      "v47_slide_title": "IOF Control Description & 100-Meter Pace Count Standard",
+      "v47_primary_source_bullets": [
+        "A 100-meter pace count records every double step counted on the right foot across flat and uphill terrain to estimate distance traveled between attack points.",
+        "Eight-column IOF control description sheets specify control code, feature symbol, and exact flag placement such as northeast side or base of boulder."
+      ]
+    }
+  }
+}

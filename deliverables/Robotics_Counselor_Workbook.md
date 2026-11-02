@@ -1,6 +1,6 @@
 # Robotics Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Robotics.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/robotics/
 
@@ -49,7 +49,7 @@
 - **Common Myth:** Robotic hazards only exist while electric drive motors receive active operational current.
 - **Pamphlet Fact:** Stored kinetic energy in mechanical linkages and pneumatic cylinders persists after main power loss.
 
-![Cutaway visual diagram illustrating pinch point hazards structure and components for Robotics.](/assets/pamphlet_images/robotics_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of pinch point hazards used in Robotics.](/assets/pamphlet_images/robotics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -96,7 +96,7 @@
 - **Common Myth:** Robots provide superior economic value when assigned to unpredictable custom artisan repairs.
 - **Pamphlet Fact:** Robotic systems handle dangerous repetitive tasks like chemical tank inspection and radioactive waste sorting.
 
-![Cutaway visual diagram illustrating industrial work cells structure and components for Robotics.](/assets/pamphlet_images/robotics_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of industrial work cells used in Robotics.](/assets/pamphlet_images/robotics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

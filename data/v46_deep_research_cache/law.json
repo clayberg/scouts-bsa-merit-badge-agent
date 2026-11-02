@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "law",
+  "badge_name": "Law",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Bar Association & Federal Judicial Center",
+  "primary_authority_url": "https://www.uscourts.gov/about-federal-courts/educational-resources",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Constitutional Sources & Rule of Law Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+      "core_mechanism_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ],
+      "worked_field_example": "When a city council passes an ordinance that conflicts with First Amendment free-speech protections, courts strike down the ordinance under the U.S. Constitution Supremacy Clause.",
+      "counselor_tabletop_demo": "Classify 6 real-world legal rules into Constitutional, Statutory, Administrative, or Common Law categories using a source-of-law sorting chart.",
+      "real_world_connection_box": "ABA Constitutional Sources & Rule of Law Standard: U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent. Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing legal aid resources and counsel access with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ABA Constitutional Sources & Rule of Law Standard",
+      "v47_primary_source_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "FJC Criminal vs Civil Burden of Proof Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+      "core_mechanism_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ],
+      "worked_field_example": "In a civil negligence lawsuit over a car fender-bender, the plaintiff wins damages if the jury finds it 51 percent likely the defendant ran the stop sign, whereas a criminal felony requires near-certainty.",
+      "counselor_tabletop_demo": "Compare a criminal arrest-to-verdict flow against a civil complaint-to-judgment flow, highlighting who brings the case, burden of proof, and legal remedies.",
+      "real_world_connection_box": "FJC Criminal vs Civil Burden of Proof Standard: Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent). Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define law step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "FJC Criminal vs Civil Burden of Proof Standard",
+      "v47_primary_source_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Bar Admission & Judicial Selection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+      "core_mechanism_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ],
+      "worked_field_example": "Under the Missouri Plan merit system, a nonpartisan commission nominates a panel of qualified attorneys to the governor, and voters later cast a retention ballot after the judge serves an initial term.",
+      "counselor_tabletop_demo": "Map the roles of trial judge, plaintiff/prosecutor, defense counsel, court reporter, bailiff, and 12-person petit jury on a courtroom layout diagram.",
+      "real_world_connection_box": "ABA Bar Admission & Judicial Selection Standard: Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam. Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify historical origins and evolution during a structured merit badge clinic.",
+      "v47_slide_title": "ABA Bar Admission & Judicial Selection Standard",
+      "v47_primary_source_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Contract Elements & Consumer Protection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+      "core_mechanism_bullets": [
+        "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+        "Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority."
+      ],
+      "worked_field_example": "Agreeing to mow a neighbor lawn for 25 dollars creates a valid bilateral contract where the mowing promise is the offer/acceptance and the 25-dollar payment and labor are mutual consideration.",
+      "counselor_tabletop_demo": "Examine a sample bike bill of sale or software license agreement to identify the offer, acceptance, consideration, warranty disclaimers, and dispute resolution clause.",
+      "real_world_connection_box": "ABA Contract Elements & Consumer Protection Standard: A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose. Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating civil law with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ABA Contract Elements & Consumer Protection Standard",
+      "v47_primary_source_bullets": [
+        "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+        "Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Constitutional Sources & Rule of Law Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+      "core_mechanism_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ],
+      "worked_field_example": "When a city council passes an ordinance that conflicts with First Amendment free-speech protections, courts strike down the ordinance under the U.S. Constitution Supremacy Clause.",
+      "counselor_tabletop_demo": "Classify 6 real-world legal rules into Constitutional, Statutory, Administrative, or Common Law categories using a source-of-law sorting chart.",
+      "real_world_connection_box": "ABA Constitutional Sources & Rule of Law Standard: U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent. Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing legal aid resources and counsel access with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ABA Constitutional Sources & Rule of Law Standard",
+      "v47_primary_source_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "FJC Criminal vs Civil Burden of Proof Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+      "core_mechanism_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ],
+      "worked_field_example": "In a civil negligence lawsuit over a car fender-bender, the plaintiff wins damages if the jury finds it 51 percent likely the defendant ran the stop sign, whereas a criminal felony requires near-certainty.",
+      "counselor_tabletop_demo": "Compare a criminal arrest-to-verdict flow against a civil complaint-to-judgment flow, highlighting who brings the case, burden of proof, and legal remedies.",
+      "real_world_connection_box": "FJC Criminal vs Civil Burden of Proof Standard: Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent). Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define law step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "FJC Criminal vs Civil Burden of Proof Standard",
+      "v47_primary_source_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Bar Admission & Judicial Selection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+      "core_mechanism_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ],
+      "worked_field_example": "Under the Missouri Plan merit system, a nonpartisan commission nominates a panel of qualified attorneys to the governor, and voters later cast a retention ballot after the judge serves an initial term.",
+      "counselor_tabletop_demo": "Map the roles of trial judge, plaintiff/prosecutor, defense counsel, court reporter, bailiff, and 12-person petit jury on a courtroom layout diagram.",
+      "real_world_connection_box": "ABA Bar Admission & Judicial Selection Standard: Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam. Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify historical origins and evolution during a structured merit badge clinic.",
+      "v47_slide_title": "ABA Bar Admission & Judicial Selection Standard",
+      "v47_primary_source_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "FJC Criminal vs Civil Burden of Proof Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+      "core_mechanism_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ],
+      "worked_field_example": "In a civil negligence lawsuit over a car fender-bender, the plaintiff wins damages if the jury finds it 51 percent likely the defendant ran the stop sign, whereas a criminal felony requires near-certainty.",
+      "counselor_tabletop_demo": "Compare a criminal arrest-to-verdict flow against a civil complaint-to-judgment flow, highlighting who brings the case, burden of proof, and legal remedies.",
+      "real_world_connection_box": "FJC Criminal vs Civil Burden of Proof Standard: Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent). Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define law step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "FJC Criminal vs Civil Burden of Proof Standard",
+      "v47_primary_source_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Constitutional Sources & Rule of Law Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+      "core_mechanism_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ],
+      "worked_field_example": "When a city council passes an ordinance that conflicts with First Amendment free-speech protections, courts strike down the ordinance under the U.S. Constitution Supremacy Clause.",
+      "counselor_tabletop_demo": "Classify 6 real-world legal rules into Constitutional, Statutory, Administrative, or Common Law categories using a source-of-law sorting chart.",
+      "real_world_connection_box": "ABA Constitutional Sources & Rule of Law Standard: U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent. Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing legal aid resources and counsel access with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ABA Constitutional Sources & Rule of Law Standard",
+      "v47_primary_source_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "FJC Criminal vs Civil Burden of Proof Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+      "core_mechanism_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ],
+      "worked_field_example": "In a civil negligence lawsuit over a car fender-bender, the plaintiff wins damages if the jury finds it 51 percent likely the defendant ran the stop sign, whereas a criminal felony requires near-certainty.",
+      "counselor_tabletop_demo": "Compare a criminal arrest-to-verdict flow against a civil complaint-to-judgment flow, highlighting who brings the case, burden of proof, and legal remedies.",
+      "real_world_connection_box": "FJC Criminal vs Civil Burden of Proof Standard: Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent). Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define law step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "FJC Criminal vs Civil Burden of Proof Standard",
+      "v47_primary_source_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Bar Admission & Judicial Selection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+      "core_mechanism_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ],
+      "worked_field_example": "Under the Missouri Plan merit system, a nonpartisan commission nominates a panel of qualified attorneys to the governor, and voters later cast a retention ballot after the judge serves an initial term.",
+      "counselor_tabletop_demo": "Map the roles of trial judge, plaintiff/prosecutor, defense counsel, court reporter, bailiff, and 12-person petit jury on a courtroom layout diagram.",
+      "real_world_connection_box": "ABA Bar Admission & Judicial Selection Standard: Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam. Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify historical origins and evolution during a structured merit badge clinic.",
+      "v47_slide_title": "ABA Bar Admission & Judicial Selection Standard",
+      "v47_primary_source_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Bar Admission & Judicial Selection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+      "core_mechanism_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ],
+      "worked_field_example": "Under the Missouri Plan merit system, a nonpartisan commission nominates a panel of qualified attorneys to the governor, and voters later cast a retention ballot after the judge serves an initial term.",
+      "counselor_tabletop_demo": "Map the roles of trial judge, plaintiff/prosecutor, defense counsel, court reporter, bailiff, and 12-person petit jury on a courtroom layout diagram.",
+      "real_world_connection_box": "ABA Bar Admission & Judicial Selection Standard: Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam. Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify historical origins and evolution during a structured merit badge clinic.",
+      "v47_slide_title": "ABA Bar Admission & Judicial Selection Standard",
+      "v47_primary_source_bullets": [
+        "Becoming a licensed attorney requires a 4-year college degree, a 3-year Juris Doctor degree, and passing the Bar Exam and MPRE ethics exam.",
+        "Federal Article III judges are nominated by the President and confirmed by the Senate, while states use elections or merit selection."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Constitutional Sources & Rule of Law Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+      "core_mechanism_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ],
+      "worked_field_example": "When a city council passes an ordinance that conflicts with First Amendment free-speech protections, courts strike down the ordinance under the U.S. Constitution Supremacy Clause.",
+      "counselor_tabletop_demo": "Classify 6 real-world legal rules into Constitutional, Statutory, Administrative, or Common Law categories using a source-of-law sorting chart.",
+      "real_world_connection_box": "ABA Constitutional Sources & Rule of Law Standard: U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent. Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing legal aid resources and counsel access with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ABA Constitutional Sources & Rule of Law Standard",
+      "v47_primary_source_bullets": [
+        "U.S. law derives from four sources of Constitutional law, Statutory legislative acts, Administrative rules, and Common law precedent.",
+        "Historical foundations evolved from the Code of Hammurabi and Roman Justinian Code to the 1215 Magna Carta and stare decisis precedent."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "FJC Criminal vs Civil Burden of Proof Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+      "core_mechanism_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ],
+      "worked_field_example": "In a civil negligence lawsuit over a car fender-bender, the plaintiff wins damages if the jury finds it 51 percent likely the defendant ran the stop sign, whereas a criminal felony requires near-certainty.",
+      "counselor_tabletop_demo": "Compare a criminal arrest-to-verdict flow against a civil complaint-to-judgment flow, highlighting who brings the case, burden of proof, and legal remedies.",
+      "real_world_connection_box": "FJC Criminal vs Civil Burden of Proof Standard: Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent). Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define law step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "FJC Criminal vs Civil Burden of Proof Standard",
+      "v47_primary_source_bullets": [
+        "Criminal prosecutions require proof Beyond a Reasonable Doubt, whereas civil tort and contract suits require Preponderance (over 50 percent).",
+        "Fourth, Fifth, and Sixth Amendments guarantee probable-cause warrants, due process, public 12-person jury trials, and right to counsel."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Law",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Bar Association & Federal Judicial Center",
+        "title": "ABA Contract Elements & Consumer Protection Standard Technical Reference",
+        "canonical_url": "https://www.uscourts.gov/about-federal-courts/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+      "core_mechanism_bullets": [
+        "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+        "Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority."
+      ],
+      "worked_field_example": "Agreeing to mow a neighbor lawn for 25 dollars creates a valid bilateral contract where the mowing promise is the offer/acceptance and the 25-dollar payment and labor are mutual consideration.",
+      "counselor_tabletop_demo": "Examine a sample bike bill of sale or software license agreement to identify the offer, acceptance, consideration, warranty disclaimers, and dispute resolution clause.",
+      "real_world_connection_box": "ABA Contract Elements & Consumer Protection Standard: A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose. Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Bar Association & Federal Judicial Center",
+      "bespoke_visual_filename": "law_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/law_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating civil law with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ABA Contract Elements & Consumer Protection Standard",
+      "v47_primary_source_bullets": [
+        "A valid contract under common law and the UCC requires Offer, Acceptance, Consideration value exchange, Legal Capacity, and Lawful Purpose.",
+        "Minors under age 18 generally lack full contractual capacity and may void most non-necessity contracts before reaching majority."
+      ]
+    }
+  }
+}

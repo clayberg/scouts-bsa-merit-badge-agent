@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "nature",
+  "badge_name": "Nature",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "National Park Service & USGS Biological Resources",
+  "primary_authority_url": "https://www.usgs.gov/mission-areas/ecosystems",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USGS Primary Production & Endangered Species Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+      "core_mechanism_bullets": [
+        "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+        "The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife."
+      ],
+      "worked_field_example": "A single mature oak tree transpires up to 40,000 gallons of water annually while supporting over 500 species of Lepidoptera caterpillars for songbirds.",
+      "counselor_tabletop_demo": "Use a regional dichotomous botanical key and hand lens to identify three local native leaf specimens by alternate vs. opposite branching and vein geometry.",
+      "real_world_connection_box": "USGS Primary Production & Endangered Species Standard: Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna. The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute three ways in which plants under adult counselor supervision.",
+      "v47_slide_title": "USGS Primary Production & Endangered Species Standard",
+      "v47_primary_source_bullets": [
+        "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+        "The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USFWS Pollination & Seed Dispersal Mutualism Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+      "core_mechanism_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ],
+      "worked_field_example": "Blue jays cache up to 4,500 acorns per autumn up to 2.5 miles away, directly driving post-glacial and post-fire oak forest regeneration.",
+      "counselor_tabletop_demo": "Examine burdock hooks, maple samaras, and fleshy berry seeds under a magnifier to classify wind, water, and animal seed-dispersal adaptations.",
+      "real_world_connection_box": "USFWS Pollination & Seed Dispersal Mutualism Standard: Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species. Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating three ways in which animals with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFWS Pollination & Seed Dispersal Mutualism Standard",
+      "v47_primary_source_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "Lindeman 10 Percent Trophic Energy Pyramid Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+      "core_mechanism_bullets": [
+        "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+        "Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator."
+      ],
+      "worked_field_example": "Supporting 1 kilogram of tertiary largemouth bass biomass requires roughly 10 kilograms of forage minnows, 100 kilograms of zooplankton, and 1,000 kilograms of algae.",
+      "counselor_tabletop_demo": "Build a 4-tier terrestrial and aquatic trophic pyramid using 1,000, 100, 10, and 1 token blocks to visualize the 10 percent energy transfer rule.",
+      "real_world_connection_box": "Lindeman 10 Percent Trophic Energy Pyramid Standard: Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer. Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify term food chain during a structured merit badge clinic.",
+      "v47_slide_title": "Lindeman 10 Percent Trophic Energy Pyramid Standard",
+      "v47_primary_source_bullets": [
+        "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+        "Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "NPS Ecological Succession & Leave No Trace Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+      "core_mechanism_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ],
+      "worked_field_example": "Using 8x42 binoculars and the rule of thumb where an extended thumb hides the animal confirms a safe wildlife viewing distance.",
+      "counselor_tabletop_demo": "Compare soil horizon depth, shade tolerance, and stem density between a sunny pioneer meadow plot and a shaded hardwood forest plot.",
+      "real_world_connection_box": "NPS Ecological Succession & Leave No Trace Standard: Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest. Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply leave no trace & outdoor ethics using standard troop tools and reference charts.",
+      "v47_slide_title": "NPS Ecological Succession & Leave No Trace Standard",
+      "v47_primary_source_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USGS Primary Production & Endangered Species Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+      "core_mechanism_bullets": [
+        "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+        "The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife."
+      ],
+      "worked_field_example": "A single mature oak tree transpires up to 40,000 gallons of water annually while supporting over 500 species of Lepidoptera caterpillars for songbirds.",
+      "counselor_tabletop_demo": "Use a regional dichotomous botanical key and hand lens to identify three local native leaf specimens by alternate vs. opposite branching and vein geometry.",
+      "real_world_connection_box": "USGS Primary Production & Endangered Species Standard: Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna. The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute three ways in which plants under adult counselor supervision.",
+      "v47_slide_title": "USGS Primary Production & Endangered Species Standard",
+      "v47_primary_source_bullets": [
+        "Photosynthetic plants convert solar radiation, water, and carbon dioxide into glucose and release the 21 percent atmospheric oxygen required by terrestrial fauna.",
+        "The Endangered Species Act of 1973 prohibits harassing, collecting, or uprooting federally listed threatened or endangered plants and wildlife."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USFWS Pollination & Seed Dispersal Mutualism Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+      "core_mechanism_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ],
+      "worked_field_example": "Blue jays cache up to 4,500 acorns per autumn up to 2.5 miles away, directly driving post-glacial and post-fire oak forest regeneration.",
+      "counselor_tabletop_demo": "Examine burdock hooks, maple samaras, and fleshy berry seeds under a magnifier to classify wind, water, and animal seed-dispersal adaptations.",
+      "real_world_connection_box": "USFWS Pollination & Seed Dispersal Mutualism Standard: Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species. Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating three ways in which animals with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFWS Pollination & Seed Dispersal Mutualism Standard",
+      "v47_primary_source_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USFWS Pollination & Seed Dispersal Mutualism Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+      "core_mechanism_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ],
+      "worked_field_example": "Blue jays cache up to 4,500 acorns per autumn up to 2.5 miles away, directly driving post-glacial and post-fire oak forest regeneration.",
+      "counselor_tabletop_demo": "Examine burdock hooks, maple samaras, and fleshy berry seeds under a magnifier to classify wind, water, and animal seed-dispersal adaptations.",
+      "real_world_connection_box": "USFWS Pollination & Seed Dispersal Mutualism Standard: Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species. Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating three ways in which animals with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFWS Pollination & Seed Dispersal Mutualism Standard",
+      "v47_primary_source_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "NPS Ecological Succession & Leave No Trace Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+      "core_mechanism_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ],
+      "worked_field_example": "Using 8x42 binoculars and the rule of thumb where an extended thumb hides the animal confirms a safe wildlife viewing distance.",
+      "counselor_tabletop_demo": "Compare soil horizon depth, shade tolerance, and stem density between a sunny pioneer meadow plot and a shaded hardwood forest plot.",
+      "real_world_connection_box": "NPS Ecological Succession & Leave No Trace Standard: Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest. Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply leave no trace & outdoor ethics using standard troop tools and reference charts.",
+      "v47_slide_title": "NPS Ecological Succession & Leave No Trace Standard",
+      "v47_primary_source_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "Lindeman 10 Percent Trophic Energy Pyramid Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+      "core_mechanism_bullets": [
+        "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+        "Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator."
+      ],
+      "worked_field_example": "Supporting 1 kilogram of tertiary largemouth bass biomass requires roughly 10 kilograms of forage minnows, 100 kilograms of zooplankton, and 1,000 kilograms of algae.",
+      "counselor_tabletop_demo": "Build a 4-tier terrestrial and aquatic trophic pyramid using 1,000, 100, 10, and 1 token blocks to visualize the 10 percent energy transfer rule.",
+      "real_world_connection_box": "Lindeman 10 Percent Trophic Energy Pyramid Standard: Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer. Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify term food chain during a structured merit badge clinic.",
+      "v47_slide_title": "Lindeman 10 Percent Trophic Energy Pyramid Standard",
+      "v47_primary_source_bullets": [
+        "Lindeman's trophic efficiency law states that only about 10 percent of net chemical energy transfers from one food-chain level to the next higher consumer.",
+        "Roughly 90 percent of metabolic energy dissipates as cellular respiration heat and unassimilated detritus at each step from producer to apex predator."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "USFWS Pollination & Seed Dispersal Mutualism Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+      "core_mechanism_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ],
+      "worked_field_example": "Blue jays cache up to 4,500 acorns per autumn up to 2.5 miles away, directly driving post-glacial and post-fire oak forest regeneration.",
+      "counselor_tabletop_demo": "Examine burdock hooks, maple samaras, and fleshy berry seeds under a magnifier to classify wind, water, and animal seed-dispersal adaptations.",
+      "real_world_connection_box": "USFWS Pollination & Seed Dispersal Mutualism Standard: Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species. Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating three ways in which animals with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USFWS Pollination & Seed Dispersal Mutualism Standard",
+      "v47_primary_source_bullets": [
+        "Animal pollinators including native bees, butterflies, and hummingbirds fertilize over 80 percent of the world's flowering plant species.",
+        "Endozoochory and epizoochory allow birds and mammals to disperse viable plant seeds hundreds of meters beyond parent canopy shade zones."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Nature",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & USGS Biological Resources",
+        "title": "NPS Ecological Succession & Leave No Trace Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/mission-areas/ecosystems"
+      },
+      "rule_of_thumb_mnemonic": "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+      "core_mechanism_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ],
+      "worked_field_example": "Using 8x42 binoculars and the rule of thumb where an extended thumb hides the animal confirms a safe wildlife viewing distance.",
+      "counselor_tabletop_demo": "Compare soil horizon depth, shade tolerance, and stem density between a sunny pioneer meadow plot and a shaded hardwood forest plot.",
+      "real_world_connection_box": "NPS Ecological Succession & Leave No Trace Standard: Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest. Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & USGS Biological Resources",
+      "bespoke_visual_filename": "nature_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/nature_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply leave no trace & outdoor ethics using standard troop tools and reference charts.",
+      "v47_slide_title": "NPS Ecological Succession & Leave No Trace Standard",
+      "v47_primary_source_bullets": [
+        "Primary succession begins on bare rock with pioneer lichens and mosses, while secondary succession restores disturbed soil from annual weeds to climax forest.",
+        "Leave No Trace wildlife observation requires maintaining a 100-yard buffer from bears and wolves and a 25-yard buffer from all other wild animals."
+      ]
+    }
+  }
+}

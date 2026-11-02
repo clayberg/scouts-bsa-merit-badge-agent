@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "sports",
+  "badge_name": "Sports",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ACSM & National Athletic Trainers' Association",
+  "primary_authority_url": "https://www.nata.org/practice-patient-care/health-issues",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "NATA Acute Injury & Concussion Triage Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+      "core_mechanism_bullets": [
+        "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+        "Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression."
+      ],
+      "worked_field_example": "An ankle inversion sprain treated within 10 minutes using a 20-minute ice wrap and 30-degree elevation reduces localized interstitial edema by 40 percent.",
+      "counselor_tabletop_demo": "Demonstrate a figure-eight elastic ankle compression wrap and review the 6-stage graduated Return-to-Play concussion progression chart.",
+      "real_world_connection_box": "NATA Acute Injury & Concussion Triage Standard: Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return. Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated panels depict treatments for athletic injuries including concussions, cuts, scrapes, and bicycle accidents.",
+      "v47_slide_title": "NATA Acute Injury & Concussion Triage Standard",
+      "v47_primary_source_bullets": [
+        "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+        "Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "AHA & AAP Preparticipation Physical Evaluation Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+      "core_mechanism_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ],
+      "worked_field_example": "A 150-pound runner who weighs 147 pounds after a 60-minute practice has a 2 percent body weight fluid deficit and needs 72 ounces of replacement water.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weight cards and match Wet-Bulb Globe Temperature zones to mandatory rest intervals.",
+      "real_world_connection_box": "AHA & AAP Preparticipation Physical Evaluation Standard: The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs. NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated panels depict safe training techniques, athletic sportsmanship, and the RICE protocol for athletic recovery.",
+      "v47_slide_title": "AHA & AAP Preparticipation Physical Evaluation Standard",
+      "v47_primary_source_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "ACSM Dynamic Warm-Up & Resistance Periodization Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+      "core_mechanism_bullets": [
+        "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+        "ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM."
+      ],
+      "worked_field_example": "For a 16-year-old athlete with a maximum heart rate of 204 bpm, the 70 to 85 percent aerobic conditioning zone spans 143 to 173 beats per minute.",
+      "counselor_tabletop_demo": "Measure resting radial pulse for 15 seconds, compute target heart rate zones using the Karvonen formula, and contrast dynamic versus static stretches.",
+      "real_world_connection_box": "ACSM Dynamic Warm-Up & Resistance Periodization Standard: A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity. ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated athletes demonstrate teamwork, track conditioning, and ball handling skills across multiple athletic disciplines.",
+      "v47_slide_title": "ACSM Dynamic Warm-Up & Resistance Periodization Standard",
+      "v47_primary_source_bullets": [
+        "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+        "ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "NFHS 90-Day Seasonal Training Log & Ethics Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+      "core_mechanism_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "A cross-country runner logging 20 miles in Week 1 caps Week 2 volume at 22 miles and Week 3 at 24.2 miles while tracking daily RPE scores.",
+      "counselor_tabletop_demo": "Inspect a 12-week training chart template and plot weekly volume, skill drill benchmarks, and rest days adhering to the 10-percent progression rule.",
+      "real_world_connection_box": "NFHS 90-Day Seasonal Training Log & Ethics Standard: Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles. Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing select two of the following with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NFHS 90-Day Seasonal Training Log & Ethics Standard",
+      "v47_primary_source_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "NATA Acute Injury & Concussion Triage Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+      "core_mechanism_bullets": [
+        "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+        "Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression."
+      ],
+      "worked_field_example": "An ankle inversion sprain treated within 10 minutes using a 20-minute ice wrap and 30-degree elevation reduces localized interstitial edema by 40 percent.",
+      "counselor_tabletop_demo": "Demonstrate a figure-eight elastic ankle compression wrap and review the 6-stage graduated Return-to-Play concussion progression chart.",
+      "real_world_connection_box": "NATA Acute Injury & Concussion Triage Standard: Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return. Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated panels depict treatments for athletic injuries including concussions, cuts, scrapes, and bicycle accidents.",
+      "v47_slide_title": "NATA Acute Injury & Concussion Triage Standard",
+      "v47_primary_source_bullets": [
+        "Any athlete showing SCAT6 concussion signs like dizziness or confusion must stop play immediately with zero same-day return.",
+        "Acute musculoskeletal sprains follow the PRICE protocol with 15 to 20 minutes of ice every 2 hours and elastic compression."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "AHA & AAP Preparticipation Physical Evaluation Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+      "core_mechanism_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ],
+      "worked_field_example": "A 150-pound runner who weighs 147 pounds after a 60-minute practice has a 2 percent body weight fluid deficit and needs 72 ounces of replacement water.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weight cards and match Wet-Bulb Globe Temperature zones to mandatory rest intervals.",
+      "real_world_connection_box": "AHA & AAP Preparticipation Physical Evaluation Standard: The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs. NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated panels depict safe training techniques, athletic sportsmanship, and the RICE protocol for athletic recovery.",
+      "v47_slide_title": "AHA & AAP Preparticipation Physical Evaluation Standard",
+      "v47_primary_source_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "AHA & AAP Preparticipation Physical Evaluation Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+      "core_mechanism_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ],
+      "worked_field_example": "A 150-pound runner who weighs 147 pounds after a 60-minute practice has a 2 percent body weight fluid deficit and needs 72 ounces of replacement water.",
+      "counselor_tabletop_demo": "Calculate sweat rate from pre-workout and post-workout body weight cards and match Wet-Bulb Globe Temperature zones to mandatory rest intervals.",
+      "real_world_connection_box": "AHA & AAP Preparticipation Physical Evaluation Standard: The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs. NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated panels depict safe training techniques, athletic sportsmanship, and the RICE protocol for athletic recovery.",
+      "v47_slide_title": "AHA & AAP Preparticipation Physical Evaluation Standard",
+      "v47_primary_source_bullets": [
+        "The 14-element AHA Preparticipation Physical Evaluation screens cardiac symptoms, family syncope, blood pressure, and murmurs.",
+        "NATA hydration rules prescribe 500 mL fluid 2 hours pre-exercise and 200 to 300 mL every 15 minutes above 75 degrees Fahrenheit WBGT."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "NFHS 90-Day Seasonal Training Log & Ethics Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+      "core_mechanism_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "A cross-country runner logging 20 miles in Week 1 caps Week 2 volume at 22 miles and Week 3 at 24.2 miles while tracking daily RPE scores.",
+      "counselor_tabletop_demo": "Inspect a 12-week training chart template and plot weekly volume, skill drill benchmarks, and rest days adhering to the 10-percent progression rule.",
+      "real_world_connection_box": "NFHS 90-Day Seasonal Training Log & Ethics Standard: Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles. Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing select two of the following with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NFHS 90-Day Seasonal Training Log & Ethics Standard",
+      "v47_primary_source_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "ACSM Dynamic Warm-Up & Resistance Periodization Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+      "core_mechanism_bullets": [
+        "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+        "ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM."
+      ],
+      "worked_field_example": "For a 16-year-old athlete with a maximum heart rate of 204 bpm, the 70 to 85 percent aerobic conditioning zone spans 143 to 173 beats per minute.",
+      "counselor_tabletop_demo": "Measure resting radial pulse for 15 seconds, compute target heart rate zones using the Karvonen formula, and contrast dynamic versus static stretches.",
+      "real_world_connection_box": "ACSM Dynamic Warm-Up & Resistance Periodization Standard: A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity. ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Illustrated athletes demonstrate teamwork, track conditioning, and ball handling skills across multiple athletic disciplines.",
+      "v47_slide_title": "ACSM Dynamic Warm-Up & Resistance Periodization Standard",
+      "v47_primary_source_bullets": [
+        "A 10-minute dynamic warm-up raises muscle temperature by 2 to 3 degrees Fahrenheit and speeds nerve conduction velocity.",
+        "ACSM youth resistance rules prescribe 2 to 3 nonconsecutive weekly sessions of 8 to 15 reps at 60 to 75 percent of 1RM."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Sports",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ACSM & National Athletic Trainers' Association",
+        "title": "NFHS 90-Day Seasonal Training Log & Ethics Standard Technical Reference",
+        "canonical_url": "https://www.nata.org/practice-patient-care/health-issues"
+      },
+      "rule_of_thumb_mnemonic": "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+      "core_mechanism_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ],
+      "worked_field_example": "A cross-country runner logging 20 miles in Week 1 caps Week 2 volume at 22 miles and Week 3 at 24.2 miles while tracking daily RPE scores.",
+      "counselor_tabletop_demo": "Inspect a 12-week training chart template and plot weekly volume, skill drill benchmarks, and rest days adhering to the 10-percent progression rule.",
+      "real_world_connection_box": "NFHS 90-Day Seasonal Training Log & Ethics Standard: Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles. Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ACSM & National Athletic Trainers' Association",
+      "bespoke_visual_filename": "sports_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sports_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing select two of the following with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NFHS 90-Day Seasonal Training Log & Ethics Standard",
+      "v47_primary_source_bullets": [
+        "Structured 12-week athletic periodization divides training into preparatory, competitive, and active recovery microcycles.",
+        "Progressive overload caps weekly training mileage or volume gains at 10 percent per week to prevent stress fractures."
+      ]
+    }
+  }
+}

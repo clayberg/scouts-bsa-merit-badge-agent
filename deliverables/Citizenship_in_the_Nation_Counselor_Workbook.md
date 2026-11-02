@@ -115,7 +115,7 @@
 
 #### Req 3b: Separation of Governmental Powers
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
-**Official Requirement 3b:** Why it is important to divide powers among different branches (c) How each branch checks and balances the others.
+**Official Requirement 3b:** Why it is important to divide powers among different branches
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Civic & Constitutional Study Organizer):** Req 3b Separation of Powers Study Organizer
 - **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -128,10 +128,10 @@
 | Separation of Powers Principle | Why Dividing Power Protects Liberty | Constitutional / Historical Example |
 | :--- | :--- | :--- |
 | **1. Preventing Concentration of Power (Framers' Constitutional Design)** | Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power. | Verify specific field notes / demonstration |
-| **2. Distinct Roles: Lawmaking (Art. I), Enforcement (Art. II) & Judicial Review (Art. III)** | Scout must individually list Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks and balances the othe) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Distinct Roles: Lawmaking (Art. I), Enforcement (Art. II) & Judicial Review (Art. III)** | Scout must individually list Requirement 3b (Why it is important to divide powers among different branches) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Protecting Individual Liberties & Rule of Law** | Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 3b):** Scout must individually list Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks and balances the othe) to the Counselor.
+**Counselor Verification Standard (Req 3b):** Scout must individually list Requirement 3b (Why it is important to divide powers among different branches) to the Counselor.
 
 #### Req 3c: Checks and Balances Mechanisms
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
@@ -306,7 +306,7 @@
 
 #### Req 6c: National Crises and Obstacles
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
-**Official Requirement 6c:** What difficulties the nation faced that the author wished to discuss (d) What the author said.
+**Official Requirement 6c:** What difficulties the nation faced that the author wished to discuss
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
 - **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
@@ -317,10 +317,10 @@
 | Req 6c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
 | **1. Req 6c Core Concept, Definition & Pamphlet Standard** | The speaker aimed to address severe national difficulties such as armed rebellion, racial injustice, or international threats. Identifying these hurdles clarifies why the speaker chose to intervene with a public address. | Verify specific field notes / demonstration |
-| **2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said) to the Counselor. | Verify specific field notes / demonstration |
+| **2. Req 6c Step-by-Step Procedure, Safety & Equipment Criteria** | Scout must individually explain Requirement 6c (What difficulties the nation faced that the author wished to discuss) to the Counselor. | Verify specific field notes / demonstration |
 | **3. Req 6c Practical Example & Counselor Conference Verification** | The speaker aimed to address severe national difficulties such as armed rebellion, racial injustice, or international threats. Identifying these hurdles clarifies why the speaker chose to intervene with a public address. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 6c):** Scout must individually explain Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said) to the Counselor.
+**Counselor Verification Standard (Req 6c):** Scout must individually explain Requirement 6c (What difficulties the nation faced that the author wished to discuss) to the Counselor.
 
 #### Req 6d: Core Message and Proposals
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*

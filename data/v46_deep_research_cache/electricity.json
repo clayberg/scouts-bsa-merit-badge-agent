@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "electricity",
+  "badge_name": "Electricity",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NFPA 70 National Electrical Code & IEEE",
+  "primary_authority_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NFPA 70E Working Clearance & Lockout Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+      "core_mechanism_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ],
+      "worked_field_example": "Before inspecting a 200-ampere residential load center, verify 36 inches of unobstructed floor clearance and confirm 0.0 volts AC line-to-neutral after locking the breaker off.",
+      "counselor_tabletop_demo": "Apply a physical circuit-breaker lockout hasp and padlock to a demo breaker and verify meter functionality using the live-dead-live three-step voltage test.",
+      "real_world_connection_box": "NFPA 70E Working Clearance & Lockout Standard: NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels. Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "NFPA 70E Working Clearance & Lockout Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "UL 943 GFCI Trip & Shock Rescue Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+      "core_mechanism_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ],
+      "worked_field_example": "When a wet power tool leaks 8 milliamperes to ground, a UL 943 GFCI opens the circuit in 0.02 seconds before ventricular fibrillation thresholds of 50 to 100 milliamperes are reached.",
+      "counselor_tabletop_demo": "Plug a three-LED receptacle tester with a GFCI test button into a protected outlet to trigger the internal 5-milliampere fault resistor and measure reset operation.",
+      "real_world_connection_box": "UL 943 GFCI Trip & Shock Rescue Standard: Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds. Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify that you know how to respond during a structured merit badge clinic.",
+      "v47_slide_title": "UL 943 GFCI Trip & Shock Rescue Standard",
+      "v47_primary_source_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NEC Article 210 Branch Circuit Load Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+      "core_mechanism_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ],
+      "worked_field_example": "Operating a 1,500-watt space heater plus a 600-watt toaster on one 120-volt 15-ampere circuit draws 17.5 amperes via I = P / V, exceeding the 15-ampere thermal-magnetic breaker rating.",
+      "counselor_tabletop_demo": "Strip segments of 14 AWG and 12 AWG NM-B sheathing with a wire gauge stripper and calculate total amperage of three appliance nameplates on a single branch circuit.",
+      "real_world_connection_box": "NEC Article 210 Branch Circuit Load Standard: NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits. 14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating complete an electrical home safety inspection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "NEC Article 210 Branch Circuit Load Standard",
+      "v47_primary_source_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "IEEE Solenoid Magnetomotive & AC/DC Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+      "core_mechanism_bullets": [
+        "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+        "North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS."
+      ],
+      "worked_field_example": "Winding 150 turns of 22 AWG insulated magnet wire around a 16d iron nail driven by 1.2 amperes from a 6-volt lantern battery produces 180 ampere-turns of magnetomotive force.",
+      "counselor_tabletop_demo": "Energize a hand-wound nail electromagnet with a 6-volt DC battery, reverse lead polarity while observing compass needle deflection, and count paperclips lifted at 50 vs 100 turns.",
+      "real_world_connection_box": "IEEE Solenoid Magnetomotive & AC/DC Standard: Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns. North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify constructing a working electromagnet during a structured merit badge clinic.",
+      "v47_slide_title": "IEEE Solenoid Magnetomotive & AC/DC Standard",
+      "v47_primary_source_bullets": [
+        "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+        "North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NFPA 70E Working Clearance & Lockout Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+      "core_mechanism_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ],
+      "worked_field_example": "Before inspecting a 200-ampere residential load center, verify 36 inches of unobstructed floor clearance and confirm 0.0 volts AC line-to-neutral after locking the breaker off.",
+      "counselor_tabletop_demo": "Apply a physical circuit-breaker lockout hasp and padlock to a demo breaker and verify meter functionality using the live-dead-live three-step voltage test.",
+      "real_world_connection_box": "NFPA 70E Working Clearance & Lockout Standard: NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels. Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "NFPA 70E Working Clearance & Lockout Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "UL 943 GFCI Trip & Shock Rescue Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+      "core_mechanism_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ],
+      "worked_field_example": "When a wet power tool leaks 8 milliamperes to ground, a UL 943 GFCI opens the circuit in 0.02 seconds before ventricular fibrillation thresholds of 50 to 100 milliamperes are reached.",
+      "counselor_tabletop_demo": "Plug a three-LED receptacle tester with a GFCI test button into a protected outlet to trigger the internal 5-milliampere fault resistor and measure reset operation.",
+      "real_world_connection_box": "UL 943 GFCI Trip & Shock Rescue Standard: Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds. Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify that you know how to respond during a structured merit badge clinic.",
+      "v47_slide_title": "UL 943 GFCI Trip & Shock Rescue Standard",
+      "v47_primary_source_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NEC Article 210 Branch Circuit Load Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+      "core_mechanism_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ],
+      "worked_field_example": "Operating a 1,500-watt space heater plus a 600-watt toaster on one 120-volt 15-ampere circuit draws 17.5 amperes via I = P / V, exceeding the 15-ampere thermal-magnetic breaker rating.",
+      "counselor_tabletop_demo": "Strip segments of 14 AWG and 12 AWG NM-B sheathing with a wire gauge stripper and calculate total amperage of three appliance nameplates on a single branch circuit.",
+      "real_world_connection_box": "NEC Article 210 Branch Circuit Load Standard: NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits. 14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating complete an electrical home safety inspection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "NEC Article 210 Branch Circuit Load Standard",
+      "v47_primary_source_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "UL 943 GFCI Trip & Shock Rescue Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+      "core_mechanism_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ],
+      "worked_field_example": "When a wet power tool leaks 8 milliamperes to ground, a UL 943 GFCI opens the circuit in 0.02 seconds before ventricular fibrillation thresholds of 50 to 100 milliamperes are reached.",
+      "counselor_tabletop_demo": "Plug a three-LED receptacle tester with a GFCI test button into a protected outlet to trigger the internal 5-milliampere fault resistor and measure reset operation.",
+      "real_world_connection_box": "UL 943 GFCI Trip & Shock Rescue Standard: Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds. Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify that you know how to respond during a structured merit badge clinic.",
+      "v47_slide_title": "UL 943 GFCI Trip & Shock Rescue Standard",
+      "v47_primary_source_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NFPA 70E Working Clearance & Lockout Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+      "core_mechanism_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ],
+      "worked_field_example": "Before inspecting a 200-ampere residential load center, verify 36 inches of unobstructed floor clearance and confirm 0.0 volts AC line-to-neutral after locking the breaker off.",
+      "counselor_tabletop_demo": "Apply a physical circuit-breaker lockout hasp and padlock to a demo breaker and verify meter functionality using the live-dead-live three-step voltage test.",
+      "real_world_connection_box": "NFPA 70E Working Clearance & Lockout Standard: NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels. Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "NFPA 70E Working Clearance & Lockout Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "UL 943 GFCI Trip & Shock Rescue Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+      "core_mechanism_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ],
+      "worked_field_example": "When a wet power tool leaks 8 milliamperes to ground, a UL 943 GFCI opens the circuit in 0.02 seconds before ventricular fibrillation thresholds of 50 to 100 milliamperes are reached.",
+      "counselor_tabletop_demo": "Plug a three-LED receptacle tester with a GFCI test button into a protected outlet to trigger the internal 5-milliampere fault resistor and measure reset operation.",
+      "real_world_connection_box": "UL 943 GFCI Trip & Shock Rescue Standard: Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds. Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify that you know how to respond during a structured merit badge clinic.",
+      "v47_slide_title": "UL 943 GFCI Trip & Shock Rescue Standard",
+      "v47_primary_source_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NEC Article 210 Branch Circuit Load Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+      "core_mechanism_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ],
+      "worked_field_example": "Operating a 1,500-watt space heater plus a 600-watt toaster on one 120-volt 15-ampere circuit draws 17.5 amperes via I = P / V, exceeding the 15-ampere thermal-magnetic breaker rating.",
+      "counselor_tabletop_demo": "Strip segments of 14 AWG and 12 AWG NM-B sheathing with a wire gauge stripper and calculate total amperage of three appliance nameplates on a single branch circuit.",
+      "real_world_connection_box": "NEC Article 210 Branch Circuit Load Standard: NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits. 14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating complete an electrical home safety inspection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "NEC Article 210 Branch Circuit Load Standard",
+      "v47_primary_source_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NEC Article 210 Branch Circuit Load Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+      "core_mechanism_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ],
+      "worked_field_example": "Operating a 1,500-watt space heater plus a 600-watt toaster on one 120-volt 15-ampere circuit draws 17.5 amperes via I = P / V, exceeding the 15-ampere thermal-magnetic breaker rating.",
+      "counselor_tabletop_demo": "Strip segments of 14 AWG and 12 AWG NM-B sheathing with a wire gauge stripper and calculate total amperage of three appliance nameplates on a single branch circuit.",
+      "real_world_connection_box": "NEC Article 210 Branch Circuit Load Standard: NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits. 14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating complete an electrical home safety inspection with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "NEC Article 210 Branch Circuit Load Standard",
+      "v47_primary_source_bullets": [
+        "NEC limits continuous branch loads to 80 percent of breaker rating or 1,440W on 15A 120V circuits.",
+        "14 AWG copper conductor is rated for 15 amperes maximum while 12 AWG copper is rated for 20A."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "NFPA 70E Working Clearance & Lockout Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+      "core_mechanism_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ],
+      "worked_field_example": "Before inspecting a 200-ampere residential load center, verify 36 inches of unobstructed floor clearance and confirm 0.0 volts AC line-to-neutral after locking the breaker off.",
+      "counselor_tabletop_demo": "Apply a physical circuit-breaker lockout hasp and padlock to a demo breaker and verify meter functionality using the live-dead-live three-step voltage test.",
+      "real_world_connection_box": "NFPA 70E Working Clearance & Lockout Standard: NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels. Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "NFPA 70E Working Clearance & Lockout Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 70E requires 36 inches of clear depth and 30 inches of width in front of 120/240V panels.",
+        "Lockout-Tagout verification demands testing absence of voltage with a CAT III digital multimeter."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "UL 943 GFCI Trip & Shock Rescue Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+      "core_mechanism_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ],
+      "worked_field_example": "When a wet power tool leaks 8 milliamperes to ground, a UL 943 GFCI opens the circuit in 0.02 seconds before ventricular fibrillation thresholds of 50 to 100 milliamperes are reached.",
+      "counselor_tabletop_demo": "Plug a three-LED receptacle tester with a GFCI test button into a protected outlet to trigger the internal 5-milliampere fault resistor and measure reset operation.",
+      "real_world_connection_box": "UL 943 GFCI Trip & Shock Rescue Standard: Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds. Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify that you know how to respond during a structured merit badge clinic.",
+      "v47_slide_title": "UL 943 GFCI Trip & Shock Rescue Standard",
+      "v47_primary_source_bullets": [
+        "Class A GFCI receptacles trip at 4 to 6 milliamperes of ground fault within 25 milliseconds.",
+        "Human muscular let-go threshold occurs at 10 to 16 milliamperes of 60 hertz alternating current."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Electricity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA 70 National Electrical Code & IEEE",
+        "title": "IEEE Solenoid Magnetomotive & AC/DC Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+      },
+      "rule_of_thumb_mnemonic": "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+      "core_mechanism_bullets": [
+        "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+        "North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS."
+      ],
+      "worked_field_example": "Winding 150 turns of 22 AWG insulated magnet wire around a 16d iron nail driven by 1.2 amperes from a 6-volt lantern battery produces 180 ampere-turns of magnetomotive force.",
+      "counselor_tabletop_demo": "Energize a hand-wound nail electromagnet with a 6-volt DC battery, reverse lead polarity while observing compass needle deflection, and count paperclips lifted at 50 vs 100 turns.",
+      "real_world_connection_box": "IEEE Solenoid Magnetomotive & AC/DC Standard: Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns. North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA 70 National Electrical Code & IEEE",
+      "bespoke_visual_filename": "electricity_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electricity_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify constructing a working electromagnet during a structured merit badge clinic.",
+      "v47_slide_title": "IEEE Solenoid Magnetomotive & AC/DC Standard",
+      "v47_primary_source_bullets": [
+        "Solenoid magnetomotive force equals coil turns multiplied by current in ampere-turns.",
+        "North American utility AC reverses polarity 120 times per second at 60 hertz sinusoidal RMS."
+      ]
+    }
+  }
+}

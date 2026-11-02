@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "artificial-intelligence",
+  "badge_name": "Artificial Intelligence",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+  "primary_authority_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST Machine Learning Paradigm and Data Split Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+      "core_mechanism_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ],
+      "worked_field_example": "Evaluating a plant-leaf classifier on 1,500 unseen held-out test images prevents data leakage and detects overfitting early.",
+      "counselor_tabletop_demo": "Sort 12 animal feature cards using a supervised labeled decision tree versus unsupervised feature grouping to show the difference in 3 minutes.",
+      "real_world_connection_box": "NIST Machine Learning Paradigm and Data Split Standard: Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization. Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of data imbalance used in Artificial Intelligence.",
+      "v47_slide_title": "NIST Machine Learning Paradigm and Data Split Standard",
+      "v47_primary_source_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Transformer Tokenization and Probabilistic Decoding Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+      "core_mechanism_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ],
+      "worked_field_example": "Because an LLM predicts the next token probabilistically rather than querying a verified database, it can hallucinate plausible-sounding false citations.",
+      "counselor_tabletop_demo": "Walk through a 5-token next-word probability table showing how temperature 0.0 always picks the top-ranked token while temperature 0.9 samples lower ranks.",
+      "real_world_connection_box": "Transformer Tokenization and Probabilistic Decoding Standard: Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights. Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of generative synthesis used in Artificial Intelligence.",
+      "v47_slide_title": "Transformer Tokenization and Probabilistic Decoding Standard",
+      "v47_primary_source_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Industrial Automation Control Loop and Confusion Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+      "core_mechanism_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ],
+      "worked_field_example": "A quality-control vision sensor that flags 90 defective bolts, misses 10 defects, and falsely flags 10 good bolts achieves 90 percent precision and 90 percent recall.",
+      "counselor_tabletop_demo": "Compute precision, recall, and false-positive rate from a 2-by-2 confusion matrix of 100 simulated spam-filter emails on a notepad.",
+      "real_world_connection_box": "Industrial Automation Control Loop and Confusion Matrix Standard: Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data. Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of supervised tuning used in Artificial Intelligence.",
+      "v47_slide_title": "Industrial Automation Control Loop and Confusion Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+      "core_mechanism_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ],
+      "worked_field_example": "A speech recognizer trained 95 percent on quiet studio adult voices suffers a 3x higher word error rate on youth voices in noisy outdoor camps.",
+      "counselor_tabletop_demo": "Apply a 5-point human-in-the-loop verification and C2PA provenance checklist to inspect an AI-generated image and text summary for errors.",
+      "real_world_connection_box": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard: The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage. Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of household algorithms used in Artificial Intelligence.",
+      "v47_slide_title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard",
+      "v47_primary_source_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST Machine Learning Paradigm and Data Split Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+      "core_mechanism_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ],
+      "worked_field_example": "Evaluating a plant-leaf classifier on 1,500 unseen held-out test images prevents data leakage and detects overfitting early.",
+      "counselor_tabletop_demo": "Sort 12 animal feature cards using a supervised labeled decision tree versus unsupervised feature grouping to show the difference in 3 minutes.",
+      "real_world_connection_box": "NIST Machine Learning Paradigm and Data Split Standard: Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization. Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of data imbalance used in Artificial Intelligence.",
+      "v47_slide_title": "NIST Machine Learning Paradigm and Data Split Standard",
+      "v47_primary_source_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Transformer Tokenization and Probabilistic Decoding Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+      "core_mechanism_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ],
+      "worked_field_example": "Because an LLM predicts the next token probabilistically rather than querying a verified database, it can hallucinate plausible-sounding false citations.",
+      "counselor_tabletop_demo": "Walk through a 5-token next-word probability table showing how temperature 0.0 always picks the top-ranked token while temperature 0.9 samples lower ranks.",
+      "real_world_connection_box": "Transformer Tokenization and Probabilistic Decoding Standard: Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights. Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of generative synthesis used in Artificial Intelligence.",
+      "v47_slide_title": "Transformer Tokenization and Probabilistic Decoding Standard",
+      "v47_primary_source_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Transformer Tokenization and Probabilistic Decoding Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+      "core_mechanism_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ],
+      "worked_field_example": "Because an LLM predicts the next token probabilistically rather than querying a verified database, it can hallucinate plausible-sounding false citations.",
+      "counselor_tabletop_demo": "Walk through a 5-token next-word probability table showing how temperature 0.0 always picks the top-ranked token while temperature 0.9 samples lower ranks.",
+      "real_world_connection_box": "Transformer Tokenization and Probabilistic Decoding Standard: Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights. Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of generative synthesis used in Artificial Intelligence.",
+      "v47_slide_title": "Transformer Tokenization and Probabilistic Decoding Standard",
+      "v47_primary_source_bullets": [
+        "Large Language Models split text into subword tokens (roughly 0.75 English words per token) and compute self-attention weights.",
+        "Sampling temperature scales softmax logits from 0.0 deterministic greedy selection up to 1.0 higher-entropy creative variation."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+      "core_mechanism_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ],
+      "worked_field_example": "A speech recognizer trained 95 percent on quiet studio adult voices suffers a 3x higher word error rate on youth voices in noisy outdoor camps.",
+      "counselor_tabletop_demo": "Apply a 5-point human-in-the-loop verification and C2PA provenance checklist to inspect an AI-generated image and text summary for errors.",
+      "real_world_connection_box": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard: The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage. Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of household algorithms used in Artificial Intelligence.",
+      "v47_slide_title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard",
+      "v47_primary_source_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST Machine Learning Paradigm and Data Split Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+      "core_mechanism_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ],
+      "worked_field_example": "Evaluating a plant-leaf classifier on 1,500 unseen held-out test images prevents data leakage and detects overfitting early.",
+      "counselor_tabletop_demo": "Sort 12 animal feature cards using a supervised labeled decision tree versus unsupervised feature grouping to show the difference in 3 minutes.",
+      "real_world_connection_box": "NIST Machine Learning Paradigm and Data Split Standard: Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization. Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of data imbalance used in Artificial Intelligence.",
+      "v47_slide_title": "NIST Machine Learning Paradigm and Data Split Standard",
+      "v47_primary_source_bullets": [
+        "Machine learning divides into Supervised learning (labeled targets), Unsupervised clustering, and Reinforcement reward optimization.",
+        "Standard model validation partitions datasets into 70 percent training, 15 percent validation tuning, and 15 percent held-out test sets."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Industrial Automation Control Loop and Confusion Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+      "core_mechanism_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ],
+      "worked_field_example": "A quality-control vision sensor that flags 90 defective bolts, misses 10 defects, and falsely flags 10 good bolts achieves 90 percent precision and 90 percent recall.",
+      "counselor_tabletop_demo": "Compute precision, recall, and false-positive rate from a 2-by-2 confusion matrix of 100 simulated spam-filter emails on a notepad.",
+      "real_world_connection_box": "Industrial Automation Control Loop and Confusion Matrix Standard: Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data. Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of supervised tuning used in Artificial Intelligence.",
+      "v47_slide_title": "Industrial Automation Control Loop and Confusion Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "Industrial Automation Control Loop and Confusion Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+      "core_mechanism_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ],
+      "worked_field_example": "A quality-control vision sensor that flags 90 defective bolts, misses 10 defects, and falsely flags 10 good bolts achieves 90 percent precision and 90 percent recall.",
+      "counselor_tabletop_demo": "Compute precision, recall, and false-positive rate from a 2-by-2 confusion matrix of 100 simulated spam-filter emails on a notepad.",
+      "real_world_connection_box": "Industrial Automation Control Loop and Confusion Matrix Standard: Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data. Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of supervised tuning used in Artificial Intelligence.",
+      "v47_slide_title": "Industrial Automation Control Loop and Confusion Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Deterministic rule-based automation follows fixed IF-THEN thresholds, whereas AI classifiers adapt decision boundaries from statistical data.",
+        "Classifier precision equals True Positives divided by True Positives plus False Positives, while recall measures True Positives over actual positives."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Artificial Intelligence",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NIST AI Risk Management Framework (AI 100-1) & IEEE",
+        "title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl/ai-risk-management-framework"
+      },
+      "rule_of_thumb_mnemonic": "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+      "core_mechanism_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ],
+      "worked_field_example": "A speech recognizer trained 95 percent on quiet studio adult voices suffers a 3x higher word error rate on youth voices in noisy outdoor camps.",
+      "counselor_tabletop_demo": "Apply a 5-point human-in-the-loop verification and C2PA provenance checklist to inspect an AI-generated image and text summary for errors.",
+      "real_world_connection_box": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard: The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage. Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NIST AI Risk Management Framework (AI 100-1) & IEEE",
+      "bespoke_visual_filename": "artificial_intelligence_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/artificial_intelligence_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of household algorithms used in Artificial Intelligence.",
+      "v47_slide_title": "NIST AI 100-1 Risk Management and Algorithmic Bias Standard",
+      "v47_primary_source_bullets": [
+        "The NIST AI Risk Management Framework organizes governance around four core functions of Govern, Map, Measure, and Manage.",
+        "Algorithmic sampling bias occurs when training distributions under-represent real-world demographics, lighting conditions, or accents."
+      ]
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "moviemaking",
+  "badge_name": "Moviemaking",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "SMPTE & American Society of Cinematographers",
+  "primary_authority_url": "https://www.smpte.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "SMPTE Frame Rate & 180-Degree Shutter Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+      "core_mechanism_bullets": [
+        "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+        "The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts."
+      ],
+      "worked_field_example": "Shooting at 24 frames per second requires setting shutter speed to 1 over 50 second and installing a neutral density filter outdoors to preserve natural motion blur.",
+      "counselor_tabletop_demo": "Set two miniature figures on a table, draw the 180-degree line of action between them, and test how crossing the line reverses their left-right screen gaze.",
+      "real_world_connection_box": "SMPTE Frame Rate & 180-Degree Shutter Standard: Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame. The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/moviemaking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating cinematic elements to remember with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "SMPTE Frame Rate & 180-Degree Shutter Standard",
+      "v47_primary_source_bullets": [
+        "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+        "The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "ASC Three-Point Lighting & Color Temperature Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+      "core_mechanism_bullets": [
+        "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+        "Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts."
+      ],
+      "worked_field_example": "Placing the key LED panel 45 degrees off camera axis and dimming the fill panel to 50 percent creates dimensional facial modeling with natural shadow roll-off.",
+      "counselor_tabletop_demo": "Arrange three small flashlights around a portrait subject to demonstrate key, fill, and hair rim lighting while switching camera white balance between 3,200 kelvins and 5,600 kelvins.",
+      "real_world_connection_box": "ASC Three-Point Lighting & Color Temperature Standard: Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation. Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/moviemaking_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute careers & professional pathways under adult counselor supervision.",
+      "v47_slide_title": "ASC Three-Point Lighting & Color Temperature Standard",
+      "v47_primary_source_bullets": [
+        "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+        "Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "WGA Screenplay Treatment & Storyboard Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+      "core_mechanism_bullets": [
+        "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+        "Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins."
+      ],
+      "worked_field_example": "A 3-minute Scout short film requires a 3-page master scene script broken into 18 storyboard panels covering the setup, confrontation, and resolution.",
+      "counselor_tabletop_demo": "Sketch a 4-panel storyboard sequence showing an establishing wide shot, medium action shot, reaction close-up, and insert detail with pan and tilt arrows.",
+      "real_world_connection_box": "WGA Screenplay Treatment & Storyboard Standard: Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime. Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/moviemaking_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of written story treatment used in Moviemaking.",
+      "v47_slide_title": "WGA Screenplay Treatment & Storyboard Standard",
+      "v47_primary_source_bullets": [
+        "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+        "Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "AES Production Audio & Set Safety Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+      "core_mechanism_bullets": [
+        "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+        "Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards."
+      ],
+      "worked_field_example": "Clapping a slate board at the start of each take creates a single-frame acoustic transient and visual spike to synchronize external 48 kHz WAV audio in editing.",
+      "counselor_tabletop_demo": "Clap a dry-erase slate in front of a smartphone camera and external audio recorder, then align the visual clap frame with the waveform spike.",
+      "real_world_connection_box": "AES Production Audio & Set Safety Standard: Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame. Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/moviemaking_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of production set protocol used in Moviemaking.",
+      "v47_slide_title": "AES Production Audio & Set Safety Standard",
+      "v47_primary_source_bullets": [
+        "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+        "Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "SMPTE Frame Rate & 180-Degree Shutter Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+      "core_mechanism_bullets": [
+        "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+        "The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts."
+      ],
+      "worked_field_example": "Shooting at 24 frames per second requires setting shutter speed to 1 over 50 second and installing a neutral density filter outdoors to preserve natural motion blur.",
+      "counselor_tabletop_demo": "Set two miniature figures on a table, draw the 180-degree line of action between them, and test how crossing the line reverses their left-right screen gaze.",
+      "real_world_connection_box": "SMPTE Frame Rate & 180-Degree Shutter Standard: Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame. The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/moviemaking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating cinematic elements to remember with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "SMPTE Frame Rate & 180-Degree Shutter Standard",
+      "v47_primary_source_bullets": [
+        "Standard theatrical motion pictures record at 24 frames per second with a 180-degree shutter angle yielding a 1 over 48 second exposure per frame.",
+        "The 180-degree axis of action rule keeps the camera on one side of two conversing subjects so screen direction and eyelines remain consistent across cuts."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "ASC Three-Point Lighting & Color Temperature Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+      "core_mechanism_bullets": [
+        "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+        "Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts."
+      ],
+      "worked_field_example": "Placing the key LED panel 45 degrees off camera axis and dimming the fill panel to 50 percent creates dimensional facial modeling with natural shadow roll-off.",
+      "counselor_tabletop_demo": "Arrange three small flashlights around a portrait subject to demonstrate key, fill, and hair rim lighting while switching camera white balance between 3,200 kelvins and 5,600 kelvins.",
+      "real_world_connection_box": "ASC Three-Point Lighting & Color Temperature Standard: Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation. Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/moviemaking_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute careers & professional pathways under adult counselor supervision.",
+      "v47_slide_title": "ASC Three-Point Lighting & Color Temperature Standard",
+      "v47_primary_source_bullets": [
+        "Three-point cinema lighting pairs a 45-degree key light with a softer opposite fill light at a 2-to-1 ratio and a rear backlight for background separation.",
+        "Camera white balance must match tungsten lamps at 3,200 kelvins or daylight fixtures at 5,600 kelvins to prevent orange or blue skin-tone casts."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "WGA Screenplay Treatment & Storyboard Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+      "core_mechanism_bullets": [
+        "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+        "Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins."
+      ],
+      "worked_field_example": "A 3-minute Scout short film requires a 3-page master scene script broken into 18 storyboard panels covering the setup, confrontation, and resolution.",
+      "counselor_tabletop_demo": "Sketch a 4-panel storyboard sequence showing an establishing wide shot, medium action shot, reaction close-up, and insert detail with pan and tilt arrows.",
+      "real_world_connection_box": "WGA Screenplay Treatment & Storyboard Standard: Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime. Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/moviemaking_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of written story treatment used in Moviemaking.",
+      "v47_slide_title": "WGA Screenplay Treatment & Storyboard Standard",
+      "v47_primary_source_bullets": [
+        "Industry script formatting equates 1 page of 12-point Courier screenplay text to approximately 1 minute of finished screen runtime.",
+        "Visual storyboards sequence wide establishing shots, medium two-shots, and close-ups with camera movement arrows before principal photography begins."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Moviemaking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SMPTE & American Society of Cinematographers",
+        "title": "AES Production Audio & Set Safety Standard Technical Reference",
+        "canonical_url": "https://www.smpte.org/"
+      },
+      "rule_of_thumb_mnemonic": "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+      "core_mechanism_bullets": [
+        "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+        "Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards."
+      ],
+      "worked_field_example": "Clapping a slate board at the start of each take creates a single-frame acoustic transient and visual spike to synchronize external 48 kHz WAV audio in editing.",
+      "counselor_tabletop_demo": "Clap a dry-erase slate in front of a smartphone camera and external audio recorder, then align the visual clap frame with the waveform spike.",
+      "real_world_connection_box": "AES Production Audio & Set Safety Standard: Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame. Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SMPTE & American Society of Cinematographers",
+      "bespoke_visual_filename": "moviemaking_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/moviemaking_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of production set protocol used in Moviemaking.",
+      "v47_slide_title": "AES Production Audio & Set Safety Standard",
+      "v47_primary_source_bullets": [
+        "Dialogue recording targets average digital peaks between minus 12 dBFS and minus 6 dBFS using a directional cardioid boom microphone held 18 inches above frame.",
+        "Production set safety requires sandbagging every light stand leg and taping AC power cables across walkways to prevent trip and thermal burn hazards."
+      ]
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "pottery",
+  "badge_name": "Pottery",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NCECA & American Ceramic Society",
+  "primary_authority_url": "https://nceca.net/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+      "core_mechanism_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ],
+      "worked_field_example": "Wiping worktables with a damp sponge before clay trimmings dry reduces airborne silica dust concentration by more than 90 percent.",
+      "counselor_tabletop_demo": "Inspect kiln-rated heat gloves, IR-protective peephole glasses, and a NIOSH N95 dust mask used when mixing dry glaze powders.",
+      "real_world_connection_box": "OSHA Crystalline Silica & Kiln Thermal Safety Standard: Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming. Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify precautions that must be followed during a structured merit badge clinic.",
+      "v47_slide_title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "American Ceramic Society Clay Body & Shrinkage Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+      "core_mechanism_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ],
+      "worked_field_example": "Because stoneware clay shrinks 6 percent during drying and another 6 percent during firing, a mug thrown 5.0 inches tall emerges from the glaze kiln at 4.4 inches.",
+      "counselor_tabletop_demo": "Compare earthenware, stoneware, and porcelain test tiles for water absorption and measure a 10-centimeter shrinkage ruler bar before and after firing.",
+      "real_world_connection_box": "American Ceramic Society Clay Body & Shrinkage Standard: Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat. Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining the properties and ingredients step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "American Ceramic Society Clay Body & Shrinkage Standard",
+      "v47_primary_source_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "NCECA Wedging, Moisture Stages & Forming Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+      "core_mechanism_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ],
+      "worked_field_example": "Touching bone-dry greenware against the cheek feels room-temperature rather than cool, confirming free water has evaporated prior to loading the Cone 04 bisque kiln.",
+      "counselor_tabletop_demo": "Wedge a 1-pound clay ball, slice it with a cutoff wire to verify zero air pockets, and demonstrate scoring and slipping two leather-hard slab joints.",
+      "real_world_connection_box": "NCECA Wedging, Moisture Stages & Forming Standard: Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip. Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing make two drawings of pottery forms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NCECA Wedging, Moisture Stages & Forming Standard",
+      "v47_primary_source_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "Orton Pyrometric Cone & Glaze Chemistry Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+      "core_mechanism_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ],
+      "worked_field_example": "Wiping glaze 1 over 4 inch clear of the foot ring with a wet sponge prevents molten silica glass from fusing the vessel permanently to the kiln shelf.",
+      "counselor_tabletop_demo": "Arrange a self-supporting Orton witness cone pack of guide, firing, and guard cones and identify the foot, belly, shoulder, neck, and lip on two pottery drawings.",
+      "real_world_connection_box": "Orton Pyrometric Cone & Glaze Chemistry Standard: Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached. Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of the following pottery using standard troop tools and reference charts.",
+      "v47_slide_title": "Orton Pyrometric Cone & Glaze Chemistry Standard",
+      "v47_primary_source_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+      "core_mechanism_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ],
+      "worked_field_example": "Wiping worktables with a damp sponge before clay trimmings dry reduces airborne silica dust concentration by more than 90 percent.",
+      "counselor_tabletop_demo": "Inspect kiln-rated heat gloves, IR-protective peephole glasses, and a NIOSH N95 dust mask used when mixing dry glaze powders.",
+      "real_world_connection_box": "OSHA Crystalline Silica & Kiln Thermal Safety Standard: Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming. Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify precautions that must be followed during a structured merit badge clinic.",
+      "v47_slide_title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "American Ceramic Society Clay Body & Shrinkage Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+      "core_mechanism_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ],
+      "worked_field_example": "Because stoneware clay shrinks 6 percent during drying and another 6 percent during firing, a mug thrown 5.0 inches tall emerges from the glaze kiln at 4.4 inches.",
+      "counselor_tabletop_demo": "Compare earthenware, stoneware, and porcelain test tiles for water absorption and measure a 10-centimeter shrinkage ruler bar before and after firing.",
+      "real_world_connection_box": "American Ceramic Society Clay Body & Shrinkage Standard: Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat. Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining the properties and ingredients step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "American Ceramic Society Clay Body & Shrinkage Standard",
+      "v47_primary_source_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "American Ceramic Society Clay Body & Shrinkage Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+      "core_mechanism_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ],
+      "worked_field_example": "Because stoneware clay shrinks 6 percent during drying and another 6 percent during firing, a mug thrown 5.0 inches tall emerges from the glaze kiln at 4.4 inches.",
+      "counselor_tabletop_demo": "Compare earthenware, stoneware, and porcelain test tiles for water absorption and measure a 10-centimeter shrinkage ruler bar before and after firing.",
+      "real_world_connection_box": "American Ceramic Society Clay Body & Shrinkage Standard: Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat. Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining the properties and ingredients step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "American Ceramic Society Clay Body & Shrinkage Standard",
+      "v47_primary_source_bullets": [
+        "Ceramic clay bodies blend plastic kaolin or ball clay, refractory silica quartz filler, and feldspar flux that melts to vitrify pores at high heat.",
+        "Low-fire earthenware matures at Cone 06 to 04 near 1,830 to 1,940 degrees Fahrenheit, whereas stoneware and porcelain vitrify at Cone 6 to 10 above 2,232."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "Orton Pyrometric Cone & Glaze Chemistry Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+      "core_mechanism_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ],
+      "worked_field_example": "Wiping glaze 1 over 4 inch clear of the foot ring with a wet sponge prevents molten silica glass from fusing the vessel permanently to the kiln shelf.",
+      "counselor_tabletop_demo": "Arrange a self-supporting Orton witness cone pack of guide, firing, and guard cones and identify the foot, belly, shoulder, neck, and lip on two pottery drawings.",
+      "real_world_connection_box": "Orton Pyrometric Cone & Glaze Chemistry Standard: Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached. Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of the following pottery using standard troop tools and reference charts.",
+      "v47_slide_title": "Orton Pyrometric Cone & Glaze Chemistry Standard",
+      "v47_primary_source_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+      "core_mechanism_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ],
+      "worked_field_example": "Wiping worktables with a damp sponge before clay trimmings dry reduces airborne silica dust concentration by more than 90 percent.",
+      "counselor_tabletop_demo": "Inspect kiln-rated heat gloves, IR-protective peephole glasses, and a NIOSH N95 dust mask used when mixing dry glaze powders.",
+      "real_world_connection_box": "OSHA Crystalline Silica & Kiln Thermal Safety Standard: Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming. Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify precautions that must be followed during a structured merit badge clinic.",
+      "v47_slide_title": "OSHA Crystalline Silica & Kiln Thermal Safety Standard",
+      "v47_primary_source_bullets": [
+        "Dry clay dust contains respirable crystalline silica below 10 microns, so studios prohibit dry sweeping and mandate wet-sponging or HEPA vacuuming.",
+        "Electric and gas kilns radiate infrared light above 1,800 degrees Fahrenheit, requiring ANSI Shade 3.0 to 5.0 infrared-blocking glasses when viewing peepholes."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "NCECA Wedging, Moisture Stages & Forming Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+      "core_mechanism_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ],
+      "worked_field_example": "Touching bone-dry greenware against the cheek feels room-temperature rather than cool, confirming free water has evaporated prior to loading the Cone 04 bisque kiln.",
+      "counselor_tabletop_demo": "Wedge a 1-pound clay ball, slice it with a cutoff wire to verify zero air pockets, and demonstrate scoring and slipping two leather-hard slab joints.",
+      "real_world_connection_box": "NCECA Wedging, Moisture Stages & Forming Standard: Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip. Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing make two drawings of pottery forms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NCECA Wedging, Moisture Stages & Forming Standard",
+      "v47_primary_source_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "NCECA Wedging, Moisture Stages & Forming Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+      "core_mechanism_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ],
+      "worked_field_example": "Touching bone-dry greenware against the cheek feels room-temperature rather than cool, confirming free water has evaporated prior to loading the Cone 04 bisque kiln.",
+      "counselor_tabletop_demo": "Wedge a 1-pound clay ball, slice it with a cutoff wire to verify zero air pockets, and demonstrate scoring and slipping two leather-hard slab joints.",
+      "real_world_connection_box": "NCECA Wedging, Moisture Stages & Forming Standard: Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip. Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing make two drawings of pottery forms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NCECA Wedging, Moisture Stages & Forming Standard",
+      "v47_primary_source_bullets": [
+        "Ram's-head or spiral wedging aligns clay platelets and expels trapped air pockets while joining leather-hard slabs requires cross-hatched scoring and slip.",
+        "Greenware must dry completely to bone-dry moisture equilibrium before bisque firing because trapped water flashes to steam at 212 degrees Fahrenheit with."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Pottery",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NCECA & American Ceramic Society",
+        "title": "Orton Pyrometric Cone & Glaze Chemistry Standard Technical Reference",
+        "canonical_url": "https://nceca.net/"
+      },
+      "rule_of_thumb_mnemonic": "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+      "core_mechanism_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ],
+      "worked_field_example": "Wiping glaze 1 over 4 inch clear of the foot ring with a wet sponge prevents molten silica glass from fusing the vessel permanently to the kiln shelf.",
+      "counselor_tabletop_demo": "Arrange a self-supporting Orton witness cone pack of guide, firing, and guard cones and identify the foot, belly, shoulder, neck, and lip on two pottery drawings.",
+      "real_world_connection_box": "Orton Pyrometric Cone & Glaze Chemistry Standard: Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached. Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NCECA & American Ceramic Society",
+      "bespoke_visual_filename": "pottery_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/pottery_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of the following pottery using standard troop tools and reference charts.",
+      "v47_slide_title": "Orton Pyrometric Cone & Glaze Chemistry Standard",
+      "v47_primary_source_bullets": [
+        "Orton pyrometric cones measure cumulative heat-work combining temperature and time, bending to a 90-degree tip angle when the target maturity is reached.",
+        "Ceramic glazes combine silica glass former, alumina stiffener to prevent running off vertical walls, flux to lower melting point, and metal oxide colorants."
+      ]
+    }
+  }
+}

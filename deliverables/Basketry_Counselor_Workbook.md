@@ -1,8 +1,8 @@
 # Basketry Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Basketry.pdf  
-**Digital Resource Guide (DRG):** 
+**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/basketry/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/basketry/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -44,7 +44,7 @@
 - **Common Myth:** Dull craft shears are safer than sharp shears when trimming thick basket stakes.
 - **Pamphlet Fact:** Dull blades slip off round reed fibers, increasing the likelihood of painful hand injuries.
 
-![Tool Handling Protocol diagram illustrating how always cut tough reed splints directly away from your body using shears.](/assets/pamphlet_images/basketry_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of tool handling protocol used in Basketry.](/assets/pamphlet_images/basketry_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -89,7 +89,7 @@
 - **Common Myth:** Coiled baskets use identical over-and-under weaving actions as wicker and ribbed baskets.
 - **Pamphlet Fact:** Coiled baskets rely on continuous sewing stitches that bind successive rounds of core material.
 
-![Plaited Structure Trait diagram illustrating how interlacing flat parallel splints creates checkerboard patterns across the basket wall.](/assets/pamphlet_images/basketry_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of plaited structure trait used in Basketry.](/assets/pamphlet_images/basketry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

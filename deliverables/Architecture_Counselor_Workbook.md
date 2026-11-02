@@ -1,8 +1,8 @@
 # Architecture Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Architecture_Landscape.pdf  
-**Digital Resource Guide (DRG):** 
+**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/architecture/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/architecture/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -48,7 +48,7 @@
 - **Common Myth:** Older buildings always fall into the Victorian style category.
 - **Pamphlet Fact:** American architectural history includes Federal, Italianate, Craftsman, and Art Deco styles with distinct structural hallmarks.
 
-![Historic Style Identification diagram illustrating how exterior moldings and window pediments reveal specific construction eras in regional neighborhoods.](/assets/pamphlet_images/architecture_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of historic style identification used in Architecture.](/assets/pamphlet_images/architecture_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -94,7 +94,7 @@
 - **Common Myth:** Sustainable buildings cost drastically more to operate throughout their useful structural lifespan.
 - **Pamphlet Fact:** Reduced utility consumption and durable envelopes significantly lower long-term operating and maintenance expenses.
 
-![Passive Solar Orientation diagram illustrating how placing large glazed openings along southern walls maximizes natural winter daytime heating.](/assets/pamphlet_images/architecture_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of passive solar orientation used in Architecture.](/assets/pamphlet_images/architecture_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -176,7 +176,7 @@
 - **Common Myth:** Architects spend all their workdays drawing pretty pictures by hand.
 - **Pamphlet Fact:** Professional architects coordinate engineering calculations, local zoning codes, contractor submittals, and material budgets.
 
-![Contract Document Packages diagram illustrating how working drawings detail dimensions, wall cross-sections, and finish schedules for trade contractors.](/assets/pamphlet_images/architecture_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of contract document packages used in Architecture.](/assets/pamphlet_images/architecture_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -250,7 +250,7 @@
 | **3. Neatly label your drawing with the following: your name, the date, what room you drew, and the scale of the drawing** | Standard Symbol Conventions: Curved quarter-circle arcs show door swing direction while double lines mark window openings. | Verify specific field notes / demonstration |
 | **4. (Drawing scale: ¼ inch = 1 foot)** | Continuous dimension lines running along walls show overall exterior and interior room bounds. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 4):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 4 (measuring rooms and scaled floor plans) before signing the blue card.
+**Counselor Verification Standard (Req 4):** Scout must individually explain mastery of Requirement 4 to the Merit Badge Counselor.
 
 ### Req 5: Architectural Career Pathway Analysis
 **Official Requirement 5:** Find out about three career opportunities in architecture. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why this profession might interest you.
@@ -277,4 +277,4 @@
 | **2. Pick one and find out the education, training, and experience required for this profession.** | Practical Experience Documentation: Interns document thousands of diverse professional training hours through the Architectural Experience Program. | Verify specific field notes / demonstration |
 | **3. Discuss this with your counselor, and explain why this profession might interest** | National Licensure Examination: Aspiring practitioners must pass all divisions of the rigorous Architect Registration Examination. | Verify specific field notes / demonstration |
 
-**Counselor Verification Standard (Req 5):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Architecture Requirement 5 (architectural careers and professional licensure) before signing the blue card.
+**Counselor Verification Standard (Req 5):** Scout must individually explain mastery of Requirement 5 to the Merit Badge Counselor.

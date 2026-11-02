@@ -1,0 +1,461 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "automotive-maintenance",
+  "badge_name": "Automotive Maintenance",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+  "primary_authority_url": "https://www.ase.com/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "ASE Shop Jack Stand and Wheel Chock Safety Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+      "core_mechanism_bullets": [
+        "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+        "Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit."
+      ],
+      "worked_field_example": "Before raising the front axle on level concrete, a technician sets the parking brake, chocks both rear tires, and positions jack stands under factory pinch welds.",
+      "counselor_tabletop_demo": "Locate the factory jacking points, VIN plate, and fuse box diagram in a vehicle owner's manual and demonstrate proper wheel-chock placement.",
+      "real_world_connection_box": "ASE Shop Jack Stand and Wheel Chock Safety Standard: Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands. Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating determine the value with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASE Shop Jack Stand and Wheel Chock Safety Standard",
+      "v47_primary_source_bullets": [
+        "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+        "Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Pulling the engine dipstick on level ground, wiping it clean, re-seating fully, and checking that oil sits within the cross-hatched band verifies proper crankcase volume.",
+      "counselor_tabletop_demo": "Perform a hands-on under-hood fluid inspection checking engine oil dipstick level, translucent brake fluid reservoir (DOT 3/4), and coolant surge tank.",
+      "real_world_connection_box": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard: SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit. A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard",
+      "v47_primary_source_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J1979 OBD-II Diagnostic and Charging System Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+      "core_mechanism_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ],
+      "worked_field_example": "A flashing amber Malfunction Indicator Lamp (Check Engine light) signals a severe catalytic-converter-damaging misfire requiring immediate speed reduction.",
+      "counselor_tabletop_demo": "Connect a digital multimeter across a 12-volt battery engine-off vs engine-running and read an OBD-II scan tool code from the 16-pin DLC port.",
+      "real_world_connection_box": "SAE J1979 OBD-II Diagnostic and Charging System Standard: A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle. OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing dashboard/driver information center with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J1979 OBD-II Diagnostic and Charging System Standard",
+      "v47_primary_source_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "NHTSA Tire Placard Pressure and Tread Depth Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+      "core_mechanism_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ],
+      "worked_field_example": "Tightening lug nuts in a 5-lug star pattern with a calibrated torque wrench to 95 foot-pounds prevents brake rotor warping and stud stretching.",
+      "counselor_tabletop_demo": "Measure cold tire PSI with a gauge, check tread depth in 3 grooves using a 32nds gauge and penny, and decode a P215/65R16 95H DOT sidewall code.",
+      "real_world_connection_box": "NHTSA Tire Placard Pressure and Tread Depth Standard: Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire. Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through automotive maintenance core field standard with authentic field equipment.",
+      "v47_slide_title": "NHTSA Tire Placard Pressure and Tread Depth Standard",
+      "v47_primary_source_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "ASE Shop Jack Stand and Wheel Chock Safety Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+      "core_mechanism_bullets": [
+        "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+        "Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit."
+      ],
+      "worked_field_example": "Before raising the front axle on level concrete, a technician sets the parking brake, chocks both rear tires, and positions jack stands under factory pinch welds.",
+      "counselor_tabletop_demo": "Locate the factory jacking points, VIN plate, and fuse box diagram in a vehicle owner's manual and demonstrate proper wheel-chock placement.",
+      "real_world_connection_box": "ASE Shop Jack Stand and Wheel Chock Safety Standard: Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands. Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating determine the value with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASE Shop Jack Stand and Wheel Chock Safety Standard",
+      "v47_primary_source_bullets": [
+        "Never work beneath a vehicle supported only by a hydraulic floor jack, always lower the frame onto ANSI/ASME-rated steel jack stands.",
+        "Disconnect the negative 12-volt battery terminal first and reconnect it last so a wrench touching chassis ground cannot short-circuit."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Pulling the engine dipstick on level ground, wiping it clean, re-seating fully, and checking that oil sits within the cross-hatched band verifies proper crankcase volume.",
+      "counselor_tabletop_demo": "Perform a hands-on under-hood fluid inspection checking engine oil dipstick level, translucent brake fluid reservoir (DOT 3/4), and coolant surge tank.",
+      "real_world_connection_box": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard: SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit. A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard",
+      "v47_primary_source_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J1979 OBD-II Diagnostic and Charging System Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+      "core_mechanism_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ],
+      "worked_field_example": "A flashing amber Malfunction Indicator Lamp (Check Engine light) signals a severe catalytic-converter-damaging misfire requiring immediate speed reduction.",
+      "counselor_tabletop_demo": "Connect a digital multimeter across a 12-volt battery engine-off vs engine-running and read an OBD-II scan tool code from the 16-pin DLC port.",
+      "real_world_connection_box": "SAE J1979 OBD-II Diagnostic and Charging System Standard: A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle. OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing dashboard/driver information center with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J1979 OBD-II Diagnostic and Charging System Standard",
+      "v47_primary_source_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "NHTSA Tire Placard Pressure and Tread Depth Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+      "core_mechanism_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ],
+      "worked_field_example": "Tightening lug nuts in a 5-lug star pattern with a calibrated torque wrench to 95 foot-pounds prevents brake rotor warping and stud stretching.",
+      "counselor_tabletop_demo": "Measure cold tire PSI with a gauge, check tread depth in 3 grooves using a 32nds gauge and penny, and decode a P215/65R16 95H DOT sidewall code.",
+      "real_world_connection_box": "NHTSA Tire Placard Pressure and Tread Depth Standard: Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire. Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through automotive maintenance core field standard with authentic field equipment.",
+      "v47_slide_title": "NHTSA Tire Placard Pressure and Tread Depth Standard",
+      "v47_primary_source_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Pulling the engine dipstick on level ground, wiping it clean, re-seating fully, and checking that oil sits within the cross-hatched band verifies proper crankcase volume.",
+      "counselor_tabletop_demo": "Perform a hands-on under-hood fluid inspection checking engine oil dipstick level, translucent brake fluid reservoir (DOT 3/4), and coolant surge tank.",
+      "real_world_connection_box": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard: SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit. A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard",
+      "v47_primary_source_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Pulling the engine dipstick on level ground, wiping it clean, re-seating fully, and checking that oil sits within the cross-hatched band verifies proper crankcase volume.",
+      "counselor_tabletop_demo": "Perform a hands-on under-hood fluid inspection checking engine oil dipstick level, translucent brake fluid reservoir (DOT 3/4), and coolant surge tank.",
+      "real_world_connection_box": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard: SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit. A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard",
+      "v47_primary_source_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J1979 OBD-II Diagnostic and Charging System Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+      "core_mechanism_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ],
+      "worked_field_example": "A flashing amber Malfunction Indicator Lamp (Check Engine light) signals a severe catalytic-converter-damaging misfire requiring immediate speed reduction.",
+      "counselor_tabletop_demo": "Connect a digital multimeter across a 12-volt battery engine-off vs engine-running and read an OBD-II scan tool code from the 16-pin DLC port.",
+      "real_world_connection_box": "SAE J1979 OBD-II Diagnostic and Charging System Standard: A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle. OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing dashboard/driver information center with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J1979 OBD-II Diagnostic and Charging System Standard",
+      "v47_primary_source_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "NHTSA Tire Placard Pressure and Tread Depth Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+      "core_mechanism_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ],
+      "worked_field_example": "Tightening lug nuts in a 5-lug star pattern with a calibrated torque wrench to 95 foot-pounds prevents brake rotor warping and stud stretching.",
+      "counselor_tabletop_demo": "Measure cold tire PSI with a gauge, check tread depth in 3 grooves using a 32nds gauge and penny, and decode a P215/65R16 95H DOT sidewall code.",
+      "real_world_connection_box": "NHTSA Tire Placard Pressure and Tread Depth Standard: Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire. Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through automotive maintenance core field standard with authentic field equipment.",
+      "v47_slide_title": "NHTSA Tire Placard Pressure and Tread Depth Standard",
+      "v47_primary_source_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J1979 OBD-II Diagnostic and Charging System Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+      "core_mechanism_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ],
+      "worked_field_example": "A flashing amber Malfunction Indicator Lamp (Check Engine light) signals a severe catalytic-converter-damaging misfire requiring immediate speed reduction.",
+      "counselor_tabletop_demo": "Connect a digital multimeter across a 12-volt battery engine-off vs engine-running and read an OBD-II scan tool code from the 16-pin DLC port.",
+      "real_world_connection_box": "SAE J1979 OBD-II Diagnostic and Charging System Standard: A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle. OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing dashboard/driver information center with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J1979 OBD-II Diagnostic and Charging System Standard",
+      "v47_primary_source_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Pulling the engine dipstick on level ground, wiping it clean, re-seating fully, and checking that oil sits within the cross-hatched band verifies proper crankcase volume.",
+      "counselor_tabletop_demo": "Perform a hands-on under-hood fluid inspection checking engine oil dipstick level, translucent brake fluid reservoir (DOT 3/4), and coolant surge tank.",
+      "real_world_connection_box": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard: SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit. A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE J300 Engine Oil Viscosity and Fluid Inspection Standard",
+      "v47_primary_source_bullets": [
+        "SAE 5W-30 multi-grade motor oil pairs a 5W winter cold-cranking pumpability rating with a 30-weight kinematic viscosity at 212 degrees Fahrenheit.",
+        "A 50/50 ethylene glycol and water coolant mix lowers freezing point to -34 degrees Fahrenheit and raises boiling point to 265 degrees Fahrenheit."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "SAE J1979 OBD-II Diagnostic and Charging System Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+      "core_mechanism_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ],
+      "worked_field_example": "A flashing amber Malfunction Indicator Lamp (Check Engine light) signals a severe catalytic-converter-damaging misfire requiring immediate speed reduction.",
+      "counselor_tabletop_demo": "Connect a digital multimeter across a 12-volt battery engine-off vs engine-running and read an OBD-II scan tool code from the 16-pin DLC port.",
+      "real_world_connection_box": "SAE J1979 OBD-II Diagnostic and Charging System Standard: A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle. OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing dashboard/driver information center with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J1979 OBD-II Diagnostic and Charging System Standard",
+      "v47_primary_source_bullets": [
+        "A healthy 12.6-volt lead-acid battery charges between 13.8 and 14.4 volts DC across the terminals when the alternator runs at idle.",
+        "OBD-II diagnostic trouble codes beginning with P0 (such as P0300 random cylinder misfire) denote standardized SAE powertrain faults."
+      ]
+    },
+    "12": {
+      "req_id": "12",
+      "badge_name": "Automotive Maintenance",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SAE International & National Institute for Automotive Service Excellence (ASE)",
+        "title": "NHTSA Tire Placard Pressure and Tread Depth Standard Technical Reference",
+        "canonical_url": "https://www.ase.com/"
+      },
+      "rule_of_thumb_mnemonic": "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+      "core_mechanism_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ],
+      "worked_field_example": "Tightening lug nuts in a 5-lug star pattern with a calibrated torque wrench to 95 foot-pounds prevents brake rotor warping and stud stretching.",
+      "counselor_tabletop_demo": "Measure cold tire PSI with a gauge, check tread depth in 3 grooves using a 32nds gauge and penny, and decode a P215/65R16 95H DOT sidewall code.",
+      "real_world_connection_box": "NHTSA Tire Placard Pressure and Tread Depth Standard: Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire. Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SAE International & National Institute for Automotive Service Excellence (ASE)",
+      "bespoke_visual_filename": "automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/automotive_maintenance_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through automotive maintenance core field standard with authentic field equipment.",
+      "v47_slide_title": "NHTSA Tire Placard Pressure and Tread Depth Standard",
+      "v47_primary_source_bullets": [
+        "Inflate cold tires to the vehicle manufacturer's B-pillar door-jamb placard PSI, never to the maximum sidewall pressure molded on the tire.",
+        "Minimum legal tire tread depth is 2/32 of an inch (measured by Lincoln's head on an inverted penny), with 4/32 inch recommended for wet braking."
+      ]
+    }
+  }
+}

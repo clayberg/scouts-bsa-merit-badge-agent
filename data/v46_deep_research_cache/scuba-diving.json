@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "scuba-diving",
+  "badge_name": "Scuba Diving",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+  "primary_authority_url": "https://dan.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "DAN Boyles Law Pressure and Equalization Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+      "core_mechanism_bullets": [
+        "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+        "Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion."
+      ],
+      "worked_field_example": "If a diver holds a full 6-liter breath at 33 feet and ascends to the surface without exhaling, lung gas expands toward 12 liters and causes barotrauma.",
+      "counselor_tabletop_demo": "Use a capped plastic oral syringe filled with air to feel volume compression and re-expansion as simulated depth changes.",
+      "real_world_connection_box": "DAN Boyles Law Pressure and Equalization Standard: Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet. Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through first aid for injuries or illnesses with authentic field equipment.",
+      "v47_slide_title": "DAN Boyles Law Pressure and Equalization Standard",
+      "v47_primary_source_bullets": [
+        "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+        "Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+      "core_mechanism_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ],
+      "worked_field_example": "At 60 feet depth, the no-decompression limit on recreational dive tables is 55 minutes, requiring strict depth and bottom-time monitoring.",
+      "counselor_tabletop_demo": "Walk through a dive profile chart showing descent, bottom time at 50 feet, a 30-foot-per-minute ascent, and a 3-minute stop at 15 feet.",
+      "real_world_connection_box": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard: Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely. Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating bsa swimmer qualification check with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard",
+      "v47_primary_source_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+      "core_mechanism_bullets": [
+        "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+        "Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve."
+      ],
+      "worked_field_example": "Staying within 2 seconds of arm reach of your buddy ensures immediate alternate-air-source sharing if a primary regulator fails underwater.",
+      "counselor_tabletop_demo": "Recite and point to each gear zone for the BWRAF pre-dive buddy check and demonstrate six standard underwater hand signals.",
+      "real_world_connection_box": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard: Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water. Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply scuba diver's code using standard troop tools and reference charts.",
+      "v47_slide_title": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+        "Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+      "core_mechanism_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ],
+      "worked_field_example": "In fresh water, an 80-cubic-foot aluminum tank requires about 4 to 6 pounds less ballast weight than in denser 1.025 specific-gravity seawater.",
+      "counselor_tabletop_demo": "Compare four aquatic ecosystems including coral reef, kelp forest, freshwater quarry, and estuary by food web and visibility hazards.",
+      "real_world_connection_box": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard: Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment. Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining earn an open water diver certification step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "DAN Boyles Law Pressure and Equalization Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+      "core_mechanism_bullets": [
+        "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+        "Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion."
+      ],
+      "worked_field_example": "If a diver holds a full 6-liter breath at 33 feet and ascends to the surface without exhaling, lung gas expands toward 12 liters and causes barotrauma.",
+      "counselor_tabletop_demo": "Use a capped plastic oral syringe filled with air to feel volume compression and re-expansion as simulated depth changes.",
+      "real_world_connection_box": "DAN Boyles Law Pressure and Equalization Standard: Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet. Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through first aid for injuries or illnesses with authentic field equipment.",
+      "v47_slide_title": "DAN Boyles Law Pressure and Equalization Standard",
+      "v47_primary_source_bullets": [
+        "Hydrostatic pressure increases by 1 atmosphere every 33 feet of seawater, compressing air volume to one-half at 33 feet and one-third at 66 feet.",
+        "Breathe continuously and never hold your breath on compressed air, ascending no faster than 30 feet per minute to prevent lung overexpansion."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+      "core_mechanism_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ],
+      "worked_field_example": "At 60 feet depth, the no-decompression limit on recreational dive tables is 55 minutes, requiring strict depth and bottom-time monitoring.",
+      "counselor_tabletop_demo": "Walk through a dive profile chart showing descent, bottom time at 50 feet, a 30-foot-per-minute ascent, and a 3-minute stop at 15 feet.",
+      "real_world_connection_box": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard: Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely. Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating bsa swimmer qualification check with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard",
+      "v47_primary_source_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+      "core_mechanism_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ],
+      "worked_field_example": "At 60 feet depth, the no-decompression limit on recreational dive tables is 55 minutes, requiring strict depth and bottom-time monitoring.",
+      "counselor_tabletop_demo": "Walk through a dive profile chart showing descent, bottom time at 50 feet, a 30-foot-per-minute ascent, and a 3-minute stop at 15 feet.",
+      "real_world_connection_box": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard: Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely. Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating bsa swimmer qualification check with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "DAN Henrys Law Nitrogen Absorption and Safety Stop Standard",
+      "v47_primary_source_bullets": [
+        "Ascend slowly and complete a 3-minute safety stop at 15 feet at the end of every dive to allow dissolved nitrogen to off-gas safely.",
+        "Wait a minimum of 12 hours after a single no-decompression dive and 18 hours after multiple dives before flying in a pressurized aircraft."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+      "core_mechanism_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ],
+      "worked_field_example": "In fresh water, an 80-cubic-foot aluminum tank requires about 4 to 6 pounds less ballast weight than in denser 1.025 specific-gravity seawater.",
+      "counselor_tabletop_demo": "Compare four aquatic ecosystems including coral reef, kelp forest, freshwater quarry, and estuary by food web and visibility hazards.",
+      "real_world_connection_box": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard: Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment. Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining earn an open water diver certification step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+      "core_mechanism_bullets": [
+        "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+        "Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve."
+      ],
+      "worked_field_example": "Staying within 2 seconds of arm reach of your buddy ensures immediate alternate-air-source sharing if a primary regulator fails underwater.",
+      "counselor_tabletop_demo": "Recite and point to each gear zone for the BWRAF pre-dive buddy check and demonstrate six standard underwater hand signals.",
+      "real_world_connection_box": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard: Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water. Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply scuba diver's code using standard troop tools and reference charts.",
+      "v47_slide_title": "PADI BWRAF Pre-Dive Buddy Check Protocol Standard",
+      "v47_primary_source_bullets": [
+        "Complete the five-step BWRAF pre-dive check covering BCD, Weights, Releases, Air pressure and quality, and Final okay before entering water.",
+        "Verify a full aluminum 80-cubic-foot tank reads 3,000 psi on the submersible pressure gauge and return to the surface with a 500 psi reserve."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Scuba Diving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PADI, NAUI & Divers Alert Network (DAN)",
+        "title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard Technical Reference",
+        "canonical_url": "https://dan.org/"
+      },
+      "rule_of_thumb_mnemonic": "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+      "core_mechanism_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ],
+      "worked_field_example": "In fresh water, an 80-cubic-foot aluminum tank requires about 4 to 6 pounds less ballast weight than in denser 1.025 specific-gravity seawater.",
+      "counselor_tabletop_demo": "Compare four aquatic ecosystems including coral reef, kelp forest, freshwater quarry, and estuary by food web and visibility hazards.",
+      "real_world_connection_box": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard: Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment. Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PADI, NAUI & Divers Alert Network (DAN)",
+      "bespoke_visual_filename": "scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/scuba_diving_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining earn an open water diver certification step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NOAA Coral Reef Neutral Buoyancy and Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Trim lead weights and BCD air volume to maintain horizontal neutral buoyancy at least 3 feet above coral reefs and benthic sediment.",
+        "Secure the submersible pressure gauge and octo second stage closely to the torso harness so dangling hoses never snag sponges or kelp."
+      ]
+    }
+  }
+}

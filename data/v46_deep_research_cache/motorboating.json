@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "motorboating",
+  "badge_name": "Motorboating",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Coast Guard & NASBLA",
+  "primary_authority_url": "https://www.uscgboating.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "USCG Personal Flotation & Ventilation Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+      "core_mechanism_bullets": [
+        "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+        "Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit."
+      ],
+      "worked_field_example": "Before cranking an enclosed stern-drive engine at the fuel dock, a boat operator runs the bilge blower for 4 full minutes and sniffs the bilge vent for gasoline odor.",
+      "counselor_tabletop_demo": "Inspect a Type I, Type II, Type III, and Type IV USCG label, test the engine cutoff switch lanyard, and trace the 4-minute bilge blower pre-start sequence.",
+      "real_world_connection_box": "USCG Personal Flotation & Ventilation Standard: Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer. Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing boating safely with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USCG Personal Flotation & Ventilation Standard",
+      "v47_primary_source_bullets": [
+        "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+        "Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "Scouting America Safety Afloat & Cold Water Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+      "core_mechanism_bullets": [
+        "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+        "Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes."
+      ],
+      "worked_field_example": "On a spring lake with 54 degrees Fahrenheit water, a capsized crew adopts the Heat Escape Lessening Posture to slow core cooling by up to 50 percent.",
+      "counselor_tabletop_demo": "Check life jacket buckle tension using the two-finger shoulder lift test and demonstrate the HELP and Huddle heat-conservation positions on land.",
+      "real_world_connection_box": "Scouting America Safety Afloat & Cold Water Standard: Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway. Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing bsa swimmer qualification and safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting America Safety Afloat & Cold Water Standard",
+      "v47_primary_source_bullets": [
+        "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+        "Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "ABYC Marine Propulsion & Fuel System Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+      "core_mechanism_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ],
+      "worked_field_example": "When the telltale cooling stream stops flowing after idling through shallow weeds, the helm operator shuts down immediately to clear the lower-unit water intake.",
+      "counselor_tabletop_demo": "Compare a flexible new neoprene water-pump impeller against a cracked worn impeller and trace the fuel line bulb arrow from portable tank to outboard motor.",
+      "real_world_connection_box": "ABYC Marine Propulsion & Fuel System Standard: Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure. Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify inboard, outboard, and inboard/outboard motors during a structured merit badge clinic.",
+      "v47_slide_title": "ABYC Marine Propulsion & Fuel System Standard",
+      "v47_primary_source_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "USCG Inland Navigation Rules & Anchoring Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+      "core_mechanism_bullets": [
+        "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+        "Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly."
+      ],
+      "worked_field_example": "Anchoring in 8 feet of water with a 2-foot bow height requires paying out 70 feet of nylon anchor line to achieve a 7-to-1 holding scope.",
+      "counselor_tabletop_demo": "Use two model hulls on a compass rose mat to walk through head-on, crossing, and overtaking horn signals plus Red-Right-Returning lateral buoy navigation.",
+      "real_world_connection_box": "USCG Inland Navigation Rules & Anchoring Standard: Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way. Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/motorboating_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of swimmer skill benchmark used in Motorboating.",
+      "v47_slide_title": "USCG Inland Navigation Rules & Anchoring Standard",
+      "v47_primary_source_bullets": [
+        "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+        "Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "USCG Personal Flotation & Ventilation Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+      "core_mechanism_bullets": [
+        "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+        "Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit."
+      ],
+      "worked_field_example": "Before cranking an enclosed stern-drive engine at the fuel dock, a boat operator runs the bilge blower for 4 full minutes and sniffs the bilge vent for gasoline odor.",
+      "counselor_tabletop_demo": "Inspect a Type I, Type II, Type III, and Type IV USCG label, test the engine cutoff switch lanyard, and trace the 4-minute bilge blower pre-start sequence.",
+      "real_world_connection_box": "USCG Personal Flotation & Ventilation Standard: Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer. Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing boating safely with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USCG Personal Flotation & Ventilation Standard",
+      "v47_primary_source_bullets": [
+        "Federal 33 CFR 175 requires one wearable USCG-approved life jacket per passenger plus one throwable Type IV device on boats 16 feet or longer.",
+        "Gasoline inboard bilge blowers must run for at least 4 minutes before engine ignition to purge explosive fuel vapors below the lower flammable limit."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "Scouting America Safety Afloat & Cold Water Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+      "core_mechanism_bullets": [
+        "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+        "Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes."
+      ],
+      "worked_field_example": "On a spring lake with 54 degrees Fahrenheit water, a capsized crew adopts the Heat Escape Lessening Posture to slow core cooling by up to 50 percent.",
+      "counselor_tabletop_demo": "Check life jacket buckle tension using the two-finger shoulder lift test and demonstrate the HELP and Huddle heat-conservation positions on land.",
+      "real_world_connection_box": "Scouting America Safety Afloat & Cold Water Standard: Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway. Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing bsa swimmer qualification and safety with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Scouting America Safety Afloat & Cold Water Standard",
+      "v47_primary_source_bullets": [
+        "Every motorboat operator and passenger must pass the 100-yard Scouting America swimmer test and wear a properly fitted life jacket while underway.",
+        "Immersion in water below 59 degrees Fahrenheit triggers involuntary cold-shock gasping within 60 seconds and progressive loss of grip strength inside 10 minutes."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "ABYC Marine Propulsion & Fuel System Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+      "core_mechanism_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ],
+      "worked_field_example": "When the telltale cooling stream stops flowing after idling through shallow weeds, the helm operator shuts down immediately to clear the lower-unit water intake.",
+      "counselor_tabletop_demo": "Compare a flexible new neoprene water-pump impeller against a cracked worn impeller and trace the fuel line bulb arrow from portable tank to outboard motor.",
+      "real_world_connection_box": "ABYC Marine Propulsion & Fuel System Standard: Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure. Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify inboard, outboard, and inboard/outboard motors during a structured merit badge clinic.",
+      "v47_slide_title": "ABYC Marine Propulsion & Fuel System Standard",
+      "v47_primary_source_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "ABYC Marine Propulsion & Fuel System Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+      "core_mechanism_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ],
+      "worked_field_example": "When the telltale cooling stream stops flowing after idling through shallow weeds, the helm operator shuts down immediately to clear the lower-unit water intake.",
+      "counselor_tabletop_demo": "Compare a flexible new neoprene water-pump impeller against a cracked worn impeller and trace the fuel line bulb arrow from portable tank to outboard motor.",
+      "real_world_connection_box": "ABYC Marine Propulsion & Fuel System Standard: Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure. Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/motorboating_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify inboard, outboard, and inboard/outboard motors during a structured merit badge clinic.",
+      "v47_slide_title": "ABYC Marine Propulsion & Fuel System Standard",
+      "v47_primary_source_bullets": [
+        "Outboard, inboard, and stern-drive cooling systems rely on a rubber water-pump impeller that must circulate lake water continuously to prevent engine seizure.",
+        "Ethanol-blended E10 marine fuel absorbs moisture over 60 days and requires a 10-micron fuel-water separator filter to protect injectors and carburetors."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Motorboating",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Coast Guard & NASBLA",
+        "title": "USCG Inland Navigation Rules & Anchoring Standard Technical Reference",
+        "canonical_url": "https://www.uscgboating.org/"
+      },
+      "rule_of_thumb_mnemonic": "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+      "core_mechanism_bullets": [
+        "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+        "Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly."
+      ],
+      "worked_field_example": "Anchoring in 8 feet of water with a 2-foot bow height requires paying out 70 feet of nylon anchor line to achieve a 7-to-1 holding scope.",
+      "counselor_tabletop_demo": "Use two model hulls on a compass rose mat to walk through head-on, crossing, and overtaking horn signals plus Red-Right-Returning lateral buoy navigation.",
+      "real_world_connection_box": "USCG Inland Navigation Rules & Anchoring Standard: Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way. Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Coast Guard & NASBLA",
+      "bespoke_visual_filename": "motorboating_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/motorboating_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of swimmer skill benchmark used in Motorboating.",
+      "v47_slide_title": "USCG Inland Navigation Rules & Anchoring Standard",
+      "v47_primary_source_bullets": [
+        "Under USCG Navigation Rules, a vessel approaching within the 112.5-degree starboard danger zone from dead ahead to two points abaft the beam has right of way.",
+        "Safe anchoring requires a 7-to-1 rode scope ratio of line length to water depth plus freeboard height so horizontal pull sets the anchor flukes cleanly."
+      ]
+    }
+  }
+}

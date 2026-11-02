@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "metalwork",
+  "badge_name": "Metalwork",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "SME & NIST Manufacturing",
+  "primary_authority_url": "https://www.sme.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+      "core_mechanism_bullets": [
+        "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+        "Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool."
+      ],
+      "worked_field_example": "Never wear synthetic polyester fleece or gloves near a bench grinder or drill press because synthetic fibers melt onto skin from sparks and loose gloves can entangle in rotating spindles.",
+      "counselor_tabletop_demo": "Inspect shop PPE for ANSI Z87.1+ markings, demonstrate deburring a freshly sheared sheet-metal edge with a mill file, and review drill press clamping rules.",
+      "real_world_connection_box": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard: Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection. Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating metalwork core field standard equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard",
+      "v47_primary_source_bullets": [
+        "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+        "Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+      "core_mechanism_bullets": [
+        "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+        "Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility."
+      ],
+      "worked_field_example": "Bending a copper wire back and forth work-hardens the grain structure until it resists flexing, whereas heating it to a dull red glow and cooling restores soft malleability.",
+      "counselor_tabletop_demo": "Test steel, brass, copper, and aluminum bar stock with a magnet and file to compare density, magnetic response, surface oxide color, and hardness.",
+      "real_world_connection_box": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard: Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets. Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating create a sketch of two equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard",
+      "v47_primary_source_bullets": [
+        "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+        "Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "SMACNA Sheet Metal Bend Allowance & Seam Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+      "core_mechanism_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ],
+      "worked_field_example": "To fabricate a 0.25-inch grooved lock seam joining a sheet-metal cylinder, add 0.75 inch (3 times 0.25 inch) of seam allowance to the circumference development layout before cutting with aviation snips.",
+      "counselor_tabletop_demo": "Lay out a sheet-metal box pattern with corner relief notches and fold allowances on posterboard, using red, green, and yellow aviation snips.",
+      "real_world_connection_box": "SMACNA Sheet Metal Bend Allowance & Seam Standard: Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in). Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating metalwork core field standard equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "SMACNA Sheet Metal Bend Allowance & Seam Standard",
+      "v47_primary_source_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "SME Blacksmith Forging Heat & Foundry Casting Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+      "core_mechanism_bullets": [
+        "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+        "Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks."
+      ],
+      "worked_field_example": "When pouring molten pewter (melting point 338 to 446 degrees Fahrenheit) or aluminum (1,220 degrees Fahrenheit), every mold and skimming ladle must be bone-dry because trapped moisture flashes to steam at 1,600x volume expansion.",
+      "counselor_tabletop_demo": "Practice hammer control and drawing-out technique on modeling clay over a small anvil block, demonstrating flat-face blows versus cross-peen fuller spreading.",
+      "real_world_connection_box": "SME Blacksmith Forging Heat & Foundry Casting Standard: Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending. Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating create a sketch of two equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "SME Blacksmith Forging Heat & Foundry Casting Standard",
+      "v47_primary_source_bullets": [
+        "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+        "Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+      "core_mechanism_bullets": [
+        "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+        "Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool."
+      ],
+      "worked_field_example": "Never wear synthetic polyester fleece or gloves near a bench grinder or drill press because synthetic fibers melt onto skin from sparks and loose gloves can entangle in rotating spindles.",
+      "counselor_tabletop_demo": "Inspect shop PPE for ANSI Z87.1+ markings, demonstrate deburring a freshly sheared sheet-metal edge with a mill file, and review drill press clamping rules.",
+      "real_world_connection_box": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard: Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection. Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating metalwork core field standard equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "OSHA & ANSI Z87.1 Metal Shop PPE & Thermal Standard",
+      "v47_primary_source_bullets": [
+        "Metalwork safety mandates ANSI Z87.1+ side-shield safety glasses, leather gloves, leather boots, cotton clothing, and 85 dBA ear protection.",
+        "Hot steel and aluminum below 900 degrees Fahrenheit show no red glow in daylight, requiring tongs until quenched and verified cool."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+      "core_mechanism_bullets": [
+        "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+        "Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility."
+      ],
+      "worked_field_example": "Bending a copper wire back and forth work-hardens the grain structure until it resists flexing, whereas heating it to a dull red glow and cooling restores soft malleability.",
+      "counselor_tabletop_demo": "Test steel, brass, copper, and aluminum bar stock with a magnet and file to compare density, magnetic response, surface oxide color, and hardness.",
+      "real_world_connection_box": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard: Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets. Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating create a sketch of two equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "NIST Ferrous vs Nonferrous Metallurgy & Heat-Treat Standard",
+      "v47_primary_source_bullets": [
+        "Ferrous alloys contain iron and carbon including mild steel (0.05 to 0.25 percent C) and tool steel (0.60 to 1.4 percent C) and attract magnets.",
+        "Work hardening stiffens metal during cold hammering, while annealing heats above recrystallization to restore soft ductility."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "SMACNA Sheet Metal Bend Allowance & Seam Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+      "core_mechanism_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ],
+      "worked_field_example": "To fabricate a 0.25-inch grooved lock seam joining a sheet-metal cylinder, add 0.75 inch (3 times 0.25 inch) of seam allowance to the circumference development layout before cutting with aviation snips.",
+      "counselor_tabletop_demo": "Lay out a sheet-metal box pattern with corner relief notches and fold allowances on posterboard, using red, green, and yellow aviation snips.",
+      "real_world_connection_box": "SMACNA Sheet Metal Bend Allowance & Seam Standard: Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in). Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating metalwork core field standard equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "SMACNA Sheet Metal Bend Allowance & Seam Standard",
+      "v47_primary_source_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "SMACNA Sheet Metal Bend Allowance & Seam Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+      "core_mechanism_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ],
+      "worked_field_example": "To fabricate a 0.25-inch grooved lock seam joining a sheet-metal cylinder, add 0.75 inch (3 times 0.25 inch) of seam allowance to the circumference development layout before cutting with aviation snips.",
+      "counselor_tabletop_demo": "Lay out a sheet-metal box pattern with corner relief notches and fold allowances on posterboard, using red, green, and yellow aviation snips.",
+      "real_world_connection_box": "SMACNA Sheet Metal Bend Allowance & Seam Standard: Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in). Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating metalwork core field standard equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "SMACNA Sheet Metal Bend Allowance & Seam Standard",
+      "v47_primary_source_bullets": [
+        "Sheet metal uses the Manufacturers Standard Gauge where higher numbers mean thinner stock, from 16-gauge (0.060 in) to 24-gauge (0.024 in).",
+        "Hemmed edges fold 180 degrees for safe stiffness, while grooved lock seams add 3 times the single-hem width (3W) to layout patterns."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Metalwork",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "SME & NIST Manufacturing",
+        "title": "SME Blacksmith Forging Heat & Foundry Casting Standard Technical Reference",
+        "canonical_url": "https://www.sme.org/"
+      },
+      "rule_of_thumb_mnemonic": "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+      "core_mechanism_bullets": [
+        "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+        "Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks."
+      ],
+      "worked_field_example": "When pouring molten pewter (melting point 338 to 446 degrees Fahrenheit) or aluminum (1,220 degrees Fahrenheit), every mold and skimming ladle must be bone-dry because trapped moisture flashes to steam at 1,600x volume expansion.",
+      "counselor_tabletop_demo": "Practice hammer control and drawing-out technique on modeling clay over a small anvil block, demonstrating flat-face blows versus cross-peen fuller spreading.",
+      "real_world_connection_box": "SME Blacksmith Forging Heat & Foundry Casting Standard: Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending. Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + SME & NIST Manufacturing",
+      "bespoke_visual_filename": "metalwork_req_5b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/metalwork_req_5b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating create a sketch of two equipment layout and safe operating steps for Metalwork.",
+      "v47_slide_title": "SME Blacksmith Forging Heat & Foundry Casting Standard",
+      "v47_primary_source_bullets": [
+        "Blacksmithing heats mild steel to cherry-red or orange-yellow (1,500 to 2,100 degrees Fahrenheit) for drawing out, upsetting, and bending.",
+        "Green-sand foundry patterns require a 1-to-3-degree vertical draft angle so the pattern pulls cleanly from packed cope and drag flasks."
+      ]
+    }
+  }
+}

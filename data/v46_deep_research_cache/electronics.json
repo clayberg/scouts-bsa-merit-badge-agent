@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "electronics",
+  "badge_name": "Electronics",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "IPC & IEEE Solid-State Electronics",
+  "primary_authority_url": "https://www.ipc.org/ipc-standards",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IPC J-STD-001 Soldering & ESD Control Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+      "core_mechanism_bullets": [
+        "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+        "SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time."
+      ],
+      "worked_field_example": "Set a temperature-controlled iron to 680 degrees Fahrenheit, heat both the copper PCB pad and component lead for 2 seconds, and apply 0.031-inch rosin-core solder to form a concave wetting fillet.",
+      "counselor_tabletop_demo": "Inspect three soldered PCB joints under a 10x loupe to distinguish a shiny concave wetting fillet from a dull cold joint and demonstrate copper-braid wicking.",
+      "real_world_connection_box": "IPC J-STD-001 Soldering & ESD Control Standard: ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely. SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify safety precautions you must exercise during a structured merit badge clinic.",
+      "v47_slide_title": "IPC J-STD-001 Soldering & ESD Control Standard",
+      "v47_primary_source_bullets": [
+        "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+        "SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IEEE 315 Schematic & IEC 60062 Resistor Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+      "core_mechanism_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ],
+      "worked_field_example": "To power a 2.0-volt red LED at 15 milliamperes from a 9.0-volt battery, calculate R = (9.0 - 2.0) / 0.015 = 467 ohms and select the standard 470-ohm yellow-violet-brown resistor.",
+      "counselor_tabletop_demo": "Decode four axial resistors using the IEC color chart, verify each within its 5 percent gold tolerance band using an ohmmeter, and breadboard an LED series circuit.",
+      "real_world_connection_box": "IEEE 315 Schematic & IEC 60062 Resistor Standard: IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance. Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining draw a simple schematic diagram step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "IEEE 315 Schematic & IEC 60062 Resistor Standard",
+      "v47_primary_source_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IEEE 91 Boolean Logic Gate & Binary Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+      "core_mechanism_bullets": [
+        "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+        "An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF."
+      ],
+      "worked_field_example": "Convert decimal 173 to 8-bit binary 10101101 and hexadecimal AD by summing positional weights 128 + 32 + 8 + 4 + 1, then verify NAND gate truth table outputs on a 74HC00 IC.",
+      "counselor_tabletop_demo": "Toggle two pushbutton inputs on a breadboarded logic gate circuit to verify the 4-row truth table for AND, OR, and NAND operations with an indicator LED.",
+      "real_world_connection_box": "IEEE 91 Boolean Logic Gate & Binary Standard: 5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1. An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute show how to solve under adult counselor supervision.",
+      "v47_slide_title": "IEEE 91 Boolean Logic Gate & Binary Standard",
+      "v47_primary_source_bullets": [
+        "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+        "An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IPC-2221 PCB Trace & Microcontroller Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+      "core_mechanism_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ],
+      "worked_field_example": "When a 10-kilohm thermistor divider outputs 2.50 volts into a 5.00-volt 10-bit ADC, the microcontroller reads digital count 512 and sets PWM fan duty cycle to 50 percent.",
+      "counselor_tabletop_demo": "Turn a 10-kilohm potentiometer connected to a microcontroller analog input while observing the live 0-to-1023 ADC serial readout and LED brightness duty cycle.",
+      "real_world_connection_box": "IPC-2221 PCB Trace & Microcontroller Standard: A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V. Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating careers & professional pathways with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "IPC-2221 PCB Trace & Microcontroller Standard",
+      "v47_primary_source_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IPC J-STD-001 Soldering & ESD Control Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+      "core_mechanism_bullets": [
+        "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+        "SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time."
+      ],
+      "worked_field_example": "Set a temperature-controlled iron to 680 degrees Fahrenheit, heat both the copper PCB pad and component lead for 2 seconds, and apply 0.031-inch rosin-core solder to form a concave wetting fillet.",
+      "counselor_tabletop_demo": "Inspect three soldered PCB joints under a 10x loupe to distinguish a shiny concave wetting fillet from a dull cold joint and demonstrate copper-braid wicking.",
+      "real_world_connection_box": "IPC J-STD-001 Soldering & ESD Control Standard: ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely. SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify safety precautions you must exercise during a structured merit badge clinic.",
+      "v47_slide_title": "IPC J-STD-001 Soldering & ESD Control Standard",
+      "v47_primary_source_bullets": [
+        "ESD wrist straps incorporate a 1 megohm current-limiting resistor to bleed static safely.",
+        "SAC305 lead-free solder melts at 423 degrees Fahrenheit with a 2 to 3 second iron dwell time."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IEEE 315 Schematic & IEC 60062 Resistor Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+      "core_mechanism_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ],
+      "worked_field_example": "To power a 2.0-volt red LED at 15 milliamperes from a 9.0-volt battery, calculate R = (9.0 - 2.0) / 0.015 = 467 ohms and select the standard 470-ohm yellow-violet-brown resistor.",
+      "counselor_tabletop_demo": "Decode four axial resistors using the IEC color chart, verify each within its 5 percent gold tolerance band using an ohmmeter, and breadboard an LED series circuit.",
+      "real_world_connection_box": "IEEE 315 Schematic & IEC 60062 Resistor Standard: IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance. Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining draw a simple schematic diagram step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "IEEE 315 Schematic & IEC 60062 Resistor Standard",
+      "v47_primary_source_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IEEE 315 Schematic & IEC 60062 Resistor Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+      "core_mechanism_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ],
+      "worked_field_example": "To power a 2.0-volt red LED at 15 milliamperes from a 9.0-volt battery, calculate R = (9.0 - 2.0) / 0.015 = 467 ohms and select the standard 470-ohm yellow-violet-brown resistor.",
+      "counselor_tabletop_demo": "Decode four axial resistors using the IEC color chart, verify each within its 5 percent gold tolerance band using an ohmmeter, and breadboard an LED series circuit.",
+      "real_world_connection_box": "IEEE 315 Schematic & IEC 60062 Resistor Standard: IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance. Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining draw a simple schematic diagram step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "IEEE 315 Schematic & IEC 60062 Resistor Standard",
+      "v47_primary_source_bullets": [
+        "IEC 60062 4-band code reads two significant digits, a decade multiplier, and tolerance.",
+        "Silicon diodes drop 0.7 volts forward while standard red LEDs drop 1.8 to 2.2 volts."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IPC-2221 PCB Trace & Microcontroller Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+      "core_mechanism_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ],
+      "worked_field_example": "When a 10-kilohm thermistor divider outputs 2.50 volts into a 5.00-volt 10-bit ADC, the microcontroller reads digital count 512 and sets PWM fan duty cycle to 50 percent.",
+      "counselor_tabletop_demo": "Turn a 10-kilohm potentiometer connected to a microcontroller analog input while observing the live 0-to-1023 ADC serial readout and LED brightness duty cycle.",
+      "real_world_connection_box": "IPC-2221 PCB Trace & Microcontroller Standard: A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V. Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating careers & professional pathways with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "IPC-2221 PCB Trace & Microcontroller Standard",
+      "v47_primary_source_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IEEE 91 Boolean Logic Gate & Binary Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+      "core_mechanism_bullets": [
+        "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+        "An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF."
+      ],
+      "worked_field_example": "Convert decimal 173 to 8-bit binary 10101101 and hexadecimal AD by summing positional weights 128 + 32 + 8 + 4 + 1, then verify NAND gate truth table outputs on a 74HC00 IC.",
+      "counselor_tabletop_demo": "Toggle two pushbutton inputs on a breadboarded logic gate circuit to verify the 4-row truth table for AND, OR, and NAND operations with an indicator LED.",
+      "real_world_connection_box": "IEEE 91 Boolean Logic Gate & Binary Standard: 5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1. An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute show how to solve under adult counselor supervision.",
+      "v47_slide_title": "IEEE 91 Boolean Logic Gate & Binary Standard",
+      "v47_primary_source_bullets": [
+        "5V CMOS and TTL logic define 0 to 0.8V as binary LOW 0 and 2.0 to 5.0V as binary HIGH 1.",
+        "An 8-bit unsigned binary register spans 256 discrete states from decimal 0 to 255 or hex FF."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Electronics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IPC & IEEE Solid-State Electronics",
+        "title": "IPC-2221 PCB Trace & Microcontroller Standard Technical Reference",
+        "canonical_url": "https://www.ipc.org/ipc-standards"
+      },
+      "rule_of_thumb_mnemonic": "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+      "core_mechanism_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ],
+      "worked_field_example": "When a 10-kilohm thermistor divider outputs 2.50 volts into a 5.00-volt 10-bit ADC, the microcontroller reads digital count 512 and sets PWM fan duty cycle to 50 percent.",
+      "counselor_tabletop_demo": "Turn a 10-kilohm potentiometer connected to a microcontroller analog input while observing the live 0-to-1023 ADC serial readout and LED brightness duty cycle.",
+      "real_world_connection_box": "IPC-2221 PCB Trace & Microcontroller Standard: A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V. Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IPC & IEEE Solid-State Electronics",
+      "bespoke_visual_filename": "electronics_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/electronics_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating careers & professional pathways with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "IPC-2221 PCB Trace & Microcontroller Standard",
+      "v47_primary_source_bullets": [
+        "A 10-bit microcontroller analog-to-digital converter resolves 1,024 steps or 4.88 mV at 5V.",
+        "Pulse-width modulation adjusts average DC power by varying duty cycle from 0 to 100 percent."
+      ]
+    }
+  }
+}

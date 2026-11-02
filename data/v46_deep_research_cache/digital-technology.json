@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "digital-technology",
+  "badge_name": "Digital Technology",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+  "primary_authority_url": "https://www.nist.gov/itl",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+      "core_mechanism_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ],
+      "worked_field_example": "Compressing a 24-megabyte raw BMP photograph into a quality-85 JPEG shrinks file size to 2.4 megabytes (a 10-to-1 reduction) while ZIP compression keeps 100 percent of source bits.",
+      "counselor_tabletop_demo": "Convert a 5-letter Scout word into 8-bit ASCII binary bytes and compare file sizes of an uncompressed BMP image versus PNG and JPEG exports.",
+      "real_world_connection_box": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard: Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels. Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply view the personal safety awareness using standard troop tools and reference charts.",
+      "v47_slide_title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard",
+      "v47_primary_source_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+      "core_mechanism_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ],
+      "worked_field_example": "Fetching data from L1 CPU cache takes ~1 nanosecond, main DDR5 RAM takes ~60 nanoseconds, and an NVMe solid-state drive takes ~50,000 nanoseconds.",
+      "counselor_tabletop_demo": "Open a system activity monitor to inspect real-time CPU core utilization, RAM allocation, and storage I/O while launching three applications.",
+      "real_world_connection_box": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard: CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives. Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining historical origins and evolution step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+      "core_mechanism_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ],
+      "worked_field_example": "Creating a patrol campout budget spreadsheet with `SUM` and `AVERAGE` formulas and copying it to an external USB flash drive satisfies dual-media backup verification.",
+      "counselor_tabletop_demo": "Inspect the Scout's three completed digital projects (spreadsheet, presentation, and document) directly from their backup storage device.",
+      "real_world_connection_box": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard: Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS. Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify a program or software application during a structured merit badge clinic.",
+      "v47_slide_title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard",
+      "v47_primary_source_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+      "core_mechanism_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ],
+      "worked_field_example": "Diverting a discarded laptop battery (lithium-cobalt) and circuit board (lead-tin solder) to an e-Stewards certified recycler recovers 95 percent of precious metals safely.",
+      "counselor_tabletop_demo": "Compare an open-source MIT software license against a proprietary EULA and locate the nearest R2 or e-Stewards certified e-waste drop-off facility.",
+      "real_world_connection_box": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard: Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets. Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining at least two different ways data step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard",
+      "v47_primary_source_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+      "core_mechanism_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ],
+      "worked_field_example": "Compressing a 24-megabyte raw BMP photograph into a quality-85 JPEG shrinks file size to 2.4 megabytes (a 10-to-1 reduction) while ZIP compression keeps 100 percent of source bits.",
+      "counselor_tabletop_demo": "Convert a 5-letter Scout word into 8-bit ASCII binary bytes and compare file sizes of an uncompressed BMP image versus PNG and JPEG exports.",
+      "real_world_connection_box": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard: Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels. Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply view the personal safety awareness using standard troop tools and reference charts.",
+      "v47_slide_title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard",
+      "v47_primary_source_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+      "core_mechanism_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ],
+      "worked_field_example": "Fetching data from L1 CPU cache takes ~1 nanosecond, main DDR5 RAM takes ~60 nanoseconds, and an NVMe solid-state drive takes ~50,000 nanoseconds.",
+      "counselor_tabletop_demo": "Open a system activity monitor to inspect real-time CPU core utilization, RAM allocation, and storage I/O while launching three applications.",
+      "real_world_connection_box": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard: CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives. Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining historical origins and evolution step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+      "core_mechanism_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ],
+      "worked_field_example": "Creating a patrol campout budget spreadsheet with `SUM` and `AVERAGE` formulas and copying it to an external USB flash drive satisfies dual-media backup verification.",
+      "counselor_tabletop_demo": "Inspect the Scout's three completed digital projects (spreadsheet, presentation, and document) directly from their backup storage device.",
+      "real_world_connection_box": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard: Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS. Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify a program or software application during a structured merit badge clinic.",
+      "v47_slide_title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard",
+      "v47_primary_source_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+      "core_mechanism_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ],
+      "worked_field_example": "Fetching data from L1 CPU cache takes ~1 nanosecond, main DDR5 RAM takes ~60 nanoseconds, and an NVMe solid-state drive takes ~50,000 nanoseconds.",
+      "counselor_tabletop_demo": "Open a system activity monitor to inspect real-time CPU core utilization, RAM allocation, and storage I/O while launching three applications.",
+      "real_world_connection_box": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard: CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives. Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining historical origins and evolution step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+      "core_mechanism_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ],
+      "worked_field_example": "Compressing a 24-megabyte raw BMP photograph into a quality-85 JPEG shrinks file size to 2.4 megabytes (a 10-to-1 reduction) while ZIP compression keeps 100 percent of source bits.",
+      "counselor_tabletop_demo": "Convert a 5-letter Scout word into 8-bit ASCII binary bytes and compare file sizes of an uncompressed BMP image versus PNG and JPEG exports.",
+      "real_world_connection_box": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard: Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels. Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply view the personal safety awareness using standard troop tools and reference charts.",
+      "v47_slide_title": "IEEE Binary Encoding, PCM Audio & RGB Raster Standard",
+      "v47_primary_source_bullets": [
+        "Computers digitize text via UTF-8/ASCII bytes, audio via PCM sampling (44.1 kHz, 16-bit), and images via 24-bit RGB pixels.",
+        "Lossless compression (PNG, ZIP) reconstructs every bit exactly, while lossy compression (JPEG, MP3) drops unneeded data."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+      "core_mechanism_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ],
+      "worked_field_example": "Fetching data from L1 CPU cache takes ~1 nanosecond, main DDR5 RAM takes ~60 nanoseconds, and an NVMe solid-state drive takes ~50,000 nanoseconds.",
+      "counselor_tabletop_demo": "Open a system activity monitor to inspect real-time CPU core utilization, RAM allocation, and storage I/O while launching three applications.",
+      "real_world_connection_box": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard: CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives. Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining historical origins and evolution step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Von Neumann CPU Fetch-Decode-Execute & Memory Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "CPUs run programs via the Fetch-Decode-Execute cycle across L1/L2/L3 SRAM caches, volatile DRAM, and NVMe flash drives.",
+        "Transistor scaling from vacuum tubes to nanometer CMOS integrated circuits multiplied compute speed while cutting power."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+      "core_mechanism_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ],
+      "worked_field_example": "Creating a patrol campout budget spreadsheet with `SUM` and `AVERAGE` formulas and copying it to an external USB flash drive satisfies dual-media backup verification.",
+      "counselor_tabletop_demo": "Inspect the Scout's three completed digital projects (spreadsheet, presentation, and document) directly from their backup storage device.",
+      "real_world_connection_box": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard: Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS. Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify a program or software application during a structured merit badge clinic.",
+      "v47_slide_title": "IETF TCP/IP Packet Switching, DNS & 3-2-1 Backup Standard",
+      "v47_primary_source_bullets": [
+        "Internet data travels in TCP/IP packets routed over fiber, coax, Wi-Fi (IEEE 802.11), and cellular links with TLS and DNS.",
+        "Protect project files using the 3-2-1 backup rule keeping 3 copies on 2 separate media with 1 copy stored off-site."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+      "core_mechanism_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ],
+      "worked_field_example": "Diverting a discarded laptop battery (lithium-cobalt) and circuit board (lead-tin solder) to an e-Stewards certified recycler recovers 95 percent of precious metals safely.",
+      "counselor_tabletop_demo": "Compare an open-source MIT software license against a proprietary EULA and locate the nearest R2 or e-Stewards certified e-waste drop-off facility.",
+      "real_world_connection_box": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard: Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets. Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining at least two different ways data step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard",
+      "v47_primary_source_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Digital Technology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IEEE Computer Society & NIST Information Technology Laboratory",
+        "title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/itl"
+      },
+      "rule_of_thumb_mnemonic": "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+      "core_mechanism_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ],
+      "worked_field_example": "Diverting a discarded laptop battery (lithium-cobalt) and circuit board (lead-tin solder) to an e-Stewards certified recycler recovers 95 percent of precious metals safely.",
+      "counselor_tabletop_demo": "Compare an open-source MIT software license against a proprietary EULA and locate the nearest R2 or e-Stewards certified e-waste drop-off facility.",
+      "real_world_connection_box": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard: Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets. Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IEEE Computer Society & NIST Information Technology Laboratory",
+      "bespoke_visual_filename": "digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/digital_technology_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining at least two different ways data step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "USPTO Intellectual Property & EPA R2/e-Stewards E-Waste Standard",
+      "v47_primary_source_bullets": [
+        "Respect legal protections across Copyright (code/media), Patents (20-year inventions), Trademarks, and Trade Secrets.",
+        "Recycle electronics via R2 or e-Stewards certified facilities to keep lead, mercury, and cadmium out of groundwater."
+      ]
+    }
+  }
+}

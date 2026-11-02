@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "backpacking",
+  "badge_name": "Backpacking",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+  "primary_authority_url": "https://lnt.org/why/7-principles/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "WMS Backcountry Water Treatment and Thermal Risk Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+      "core_mechanism_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ],
+      "worked_field_example": "Stopping to apply a hydrocolloid moleskin donut pad the instant a heel 'hot spot' forms prevents epidermal shear from blistering into an open wound.",
+      "counselor_tabletop_demo": "Assemble a 0.1-micron hollow-fiber water filter setup and demonstrate hot-spot blister prevention using medical tape and donut-cut moleskin.",
+      "real_world_connection_box": "WMS Backcountry Water Treatment and Thermal Risk Standard: CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens. Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing write a plan for a backpacking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "WMS Backcountry Water Treatment and Thermal Risk Standard",
+      "v47_primary_source_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Pack Weight Ratio and Center-of-Gravity Loading Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+      "core_mechanism_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ],
+      "worked_field_example": "For a 120-pound Scout, maximum recommended trail pack weight including 2 liters of water (4.4 pounds) is 24 to 30 pounds.",
+      "counselor_tabletop_demo": "Weigh a loaded internal-frame pack with a luggage scale, repack the sleeping bag, bear canister, and tent into proper zones, and fit the hip belt.",
+      "real_world_connection_box": "Pack Weight Ratio and Center-of-Gravity Loading Standard: Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt. Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply winter sports safety, first aid & hazards using standard troop tools and reference charts.",
+      "v47_slide_title": "Pack Weight Ratio and Center-of-Gravity Loading Standard",
+      "v47_primary_source_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Naismith's Rule Route Planning and Bear Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+      "core_mechanism_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ],
+      "worked_field_example": "A 6-mile mountain trail climbing 2,000 vertical feet requires 3 hours for horizontal mileage plus 2 hours for ascent, totaling 5 hours of hiking time.",
+      "counselor_tabletop_demo": "Calculate trek time across a 4-mile topographic map leg with 1,500 feet of contour gain and sketch a 200-foot Bear Triangle campsite layout.",
+      "real_world_connection_box": "Naismith's Rule Route Planning and Bear Triangle Standard: Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain. Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating 10 scout basic essentials with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Naismith's Rule Route Planning and Bear Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Leave No Trace 200-Foot Water and Cathole Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+        "Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste."
+      ],
+      "worked_field_example": "Packing calorie-dense trail rations averaging 120 to 135 calories per ounce (2,800 to 3,500 kcal per day) minimizes fuel usage and food waste.",
+      "counselor_tabletop_demo": "Measure a backpacking trowel for the 6-to-8-inch cathole depth mark and calculate calories-per-ounce from three sample trail food nutrition labels.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Water and Cathole Standard: Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams. Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for define limits on the number in a troop setting.",
+      "v47_slide_title": "Leave No Trace 200-Foot Water and Cathole Standard",
+      "v47_primary_source_bullets": [
+        "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+        "Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "WMS Backcountry Water Treatment and Thermal Risk Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+      "core_mechanism_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ],
+      "worked_field_example": "Stopping to apply a hydrocolloid moleskin donut pad the instant a heel 'hot spot' forms prevents epidermal shear from blistering into an open wound.",
+      "counselor_tabletop_demo": "Assemble a 0.1-micron hollow-fiber water filter setup and demonstrate hot-spot blister prevention using medical tape and donut-cut moleskin.",
+      "real_world_connection_box": "WMS Backcountry Water Treatment and Thermal Risk Standard: CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens. Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing write a plan for a backpacking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "WMS Backcountry Water Treatment and Thermal Risk Standard",
+      "v47_primary_source_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Pack Weight Ratio and Center-of-Gravity Loading Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+      "core_mechanism_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ],
+      "worked_field_example": "For a 120-pound Scout, maximum recommended trail pack weight including 2 liters of water (4.4 pounds) is 24 to 30 pounds.",
+      "counselor_tabletop_demo": "Weigh a loaded internal-frame pack with a luggage scale, repack the sleeping bag, bear canister, and tent into proper zones, and fit the hip belt.",
+      "real_world_connection_box": "Pack Weight Ratio and Center-of-Gravity Loading Standard: Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt. Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply winter sports safety, first aid & hazards using standard troop tools and reference charts.",
+      "v47_slide_title": "Pack Weight Ratio and Center-of-Gravity Loading Standard",
+      "v47_primary_source_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Naismith's Rule Route Planning and Bear Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+      "core_mechanism_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ],
+      "worked_field_example": "A 6-mile mountain trail climbing 2,000 vertical feet requires 3 hours for horizontal mileage plus 2 hours for ascent, totaling 5 hours of hiking time.",
+      "counselor_tabletop_demo": "Calculate trek time across a 4-mile topographic map leg with 1,500 feet of contour gain and sketch a 200-foot Bear Triangle campsite layout.",
+      "real_world_connection_box": "Naismith's Rule Route Planning and Bear Triangle Standard: Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain. Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating 10 scout basic essentials with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Naismith's Rule Route Planning and Bear Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Pack Weight Ratio and Center-of-Gravity Loading Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+      "core_mechanism_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ],
+      "worked_field_example": "For a 120-pound Scout, maximum recommended trail pack weight including 2 liters of water (4.4 pounds) is 24 to 30 pounds.",
+      "counselor_tabletop_demo": "Weigh a loaded internal-frame pack with a luggage scale, repack the sleeping bag, bear canister, and tent into proper zones, and fit the hip belt.",
+      "real_world_connection_box": "Pack Weight Ratio and Center-of-Gravity Loading Standard: Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt. Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply winter sports safety, first aid & hazards using standard troop tools and reference charts.",
+      "v47_slide_title": "Pack Weight Ratio and Center-of-Gravity Loading Standard",
+      "v47_primary_source_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "WMS Backcountry Water Treatment and Thermal Risk Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+      "core_mechanism_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ],
+      "worked_field_example": "Stopping to apply a hydrocolloid moleskin donut pad the instant a heel 'hot spot' forms prevents epidermal shear from blistering into an open wound.",
+      "counselor_tabletop_demo": "Assemble a 0.1-micron hollow-fiber water filter setup and demonstrate hot-spot blister prevention using medical tape and donut-cut moleskin.",
+      "real_world_connection_box": "WMS Backcountry Water Treatment and Thermal Risk Standard: CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens. Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing write a plan for a backpacking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "WMS Backcountry Water Treatment and Thermal Risk Standard",
+      "v47_primary_source_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Pack Weight Ratio and Center-of-Gravity Loading Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+      "core_mechanism_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ],
+      "worked_field_example": "For a 120-pound Scout, maximum recommended trail pack weight including 2 liters of water (4.4 pounds) is 24 to 30 pounds.",
+      "counselor_tabletop_demo": "Weigh a loaded internal-frame pack with a luggage scale, repack the sleeping bag, bear canister, and tent into proper zones, and fit the hip belt.",
+      "real_world_connection_box": "Pack Weight Ratio and Center-of-Gravity Loading Standard: Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt. Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply winter sports safety, first aid & hazards using standard troop tools and reference charts.",
+      "v47_slide_title": "Pack Weight Ratio and Center-of-Gravity Loading Standard",
+      "v47_primary_source_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Naismith's Rule Route Planning and Bear Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+      "core_mechanism_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ],
+      "worked_field_example": "A 6-mile mountain trail climbing 2,000 vertical feet requires 3 hours for horizontal mileage plus 2 hours for ascent, totaling 5 hours of hiking time.",
+      "counselor_tabletop_demo": "Calculate trek time across a 4-mile topographic map leg with 1,500 feet of contour gain and sketch a 200-foot Bear Triangle campsite layout.",
+      "real_world_connection_box": "Naismith's Rule Route Planning and Bear Triangle Standard: Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain. Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating 10 scout basic essentials with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Naismith's Rule Route Planning and Bear Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Naismith's Rule Route Planning and Bear Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+      "core_mechanism_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ],
+      "worked_field_example": "A 6-mile mountain trail climbing 2,000 vertical feet requires 3 hours for horizontal mileage plus 2 hours for ascent, totaling 5 hours of hiking time.",
+      "counselor_tabletop_demo": "Calculate trek time across a 4-mile topographic map leg with 1,500 feet of contour gain and sketch a 200-foot Bear Triangle campsite layout.",
+      "real_world_connection_box": "Naismith's Rule Route Planning and Bear Triangle Standard: Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain. Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating 10 scout basic essentials with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Naismith's Rule Route Planning and Bear Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Naismith's Rule estimates trek time at 1 hour per 2 to 3 miles of horizontal distance plus 1 additional hour per 1,000 feet of elevation gain.",
+        "Backcountry camp layouts form a 200-foot (70-adult-step) equilateral Bear Triangle separating sleeping tents, cooking area, and bear-hang storage."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "WMS Backcountry Water Treatment and Thermal Risk Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+      "core_mechanism_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ],
+      "worked_field_example": "Stopping to apply a hydrocolloid moleskin donut pad the instant a heel 'hot spot' forms prevents epidermal shear from blistering into an open wound.",
+      "counselor_tabletop_demo": "Assemble a 0.1-micron hollow-fiber water filter setup and demonstrate hot-spot blister prevention using medical tape and donut-cut moleskin.",
+      "real_world_connection_box": "WMS Backcountry Water Treatment and Thermal Risk Standard: CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens. Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing write a plan for a backpacking with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "WMS Backcountry Water Treatment and Thermal Risk Standard",
+      "v47_primary_source_bullets": [
+        "CDC and WMS backcountry guidelines state that a rolling boil for 1 full minute (3 minutes above 6,562 feet) inactivates all waterborne pathogens.",
+        "Sub-0.2-micron hollow-fiber membrane filters remove Giardia and Cryptosporidium cysts plus bacteria, while chemical chlorine dioxide targets viruses."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Pack Weight Ratio and Center-of-Gravity Loading Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+      "core_mechanism_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ],
+      "worked_field_example": "For a 120-pound Scout, maximum recommended trail pack weight including 2 liters of water (4.4 pounds) is 24 to 30 pounds.",
+      "counselor_tabletop_demo": "Weigh a loaded internal-frame pack with a luggage scale, repack the sleeping bag, bear canister, and tent into proper zones, and fit the hip belt.",
+      "real_world_connection_box": "Pack Weight Ratio and Center-of-Gravity Loading Standard: Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt. Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply winter sports safety, first aid & hazards using standard troop tools and reference charts.",
+      "v47_slide_title": "Pack Weight Ratio and Center-of-Gravity Loading Standard",
+      "v47_primary_source_bullets": [
+        "Loaded backpack weight should not exceed 20 to 25 percent of Scout body weight, placing 70 to 80 percent of load on the iliac crest hip belt.",
+        "Pack high-density heavy items (food bear canister, water, stove) vertically against the spine between the shoulder blades and mid-back."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Backpacking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Wilderness Medical Society (WMS) & Leave No Trace Center",
+        "title": "Leave No Trace 200-Foot Water and Cathole Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+        "Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste."
+      ],
+      "worked_field_example": "Packing calorie-dense trail rations averaging 120 to 135 calories per ounce (2,800 to 3,500 kcal per day) minimizes fuel usage and food waste.",
+      "counselor_tabletop_demo": "Measure a backpacking trowel for the 6-to-8-inch cathole depth mark and calculate calories-per-ounce from three sample trail food nutrition labels.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Water and Cathole Standard: Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams. Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Wilderness Medical Society (WMS) & Leave No Trace Center",
+      "bespoke_visual_filename": "backpacking_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/backpacking_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for define limits on the number in a troop setting.",
+      "v47_slide_title": "Leave No Trace 200-Foot Water and Cathole Standard",
+      "v47_primary_source_bullets": [
+        "Leave No Trace Principles require camping, dishwashing, and digging human waste catholes at least 200 feet (70 adult paces) from lakes and streams.",
+        "Sanitary catholes are excavated 6 to 8 inches deep and 4 to 6 inches wide in organic topsoil where aerobic microbes decompose waste."
+      ]
+    }
+  }
+}

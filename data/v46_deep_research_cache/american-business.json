@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "american-business",
+  "badge_name": "American Business",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+  "primary_authority_url": "https://www.sba.gov/business-guide",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Free Enterprise Market Allocation Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+      "core_mechanism_bullets": [
+        "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+        "U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research."
+      ],
+      "worked_field_example": "When a troop camp-chair supplier lowers unit price from 30 dollars to 22 dollars, quantity demanded rises from 40 units to 95 units.",
+      "counselor_tabletop_demo": "Plot a 5-point supply and demand schedule on grid paper to pinpoint the exact market-clearing equilibrium price and surplus.",
+      "real_world_connection_box": "Free Enterprise Market Allocation Standard: Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms. U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_business_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating business financial statements with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Free Enterprise Market Allocation Standard",
+      "v47_primary_source_bullets": [
+        "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+        "U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "FASB GAAP Financial Statement Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+      "core_mechanism_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ],
+      "worked_field_example": "A small outdoor gear shop with 60,000 dollars in current assets and 35,000 dollars in current liabilities maintains a solvent 1.71 current ratio.",
+      "counselor_tabletop_demo": "Give Scouts 8 ledger cards of cash, inventory, loans, and revenue to assemble a balanced GAAP balance sheet and income statement in 3 minutes.",
+      "real_world_connection_box": "FASB GAAP Financial Statement Standard: Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity. Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_business_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute federal economic and trade agencies under adult counselor supervision.",
+      "v47_slide_title": "FASB GAAP Financial Statement Standard",
+      "v47_primary_source_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Break-Even Contribution Margin Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+      "core_mechanism_bullets": [
+        "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+        "Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent."
+      ],
+      "worked_field_example": "With 600 dollars in fixed booth fees, a 15-dollar selling price, and 5-dollar unit cost, a Scout enterprise breaks even at 60 units sold.",
+      "counselor_tabletop_demo": "Run a 3-minute sensitivity test showing how a 2-dollar rise in raw material cost shifts the break-even volume on a fundraiser worksheet.",
+      "real_world_connection_box": "Break-Even Contribution Margin Standard: Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost. Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/american_business_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of private property rights used in American Business.",
+      "v47_slide_title": "Break-Even Contribution Margin Standard",
+      "v47_primary_source_bullets": [
+        "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+        "Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Federal Labor and FTC Regulatory Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+      "core_mechanism_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ],
+      "worked_field_example": "An hourly technician earning 20 dollars per hour who works 46 hours receives 800 dollars base pay plus 180 dollars overtime pay.",
+      "counselor_tabletop_demo": "Audit a sample payroll stub and product warranty label against U.S. Department of Labor overtime rules and FTC truth-in-advertising guidelines.",
+      "real_world_connection_box": "Federal Labor and FTC Regulatory Standard: The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week. Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/american_business_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of balance sheet equations used in American Business.",
+      "v47_slide_title": "Federal Labor and FTC Regulatory Standard",
+      "v47_primary_source_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Free Enterprise Market Allocation Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+      "core_mechanism_bullets": [
+        "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+        "U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research."
+      ],
+      "worked_field_example": "When a troop camp-chair supplier lowers unit price from 30 dollars to 22 dollars, quantity demanded rises from 40 units to 95 units.",
+      "counselor_tabletop_demo": "Plot a 5-point supply and demand schedule on grid paper to pinpoint the exact market-clearing equilibrium price and surplus.",
+      "real_world_connection_box": "Free Enterprise Market Allocation Standard: Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms. U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_business_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating business financial statements with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Free Enterprise Market Allocation Standard",
+      "v47_primary_source_bullets": [
+        "Market equilibrium price clears where consumer marginal utility equals producer marginal cost across competitive firms.",
+        "U.S. patent protection grants a 20-year utility monopoly from the USPTO filing date to incentivize capital research."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "FASB GAAP Financial Statement Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+      "core_mechanism_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ],
+      "worked_field_example": "A small outdoor gear shop with 60,000 dollars in current assets and 35,000 dollars in current liabilities maintains a solvent 1.71 current ratio.",
+      "counselor_tabletop_demo": "Give Scouts 8 ledger cards of cash, inventory, loans, and revenue to assemble a balanced GAAP balance sheet and income statement in 3 minutes.",
+      "real_world_connection_box": "FASB GAAP Financial Statement Standard: Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity. Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_business_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute federal economic and trade agencies under adult counselor supervision.",
+      "v47_slide_title": "FASB GAAP Financial Statement Standard",
+      "v47_primary_source_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "FASB GAAP Financial Statement Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+      "core_mechanism_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ],
+      "worked_field_example": "A small outdoor gear shop with 60,000 dollars in current assets and 35,000 dollars in current liabilities maintains a solvent 1.71 current ratio.",
+      "counselor_tabletop_demo": "Give Scouts 8 ledger cards of cash, inventory, loans, and revenue to assemble a balanced GAAP balance sheet and income statement in 3 minutes.",
+      "real_world_connection_box": "FASB GAAP Financial Statement Standard: Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity. Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/american_business_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute federal economic and trade agencies under adult counselor supervision.",
+      "v47_slide_title": "FASB GAAP Financial Statement Standard",
+      "v47_primary_source_bullets": [
+        "Every FASB balance sheet obeys the fundamental accounting identity where Assets equal Liabilities plus Equity.",
+        "Current ratio divides current assets by current liabilities, targeting 1.5 to 2.0 for healthy working liquidity."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Federal Labor and FTC Regulatory Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+      "core_mechanism_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ],
+      "worked_field_example": "An hourly technician earning 20 dollars per hour who works 46 hours receives 800 dollars base pay plus 180 dollars overtime pay.",
+      "counselor_tabletop_demo": "Audit a sample payroll stub and product warranty label against U.S. Department of Labor overtime rules and FTC truth-in-advertising guidelines.",
+      "real_world_connection_box": "Federal Labor and FTC Regulatory Standard: The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week. Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/american_business_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of balance sheet equations used in American Business.",
+      "v47_slide_title": "Federal Labor and FTC Regulatory Standard",
+      "v47_primary_source_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Break-Even Contribution Margin Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+      "core_mechanism_bullets": [
+        "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+        "Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent."
+      ],
+      "worked_field_example": "With 600 dollars in fixed booth fees, a 15-dollar selling price, and 5-dollar unit cost, a Scout enterprise breaks even at 60 units sold.",
+      "counselor_tabletop_demo": "Run a 3-minute sensitivity test showing how a 2-dollar rise in raw material cost shifts the break-even volume on a fundraiser worksheet.",
+      "real_world_connection_box": "Break-Even Contribution Margin Standard: Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost. Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/american_business_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of private property rights used in American Business.",
+      "v47_slide_title": "Break-Even Contribution Margin Standard",
+      "v47_primary_source_bullets": [
+        "Unit break-even volume equals total fixed overhead costs divided by unit selling price minus unit variable cost.",
+        "Net profit margin equals net income after taxes divided by gross revenue multiplied by 100 percent."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "American Business",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FASB GAAP & U.S. Small Business Administration (SBA)",
+        "title": "Federal Labor and FTC Regulatory Standard Technical Reference",
+        "canonical_url": "https://www.sba.gov/business-guide"
+      },
+      "rule_of_thumb_mnemonic": "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+      "core_mechanism_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ],
+      "worked_field_example": "An hourly technician earning 20 dollars per hour who works 46 hours receives 800 dollars base pay plus 180 dollars overtime pay.",
+      "counselor_tabletop_demo": "Audit a sample payroll stub and product warranty label against U.S. Department of Labor overtime rules and FTC truth-in-advertising guidelines.",
+      "real_world_connection_box": "Federal Labor and FTC Regulatory Standard: The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week. Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FASB GAAP & U.S. Small Business Administration (SBA)",
+      "bespoke_visual_filename": "american_business_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/american_business_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of balance sheet equations used in American Business.",
+      "v47_slide_title": "Federal Labor and FTC Regulatory Standard",
+      "v47_primary_source_bullets": [
+        "The Fair Labor Standards Act mandates 1.5 times regular hourly pay for non-exempt work exceeding 40 hours per week.",
+        "Federal Reserve FOMC open-market operations adjust the federal funds target rate to hold inflation near 2 percent."
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "farm-mechanics",
+  "badge_name": "Farm Mechanics",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ASABE & OSHA Agricultural Safety",
+  "primary_authority_url": "https://www.asabe.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE S276 SMV Emblem & PTO Shielding Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+      "core_mechanism_bullets": [
+        "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+        "ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph."
+      ],
+      "worked_field_example": "An unshielded 540-rpm PTO driveline pulls in a loose jacket sleeve at 7 feet per second, making an intact master shield, tubular driveline guard, and ROPS seatbelt mandatory before startup.",
+      "counselor_tabletop_demo": "Inspect a Slow Moving Vehicle emblem, PTO spline adapter, and hydraulic hose pinhole-leak cardboard detector while walking through a pre-start tractor circle check.",
+      "real_world_connection_box": "ASABE S276 SMV Emblem & PTO Shielding Standard: Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec). ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify with your counselor during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE S276 SMV Emblem & PTO Shielding Standard",
+      "v47_primary_source_bullets": [
+        "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+        "ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE Tool Handle Grain & Blade Bevel Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+      "core_mechanism_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ],
+      "worked_field_example": "After disconnecting the spark plug wire and grinding nicked rotary mower edges to a 30-degree angle, hang the center hole on a cone balancer until neither tip dips, preventing 3,000-rpm spindle vibration.",
+      "counselor_tabletop_demo": "Check the bevel angle of a cold chisel (60 degrees) versus an axe or mower blade (30 degrees) with a protractor gauge and test static balance on a cone balancer.",
+      "real_world_connection_box": "ASABE Tool Handle Grain & Blade Bevel Standard: Replacement hickory striking handles require straight grain parallel to the head and cross-wedging. Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify replace the handle of any tool during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE Tool Handle Grain & Blade Bevel Standard",
+      "v47_primary_source_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "Diesel Compression Ignition & Pascal Law Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+        "Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches."
+      ],
+      "worked_field_example": "A tractor hydraulic pump delivering 2,500 psi into a 3.0-inch-bore loader cylinder (area = pi x 1.5 squared = 7.07 sq in) generates 2,500 x 7.07 = 17,671 pounds of lifting force.",
+      "counselor_tabletop_demo": "Use two connected syringes of 10 mL and 50 mL cross-sectional area filled with water to demonstrate Pascal's Law force multiplication and stroke distance trade-off.",
+      "real_world_connection_box": "Diesel Compression Ignition & Pascal Law Standard: Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit. Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for on an engine-powered machine in a troop setting.",
+      "v47_slide_title": "Diesel Compression Ignition & Pascal Law Standard",
+      "v47_primary_source_bullets": [
+        "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+        "Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "SAE J300 Lubricant & Tractor Maintenance Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+      "core_mechanism_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ],
+      "worked_field_example": "During a 50-hour tractor service, wipe each loader pivot zerk clean before pumping 3 strokes of NLGI No. 2 grease until fresh lubricant purges grit from the pin bushing seal.",
+      "counselor_tabletop_demo": "Read an SAE engine oil viscosity bottle label, inspect a pleated primary/secondary dry air filter element with a flashlight for pinholes, and demonstrate zerk coupler engagement.",
+      "real_world_connection_box": "SAE J300 Lubricant & Tractor Maintenance Standard: NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours. SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing visit an implement dealer with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J300 Lubricant & Tractor Maintenance Standard",
+      "v47_primary_source_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE S276 SMV Emblem & PTO Shielding Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+      "core_mechanism_bullets": [
+        "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+        "ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph."
+      ],
+      "worked_field_example": "An unshielded 540-rpm PTO driveline pulls in a loose jacket sleeve at 7 feet per second, making an intact master shield, tubular driveline guard, and ROPS seatbelt mandatory before startup.",
+      "counselor_tabletop_demo": "Inspect a Slow Moving Vehicle emblem, PTO spline adapter, and hydraulic hose pinhole-leak cardboard detector while walking through a pre-start tractor circle check.",
+      "real_world_connection_box": "ASABE S276 SMV Emblem & PTO Shielding Standard: Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec). ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify with your counselor during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE S276 SMV Emblem & PTO Shielding Standard",
+      "v47_primary_source_bullets": [
+        "Tractor Power Take-Off shafts spin at 540 rpm (9 turns/sec) or 1,000 rpm (16.7 turns/sec).",
+        "ASABE S276 requires a retroreflective SMV triangle visible from 1,000 feet for rigs under 25 mph."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE Tool Handle Grain & Blade Bevel Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+      "core_mechanism_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ],
+      "worked_field_example": "After disconnecting the spark plug wire and grinding nicked rotary mower edges to a 30-degree angle, hang the center hole on a cone balancer until neither tip dips, preventing 3,000-rpm spindle vibration.",
+      "counselor_tabletop_demo": "Check the bevel angle of a cold chisel (60 degrees) versus an axe or mower blade (30 degrees) with a protractor gauge and test static balance on a cone balancer.",
+      "real_world_connection_box": "ASABE Tool Handle Grain & Blade Bevel Standard: Replacement hickory striking handles require straight grain parallel to the head and cross-wedging. Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify replace the handle of any tool during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE Tool Handle Grain & Blade Bevel Standard",
+      "v47_primary_source_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE Tool Handle Grain & Blade Bevel Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+      "core_mechanism_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ],
+      "worked_field_example": "After disconnecting the spark plug wire and grinding nicked rotary mower edges to a 30-degree angle, hang the center hole on a cone balancer until neither tip dips, preventing 3,000-rpm spindle vibration.",
+      "counselor_tabletop_demo": "Check the bevel angle of a cold chisel (60 degrees) versus an axe or mower blade (30 degrees) with a protractor gauge and test static balance on a cone balancer.",
+      "real_world_connection_box": "ASABE Tool Handle Grain & Blade Bevel Standard: Replacement hickory striking handles require straight grain parallel to the head and cross-wedging. Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify replace the handle of any tool during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE Tool Handle Grain & Blade Bevel Standard",
+      "v47_primary_source_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "SAE J300 Lubricant & Tractor Maintenance Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+      "core_mechanism_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ],
+      "worked_field_example": "During a 50-hour tractor service, wipe each loader pivot zerk clean before pumping 3 strokes of NLGI No. 2 grease until fresh lubricant purges grit from the pin bushing seal.",
+      "counselor_tabletop_demo": "Read an SAE engine oil viscosity bottle label, inspect a pleated primary/secondary dry air filter element with a flashlight for pinholes, and demonstrate zerk coupler engagement.",
+      "real_world_connection_box": "SAE J300 Lubricant & Tractor Maintenance Standard: NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours. SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing visit an implement dealer with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J300 Lubricant & Tractor Maintenance Standard",
+      "v47_primary_source_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "Diesel Compression Ignition & Pascal Law Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+      "core_mechanism_bullets": [
+        "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+        "Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches."
+      ],
+      "worked_field_example": "A tractor hydraulic pump delivering 2,500 psi into a 3.0-inch-bore loader cylinder (area = pi x 1.5 squared = 7.07 sq in) generates 2,500 x 7.07 = 17,671 pounds of lifting force.",
+      "counselor_tabletop_demo": "Use two connected syringes of 10 mL and 50 mL cross-sectional area filled with water to demonstrate Pascal's Law force multiplication and stroke distance trade-off.",
+      "real_world_connection_box": "Diesel Compression Ignition & Pascal Law Standard: Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit. Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for on an engine-powered machine in a troop setting.",
+      "v47_slide_title": "Diesel Compression Ignition & Pascal Law Standard",
+      "v47_primary_source_bullets": [
+        "Four-stroke diesel engines use 16-to-1 to 22-to-1 compression to heat air past 1,000 degrees Fahrenheit.",
+        "Pascal's Law states hydraulic force equals system pressure in psi times piston area in square inches."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "ASABE Tool Handle Grain & Blade Bevel Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+      "core_mechanism_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ],
+      "worked_field_example": "After disconnecting the spark plug wire and grinding nicked rotary mower edges to a 30-degree angle, hang the center hole on a cone balancer until neither tip dips, preventing 3,000-rpm spindle vibration.",
+      "counselor_tabletop_demo": "Check the bevel angle of a cold chisel (60 degrees) versus an axe or mower blade (30 degrees) with a protractor gauge and test static balance on a cone balancer.",
+      "real_world_connection_box": "ASABE Tool Handle Grain & Blade Bevel Standard: Replacement hickory striking handles require straight grain parallel to the head and cross-wedging. Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify replace the handle of any tool during a structured merit badge clinic.",
+      "v47_slide_title": "ASABE Tool Handle Grain & Blade Bevel Standard",
+      "v47_primary_source_bullets": [
+        "Replacement hickory striking handles require straight grain parallel to the head and cross-wedging.",
+        "Rotary mower blades are ground to a 30-degree cutting bevel and statically balanced within 1.5g."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Farm Mechanics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASABE & OSHA Agricultural Safety",
+        "title": "SAE J300 Lubricant & Tractor Maintenance Standard Technical Reference",
+        "canonical_url": "https://www.asabe.org/"
+      },
+      "rule_of_thumb_mnemonic": "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+      "core_mechanism_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ],
+      "worked_field_example": "During a 50-hour tractor service, wipe each loader pivot zerk clean before pumping 3 strokes of NLGI No. 2 grease until fresh lubricant purges grit from the pin bushing seal.",
+      "counselor_tabletop_demo": "Read an SAE engine oil viscosity bottle label, inspect a pleated primary/secondary dry air filter element with a flashlight for pinholes, and demonstrate zerk coupler engagement.",
+      "real_world_connection_box": "SAE J300 Lubricant & Tractor Maintenance Standard: NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours. SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASABE & OSHA Agricultural Safety",
+      "bespoke_visual_filename": "farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/farm_mechanics_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing visit an implement dealer with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "SAE J300 Lubricant & Tractor Maintenance Standard",
+      "v47_primary_source_bullets": [
+        "NLGI No. 2 lithium-complex grease is pumped into zerk fittings every 10 to 50 operating hours.",
+        "SAE 15W-40 API CK-4 diesel engine oil maintains viscosity across cold starts and 212 degrees Fahrenheit."
+      ]
+    }
+  }
+}

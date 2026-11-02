@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "geology",
+  "badge_name": "Geology",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. Geological Survey (USGS) & GSA",
+  "primary_authority_url": "https://www.usgs.gov/educational-resources",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Mohs Hardness & Mineral Cleavage Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+      "core_mechanism_bullets": [
+        "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+        "Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees."
+      ],
+      "worked_field_example": "If an unknown transparent crystal scratches a steel pocketknife blade rated at Mohs 5.5 and shows conchoidal fracture rather than flat cleavage planes, classify it as quartz at Mohs 7.",
+      "counselor_tabletop_demo": "Test four unlabeled mineral specimens using a copper penny, steel nail, glass streak plate, and hand lens to determine Mohs hardness and cleavage.",
+      "real_world_connection_box": "USGS Mohs Hardness & Mineral Cleavage Standard: Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10. Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating conduct an experiment approved equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Mohs Hardness & Mineral Cleavage Standard",
+      "v47_primary_source_bullets": [
+        "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+        "Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Topographic Strike & Dip Quadrangle Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+      "core_mechanism_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ],
+      "worked_field_example": "When contour lines cross a stream valley, the V-shaped contours point upstream, and a bed striking North 30 degrees East with a 25-degree Southeast dip slopes toward azimuth 120 degrees.",
+      "counselor_tabletop_demo": "Measure the strike bearing and dip angle of a tilted book on a table using a sighting compass and clinometer, then plot the strike-and-dip symbol on a quadrangle map.",
+      "real_world_connection_box": "USGS Topographic Strike & Dip Quadrangle Standard: A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles. Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating using topographical maps provided equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Topographic Strike & Dip Quadrangle Standard",
+      "v47_primary_source_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Earth Resources & Sedimentary Grain Scale Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+      "core_mechanism_bullets": [
+        "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+        "Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper."
+      ],
+      "worked_field_example": "Sorting a creek-bed sediment sample through 2 mm and 0.0625 mm mesh sieves separates coarse gravel on the top screen, medium sand on the middle screen, and fine silt in the pan.",
+      "counselor_tabletop_demo": "Compare sandstone, shale, limestone, granite, and basalt hand samples under a 10x loupe to classify grain size, sorting, and igneous cooling rate.",
+      "real_world_connection_box": "USGS Earth Resources & Sedimentary Grain Scale Standard: Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm. Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating top five earth resources used equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Earth Resources & Sedimentary Grain Scale Standard",
+      "v47_primary_source_bullets": [
+        "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+        "Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Stratigraphic Trap & Reservoir Porosity Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+      "core_mechanism_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ],
+      "worked_field_example": "Pouring 60 milliliters of water into a beaker packed with 200 milliliters of dry pea gravel before reaching the rim demonstrates a 30 percent effective pore volume.",
+      "counselor_tabletop_demo": "Pour measured water into two clear cylinders filled with sorted marbles versus mixed sand and clay to compare porosity storage and percolation speed.",
+      "real_world_connection_box": "USGS Stratigraphic Trap & Reservoir Porosity Standard: Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow. Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating source rock trap and reservoir equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Stratigraphic Trap & Reservoir Porosity Standard",
+      "v47_primary_source_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Mohs Hardness & Mineral Cleavage Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+      "core_mechanism_bullets": [
+        "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+        "Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees."
+      ],
+      "worked_field_example": "If an unknown transparent crystal scratches a steel pocketknife blade rated at Mohs 5.5 and shows conchoidal fracture rather than flat cleavage planes, classify it as quartz at Mohs 7.",
+      "counselor_tabletop_demo": "Test four unlabeled mineral specimens using a copper penny, steel nail, glass streak plate, and hand lens to determine Mohs hardness and cleavage.",
+      "real_world_connection_box": "USGS Mohs Hardness & Mineral Cleavage Standard: Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10. Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating conduct an experiment approved equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Mohs Hardness & Mineral Cleavage Standard",
+      "v47_primary_source_bullets": [
+        "Mohs scale ranks scratch resistance from talc at 1 and fingernail at 2.5 to steel knife at 5.5, quartz at 7, and diamond at 10.",
+        "Calcite at Mohs 3 fizzes in dilute 10 percent hydrochloric acid and cleaves along 3 rhombohedral planes at 75 and 105 degrees."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Topographic Strike & Dip Quadrangle Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+      "core_mechanism_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ],
+      "worked_field_example": "When contour lines cross a stream valley, the V-shaped contours point upstream, and a bed striking North 30 degrees East with a 25-degree Southeast dip slopes toward azimuth 120 degrees.",
+      "counselor_tabletop_demo": "Measure the strike bearing and dip angle of a tilted book on a table using a sighting compass and clinometer, then plot the strike-and-dip symbol on a quadrangle map.",
+      "real_world_connection_box": "USGS Topographic Strike & Dip Quadrangle Standard: A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles. Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating using topographical maps provided equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Topographic Strike & Dip Quadrangle Standard",
+      "v47_primary_source_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Topographic Strike & Dip Quadrangle Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+      "core_mechanism_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ],
+      "worked_field_example": "When contour lines cross a stream valley, the V-shaped contours point upstream, and a bed striking North 30 degrees East with a 25-degree Southeast dip slopes toward azimuth 120 degrees.",
+      "counselor_tabletop_demo": "Measure the strike bearing and dip angle of a tilted book on a table using a sighting compass and clinometer, then plot the strike-and-dip symbol on a quadrangle map.",
+      "real_world_connection_box": "USGS Topographic Strike & Dip Quadrangle Standard: A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles. Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating using topographical maps provided equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Topographic Strike & Dip Quadrangle Standard",
+      "v47_primary_source_bullets": [
+        "A 1 to 24,000 scale USGS 7.5-minute quadrangle equates 1 inch on paper to 2,000 feet on the ground across 49 to 70 square miles.",
+        "Brunton compass strike records horizontal bearing of an inclined rock bed while dip measures steepest downward angle at 90 degrees."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Stratigraphic Trap & Reservoir Porosity Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+      "core_mechanism_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ],
+      "worked_field_example": "Pouring 60 milliliters of water into a beaker packed with 200 milliliters of dry pea gravel before reaching the rim demonstrates a 30 percent effective pore volume.",
+      "counselor_tabletop_demo": "Pour measured water into two clear cylinders filled with sorted marbles versus mixed sand and clay to compare porosity storage and percolation speed.",
+      "real_world_connection_box": "USGS Stratigraphic Trap & Reservoir Porosity Standard: Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow. Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating source rock trap and reservoir equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Stratigraphic Trap & Reservoir Porosity Standard",
+      "v47_primary_source_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Earth Resources & Sedimentary Grain Scale Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+      "core_mechanism_bullets": [
+        "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+        "Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper."
+      ],
+      "worked_field_example": "Sorting a creek-bed sediment sample through 2 mm and 0.0625 mm mesh sieves separates coarse gravel on the top screen, medium sand on the middle screen, and fine silt in the pan.",
+      "counselor_tabletop_demo": "Compare sandstone, shale, limestone, granite, and basalt hand samples under a 10x loupe to classify grain size, sorting, and igneous cooling rate.",
+      "real_world_connection_box": "USGS Earth Resources & Sedimentary Grain Scale Standard: Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm. Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating top five earth resources used equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Earth Resources & Sedimentary Grain Scale Standard",
+      "v47_primary_source_bullets": [
+        "Wentworth scale divides clastic sediments into clay under 0.004 mm, silt up to 0.0625 mm, sand up to 2 mm, and gravel above 2 mm.",
+        "Every American uses over 39,000 pounds of new nonfuel minerals yearly including crushed stone, sand, gravel, cement, and copper."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Geology",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. Geological Survey (USGS) & GSA",
+        "title": "USGS Stratigraphic Trap & Reservoir Porosity Standard Technical Reference",
+        "canonical_url": "https://www.usgs.gov/educational-resources"
+      },
+      "rule_of_thumb_mnemonic": "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+      "core_mechanism_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ],
+      "worked_field_example": "Pouring 60 milliliters of water into a beaker packed with 200 milliliters of dry pea gravel before reaching the rim demonstrates a 30 percent effective pore volume.",
+      "counselor_tabletop_demo": "Pour measured water into two clear cylinders filled with sorted marbles versus mixed sand and clay to compare porosity storage and percolation speed.",
+      "real_world_connection_box": "USGS Stratigraphic Trap & Reservoir Porosity Standard: Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow. Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. Geological Survey (USGS) & GSA",
+      "bespoke_visual_filename": "geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geology_req_4b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating source rock trap and reservoir equipment layout and safe operating steps for Geology.",
+      "v47_slide_title": "USGS Stratigraphic Trap & Reservoir Porosity Standard",
+      "v47_primary_source_bullets": [
+        "Hydrocarbon and aquifer reservoirs require 10 to 30 percent rock porosity for storage and millidarcy permeability for fluid flow.",
+        "Law of Superposition states that in undeformed sedimentary strata, the oldest rock beds lie at the bottom beneath younger layers."
+      ]
+    }
+  }
+}

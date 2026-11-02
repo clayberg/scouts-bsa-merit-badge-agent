@@ -164,7 +164,7 @@ def test_v47_primary_source_slide_titles_and_single_clean_bullets() -> None:
     req1 = weather_cache["requirements"]["1"]
     assert req1["v47_slide_title"] == "NOAA NWS JetStream Field Standard"
     assert req1["v47_primary_source_bullets"] == [
-        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+        "When temperature and dew point converge within 4 degrees Fahrenheit at sunset, radiation fog forms overnight."
     ]
 
     # Verify runtime injection produces the exact title and single bullet
@@ -185,6 +185,52 @@ def test_v47_primary_source_slide_titles_and_single_clean_bullets() -> None:
     w_req1_slide = [s for s in v46_slides if str(s.get("req_number")) == "1"][0]
     assert w_req1_slide["title"] == "NOAA NWS JetStream Field Standard"
     assert w_req1_slide["bullet_points"] == [
-        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+        "When temperature and dew point converge within 4 degrees Fahrenheit at sunset, radiation fog forms overnight."
     ]
+
+
+def test_v47_all_149_badges_deep_research_primary_source_rollout() -> None:
+    """Verifies all 149 Merit Badges have complete V47 Primary Source Grounding caches and 4 unique visuals."""
+    import re
+
+    sha_manifest = json.loads((DATA_DIR / "canonical_requirements_sha256.json").read_text(encoding="utf-8"))
+    assert len(sha_manifest) == 149
+
+    pam_dir = REPO_ROOT / "assets" / "pamphlet_images"
+    total_reqs_verified = 0
+
+    for slug in sorted(sha_manifest.keys()):
+        cache_path = V46_DIR / f"{slug}.json"
+        assert cache_path.exists(), f"Missing V47 deep research cache for {slug}"
+        payload = json.loads(cache_path.read_text(encoding="utf-8"))
+        assert payload.get("schema_version") == "v46.1"
+        assert payload.get("bespoke_diagram_count") == 4
+
+        raw_reqs = json.loads((REQ_DIR / f"{slug}.json").read_text(encoding="utf-8"))["requirements"]
+        reqs_map = payload.get("requirements") or {}
+        assert len(reqs_map) == len(raw_reqs), f"Requirement count mismatch in {slug}"
+
+        unique_visuals: set[str] = set()
+        for rnum, item in reqs_map.items():
+            total_reqs_verified += 1
+            title = str(item.get("v47_slide_title") or "").strip()
+            assert len(title) >= 10, f"Short or missing v47_slide_title in {slug} Req {rnum}"
+            assert "Deep-Research Field Lab" not in title
+
+            bullets = item.get("v47_primary_source_bullets")
+            assert isinstance(bullets, list) and 1 <= len(bullets) <= 2, f"Bad bullets in {slug} Req {rnum}"
+            for b in bullets:
+                assert 20 <= len(b) <= 165, f"Bullet length out of bounds in {slug} Req {rnum}: {b}"
+                assert ":" not in b and ";" not in b, f"Colon/semicolon in {slug} Req {rnum}: {b}"
+                assert not re.search(r"\b\d[\d,]*\s+[FCK]\b", b), f"Unexpanded single-letter unit in {slug} Req {rnum}: {b}"
+
+            fn = str(item.get("bespoke_visual_filename") or "").strip()
+            assert fn, f"Missing bespoke_visual_filename in {slug} Req {rnum}"
+            assert (AI_DIR / fn).exists() or (pam_dir / fn).exists(), f"Missing visual file {fn} for {slug}"
+            unique_visuals.add(fn)
+
+        assert len(unique_visuals) >= min(4, len(raw_reqs)), f"Expected {min(4, len(raw_reqs))} distinct visuals in {slug}, got {unique_visuals}"
+
+    assert total_reqs_verified >= 1150
+
 

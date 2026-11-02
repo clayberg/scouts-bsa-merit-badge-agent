@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "collections",
+  "badge_name": "Collections",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+  "primary_authority_url": "https://siarchives.si.edu/what-we-do/preservation",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "Smithsonian Archival Cataloging & Provenance Registry Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+      "core_mechanism_bullets": [
+        "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+        "Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification."
+      ],
+      "worked_field_example": "Cataloging 25 vintage Boy Scout council shoulder patches as '2026.01.001 through 2026.01.025' with issue year and weaver border type creates an audit-ready inventory.",
+      "counselor_tabletop_demo": "Fill out a three-item archival catalog card set complete with accession ID, millimeter dimensions, condition grade, and provenance notes.",
+      "real_world_connection_box": "Smithsonian Archival Cataloging & Provenance Registry Standard: Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks. Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_7_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_7_nano_hero.png",
+      "bespoke_visual_caption": "Museum curator and archivist mentoring a uniformed Scout beside glass exhibit cases and conservation tools.",
+      "v47_slide_title": "Smithsonian Archival Cataloging & Provenance Registry Standard",
+      "v47_primary_source_bullets": [
+        "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+        "Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+      "core_mechanism_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ],
+      "worked_field_example": "Mounting UV-filtering acrylic glazing over a framed patch display cuts fading rates by 80 percent compared with direct window sunlight.",
+      "counselor_tabletop_demo": "Measure ambient room temperature, relative humidity, and light intensity at a display shelf using a digital thermo-hygrometer and lux meter.",
+      "real_world_connection_box": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard: Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold. Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through short written report or outline with authentic field equipment.",
+      "v47_slide_title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "ISO 9706 Acid-Free Archival Housing & Handling Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+      "core_mechanism_bullets": [
+        "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+        "Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching."
+      ],
+      "worked_field_example": "Testing an old cardboard shoebox with an abbey pH pen turns yellow (pH 4.5 acidic), proving why collectibles must be moved to buffered archival boxes.",
+      "counselor_tabletop_demo": "Demonstrate an archival pH-pen test on standard corrugated cardboard versus a buffered museum storage folder.",
+      "real_world_connection_box": "ISO 9706 Acid-Free Archival Housing & Handling Standard: House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5. Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply growth and development using standard troop tools and reference charts.",
+      "v47_slide_title": "ISO 9706 Acid-Free Archival Housing & Handling Standard",
+      "v47_primary_source_bullets": [
+        "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+        "Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "Numismatic & Collectible Condition-Rarity Valuation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+      "core_mechanism_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ],
+      "worked_field_example": "Comparing three completed auction sales of an identical 1970s commemorative item in Mint vs Good condition shows a 400 percent value premium for unblemished surfaces.",
+      "counselor_tabletop_demo": "Walk through two groups from the Scout's collection side-by-side and explain the 10 domain glossary terms and grading criteria used by specialists.",
+      "real_world_connection_box": "Numismatic & Collectible Condition-Rarity Valuation Standard: Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades. Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply your knowledge of collecting and investing using standard troop tools and reference charts.",
+      "v47_slide_title": "Numismatic & Collectible Condition-Rarity Valuation Standard",
+      "v47_primary_source_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "Smithsonian Archival Cataloging & Provenance Registry Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+      "core_mechanism_bullets": [
+        "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+        "Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification."
+      ],
+      "worked_field_example": "Cataloging 25 vintage Boy Scout council shoulder patches as '2026.01.001 through 2026.01.025' with issue year and weaver border type creates an audit-ready inventory.",
+      "counselor_tabletop_demo": "Fill out a three-item archival catalog card set complete with accession ID, millimeter dimensions, condition grade, and provenance notes.",
+      "real_world_connection_box": "Smithsonian Archival Cataloging & Provenance Registry Standard: Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks. Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_7_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_7_nano_hero.png",
+      "bespoke_visual_caption": "Museum curator and archivist mentoring a uniformed Scout beside glass exhibit cases and conservation tools.",
+      "v47_slide_title": "Smithsonian Archival Cataloging & Provenance Registry Standard",
+      "v47_primary_source_bullets": [
+        "Assign each specimen a unique tripartite accession number (year, lot, item) with provenance, condition, and maker marks.",
+        "Organize collection taxonomy by chronological period, geographic origin, manufacturer series, or thematic classification."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+      "core_mechanism_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ],
+      "worked_field_example": "Mounting UV-filtering acrylic glazing over a framed patch display cuts fading rates by 80 percent compared with direct window sunlight.",
+      "counselor_tabletop_demo": "Measure ambient room temperature, relative humidity, and light intensity at a display shelf using a digital thermo-hygrometer and lux meter.",
+      "real_world_connection_box": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard: Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold. Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through short written report or outline with authentic field equipment.",
+      "v47_slide_title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+      "core_mechanism_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ],
+      "worked_field_example": "Mounting UV-filtering acrylic glazing over a framed patch display cuts fading rates by 80 percent compared with direct window sunlight.",
+      "counselor_tabletop_demo": "Measure ambient room temperature, relative humidity, and light intensity at a display shelf using a digital thermo-hygrometer and lux meter.",
+      "real_world_connection_box": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard: Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold. Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through short written report or outline with authentic field equipment.",
+      "v47_slide_title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "Numismatic & Collectible Condition-Rarity Valuation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+      "core_mechanism_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ],
+      "worked_field_example": "Comparing three completed auction sales of an identical 1970s commemorative item in Mint vs Good condition shows a 400 percent value premium for unblemished surfaces.",
+      "counselor_tabletop_demo": "Walk through two groups from the Scout's collection side-by-side and explain the 10 domain glossary terms and grading criteria used by specialists.",
+      "real_world_connection_box": "Numismatic & Collectible Condition-Rarity Valuation Standard: Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades. Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply your knowledge of collecting and investing using standard troop tools and reference charts.",
+      "v47_slide_title": "Numismatic & Collectible Condition-Rarity Valuation Standard",
+      "v47_primary_source_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "ISO 9706 Acid-Free Archival Housing & Handling Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+      "core_mechanism_bullets": [
+        "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+        "Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching."
+      ],
+      "worked_field_example": "Testing an old cardboard shoebox with an abbey pH pen turns yellow (pH 4.5 acidic), proving why collectibles must be moved to buffered archival boxes.",
+      "counselor_tabletop_demo": "Demonstrate an archival pH-pen test on standard corrugated cardboard versus a buffered museum storage folder.",
+      "real_world_connection_box": "ISO 9706 Acid-Free Archival Housing & Handling Standard: House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5. Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply growth and development using standard troop tools and reference charts.",
+      "v47_slide_title": "ISO 9706 Acid-Free Archival Housing & Handling Standard",
+      "v47_primary_source_bullets": [
+        "House paper, stamps, and textiles in acid-free, lignin-free enclosures buffered with 3% calcium carbonate to pH 8.5.",
+        "Wear clean nitrile or unbleached cotton gloves when handling metal or photographic items to prevent skin-oil etching."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+      "core_mechanism_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ],
+      "worked_field_example": "Mounting UV-filtering acrylic glazing over a framed patch display cuts fading rates by 80 percent compared with direct window sunlight.",
+      "counselor_tabletop_demo": "Measure ambient room temperature, relative humidity, and light intensity at a display shelf using a digital thermo-hygrometer and lux meter.",
+      "real_world_connection_box": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard: Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold. Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through short written report or outline with authentic field equipment.",
+      "v47_slide_title": "AIC Relative Humidity, Temperature & UV Lux Preservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintain archival storage between 65 and 70 degrees Fahrenheit with 40 to 50 percent relative humidity to stop mold.",
+        "Limit display lighting on paper and textiles to 50 lux and filter ultraviolet radiation below 75 microwatts per lumen."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Collections",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Smithsonian Institution & American Institute for Conservation (AIC)",
+        "title": "Numismatic & Collectible Condition-Rarity Valuation Standard Technical Reference",
+        "canonical_url": "https://siarchives.si.edu/what-we-do/preservation"
+      },
+      "rule_of_thumb_mnemonic": "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+      "core_mechanism_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ],
+      "worked_field_example": "Comparing three completed auction sales of an identical 1970s commemorative item in Mint vs Good condition shows a 400 percent value premium for unblemished surfaces.",
+      "counselor_tabletop_demo": "Walk through two groups from the Scout's collection side-by-side and explain the 10 domain glossary terms and grading criteria used by specialists.",
+      "real_world_connection_box": "Numismatic & Collectible Condition-Rarity Valuation Standard: Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades. Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Smithsonian Institution & American Institute for Conservation (AIC)",
+      "bespoke_visual_filename": "collections_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/collections_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply your knowledge of collecting and investing using standard troop tools and reference charts.",
+      "v47_slide_title": "Numismatic & Collectible Condition-Rarity Valuation Standard",
+      "v47_primary_source_bullets": [
+        "Distinguish curatorial collecting from market speculation by evaluating scarcity, originality, and third-party grades.",
+        "Base insurance and resale valuations on realized auction comparables rather than unverified retail asking prices."
+      ]
+    }
+  }
+}

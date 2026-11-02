@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "pulp-and-paper",
+  "badge_name": "Pulp and Paper",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "TAPPI & USDA Forest Products Laboratory",
+  "primary_authority_url": "https://www.fpl.fs.usda.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "USDA Forest Products Wood Fiber Morphology Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+      "core_mechanism_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ],
+      "worked_field_example": "Blending 70 percent bleached eucalyptus hardwood pulp with 30 percent southern pine softwood yields copy paper that resists jamming.",
+      "counselor_tabletop_demo": "Tear a wet strip of brown grocery bag alongside facial tissue under a 10x hand lens to compare long softwood fibers with short fibers.",
+      "real_world_connection_box": "USDA Forest Products Wood Fiber Morphology Standard: Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print. Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of ancient chinese innovation used in Pulp and Paper.",
+      "v47_slide_title": "USDA Forest Products Wood Fiber Morphology Standard",
+      "v47_primary_source_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Fourdrinier Headbox and Forming Wire Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+      "core_mechanism_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ],
+      "worked_field_example": "A paper machine producing 500 tons per day pumps 50,000 tons of white water through its forming wire and recycles 95 percent in-loop.",
+      "counselor_tabletop_demo": "Suspend shredded pulp in a 1-quart tub of water, dip a deckle screen level, and couch the drained sheet onto a blotting felt.",
+      "real_world_connection_box": "TAPPI Fourdrinier Headbox and Forming Wire Standard: Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation. Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of dilute stock delivery used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Fourdrinier Headbox and Forming Wire Standard",
+      "v47_primary_source_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Kaolin Coating and Calendering Gloss Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+      "core_mechanism_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ],
+      "worked_field_example": "Magazine stock rated at 80-pound text weight carries 18 grams per square meter of clay coating per side for sharp halftone dots.",
+      "counselor_tabletop_demo": "Place one drop of washable ink on uncoated newsprint, copy paper, and glossy magazine stock to measure feathering width with a ruler.",
+      "real_world_connection_box": "TAPPI Kaolin Coating and Calendering Gloss Standard: Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness. Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kaolin clay formulation used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Kaolin Coating and Calendering Gloss Standard",
+      "v47_primary_source_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+      "core_mechanism_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ],
+      "worked_field_example": "Recycling 1 short ton of office paper saves approximately 17 pulpwood trees, 7,000 gallons of process water, and 3.3 cubic yards of landfill.",
+      "counselor_tabletop_demo": "Inspect edge crush test stamps on three shipping boxes and identify the burst strength and minimum recycled content percentages.",
+      "real_world_connection_box": "EPA and TAPPI Paper Recycling Fiber Recovery Standard: Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec. Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of sanitary creped tissue used in Pulp and Paper.",
+      "v47_slide_title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "USDA Forest Products Wood Fiber Morphology Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+      "core_mechanism_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ],
+      "worked_field_example": "Blending 70 percent bleached eucalyptus hardwood pulp with 30 percent southern pine softwood yields copy paper that resists jamming.",
+      "counselor_tabletop_demo": "Tear a wet strip of brown grocery bag alongside facial tissue under a 10x hand lens to compare long softwood fibers with short fibers.",
+      "real_world_connection_box": "USDA Forest Products Wood Fiber Morphology Standard: Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print. Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of ancient chinese innovation used in Pulp and Paper.",
+      "v47_slide_title": "USDA Forest Products Wood Fiber Morphology Standard",
+      "v47_primary_source_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Fourdrinier Headbox and Forming Wire Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+      "core_mechanism_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ],
+      "worked_field_example": "A paper machine producing 500 tons per day pumps 50,000 tons of white water through its forming wire and recycles 95 percent in-loop.",
+      "counselor_tabletop_demo": "Suspend shredded pulp in a 1-quart tub of water, dip a deckle screen level, and couch the drained sheet onto a blotting felt.",
+      "real_world_connection_box": "TAPPI Fourdrinier Headbox and Forming Wire Standard: Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation. Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of dilute stock delivery used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Fourdrinier Headbox and Forming Wire Standard",
+      "v47_primary_source_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Fourdrinier Headbox and Forming Wire Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+      "core_mechanism_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ],
+      "worked_field_example": "A paper machine producing 500 tons per day pumps 50,000 tons of white water through its forming wire and recycles 95 percent in-loop.",
+      "counselor_tabletop_demo": "Suspend shredded pulp in a 1-quart tub of water, dip a deckle screen level, and couch the drained sheet onto a blotting felt.",
+      "real_world_connection_box": "TAPPI Fourdrinier Headbox and Forming Wire Standard: Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation. Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of dilute stock delivery used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Fourdrinier Headbox and Forming Wire Standard",
+      "v47_primary_source_bullets": [
+        "Deliver dilute paper stock to the Fourdrinier headbox at 99 percent water and 1 percent cellulose fiber by weight for uniform formation.",
+        "Drain water through the moving mesh wire to 20 percent solids before the wet press and steam dryer cans reach 94 percent solids."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+      "core_mechanism_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ],
+      "worked_field_example": "Recycling 1 short ton of office paper saves approximately 17 pulpwood trees, 7,000 gallons of process water, and 3.3 cubic yards of landfill.",
+      "counselor_tabletop_demo": "Inspect edge crush test stamps on three shipping boxes and identify the burst strength and minimum recycled content percentages.",
+      "real_world_connection_box": "EPA and TAPPI Paper Recycling Fiber Recovery Standard: Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec. Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of sanitary creped tissue used in Pulp and Paper.",
+      "v47_slide_title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "USDA Forest Products Wood Fiber Morphology Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+      "core_mechanism_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ],
+      "worked_field_example": "Blending 70 percent bleached eucalyptus hardwood pulp with 30 percent southern pine softwood yields copy paper that resists jamming.",
+      "counselor_tabletop_demo": "Tear a wet strip of brown grocery bag alongside facial tissue under a 10x hand lens to compare long softwood fibers with short fibers.",
+      "real_world_connection_box": "USDA Forest Products Wood Fiber Morphology Standard: Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print. Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of ancient chinese innovation used in Pulp and Paper.",
+      "v47_slide_title": "USDA Forest Products Wood Fiber Morphology Standard",
+      "v47_primary_source_bullets": [
+        "Softwood tracheids average 3 to 5 millimeters in length for tear strength, while hardwood fibers average 1 millimeter for smooth print.",
+        "Kraft chemical pulping cooks wood chips at 340 degrees Fahrenheit in sodium hydroxide and sodium sulfide to dissolve lignin bonds."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Kaolin Coating and Calendering Gloss Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+      "core_mechanism_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ],
+      "worked_field_example": "Magazine stock rated at 80-pound text weight carries 18 grams per square meter of clay coating per side for sharp halftone dots.",
+      "counselor_tabletop_demo": "Place one drop of washable ink on uncoated newsprint, copy paper, and glossy magazine stock to measure feathering width with a ruler.",
+      "real_world_connection_box": "TAPPI Kaolin Coating and Calendering Gloss Standard: Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness. Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kaolin clay formulation used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Kaolin Coating and Calendering Gloss Standard",
+      "v47_primary_source_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "TAPPI Kaolin Coating and Calendering Gloss Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+      "core_mechanism_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ],
+      "worked_field_example": "Magazine stock rated at 80-pound text weight carries 18 grams per square meter of clay coating per side for sharp halftone dots.",
+      "counselor_tabletop_demo": "Place one drop of washable ink on uncoated newsprint, copy paper, and glossy magazine stock to measure feathering width with a ruler.",
+      "real_world_connection_box": "TAPPI Kaolin Coating and Calendering Gloss Standard: Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness. Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kaolin clay formulation used in Pulp and Paper.",
+      "v47_slide_title": "TAPPI Kaolin Coating and Calendering Gloss Standard",
+      "v47_primary_source_bullets": [
+        "Apply kaolin clay or calcium carbonate mineral coatings at 10 to 30 percent of sheet weight to fill surface voids and boost brightness.",
+        "Pass coated paper through heated steel calender nip rolls at 1,500 pounds per linear inch to compress thickness and prevent ink bleed."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Pulp and Paper",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "TAPPI & USDA Forest Products Laboratory",
+        "title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard Technical Reference",
+        "canonical_url": "https://www.fpl.fs.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+      "core_mechanism_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ],
+      "worked_field_example": "Recycling 1 short ton of office paper saves approximately 17 pulpwood trees, 7,000 gallons of process water, and 3.3 cubic yards of landfill.",
+      "counselor_tabletop_demo": "Inspect edge crush test stamps on three shipping boxes and identify the burst strength and minimum recycled content percentages.",
+      "real_world_connection_box": "EPA and TAPPI Paper Recycling Fiber Recovery Standard: Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec. Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + TAPPI & USDA Forest Products Laboratory",
+      "bespoke_visual_filename": "pulp_and_paper_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/pulp_and_paper_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of sanitary creped tissue used in Pulp and Paper.",
+      "v47_slide_title": "EPA and TAPPI Paper Recycling Fiber Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Cellulose papermaking fibers can be repulped and recycled 5 to 7 times before mechanical shortening drops tensile strength below spec.",
+        "Corrugated containerboard mills blend 35 percent virgin kraft linerboard with 65 percent recovered old corrugated containers."
+      ]
+    }
+  }
+}

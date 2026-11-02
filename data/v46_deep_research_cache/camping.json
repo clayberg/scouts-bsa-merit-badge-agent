@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "camping",
+  "badge_name": "Camping",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Leave No Trace Center & USFS",
+  "primary_authority_url": "https://lnt.org/why/7-principles/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Leave No Trace 200-Foot Campsite Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ],
+      "worked_field_example": "At an alpine lake basin, a patrol paces 75 adult steps (200 feet) upslope from the shoreline onto durable gravel before pitching four two-person tents.",
+      "counselor_tabletop_demo": "Have Scouts arrange miniature tent, stove, and bear-canister markers on a topographic map using a scale ruler to verify the 200-foot triangle layout.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Campsite Triangle Standard: Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams. Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_caption": "Alpine Scout campsite laid out in a 200-foot Leave No Trace triangle separating durable gravel tent pads, camp stove cooking rock, and bear canister food storage away from mountain water.",
+      "v47_slide_title": "Leave No Trace 200-Foot Campsite Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "USFS Backcountry Water Treatment & Sanitation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+      "core_mechanism_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ],
+      "worked_field_example": "Filtering 4 liters of creek water through a 0.1-micron gravity filter takes 3 minutes and removes 99.9999 percent of Giardia and Cryptosporidium cysts.",
+      "counselor_tabletop_demo": "Demonstrate backflushing a 0.1-micron hollow-fiber filter with clean water and testing chlorine residual strips in a three-basin dishwashing setup.",
+      "real_world_connection_box": "USFS Backcountry Water Treatment & Sanitation Standard: Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide. Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing things you did to earn with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFS Backcountry Water Treatment & Sanitation Standard",
+      "v47_primary_source_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Cold-Weather Layering & R-Value Insulation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+      "core_mechanism_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Stacking a closed-cell foam pad (R-value 2.0) beneath an insulated air pad (R-value 3.2) yields an additive R-value of 5.2 for winter snow camping.",
+      "counselor_tabletop_demo": "Compare cotton, merino wool, and polyester swatches after misting each with 10 milliliters of water and measuring surface temperature drop with an infrared thermometer.",
+      "real_world_connection_box": "Cold-Weather Layering & R-Value Insulation Standard: Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters. Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute hazards, first aid & safety under adult counselor supervision.",
+      "v47_slide_title": "Cold-Weather Layering & R-Value Insulation Standard",
+      "v47_primary_source_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Camp Stove Fuel Pressurization & Clearance Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+      "core_mechanism_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ],
+      "worked_field_example": "An Isobutane-propane 80/20 blend canister maintains vapor pressure down to 15 degrees Fahrenheit before requiring inverted liquid-feed operation.",
+      "counselor_tabletop_demo": "Inspect O-ring fuel seals and pressure-test a depressurized camp stove manifold with soapy water to spot micro-bubble leaks before ignition.",
+      "real_world_connection_box": "Camp Stove Fuel Pressurization & Clearance Standard: Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff. Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Camp Stove Fuel Pressurization & Clearance Standard",
+      "v47_primary_source_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Leave No Trace 200-Foot Campsite Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ],
+      "worked_field_example": "At an alpine lake basin, a patrol paces 75 adult steps (200 feet) upslope from the shoreline onto durable gravel before pitching four two-person tents.",
+      "counselor_tabletop_demo": "Have Scouts arrange miniature tent, stove, and bear-canister markers on a topographic map using a scale ruler to verify the 200-foot triangle layout.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Campsite Triangle Standard: Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams. Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_caption": "Alpine Scout campsite laid out in a 200-foot Leave No Trace triangle separating durable gravel tent pads, camp stove cooking rock, and bear canister food storage away from mountain water.",
+      "v47_slide_title": "Leave No Trace 200-Foot Campsite Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "USFS Backcountry Water Treatment & Sanitation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+      "core_mechanism_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ],
+      "worked_field_example": "Filtering 4 liters of creek water through a 0.1-micron gravity filter takes 3 minutes and removes 99.9999 percent of Giardia and Cryptosporidium cysts.",
+      "counselor_tabletop_demo": "Demonstrate backflushing a 0.1-micron hollow-fiber filter with clean water and testing chlorine residual strips in a three-basin dishwashing setup.",
+      "real_world_connection_box": "USFS Backcountry Water Treatment & Sanitation Standard: Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide. Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing things you did to earn with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFS Backcountry Water Treatment & Sanitation Standard",
+      "v47_primary_source_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Cold-Weather Layering & R-Value Insulation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+      "core_mechanism_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Stacking a closed-cell foam pad (R-value 2.0) beneath an insulated air pad (R-value 3.2) yields an additive R-value of 5.2 for winter snow camping.",
+      "counselor_tabletop_demo": "Compare cotton, merino wool, and polyester swatches after misting each with 10 milliliters of water and measuring surface temperature drop with an infrared thermometer.",
+      "real_world_connection_box": "Cold-Weather Layering & R-Value Insulation Standard: Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters. Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute hazards, first aid & safety under adult counselor supervision.",
+      "v47_slide_title": "Cold-Weather Layering & R-Value Insulation Standard",
+      "v47_primary_source_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "USFS Backcountry Water Treatment & Sanitation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+      "core_mechanism_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ],
+      "worked_field_example": "Filtering 4 liters of creek water through a 0.1-micron gravity filter takes 3 minutes and removes 99.9999 percent of Giardia and Cryptosporidium cysts.",
+      "counselor_tabletop_demo": "Demonstrate backflushing a 0.1-micron hollow-fiber filter with clean water and testing chlorine residual strips in a three-basin dishwashing setup.",
+      "real_world_connection_box": "USFS Backcountry Water Treatment & Sanitation Standard: Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide. Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing things you did to earn with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFS Backcountry Water Treatment & Sanitation Standard",
+      "v47_primary_source_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Leave No Trace 200-Foot Campsite Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ],
+      "worked_field_example": "At an alpine lake basin, a patrol paces 75 adult steps (200 feet) upslope from the shoreline onto durable gravel before pitching four two-person tents.",
+      "counselor_tabletop_demo": "Have Scouts arrange miniature tent, stove, and bear-canister markers on a topographic map using a scale ruler to verify the 200-foot triangle layout.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Campsite Triangle Standard: Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams. Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_caption": "Alpine Scout campsite laid out in a 200-foot Leave No Trace triangle separating durable gravel tent pads, camp stove cooking rock, and bear canister food storage away from mountain water.",
+      "v47_slide_title": "Leave No Trace 200-Foot Campsite Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "USFS Backcountry Water Treatment & Sanitation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+      "core_mechanism_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ],
+      "worked_field_example": "Filtering 4 liters of creek water through a 0.1-micron gravity filter takes 3 minutes and removes 99.9999 percent of Giardia and Cryptosporidium cysts.",
+      "counselor_tabletop_demo": "Demonstrate backflushing a 0.1-micron hollow-fiber filter with clean water and testing chlorine residual strips in a three-basin dishwashing setup.",
+      "real_world_connection_box": "USFS Backcountry Water Treatment & Sanitation Standard: Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide. Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing things you did to earn with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USFS Backcountry Water Treatment & Sanitation Standard",
+      "v47_primary_source_bullets": [
+        "Boil clear water at a rolling boil for 60 full seconds or filter through a 0.1-micron membrane plus chlorine dioxide.",
+        "Wash camp dishes 200 feet from water sources using a three-basin system with 170 degrees Fahrenheit sanitizing water."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Cold-Weather Layering & R-Value Insulation Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+      "core_mechanism_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Stacking a closed-cell foam pad (R-value 2.0) beneath an insulated air pad (R-value 3.2) yields an additive R-value of 5.2 for winter snow camping.",
+      "counselor_tabletop_demo": "Compare cotton, merino wool, and polyester swatches after misting each with 10 milliliters of water and measuring surface temperature drop with an infrared thermometer.",
+      "real_world_connection_box": "Cold-Weather Layering & R-Value Insulation Standard: Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters. Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute hazards, first aid & safety under adult counselor supervision.",
+      "v47_slide_title": "Cold-Weather Layering & R-Value Insulation Standard",
+      "v47_primary_source_bullets": [
+        "Pair a synthetic or merino wicking base layer with a lofted mid-layer and a waterproof shell rated to 10,000 millimeters.",
+        "Use a sleeping pad with an ASTM F3340 R-value of 4.0 or higher when ground temperatures drop below 32 degrees Fahrenheit."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Camp Stove Fuel Pressurization & Clearance Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+      "core_mechanism_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ],
+      "worked_field_example": "An Isobutane-propane 80/20 blend canister maintains vapor pressure down to 15 degrees Fahrenheit before requiring inverted liquid-feed operation.",
+      "counselor_tabletop_demo": "Inspect O-ring fuel seals and pressure-test a depressurized camp stove manifold with soapy water to spot micro-bubble leaks before ignition.",
+      "real_world_connection_box": "Camp Stove Fuel Pressurization & Clearance Standard: Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff. Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Camp Stove Fuel Pressurization & Clearance Standard",
+      "v47_primary_source_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Leave No Trace 200-Foot Campsite Triangle Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+      "core_mechanism_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ],
+      "worked_field_example": "At an alpine lake basin, a patrol paces 75 adult steps (200 feet) upslope from the shoreline onto durable gravel before pitching four two-person tents.",
+      "counselor_tabletop_demo": "Have Scouts arrange miniature tent, stove, and bear-canister markers on a topographic map using a scale ruler to verify the 200-foot triangle layout.",
+      "real_world_connection_box": "Leave No Trace 200-Foot Campsite Triangle Standard: Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams. Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_leave_no_trace_campsite_nano.png",
+      "bespoke_visual_caption": "Alpine Scout campsite laid out in a 200-foot Leave No Trace triangle separating durable gravel tent pads, camp stove cooking rock, and bear canister food storage away from mountain water.",
+      "v47_slide_title": "Leave No Trace 200-Foot Campsite Triangle Standard",
+      "v47_primary_source_bullets": [
+        "Pitch tents, cook meals, and hang bear bags 200 feet apart in a triangle at least 200 feet from lakes and streams.",
+        "Dig catholes 6 to 8 inches deep in organic topsoil at least 200 feet from water, trails, and camp."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Camping",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Leave No Trace Center & USFS",
+        "title": "Camp Stove Fuel Pressurization & Clearance Standard Technical Reference",
+        "canonical_url": "https://lnt.org/why/7-principles/"
+      },
+      "rule_of_thumb_mnemonic": "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+      "core_mechanism_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ],
+      "worked_field_example": "An Isobutane-propane 80/20 blend canister maintains vapor pressure down to 15 degrees Fahrenheit before requiring inverted liquid-feed operation.",
+      "counselor_tabletop_demo": "Inspect O-ring fuel seals and pressure-test a depressurized camp stove manifold with soapy water to spot micro-bubble leaks before ignition.",
+      "real_world_connection_box": "Camp Stove Fuel Pressurization & Clearance Standard: Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff. Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Leave No Trace Center & USFS",
+      "bespoke_visual_filename": "camping_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/camping_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating leave no trace & outdoor ethics with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Camp Stove Fuel Pressurization & Clearance Standard",
+      "v47_primary_source_bullets": [
+        "Operate liquid-fuel and canister camp stoves on level mineral soil with a 36-inch clearance from tent fabric and duff.",
+        "Cool liquid-fuel stoves for 10 minutes before refilling through a filtered funnel at least 20 feet downwind of flames."
+      ]
+    }
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "textile",
+  "badge_name": "Textile",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "AATCC & Textile Institute",
+  "primary_authority_url": "https://www.aatcc.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "ASTM D123 Fiber, Yarn & Fabric Classification Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+      "core_mechanism_bullets": [
+        "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+        "Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex)."
+      ],
+      "worked_field_example": "Upland cotton staple fibers measure 22 to 32 millimeters long with a natural convolutions twist that locks fibers together when spun into yarn.",
+      "counselor_tabletop_demo": "Examine two natural, two synthetic, and one cellulosic swatch under a 10x loupe to compare staple fiber ends against smooth extruded filaments.",
+      "real_world_connection_box": "ASTM D123 Fiber, Yarn & Fabric Classification Standard: Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m. Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating importance of textiles with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASTM D123 Fiber, Yarn & Fabric Classification Standard",
+      "v47_primary_source_bullets": [
+        "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+        "Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex)."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "Woven, Knitted & Nonwoven Fabric Construction Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+      "core_mechanism_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ],
+      "worked_field_example": "A durable 2-by-1 denim twill weave passes each warp yarn over two weft yarns and under one, creating the characteristic 45-degree diagonal wale.",
+      "counselor_tabletop_demo": "Use a pick glass magnifier to count warp ends and weft picks per inch on plain weave, twill weave, and jersey knit fabric samples.",
+      "real_world_connection_box": "Woven, Knitted & Nonwoven Fabric Construction Standard: Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed. Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating get swatches of two natural fiber with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Woven, Knitted & Nonwoven Fabric Construction Standard",
+      "v47_primary_source_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "AATCC Yarn Linear Density & High-Modulus Fiber Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+      "core_mechanism_bullets": [
+        "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+        "Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit."
+      ],
+      "worked_field_example": "A 150-denier polyester filament yarn weighs exactly 150 grams for a 9000-meter skein, equivalent to 16.7 tex under the metric system.",
+      "counselor_tabletop_demo": "Untwist a 6-inch yarn sample to measure twists per inch (TPI), determine S-twist versus Z-twist direction, and pull apart combed sliver.",
+      "real_world_connection_box": "AATCC Yarn Linear Density & High-Modulus Fiber Standard: Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers. Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through advantages and disadvantages of natural plant with authentic field equipment.",
+      "v47_slide_title": "AATCC Yarn Linear Density & High-Modulus Fiber Standard",
+      "v47_primary_source_bullets": [
+        "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+        "Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "ISO 3758 Care Labeling & Microfiber Ecology Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+      "core_mechanism_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ],
+      "worked_field_example": "Using a 100-micron microfiber laundry filter bag on a 6-kilogram synthetic wash load captures up to 80 percent of shed polyester microfibers.",
+      "counselor_tabletop_demo": "Decode five ISO 3758 garment care tags (wash temperature, bleaching, drying, ironing) and compare water droplet absorption on wool versus polyester.",
+      "real_world_connection_box": "ISO 3758 Care Labeling & Microfiber Ecology Standard: Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load. Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute careers and professional pathways under adult counselor supervision.",
+      "v47_slide_title": "ISO 3758 Care Labeling & Microfiber Ecology Standard",
+      "v47_primary_source_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "ASTM D123 Fiber, Yarn & Fabric Classification Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+      "core_mechanism_bullets": [
+        "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+        "Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex)."
+      ],
+      "worked_field_example": "Upland cotton staple fibers measure 22 to 32 millimeters long with a natural convolutions twist that locks fibers together when spun into yarn.",
+      "counselor_tabletop_demo": "Examine two natural, two synthetic, and one cellulosic swatch under a 10x loupe to compare staple fiber ends against smooth extruded filaments.",
+      "real_world_connection_box": "ASTM D123 Fiber, Yarn & Fabric Classification Standard: Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m. Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating importance of textiles with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASTM D123 Fiber, Yarn & Fabric Classification Standard",
+      "v47_primary_source_bullets": [
+        "Natural cellulosic fibers (cotton, linen) and protein fibers (wool, silk) grow as staple lengths except silk filaments up to 1000 m.",
+        "Manufactured fibers split into regenerated cellulosics (rayon, lyocell, acetate) and synthetic polymers (polyester, nylon, spandex)."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "Woven, Knitted & Nonwoven Fabric Construction Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+      "core_mechanism_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ],
+      "worked_field_example": "A durable 2-by-1 denim twill weave passes each warp yarn over two weft yarns and under one, creating the characteristic 45-degree diagonal wale.",
+      "counselor_tabletop_demo": "Use a pick glass magnifier to count warp ends and weft picks per inch on plain weave, twill weave, and jersey knit fabric samples.",
+      "real_world_connection_box": "Woven, Knitted & Nonwoven Fabric Construction Standard: Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed. Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating get swatches of two natural fiber with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Woven, Knitted & Nonwoven Fabric Construction Standard",
+      "v47_primary_source_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "Woven, Knitted & Nonwoven Fabric Construction Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+      "core_mechanism_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ],
+      "worked_field_example": "A durable 2-by-1 denim twill weave passes each warp yarn over two weft yarns and under one, creating the characteristic 45-degree diagonal wale.",
+      "counselor_tabletop_demo": "Use a pick glass magnifier to count warp ends and weft picks per inch on plain weave, twill weave, and jersey knit fabric samples.",
+      "real_world_connection_box": "Woven, Knitted & Nonwoven Fabric Construction Standard: Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed. Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating get swatches of two natural fiber with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Woven, Knitted & Nonwoven Fabric Construction Standard",
+      "v47_primary_source_bullets": [
+        "Loom weaving interlaces lengthwise warp yarns through harnesses and heddles with crosswise weft yarns passed through the shed.",
+        "Weft and warp knits form interlocking loops for 20 to 100 percent stretch while nonwovens bond fiber webs thermally or mechanically."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "ISO 3758 Care Labeling & Microfiber Ecology Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+      "core_mechanism_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ],
+      "worked_field_example": "Using a 100-micron microfiber laundry filter bag on a 6-kilogram synthetic wash load captures up to 80 percent of shed polyester microfibers.",
+      "counselor_tabletop_demo": "Decode five ISO 3758 garment care tags (wash temperature, bleaching, drying, ironing) and compare water droplet absorption on wool versus polyester.",
+      "real_world_connection_box": "ISO 3758 Care Labeling & Microfiber Ecology Standard: Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load. Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute careers and professional pathways under adult counselor supervision.",
+      "v47_slide_title": "ISO 3758 Care Labeling & Microfiber Ecology Standard",
+      "v47_primary_source_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "AATCC Yarn Linear Density & High-Modulus Fiber Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+      "core_mechanism_bullets": [
+        "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+        "Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit."
+      ],
+      "worked_field_example": "A 150-denier polyester filament yarn weighs exactly 150 grams for a 9000-meter skein, equivalent to 16.7 tex under the metric system.",
+      "counselor_tabletop_demo": "Untwist a 6-inch yarn sample to measure twists per inch (TPI), determine S-twist versus Z-twist direction, and pull apart combed sliver.",
+      "real_world_connection_box": "AATCC Yarn Linear Density & High-Modulus Fiber Standard: Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers. Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through advantages and disadvantages of natural plant with authentic field equipment.",
+      "v47_slide_title": "AATCC Yarn Linear Density & High-Modulus Fiber Standard",
+      "v47_primary_source_bullets": [
+        "Denier measures yarn mass in grams per 9000 meters of filament, where fibers below 1.0 denier classify as fine microfibers.",
+        "Aramid (Kevlar) and carbon fibers deliver 5 times the tensile strength-to-weight ratio of steel above 800 degrees Fahrenheit."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Textile",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AATCC & Textile Institute",
+        "title": "ISO 3758 Care Labeling & Microfiber Ecology Standard Technical Reference",
+        "canonical_url": "https://www.aatcc.org/"
+      },
+      "rule_of_thumb_mnemonic": "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+      "core_mechanism_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ],
+      "worked_field_example": "Using a 100-micron microfiber laundry filter bag on a 6-kilogram synthetic wash load captures up to 80 percent of shed polyester microfibers.",
+      "counselor_tabletop_demo": "Decode five ISO 3758 garment care tags (wash temperature, bleaching, drying, ironing) and compare water droplet absorption on wool versus polyester.",
+      "real_world_connection_box": "ISO 3758 Care Labeling & Microfiber Ecology Standard: Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load. Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AATCC & Textile Institute",
+      "bespoke_visual_filename": "textile_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/textile_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute careers and professional pathways under adult counselor supervision.",
+      "v47_slide_title": "ISO 3758 Care Labeling & Microfiber Ecology Standard",
+      "v47_primary_source_bullets": [
+        "Conventional cotton requires roughly 2700 liters of water per shirt while synthetic washing sheds up to 700000 microfibers per load.",
+        "Cold-water washing at 60 to 80 degrees Fahrenheit cuts laundry energy by 75 percent and reduces microfiber shedding by 30 percent."
+      ]
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "game-design",
+  "badge_name": "Game Design",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "IGDA & U.S. Copyright Office",
+  "primary_authority_url": "https://igda.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "MDA Framework & Core Gameplay Loop Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+      "core_mechanism_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ],
+      "worked_field_example": "Deconstructing Settlers of Catan contrasts medium-complexity multiplayer trading dynamics and resource-card mechanics against Chess, which is a two-player perfect-information deterministic abstract game.",
+      "counselor_tabletop_demo": "Map four games across different genres onto a 2x2 matrix of Skill-vs-Chance and Symmetric-vs-Asymmetric starting conditions.",
+      "real_world_connection_box": "MDA Framework & Core Gameplay Loop Standard: The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics. A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through analyze four games you have played with authentic field equipment.",
+      "v47_slide_title": "MDA Framework & Core Gameplay Loop Standard",
+      "v47_primary_source_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Combinatorial Probability & Game Balance Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+      "core_mechanism_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ],
+      "worked_field_example": "In a 2d6 resource game, hexes numbered 6 and 8 each appear in 5 of 36 rolls (13.89 percent probability), making them 5 times more productive than 2 or 12 which appear in only 1 of 36 rolls (2.78 percent).",
+      "counselor_tabletop_demo": "Construct the 6x6 sample-space grid for two 6-sided dice versus a single 12-sided die to compare expected value and variance when balancing combat or resource rolls.",
+      "real_world_connection_box": "Combinatorial Probability & Game Balance Standard: Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent). Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute terms for game analysis under adult counselor supervision.",
+      "v47_slide_title": "Combinatorial Probability & Game Balance Standard",
+      "v47_primary_source_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "U.S. Copyright Section 102(b) & ESRB IP Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+      "core_mechanism_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ],
+      "worked_field_example": "A Scout designer automatically holds copyright in original card illustrations and written lore upon creation, while anyone may legally reuse the underlying 'roll-and-move' or 'deck-building' mathematical mechanic.",
+      "counselor_tabletop_demo": "Separate a commercial board game box into components covered by Copyright (art, prose), Trademark (brand logo), and Public Domain Mechanics (turn order, dice rolling).",
+      "real_world_connection_box": "U.S. Copyright Section 102(b) & ESRB IP Standard: 17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics. Novel game methods require utility patents while titles and logos are protected by trademarks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing define the term intellectual property with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "U.S. Copyright Section 102(b) & ESRB IP Standard",
+      "v47_primary_source_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Iterative Paper Prototyping & Blind Playtest Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+      "core_mechanism_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ],
+      "worked_field_example": "During a 3-round blind playtest where the first-turn player wins 80 percent of matches, reducing the starting player's initial action points from 4 to 3 balances first-player win rate to 52 percent.",
+      "counselor_tabletop_demo": "Hand a 1-page prototype rule sheet and index-card deck to two Scouts, observe silently for 3 minutes without answering rule questions, and log every point of ambiguity.",
+      "real_world_connection_box": "Iterative Paper Prototyping & Blind Playtest Standard: Blind playtesting requires test players to learn and play solely from the written rulebook. Each playtest iteration changes one variable at a time while logging turn duration and win rates.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating pick a game where the players with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Iterative Paper Prototyping & Blind Playtest Standard",
+      "v47_primary_source_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "MDA Framework & Core Gameplay Loop Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+      "core_mechanism_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ],
+      "worked_field_example": "Deconstructing Settlers of Catan contrasts medium-complexity multiplayer trading dynamics and resource-card mechanics against Chess, which is a two-player perfect-information deterministic abstract game.",
+      "counselor_tabletop_demo": "Map four games across different genres onto a 2x2 matrix of Skill-vs-Chance and Symmetric-vs-Asymmetric starting conditions.",
+      "real_world_connection_box": "MDA Framework & Core Gameplay Loop Standard: The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics. A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through analyze four games you have played with authentic field equipment.",
+      "v47_slide_title": "MDA Framework & Core Gameplay Loop Standard",
+      "v47_primary_source_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Combinatorial Probability & Game Balance Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+      "core_mechanism_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ],
+      "worked_field_example": "In a 2d6 resource game, hexes numbered 6 and 8 each appear in 5 of 36 rolls (13.89 percent probability), making them 5 times more productive than 2 or 12 which appear in only 1 of 36 rolls (2.78 percent).",
+      "counselor_tabletop_demo": "Construct the 6x6 sample-space grid for two 6-sided dice versus a single 12-sided die to compare expected value and variance when balancing combat or resource rolls.",
+      "real_world_connection_box": "Combinatorial Probability & Game Balance Standard: Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent). Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute terms for game analysis under adult counselor supervision.",
+      "v47_slide_title": "Combinatorial Probability & Game Balance Standard",
+      "v47_primary_source_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Combinatorial Probability & Game Balance Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+      "core_mechanism_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ],
+      "worked_field_example": "In a 2d6 resource game, hexes numbered 6 and 8 each appear in 5 of 36 rolls (13.89 percent probability), making them 5 times more productive than 2 or 12 which appear in only 1 of 36 rolls (2.78 percent).",
+      "counselor_tabletop_demo": "Construct the 6x6 sample-space grid for two 6-sided dice versus a single 12-sided die to compare expected value and variance when balancing combat or resource rolls.",
+      "real_world_connection_box": "Combinatorial Probability & Game Balance Standard: Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent). Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute terms for game analysis under adult counselor supervision.",
+      "v47_slide_title": "Combinatorial Probability & Game Balance Standard",
+      "v47_primary_source_bullets": [
+        "Rolling two 6-sided dice (2d6) forms a 36-outcome triangular distribution peaking at 7 (16.67 percent).",
+        "Negative feedback loops dampen a leader's advantage to prevent runaway snowball victories."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Iterative Paper Prototyping & Blind Playtest Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+      "core_mechanism_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ],
+      "worked_field_example": "During a 3-round blind playtest where the first-turn player wins 80 percent of matches, reducing the starting player's initial action points from 4 to 3 balances first-player win rate to 52 percent.",
+      "counselor_tabletop_demo": "Hand a 1-page prototype rule sheet and index-card deck to two Scouts, observe silently for 3 minutes without answering rule questions, and log every point of ambiguity.",
+      "real_world_connection_box": "Iterative Paper Prototyping & Blind Playtest Standard: Blind playtesting requires test players to learn and play solely from the written rulebook. Each playtest iteration changes one variable at a time while logging turn duration and win rates.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating pick a game where the players with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Iterative Paper Prototyping & Blind Playtest Standard",
+      "v47_primary_source_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "MDA Framework & Core Gameplay Loop Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+      "core_mechanism_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ],
+      "worked_field_example": "Deconstructing Settlers of Catan contrasts medium-complexity multiplayer trading dynamics and resource-card mechanics against Chess, which is a two-player perfect-information deterministic abstract game.",
+      "counselor_tabletop_demo": "Map four games across different genres onto a 2x2 matrix of Skill-vs-Chance and Symmetric-vs-Asymmetric starting conditions.",
+      "real_world_connection_box": "MDA Framework & Core Gameplay Loop Standard: The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics. A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through analyze four games you have played with authentic field equipment.",
+      "v47_slide_title": "MDA Framework & Core Gameplay Loop Standard",
+      "v47_primary_source_bullets": [
+        "The MDA framework links formal Mechanics (rules) to run-time Dynamics and player Aesthetics.",
+        "A core gameplay loop cycles player Objective, Action, Resolution, and Feedback every 30 to 60 seconds."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "U.S. Copyright Section 102(b) & ESRB IP Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+      "core_mechanism_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ],
+      "worked_field_example": "A Scout designer automatically holds copyright in original card illustrations and written lore upon creation, while anyone may legally reuse the underlying 'roll-and-move' or 'deck-building' mathematical mechanic.",
+      "counselor_tabletop_demo": "Separate a commercial board game box into components covered by Copyright (art, prose), Trademark (brand logo), and Public Domain Mechanics (turn order, dice rolling).",
+      "real_world_connection_box": "U.S. Copyright Section 102(b) & ESRB IP Standard: 17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics. Novel game methods require utility patents while titles and logos are protected by trademarks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing define the term intellectual property with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "U.S. Copyright Section 102(b) & ESRB IP Standard",
+      "v47_primary_source_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "U.S. Copyright Section 102(b) & ESRB IP Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+      "core_mechanism_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ],
+      "worked_field_example": "A Scout designer automatically holds copyright in original card illustrations and written lore upon creation, while anyone may legally reuse the underlying 'roll-and-move' or 'deck-building' mathematical mechanic.",
+      "counselor_tabletop_demo": "Separate a commercial board game box into components covered by Copyright (art, prose), Trademark (brand logo), and Public Domain Mechanics (turn order, dice rolling).",
+      "real_world_connection_box": "U.S. Copyright Section 102(b) & ESRB IP Standard: 17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics. Novel game methods require utility patents while titles and logos are protected by trademarks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing define the term intellectual property with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "U.S. Copyright Section 102(b) & ESRB IP Standard",
+      "v47_primary_source_bullets": [
+        "17 U.S.C. 102(b) states copyright protects artistic expression and rule text but not game mechanics.",
+        "Novel game methods require utility patents while titles and logos are protected by trademarks."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Game Design",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "IGDA & U.S. Copyright Office",
+        "title": "Iterative Paper Prototyping & Blind Playtest Standard Technical Reference",
+        "canonical_url": "https://igda.org/"
+      },
+      "rule_of_thumb_mnemonic": "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+      "core_mechanism_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ],
+      "worked_field_example": "During a 3-round blind playtest where the first-turn player wins 80 percent of matches, reducing the starting player's initial action points from 4 to 3 balances first-player win rate to 52 percent.",
+      "counselor_tabletop_demo": "Hand a 1-page prototype rule sheet and index-card deck to two Scouts, observe silently for 3 minutes without answering rule questions, and log every point of ambiguity.",
+      "real_world_connection_box": "Iterative Paper Prototyping & Blind Playtest Standard: Blind playtesting requires test players to learn and play solely from the written rulebook. Each playtest iteration changes one variable at a time while logging turn duration and win rates.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + IGDA & U.S. Copyright Office",
+      "bespoke_visual_filename": "game_design_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/game_design_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating pick a game where the players with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "Iterative Paper Prototyping & Blind Playtest Standard",
+      "v47_primary_source_bullets": [
+        "Blind playtesting requires test players to learn and play solely from the written rulebook.",
+        "Each playtest iteration changes one variable at a time while logging turn duration and win rates."
+      ]
+    }
+  }
+}

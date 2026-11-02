@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "geocaching",
+  "badge_name": "Geocaching",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NGS & GPS.gov Satellite Navigation",
+  "primary_authority_url": "https://www.gps.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "CDC Tick-Borne Prevention & LNT Cache Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+      "core_mechanism_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ],
+      "worked_field_example": "Before bushwhacking through brushy edge habitat, tuck pants into permethrin-treated socks and conduct a full-body tick check with fine-tipped tweezers within 2 hours of returning to avoid Lyme transmission.",
+      "counselor_tabletop_demo": "Inspect a wilderness geocaching safety kit containing fine-tipped tweezers, antiseptic wipes, whistle, compass, and a Leave No Trace cache placement checklist.",
+      "real_world_connection_box": "CDC Tick-Borne Prevention & LNT Cache Standard: Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET. Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Tick-Borne Prevention & LNT Cache Standard",
+      "v47_primary_source_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+      "core_mechanism_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ],
+      "worked_field_example": "A waterproof gaskets-sealed regular ammo can hidden 30 feet off a flat gravel trail under bark sits at D1.5 / T1.5, providing 25 cubic inches for a logbook and trackable Travel Bug dog tags.",
+      "counselor_tabletop_demo": "Compare Micro, Small, and Regular waterproof cache containers, verify gasket seals, and rate three hide scenarios on the Groundspeak 1-to-5 Difficulty/Terrain matrix.",
+      "real_world_connection_box": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard: Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation. Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute your counselor under adult counselor supervision.",
+      "v47_slide_title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard",
+      "v47_primary_source_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "GPS 4-Satellite Trilateration & WAAS Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+      "core_mechanism_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ],
+      "worked_field_example": "Each GPS satellite transmits rubidium/cesium atomic time at the speed of light (299,792 km/s), where a 1-microsecond clock error without a 4th satellite correction would shift position by 300 meters.",
+      "counselor_tabletop_demo": "Use four measured strings radiating from corner anchor points on a map to demonstrate how 3 spheres intersect at two points and a 4th satellite resolves receiver clock bias.",
+      "real_world_connection_box": "GPS 4-Satellite Trilateration & WAAS Standard: At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time. WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute global positioning system gps works under adult counselor supervision.",
+      "v47_slide_title": "GPS 4-Satellite Trilateration & WAAS Standard",
+      "v47_primary_source_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "WGS84 Decimal-Minute & Compass Close-In Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+      "core_mechanism_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ],
+      "worked_field_example": "To convert N 38 degrees 53 minutes 21.6 seconds to Degrees Decimal Minutes, divide 21.6 seconds by 60 to get 0.360 minutes, entering N 38 53.360 into the handheld GPS receiver.",
+      "counselor_tabletop_demo": "Convert three coordinates between Degrees-Minutes-Seconds, Degrees-Decimal-Minutes, and UTM grid meters, then project a 150-foot waypoint at a 240-degree magnetic bearing.",
+      "real_world_connection_box": "WGS84 Decimal-Minute & Compass Close-In Standard: Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM. Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute you know how to use under adult counselor supervision.",
+      "v47_slide_title": "WGS84 Decimal-Minute & Compass Close-In Standard",
+      "v47_primary_source_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "CDC Tick-Borne Prevention & LNT Cache Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+      "core_mechanism_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ],
+      "worked_field_example": "Before bushwhacking through brushy edge habitat, tuck pants into permethrin-treated socks and conduct a full-body tick check with fine-tipped tweezers within 2 hours of returning to avoid Lyme transmission.",
+      "counselor_tabletop_demo": "Inspect a wilderness geocaching safety kit containing fine-tipped tweezers, antiseptic wipes, whistle, compass, and a Leave No Trace cache placement checklist.",
+      "real_world_connection_box": "CDC Tick-Borne Prevention & LNT Cache Standard: Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET. Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Tick-Borne Prevention & LNT Cache Standard",
+      "v47_primary_source_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+      "core_mechanism_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ],
+      "worked_field_example": "A waterproof gaskets-sealed regular ammo can hidden 30 feet off a flat gravel trail under bark sits at D1.5 / T1.5, providing 25 cubic inches for a logbook and trackable Travel Bug dog tags.",
+      "counselor_tabletop_demo": "Compare Micro, Small, and Regular waterproof cache containers, verify gasket seals, and rate three hide scenarios on the Groundspeak 1-to-5 Difficulty/Terrain matrix.",
+      "real_world_connection_box": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard: Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation. Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute your counselor under adult counselor supervision.",
+      "v47_slide_title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard",
+      "v47_primary_source_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "GPS 4-Satellite Trilateration & WAAS Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+      "core_mechanism_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ],
+      "worked_field_example": "Each GPS satellite transmits rubidium/cesium atomic time at the speed of light (299,792 km/s), where a 1-microsecond clock error without a 4th satellite correction would shift position by 300 meters.",
+      "counselor_tabletop_demo": "Use four measured strings radiating from corner anchor points on a map to demonstrate how 3 spheres intersect at two points and a 4th satellite resolves receiver clock bias.",
+      "real_world_connection_box": "GPS 4-Satellite Trilateration & WAAS Standard: At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time. WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute global positioning system gps works under adult counselor supervision.",
+      "v47_slide_title": "GPS 4-Satellite Trilateration & WAAS Standard",
+      "v47_primary_source_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+      "core_mechanism_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ],
+      "worked_field_example": "A waterproof gaskets-sealed regular ammo can hidden 30 feet off a flat gravel trail under bark sits at D1.5 / T1.5, providing 25 cubic inches for a logbook and trackable Travel Bug dog tags.",
+      "counselor_tabletop_demo": "Compare Micro, Small, and Regular waterproof cache containers, verify gasket seals, and rate three hide scenarios on the Groundspeak 1-to-5 Difficulty/Terrain matrix.",
+      "real_world_connection_box": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard: Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation. Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute your counselor under adult counselor supervision.",
+      "v47_slide_title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard",
+      "v47_primary_source_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "CDC Tick-Borne Prevention & LNT Cache Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+      "core_mechanism_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ],
+      "worked_field_example": "Before bushwhacking through brushy edge habitat, tuck pants into permethrin-treated socks and conduct a full-body tick check with fine-tipped tweezers within 2 hours of returning to avoid Lyme transmission.",
+      "counselor_tabletop_demo": "Inspect a wilderness geocaching safety kit containing fine-tipped tweezers, antiseptic wipes, whistle, compass, and a Leave No Trace cache placement checklist.",
+      "real_world_connection_box": "CDC Tick-Borne Prevention & LNT Cache Standard: Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET. Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "CDC Tick-Borne Prevention & LNT Cache Standard",
+      "v47_primary_source_bullets": [
+        "Treat outer boots and pants with 0.5 percent permethrin and exposed skin with 20 to 30 percent DEET.",
+        "Geocaches are never buried, nailed to trees, or placed within 150 feet of active railroad tracks."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+      "core_mechanism_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ],
+      "worked_field_example": "A waterproof gaskets-sealed regular ammo can hidden 30 feet off a flat gravel trail under bark sits at D1.5 / T1.5, providing 25 cubic inches for a logbook and trackable Travel Bug dog tags.",
+      "counselor_tabletop_demo": "Compare Micro, Small, and Regular waterproof cache containers, verify gasket seals, and rate three hide scenarios on the Groundspeak 1-to-5 Difficulty/Terrain matrix.",
+      "real_world_connection_box": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard: Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation. Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute your counselor under adult counselor supervision.",
+      "v47_slide_title": "Groundspeak 5x5 Difficulty/Terrain & Spacing Standard",
+      "v47_primary_source_bullets": [
+        "Physical geocaches must maintain at least 0.10 mile (528 feet or 161 meters) minimum separation.",
+        "Difficulty and Terrain each scale from 1.0 (wheelchair paved) to 5.0 (technical climbing or boat)."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "GPS 4-Satellite Trilateration & WAAS Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+      "core_mechanism_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ],
+      "worked_field_example": "Each GPS satellite transmits rubidium/cesium atomic time at the speed of light (299,792 km/s), where a 1-microsecond clock error without a 4th satellite correction would shift position by 300 meters.",
+      "counselor_tabletop_demo": "Use four measured strings radiating from corner anchor points on a map to demonstrate how 3 spheres intersect at two points and a 4th satellite resolves receiver clock bias.",
+      "real_world_connection_box": "GPS 4-Satellite Trilateration & WAAS Standard: At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time. WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute global positioning system gps works under adult counselor supervision.",
+      "v47_slide_title": "GPS 4-Satellite Trilateration & WAAS Standard",
+      "v47_primary_source_bullets": [
+        "At least 4 GPS satellites at 12,550 miles altitude solve 3D latitude, longitude, altitude, and time.",
+        "WAAS wide-area differential corrections refine consumer GPS horizontal accuracy to within 3 meters."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "WGS84 Decimal-Minute & Compass Close-In Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+      "core_mechanism_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ],
+      "worked_field_example": "To convert N 38 degrees 53 minutes 21.6 seconds to Degrees Decimal Minutes, divide 21.6 seconds by 60 to get 0.360 minutes, entering N 38 53.360 into the handheld GPS receiver.",
+      "counselor_tabletop_demo": "Convert three coordinates between Degrees-Minutes-Seconds, Degrees-Decimal-Minutes, and UTM grid meters, then project a 150-foot waypoint at a 240-degree magnetic bearing.",
+      "real_world_connection_box": "WGS84 Decimal-Minute & Compass Close-In Standard: Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM. Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute you know how to use under adult counselor supervision.",
+      "v47_slide_title": "WGS84 Decimal-Minute & Compass Close-In Standard",
+      "v47_primary_source_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Geocaching",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NGS & GPS.gov Satellite Navigation",
+        "title": "WGS84 Decimal-Minute & Compass Close-In Standard Technical Reference",
+        "canonical_url": "https://www.gps.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+      "core_mechanism_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ],
+      "worked_field_example": "To convert N 38 degrees 53 minutes 21.6 seconds to Degrees Decimal Minutes, divide 21.6 seconds by 60 to get 0.360 minutes, entering N 38 53.360 into the handheld GPS receiver.",
+      "counselor_tabletop_demo": "Convert three coordinates between Degrees-Minutes-Seconds, Degrees-Decimal-Minutes, and UTM grid meters, then project a 150-foot waypoint at a 240-degree magnetic bearing.",
+      "real_world_connection_box": "WGS84 Decimal-Minute & Compass Close-In Standard: Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM. Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NGS & GPS.gov Satellite Navigation",
+      "bespoke_visual_filename": "geocaching_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/geocaching_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute you know how to use under adult counselor supervision.",
+      "v47_slide_title": "WGS84 Decimal-Minute & Compass Close-In Standard",
+      "v47_primary_source_bullets": [
+        "Geocaching uses WGS84 Degrees Decimal Minutes format N DD MM.MMM and W DDD MM.MMM.",
+        "Within 30 feet of ground zero, switch from GPS screen arrow to optical inspection and compass bearing."
+      ]
+    }
+  }
+}

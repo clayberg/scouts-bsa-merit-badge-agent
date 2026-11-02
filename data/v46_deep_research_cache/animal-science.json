@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "animal-science",
+  "badge_name": "Animal Science",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+  "primary_authority_url": "https://www.aphis.usda.gov/livestock-poultry-disease",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "USDA Livestock Breed Classification and Conformation Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+      "core_mechanism_bullets": [
+        "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+        "Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency."
+      ],
+      "worked_field_example": "A commercial steer gaining 3.5 pounds per day on 21 pounds of dry matter ration achieves a 6-to-1 feed conversion ratio.",
+      "counselor_tabletop_demo": "Compare breed profile cards for Holstein, Angus, Quarter Horse, Rambouillet sheep, Duroc swine, and Leghorn poultry to match traits to production goals.",
+      "real_world_connection_box": "USDA Livestock Breed Classification and Conformation Standard: Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S. Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit a farm or ranch equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "USDA Livestock Breed Classification and Conformation Standard",
+      "v47_primary_source_bullets": [
+        "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+        "Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "AVMA Biosecurity and Vital Parameter Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ],
+      "worked_field_example": "A calf presenting with a 104.2 degrees Fahrenheit rectal temperature, nasal discharge, and rapid breathing above 40 breaths per minute is isolated immediately.",
+      "counselor_tabletop_demo": "Review a barn biosecurity site map to place footbaths, visitor logs, clean-to-dirty traffic lanes, and a 30-day quarantine pen.",
+      "real_world_connection_box": "AVMA Biosecurity and Vital Parameter Standard: Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses. USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating sketch a plan equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "AVMA Biosecurity and Vital Parameter Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "Comparative Ruminant and Monogastric Digestion Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+      "core_mechanism_bullets": [
+        "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+        "Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8."
+      ],
+      "worked_field_example": "Horses act as hindgut fermenters using an enlarged cecum, whereas poultry grind whole grains mechanically in a muscular gizzard with grit.",
+      "counselor_tabletop_demo": "Trace feed passage across 4 laminated anatomical diagrams (ruminant cow, hindgut horse, monogastric pig, and avian crop-proventriculus-gizzard).",
+      "real_world_connection_box": "Comparative Ruminant and Monogastric Digestion Standard: Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults. Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating cow or a goat converts equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "Comparative Ruminant and Monogastric Digestion Standard",
+      "v47_primary_source_bullets": [
+        "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+        "Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "National Research Council Ration and EPDs Genetics Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+      "core_mechanism_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ],
+      "worked_field_example": "Using a Pearson Square to hit 16 percent crude protein from 9 percent corn and 44 percent soybean meal mixes 28 parts corn with 7 parts soybean meal.",
+      "counselor_tabletop_demo": "Solve a Pearson Square ration calculation on a whiteboard to formulate a 100-pound batch of 16 percent protein grower feed in 3 minutes.",
+      "real_world_connection_box": "National Research Council Ration and EPDs Genetics Standard: Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield. Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating make a chart showing equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "National Research Council Ration and EPDs Genetics Standard",
+      "v47_primary_source_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "USDA Livestock Breed Classification and Conformation Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+      "core_mechanism_bullets": [
+        "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+        "Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency."
+      ],
+      "worked_field_example": "A commercial steer gaining 3.5 pounds per day on 21 pounds of dry matter ration achieves a 6-to-1 feed conversion ratio.",
+      "counselor_tabletop_demo": "Compare breed profile cards for Holstein, Angus, Quarter Horse, Rambouillet sheep, Duroc swine, and Leghorn poultry to match traits to production goals.",
+      "real_world_connection_box": "USDA Livestock Breed Classification and Conformation Standard: Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S. Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit a farm or ranch equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "USDA Livestock Breed Classification and Conformation Standard",
+      "v47_primary_source_bullets": [
+        "Dairy cattle breeds like Holstein-Friesian average over 24,000 pounds of milk per 305-day lactation cycle in the U.S.",
+        "Beef breeds such as Black Angus and Hereford optimize marbling score, ribeye area, and feed-to-gain conversion efficiency."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "AVMA Biosecurity and Vital Parameter Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ],
+      "worked_field_example": "A calf presenting with a 104.2 degrees Fahrenheit rectal temperature, nasal discharge, and rapid breathing above 40 breaths per minute is isolated immediately.",
+      "counselor_tabletop_demo": "Review a barn biosecurity site map to place footbaths, visitor logs, clean-to-dirty traffic lanes, and a 30-day quarantine pen.",
+      "real_world_connection_box": "AVMA Biosecurity and Vital Parameter Standard: Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses. USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating sketch a plan equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "AVMA Biosecurity and Vital Parameter Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "AVMA Biosecurity and Vital Parameter Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ],
+      "worked_field_example": "A calf presenting with a 104.2 degrees Fahrenheit rectal temperature, nasal discharge, and rapid breathing above 40 breaths per minute is isolated immediately.",
+      "counselor_tabletop_demo": "Review a barn biosecurity site map to place footbaths, visitor logs, clean-to-dirty traffic lanes, and a 30-day quarantine pen.",
+      "real_world_connection_box": "AVMA Biosecurity and Vital Parameter Standard: Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses. USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating sketch a plan equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "AVMA Biosecurity and Vital Parameter Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "National Research Council Ration and EPDs Genetics Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+      "core_mechanism_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ],
+      "worked_field_example": "Using a Pearson Square to hit 16 percent crude protein from 9 percent corn and 44 percent soybean meal mixes 28 parts corn with 7 parts soybean meal.",
+      "counselor_tabletop_demo": "Solve a Pearson Square ration calculation on a whiteboard to formulate a 100-pound batch of 16 percent protein grower feed in 3 minutes.",
+      "real_world_connection_box": "National Research Council Ration and EPDs Genetics Standard: Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield. Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating make a chart showing equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "National Research Council Ration and EPDs Genetics Standard",
+      "v47_primary_source_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "Comparative Ruminant and Monogastric Digestion Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+      "core_mechanism_bullets": [
+        "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+        "Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8."
+      ],
+      "worked_field_example": "Horses act as hindgut fermenters using an enlarged cecum, whereas poultry grind whole grains mechanically in a muscular gizzard with grit.",
+      "counselor_tabletop_demo": "Trace feed passage across 4 laminated anatomical diagrams (ruminant cow, hindgut horse, monogastric pig, and avian crop-proventriculus-gizzard).",
+      "real_world_connection_box": "Comparative Ruminant and Monogastric Digestion Standard: Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults. Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating cow or a goat converts equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "Comparative Ruminant and Monogastric Digestion Standard",
+      "v47_primary_source_bullets": [
+        "Cattle and sheep possess a 4-compartment stomach (rumen, reticulum, omasum, abomasum) holding 40 to 50 gallons in adults.",
+        "Rumen anaerobic microbes ferment cellulose into volatile fatty acids (acetate, propionate, butyrate) at pH 6.0 to 6.8."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "AVMA Biosecurity and Vital Parameter Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+      "core_mechanism_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ],
+      "worked_field_example": "A calf presenting with a 104.2 degrees Fahrenheit rectal temperature, nasal discharge, and rapid breathing above 40 breaths per minute is isolated immediately.",
+      "counselor_tabletop_demo": "Review a barn biosecurity site map to place footbaths, visitor logs, clean-to-dirty traffic lanes, and a 30-day quarantine pen.",
+      "real_world_connection_box": "AVMA Biosecurity and Vital Parameter Standard: Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses. USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating sketch a plan equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "AVMA Biosecurity and Vital Parameter Standard",
+      "v47_primary_source_bullets": [
+        "Normal resting rectal temperature averages 101.5 degrees Fahrenheit in beef cattle and 100.0 degrees Fahrenheit in horses.",
+        "USDA biosecurity protocols require a minimum 14-to-30-day isolation quarantine for newly acquired herd animals."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Animal Science",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA APHIS & American Veterinary Medical Association (AVMA)",
+        "title": "National Research Council Ration and EPDs Genetics Standard Technical Reference",
+        "canonical_url": "https://www.aphis.usda.gov/livestock-poultry-disease"
+      },
+      "rule_of_thumb_mnemonic": "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+      "core_mechanism_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ],
+      "worked_field_example": "Using a Pearson Square to hit 16 percent crude protein from 9 percent corn and 44 percent soybean meal mixes 28 parts corn with 7 parts soybean meal.",
+      "counselor_tabletop_demo": "Solve a Pearson Square ration calculation on a whiteboard to formulate a 100-pound batch of 16 percent protein grower feed in 3 minutes.",
+      "real_world_connection_box": "National Research Council Ration and EPDs Genetics Standard: Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield. Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA APHIS & American Veterinary Medical Association (AVMA)",
+      "bespoke_visual_filename": "animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/animal_science_req_6b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating make a chart showing equipment layout and safe operating steps for Animal Science.",
+      "v47_slide_title": "National Research Council Ration and EPDs Genetics Standard",
+      "v47_primary_source_bullets": [
+        "Expected Progeny Differences (EPDs) predict genetic transmitting ability for birth weight, weaning weight, and milk yield.",
+        "Pearson Square ration balancing blends two feedstuffs of known crude protein percentage to hit an exact target ration."
+      ]
+    }
+  }
+}

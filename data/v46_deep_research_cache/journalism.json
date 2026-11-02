@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "journalism",
+  "badge_name": "Journalism",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Associated Press & Society of Professional Journalists",
+  "primary_authority_url": "https://www.spj.org/ethicscode.asp",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "SPJ Code of Ethics & First Amendment Press Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+      "core_mechanism_bullets": [
+        "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+        "Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses."
+      ],
+      "worked_field_example": "Before publishing a story alleging unsafe water at a local park, a reporter verifies lab test reports from two independent county agencies and records the park director response on the record.",
+      "counselor_tabletop_demo": "Compare a hard news report, an editorial column, and a sponsored advertisement from the same publication to distinguish verified facts from opinion.",
+      "real_world_connection_box": "SPJ Code of Ethics & First Amendment Press Standard: The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable. Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating on the same day read equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "SPJ Code of Ethics & First Amendment Press Standard",
+      "v47_primary_source_bullets": [
+        "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+        "Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "AP Stylebook Inverted Pyramid & News Lead Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+      "core_mechanism_bullets": [
+        "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+        "Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly."
+      ],
+      "worked_field_example": "A crisp 28-word lead states that Troop 42 volunteers planted 300 native oak saplings along Mill Creek on Saturday morning to restore 4 acres of flood-damaged riverbank.",
+      "counselor_tabletop_demo": "Take 6 unordered fact cards from a simulated community event and arrange them into a 30-word AP summary lead followed by three inverted-pyramid paragraphs.",
+      "real_world_connection_box": "AP Stylebook Inverted Pyramid & News Lead Standard: Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph. Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit the office equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "AP Stylebook Inverted Pyramid & News Lead Standard",
+      "v47_primary_source_bullets": [
+        "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+        "Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "AP Broadcast Script & Print Typography Layout Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+      "core_mechanism_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ],
+      "worked_field_example": "Timing a 112-word radio news script aloud with a stopwatch confirms it runs exactly 45 seconds at the standard 150-word-per-minute broadcast delivery rate.",
+      "counselor_tabletop_demo": "Mark up a newspaper front page or digital homepage to identify the masthead, banner headline, deck, byline, dateline, pull quote, and photo cutline.",
+      "real_world_connection_box": "AP Broadcast Script & Print Typography Layout Standard: Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words. Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating all on the same day equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "AP Broadcast Script & Print Typography Layout Standard",
+      "v47_primary_source_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "SPJ Source Attribution & Interview Verification Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+      "core_mechanism_bullets": [
+        "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+        "AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips."
+      ],
+      "worked_field_example": "Preparing 8 open-ended 'How' and 'Why' questions before interviewing the local fire chief yields specific operational statistics rather than one-word yes-or-no answers.",
+      "counselor_tabletop_demo": "Conduct a 3-minute live mock press conference with your counselor, taking shorthand notes and reading back direct quotes to verify accuracy and spelling.",
+      "real_world_connection_box": "SPJ Source Attribution & Interview Verification Standard: Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published). AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit a radio or television equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "SPJ Source Attribution & Interview Verification Standard",
+      "v47_primary_source_bullets": [
+        "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+        "AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "SPJ Code of Ethics & First Amendment Press Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+      "core_mechanism_bullets": [
+        "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+        "Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses."
+      ],
+      "worked_field_example": "Before publishing a story alleging unsafe water at a local park, a reporter verifies lab test reports from two independent county agencies and records the park director response on the record.",
+      "counselor_tabletop_demo": "Compare a hard news report, an editorial column, and a sponsored advertisement from the same publication to distinguish verified facts from opinion.",
+      "real_world_connection_box": "SPJ Code of Ethics & First Amendment Press Standard: The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable. Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating on the same day read equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "SPJ Code of Ethics & First Amendment Press Standard",
+      "v47_primary_source_bullets": [
+        "The SPJ Code of Ethics rests on 4 core duties to Seek Truth and Report It, Minimize Harm, Act Independently, and Be Accountable.",
+        "Libel is a published false statement of fact damaging reputation, where provable truth and fair public record reporting are key defenses."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "AP Stylebook Inverted Pyramid & News Lead Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+      "core_mechanism_bullets": [
+        "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+        "Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly."
+      ],
+      "worked_field_example": "A crisp 28-word lead states that Troop 42 volunteers planted 300 native oak saplings along Mill Creek on Saturday morning to restore 4 acres of flood-damaged riverbank.",
+      "counselor_tabletop_demo": "Take 6 unordered fact cards from a simulated community event and arrange them into a 30-word AP summary lead followed by three inverted-pyramid paragraphs.",
+      "real_world_connection_box": "AP Stylebook Inverted Pyramid & News Lead Standard: Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph. Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit the office equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "AP Stylebook Inverted Pyramid & News Lead Standard",
+      "v47_primary_source_bullets": [
+        "Inverted pyramid structure places the core Who, What, When, Where, Why, and How facts in a 25-to-35-word summary lead paragraph.",
+        "Subsequent paragraphs arrange quotes and background in descending order of importance so editors can trim from the bottom cleanly."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "AP Broadcast Script & Print Typography Layout Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+      "core_mechanism_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ],
+      "worked_field_example": "Timing a 112-word radio news script aloud with a stopwatch confirms it runs exactly 45 seconds at the standard 150-word-per-minute broadcast delivery rate.",
+      "counselor_tabletop_demo": "Mark up a newspaper front page or digital homepage to identify the masthead, banner headline, deck, byline, dateline, pull quote, and photo cutline.",
+      "real_world_connection_box": "AP Broadcast Script & Print Typography Layout Standard: Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words. Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating all on the same day equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "AP Broadcast Script & Print Typography Layout Standard",
+      "v47_primary_source_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "AP Broadcast Script & Print Typography Layout Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+      "core_mechanism_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ],
+      "worked_field_example": "Timing a 112-word radio news script aloud with a stopwatch confirms it runs exactly 45 seconds at the standard 150-word-per-minute broadcast delivery rate.",
+      "counselor_tabletop_demo": "Mark up a newspaper front page or digital homepage to identify the masthead, banner headline, deck, byline, dateline, pull quote, and photo cutline.",
+      "real_world_connection_box": "AP Broadcast Script & Print Typography Layout Standard: Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words. Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating all on the same day equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "AP Broadcast Script & Print Typography Layout Standard",
+      "v47_primary_source_bullets": [
+        "Broadcast news scripts are written for the ear at 150 words per minute (2.5 words per second), timing a 30-second story at 75 words.",
+        "Print and digital layouts pair an active-voice headline, byline, dateline, and 10-to-12-point body copy with present-tense cutlines."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Journalism",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Associated Press & Society of Professional Journalists",
+        "title": "SPJ Source Attribution & Interview Verification Standard Technical Reference",
+        "canonical_url": "https://www.spj.org/ethicscode.asp"
+      },
+      "rule_of_thumb_mnemonic": "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+      "core_mechanism_bullets": [
+        "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+        "AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips."
+      ],
+      "worked_field_example": "Preparing 8 open-ended 'How' and 'Why' questions before interviewing the local fire chief yields specific operational statistics rather than one-word yes-or-no answers.",
+      "counselor_tabletop_demo": "Conduct a 3-minute live mock press conference with your counselor, taking shorthand notes and reading back direct quotes to verify accuracy and spelling.",
+      "real_world_connection_box": "SPJ Source Attribution & Interview Verification Standard: Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published). AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Associated Press & Society of Professional Journalists",
+      "bespoke_visual_filename": "journalism_req_2b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/journalism_req_2b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating visit a radio or television equipment layout and safe operating steps for Journalism.",
+      "v47_slide_title": "SPJ Source Attribution & Interview Verification Standard",
+      "v47_primary_source_bullets": [
+        "Interview ground rules distinguish On the Record (full name and quotes), On Background (title only), and Off the Record (not published).",
+        "AP attribution places the neutral verb 'said' after the speaker full name and title and requires independent proof for anonymous tips."
+      ]
+    }
+  }
+}

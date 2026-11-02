@@ -1,6 +1,6 @@
 # Environmental Science Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Environmental%20Science.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/environmental-science/
 
@@ -77,7 +77,7 @@
 - **Common Myth:** Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.
 - **Pamphlet Fact:** Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits.
 
-![Cutaway visual diagram illustrating abiotic influences structure and components for Environmental Science.](/assets/pamphlet_images/environmental_science_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of abiotic influences used in Environmental Science.](/assets/pamphlet_images/environmental_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 - **Common Myth:** Scouts often think airborne dust particles always fall harmlessly to the ground immediately.
 - **Pamphlet Fact:** Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation.
 
-![Cutaway visual diagram illustrating particle dimensions structure and components for Environmental Science.](/assets/pamphlet_images/environmental_science_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of particle dimensions used in Environmental Science.](/assets/pamphlet_images/environmental_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@
 **Counselor Verification Standard (Req 3a):** Scout must individually discuss Requirement 3a (Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects of PM are, and what ) to the Counselor.
 
 #### Req 3b: Transportation Systems Emission Comparison
-**Official Requirement 3b:** Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video) (c) Learn about the Clean Air Act.
+**Official Requirement 3b:** Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.).
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
 - **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 3b (Discuss how air pollution and transportation affect each other by giving at least three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**

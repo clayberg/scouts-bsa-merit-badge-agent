@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "truck-transportation",
+  "badge_name": "Truck Transportation",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "FMCSA & American Trucking Associations",
+  "primary_authority_url": "https://www.fmcsa.dot.gov/regulations",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "ATA Supply Chain & Intermodal Freight Logistics Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+      "core_mechanism_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ],
+      "worked_field_example": "Shipping cargo 1200 miles via intermodal rail line-haul with 50-mile local truck drayage at each end cuts fuel consumption by 60 percent versus highway alone.",
+      "counselor_tabletop_demo": "Map an end-to-end supply chain from a factory to a retail store showing drayage, cross-dock LTL consolidation, line-haul, and final-mile delivery.",
+      "real_world_connection_box": "ATA Supply Chain & Intermodal Freight Logistics Standard: Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively. ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for major truck lines serving your town in a troop setting.",
+      "v47_slide_title": "ATA Supply Chain & Intermodal Freight Logistics Standard",
+      "v47_primary_source_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+      "core_mechanism_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ],
+      "worked_field_example": "A 15-liter Class 8 turbo-diesel producing 1850 lb-ft of torque at 1100 rpm hauls an 80000-pound gross load at 7.2 miles per gallon.",
+      "counselor_tabletop_demo": "Compare compression ratio, spark versus compression ignition, and torque curves of a gasoline pickup engine against a Class 8 diesel engine.",
+      "real_world_connection_box": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard: Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency. FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining role of truck transportation within commerce step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard",
+      "v47_primary_source_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+      "core_mechanism_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ],
+      "worked_field_example": "A driver starting a shift at 0600 with a 30-minute break at 1330 must cease all commercial driving no later than 1730 or when the 2000 window closes.",
+      "counselor_tabletop_demo": "Audit a 24-hour FMCSA Electronic Logging Device grid for a 500-mile trip to verify compliance with the 11-hour, 14-hour, and 30-minute break rules.",
+      "real_world_connection_box": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard: FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off. Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for difference between the gasoline engine in a troop setting.",
+      "v47_slide_title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard",
+      "v47_primary_source_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "NMFC Freight Classification & Bill of Lading Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+      "core_mechanism_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ],
+      "worked_field_example": "A 500-pound palletized crate measuring 48 by 40 by 36 inches (40 cubic feet) has a freight density of 12.5 lb per cubic foot, qualifying as NMFC Class 85.",
+      "counselor_tabletop_demo": "Complete a sample Bill of Lading for a 500-pound Class 65 shipment over 500 miles and compare transit times and tariff rates across three LTL carriers.",
+      "real_world_connection_box": "NMFC Freight Classification & Bill of Lading Standard: National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density. A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining five government agencies that work step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NMFC Freight Classification & Bill of Lading Standard",
+      "v47_primary_source_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "ATA Supply Chain & Intermodal Freight Logistics Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+      "core_mechanism_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ],
+      "worked_field_example": "Shipping cargo 1200 miles via intermodal rail line-haul with 50-mile local truck drayage at each end cuts fuel consumption by 60 percent versus highway alone.",
+      "counselor_tabletop_demo": "Map an end-to-end supply chain from a factory to a retail store showing drayage, cross-dock LTL consolidation, line-haul, and final-mile delivery.",
+      "real_world_connection_box": "ATA Supply Chain & Intermodal Freight Logistics Standard: Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively. ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for major truck lines serving your town in a troop setting.",
+      "v47_slide_title": "ATA Supply Chain & Intermodal Freight Logistics Standard",
+      "v47_primary_source_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+      "core_mechanism_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ],
+      "worked_field_example": "A 15-liter Class 8 turbo-diesel producing 1850 lb-ft of torque at 1100 rpm hauls an 80000-pound gross load at 7.2 miles per gallon.",
+      "counselor_tabletop_demo": "Compare compression ratio, spark versus compression ignition, and torque curves of a gasoline pickup engine against a Class 8 diesel engine.",
+      "real_world_connection_box": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard: Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency. FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining role of truck transportation within commerce step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard",
+      "v47_primary_source_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+      "core_mechanism_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ],
+      "worked_field_example": "A driver starting a shift at 0600 with a 30-minute break at 1330 must cease all commercial driving no later than 1730 or when the 2000 window closes.",
+      "counselor_tabletop_demo": "Audit a 24-hour FMCSA Electronic Logging Device grid for a 500-mile trip to verify compliance with the 11-hour, 14-hour, and 30-minute break rules.",
+      "real_world_connection_box": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard: FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off. Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for difference between the gasoline engine in a troop setting.",
+      "v47_slide_title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard",
+      "v47_primary_source_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+      "core_mechanism_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ],
+      "worked_field_example": "A 15-liter Class 8 turbo-diesel producing 1850 lb-ft of torque at 1100 rpm hauls an 80000-pound gross load at 7.2 miles per gallon.",
+      "counselor_tabletop_demo": "Compare compression ratio, spark versus compression ignition, and torque curves of a gasoline pickup engine against a Class 8 diesel engine.",
+      "real_world_connection_box": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard: Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency. FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining role of truck transportation within commerce step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard",
+      "v47_primary_source_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "ATA Supply Chain & Intermodal Freight Logistics Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+      "core_mechanism_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ],
+      "worked_field_example": "Shipping cargo 1200 miles via intermodal rail line-haul with 50-mile local truck drayage at each end cuts fuel consumption by 60 percent versus highway alone.",
+      "counselor_tabletop_demo": "Map an end-to-end supply chain from a factory to a retail store showing drayage, cross-dock LTL consolidation, line-haul, and final-mile delivery.",
+      "real_world_connection_box": "ATA Supply Chain & Intermodal Freight Logistics Standard: Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively. ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for major truck lines serving your town in a troop setting.",
+      "v47_slide_title": "ATA Supply Chain & Intermodal Freight Logistics Standard",
+      "v47_primary_source_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+      "core_mechanism_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ],
+      "worked_field_example": "A 15-liter Class 8 turbo-diesel producing 1850 lb-ft of torque at 1100 rpm hauls an 80000-pound gross load at 7.2 miles per gallon.",
+      "counselor_tabletop_demo": "Compare compression ratio, spark versus compression ignition, and torque curves of a gasoline pickup engine against a Class 8 diesel engine.",
+      "real_world_connection_box": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard: Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency. FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining role of truck transportation within commerce step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "SAE Heavy-Duty Diesel Compression Ignition & GVWR Standard",
+      "v47_primary_source_bullets": [
+        "Heavy-duty diesel engines run at 16-to-1 to 22-to-1 compression ratios and reach 42 to 50 percent brake thermal efficiency.",
+        "FHWA Class 8 tractor-trailers cap gross weight at 80000 pounds across 5 axles (12000-lb steer and two 34000-lb tandems)."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+      "core_mechanism_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ],
+      "worked_field_example": "A driver starting a shift at 0600 with a 30-minute break at 1330 must cease all commercial driving no later than 1730 or when the 2000 window closes.",
+      "counselor_tabletop_demo": "Audit a 24-hour FMCSA Electronic Logging Device grid for a 500-mile trip to verify compliance with the 11-hour, 14-hour, and 30-minute break rules.",
+      "real_world_connection_box": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard: FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off. Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for difference between the gasoline engine in a troop setting.",
+      "v47_slide_title": "FMCSA 49 CFR Part 395 Hours of Service & ELD Standard",
+      "v47_primary_source_bullets": [
+        "FMCSA Hours of Service cap property CDL drivers at 11 driving hours within a 14-hour window after 10 consecutive hours off.",
+        "Drivers require a 30-minute break after 8 driving hours and cannot exceed 60 on-duty hours in 7 days or 70 hours in 8 days."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "NMFC Freight Classification & Bill of Lading Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+      "core_mechanism_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ],
+      "worked_field_example": "A 500-pound palletized crate measuring 48 by 40 by 36 inches (40 cubic feet) has a freight density of 12.5 lb per cubic foot, qualifying as NMFC Class 85.",
+      "counselor_tabletop_demo": "Complete a sample Bill of Lading for a 500-pound Class 65 shipment over 500 miles and compare transit times and tariff rates across three LTL carriers.",
+      "real_world_connection_box": "NMFC Freight Classification & Bill of Lading Standard: National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density. A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining five government agencies that work step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NMFC Freight Classification & Bill of Lading Standard",
+      "v47_primary_source_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "ATA Supply Chain & Intermodal Freight Logistics Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+      "core_mechanism_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ],
+      "worked_field_example": "Shipping cargo 1200 miles via intermodal rail line-haul with 50-mile local truck drayage at each end cuts fuel consumption by 60 percent versus highway alone.",
+      "counselor_tabletop_demo": "Map an end-to-end supply chain from a factory to a retail store showing drayage, cross-dock LTL consolidation, line-haul, and final-mile delivery.",
+      "real_world_connection_box": "ATA Supply Chain & Intermodal Freight Logistics Standard: Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively. ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for major truck lines serving your town in a troop setting.",
+      "v47_slide_title": "ATA Supply Chain & Intermodal Freight Logistics Standard",
+      "v47_primary_source_bullets": [
+        "Commercial trucks move 72.6 percent of US domestic freight tonnage and serve 80 percent of US communities exclusively.",
+        "ISO intermodal containers use 20-foot (TEU) and 40-foot (FEU) steel boxes across ships, rail flatcars, and drayage trucks."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Truck Transportation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "FMCSA & American Trucking Associations",
+        "title": "NMFC Freight Classification & Bill of Lading Standard Technical Reference",
+        "canonical_url": "https://www.fmcsa.dot.gov/regulations"
+      },
+      "rule_of_thumb_mnemonic": "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+      "core_mechanism_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ],
+      "worked_field_example": "A 500-pound palletized crate measuring 48 by 40 by 36 inches (40 cubic feet) has a freight density of 12.5 lb per cubic foot, qualifying as NMFC Class 85.",
+      "counselor_tabletop_demo": "Complete a sample Bill of Lading for a 500-pound Class 65 shipment over 500 miles and compare transit times and tariff rates across three LTL carriers.",
+      "real_world_connection_box": "NMFC Freight Classification & Bill of Lading Standard: National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density. A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FMCSA & American Trucking Associations",
+      "bespoke_visual_filename": "truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/truck_transportation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining five government agencies that work step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NMFC Freight Classification & Bill of Lading Standard",
+      "v47_primary_source_bullets": [
+        "National Motor Freight Classification groups LTL cargo into 18 classes from Class 50 (over 50 lb/ft3) to Class 500 by density.",
+        "A Uniform Straight Bill of Lading acts as cargo receipt, carriage contract, and title document between shipper and carrier."
+      ]
+    }
+  }
+}

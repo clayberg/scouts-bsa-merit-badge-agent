@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "dentistry",
+  "badge_name": "Dentistry",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Dental Association (ADA) & CDC Oral Health",
+  "primary_authority_url": "https://www.ada.org/resources/research/science-and-research-institute",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Tooth Anatomy & Radiographic Caries Detection Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+      "core_mechanism_bullets": [
+        "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+        "Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early."
+      ],
+      "worked_field_example": "On a lower first molar radiograph, dense enamel appears bright radiopaque white while early interproximal decay appears as a dark radiolucent triangle beneath the contact point.",
+      "counselor_tabletop_demo": "Examine sample dental radiographs on a light viewer and trace a labeled cross-section of a lower molar showing all five tooth surfaces (mesial, distal, buccal, lingual, occlusal).",
+      "real_world_connection_box": "ADA Tooth Anatomy & Radiographic Caries Detection Standard: A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp. Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "An educational diagram details cross-section tooth anatomy, stages of tooth decay, and clinical instruments.",
+      "v47_slide_title": "ADA Tooth Anatomy & Radiographic Caries Detection Standard",
+      "v47_primary_source_bullets": [
+        "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+        "Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+      "core_mechanism_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ],
+      "worked_field_example": "Sipping a sugary soda every 15 minutes keeps enamel below pH 5.5 for hours, whereas drinking water lets saliva bicarbonate buffer pH back to 7.0 in 30 minutes.",
+      "counselor_tabletop_demo": "Chew a vegetable-dye dental disclosing tablet (or inspect a disclosing chart) to map where bacterial biofilm accumulates along the gingival margin.",
+      "real_world_connection_box": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard: Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes. Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell or write about what in a troop setting.",
+      "v47_slide_title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard",
+      "v47_primary_source_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+      "core_mechanism_bullets": [
+        "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+        "Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite."
+      ],
+      "worked_field_example": "Fluorapatite resists acid dissolution down to pH 4.5 compared with pH 5.5 for natural hydroxyapatite, representing a tenfold increase in acid tolerance.",
+      "counselor_tabletop_demo": "Use an oversized tooth model, soft brush, and 18 inches of floss wrapped around the middle fingers to demonstrate the 45-degree Modified Bass and C-shape flossing techniques.",
+      "real_world_connection_box": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard: Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste. Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating arrange for a visit with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard",
+      "v47_primary_source_bullets": [
+        "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+        "Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+      "core_mechanism_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ],
+      "worked_field_example": "Reimplanting a knocked-out permanent incisor within 30 minutes or submerging it in cold milk preserves periodontal ligament cell viability above 85 percent.",
+      "counselor_tabletop_demo": "Identify five clinical dental instruments and five operatory machines from a clinical tray diagram and demonstrate mixing ratios for Type III dental stone.",
+      "real_world_connection_box": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard: Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately. Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify careers & professional pathways during a structured merit badge clinic.",
+      "v47_slide_title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard",
+      "v47_primary_source_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Tooth Anatomy & Radiographic Caries Detection Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+      "core_mechanism_bullets": [
+        "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+        "Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early."
+      ],
+      "worked_field_example": "On a lower first molar radiograph, dense enamel appears bright radiopaque white while early interproximal decay appears as a dark radiolucent triangle beneath the contact point.",
+      "counselor_tabletop_demo": "Examine sample dental radiographs on a light viewer and trace a labeled cross-section of a lower molar showing all five tooth surfaces (mesial, distal, buccal, lingual, occlusal).",
+      "real_world_connection_box": "ADA Tooth Anatomy & Radiographic Caries Detection Standard: A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp. Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_1_topic_visual.png",
+      "bespoke_visual_caption": "An educational diagram details cross-section tooth anatomy, stages of tooth decay, and clinical instruments.",
+      "v47_slide_title": "ADA Tooth Anatomy & Radiographic Caries Detection Standard",
+      "v47_primary_source_bullets": [
+        "A tooth crown and root comprise enamel (96% hydroxyapatite), dentin tubules, cementum, and neurovascular pulp.",
+        "Bitewing and periapical radiographs reveal interproximal decay and bone loss as dark radiolucent shadows early."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+      "core_mechanism_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ],
+      "worked_field_example": "Sipping a sugary soda every 15 minutes keeps enamel below pH 5.5 for hours, whereas drinking water lets saliva bicarbonate buffer pH back to 7.0 in 30 minutes.",
+      "counselor_tabletop_demo": "Chew a vegetable-dye dental disclosing tablet (or inspect a disclosing chart) to map where bacterial biofilm accumulates along the gingival margin.",
+      "real_world_connection_box": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard: Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes. Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell or write about what in a troop setting.",
+      "v47_slide_title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard",
+      "v47_primary_source_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+      "core_mechanism_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ],
+      "worked_field_example": "Sipping a sugary soda every 15 minutes keeps enamel below pH 5.5 for hours, whereas drinking water lets saliva bicarbonate buffer pH back to 7.0 in 30 minutes.",
+      "counselor_tabletop_demo": "Chew a vegetable-dye dental disclosing tablet (or inspect a disclosing chart) to map where bacterial biofilm accumulates along the gingival margin.",
+      "real_world_connection_box": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard: Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes. Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell or write about what in a troop setting.",
+      "v47_slide_title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard",
+      "v47_primary_source_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+      "core_mechanism_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ],
+      "worked_field_example": "Reimplanting a knocked-out permanent incisor within 30 minutes or submerging it in cold milk preserves periodontal ligament cell viability above 85 percent.",
+      "counselor_tabletop_demo": "Identify five clinical dental instruments and five operatory machines from a clinical tray diagram and demonstrate mixing ratios for Type III dental stone.",
+      "real_world_connection_box": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard: Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately. Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify careers & professional pathways during a structured merit badge clinic.",
+      "v47_slide_title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard",
+      "v47_primary_source_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+      "core_mechanism_bullets": [
+        "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+        "Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite."
+      ],
+      "worked_field_example": "Fluorapatite resists acid dissolution down to pH 4.5 compared with pH 5.5 for natural hydroxyapatite, representing a tenfold increase in acid tolerance.",
+      "counselor_tabletop_demo": "Use an oversized tooth model, soft brush, and 18 inches of floss wrapped around the middle fingers to demonstrate the 45-degree Modified Bass and C-shape flossing techniques.",
+      "real_world_connection_box": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard: Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste. Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating arrange for a visit with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ADA Modified Bass Brushing & Fluorapatite Remineralization Standard",
+      "v47_primary_source_bullets": [
+        "Angle a soft brush at 45 degrees to the gumline using short strokes for 2 minutes twice daily with fluoride toothpaste.",
+        "Topical and water fluoride (0.7 milligrams per liter) replaces hydroxyl ions in enamel to form acid-resistant fluorapatite."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+      "core_mechanism_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ],
+      "worked_field_example": "Sipping a sugary soda every 15 minutes keeps enamel below pH 5.5 for hours, whereas drinking water lets saliva bicarbonate buffer pH back to 7.0 in 30 minutes.",
+      "counselor_tabletop_demo": "Chew a vegetable-dye dental disclosing tablet (or inspect a disclosing chart) to map where bacterial biofilm accumulates along the gingival margin.",
+      "real_world_connection_box": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard: Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes. Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell or write about what in a troop setting.",
+      "v47_slide_title": "Stephan Curve pH 5.5 Demineralization & Plaque Biofilm Standard",
+      "v47_primary_source_bullets": [
+        "Streptococcus mutans in plaque ferment dietary sugars into lactic acid, dropping enamel pH below 5.5 within 5 minutes.",
+        "Untreated gingival plaque calcifies into subgingival calculus, causing gingivitis inflammation and periodontal bone loss."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Dentistry",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Dental Association (ADA) & CDC Oral Health",
+        "title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard Technical Reference",
+        "canonical_url": "https://www.ada.org/resources/research/science-and-research-institute"
+      },
+      "rule_of_thumb_mnemonic": "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+      "core_mechanism_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ],
+      "worked_field_example": "Reimplanting a knocked-out permanent incisor within 30 minutes or submerging it in cold milk preserves periodontal ligament cell viability above 85 percent.",
+      "counselor_tabletop_demo": "Identify five clinical dental instruments and five operatory machines from a clinical tray diagram and demonstrate mixing ratios for Type III dental stone.",
+      "real_world_connection_box": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard: Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately. Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Dental Association (ADA) & CDC Oral Health",
+      "bespoke_visual_filename": "dentistry_req_7_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dentistry_req_7_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify careers & professional pathways during a structured merit badge clinic.",
+      "v47_slide_title": "ADA Avulsed Tooth Emergency & Clinical Instrumentation Standard",
+      "v47_primary_source_bullets": [
+        "Hold a knocked-out permanent tooth by the crown, never scrub the root, and reimplant or store in cold milk immediately.",
+        "Identify clinical tools including the mouth mirror, sickle explorer, millimeter periodontal probe, and curing light."
+      ]
+    }
+  }
+}

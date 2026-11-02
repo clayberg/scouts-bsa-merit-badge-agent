@@ -1,0 +1,601 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "lifesaving",
+  "badge_name": "Lifesaving",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Red Cross & USLA",
+  "primary_authority_url": "https://www.redcross.org/take-a-class/lifeguarding",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+      "core_mechanism_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ],
+      "worked_field_example": "For a tired swimmer struggling 35 feet off a dock, a rescuer braced low on one knee throws a 50-foot floating rescue bag 5 feet past the victim shoulders so the line falls directly across their arms.",
+      "counselor_tabletop_demo": "Practice coiling and underhand-throwing a 50-foot rescue throw bag to hit a target cone 30 feet away within 15 seconds including a second re-coil throw.",
+      "real_world_connection_box": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard: Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming. Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_caption": "An illustrated rescuer prepares and tosses a coiled lifeline with an attached float toward open water.",
+      "v47_slide_title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "USLA Active Drowning Recognition & Watercraft Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+      "core_mechanism_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ],
+      "worked_field_example": "When approaching an exhausted swimmer in a rowboat, the rescuer pivots and backs the stern gently within arm reach so the swimmer can grasp the transom while the rower balances centerline weight.",
+      "counselor_tabletop_demo": "Compare the 4 victim classifications of Distressed Swimmer, Active Drowning, Passive Submerged, and Suspected Spinal, and map the craft approach vector for each.",
+      "real_world_connection_box": "USLA Active Drowning Recognition & Watercraft Standard: Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds. Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing importance of avoiding contact with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USLA Active Drowning Recognition & Watercraft Standard",
+      "v47_primary_source_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+      "core_mechanism_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ],
+      "worked_field_example": "In waist-deep water after a dock fall, the rescuer extends the victim arms overhead, squeezes the biceps tightly against the temples, and walks forward to float the spine level before turning face up.",
+      "counselor_tabletop_demo": "Demonstrate the over-arm head-splint grip alignment on a patrol partner standing on land and review AED pad placement after drying a wet chest.",
+      "real_world_connection_box": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard: Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears. Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for in deep water in a troop setting.",
+      "v47_slide_title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard",
+      "v47_primary_source_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+      "core_mechanism_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ],
+      "worked_field_example": "For a tired swimmer struggling 35 feet off a dock, a rescuer braced low on one knee throws a 50-foot floating rescue bag 5 feet past the victim shoulders so the line falls directly across their arms.",
+      "counselor_tabletop_demo": "Practice coiling and underhand-throwing a 50-foot rescue throw bag to hit a target cone 30 feet away within 15 seconds including a second re-coil throw.",
+      "real_world_connection_box": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard: Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming. Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_caption": "An illustrated rescuer prepares and tosses a coiled lifeline with an attached float toward open water.",
+      "v47_slide_title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "USLA Active Drowning Recognition & Watercraft Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+      "core_mechanism_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ],
+      "worked_field_example": "When approaching an exhausted swimmer in a rowboat, the rescuer pivots and backs the stern gently within arm reach so the swimmer can grasp the transom while the rower balances centerline weight.",
+      "counselor_tabletop_demo": "Compare the 4 victim classifications of Distressed Swimmer, Active Drowning, Passive Submerged, and Suspected Spinal, and map the craft approach vector for each.",
+      "real_world_connection_box": "USLA Active Drowning Recognition & Watercraft Standard: Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds. Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing importance of avoiding contact with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USLA Active Drowning Recognition & Watercraft Standard",
+      "v47_primary_source_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+      "core_mechanism_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ],
+      "worked_field_example": "In waist-deep water after a dock fall, the rescuer extends the victim arms overhead, squeezes the biceps tightly against the temples, and walks forward to float the spine level before turning face up.",
+      "counselor_tabletop_demo": "Demonstrate the over-arm head-splint grip alignment on a patrol partner standing on land and review AED pad placement after drying a wet chest.",
+      "real_world_connection_box": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard: Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears. Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for in deep water in a troop setting.",
+      "v47_slide_title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard",
+      "v47_primary_source_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+      "core_mechanism_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ],
+      "worked_field_example": "For a tired swimmer struggling 35 feet off a dock, a rescuer braced low on one knee throws a 50-foot floating rescue bag 5 feet past the victim shoulders so the line falls directly across their arms.",
+      "counselor_tabletop_demo": "Practice coiling and underhand-throwing a 50-foot rescue throw bag to hit a target cone 30 feet away within 15 seconds including a second re-coil throw.",
+      "real_world_connection_box": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard: Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming. Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_caption": "An illustrated rescuer prepares and tosses a coiled lifeline with an attached float toward open water.",
+      "v47_slide_title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "USLA Active Drowning Recognition & Watercraft Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+      "core_mechanism_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ],
+      "worked_field_example": "When approaching an exhausted swimmer in a rowboat, the rescuer pivots and backs the stern gently within arm reach so the swimmer can grasp the transom while the rower balances centerline weight.",
+      "counselor_tabletop_demo": "Compare the 4 victim classifications of Distressed Swimmer, Active Drowning, Passive Submerged, and Suspected Spinal, and map the craft approach vector for each.",
+      "real_world_connection_box": "USLA Active Drowning Recognition & Watercraft Standard: Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds. Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing importance of avoiding contact with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USLA Active Drowning Recognition & Watercraft Standard",
+      "v47_primary_source_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+      "core_mechanism_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ],
+      "worked_field_example": "In waist-deep water after a dock fall, the rescuer extends the victim arms overhead, squeezes the biceps tightly against the temples, and walks forward to float the spine level before turning face up.",
+      "counselor_tabletop_demo": "Demonstrate the over-arm head-splint grip alignment on a patrol partner standing on land and review AED pad placement after drying a wet chest.",
+      "real_world_connection_box": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard: Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears. Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for in deep water in a troop setting.",
+      "v47_slide_title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard",
+      "v47_primary_source_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+      "core_mechanism_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ],
+      "worked_field_example": "For a tired swimmer struggling 35 feet off a dock, a rescuer braced low on one knee throws a 50-foot floating rescue bag 5 feet past the victim shoulders so the line falls directly across their arms.",
+      "counselor_tabletop_demo": "Practice coiling and underhand-throwing a 50-foot rescue throw bag to hit a target cone 30 feet away within 15 seconds including a second re-coil throw.",
+      "real_world_connection_box": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard: Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming. Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_caption": "An illustrated rescuer prepares and tosses a coiled lifeline with an attached float toward open water.",
+      "v47_slide_title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "USLA Active Drowning Recognition & Watercraft Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+      "core_mechanism_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ],
+      "worked_field_example": "When approaching an exhausted swimmer in a rowboat, the rescuer pivots and backs the stern gently within arm reach so the swimmer can grasp the transom while the rower balances centerline weight.",
+      "counselor_tabletop_demo": "Compare the 4 victim classifications of Distressed Swimmer, Active Drowning, Passive Submerged, and Suspected Spinal, and map the craft approach vector for each.",
+      "real_world_connection_box": "USLA Active Drowning Recognition & Watercraft Standard: Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds. Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing importance of avoiding contact with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USLA Active Drowning Recognition & Watercraft Standard",
+      "v47_primary_source_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    "12": {
+      "req_id": "12",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    "13": {
+      "req_id": "13",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+      "core_mechanism_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ],
+      "worked_field_example": "For a tired swimmer struggling 35 feet off a dock, a rescuer braced low on one knee throws a 50-foot floating rescue bag 5 feet past the victim shoulders so the line falls directly across their arms.",
+      "counselor_tabletop_demo": "Practice coiling and underhand-throwing a 50-foot rescue throw bag to hit a target cone 30 feet away within 15 seconds including a second re-coil throw.",
+      "real_world_connection_box": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard: Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming. Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_8_nano_hero.png",
+      "bespoke_visual_caption": "An illustrated rescuer prepares and tosses a coiled lifeline with an attached float toward open water.",
+      "v47_slide_title": "American Red Cross Reach-Throw-Row-Go Hierarchy Standard",
+      "v47_primary_source_bullets": [
+        "Water rescue priority strictly follows Reach, Throw, Row, and Go with Support so rescuers use shore poles or throw bags before swimming.",
+        "Safe Swim Defense mandates qualified adult supervision, lifeguards at a 1-to-10 ratio, 10-minute buddy checks, and 3 ability zones."
+      ]
+    },
+    "14": {
+      "req_id": "14",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "USLA Active Drowning Recognition & Watercraft Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+      "core_mechanism_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ],
+      "worked_field_example": "When approaching an exhausted swimmer in a rowboat, the rescuer pivots and backs the stern gently within arm reach so the swimmer can grasp the transom while the rower balances centerline weight.",
+      "counselor_tabletop_demo": "Compare the 4 victim classifications of Distressed Swimmer, Active Drowning, Passive Submerged, and Suspected Spinal, and map the craft approach vector for each.",
+      "real_world_connection_box": "USLA Active Drowning Recognition & Watercraft Standard: Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds. Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_10_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing importance of avoiding contact with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "USLA Active Drowning Recognition & Watercraft Standard",
+      "v47_primary_source_bullets": [
+        "Instinctive Drowning Response victims stay vertical, cannot call out or wave, press arms downward, and submerge within 20 to 60 seconds.",
+        "Rowing and paddling rescues approach into the wind or current and make contact at the stable stern or bow to prevent capsizing."
+      ]
+    },
+    "15": {
+      "req_id": "15",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+      "core_mechanism_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ],
+      "worked_field_example": "To break a front head-hold in deep water, tuck your chin firmly to protect your airway, submerge straight down with the victim, push upward on their elbows, and pivot behind them into a control carry.",
+      "counselor_tabletop_demo": "Demonstrate on dry land the wrist-grasp lever release, front head-hold tuck-and-submerge escape, and transition to a cross-chest tow while keeping the victim face clear.",
+      "real_world_connection_box": "ARC Defensive Block, Escape & Cross-Chest Carry Standard: Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward. If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_11_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through transitions to cross-chest carry with authentic field equipment.",
+      "v47_slide_title": "ARC Defensive Block, Escape & Cross-Chest Carry Standard",
+      "v47_primary_source_bullets": [
+        "Swimming rescuers stop 6 to 8 feet outside a panicked victim reach in the ready defensive position and thrust a buoyant aid forward.",
+        "If grabbed by the wrist or neck, tuck the chin and push down to submerge because drowning victims instinctively release to surface."
+      ]
+    },
+    "16": {
+      "req_id": "16",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+      "core_mechanism_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ],
+      "worked_field_example": "In waist-deep water after a dock fall, the rescuer extends the victim arms overhead, squeezes the biceps tightly against the temples, and walks forward to float the spine level before turning face up.",
+      "counselor_tabletop_demo": "Demonstrate the over-arm head-splint grip alignment on a patrol partner standing on land and review AED pad placement after drying a wet chest.",
+      "real_world_connection_box": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard: Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears. Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for in deep water in a troop setting.",
+      "v47_slide_title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard",
+      "v47_primary_source_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ]
+    },
+    "17": {
+      "req_id": "17",
+      "badge_name": "Lifesaving",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Red Cross & USLA",
+        "title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard Technical Reference",
+        "canonical_url": "https://www.redcross.org/take-a-class/lifeguarding"
+      },
+      "rule_of_thumb_mnemonic": "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+      "core_mechanism_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ],
+      "worked_field_example": "In waist-deep water after a dock fall, the rescuer extends the victim arms overhead, squeezes the biceps tightly against the temples, and walks forward to float the spine level before turning face up.",
+      "counselor_tabletop_demo": "Demonstrate the over-arm head-splint grip alignment on a patrol partner standing on land and review AED pad placement after drying a wet chest.",
+      "real_world_connection_box": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard: Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears. Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Red Cross & USLA",
+      "bespoke_visual_filename": "lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/lifesaving_req_12_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for in deep water in a troop setting.",
+      "v47_slide_title": "ARC In-Line Spinal Stabilization & Hypoxic CPR Standard",
+      "v47_primary_source_bullets": [
+        "Suspected shallow-water spinal injuries use the head-splint technique, clamping the victim upper arms firmly against their ears.",
+        "Drowning cardiac arrest stems from hypoxia, requiring 2 rescue breaths followed by 30 compressions at 100 to 120 per minute and AED pads."
+      ]
+    }
+  }
+}

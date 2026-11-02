@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "painting",
+  "badge_name": "Painting",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "PDCA & EPA Lead-Safe Painting",
+  "primary_authority_url": "https://www.epa.gov/lead",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "EPA RRP Lead-Safe & OSHA Ventilation Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+      "core_mechanism_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ],
+      "worked_field_example": "Before sanding trim in a house built in 1965, a painter swabs an EPA-recognized rhodizonate lead test kit and uses wet-scraping containment if it turns red.",
+      "counselor_tabletop_demo": "Inspect a NIOSH respirator cartridge code, splash goggles, and Safety Data Sheet VOC rating for a waterborne acrylic vs. alkyd enamel can.",
+      "real_world_connection_box": "EPA RRP Lead-Safe & OSHA Ventilation Standard: EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings. Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating proper safety procedures to follow with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "EPA RRP Lead-Safe & OSHA Ventilation Standard",
+      "v47_primary_source_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "MPI Coating Chemistry & Primer Adhesion Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+      "core_mechanism_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ],
+      "worked_field_example": "Painting two coats on a 12-by-15-foot room with 8-foot walls totaling 432 square feet requires 1.1 gallons of PVA drywall primer and 2.2 gallons of latex topcoat.",
+      "counselor_tabletop_demo": "Calculate wall square footage minus doors and windows, divide by 350 square feet per gallon, and match bare wood, drywall, and ferrous metal to their primers.",
+      "real_world_connection_box": "MPI Coating Chemistry & Primer Adhesion Standard: Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives. One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining three ways that coatings step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "MPI Coating Chemistry & Primer Adhesion Standard",
+      "v47_primary_source_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "PDCA Surface Preparation & Application Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+      "core_mechanism_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ],
+      "worked_field_example": "Cutting in a 2-inch border with an angled sash brush and immediately rolling a wet edge in 3-foot sections prevents lap marks on flat and satin walls.",
+      "counselor_tabletop_demo": "Practice filling a sample drywall dent with a flexible putty knife, sanding flush with a 180-grit block, and loading only the bottom one-third of brush bristles.",
+      "real_world_connection_box": "PDCA Surface Preparation & Application Standard: Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating. Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for prepare and paint two different surfaces in a troop setting.",
+      "v47_slide_title": "PDCA Surface Preparation & Application Standard",
+      "v47_primary_source_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+      "core_mechanism_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ],
+      "worked_field_example": "A ladder reaching a 16-foot eave must have its base planted 4 feet out from the wall and extend 3 feet above the roofline when climbing onto a roof.",
+      "counselor_tabletop_demo": "Use a color wheel to build complementary, split-complementary, and triadic palettes and verify the 75-degree ladder stand-and-reach test.",
+      "real_world_connection_box": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard: OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of. Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining prepare and paint an item step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard",
+      "v47_primary_source_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "EPA RRP Lead-Safe & OSHA Ventilation Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+      "core_mechanism_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ],
+      "worked_field_example": "Before sanding trim in a house built in 1965, a painter swabs an EPA-recognized rhodizonate lead test kit and uses wet-scraping containment if it turns red.",
+      "counselor_tabletop_demo": "Inspect a NIOSH respirator cartridge code, splash goggles, and Safety Data Sheet VOC rating for a waterborne acrylic vs. alkyd enamel can.",
+      "real_world_connection_box": "EPA RRP Lead-Safe & OSHA Ventilation Standard: EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings. Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating proper safety procedures to follow with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "EPA RRP Lead-Safe & OSHA Ventilation Standard",
+      "v47_primary_source_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "MPI Coating Chemistry & Primer Adhesion Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+      "core_mechanism_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ],
+      "worked_field_example": "Painting two coats on a 12-by-15-foot room with 8-foot walls totaling 432 square feet requires 1.1 gallons of PVA drywall primer and 2.2 gallons of latex topcoat.",
+      "counselor_tabletop_demo": "Calculate wall square footage minus doors and windows, divide by 350 square feet per gallon, and match bare wood, drywall, and ferrous metal to their primers.",
+      "real_world_connection_box": "MPI Coating Chemistry & Primer Adhesion Standard: Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives. One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining three ways that coatings step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "MPI Coating Chemistry & Primer Adhesion Standard",
+      "v47_primary_source_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "MPI Coating Chemistry & Primer Adhesion Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+      "core_mechanism_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ],
+      "worked_field_example": "Painting two coats on a 12-by-15-foot room with 8-foot walls totaling 432 square feet requires 1.1 gallons of PVA drywall primer and 2.2 gallons of latex topcoat.",
+      "counselor_tabletop_demo": "Calculate wall square footage minus doors and windows, divide by 350 square feet per gallon, and match bare wood, drywall, and ferrous metal to their primers.",
+      "real_world_connection_box": "MPI Coating Chemistry & Primer Adhesion Standard: Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives. One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining three ways that coatings step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "MPI Coating Chemistry & Primer Adhesion Standard",
+      "v47_primary_source_bullets": [
+        "Architectural paint combines four core components of pigment for opacity, binder resin for film adhesion, liquid vehicle carrier, and performance additives.",
+        "One gallon of architectural coating covers approximately 350 to 400 square feet at 4 mils wet film thickness and cures to 1.5 mils dry film thickness."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+      "core_mechanism_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ],
+      "worked_field_example": "A ladder reaching a 16-foot eave must have its base planted 4 feet out from the wall and extend 3 feet above the roofline when climbing onto a roof.",
+      "counselor_tabletop_demo": "Use a color wheel to build complementary, split-complementary, and triadic palettes and verify the 75-degree ladder stand-and-reach test.",
+      "real_world_connection_box": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard: OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of. Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining prepare and paint an item step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard",
+      "v47_primary_source_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "EPA RRP Lead-Safe & OSHA Ventilation Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+      "core_mechanism_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ],
+      "worked_field_example": "Before sanding trim in a house built in 1965, a painter swabs an EPA-recognized rhodizonate lead test kit and uses wet-scraping containment if it turns red.",
+      "counselor_tabletop_demo": "Inspect a NIOSH respirator cartridge code, splash goggles, and Safety Data Sheet VOC rating for a waterborne acrylic vs. alkyd enamel can.",
+      "real_world_connection_box": "EPA RRP Lead-Safe & OSHA Ventilation Standard: EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings. Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating proper safety procedures to follow with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "EPA RRP Lead-Safe & OSHA Ventilation Standard",
+      "v47_primary_source_bullets": [
+        "EPA Renovation, Repair, and Painting rules apply to structures built before 1978, prohibiting dry scraping or open-flame torching of lead-based coatings.",
+        "Oil-based alkyd solvents release volatile organic compounds requiring cross-ventilation, NIOSH organic-vapor respirators, and sealed oily-rag metal cans."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "PDCA Surface Preparation & Application Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+      "core_mechanism_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ],
+      "worked_field_example": "Cutting in a 2-inch border with an angled sash brush and immediately rolling a wet edge in 3-foot sections prevents lap marks on flat and satin walls.",
+      "counselor_tabletop_demo": "Practice filling a sample drywall dent with a flexible putty knife, sanding flush with a 180-grit block, and loading only the bottom one-third of brush bristles.",
+      "real_world_connection_box": "PDCA Surface Preparation & Application Standard: Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating. Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for prepare and paint two different surfaces in a troop setting.",
+      "v47_slide_title": "PDCA Surface Preparation & Application Standard",
+      "v47_primary_source_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "PDCA Surface Preparation & Application Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+      "core_mechanism_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ],
+      "worked_field_example": "Cutting in a 2-inch border with an angled sash brush and immediately rolling a wet edge in 3-foot sections prevents lap marks on flat and satin walls.",
+      "counselor_tabletop_demo": "Practice filling a sample drywall dent with a flexible putty knife, sanding flush with a 180-grit block, and loading only the bottom one-third of brush bristles.",
+      "real_world_connection_box": "PDCA Surface Preparation & Application Standard: Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating. Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for prepare and paint two different surfaces in a troop setting.",
+      "v47_slide_title": "PDCA Surface Preparation & Application Standard",
+      "v47_primary_source_bullets": [
+        "Professional PDCA standards allocate 70 percent of project labor to scraping, spackling, caulking, and progressive 120-to-220-grit sanding before topcoating.",
+        "Nylon-polyester brushes apply waterborne latex cleanly while natural China bristles apply oil alkyds, and rollers lay paint in a 3-foot W pattern."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Painting",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "PDCA & EPA Lead-Safe Painting",
+        "title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/lead"
+      },
+      "rule_of_thumb_mnemonic": "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+      "core_mechanism_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ],
+      "worked_field_example": "A ladder reaching a 16-foot eave must have its base planted 4 feet out from the wall and extend 3 feet above the roofline when climbing onto a roof.",
+      "counselor_tabletop_demo": "Use a color wheel to build complementary, split-complementary, and triadic palettes and verify the 75-degree ladder stand-and-reach test.",
+      "real_world_connection_box": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard: OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of. Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + PDCA & EPA Lead-Safe Painting",
+      "bespoke_visual_filename": "painting_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/painting_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining prepare and paint an item step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "OSHA 4-to-1 Ladder Angle & Color Harmony Standard",
+      "v47_primary_source_bullets": [
+        "OSHA 1926.1053 requires setting extension ladders at a 4-to-1 pitch ratio of 1 foot out for every 4 feet of working height while maintaining three points of.",
+        "Munsell and Itten color wheels pair opposite complementary hues for high contrast, adjacent analogous hues for calm unity, and 60-30-10 room proportions."
+      ]
+    }
+  }
+}

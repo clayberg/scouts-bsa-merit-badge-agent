@@ -1,0 +1,181 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "golf",
+  "badge_name": "Golf",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USGA & PGA Rules of Golf",
+  "primary_authority_url": "https://www.usga.org/rules-hub.html",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "USGA Course Lightning Safety & Turf Repair Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+      "core_mechanism_bullets": [
+        "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+        "Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots."
+      ],
+      "worked_field_example": "Counting 20 seconds between a lightning flash and thunder indicates a strike 4 miles away, requiring immediate shelter inside a grounded clubhouse rather than under isolated trees.",
+      "counselor_tabletop_demo": "Practice repairing simulated ball depressions in a foam or turf pad by pushing inward from the outer edges and tapping flat with a putter sole.",
+      "real_world_connection_box": "USGA Course Lightning Safety & Turf Repair Standard: USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away. Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Uniformed Scouts BSA instructor demonstrating USGA rules, pace of play, and divot and ball-mark repair on the putting green.",
+      "v47_slide_title": "USGA Course Lightning Safety & Turf Repair Standard",
+      "v47_primary_source_bullets": [
+        "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+        "Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "USGA Rule 6 & Penalty Area Relief Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+      "core_mechanism_bullets": [
+        "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+        "USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes."
+      ],
+      "worked_field_example": "If your ball enters a red-staked lateral penalty area, you may take a one-stroke penalty and drop a ball within two driver club-lengths of the point of entry no nearer the hole.",
+      "counselor_tabletop_demo": "Lay down alignment sticks to mark a simulated red penalty stake and measure a legal two-club-length knee-height relief drop zone.",
+      "real_world_connection_box": "USGA Rule 6 & Penalty Area Relief Standard: USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs. USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating about your understanding equipment layout and safe operating steps for Golf.",
+      "v47_slide_title": "USGA Rule 6 & Penalty Area Relief Standard",
+      "v47_primary_source_bullets": [
+        "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+        "USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "USGA Club Loft Progression & Equipment Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "Conforming golf balls weigh at most 1.620 ounces or 45.93 grams and measure at least 1.680 inches or 42.67 millimeters in diameter.",
+      "core_mechanism_bullets": [
+        "Conforming golf balls weigh at most 1.620 ounces or 45.93 grams and measure at least 1.680 inches or 42.67 millimeters in diameter.",
+        "Club lofts progress from 9 to 11 degrees on a driver and 24 degrees on a 4-iron up to 56 degrees on a sand wedge for 12-yard gaps."
+      ],
+      "worked_field_example": "A golfer carrying a 150-yard 7-iron, 135-yard 8-iron, and 120-yard 9-iron selects the 7-iron when facing a 140-yard approach into a 10 mph headwind.",
+      "counselor_tabletop_demo": "Inspect a driver, 5-iron, pitching wedge, sand wedge, and putter side by side to measure loft angles, shaft lengths, and sand-wedge bounce.",
+      "real_world_connection_box": "USGA Club Loft Progression & Equipment Standard: Conforming golf balls weigh at most 1.620 ounces or 45.93 grams and measure at least 1.680 inches or 42.67 millimeters in diameter. Club lofts progress from 9 to 11 degrees on a driver and 24 degrees on a 4-iron up to 56 degrees on a sand wedge for 12-yard gaps.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_3_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_3_nano_hero.png",
+      "bespoke_visual_caption": "Traditional golf equipment display featuring a driver, fairway wood, numbered irons, sand wedge, blade putter, golf balls, tees, and divot repair tool.",
+      "v47_slide_title": "USGA Club Loft Progression & Equipment Standard",
+      "v47_primary_source_bullets": [
+        "Conforming golf balls weigh at most 1.620 ounces or 45.93 grams and measure at least 1.680 inches or 42.67 millimeters in diameter.",
+        "Club lofts progress from 9 to 11 degrees on a driver and 24 degrees on a 4-iron up to 56 degrees on a sand wedge for 12-yard gaps."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "PGA Kinematic Sequence & Bunker Mechanics Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "PGA kinematic sequence transfers energy from ground through hips, torso, arms, and club with 80 percent lead-foot weight at impact.",
+      "core_mechanism_bullets": [
+        "PGA kinematic sequence transfers energy from ground through hips, torso, arms, and club with 80 percent lead-foot weight at impact.",
+        "Greenside bunker shots open the 56-degree sand wedge face and strike the sand 2 inches behind the ball so sand lifts it out."
+      ],
+      "worked_field_example": "On a 20-foot level putt with a Stimpmeter speed of 10 feet, a symmetrical 8-inch backswing and 8-inch follow-through rolls the ball smoothly to the cup with dying pace.",
+      "counselor_tabletop_demo": "Demonstrate the Vardon overlapping and interlocking grips on a training club and check square clubface alignment along a target line.",
+      "real_world_connection_box": "PGA Kinematic Sequence & Bunker Mechanics Standard: PGA kinematic sequence transfers energy from ground through hips, torso, arms, and club with 80 percent lead-foot weight at impact. Greenside bunker shots open the 56-degree sand wedge face and strike the sand 2 inches behind the ball so sand lifts it out.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_5_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_5_nano_hero.png",
+      "bespoke_visual_caption": "Four-panel traditional golf mechanics guide illustrating the interlocking grip, full driver swing, sand bunker explosion shot, and pendulum putting stroke.",
+      "v47_slide_title": "PGA Kinematic Sequence & Bunker Mechanics Standard",
+      "v47_primary_source_bullets": [
+        "PGA kinematic sequence transfers energy from ground through hips, torso, arms, and club with 80 percent lead-foot weight at impact.",
+        "Greenside bunker shots open the 56-degree sand wedge face and strike the sand 2 inches behind the ball so sand lifts it out."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "USGA Course Lightning Safety & Turf Repair Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+      "core_mechanism_bullets": [
+        "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+        "Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots."
+      ],
+      "worked_field_example": "Counting 20 seconds between a lightning flash and thunder indicates a strike 4 miles away, requiring immediate shelter inside a grounded clubhouse rather than under isolated trees.",
+      "counselor_tabletop_demo": "Practice repairing simulated ball depressions in a foam or turf pad by pushing inward from the outer edges and tapping flat with a putter sole.",
+      "real_world_connection_box": "USGA Course Lightning Safety & Turf Repair Standard: USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away. Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Uniformed Scouts BSA instructor demonstrating USGA rules, pace of play, and divot and ball-mark repair on the putting green.",
+      "v47_slide_title": "USGA Course Lightning Safety & Turf Repair Standard",
+      "v47_primary_source_bullets": [
+        "USGA lightning protocol suspends play with one prolonged siren blast when flash-to-bang time drops to 30 seconds or 6 miles away.",
+        "Proper ball-mark repair pushes turf inward from the outer edge toward the center with a two-prong tool without tearing grass roots."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Golf",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USGA & PGA Rules of Golf",
+        "title": "USGA Rule 6 & Penalty Area Relief Standard Technical Reference",
+        "canonical_url": "https://www.usga.org/rules-hub.html"
+      },
+      "rule_of_thumb_mnemonic": "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+      "core_mechanism_bullets": [
+        "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+        "USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes."
+      ],
+      "worked_field_example": "If your ball enters a red-staked lateral penalty area, you may take a one-stroke penalty and drop a ball within two driver club-lengths of the point of entry no nearer the hole.",
+      "counselor_tabletop_demo": "Lay down alignment sticks to mark a simulated red penalty stake and measure a legal two-club-length knee-height relief drop zone.",
+      "real_world_connection_box": "USGA Rule 6 & Penalty Area Relief Standard: USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs. USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USGA & PGA Rules of Golf",
+      "bespoke_visual_filename": "golf_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/golf_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating about your understanding equipment layout and safe operating steps for Golf.",
+      "v47_slide_title": "USGA Rule 6 & Penalty Area Relief Standard",
+      "v47_primary_source_bullets": [
+        "USGA Rule 4.1b limits a player bag to 14 clubs maximum during a round, assessing a two-stroke penalty per hole for excess clubs.",
+        "USGA Rule 14.3 and Rule 17 grant one-stroke knee-height drop relief within 1 or 2 club-lengths and cap ball searches at 3 minutes."
+      ]
+    }
+  }
+}

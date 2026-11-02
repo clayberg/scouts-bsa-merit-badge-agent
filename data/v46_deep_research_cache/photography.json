@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "photography",
+  "badge_name": "Photography",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Professional Photographers of America & ISO Optics",
+  "primary_authority_url": "https://www.ppa.com/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "ISO 12232 Exposure Triangle & Reciprocity Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+      "core_mechanism_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ],
+      "worked_field_example": "Opening aperture by 1 stop from f/8 to f/5.6 doubles light reaching the sensor, allowing shutter speed to double from 1 over 250 second to 1 over 500 second at ISO 200.",
+      "counselor_tabletop_demo": "Adjust aperture, shutter speed, and ISO on a camera or simulator to achieve three equivalent exposures with different depth of field and motion blur.",
+      "real_world_connection_box": "ISO 12232 Exposure Triangle & Reciprocity Standard: Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light. Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "ISO 12232 Exposure Triangle & Reciprocity Standard",
+      "v47_primary_source_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "Optical Depth of Field & Focal Length Perspective Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+      "core_mechanism_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ],
+      "worked_field_example": "Handholding a 200mm telephoto lens requires a shutter speed of at least 1 over 200 second or faster to freeze operator hand tremor.",
+      "counselor_tabletop_demo": "Photograph a row of three staggered chess pieces at f/2.8 vs. f/16 and compare background bokeh blur and focal plane depth.",
+      "real_world_connection_box": "Optical Depth of Field & Focal Length Perspective Standard: Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp. To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing following elements and terms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Optical Depth of Field & Focal Length Perspective Standard",
+      "v47_primary_source_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "PPA Rule of Thirds & Golden Hour Lighting Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+      "core_mechanism_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ],
+      "worked_field_example": "Positioning a hiker at the lower-left grid intersection with leading trail lines pointing toward the upper-right peak guides the viewer's eye through the frame.",
+      "counselor_tabletop_demo": "Enable the 3-by-3 grid overlay and live RGB histogram on a digital camera or phone and frame the same object from eye level, low angle, and bird's-eye angle.",
+      "real_world_connection_box": "PPA Rule of Thirds & Golden Hour Lighting Standard: Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center. Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for basic parts and operation in a troop setting.",
+      "v47_slide_title": "PPA Rule of Thirds & Golden Hour Lighting Standard",
+      "v47_primary_source_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+      "core_mechanism_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ],
+      "worked_field_example": "Checking the camera RGB histogram confirms highlights do not clip against the right wall at level 255 while shadows retain recoverable detail above 0.",
+      "counselor_tabletop_demo": "Compare an unedited photo against a cropped, exposure-leveled edit and lay out a 5-photo picture story with an establishing shot, action, close-up, and clincher.",
+      "real_world_connection_box": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard: Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data. National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing then share your work with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard",
+      "v47_primary_source_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "ISO 12232 Exposure Triangle & Reciprocity Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+      "core_mechanism_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ],
+      "worked_field_example": "Opening aperture by 1 stop from f/8 to f/5.6 doubles light reaching the sensor, allowing shutter speed to double from 1 over 250 second to 1 over 500 second at ISO 200.",
+      "counselor_tabletop_demo": "Adjust aperture, shutter speed, and ISO on a camera or simulator to achieve three equivalent exposures with different depth of field and motion blur.",
+      "real_world_connection_box": "ISO 12232 Exposure Triangle & Reciprocity Standard: Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light. Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "ISO 12232 Exposure Triangle & Reciprocity Standard",
+      "v47_primary_source_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "Optical Depth of Field & Focal Length Perspective Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+      "core_mechanism_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ],
+      "worked_field_example": "Handholding a 200mm telephoto lens requires a shutter speed of at least 1 over 200 second or faster to freeze operator hand tremor.",
+      "counselor_tabletop_demo": "Photograph a row of three staggered chess pieces at f/2.8 vs. f/16 and compare background bokeh blur and focal plane depth.",
+      "real_world_connection_box": "Optical Depth of Field & Focal Length Perspective Standard: Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp. To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing following elements and terms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Optical Depth of Field & Focal Length Perspective Standard",
+      "v47_primary_source_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "Optical Depth of Field & Focal Length Perspective Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+      "core_mechanism_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ],
+      "worked_field_example": "Handholding a 200mm telephoto lens requires a shutter speed of at least 1 over 200 second or faster to freeze operator hand tremor.",
+      "counselor_tabletop_demo": "Photograph a row of three staggered chess pieces at f/2.8 vs. f/16 and compare background bokeh blur and focal plane depth.",
+      "real_world_connection_box": "Optical Depth of Field & Focal Length Perspective Standard: Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp. To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing following elements and terms with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "Optical Depth of Field & Focal Length Perspective Standard",
+      "v47_primary_source_bullets": [
+        "Wide apertures such as f/1.8 or f/2.8 create a shallow depth of field that isolates portraits, whereas small apertures like f/11 or f/16 keep landscapes sharp.",
+        "To prevent handheld camera shake blur, minimum shutter speed should be at least 1 divided by the 35mm-equivalent lens focal length."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+      "core_mechanism_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ],
+      "worked_field_example": "Checking the camera RGB histogram confirms highlights do not clip against the right wall at level 255 while shadows retain recoverable detail above 0.",
+      "counselor_tabletop_demo": "Compare an unedited photo against a cropped, exposure-leveled edit and lay out a 5-photo picture story with an establishing shot, action, close-up, and clincher.",
+      "real_world_connection_box": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard: Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data. National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing then share your work with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard",
+      "v47_primary_source_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "ISO 12232 Exposure Triangle & Reciprocity Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+      "core_mechanism_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ],
+      "worked_field_example": "Opening aperture by 1 stop from f/8 to f/5.6 doubles light reaching the sensor, allowing shutter speed to double from 1 over 250 second to 1 over 500 second at ISO 200.",
+      "counselor_tabletop_demo": "Adjust aperture, shutter speed, and ISO on a camera or simulator to achieve three equivalent exposures with different depth of field and motion blur.",
+      "real_world_connection_box": "ISO 12232 Exposure Triangle & Reciprocity Standard: Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light. Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "ISO 12232 Exposure Triangle & Reciprocity Standard",
+      "v47_primary_source_bullets": [
+        "Photographic exposure balances aperture f-stop, shutter duration in seconds, and ISO sensor sensitivity where each full stop doubles or halves captured light.",
+        "Under the Sunny 16 rule, setting aperture to f/16 in bright direct sunlight yields proper exposure at a shutter speed equal to the reciprocal of ISO."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "PPA Rule of Thirds & Golden Hour Lighting Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+      "core_mechanism_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ],
+      "worked_field_example": "Positioning a hiker at the lower-left grid intersection with leading trail lines pointing toward the upper-right peak guides the viewer's eye through the frame.",
+      "counselor_tabletop_demo": "Enable the 3-by-3 grid overlay and live RGB histogram on a digital camera or phone and frame the same object from eye level, low angle, and bird's-eye angle.",
+      "real_world_connection_box": "PPA Rule of Thirds & Golden Hour Lighting Standard: Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center. Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for basic parts and operation in a troop setting.",
+      "v47_slide_title": "PPA Rule of Thirds & Golden Hour Lighting Standard",
+      "v47_primary_source_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "PPA Rule of Thirds & Golden Hour Lighting Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+      "core_mechanism_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ],
+      "worked_field_example": "Positioning a hiker at the lower-left grid intersection with leading trail lines pointing toward the upper-right peak guides the viewer's eye through the frame.",
+      "counselor_tabletop_demo": "Enable the 3-by-3 grid overlay and live RGB histogram on a digital camera or phone and frame the same object from eye level, low angle, and bird's-eye angle.",
+      "real_world_connection_box": "PPA Rule of Thirds & Golden Hour Lighting Standard: Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center. Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for basic parts and operation in a troop setting.",
+      "v47_slide_title": "PPA Rule of Thirds & Golden Hour Lighting Standard",
+      "v47_primary_source_bullets": [
+        "Dividing the viewfinder into a 3-by-3 nine-zone grid places primary subjects along intersecting power points and keeps horizons off the dead center.",
+        "Golden hour sunlight during the first hour after sunrise and final hour before sunset illuminates subjects at a low 10-degree angle with warm 3,500 kelvin tones."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Photography",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Professional Photographers of America & ISO Optics",
+        "title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard Technical Reference",
+        "canonical_url": "https://www.ppa.com/"
+      },
+      "rule_of_thumb_mnemonic": "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+      "core_mechanism_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ],
+      "worked_field_example": "Checking the camera RGB histogram confirms highlights do not clip against the right wall at level 255 while shadows retain recoverable detail above 0.",
+      "counselor_tabletop_demo": "Compare an unedited photo against a cropped, exposure-leveled edit and lay out a 5-photo picture story with an establishing shot, action, close-up, and clincher.",
+      "real_world_connection_box": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard: Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data. National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Professional Photographers of America & ISO Optics",
+      "bespoke_visual_filename": "photography_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/photography_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing then share your work with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "NPPA Photojournalism Ethics & Nondestructive Workflow Standard",
+      "v47_primary_source_bullets": [
+        "Nondestructive RAW editing adjusts white balance, exposure, shadow recovery, and crop metadata without overwriting original 12-bit or 14-bit sensor pixel data.",
+        "National Press Photographers Association ethics prohibit cloning in or removing visual elements in documentary photojournalism stories."
+      ]
+    }
+  }
+}

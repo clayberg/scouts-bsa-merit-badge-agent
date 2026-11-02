@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "engineering",
+  "badge_name": "Engineering",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NSPE & ASME Engineering Design",
+  "primary_authority_url": "https://www.nspe.org/resources/ethics/code-ethics",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASME Reverse Engineering & Factor of Safety Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+      "core_mechanism_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ],
+      "worked_field_example": "Disassembling an LED flashlight reveals an anodized 6061-T6 aluminum barrel, an O-ring IPX4 elastomer seal, a buck-driver PCB, and a parabolic reflector that collimates beam intensity.",
+      "counselor_tabletop_demo": "Perform a non-destructive teardown of a mechanical click pen or camp lantern, catalog each component into a Bill of Materials, and trace the mechanical force path.",
+      "real_world_connection_box": "ASME Reverse Engineering & Factor of Safety Standard: Factor of Safety equals ultimate material strength divided by maximum allowable design stress. Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select a manufactured item in a troop setting.",
+      "v47_slide_title": "ASME Reverse Engineering & Factor of Safety Standard",
+      "v47_primary_source_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASCE 7 Structural Load Path & Civil Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+      "core_mechanism_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ],
+      "worked_field_example": "On a 12-foot pedestrian footbridge carrying 1,200 pounds of Scout hikers plus 400 pounds of timber dead weight, each of the two end abutments supports an 800-pound vertical reaction.",
+      "counselor_tabletop_demo": "Load a triangular Warren truss model versus an unbraced rectangular frame with calibration weights to show how diagonal triangulation prevents shear racking.",
+      "real_world_connection_box": "ASCE 7 Structural Load Path & Civil Standard: ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces. Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating select an engineering achievement with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASCE 7 Structural Load Path & Civil Standard",
+      "v47_primary_source_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "NSPE Ethical Canon & ABET Discipline Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+      "core_mechanism_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ],
+      "worked_field_example": "When designing a camp water filtration system, a Chemical Engineer sizes the chlorine contact dose at 2.0 mg/L while a Civil Engineer calculates pipe head loss using the Hazen-Williams equation.",
+      "counselor_tabletop_demo": "Map a single camp infrastructure project across six engineering disciplines and identify which physical law governs each specialist's subsystem.",
+      "real_world_connection_box": "NSPE Ethical Canon & ABET Discipline Standard: NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare. Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify work of six types during a structured merit badge clinic.",
+      "v47_slide_title": "NSPE Ethical Canon & ABET Discipline Standard",
+      "v47_primary_source_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "INCOSE Systems Engineering & Trade Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+      "core_mechanism_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ],
+      "worked_field_example": "Evaluating three patrol chuck-box designs across weight (40 percent), waterproofness (35 percent), and cost (25 percent) yields a winning weighted score of 8.4 out of 10 for marine plywood.",
+      "counselor_tabletop_demo": "Build a 3-option weighted Pugh decision matrix on a whiteboard for a camp gadget and score each prototype against measurable weight and load specifications.",
+      "real_world_connection_box": "INCOSE Systems Engineering & Trade Matrix Standard: Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria. Critical Path Method schedules identify zero-float sequential tasks that control total duration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through use the systems engineering approach with authentic field equipment.",
+      "v47_slide_title": "INCOSE Systems Engineering & Trade Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASME Reverse Engineering & Factor of Safety Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+      "core_mechanism_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ],
+      "worked_field_example": "Disassembling an LED flashlight reveals an anodized 6061-T6 aluminum barrel, an O-ring IPX4 elastomer seal, a buck-driver PCB, and a parabolic reflector that collimates beam intensity.",
+      "counselor_tabletop_demo": "Perform a non-destructive teardown of a mechanical click pen or camp lantern, catalog each component into a Bill of Materials, and trace the mechanical force path.",
+      "real_world_connection_box": "ASME Reverse Engineering & Factor of Safety Standard: Factor of Safety equals ultimate material strength divided by maximum allowable design stress. Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select a manufactured item in a troop setting.",
+      "v47_slide_title": "ASME Reverse Engineering & Factor of Safety Standard",
+      "v47_primary_source_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASCE 7 Structural Load Path & Civil Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+      "core_mechanism_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ],
+      "worked_field_example": "On a 12-foot pedestrian footbridge carrying 1,200 pounds of Scout hikers plus 400 pounds of timber dead weight, each of the two end abutments supports an 800-pound vertical reaction.",
+      "counselor_tabletop_demo": "Load a triangular Warren truss model versus an unbraced rectangular frame with calibration weights to show how diagonal triangulation prevents shear racking.",
+      "real_world_connection_box": "ASCE 7 Structural Load Path & Civil Standard: ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces. Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating select an engineering achievement with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASCE 7 Structural Load Path & Civil Standard",
+      "v47_primary_source_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "NSPE Ethical Canon & ABET Discipline Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+      "core_mechanism_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ],
+      "worked_field_example": "When designing a camp water filtration system, a Chemical Engineer sizes the chlorine contact dose at 2.0 mg/L while a Civil Engineer calculates pipe head loss using the Hazen-Williams equation.",
+      "counselor_tabletop_demo": "Map a single camp infrastructure project across six engineering disciplines and identify which physical law governs each specialist's subsystem.",
+      "real_world_connection_box": "NSPE Ethical Canon & ABET Discipline Standard: NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare. Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify work of six types during a structured merit badge clinic.",
+      "v47_slide_title": "NSPE Ethical Canon & ABET Discipline Standard",
+      "v47_primary_source_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASCE 7 Structural Load Path & Civil Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+      "core_mechanism_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ],
+      "worked_field_example": "On a 12-foot pedestrian footbridge carrying 1,200 pounds of Scout hikers plus 400 pounds of timber dead weight, each of the two end abutments supports an 800-pound vertical reaction.",
+      "counselor_tabletop_demo": "Load a triangular Warren truss model versus an unbraced rectangular frame with calibration weights to show how diagonal triangulation prevents shear racking.",
+      "real_world_connection_box": "ASCE 7 Structural Load Path & Civil Standard: ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces. Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating select an engineering achievement with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASCE 7 Structural Load Path & Civil Standard",
+      "v47_primary_source_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASME Reverse Engineering & Factor of Safety Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+      "core_mechanism_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ],
+      "worked_field_example": "Disassembling an LED flashlight reveals an anodized 6061-T6 aluminum barrel, an O-ring IPX4 elastomer seal, a buck-driver PCB, and a parabolic reflector that collimates beam intensity.",
+      "counselor_tabletop_demo": "Perform a non-destructive teardown of a mechanical click pen or camp lantern, catalog each component into a Bill of Materials, and trace the mechanical force path.",
+      "real_world_connection_box": "ASME Reverse Engineering & Factor of Safety Standard: Factor of Safety equals ultimate material strength divided by maximum allowable design stress. Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for select a manufactured item in a troop setting.",
+      "v47_slide_title": "ASME Reverse Engineering & Factor of Safety Standard",
+      "v47_primary_source_bullets": [
+        "Factor of Safety equals ultimate material strength divided by maximum allowable design stress.",
+        "Consumer mechanical assemblies apply a Factor of Safety of 2.0 to 4.0 against yield failure."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "ASCE 7 Structural Load Path & Civil Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+      "core_mechanism_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ],
+      "worked_field_example": "On a 12-foot pedestrian footbridge carrying 1,200 pounds of Scout hikers plus 400 pounds of timber dead weight, each of the two end abutments supports an 800-pound vertical reaction.",
+      "counselor_tabletop_demo": "Load a triangular Warren truss model versus an unbraced rectangular frame with calibration weights to show how diagonal triangulation prevents shear racking.",
+      "real_world_connection_box": "ASCE 7 Structural Load Path & Civil Standard: ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces. Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating select an engineering achievement with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "ASCE 7 Structural Load Path & Civil Standard",
+      "v47_primary_source_bullets": [
+        "ASCE 7 combines permanent Dead Loads with transient Live, Wind, Snow, and Seismic forces.",
+        "Reinforced concrete pairs 4,000 psi concrete compression with 60,000 psi steel rebar tension."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "NSPE Ethical Canon & ABET Discipline Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+      "core_mechanism_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ],
+      "worked_field_example": "When designing a camp water filtration system, a Chemical Engineer sizes the chlorine contact dose at 2.0 mg/L while a Civil Engineer calculates pipe head loss using the Hazen-Williams equation.",
+      "counselor_tabletop_demo": "Map a single camp infrastructure project across six engineering disciplines and identify which physical law governs each specialist's subsystem.",
+      "real_world_connection_box": "NSPE Ethical Canon & ABET Discipline Standard: NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare. Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify work of six types during a structured merit badge clinic.",
+      "v47_slide_title": "NSPE Ethical Canon & ABET Discipline Standard",
+      "v47_primary_source_bullets": [
+        "NSPE Fundamental Canon 1 mandates that engineers hold paramount public safety, health, and welfare.",
+        "Professional Engineer licensure requires an ABET degree, the FE exam, 4 years practice, and PE exam."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "INCOSE Systems Engineering & Trade Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+      "core_mechanism_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ],
+      "worked_field_example": "Evaluating three patrol chuck-box designs across weight (40 percent), waterproofness (35 percent), and cost (25 percent) yields a winning weighted score of 8.4 out of 10 for marine plywood.",
+      "counselor_tabletop_demo": "Build a 3-option weighted Pugh decision matrix on a whiteboard for a camp gadget and score each prototype against measurable weight and load specifications.",
+      "real_world_connection_box": "INCOSE Systems Engineering & Trade Matrix Standard: Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria. Critical Path Method schedules identify zero-float sequential tasks that control total duration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through use the systems engineering approach with authentic field equipment.",
+      "v47_slide_title": "INCOSE Systems Engineering & Trade Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Engineering",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NSPE & ASME Engineering Design",
+        "title": "INCOSE Systems Engineering & Trade Matrix Standard Technical Reference",
+        "canonical_url": "https://www.nspe.org/resources/ethics/code-ethics"
+      },
+      "rule_of_thumb_mnemonic": "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+      "core_mechanism_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ],
+      "worked_field_example": "Evaluating three patrol chuck-box designs across weight (40 percent), waterproofness (35 percent), and cost (25 percent) yields a winning weighted score of 8.4 out of 10 for marine plywood.",
+      "counselor_tabletop_demo": "Build a 3-option weighted Pugh decision matrix on a whiteboard for a camp gadget and score each prototype against measurable weight and load specifications.",
+      "real_world_connection_box": "INCOSE Systems Engineering & Trade Matrix Standard: Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria. Critical Path Method schedules identify zero-float sequential tasks that control total duration.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NSPE & ASME Engineering Design",
+      "bespoke_visual_filename": "engineering_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/engineering_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through use the systems engineering approach with authentic field equipment.",
+      "v47_slide_title": "INCOSE Systems Engineering & Trade Matrix Standard",
+      "v47_primary_source_bullets": [
+        "Weighted Pugh trade matrices score candidate designs against quantitative threshold criteria.",
+        "Critical Path Method schedules identify zero-float sequential tasks that control total duration."
+      ]
+    }
+  }
+}

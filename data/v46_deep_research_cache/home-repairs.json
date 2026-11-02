@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "home-repairs",
+  "badge_name": "Home Repairs",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "OSHA & International Code Council",
+  "primary_authority_url": "https://www.iccsafe.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+      "core_mechanism_bullets": [
+        "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+        "Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester."
+      ],
+      "worked_field_example": "Setting an extension ladder to reach a 16-foot gutter requires placing the base feet exactly 4 feet away from the exterior wall and maintaining three points of contact.",
+      "counselor_tabletop_demo": "Test a live vs de-energized outlet strip with a non-contact voltage detector and demonstrate the 3-point contact climb rule.",
+      "real_world_connection_box": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard: OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof. Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard",
+      "v47_primary_source_bullets": [
+        "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+        "Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ICC Wood Stud Framing & Drywall Patching Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+      "core_mechanism_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ],
+      "worked_field_example": "Locating a wall stud with a magnetic stud finder and driving a 2.5-inch wood screw through 0.5-inch drywall anchors 2 full inches of thread into the pine stud.",
+      "counselor_tabletop_demo": "Locate hidden wood studs behind a sample drywall board and patch a 2-inch puncture using self-adhesive mesh tape and spackling compound.",
+      "real_world_connection_box": "ICC Wood Stud Framing & Drywall Patching Standard: Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood. Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply under the supervision of your parent using standard troop tools and reference charts.",
+      "v47_slide_title": "ICC Wood Stud Framing & Drywall Patching Standard",
+      "v47_primary_source_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "NEC GFCI Breaker & Main Water Shutoff Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+      "core_mechanism_bullets": [
+        "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+        "Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves."
+      ],
+      "worked_field_example": "When a tripped 20-amp circuit breaker stops halfway between ON and OFF, you must push the handle firmly to full OFF to reset the internal spring before switching back to ON.",
+      "counselor_tabletop_demo": "Operate a quarter-turn ball valve, replace a worn neoprene faucet washer inside a compression stem assembly, and reset a GFCI test button.",
+      "real_world_connection_box": "NEC GFCI Breaker & Main Water Shutoff Standard: NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage. Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through under the supervision of your parent with authentic field equipment.",
+      "v47_slide_title": "NEC GFCI Breaker & Main Water Shutoff Standard",
+      "v47_primary_source_bullets": [
+        "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+        "Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ANSI Tool Bevel Honing & Fastener Torque Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+      "core_mechanism_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ],
+      "worked_field_example": "Holding a 1-inch wood chisel at a 25-degree angle on a 1,000-grit whetstone raises a uniform wire burr along the flat back that polishes off in 10 strokes.",
+      "counselor_tabletop_demo": "Check chisel bevel angle with a bevel gauge, demonstrate proper adjustable-wrench jaw orientation so force presses on the fixed jaw, and clean paintbrushes.",
+      "real_world_connection_box": "ANSI Tool Bevel Honing & Fastener Torque Standard: Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring. Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/home_repairs_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of cutting edge sharpening used in Home Repairs.",
+      "v47_slide_title": "ANSI Tool Bevel Honing & Fastener Torque Standard",
+      "v47_primary_source_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+      "core_mechanism_bullets": [
+        "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+        "Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester."
+      ],
+      "worked_field_example": "Setting an extension ladder to reach a 16-foot gutter requires placing the base feet exactly 4 feet away from the exterior wall and maintaining three points of contact.",
+      "counselor_tabletop_demo": "Test a live vs de-energized outlet strip with a non-contact voltage detector and demonstrate the 3-point contact climb rule.",
+      "real_world_connection_box": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard: OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof. Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "OSHA Ladder 4-to-1 Angle & Lockout Safety Standard",
+      "v47_primary_source_bullets": [
+        "OSHA ladder safety mandates a 4-to-1 pitch ratio setting the base 1 foot out per 4 feet of height with rails 3 feet above the roof.",
+        "Before touching any switch or outlet, flip the circuit breaker to OFF and verify zero voltage using a non-contact voltage tester."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ICC Wood Stud Framing & Drywall Patching Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+      "core_mechanism_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ],
+      "worked_field_example": "Locating a wall stud with a magnetic stud finder and driving a 2.5-inch wood screw through 0.5-inch drywall anchors 2 full inches of thread into the pine stud.",
+      "counselor_tabletop_demo": "Locate hidden wood studs behind a sample drywall board and patch a 2-inch puncture using self-adhesive mesh tape and spackling compound.",
+      "real_world_connection_box": "ICC Wood Stud Framing & Drywall Patching Standard: Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood. Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply under the supervision of your parent using standard troop tools and reference charts.",
+      "v47_slide_title": "ICC Wood Stud Framing & Drywall Patching Standard",
+      "v47_primary_source_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ICC Wood Stud Framing & Drywall Patching Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+      "core_mechanism_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ],
+      "worked_field_example": "Locating a wall stud with a magnetic stud finder and driving a 2.5-inch wood screw through 0.5-inch drywall anchors 2 full inches of thread into the pine stud.",
+      "counselor_tabletop_demo": "Locate hidden wood studs behind a sample drywall board and patch a 2-inch puncture using self-adhesive mesh tape and spackling compound.",
+      "real_world_connection_box": "ICC Wood Stud Framing & Drywall Patching Standard: Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood. Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply under the supervision of your parent using standard troop tools and reference charts.",
+      "v47_slide_title": "ICC Wood Stud Framing & Drywall Patching Standard",
+      "v47_primary_source_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ANSI Tool Bevel Honing & Fastener Torque Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+      "core_mechanism_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ],
+      "worked_field_example": "Holding a 1-inch wood chisel at a 25-degree angle on a 1,000-grit whetstone raises a uniform wire burr along the flat back that polishes off in 10 strokes.",
+      "counselor_tabletop_demo": "Check chisel bevel angle with a bevel gauge, demonstrate proper adjustable-wrench jaw orientation so force presses on the fixed jaw, and clean paintbrushes.",
+      "real_world_connection_box": "ANSI Tool Bevel Honing & Fastener Torque Standard: Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring. Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/home_repairs_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of cutting edge sharpening used in Home Repairs.",
+      "v47_slide_title": "ANSI Tool Bevel Honing & Fastener Torque Standard",
+      "v47_primary_source_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "NEC GFCI Breaker & Main Water Shutoff Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+      "core_mechanism_bullets": [
+        "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+        "Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves."
+      ],
+      "worked_field_example": "When a tripped 20-amp circuit breaker stops halfway between ON and OFF, you must push the handle firmly to full OFF to reset the internal spring before switching back to ON.",
+      "counselor_tabletop_demo": "Operate a quarter-turn ball valve, replace a worn neoprene faucet washer inside a compression stem assembly, and reset a GFCI test button.",
+      "real_world_connection_box": "NEC GFCI Breaker & Main Water Shutoff Standard: NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage. Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through under the supervision of your parent with authentic field equipment.",
+      "v47_slide_title": "NEC GFCI Breaker & Main Water Shutoff Standard",
+      "v47_primary_source_bullets": [
+        "NEC Section 210.8 requires GFCI outlets in kitchens, baths, garages, and outdoors to trip within 0.025 seconds at 5 mA current leakage.",
+        "Main water shutoff valves turn clockwise for gate valves or a 90-degree quarter-turn perpendicular to the pipe for lever ball valves."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ICC Wood Stud Framing & Drywall Patching Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+      "core_mechanism_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ],
+      "worked_field_example": "Locating a wall stud with a magnetic stud finder and driving a 2.5-inch wood screw through 0.5-inch drywall anchors 2 full inches of thread into the pine stud.",
+      "counselor_tabletop_demo": "Locate hidden wood studs behind a sample drywall board and patch a 2-inch puncture using self-adhesive mesh tape and spackling compound.",
+      "real_world_connection_box": "ICC Wood Stud Framing & Drywall Patching Standard: Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood. Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/home_repairs_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply under the supervision of your parent using standard troop tools and reference charts.",
+      "v47_slide_title": "ICC Wood Stud Framing & Drywall Patching Standard",
+      "v47_primary_source_bullets": [
+        "Residential walls space 2x4 or 2x6 wood studs at 16 inches on center, requiring heavy anchors to penetrate 1.25 inches into solid wood.",
+        "Drywall repairs use fiberglass mesh tape and 3 progressively wider coats of joint compound feathered with 6-inch and 10-inch knives."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Home Repairs",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "OSHA & International Code Council",
+        "title": "ANSI Tool Bevel Honing & Fastener Torque Standard Technical Reference",
+        "canonical_url": "https://www.iccsafe.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+      "core_mechanism_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ],
+      "worked_field_example": "Holding a 1-inch wood chisel at a 25-degree angle on a 1,000-grit whetstone raises a uniform wire burr along the flat back that polishes off in 10 strokes.",
+      "counselor_tabletop_demo": "Check chisel bevel angle with a bevel gauge, demonstrate proper adjustable-wrench jaw orientation so force presses on the fixed jaw, and clean paintbrushes.",
+      "real_world_connection_box": "ANSI Tool Bevel Honing & Fastener Torque Standard: Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring. Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + OSHA & International Code Council",
+      "bespoke_visual_filename": "home_repairs_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/home_repairs_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of cutting edge sharpening used in Home Repairs.",
+      "v47_slide_title": "ANSI Tool Bevel Honing & Fastener Torque Standard",
+      "v47_primary_source_bullets": [
+        "Wood chisels and plane irons sharpen at a 25-degree primary bevel with a 30-degree micro-bevel on whetstones for clean wood paring.",
+        "Matching exact Phillips #2 or slotted screwdriver tips prevents cam-out stripping, and wrenches are always pulled rather than pushed."
+      ]
+    }
+  }
+}

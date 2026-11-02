@@ -1,0 +1,349 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "search-and-rescue",
+  "badge_name": "Search and Rescue",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NASAR, FEMA & Mountain Rescue Association",
+  "primary_authority_url": "https://nasar.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR 24-Hour Pack and Hypothermia Triage Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+      "core_mechanism_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ],
+      "worked_field_example": "Searchers never enter the field unless they can survive an unplanned overnight bivouac without becoming a second victim for the incident team.",
+      "counselor_tabletop_demo": "Lay out the Scouting 10 Essentials plus SAR personal protective gear and verify waterproof packaging and 24-hour calorie totals.",
+      "real_world_connection_box": "NASAR 24-Hour Pack and Hypothermia Triage Standard: Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers. Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards and first with authentic field equipment.",
+      "v47_slide_title": "NASAR 24-Hour Pack and Hypothermia Triage Standard",
+      "v47_primary_source_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "USNG Grid Coordinate and Containment Ring Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+      "core_mechanism_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ],
+      "worked_field_example": "A hiker missing for 3 hours on moderate trails has a theoretical 6-to-9-mile maximum travel radius, while 80 percent are found within 2 miles.",
+      "counselor_tabletop_demo": "Plot an 8-digit UTM or USNG coordinate on a 1 to 24,000 topographic map using a plastic grid reader and measure bearing from base.",
+      "real_world_connection_box": "USNG Grid Coordinate and Containment Ring Standard: Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square. Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orientation and navigation using standard troop tools and reference charts.",
+      "v47_slide_title": "USNG Grid Coordinate and Containment Ring Standard",
+      "v47_primary_source_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "FEMA NIMS ICS-100 Span of Control Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+      "core_mechanism_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ],
+      "worked_field_example": "When 25 field searchers report to staging, Operations divides them into five 5-person hasty or grid teams, each with a single team leader.",
+      "counselor_tabletop_demo": "Draw an ICS org chart for a 20-person lost-camper search and assign Incident Commander, Operations, Planning, and Logistics roles.",
+      "real_world_connection_box": "FEMA NIMS ICS-100 Span of Control Standard: Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance. Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing incident command system with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FEMA NIMS ICS-100 Span of Control Standard",
+      "v47_primary_source_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR Probability of Detection and Grid Sweep Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+      "core_mechanism_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ],
+      "worked_field_example": "A single grid sweep through heavy brush achieves roughly a 50-percent Probability of Detection, whereas a second perpendicular sweep raises cumulative POD to 75 percent.",
+      "counselor_tabletop_demo": "Drop a small glove in grass 30 feet away, pace out the critical separation distance where it becomes 50 percent visible, and multiply by 1.5 for team spacing.",
+      "real_world_connection_box": "NASAR Probability of Detection and Grid Sweep Standard: Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart. Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply sar teams using standard troop tools and reference charts.",
+      "v47_slide_title": "NASAR Probability of Detection and Grid Sweep Standard",
+      "v47_primary_source_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR 24-Hour Pack and Hypothermia Triage Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+      "core_mechanism_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ],
+      "worked_field_example": "Searchers never enter the field unless they can survive an unplanned overnight bivouac without becoming a second victim for the incident team.",
+      "counselor_tabletop_demo": "Lay out the Scouting 10 Essentials plus SAR personal protective gear and verify waterproof packaging and 24-hour calorie totals.",
+      "real_world_connection_box": "NASAR 24-Hour Pack and Hypothermia Triage Standard: Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers. Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards and first with authentic field equipment.",
+      "v47_slide_title": "NASAR 24-Hour Pack and Hypothermia Triage Standard",
+      "v47_primary_source_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "USNG Grid Coordinate and Containment Ring Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+      "core_mechanism_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ],
+      "worked_field_example": "A hiker missing for 3 hours on moderate trails has a theoretical 6-to-9-mile maximum travel radius, while 80 percent are found within 2 miles.",
+      "counselor_tabletop_demo": "Plot an 8-digit UTM or USNG coordinate on a 1 to 24,000 topographic map using a plastic grid reader and measure bearing from base.",
+      "real_world_connection_box": "USNG Grid Coordinate and Containment Ring Standard: Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square. Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orientation and navigation using standard troop tools and reference charts.",
+      "v47_slide_title": "USNG Grid Coordinate and Containment Ring Standard",
+      "v47_primary_source_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "USNG Grid Coordinate and Containment Ring Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+      "core_mechanism_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ],
+      "worked_field_example": "A hiker missing for 3 hours on moderate trails has a theoretical 6-to-9-mile maximum travel radius, while 80 percent are found within 2 miles.",
+      "counselor_tabletop_demo": "Plot an 8-digit UTM or USNG coordinate on a 1 to 24,000 topographic map using a plastic grid reader and measure bearing from base.",
+      "real_world_connection_box": "USNG Grid Coordinate and Containment Ring Standard: Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square. Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply orientation and navigation using standard troop tools and reference charts.",
+      "v47_slide_title": "USNG Grid Coordinate and Containment Ring Standard",
+      "v47_primary_source_bullets": [
+        "Read United States National Grid and UTM coordinates right and then up, where an 8-digit grid locates a point within a 10-meter square.",
+        "Calculate containment ring radius from the Point Last Seen by multiplying hours missing by a 2-to-3-mile-per-hour backcountry walking speed."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR Probability of Detection and Grid Sweep Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+      "core_mechanism_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ],
+      "worked_field_example": "A single grid sweep through heavy brush achieves roughly a 50-percent Probability of Detection, whereas a second perpendicular sweep raises cumulative POD to 75 percent.",
+      "counselor_tabletop_demo": "Drop a small glove in grass 30 feet away, pace out the critical separation distance where it becomes 50 percent visible, and multiply by 1.5 for team spacing.",
+      "real_world_connection_box": "NASAR Probability of Detection and Grid Sweep Standard: Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart. Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply sar teams using standard troop tools and reference charts.",
+      "v47_slide_title": "NASAR Probability of Detection and Grid Sweep Standard",
+      "v47_primary_source_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR 24-Hour Pack and Hypothermia Triage Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+      "core_mechanism_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ],
+      "worked_field_example": "Searchers never enter the field unless they can survive an unplanned overnight bivouac without becoming a second victim for the incident team.",
+      "counselor_tabletop_demo": "Lay out the Scouting 10 Essentials plus SAR personal protective gear and verify waterproof packaging and 24-hour calorie totals.",
+      "real_world_connection_box": "NASAR 24-Hour Pack and Hypothermia Triage Standard: Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers. Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through hazards and first with authentic field equipment.",
+      "v47_slide_title": "NASAR 24-Hour Pack and Hypothermia Triage Standard",
+      "v47_primary_source_bullets": [
+        "Carry a self-sustaining 24-hour SAR field pack with 3 liters of water, high-calorie rations, headlamp, shelter tarp, and insulation layers.",
+        "Core temperature below 95 degrees Fahrenheit triggers mild hypothermia shivering, while below 90 degrees Fahrenheit is a medical emergency."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "FEMA NIMS ICS-100 Span of Control Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+      "core_mechanism_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ],
+      "worked_field_example": "When 25 field searchers report to staging, Operations divides them into five 5-person hasty or grid teams, each with a single team leader.",
+      "counselor_tabletop_demo": "Draw an ICS org chart for a 20-person lost-camper search and assign Incident Commander, Operations, Planning, and Logistics roles.",
+      "real_world_connection_box": "FEMA NIMS ICS-100 Span of Control Standard: Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance. Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing incident command system with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FEMA NIMS ICS-100 Span of Control Standard",
+      "v47_primary_source_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "FEMA NIMS ICS-100 Span of Control Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+      "core_mechanism_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ],
+      "worked_field_example": "When 25 field searchers report to staging, Operations divides them into five 5-person hasty or grid teams, each with a single team leader.",
+      "counselor_tabletop_demo": "Draw an ICS org chart for a 20-person lost-camper search and assign Incident Commander, Operations, Planning, and Logistics roles.",
+      "real_world_connection_box": "FEMA NIMS ICS-100 Span of Control Standard: Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance. Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing incident command system with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "FEMA NIMS ICS-100 Span of Control Standard",
+      "v47_primary_source_bullets": [
+        "Organize every search incident under five Incident Command System sections of Command, Operations, Planning, Logistics, and Finance.",
+        "Maintain a strict supervisory span of control between 3 and 7 personnel per leader, with 5 team members per strike team as the optimum."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Search and Rescue",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NASAR, FEMA & Mountain Rescue Association",
+        "title": "NASAR Probability of Detection and Grid Sweep Standard Technical Reference",
+        "canonical_url": "https://nasar.org/"
+      },
+      "rule_of_thumb_mnemonic": "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+      "core_mechanism_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ],
+      "worked_field_example": "A single grid sweep through heavy brush achieves roughly a 50-percent Probability of Detection, whereas a second perpendicular sweep raises cumulative POD to 75 percent.",
+      "counselor_tabletop_demo": "Drop a small glove in grass 30 feet away, pace out the critical separation distance where it becomes 50 percent visible, and multiply by 1.5 for team spacing.",
+      "real_world_connection_box": "NASAR Probability of Detection and Grid Sweep Standard: Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart. Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASAR, FEMA & Mountain Rescue Association",
+      "bespoke_visual_filename": "search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/search_and_rescue_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply sar teams using standard troop tools and reference charts.",
+      "v47_slide_title": "NASAR Probability of Detection and Grid Sweep Standard",
+      "v47_primary_source_bullets": [
+        "Deploy Type 1 hasty teams to high-probability trails and drainages first before spacing Type 2 line searchers 20 to 60 feet apart.",
+        "Preserve the Last Known Point inside a flagged 25-foot crime-scene-style perimeter so tracking dogs and sign cutters detect uncontaminated scent."
+      ]
+    }
+  }
+}

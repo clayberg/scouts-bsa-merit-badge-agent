@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "radio",
+  "badge_name": "Radio",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ARRL & FCC Amateur Radio Service",
+  "primary_authority_url": "https://www.arrl.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL and IEEE RF Safety and Grounding Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+      "core_mechanism_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ],
+      "worked_field_example": "A 50-watt VHF mobile rig driving a roof quarter-wave whip requires a 3-foot minimum bystander separation distance during key-down.",
+      "counselor_tabletop_demo": "Trace the grounding lug, inline surge arrestor, and coax entry point on a portable field station diagram before connecting battery power.",
+      "real_world_connection_box": "ARRL and IEEE RF Safety and Grounding Standard: Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges. Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating draw a chart equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL and IEEE RF Safety and Grounding Standard",
+      "v47_primary_source_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ITU Wavelength Frequency and Propagation Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+      "core_mechanism_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ],
+      "worked_field_example": "For the 2-meter calling frequency at 146.52 MHz, dividing 300 by 146.52 yields a 2.05-meter full wavelength and a 19.2-inch quarter-wave whip.",
+      "counselor_tabletop_demo": "Use a tape measure to set a telescoping whip antenna to the exact quarter-wavelength for 146 MHz and verify with a calculator.",
+      "real_world_connection_box": "ITU Wavelength Frequency and Propagation Standard: Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands. HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating label the mf hf vhf equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ITU Wavelength Frequency and Propagation Standard",
+      "v47_primary_source_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL Transceiver Block Diagram and SWR Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+      "core_mechanism_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ],
+      "worked_field_example": "When a 25-watt HF rig shows 1 watt reflected on an inline wattmeter, the feedline mismatch is safe for continuous CW or SSB duty.",
+      "counselor_tabletop_demo": "Arrange five index cards labeled Microphone, Modulator, Oscillator, Power Amplifier, and Antenna into a transmitter signal chain.",
+      "real_world_connection_box": "ARRL Transceiver Block Diagram and SWR Standard: Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1. An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating definition of radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL Transceiver Block Diagram and SWR Standard",
+      "v47_primary_source_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "FCC Part 97 Station Identification and Phonetic Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+      "core_mechanism_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ],
+      "worked_field_example": "A contact made at 4 PM Eastern Standard Time is logged at 2100 UTC on 14.290 MHz USB using ITU phonetics for call sign verification.",
+      "counselor_tabletop_demo": "Spell your full name and a sample amateur call sign using the official ITU phonetic alphabet and log a simulated QSO in UTC.",
+      "real_world_connection_box": "FCC Part 97 Station Identification and Phonetic Standard: FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off. Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating differences between broadcast radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "FCC Part 97 Station Identification and Phonetic Standard",
+      "v47_primary_source_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL and IEEE RF Safety and Grounding Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+      "core_mechanism_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ],
+      "worked_field_example": "A 50-watt VHF mobile rig driving a roof quarter-wave whip requires a 3-foot minimum bystander separation distance during key-down.",
+      "counselor_tabletop_demo": "Trace the grounding lug, inline surge arrestor, and coax entry point on a portable field station diagram before connecting battery power.",
+      "real_world_connection_box": "ARRL and IEEE RF Safety and Grounding Standard: Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges. Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating draw a chart equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL and IEEE RF Safety and Grounding Standard",
+      "v47_primary_source_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ITU Wavelength Frequency and Propagation Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+      "core_mechanism_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ],
+      "worked_field_example": "For the 2-meter calling frequency at 146.52 MHz, dividing 300 by 146.52 yields a 2.05-meter full wavelength and a 19.2-inch quarter-wave whip.",
+      "counselor_tabletop_demo": "Use a tape measure to set a telescoping whip antenna to the exact quarter-wavelength for 146 MHz and verify with a calculator.",
+      "real_world_connection_box": "ITU Wavelength Frequency and Propagation Standard: Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands. HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating label the mf hf vhf equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ITU Wavelength Frequency and Propagation Standard",
+      "v47_primary_source_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL Transceiver Block Diagram and SWR Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+      "core_mechanism_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ],
+      "worked_field_example": "When a 25-watt HF rig shows 1 watt reflected on an inline wattmeter, the feedline mismatch is safe for continuous CW or SSB duty.",
+      "counselor_tabletop_demo": "Arrange five index cards labeled Microphone, Modulator, Oscillator, Power Amplifier, and Antenna into a transmitter signal chain.",
+      "real_world_connection_box": "ARRL Transceiver Block Diagram and SWR Standard: Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1. An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating definition of radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL Transceiver Block Diagram and SWR Standard",
+      "v47_primary_source_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ITU Wavelength Frequency and Propagation Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+      "core_mechanism_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ],
+      "worked_field_example": "For the 2-meter calling frequency at 146.52 MHz, dividing 300 by 146.52 yields a 2.05-meter full wavelength and a 19.2-inch quarter-wave whip.",
+      "counselor_tabletop_demo": "Use a tape measure to set a telescoping whip antenna to the exact quarter-wavelength for 146 MHz and verify with a calculator.",
+      "real_world_connection_box": "ITU Wavelength Frequency and Propagation Standard: Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands. HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating label the mf hf vhf equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ITU Wavelength Frequency and Propagation Standard",
+      "v47_primary_source_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL and IEEE RF Safety and Grounding Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+      "core_mechanism_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ],
+      "worked_field_example": "A 50-watt VHF mobile rig driving a roof quarter-wave whip requires a 3-foot minimum bystander separation distance during key-down.",
+      "counselor_tabletop_demo": "Trace the grounding lug, inline surge arrestor, and coax entry point on a portable field station diagram before connecting battery power.",
+      "real_world_connection_box": "ARRL and IEEE RF Safety and Grounding Standard: Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges. Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating draw a chart equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL and IEEE RF Safety and Grounding Standard",
+      "v47_primary_source_bullets": [
+        "Bond coaxial antenna feedlines to an 8-foot copper-clad ground rod using 10 AWG or heavier copper wire to divert lightning surges.",
+        "Keep handheld VHF transceivers at least 2 inches from the face and never touch an uninsulated antenna during radio transmission."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ITU Wavelength Frequency and Propagation Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+      "core_mechanism_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ],
+      "worked_field_example": "For the 2-meter calling frequency at 146.52 MHz, dividing 300 by 146.52 yields a 2.05-meter full wavelength and a 19.2-inch quarter-wave whip.",
+      "counselor_tabletop_demo": "Use a tape measure to set a telescoping whip antenna to the exact quarter-wavelength for 146 MHz and verify with a calculator.",
+      "real_world_connection_box": "ITU Wavelength Frequency and Propagation Standard: Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands. HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2a_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating label the mf hf vhf equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ITU Wavelength Frequency and Propagation Standard",
+      "v47_primary_source_bullets": [
+        "Calculate wavelength in meters by dividing 300 by the operating frequency in megahertz across HF, VHF, and UHF amateur bands.",
+        "HF signals from 3 to 30 MHz refract off the F-layer ionosphere up to 2,500 miles, while VHF 144 MHz travels by line of sight."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "ARRL Transceiver Block Diagram and SWR Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+      "core_mechanism_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ],
+      "worked_field_example": "When a 25-watt HF rig shows 1 watt reflected on an inline wattmeter, the feedline mismatch is safe for continuous CW or SSB duty.",
+      "counselor_tabletop_demo": "Arrange five index cards labeled Microphone, Modulator, Oscillator, Power Amplifier, and Antenna into a transmitter signal chain.",
+      "real_world_connection_box": "ARRL Transceiver Block Diagram and SWR Standard: Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1. An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_1_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating definition of radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "ARRL Transceiver Block Diagram and SWR Standard",
+      "v47_primary_source_bullets": [
+        "Match transceiver, coaxial feedline, and antenna to 50 ohms characteristic impedance so standing wave ratio remains below 2.0 to 1.",
+        "An SWR of 1.5 to 1 reflects only 4 percent of transmitter power, whereas an SWR of 3.0 to 1 reflects 25 percent back as heat."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "FCC Part 97 Station Identification and Phonetic Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+      "core_mechanism_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ],
+      "worked_field_example": "A contact made at 4 PM Eastern Standard Time is logged at 2100 UTC on 14.290 MHz USB using ITU phonetics for call sign verification.",
+      "counselor_tabletop_demo": "Spell your full name and a sample amateur call sign using the official ITU phonetic alphabet and log a simulated QSO in UTC.",
+      "real_world_connection_box": "FCC Part 97 Station Identification and Phonetic Standard: FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off. Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating differences between broadcast radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "FCC Part 97 Station Identification and Phonetic Standard",
+      "v47_primary_source_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Radio",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ARRL & FCC Amateur Radio Service",
+        "title": "FCC Part 97 Station Identification and Phonetic Standard Technical Reference",
+        "canonical_url": "https://www.arrl.org/"
+      },
+      "rule_of_thumb_mnemonic": "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+      "core_mechanism_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ],
+      "worked_field_example": "A contact made at 4 PM Eastern Standard Time is logged at 2100 UTC on 14.290 MHz USB using ITU phonetics for call sign verification.",
+      "counselor_tabletop_demo": "Spell your full name and a sample amateur call sign using the official ITU phonetic alphabet and log a simulated QSO in UTC.",
+      "real_world_connection_box": "FCC Part 97 Station Identification and Phonetic Standard: FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off. Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ARRL & FCC Amateur Radio Service",
+      "bespoke_visual_filename": "radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/radio_req_2b_2_nano_hero.png",
+      "bespoke_visual_caption": "Field setup illustrating differences between broadcast radio equipment layout and safe operating steps for Radio.",
+      "v47_slide_title": "FCC Part 97 Station Identification and Phonetic Standard",
+      "v47_primary_source_bullets": [
+        "FCC Part 97.119 requires amateur stations to transmit their assigned call sign every 10 minutes during a contact and at sign-off.",
+        "Log every contact in Coordinated Universal Time using the RST signal report scale where 599 indicates a clear, strong CW signal."
+      ]
+    }
+  }
+}

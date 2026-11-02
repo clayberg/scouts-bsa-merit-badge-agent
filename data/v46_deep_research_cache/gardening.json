@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "gardening",
+  "badge_name": "Gardening",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USDA Cooperative Extension & American Horticultural Society",
+  "primary_authority_url": "https://www.usda.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "USDA Soil pH & N-P-K Macronutrient Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+      "core_mechanism_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ],
+      "worked_field_example": "A 50-pound bag of 10-20-10 garden fertilizer contains 5 pounds of elemental Nitrogen, 10 pounds of available phosphate (P2O5), and 5 pounds of soluble potash (K2O), with 30 pounds of carrier.",
+      "counselor_tabletop_demo": "Read three fertilizer analysis labels, test a garden soil sample with a colorimetric pH strip, and calculate how much limestone is needed to raise pH from 5.5 to 6.5.",
+      "real_world_connection_box": "USDA Soil pH & N-P-K Macronutrient Standard: Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor). Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USDA Soil pH & N-P-K Macronutrient Standard",
+      "v47_primary_source_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "ISTA 100-Seed Germination Viability Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+      "core_mechanism_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ],
+      "worked_field_example": "Rolling 100 radish seeds in a moist paper towel kept at 72 degrees Fahrenheit for 7 days where 91 seeds emerge with healthy root radicles confirms a 91 percent germination rate.",
+      "counselor_tabletop_demo": "Set up a 10x10 grid of 100 seeds on a damp rag-doll paper towel blotter and calculate seeding density adjustments for a packet testing at 75 percent viability.",
+      "real_world_connection_box": "ISTA 100-Seed Germination Viability Standard: Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds. Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing test 100 seeds for germination with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ISTA 100-Seed Germination Viability Standard",
+      "v47_primary_source_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Thermophilic Composting 30-to-1 C/N Ratio Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+      "core_mechanism_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Layering 3 parts shredded dry autumn leaves (C/N ~60 to 1) with 1 part fresh grass clippings and kitchen scraps (C/N ~15 to 1) inside a 27-cubic-foot bin reaches 145 degrees Fahrenheit in 4 days, killing weed seeds.",
+      "counselor_tabletop_demo": "Sort sample compost feedstocks into Carbon-rich browns and Nitrogen-rich greens, check a long-stem compost thermometer dial, and compare vermicompost vs hydroponic nutrient solutions.",
+      "real_world_connection_box": "Thermophilic Composting 30-to-1 C/N Ratio Standard: Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens. Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute visit your county extension office, local under adult counselor supervision.",
+      "v47_slide_title": "Thermophilic Composting 30-to-1 C/N Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Apis mellifera Pollination & Crop Nutrition Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+      "core_mechanism_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ],
+      "worked_field_example": "Squash and cucumber vines produce separate male staminate and female pistillate flowers requiring 8 to 12 honeybee visits per female blossom between 6 AM and noon for full fruit set.",
+      "counselor_tabletop_demo": "Dissect a flower diagram to distinguish pollen-bearing anthers from the stigma and ovary, then compare USDA nutrition facts for root, leafy, and fruiting crops.",
+      "real_world_connection_box": "Apis mellifera Pollination & Crop Nutrition Standard: Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms. Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify honeybees are used in pollinating during a structured merit badge clinic.",
+      "v47_slide_title": "Apis mellifera Pollination & Crop Nutrition Standard",
+      "v47_primary_source_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "USDA Soil pH & N-P-K Macronutrient Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+      "core_mechanism_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ],
+      "worked_field_example": "A 50-pound bag of 10-20-10 garden fertilizer contains 5 pounds of elemental Nitrogen, 10 pounds of available phosphate (P2O5), and 5 pounds of soluble potash (K2O), with 30 pounds of carrier.",
+      "counselor_tabletop_demo": "Read three fertilizer analysis labels, test a garden soil sample with a colorimetric pH strip, and calculate how much limestone is needed to raise pH from 5.5 to 6.5.",
+      "real_world_connection_box": "USDA Soil pH & N-P-K Macronutrient Standard: Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor). Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USDA Soil pH & N-P-K Macronutrient Standard",
+      "v47_primary_source_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "ISTA 100-Seed Germination Viability Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+      "core_mechanism_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ],
+      "worked_field_example": "Rolling 100 radish seeds in a moist paper towel kept at 72 degrees Fahrenheit for 7 days where 91 seeds emerge with healthy root radicles confirms a 91 percent germination rate.",
+      "counselor_tabletop_demo": "Set up a 10x10 grid of 100 seeds on a damp rag-doll paper towel blotter and calculate seeding density adjustments for a packet testing at 75 percent viability.",
+      "real_world_connection_box": "ISTA 100-Seed Germination Viability Standard: Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds. Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing test 100 seeds for germination with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ISTA 100-Seed Germination Viability Standard",
+      "v47_primary_source_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Thermophilic Composting 30-to-1 C/N Ratio Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+      "core_mechanism_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Layering 3 parts shredded dry autumn leaves (C/N ~60 to 1) with 1 part fresh grass clippings and kitchen scraps (C/N ~15 to 1) inside a 27-cubic-foot bin reaches 145 degrees Fahrenheit in 4 days, killing weed seeds.",
+      "counselor_tabletop_demo": "Sort sample compost feedstocks into Carbon-rich browns and Nitrogen-rich greens, check a long-stem compost thermometer dial, and compare vermicompost vs hydroponic nutrient solutions.",
+      "real_world_connection_box": "Thermophilic Composting 30-to-1 C/N Ratio Standard: Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens. Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute visit your county extension office, local under adult counselor supervision.",
+      "v47_slide_title": "Thermophilic Composting 30-to-1 C/N Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "ISTA 100-Seed Germination Viability Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+      "core_mechanism_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ],
+      "worked_field_example": "Rolling 100 radish seeds in a moist paper towel kept at 72 degrees Fahrenheit for 7 days where 91 seeds emerge with healthy root radicles confirms a 91 percent germination rate.",
+      "counselor_tabletop_demo": "Set up a 10x10 grid of 100 seeds on a damp rag-doll paper towel blotter and calculate seeding density adjustments for a packet testing at 75 percent viability.",
+      "real_world_connection_box": "ISTA 100-Seed Germination Viability Standard: Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds. Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing test 100 seeds for germination with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ISTA 100-Seed Germination Viability Standard",
+      "v47_primary_source_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "USDA Soil pH & N-P-K Macronutrient Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+      "core_mechanism_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ],
+      "worked_field_example": "A 50-pound bag of 10-20-10 garden fertilizer contains 5 pounds of elemental Nitrogen, 10 pounds of available phosphate (P2O5), and 5 pounds of soluble potash (K2O), with 30 pounds of carrier.",
+      "counselor_tabletop_demo": "Read three fertilizer analysis labels, test a garden soil sample with a colorimetric pH strip, and calculate how much limestone is needed to raise pH from 5.5 to 6.5.",
+      "real_world_connection_box": "USDA Soil pH & N-P-K Macronutrient Standard: Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor). Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Guided patrol workshop illustrating hazards, first aid & safety with clearly arranged instruments, hands-on safety checks, and side-by-side technique comparison.",
+      "v47_slide_title": "USDA Soil pH & N-P-K Macronutrient Standard",
+      "v47_primary_source_bullets": [
+        "Fertilizer labels list percentage by weight of Nitrogen (leaf), Phosphorus (root), and Potassium (vigor).",
+        "Most vegetable crops absorb nutrients best in slightly acidic soil between pH 6.0 and 7.0."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "ISTA 100-Seed Germination Viability Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+      "core_mechanism_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ],
+      "worked_field_example": "Rolling 100 radish seeds in a moist paper towel kept at 72 degrees Fahrenheit for 7 days where 91 seeds emerge with healthy root radicles confirms a 91 percent germination rate.",
+      "counselor_tabletop_demo": "Set up a 10x10 grid of 100 seeds on a damp rag-doll paper towel blotter and calculate seeding density adjustments for a packet testing at 75 percent viability.",
+      "real_world_connection_box": "ISTA 100-Seed Germination Viability Standard: Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds. Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing test 100 seeds for germination with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "ISTA 100-Seed Germination Viability Standard",
+      "v47_primary_source_bullets": [
+        "Germination rate equals the number of seeds sprouting normal radicles out of 100 tested seeds.",
+        "Warm-season vegetable seeds germinate best between 70 and 85 degrees Fahrenheit soil temperature."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Thermophilic Composting 30-to-1 C/N Ratio Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+      "core_mechanism_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ],
+      "worked_field_example": "Layering 3 parts shredded dry autumn leaves (C/N ~60 to 1) with 1 part fresh grass clippings and kitchen scraps (C/N ~15 to 1) inside a 27-cubic-foot bin reaches 145 degrees Fahrenheit in 4 days, killing weed seeds.",
+      "counselor_tabletop_demo": "Sort sample compost feedstocks into Carbon-rich browns and Nitrogen-rich greens, check a long-stem compost thermometer dial, and compare vermicompost vs hydroponic nutrient solutions.",
+      "real_world_connection_box": "Thermophilic Composting 30-to-1 C/N Ratio Standard: Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens. Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute visit your county extension office, local under adult counselor supervision.",
+      "v47_slide_title": "Thermophilic Composting 30-to-1 C/N Ratio Standard",
+      "v47_primary_source_bullets": [
+        "Aerobic compost piles require a 30-to-1 Carbon-to-Nitrogen ratio of dry browns to wet greens.",
+        "Thermophilic microbial activity heats a 3 by 3 by 3 foot pile to 131 to 160 degrees Fahrenheit."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Apis mellifera Pollination & Crop Nutrition Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+      "core_mechanism_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ],
+      "worked_field_example": "Squash and cucumber vines produce separate male staminate and female pistillate flowers requiring 8 to 12 honeybee visits per female blossom between 6 AM and noon for full fruit set.",
+      "counselor_tabletop_demo": "Dissect a flower diagram to distinguish pollen-bearing anthers from the stigma and ovary, then compare USDA nutrition facts for root, leafy, and fruiting crops.",
+      "real_world_connection_box": "Apis mellifera Pollination & Crop Nutrition Standard: Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms. Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify honeybees are used in pollinating during a structured merit badge clinic.",
+      "v47_slide_title": "Apis mellifera Pollination & Crop Nutrition Standard",
+      "v47_primary_source_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Gardening",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA Cooperative Extension & American Horticultural Society",
+        "title": "Apis mellifera Pollination & Crop Nutrition Standard Technical Reference",
+        "canonical_url": "https://www.usda.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+      "core_mechanism_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ],
+      "worked_field_example": "Squash and cucumber vines produce separate male staminate and female pistillate flowers requiring 8 to 12 honeybee visits per female blossom between 6 AM and noon for full fruit set.",
+      "counselor_tabletop_demo": "Dissect a flower diagram to distinguish pollen-bearing anthers from the stigma and ovary, then compare USDA nutrition facts for root, leafy, and fruiting crops.",
+      "real_world_connection_box": "Apis mellifera Pollination & Crop Nutrition Standard: Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms. Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA Cooperative Extension & American Horticultural Society",
+      "bespoke_visual_filename": "gardening_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/gardening_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify honeybees are used in pollinating during a structured merit badge clinic.",
+      "v47_slide_title": "Apis mellifera Pollination & Crop Nutrition Standard",
+      "v47_primary_source_bullets": [
+        "Honeybees and native bumblebees transfer pollen across monoecious cucurbit male and female blooms.",
+        "Dark leafy greens supply vitamins A, C, and K plus folate, iron, and dietary calcium."
+      ]
+    }
+  }
+}

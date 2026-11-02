@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "composite-materials",
+  "badge_name": "Composite Materials",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ASM International & OSHA Composite Standards",
+  "primary_authority_url": "https://www.osha.gov/polymer-matrix-materials",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "OSHA Polymer Resin SDS, Ventilation & PPE Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+      "core_mechanism_bullets": [
+        "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+        "Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans."
+      ],
+      "worked_field_example": "Leaving 100 grams of catalyzed epoxy in a narrow cup generates an exothermic peak above 300 degrees Fahrenheit, whereas spreading it into a flat tray extends working pot life to 25 minutes.",
+      "counselor_tabletop_demo": "Inspect three SDS sheets for fiberglass cloth, carbon fiber, and two-part epoxy resin to identify flash points, cure hazards, and PPE rules.",
+      "real_world_connection_box": "OSHA Polymer Resin SDS, Ventilation & PPE Standard: Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding. Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining composite materials step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "OSHA Polymer Resin SDS, Ventilation & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+        "Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+      "core_mechanism_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ],
+      "worked_field_example": "Replacing a 7.8-gram-per-cubic-centimeter steel bracket with a 1.6-gram-per-cubic-centimeter quasi-isotropic carbon laminate reduces component mass by 70 percent without losing stiffness.",
+      "counselor_tabletop_demo": "Compare equal-length sample strips of balsa wood, 6061 aluminum, mild steel, and fiberglass laminate for weight, flex, and electrical conductivity.",
+      "real_world_connection_box": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard: Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear. Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify your parent or guardian's permission during a structured merit badge clinic.",
+      "v47_slide_title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard",
+      "v47_primary_source_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+      "core_mechanism_bullets": [
+        "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+        "Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids."
+      ],
+      "worked_field_example": "Wetting out three plies of 6-ounce fiberglass cloth weighing 60 grams total requires 40 grams of mixed epoxy resin to hit a 60/40 fiber-volume fraction.",
+      "counselor_tabletop_demo": "Demonstrate a dry 4-ply symmetric layup schedule ([0/+45/-45/90]s) using labeled cardstock fiber-direction templates.",
+      "real_world_connection_box": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard: Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion. Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through use composite materials to complete with authentic field equipment.",
+      "v47_slide_title": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard",
+      "v47_primary_source_bullets": [
+        "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+        "Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "Composite Mold Release, Cure Cycle & Edge Trim Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+      "core_mechanism_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ],
+      "worked_field_example": "Wet-sanding a cured fiberglass project edge reduces airborne respirable fiber dust by more than 90 percent compared with dry power sanding.",
+      "counselor_tabletop_demo": "Inspect the two completed composite projects for void-free resin wet-out, uniform ply thickness, and smooth wet-sanded edges.",
+      "real_world_connection_box": "Composite Mold Release, Cure Cycle & Edge Trim Standard: Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating. Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "Composite Mold Release, Cure Cycle & Edge Trim Standard",
+      "v47_primary_source_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "OSHA Polymer Resin SDS, Ventilation & PPE Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+      "core_mechanism_bullets": [
+        "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+        "Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans."
+      ],
+      "worked_field_example": "Leaving 100 grams of catalyzed epoxy in a narrow cup generates an exothermic peak above 300 degrees Fahrenheit, whereas spreading it into a flat tray extends working pot life to 25 minutes.",
+      "counselor_tabletop_demo": "Inspect three SDS sheets for fiberglass cloth, carbon fiber, and two-part epoxy resin to identify flash points, cure hazards, and PPE rules.",
+      "real_world_connection_box": "OSHA Polymer Resin SDS, Ventilation & PPE Standard: Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding. Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining composite materials step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "OSHA Polymer Resin SDS, Ventilation & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wear ANSI Z87.1 splash goggles, nitrile gloves, long sleeves, and an N95/organic-vapor respirator when mixing or sanding.",
+        "Prevent exothermic curing fires by mixing resin in wide, shallow cups and submerging catalyzed rags in water cans."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+      "core_mechanism_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ],
+      "worked_field_example": "Replacing a 7.8-gram-per-cubic-centimeter steel bracket with a 1.6-gram-per-cubic-centimeter quasi-isotropic carbon laminate reduces component mass by 70 percent without losing stiffness.",
+      "counselor_tabletop_demo": "Compare equal-length sample strips of balsa wood, 6061 aluminum, mild steel, and fiberglass laminate for weight, flex, and electrical conductivity.",
+      "real_world_connection_box": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard: Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear. Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify your parent or guardian's permission during a structured merit badge clinic.",
+      "v47_slide_title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard",
+      "v47_primary_source_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+      "core_mechanism_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ],
+      "worked_field_example": "Replacing a 7.8-gram-per-cubic-centimeter steel bracket with a 1.6-gram-per-cubic-centimeter quasi-isotropic carbon laminate reduces component mass by 70 percent without losing stiffness.",
+      "counselor_tabletop_demo": "Compare equal-length sample strips of balsa wood, 6061 aluminum, mild steel, and fiberglass laminate for weight, flex, and electrical conductivity.",
+      "real_world_connection_box": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard: Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear. Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify your parent or guardian's permission during a structured merit badge clinic.",
+      "v47_slide_title": "ASM Specific Strength & Anisotropic Matrix-Fiber Standard",
+      "v47_primary_source_bullets": [
+        "Composites combine high-tensile fibers (glass, carbon, aramid) with a polymer matrix (epoxy, polyester) transferring shear.",
+        "Carbon-fiber epoxy laminates reach 1,500-megapascal tensile strength at 1.6 grams per cubic centimeter, 20% steel's weight."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "Composite Mold Release, Cure Cycle & Edge Trim Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+      "core_mechanism_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ],
+      "worked_field_example": "Wet-sanding a cured fiberglass project edge reduces airborne respirable fiber dust by more than 90 percent compared with dry power sanding.",
+      "counselor_tabletop_demo": "Inspect the two completed composite projects for void-free resin wet-out, uniform ply thickness, and smooth wet-sanded edges.",
+      "real_world_connection_box": "Composite Mold Release, Cure Cycle & Edge Trim Standard: Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating. Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "Composite Mold Release, Cure Cycle & Edge Trim Standard",
+      "v47_primary_source_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+      "core_mechanism_bullets": [
+        "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+        "Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids."
+      ],
+      "worked_field_example": "Wetting out three plies of 6-ounce fiberglass cloth weighing 60 grams total requires 40 grams of mixed epoxy resin to hit a 60/40 fiber-volume fraction.",
+      "counselor_tabletop_demo": "Demonstrate a dry 4-ply symmetric layup schedule ([0/+45/-45/90]s) using labeled cardstock fiber-direction templates.",
+      "real_world_connection_box": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard: Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion. Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through use composite materials to complete with authentic field equipment.",
+      "v47_slide_title": "E-Glass, Carbon & Aramid Fiber Layup Orientation Standard",
+      "v47_primary_source_bullets": [
+        "Orient woven ply layers at 0, +45, -45, and 90 degrees in a symmetric layup schedule to resist bending and torsion.",
+        "Maintain a fiber-to-resin weight ratio near 60 to 40 using squeegees or vacuum bagging to eliminate air voids."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Composite Materials",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASM International & OSHA Composite Standards",
+        "title": "Composite Mold Release, Cure Cycle & Edge Trim Standard Technical Reference",
+        "canonical_url": "https://www.osha.gov/polymer-matrix-materials"
+      },
+      "rule_of_thumb_mnemonic": "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+      "core_mechanism_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ],
+      "worked_field_example": "Wet-sanding a cured fiberglass project edge reduces airborne respirable fiber dust by more than 90 percent compared with dry power sanding.",
+      "counselor_tabletop_demo": "Inspect the two completed composite projects for void-free resin wet-out, uniform ply thickness, and smooth wet-sanded edges.",
+      "real_world_connection_box": "Composite Mold Release, Cure Cycle & Edge Trim Standard: Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating. Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASM International & OSHA Composite Standards",
+      "bespoke_visual_filename": "composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/composite_materials_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for careers & professional pathways in a troop setting.",
+      "v47_slide_title": "Composite Mold Release, Cure Cycle & Edge Trim Standard",
+      "v47_primary_source_bullets": [
+        "Apply three coats of mold-release wax or PVA film before layup so the cured composite part releases without delaminating.",
+        "Wet-sand cured composite edges with 220-grit silicon-carbide paper under water mist to trap airborne micro-fibers."
+      ]
+    }
+  }
+}

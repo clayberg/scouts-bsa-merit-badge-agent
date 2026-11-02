@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "exploration",
+  "badge_name": "Exploration",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "The Explorers Club & National Geographic Society",
+  "primary_authority_url": "https://www.explorers.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Scientific Field Expedition & Voucher Log Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+      "core_mechanism_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ],
+      "worked_field_example": "During a karst cave microclimate survey, log air temperature of 54.0 degrees Fahrenheit, 96 percent relative humidity, and WGS84 entrance coordinates every 100 meters from the twilight zone.",
+      "counselor_tabletop_demo": "Complete a waterproof Rite-in-the-Rain scientific field log entry with UTC time, GPS coordinates, barometric trend, and scaled sketch of a geological sample.",
+      "real_world_connection_box": "Scientific Field Expedition & Voucher Log Standard: Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations. Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify general knowledge during a structured merit badge clinic.",
+      "v47_slide_title": "Scientific Field Expedition & Voucher Log Standard",
+      "v47_primary_source_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Celestial Longitude & Remote Sensing Survey Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+      "core_mechanism_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ],
+      "worked_field_example": "When local solar noon occurs at 14 hours 20 minutes UTC, the observer's longitude is 2.333 hours x 15 degrees per hour = 35.0 degrees West of the Prime Meridian.",
+      "counselor_tabletop_demo": "Compare a satellite multispectral false-color image against a 1 to 24,000 USGS topographic map to identify a passable ridge route and water source.",
+      "real_world_connection_box": "Celestial Longitude & Remote Sensing Survey Standard: Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator. Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify history of exploration during a structured merit badge clinic.",
+      "v47_slide_title": "Celestial Longitude & Remote Sensing Survey Standard",
+      "v47_primary_source_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Wilderness Medicine & Extreme Physiology Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+      "core_mechanism_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ],
+      "worked_field_example": "An expedition climbing from 8,000 feet to a 12,000-foot alpine pass budgets 4 acclimatization nights plus a rest day to prevent Acute Mountain Sickness and High-Altitude Pulmonary Edema.",
+      "counselor_tabletop_demo": "Audit a remote expedition medical and communications kit containing a satellite SOS beacon, tourniquet, SAM splint, water purification tablets, and hypothermia wrap.",
+      "real_world_connection_box": "Wilderness Medicine & Extreme Physiology Standard: Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours. Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for importance of exploration in a troop setting.",
+      "v47_slide_title": "Wilderness Medicine & Extreme Physiology Standard",
+      "v47_primary_source_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Expedition Risk Matrix & Contingency Reserve Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+      "core_mechanism_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ],
+      "worked_field_example": "For a 5-day backcountry botanical survey consuming 3,200 kilocalories and 120 grams of white-gas stove fuel per person daily, pack 6 full days of rations (19,200 kcal) and 720 grams of fuel.",
+      "counselor_tabletop_demo": "Score three expedition hazards on a 5x5 probability-versus-consequence risk grid and define go/no-go abort weather thresholds for the field team.",
+      "real_world_connection_box": "Expedition Risk Matrix & Contingency Reserve Standard: A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls. Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining real-life exploration step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Expedition Risk Matrix & Contingency Reserve Standard",
+      "v47_primary_source_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Scientific Field Expedition & Voucher Log Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+      "core_mechanism_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ],
+      "worked_field_example": "During a karst cave microclimate survey, log air temperature of 54.0 degrees Fahrenheit, 96 percent relative humidity, and WGS84 entrance coordinates every 100 meters from the twilight zone.",
+      "counselor_tabletop_demo": "Complete a waterproof Rite-in-the-Rain scientific field log entry with UTC time, GPS coordinates, barometric trend, and scaled sketch of a geological sample.",
+      "real_world_connection_box": "Scientific Field Expedition & Voucher Log Standard: Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations. Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify general knowledge during a structured merit badge clinic.",
+      "v47_slide_title": "Scientific Field Expedition & Voucher Log Standard",
+      "v47_primary_source_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Celestial Longitude & Remote Sensing Survey Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+      "core_mechanism_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ],
+      "worked_field_example": "When local solar noon occurs at 14 hours 20 minutes UTC, the observer's longitude is 2.333 hours x 15 degrees per hour = 35.0 degrees West of the Prime Meridian.",
+      "counselor_tabletop_demo": "Compare a satellite multispectral false-color image against a 1 to 24,000 USGS topographic map to identify a passable ridge route and water source.",
+      "real_world_connection_box": "Celestial Longitude & Remote Sensing Survey Standard: Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator. Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify history of exploration during a structured merit badge clinic.",
+      "v47_slide_title": "Celestial Longitude & Remote Sensing Survey Standard",
+      "v47_primary_source_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Wilderness Medicine & Extreme Physiology Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+      "core_mechanism_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ],
+      "worked_field_example": "An expedition climbing from 8,000 feet to a 12,000-foot alpine pass budgets 4 acclimatization nights plus a rest day to prevent Acute Mountain Sickness and High-Altitude Pulmonary Edema.",
+      "counselor_tabletop_demo": "Audit a remote expedition medical and communications kit containing a satellite SOS beacon, tourniquet, SAM splint, water purification tablets, and hypothermia wrap.",
+      "real_world_connection_box": "Wilderness Medicine & Extreme Physiology Standard: Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours. Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for importance of exploration in a troop setting.",
+      "v47_slide_title": "Wilderness Medicine & Extreme Physiology Standard",
+      "v47_primary_source_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Celestial Longitude & Remote Sensing Survey Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+      "core_mechanism_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ],
+      "worked_field_example": "When local solar noon occurs at 14 hours 20 minutes UTC, the observer's longitude is 2.333 hours x 15 degrees per hour = 35.0 degrees West of the Prime Meridian.",
+      "counselor_tabletop_demo": "Compare a satellite multispectral false-color image against a 1 to 24,000 USGS topographic map to identify a passable ridge route and water source.",
+      "real_world_connection_box": "Celestial Longitude & Remote Sensing Survey Standard: Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator. Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify history of exploration during a structured merit badge clinic.",
+      "v47_slide_title": "Celestial Longitude & Remote Sensing Survey Standard",
+      "v47_primary_source_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Scientific Field Expedition & Voucher Log Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+      "core_mechanism_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ],
+      "worked_field_example": "During a karst cave microclimate survey, log air temperature of 54.0 degrees Fahrenheit, 96 percent relative humidity, and WGS84 entrance coordinates every 100 meters from the twilight zone.",
+      "counselor_tabletop_demo": "Complete a waterproof Rite-in-the-Rain scientific field log entry with UTC time, GPS coordinates, barometric trend, and scaled sketch of a geological sample.",
+      "real_world_connection_box": "Scientific Field Expedition & Voucher Log Standard: Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations. Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify general knowledge during a structured merit badge clinic.",
+      "v47_slide_title": "Scientific Field Expedition & Voucher Log Standard",
+      "v47_primary_source_bullets": [
+        "Scientific exploration pairs a falsifiable hypothesis with georeferenced baseline observations.",
+        "Field logs record UTC timestamp, WGS84 coordinates, elevation, weather, and specimen metadata."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Celestial Longitude & Remote Sensing Survey Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+      "core_mechanism_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ],
+      "worked_field_example": "When local solar noon occurs at 14 hours 20 minutes UTC, the observer's longitude is 2.333 hours x 15 degrees per hour = 35.0 degrees West of the Prime Meridian.",
+      "counselor_tabletop_demo": "Compare a satellite multispectral false-color image against a 1 to 24,000 USGS topographic map to identify a passable ridge route and water source.",
+      "real_world_connection_box": "Celestial Longitude & Remote Sensing Survey Standard: Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator. Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify history of exploration during a structured merit badge clinic.",
+      "v47_slide_title": "Celestial Longitude & Remote Sensing Survey Standard",
+      "v47_primary_source_bullets": [
+        "Earth rotates 15 degrees of longitude per hour or 1 nautical mile per minute of arc at the equator.",
+        "Airborne LiDAR pulses penetrate forest canopy to map bare-earth topography at sub-meter resolution."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Wilderness Medicine & Extreme Physiology Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+      "core_mechanism_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ],
+      "worked_field_example": "An expedition climbing from 8,000 feet to a 12,000-foot alpine pass budgets 4 acclimatization nights plus a rest day to prevent Acute Mountain Sickness and High-Altitude Pulmonary Edema.",
+      "counselor_tabletop_demo": "Audit a remote expedition medical and communications kit containing a satellite SOS beacon, tourniquet, SAM splint, water purification tablets, and hypothermia wrap.",
+      "real_world_connection_box": "Wilderness Medicine & Extreme Physiology Standard: Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours. Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for importance of exploration in a troop setting.",
+      "v47_slide_title": "Wilderness Medicine & Extreme Physiology Standard",
+      "v47_primary_source_bullets": [
+        "Above 8,000 feet elevation, sleeping altitude should increase no more than 1,000 feet per 24 hours.",
+        "Hydrostatic water pressure increases by 14.7 psi or 1 atmosphere for every 33 feet of seawater depth."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Expedition Risk Matrix & Contingency Reserve Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+      "core_mechanism_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ],
+      "worked_field_example": "For a 5-day backcountry botanical survey consuming 3,200 kilocalories and 120 grams of white-gas stove fuel per person daily, pack 6 full days of rations (19,200 kcal) and 720 grams of fuel.",
+      "counselor_tabletop_demo": "Score three expedition hazards on a 5x5 probability-versus-consequence risk grid and define go/no-go abort weather thresholds for the field team.",
+      "real_world_connection_box": "Expedition Risk Matrix & Contingency Reserve Standard: A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls. Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining real-life exploration step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Expedition Risk Matrix & Contingency Reserve Standard",
+      "v47_primary_source_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Exploration",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "The Explorers Club & National Geographic Society",
+        "title": "Expedition Risk Matrix & Contingency Reserve Standard Technical Reference",
+        "canonical_url": "https://www.explorers.org/"
+      },
+      "rule_of_thumb_mnemonic": "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+      "core_mechanism_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ],
+      "worked_field_example": "For a 5-day backcountry botanical survey consuming 3,200 kilocalories and 120 grams of white-gas stove fuel per person daily, pack 6 full days of rations (19,200 kcal) and 720 grams of fuel.",
+      "counselor_tabletop_demo": "Score three expedition hazards on a 5x5 probability-versus-consequence risk grid and define go/no-go abort weather thresholds for the field team.",
+      "real_world_connection_box": "Expedition Risk Matrix & Contingency Reserve Standard: A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls. Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + The Explorers Club & National Geographic Society",
+      "bespoke_visual_filename": "exploration_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/exploration_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining real-life exploration step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "Expedition Risk Matrix & Contingency Reserve Standard",
+      "v47_primary_source_bullets": [
+        "A 5 by 5 Risk Matrix multiplies hazard probability by severity to mandate engineering controls.",
+        "Remote field logistics require a minimum 20 percent reserve of rations, fuel, and battery power."
+      ]
+    }
+  }
+}

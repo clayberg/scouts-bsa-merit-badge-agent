@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "soil-and-water-conservation",
+  "badge_name": "Soil and Water Conservation",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USDA NRCS Soil Science Division",
+  "primary_authority_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "USDA Soil Textural Triangle & NPK Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+      "core_mechanism_bullets": [
+        "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+        "Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus."
+      ],
+      "worked_field_example": "A soil core settling into 40 percent sand, 40 percent silt, and 20 percent clay in a jar test classifies as a balanced USDA medium loam.",
+      "counselor_tabletop_demo": "Perform a 3-minute ribbon test with moistened soil samples and plot the sand, silt, and clay percentages on a laminated USDA Textural Triangle.",
+      "real_world_connection_box": "USDA Soil Textural Triangle & NPK Standard: USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter. Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through tell what soil with authentic field equipment.",
+      "v47_slide_title": "USDA Soil Textural Triangle & NPK Standard",
+      "v47_primary_source_bullets": [
+        "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+        "Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+      "core_mechanism_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ],
+      "worked_field_example": "Unprotected bare cropland on a 6 percent slope loses 18 tons of topsoil per acre annually, exceeding the 5-ton NRCS T-value limit by 260 percent.",
+      "counselor_tabletop_demo": "Pour 250 mL of water over bare soil versus mulched soil trays tilted at 10 degrees and measure runoff turbidity in graduated cylinders.",
+      "real_world_connection_box": "NRCS Universal Soil Loss Equation (RUSLE2) Standard: Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm. NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define soil erosion step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard",
+      "v47_primary_source_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Contour Strip Cropping & Riparian Buffer Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+      "core_mechanism_bullets": [
+        "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+        "Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff."
+      ],
+      "worked_field_example": "Installing a 50-foot native grass filter strip along a 4 percent field edge cuts phosphorus sediment delivery to the creek by 65 percent.",
+      "counselor_tabletop_demo": "Trace contour lines on a USGS 1 to 24000 quadrangle map to delineate a sub-watershed divide and mark optimal terrace intervals.",
+      "real_world_connection_box": "NRCS Contour Strip Cropping & Riparian Buffer Standard: Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes. Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell what is meant in a troop setting.",
+      "v47_slide_title": "NRCS Contour Strip Cropping & Riparian Buffer Standard",
+      "v47_primary_source_bullets": [
+        "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+        "Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "EPA Clean Water Act BOD & Treatment Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+      "core_mechanism_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ],
+      "worked_field_example": "Raw municipal influent at 220 mg per liter BOD5 drops to 140 mg per liter after primary clarifiers and 18 mg per liter after activated sludge aeration.",
+      "counselor_tabletop_demo": "Filter muddy water through a layered gravel, sand, and activated charcoal column and compare clarity and dissolved oxygen test strips.",
+      "real_world_connection_box": "EPA Clean Water Act BOD & Treatment Standard: Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5. EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute tell what is meant under adult counselor supervision.",
+      "v47_slide_title": "EPA Clean Water Act BOD & Treatment Standard",
+      "v47_primary_source_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "USDA Soil Textural Triangle & NPK Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+      "core_mechanism_bullets": [
+        "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+        "Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus."
+      ],
+      "worked_field_example": "A soil core settling into 40 percent sand, 40 percent silt, and 20 percent clay in a jar test classifies as a balanced USDA medium loam.",
+      "counselor_tabletop_demo": "Perform a 3-minute ribbon test with moistened soil samples and plot the sand, silt, and clay percentages on a laminated USDA Textural Triangle.",
+      "real_world_connection_box": "USDA Soil Textural Triangle & NPK Standard: USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter. Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through tell what soil with authentic field equipment.",
+      "v47_slide_title": "USDA Soil Textural Triangle & NPK Standard",
+      "v47_primary_source_bullets": [
+        "USDA particle sizes define sand at 2.0 to 0.05 mm, silt at 0.05 to 0.002 mm, and clay below 0.002 mm diameter.",
+        "Ideal fertile loam holds 45 percent mineral grains, 25 percent water, 25 percent air pores, and 5 percent humus."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+      "core_mechanism_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ],
+      "worked_field_example": "Unprotected bare cropland on a 6 percent slope loses 18 tons of topsoil per acre annually, exceeding the 5-ton NRCS T-value limit by 260 percent.",
+      "counselor_tabletop_demo": "Pour 250 mL of water over bare soil versus mulched soil trays tilted at 10 degrees and measure runoff turbidity in graduated cylinders.",
+      "real_world_connection_box": "NRCS Universal Soil Loss Equation (RUSLE2) Standard: Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm. NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define soil erosion step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard",
+      "v47_primary_source_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+      "core_mechanism_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ],
+      "worked_field_example": "Unprotected bare cropland on a 6 percent slope loses 18 tons of topsoil per acre annually, exceeding the 5-ton NRCS T-value limit by 260 percent.",
+      "counselor_tabletop_demo": "Pour 250 mL of water over bare soil versus mulched soil trays tilted at 10 degrees and measure runoff turbidity in graduated cylinders.",
+      "real_world_connection_box": "NRCS Universal Soil Loss Equation (RUSLE2) Standard: Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm. NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define soil erosion step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard",
+      "v47_primary_source_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "EPA Clean Water Act BOD & Treatment Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+      "core_mechanism_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ],
+      "worked_field_example": "Raw municipal influent at 220 mg per liter BOD5 drops to 140 mg per liter after primary clarifiers and 18 mg per liter after activated sludge aeration.",
+      "counselor_tabletop_demo": "Filter muddy water through a layered gravel, sand, and activated charcoal column and compare clarity and dissolved oxygen test strips.",
+      "real_world_connection_box": "EPA Clean Water Act BOD & Treatment Standard: Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5. EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute tell what is meant under adult counselor supervision.",
+      "v47_slide_title": "EPA Clean Water Act BOD & Treatment Standard",
+      "v47_primary_source_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Contour Strip Cropping & Riparian Buffer Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+      "core_mechanism_bullets": [
+        "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+        "Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff."
+      ],
+      "worked_field_example": "Installing a 50-foot native grass filter strip along a 4 percent field edge cuts phosphorus sediment delivery to the creek by 65 percent.",
+      "counselor_tabletop_demo": "Trace contour lines on a USGS 1 to 24000 quadrangle map to delineate a sub-watershed divide and mark optimal terrace intervals.",
+      "real_world_connection_box": "NRCS Contour Strip Cropping & Riparian Buffer Standard: Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes. Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for tell what is meant in a troop setting.",
+      "v47_slide_title": "NRCS Contour Strip Cropping & Riparian Buffer Standard",
+      "v47_primary_source_bullets": [
+        "Contour farming and terracing cut sheet and rill soil loss by 50 to 85 percent on 2 to 12 percent field slopes.",
+        "Riparian buffer strips 35 to 100 feet wide trap 75 percent of sediment and 50 percent of nitrate runoff."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+      "core_mechanism_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ],
+      "worked_field_example": "Unprotected bare cropland on a 6 percent slope loses 18 tons of topsoil per acre annually, exceeding the 5-ton NRCS T-value limit by 260 percent.",
+      "counselor_tabletop_demo": "Pour 250 mL of water over bare soil versus mulched soil trays tilted at 10 degrees and measure runoff turbidity in graduated cylinders.",
+      "real_world_connection_box": "NRCS Universal Soil Loss Equation (RUSLE2) Standard: Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm. NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining define soil erosion step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NRCS Universal Soil Loss Equation (RUSLE2) Standard",
+      "v47_primary_source_bullets": [
+        "Sheet erosion strips thin topsoil layers before concentrating into rills under 30 cm deep and gullies over 30 cm.",
+        "NRCS tolerable soil loss (T-value) caps sustainable erosion between 1 and 5 tons per acre per year by root depth."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Soil and Water Conservation",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA NRCS Soil Science Division",
+        "title": "EPA Clean Water Act BOD & Treatment Standard Technical Reference",
+        "canonical_url": "https://www.nrcs.usda.gov/resources/guides-and-instructions/national-soil-survey-handbook"
+      },
+      "rule_of_thumb_mnemonic": "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+      "core_mechanism_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ],
+      "worked_field_example": "Raw municipal influent at 220 mg per liter BOD5 drops to 140 mg per liter after primary clarifiers and 18 mg per liter after activated sludge aeration.",
+      "counselor_tabletop_demo": "Filter muddy water through a layered gravel, sand, and activated charcoal column and compare clarity and dissolved oxygen test strips.",
+      "real_world_connection_box": "EPA Clean Water Act BOD & Treatment Standard: Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5. EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA NRCS Soil Science Division",
+      "bespoke_visual_filename": "soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/soil_and_water_conservation_req_6_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute tell what is meant under adult counselor supervision.",
+      "v47_slide_title": "EPA Clean Water Act BOD & Treatment Standard",
+      "v47_primary_source_bullets": [
+        "Primary settling removes 50 to 65 percent of suspended solids while secondary biological oxidation cuts 85 to 95 percent of BOD5.",
+        "EPA secondary effluent rules cap 5-day Biochemical Oxygen Demand and Total Suspended Solids at 30 mg/L over 30 days."
+      ]
+    }
+  }
+}

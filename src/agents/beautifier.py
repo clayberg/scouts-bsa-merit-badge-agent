@@ -1313,6 +1313,7 @@ def beautify_slide_storyboard(
 
     _apply_v44_visual_and_caption_integrity_pass(badge_name=badge_name, slides=slides)
     _apply_v46_deep_research_masterclass_slides(badge_name=badge_name, slides=slides)
+    storyboard["slides"] = slides
 
     blueprint = DeckVisualBlueprint(
         badge_name=badge_name,
@@ -1693,10 +1694,12 @@ def _apply_v46_deep_research_masterclass_slides(
         return
 
     reqs_map: Dict[str, Any] = v46_ov.get("requirements") or {}
-    ai_dir = Path(__file__).resolve().parents[2] / "assets" / "ai_illustrations"
+    root_dir = Path(__file__).resolve().parents[2]
+    ai_dir = root_dir / "assets" / "ai_illustrations"
+    pam_dir = root_dir / "assets" / "pamphlet_images"
 
-    # Select the 4 unique bespoke Nano Banana visual clusters in canonical requirement order
-    selected_clusters: List[tuple[str, Dict[str, Any]]] = []
+    # Select the 4 unique bespoke Nano Banana / Pamphlet visual clusters in canonical requirement order
+    selected_clusters: List[tuple[str, Dict[str, Any], str, str]] = []
     seen_v46_files: set[str] = set()
     for rnum, item in reqs_map.items():
         if not isinstance(item, dict):
@@ -1704,20 +1707,44 @@ def _apply_v46_deep_research_masterclass_slides(
         fn = str(item.get("bespoke_visual_filename") or "").strip()
         if not fn or fn in seen_v46_files:
             continue
-        if not (ai_dir / fn).exists():
+        if (ai_dir / fn).exists():
+            rel_p = f"assets/ai_illustrations/{fn}"
+            web_u = f"/assets/ai_illustrations/{fn}"
+        elif (pam_dir / fn).exists():
+            rel_p = f"assets/pamphlet_images/{fn}"
+            web_u = f"/assets/pamphlet_images/{fn}"
+        else:
             continue
         seen_v46_files.add(fn)
-        selected_clusters.append((str(rnum), item))
+        selected_clusters.append((str(rnum), item, rel_p, web_u))
         if len(selected_clusters) >= 4:
             break
+
+    if len(selected_clusters) < 4 and isinstance(v46_ov.get("bespoke_clusters"), list):
+        for item in v46_ov["bespoke_clusters"]:
+            if not isinstance(item, dict):
+                continue
+            fn = str(item.get("bespoke_visual_filename") or "").strip()
+            if not fn or fn in seen_v46_files:
+                continue
+            if (ai_dir / fn).exists():
+                rel_p = f"assets/ai_illustrations/{fn}"
+                web_u = f"/assets/ai_illustrations/{fn}"
+            elif (pam_dir / fn).exists():
+                rel_p = f"assets/pamphlet_images/{fn}"
+                web_u = f"/assets/pamphlet_images/{fn}"
+            else:
+                continue
+            seen_v46_files.add(fn)
+            selected_clusters.append((str(item.get("req_id") or "1"), item, rel_p, web_u))
+            if len(selected_clusters) >= 4:
+                break
 
     if not selected_clusters:
         return
 
-    for cluster_idx, (rnum, item) in enumerate(selected_clusters, start=1):
+    for cluster_idx, (rnum, item, rel_path, web_url) in enumerate(selected_clusters, start=1):
         fn = str(item.get("bespoke_visual_filename") or "").strip()
-        rel_path = f"assets/ai_illustrations/{fn}"
-        web_url = f"/assets/ai_illustrations/{fn}"
         # Guarantee zero duplicate visual filenames across the entire deck: reserve `fn` exclusively for this V46 Masterclass slide
         for existing_s in slides:
             if not isinstance(existing_s, dict):

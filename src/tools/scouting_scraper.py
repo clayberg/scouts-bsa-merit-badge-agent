@@ -4504,7 +4504,7 @@ _CURATED_TO_OFFICIAL_REQ_MAP: Dict[str, Dict[str, str]] = {
 }
 
 
-_V46_DEEP_RESEARCH_OVERLAY_MEMO: Dict[str, Dict[str, Any]] = {}
+_V46_DEEP_RESEARCH_OVERLAY_MEMO: Dict[str, tuple[int, Dict[str, Any]]] = {}
 
 
 def _load_v46_deep_research_overlay(badge_name: str) -> Dict[str, Any]:
@@ -4514,18 +4514,19 @@ def _load_v46_deep_research_overlay(badge_name: str) -> Dict[str, Any]:
     from pathlib import Path as _Path
 
     slug = _re.sub(r"[^a-z0-9]+", "-", str(badge_name or "").strip().lower()).strip("-")
-    if slug in _V46_DEEP_RESEARCH_OVERLAY_MEMO:
-        return _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug]
     cache_path = _Path(__file__).resolve().parents[2] / "data" / "v46_deep_research_cache" / f"{slug}.json"
-    if cache_path.exists():
+    mtime = cache_path.stat().st_mtime_ns if cache_path.exists() else -1
+    if slug in _V46_DEEP_RESEARCH_OVERLAY_MEMO and _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug][0] == mtime:
+        return _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug][1]
+    if mtime >= 0:
         try:
             payload = _json.loads(cache_path.read_text(encoding="utf-8"))
             if isinstance(payload, dict):
-                _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = payload
+                _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = (mtime, payload)
                 return payload
         except Exception:
             pass
-    _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = {}
+    _V46_DEEP_RESEARCH_OVERLAY_MEMO[slug] = (-1, {})
     return {}
 
 
@@ -5999,15 +6000,6 @@ def _resolve_workbook_diagram_url(
         if r_clean in ("1", "1a", "2", "2a", "3", "3a") and ("water cycle" in tl or "hydrologic" in tl):
             return "assets/ai_illustrations/weather_hydrologic_cycle_nano.png"
 
-    # 3b. Check V46 Deep Research Bespoke Technical Diagram cache when present on disk
-    v46_ov = _load_v46_deep_research_overlay(badge_name)
-    v46_reqs_map = v46_ov.get("requirements") if isinstance(v46_ov, dict) else {}
-    v46_cand = v46_reqs_map.get(r_clean) or v46_reqs_map.get(r_parent) if isinstance(v46_reqs_map, dict) else None
-    if isinstance(v46_cand, dict) and v46_cand.get("bespoke_visual_filename"):
-        v46_rel = f"assets/ai_illustrations/{v46_cand['bespoke_visual_filename']}"
-        if (Path(__file__).resolve().parents[2] / v46_rel).exists():
-            return v46_rel
-
     # 4. Authentic BSA Pamphlet figure or Nano Hero illustration for any requirement
     hero_exact_rel = f"assets/ai_illustrations/{slug}_req_{r_clean}_nano_hero.png"
     if (Path(__file__).resolve().parents[2] / hero_exact_rel).exists():
@@ -6021,6 +6013,17 @@ def _resolve_workbook_diagram_url(
         p_idx = int(r_parent) - 1
         if 0 <= p_idx < len(figs):
             return figs[p_idx]
+
+    # 5. Fallback to V46 Deep Research Bespoke Technical Diagram cache when present on disk
+    v46_ov = _load_v46_deep_research_overlay(badge_name)
+    v46_reqs_map = v46_ov.get("requirements") if isinstance(v46_ov, dict) else {}
+    v46_cand = v46_reqs_map.get(r_clean) or v46_reqs_map.get(r_parent) if isinstance(v46_reqs_map, dict) else None
+    if isinstance(v46_cand, dict) and v46_cand.get("bespoke_visual_filename"):
+        fn_cand = str(v46_cand["bespoke_visual_filename"]).strip()
+        for sub_dir in ("assets/ai_illustrations", "assets/pamphlet_images"):
+            v46_rel = f"{sub_dir}/{fn_cand}"
+            if (Path(__file__).resolve().parents[2] / v46_rel).exists():
+                return v46_rel
 
     return ""
 

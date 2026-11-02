@@ -1,6 +1,6 @@
 # Swimming Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
+**Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Swimming.pdf  
 **Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/swimming/
 
@@ -54,7 +54,7 @@
 - **Common Myth:** Residential swimming pools do not require perimeter fencing if adult swimmers are present.
 - **Pamphlet Fact:** Four sided physical barrier fencing prevents accidental deep water entry by unattended children.
 
-![Cutaway visual diagram illustrating qualified supervision structure and components for Swimming.](/assets/pamphlet_images/swimming_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of qualified supervision used in Swimming.](/assets/pamphlet_images/swimming_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - **Common Myth:** Lifting the head straight forward out of the water improves breathing efficiency.
 - **Pamphlet Fact:** Rotary breathing requires turning the face sideways into the bow wave trough.
 
-![Cutaway visual diagram illustrating front crawl rhythm structure and components for Swimming.](/assets/pamphlet_images/swimming_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of front crawl rhythm used in Swimming.](/assets/pamphlet_images/swimming_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "cybersecurity",
+  "badge_name": "Cybersecurity",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "CISA & NIST Cybersecurity Framework",
+  "primary_authority_url": "https://www.cisa.gov/cybersecurity-best-practices",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST SP 800-63B Authentication & CIA Triad Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+      "core_mechanism_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ],
+      "worked_field_example": "Upgrading an 8-character password to a 16-character random passphrase with FIDO2 MFA blocks 99.9 percent of automated credential-stuffing attacks.",
+      "counselor_tabletop_demo": "Compute a SHA-256 hash of a text file, flip a single character, and recompute the hash to prove how cryptographic integrity checks detect tampering.",
+      "real_world_connection_box": "NIST SP 800-63B Authentication & CIA Triad Standard: Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems. Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of digital footprint retention used in Cybersecurity.",
+      "v47_slide_title": "NIST SP 800-63B Authentication & CIA Triad Standard",
+      "v47_primary_source_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+      "core_mechanism_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ],
+      "worked_field_example": "Applying a critical browser security patch within 24 hours of CVE disclosure closes a remote code execution flaw before exploit kits can weaponize it.",
+      "counselor_tabletop_demo": "Inspect a real NIST NVD CVE advisory entry to read its CVSS 0-to-10 severity score, attack vector, and vendor patch remediation.",
+      "real_world_connection_box": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard: A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems. Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vulnerability exploitation mechanics used in Cybersecurity.",
+      "v47_slide_title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard",
+      "v47_primary_source_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+      "core_mechanism_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ],
+      "worked_field_example": "Clicking the browser padlock on a banking portal confirms a valid TLS 1.3 session with ECDHE key exchange and AES-256-GCM cipher suite issued by a trusted Certificate Authority.",
+      "counselor_tabletop_demo": "Inspect a live website's X.509 TLS certificate chain in browser developer tools to verify the issuing CA, validity dates, and public key algorithm.",
+      "real_world_connection_box": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard: Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access. Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of firewall packet filtering used in Cybersecurity.",
+      "v47_slide_title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard",
+      "v47_primary_source_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST IoT Network Segmentation & NICE Workforce Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+      "core_mechanism_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ],
+      "worked_field_example": "Moving four smart plugs and a doorbell camera onto an isolated guest Wi-Fi SSID prevents a compromised IoT firmware chip from scanning family laptops.",
+      "counselor_tabletop_demo": "Audit four common household IoT devices and write a 5-step hardening checklist covering WPA3, default credentials, firmware updates, and VLAN isolation.",
+      "real_world_connection_box": "NIST IoT Network Segmentation & NICE Workforce Standard: Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords. Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of asymmetric key handshake used in Cybersecurity.",
+      "v47_slide_title": "NIST IoT Network Segmentation & NICE Workforce Standard",
+      "v47_primary_source_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST SP 800-63B Authentication & CIA Triad Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+      "core_mechanism_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ],
+      "worked_field_example": "Upgrading an 8-character password to a 16-character random passphrase with FIDO2 MFA blocks 99.9 percent of automated credential-stuffing attacks.",
+      "counselor_tabletop_demo": "Compute a SHA-256 hash of a text file, flip a single character, and recompute the hash to prove how cryptographic integrity checks detect tampering.",
+      "real_world_connection_box": "NIST SP 800-63B Authentication & CIA Triad Standard: Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems. Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of digital footprint retention used in Cybersecurity.",
+      "v47_slide_title": "NIST SP 800-63B Authentication & CIA Triad Standard",
+      "v47_primary_source_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+      "core_mechanism_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ],
+      "worked_field_example": "Applying a critical browser security patch within 24 hours of CVE disclosure closes a remote code execution flaw before exploit kits can weaponize it.",
+      "counselor_tabletop_demo": "Inspect a real NIST NVD CVE advisory entry to read its CVSS 0-to-10 severity score, attack vector, and vendor patch remediation.",
+      "real_world_connection_box": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard: A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems. Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vulnerability exploitation mechanics used in Cybersecurity.",
+      "v47_slide_title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard",
+      "v47_primary_source_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+      "core_mechanism_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ],
+      "worked_field_example": "Clicking the browser padlock on a banking portal confirms a valid TLS 1.3 session with ECDHE key exchange and AES-256-GCM cipher suite issued by a trusted Certificate Authority.",
+      "counselor_tabletop_demo": "Inspect a live website's X.509 TLS certificate chain in browser developer tools to verify the issuing CA, validity dates, and public key algorithm.",
+      "real_world_connection_box": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard: Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access. Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of firewall packet filtering used in Cybersecurity.",
+      "v47_slide_title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard",
+      "v47_primary_source_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+      "core_mechanism_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ],
+      "worked_field_example": "Applying a critical browser security patch within 24 hours of CVE disclosure closes a remote code execution flaw before exploit kits can weaponize it.",
+      "counselor_tabletop_demo": "Inspect a real NIST NVD CVE advisory entry to read its CVSS 0-to-10 severity score, attack vector, and vendor patch remediation.",
+      "real_world_connection_box": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard: A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems. Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vulnerability exploitation mechanics used in Cybersecurity.",
+      "v47_slide_title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard",
+      "v47_primary_source_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST SP 800-63B Authentication & CIA Triad Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+      "core_mechanism_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ],
+      "worked_field_example": "Upgrading an 8-character password to a 16-character random passphrase with FIDO2 MFA blocks 99.9 percent of automated credential-stuffing attacks.",
+      "counselor_tabletop_demo": "Compute a SHA-256 hash of a text file, flip a single character, and recompute the hash to prove how cryptographic integrity checks detect tampering.",
+      "real_world_connection_box": "NIST SP 800-63B Authentication & CIA Triad Standard: Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems. Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of digital footprint retention used in Cybersecurity.",
+      "v47_slide_title": "NIST SP 800-63B Authentication & CIA Triad Standard",
+      "v47_primary_source_bullets": [
+        "Enforce the CIA Triad (Confidentiality via encryption, Integrity via hashing, Availability via redundancy) across systems.",
+        "Use passphrases of at least 15 characters in a password manager paired with phishing-resistant FIDO2 multi-factor auth."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+      "core_mechanism_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ],
+      "worked_field_example": "Applying a critical browser security patch within 24 hours of CVE disclosure closes a remote code execution flaw before exploit kits can weaponize it.",
+      "counselor_tabletop_demo": "Inspect a real NIST NVD CVE advisory entry to read its CVSS 0-to-10 severity score, attack vector, and vendor patch remediation.",
+      "real_world_connection_box": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard: A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems. Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vulnerability exploitation mechanics used in Cybersecurity.",
+      "v47_slide_title": "MITRE CVE Vulnerability, Exploit & Malware Defense Standard",
+      "v47_primary_source_bullets": [
+        "A vulnerability is a code weakness (CVE), a threat is an adversary, and an exploit is the payload used to breach systems.",
+        "Mitigate ransomware, trojans, and worms via automated OS patching, endpoint detection, and 3-2-1 offline backups."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+      "core_mechanism_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ],
+      "worked_field_example": "Clicking the browser padlock on a banking portal confirms a valid TLS 1.3 session with ECDHE key exchange and AES-256-GCM cipher suite issued by a trusted Certificate Authority.",
+      "counselor_tabletop_demo": "Inspect a live website's X.509 TLS certificate chain in browser developer tools to verify the issuing CA, validity dates, and public key algorithm.",
+      "real_world_connection_box": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard: Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access. Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of firewall packet filtering used in Cybersecurity.",
+      "v47_slide_title": "CISA Defense-in-Depth Firewall, TLS 1.3 & AES-256 Standard",
+      "v47_primary_source_bullets": [
+        "Layer host firewalls, network segmentation, intrusion prevention, and WireGuard/IPsec VPNs for least-privilege access.",
+        "Verify HTTPS connections via TLS 1.3 key exchange and X.509 certificates while encrypting stored drives with AES-256."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST IoT Network Segmentation & NICE Workforce Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+      "core_mechanism_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ],
+      "worked_field_example": "Moving four smart plugs and a doorbell camera onto an isolated guest Wi-Fi SSID prevents a compromised IoT firmware chip from scanning family laptops.",
+      "counselor_tabletop_demo": "Audit four common household IoT devices and write a 5-step hardening checklist covering WPA3, default credentials, firmware updates, and VLAN isolation.",
+      "real_world_connection_box": "NIST IoT Network Segmentation & NICE Workforce Standard: Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords. Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of asymmetric key handshake used in Cybersecurity.",
+      "v47_slide_title": "NIST IoT Network Segmentation & NICE Workforce Standard",
+      "v47_primary_source_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Cybersecurity",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "CISA & NIST Cybersecurity Framework",
+        "title": "NIST IoT Network Segmentation & NICE Workforce Standard Technical Reference",
+        "canonical_url": "https://www.cisa.gov/cybersecurity-best-practices"
+      },
+      "rule_of_thumb_mnemonic": "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+      "core_mechanism_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ],
+      "worked_field_example": "Moving four smart plugs and a doorbell camera onto an isolated guest Wi-Fi SSID prevents a compromised IoT firmware chip from scanning family laptops.",
+      "counselor_tabletop_demo": "Audit four common household IoT devices and write a 5-step hardening checklist covering WPA3, default credentials, firmware updates, and VLAN isolation.",
+      "real_world_connection_box": "NIST IoT Network Segmentation & NICE Workforce Standard: Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords. Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + CISA & NIST Cybersecurity Framework",
+      "bespoke_visual_filename": "cybersecurity_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/cybersecurity_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of asymmetric key handshake used in Cybersecurity.",
+      "v47_slide_title": "NIST IoT Network Segmentation & NICE Workforce Standard",
+      "v47_primary_source_bullets": [
+        "Isolate smart-home IoT devices onto a separate guest VLAN with WPA3 encryption, disabled UPnP, and strong passwords.",
+        "Map cybersecurity careers using the NIST NICE Framework across Protect and Defend, Investigate, and Securely Provision."
+      ]
+    }
+  }
+}

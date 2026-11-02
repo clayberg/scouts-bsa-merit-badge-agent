@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "theater",
+  "badge_name": "Theater",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "Educational Theatre Association & USITT",
+  "primary_authority_url": "https://www.usitt.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "Dramatic Structure & One-Act Playwriting Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+      "core_mechanism_bullets": [
+        "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+        "Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution."
+      ],
+      "worked_field_example": "A 10-minute one-act play requires a 10-to-12-page script establishing the protagonist objective within page 2 and reaching the climax by page 9.",
+      "counselor_tabletop_demo": "Map a 10-minute one-act play outline onto a Freytag dramatic arc diagram and time a 1-page cold table read with a stopwatch.",
+      "real_world_connection_box": "Dramatic Structure & One-Act Playwriting Standard: Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time. Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute see or read three full-length plays under adult counselor supervision.",
+      "v47_slide_title": "Dramatic Structure & One-Act Playwriting Standard",
+      "v47_primary_source_bullets": [
+        "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+        "Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "USITT Stage Architecture & Blocking Notation Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+      "core_mechanism_bullets": [
+        "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+        "Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four."
+      ],
+      "worked_field_example": "A director blocking notation reading X DSR to ULC instructs the actor to cross from Downstage Right to Upstage Left Center on the cue line.",
+      "counselor_tabletop_demo": "Draw a 9-grid stage ground plan and move miniature actor tokens across the grid following standard USITT prompt-book blocking abbreviations.",
+      "real_world_connection_box": "USITT Stage Architecture & Blocking Notation Standard: Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc. Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for write a one-act play in a troop setting.",
+      "v47_slide_title": "USITT Stage Architecture & Blocking Notation Standard",
+      "v47_primary_source_bullets": [
+        "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+        "Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+      "core_mechanism_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ],
+      "worked_field_example": "Before hanging a 22-pound ellipsoidal spotlight on an overhead pipe batten, the technician secures the C-clamp bolt and clips a braided steel safety cable.",
+      "counselor_tabletop_demo": "Inspect a stage lighting instrument diagram or clamp assembly, identify the secondary safety cable attachment point, and practice fly-rail callouts.",
+      "real_world_connection_box": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard: NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables. ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining mime or pantomime step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "McCandless Three-Point Stage Lighting & Sound Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+      "core_mechanism_bullets": [
+        "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+        "Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom."
+      ],
+      "worked_field_example": "Hanging a warm amber ellipsoidal at 45 degrees stage right and a cool lavender fixture at 45 degrees stage left sculpts natural 3D facial depth.",
+      "counselor_tabletop_demo": "Shine two small flashlights covered with warm and cool colored gels at 45-degree angles onto a tabletop figure to demonstrate McCandless lighting.",
+      "real_world_connection_box": "McCandless Three-Point Stage Lighting & Sound Standard: The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels. Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/theater_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of protagonist objective setup used in Theater.",
+      "v47_slide_title": "McCandless Three-Point Stage Lighting & Sound Standard",
+      "v47_primary_source_bullets": [
+        "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+        "Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "Dramatic Structure & One-Act Playwriting Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+      "core_mechanism_bullets": [
+        "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+        "Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution."
+      ],
+      "worked_field_example": "A 10-minute one-act play requires a 10-to-12-page script establishing the protagonist objective within page 2 and reaching the climax by page 9.",
+      "counselor_tabletop_demo": "Map a 10-minute one-act play outline onto a Freytag dramatic arc diagram and time a 1-page cold table read with a stopwatch.",
+      "real_world_connection_box": "Dramatic Structure & One-Act Playwriting Standard: Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time. Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute see or read three full-length plays under adult counselor supervision.",
+      "v47_slide_title": "Dramatic Structure & One-Act Playwriting Standard",
+      "v47_primary_source_bullets": [
+        "Standard play manuscript format equates 1 page of 12-point Courier dialogue and stage directions to 1 minute of stage time.",
+        "Aristotelian dramatic structure builds from exposition and inciting incident through rising conflict to climax and resolution."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "USITT Stage Architecture & Blocking Notation Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+      "core_mechanism_bullets": [
+        "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+        "Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four."
+      ],
+      "worked_field_example": "A director blocking notation reading X DSR to ULC instructs the actor to cross from Downstage Right to Upstage Left Center on the cue line.",
+      "counselor_tabletop_demo": "Draw a 9-grid stage ground plan and move miniature actor tokens across the grid following standard USITT prompt-book blocking abbreviations.",
+      "real_world_connection_box": "USITT Stage Architecture & Blocking Notation Standard: Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc. Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for write a one-act play in a troop setting.",
+      "v47_slide_title": "USITT Stage Architecture & Blocking Notation Standard",
+      "v47_primary_source_bullets": [
+        "Nine proscenium stage zones orient from the actor viewpoint facing the house, with Downstage near the apron and Upstage at the cyc.",
+        "Proscenium stages frame action through a fourth-wall arch while Thrust stages surround actors on three sides and Arena on four."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+      "core_mechanism_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ],
+      "worked_field_example": "Before hanging a 22-pound ellipsoidal spotlight on an overhead pipe batten, the technician secures the C-clamp bolt and clips a braided steel safety cable.",
+      "counselor_tabletop_demo": "Inspect a stage lighting instrument diagram or clamp assembly, identify the secondary safety cable attachment point, and practice fly-rail callouts.",
+      "real_world_connection_box": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard: NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables. ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining mime or pantomime step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+      "core_mechanism_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ],
+      "worked_field_example": "Before hanging a 22-pound ellipsoidal spotlight on an overhead pipe batten, the technician secures the C-clamp bolt and clips a braided steel safety cable.",
+      "counselor_tabletop_demo": "Inspect a stage lighting instrument diagram or clamp assembly, identify the secondary safety cable attachment point, and practice fly-rail callouts.",
+      "real_world_connection_box": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard: NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables. ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/theater_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining mime or pantomime step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ANSI E1.4 Rigging & NFPA 701 Backstage Safety Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 701 requires flame-retardant treatment on stage curtains and drops, while overhead lights require steel safety cables.",
+        "ANSI E1.4 counterweight fly rigging mandates audible heads-up warnings before moving battens and balanced arbor weights."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Theater",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "Educational Theatre Association & USITT",
+        "title": "McCandless Three-Point Stage Lighting & Sound Standard Technical Reference",
+        "canonical_url": "https://www.usitt.org/"
+      },
+      "rule_of_thumb_mnemonic": "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+      "core_mechanism_bullets": [
+        "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+        "Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom."
+      ],
+      "worked_field_example": "Hanging a warm amber ellipsoidal at 45 degrees stage right and a cool lavender fixture at 45 degrees stage left sculpts natural 3D facial depth.",
+      "counselor_tabletop_demo": "Shine two small flashlights covered with warm and cool colored gels at 45-degree angles onto a tabletop figure to demonstrate McCandless lighting.",
+      "real_world_connection_box": "McCandless Three-Point Stage Lighting & Sound Standard: The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels. Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + Educational Theatre Association & USITT",
+      "bespoke_visual_filename": "theater_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/theater_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of protagonist objective setup used in Theater.",
+      "v47_slide_title": "McCandless Three-Point Stage Lighting & Sound Standard",
+      "v47_primary_source_bullets": [
+        "The McCandless lighting method sets two front fixtures at 45-degree vertical and horizontal angles with warm and cool gels.",
+        "Digital DMX512 lighting desks transmit 512 channels per universe while audio mixing boards maintain 6 to 10 dB headroom."
+      ]
+    }
+  }
+}

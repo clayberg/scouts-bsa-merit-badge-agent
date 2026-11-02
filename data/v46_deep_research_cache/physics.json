@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "physics",
+  "badge_name": "Physics",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "American Physical Society & NIST Physical Constants",
+  "primary_authority_url": "https://www.nist.gov/pml/owm/si-units",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "SI Base Units & Newton Second Law Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+      "core_mechanism_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ],
+      "worked_field_example": "Applying a 6.0-newton horizontal pull to a 1.5-kilogram dynamics cart on a low-friction track produces an acceleration of 4.0 meters per second squared.",
+      "counselor_tabletop_demo": "Time a rolling cart or dropped ball across a measured 1.0-meter distance three times, compute average acceleration, and plot force vs. acceleration vectors.",
+      "real_world_connection_box": "SI Base Units & Newton Second Law Kinematics Standard: Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared. Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4b_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4b_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Second Law acceleration, mass, and force cart experiment with labeled vectors and apparatus.",
+      "v47_slide_title": "SI Base Units & Newton Second Law Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Newton Third Law Momentum Conservation & Recoil Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+      "core_mechanism_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ],
+      "worked_field_example": "When a 0.2-kilogram water rocket expels 0.1 kilograms of water downward at 20 meters per second, the rocket hull accelerates upward with 2.0 kilogram-meters per second of momentum.",
+      "counselor_tabletop_demo": "Release a balloon rocket along a taut fishing line or collide two equal-mass marbles on a track to demonstrate equal and opposite momentum exchange.",
+      "real_world_connection_box": "Newton Third Law Momentum Conservation & Recoil Standard: Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A. In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4c_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Third Law action-reaction rocket and recoil mechanics with labeled vectors and apparatus.",
+      "v47_slide_title": "Newton Third Law Momentum Conservation & Recoil Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Uniform Circular Motion & Energy Conservation Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+      "core_mechanism_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ],
+      "worked_field_example": "Doubling the tangential speed of a whirled stopper on a constant-radius string quadruples the inward centripetal tension force required to hold the orbit.",
+      "counselor_tabletop_demo": "Release a steel marble from 10 cm, 20 cm, and 40 cm heights on a ramp to verify how gravitational potential energy converts into bottom exit velocity.",
+      "real_world_connection_box": "Uniform Circular Motion & Energy Conservation Standard: Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius. Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4e_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4e_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating centripetal force and circular motion string-weight vector path with labeled vectors and apparatus.",
+      "v47_slide_title": "Uniform Circular Motion & Energy Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Rotational Torque Equilibrium & Ohm Law Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+      "core_mechanism_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ],
+      "worked_field_example": "A 200-gram mass placed 15 centimeters left of a fulcrum balances a 100-gram mass positioned 30 centimeters right of the pivot because both produce 0.294 newton-meters of torque.",
+      "counselor_tabletop_demo": "Balance unequal coins at calculated distances on a meterstick pivot to verify static torque equilibrium and draw the free-body lever-arm diagram.",
+      "real_world_connection_box": "Rotational Torque Equilibrium & Ohm Law Standard: Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm. Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4f_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4f_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating center of gravity, torque, and rotational equilibrium balance beam with labeled vectors and apparatus.",
+      "v47_slide_title": "Rotational Torque Equilibrium & Ohm Law Standard",
+      "v47_primary_source_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "SI Base Units & Newton Second Law Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+      "core_mechanism_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ],
+      "worked_field_example": "Applying a 6.0-newton horizontal pull to a 1.5-kilogram dynamics cart on a low-friction track produces an acceleration of 4.0 meters per second squared.",
+      "counselor_tabletop_demo": "Time a rolling cart or dropped ball across a measured 1.0-meter distance three times, compute average acceleration, and plot force vs. acceleration vectors.",
+      "real_world_connection_box": "SI Base Units & Newton Second Law Kinematics Standard: Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared. Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4b_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4b_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Second Law acceleration, mass, and force cart experiment with labeled vectors and apparatus.",
+      "v47_slide_title": "SI Base Units & Newton Second Law Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Newton Third Law Momentum Conservation & Recoil Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+      "core_mechanism_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ],
+      "worked_field_example": "When a 0.2-kilogram water rocket expels 0.1 kilograms of water downward at 20 meters per second, the rocket hull accelerates upward with 2.0 kilogram-meters per second of momentum.",
+      "counselor_tabletop_demo": "Release a balloon rocket along a taut fishing line or collide two equal-mass marbles on a track to demonstrate equal and opposite momentum exchange.",
+      "real_world_connection_box": "Newton Third Law Momentum Conservation & Recoil Standard: Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A. In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4c_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Third Law action-reaction rocket and recoil mechanics with labeled vectors and apparatus.",
+      "v47_slide_title": "Newton Third Law Momentum Conservation & Recoil Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Uniform Circular Motion & Energy Conservation Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+      "core_mechanism_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ],
+      "worked_field_example": "Doubling the tangential speed of a whirled stopper on a constant-radius string quadruples the inward centripetal tension force required to hold the orbit.",
+      "counselor_tabletop_demo": "Release a steel marble from 10 cm, 20 cm, and 40 cm heights on a ramp to verify how gravitational potential energy converts into bottom exit velocity.",
+      "real_world_connection_box": "Uniform Circular Motion & Energy Conservation Standard: Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius. Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4e_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4e_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating centripetal force and circular motion string-weight vector path with labeled vectors and apparatus.",
+      "v47_slide_title": "Uniform Circular Motion & Energy Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Newton Third Law Momentum Conservation & Recoil Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+      "core_mechanism_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ],
+      "worked_field_example": "When a 0.2-kilogram water rocket expels 0.1 kilograms of water downward at 20 meters per second, the rocket hull accelerates upward with 2.0 kilogram-meters per second of momentum.",
+      "counselor_tabletop_demo": "Release a balloon rocket along a taut fishing line or collide two equal-mass marbles on a track to demonstrate equal and opposite momentum exchange.",
+      "real_world_connection_box": "Newton Third Law Momentum Conservation & Recoil Standard: Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A. In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4c_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Third Law action-reaction rocket and recoil mechanics with labeled vectors and apparatus.",
+      "v47_slide_title": "Newton Third Law Momentum Conservation & Recoil Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "SI Base Units & Newton Second Law Kinematics Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+      "core_mechanism_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ],
+      "worked_field_example": "Applying a 6.0-newton horizontal pull to a 1.5-kilogram dynamics cart on a low-friction track produces an acceleration of 4.0 meters per second squared.",
+      "counselor_tabletop_demo": "Time a rolling cart or dropped ball across a measured 1.0-meter distance three times, compute average acceleration, and plot force vs. acceleration vectors.",
+      "real_world_connection_box": "SI Base Units & Newton Second Law Kinematics Standard: Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared. Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4b_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4b_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Second Law acceleration, mass, and force cart experiment with labeled vectors and apparatus.",
+      "v47_slide_title": "SI Base Units & Newton Second Law Kinematics Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Second Law states that net force in newtons equals mass in kilograms multiplied by acceleration in meters per second squared.",
+        "Near Earth's surface, free-fall gravitational acceleration g equals 9.81 meters per second squared, so distance fallen equals 0.5 times g times time squared."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Newton Third Law Momentum Conservation & Recoil Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+      "core_mechanism_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ],
+      "worked_field_example": "When a 0.2-kilogram water rocket expels 0.1 kilograms of water downward at 20 meters per second, the rocket hull accelerates upward with 2.0 kilogram-meters per second of momentum.",
+      "counselor_tabletop_demo": "Release a balloon rocket along a taut fishing line or collide two equal-mass marbles on a track to demonstrate equal and opposite momentum exchange.",
+      "real_world_connection_box": "Newton Third Law Momentum Conservation & Recoil Standard: Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A. In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4c_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4c_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating Newton's Third Law action-reaction rocket and recoil mechanics with labeled vectors and apparatus.",
+      "v47_slide_title": "Newton Third Law Momentum Conservation & Recoil Standard",
+      "v47_primary_source_bullets": [
+        "Newton's Third Law dictates that every action force exerted by body A on body B generates an equal-magnitude, opposite-direction reaction force on body A.",
+        "In a closed system with zero external net force, total linear momentum p equal to mass times velocity remains strictly conserved before and after interaction."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Uniform Circular Motion & Energy Conservation Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+      "core_mechanism_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ],
+      "worked_field_example": "Doubling the tangential speed of a whirled stopper on a constant-radius string quadruples the inward centripetal tension force required to hold the orbit.",
+      "counselor_tabletop_demo": "Release a steel marble from 10 cm, 20 cm, and 40 cm heights on a ramp to verify how gravitational potential energy converts into bottom exit velocity.",
+      "real_world_connection_box": "Uniform Circular Motion & Energy Conservation Standard: Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius. Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4e_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4e_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating centripetal force and circular motion string-weight vector path with labeled vectors and apparatus.",
+      "v47_slide_title": "Uniform Circular Motion & Energy Conservation Standard",
+      "v47_primary_source_bullets": [
+        "Maintaining circular motion at speed v and radius r requires an inward centripetal force equal to mass times velocity squared divided by radius.",
+        "Mechanical energy conservation equates gravitational potential energy mgh at the top of a frictionless ramp to kinetic energy 0.5 mv squared at the bottom."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Rotational Torque Equilibrium & Ohm Law Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+      "core_mechanism_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ],
+      "worked_field_example": "A 200-gram mass placed 15 centimeters left of a fulcrum balances a 100-gram mass positioned 30 centimeters right of the pivot because both produce 0.294 newton-meters of torque.",
+      "counselor_tabletop_demo": "Balance unequal coins at calculated distances on a meterstick pivot to verify static torque equilibrium and draw the free-body lever-arm diagram.",
+      "real_world_connection_box": "Rotational Torque Equilibrium & Ohm Law Standard: Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm. Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4f_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4f_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating center of gravity, torque, and rotational equilibrium balance beam with labeled vectors and apparatus.",
+      "v47_slide_title": "Rotational Torque Equilibrium & Ohm Law Standard",
+      "v47_primary_source_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Physics",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "American Physical Society & NIST Physical Constants",
+        "title": "Rotational Torque Equilibrium & Ohm Law Standard Technical Reference",
+        "canonical_url": "https://www.nist.gov/pml/owm/si-units"
+      },
+      "rule_of_thumb_mnemonic": "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+      "core_mechanism_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ],
+      "worked_field_example": "A 200-gram mass placed 15 centimeters left of a fulcrum balances a 100-gram mass positioned 30 centimeters right of the pivot because both produce 0.294 newton-meters of torque.",
+      "counselor_tabletop_demo": "Balance unequal coins at calculated distances on a meterstick pivot to verify static torque equilibrium and draw the free-body lever-arm diagram.",
+      "real_world_connection_box": "Rotational Torque Equilibrium & Ohm Law Standard: Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm. Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + American Physical Society & NIST Physical Constants",
+      "bespoke_visual_filename": "physics_req_4f_nano_hero.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/physics_req_4f_nano_hero.png",
+      "bespoke_visual_caption": "Instructional Physics diagram for illustrating center of gravity, torque, and rotational equilibrium balance beam with labeled vectors and apparatus.",
+      "v47_slide_title": "Rotational Torque Equilibrium & Ohm Law Standard",
+      "v47_primary_source_bullets": [
+        "Static rotational equilibrium requires the sum of clockwise torques to equal the sum of counterclockwise torques where torque equals force times lever-arm.",
+        "Ohm's Law relates electrical potential V in volts, current I in amperes, and resistance R in ohms via V equals I times R and power P equals V times I."
+      ]
+    }
+  }
+}

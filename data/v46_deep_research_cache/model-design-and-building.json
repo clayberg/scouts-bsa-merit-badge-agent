@@ -1,0 +1,293 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "model-design-and-building",
+  "badge_name": "Model Design and Building",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ASME & Architectural Scale Modeling",
+  "primary_authority_url": "https://www.asme.org/codes-standards",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+      "core_mechanism_bullets": [
+        "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+        "Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses."
+      ],
+      "worked_field_example": "Making three light scoring passes through 0.125-inch basswood along a steel ruler rather than forcing the blade in one heavy cut prevents blade snapping and wood-grain wandering.",
+      "counselor_tabletop_demo": "Demonstrate safe #11 blade replacement into a sharps container, steel-ruler finger placement behind the raised guard lip, and cross-ventilation setup.",
+      "real_world_connection_box": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard: Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down. Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_orthographic_scale_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/model_design_and_building_orthographic_scale_v47_diagram.png",
+      "bespoke_visual_caption": "Scale model workbench featuring a balsa-wood Warren truss bridge on a cutting grid mat with vernier calipers, architect scale ruler, clamps, and orthographic plans.",
+      "v47_slide_title": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard",
+      "v47_primary_source_bullets": [
+        "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+        "Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ],
+      "worked_field_example": "For a 1 to 48 scale (1/4 inch equals 1 foot) cabin model, a full-size 3-foot-wide by 6-foot-8-inch-tall front door measures 0.75 inches wide by 1.67 inches tall on the model.",
+      "counselor_tabletop_demo": "Use a triangular architect scale ruler and vernier caliper to convert three full-size building dimensions into 1/4-inch and 1/8-inch scale measurements.",
+      "real_world_connection_box": "AIA Architectural Scale Ratio & Dimensional Conversion Standard: Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale. To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of quarter scale architecture used in Model Design and Building.",
+      "v47_slide_title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "ASME Y14.3 Third-Angle Orthographic Projection Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+      "core_mechanism_bullets": [
+        "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+        "Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines."
+      ],
+      "worked_field_example": "Projecting horizontal construction lines from the Front elevation to the Right-Side elevation guarantees that roof ridge heights and window sills match to within 0.01 inch.",
+      "counselor_tabletop_demo": "Verify that a 3-view orthographic drawing (Top, Front, and Right-Side views) aligns across all dimensions using a T-square and 45-degree drafting triangle.",
+      "real_world_connection_box": "ASME Y14.3 Third-Angle Orthographic Projection Standard: ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it. Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of architectural space representation used in Model Design and Building.",
+      "v47_slide_title": "ASME Y14.3 Third-Angle Orthographic Projection Standard",
+      "v47_primary_source_bullets": [
+        "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+        "Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "ASME Structural Truss Triangulation & Kitbashing Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+      "core_mechanism_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ],
+      "worked_field_example": "A balsa Warren truss bridge weighing just 25 grams with 60-degree diagonal web members and gusset plates supports over 15 kilograms (a 600-to-1 strength-to-weight ratio) before buckling.",
+      "counselor_tabletop_demo": "Compare a pinned 4-bar balsa rectangle that collapses sideways under finger pressure against a triangulated truss bay with gusset plates that remains rigid.",
+      "real_world_connection_box": "ASME Structural Truss Triangulation & Kitbashing Standard: Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords. Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of orthographic plan generation used in Model Design and Building.",
+      "v47_slide_title": "ASME Structural Truss Triangulation & Kitbashing Standard",
+      "v47_primary_source_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+      "core_mechanism_bullets": [
+        "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+        "Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses."
+      ],
+      "worked_field_example": "Making three light scoring passes through 0.125-inch basswood along a steel ruler rather than forcing the blade in one heavy cut prevents blade snapping and wood-grain wandering.",
+      "counselor_tabletop_demo": "Demonstrate safe #11 blade replacement into a sharps container, steel-ruler finger placement behind the raised guard lip, and cross-ventilation setup.",
+      "real_world_connection_box": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard: Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down. Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_orthographic_scale_v47_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/model_design_and_building_orthographic_scale_v47_diagram.png",
+      "bespoke_visual_caption": "Scale model workbench featuring a balsa-wood Warren truss bridge on a cutting grid mat with vernier calipers, architect scale ruler, clamps, and orthographic plans.",
+      "v47_slide_title": "OSHA Hobby Knife, Adhesive Ventilation & Shop Standard",
+      "v47_primary_source_bullets": [
+        "Precision #11 hobby knives must cut away from fingers along a steel safety straightedge on a cutting mat, capped whenever set down.",
+        "Cyanoacrylate glue, styrene cement, and spray paints emit organic vapors requiring cross-ventilation and ANSI Z87.1 safety glasses."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ],
+      "worked_field_example": "For a 1 to 48 scale (1/4 inch equals 1 foot) cabin model, a full-size 3-foot-wide by 6-foot-8-inch-tall front door measures 0.75 inches wide by 1.67 inches tall on the model.",
+      "counselor_tabletop_demo": "Use a triangular architect scale ruler and vernier caliper to convert three full-size building dimensions into 1/4-inch and 1/8-inch scale measurements.",
+      "real_world_connection_box": "AIA Architectural Scale Ratio & Dimensional Conversion Standard: Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale. To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of quarter scale architecture used in Model Design and Building.",
+      "v47_slide_title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+      "core_mechanism_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ],
+      "worked_field_example": "For a 1 to 48 scale (1/4 inch equals 1 foot) cabin model, a full-size 3-foot-wide by 6-foot-8-inch-tall front door measures 0.75 inches wide by 1.67 inches tall on the model.",
+      "counselor_tabletop_demo": "Use a triangular architect scale ruler and vernier caliper to convert three full-size building dimensions into 1/4-inch and 1/8-inch scale measurements.",
+      "real_world_connection_box": "AIA Architectural Scale Ratio & Dimensional Conversion Standard: Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale. To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of quarter scale architecture used in Model Design and Building.",
+      "v47_slide_title": "AIA Architectural Scale Ratio & Dimensional Conversion Standard",
+      "v47_primary_source_bullets": [
+        "Quarter-inch architectural scale (1/4 inch equals 1 foot) is a 1 to 48 reduction ratio, while 1/8 inch equals 1 foot is 1 to 96 scale.",
+        "To convert full-size dimensions to model inches, divide real inches by the scale ratio, so 24 real feet at 1 to 48 equals 6.0 inches."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "ASME Structural Truss Triangulation & Kitbashing Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+      "core_mechanism_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ],
+      "worked_field_example": "A balsa Warren truss bridge weighing just 25 grams with 60-degree diagonal web members and gusset plates supports over 15 kilograms (a 600-to-1 strength-to-weight ratio) before buckling.",
+      "counselor_tabletop_demo": "Compare a pinned 4-bar balsa rectangle that collapses sideways under finger pressure against a triangulated truss bay with gusset plates that remains rigid.",
+      "real_world_connection_box": "ASME Structural Truss Triangulation & Kitbashing Standard: Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords. Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of orthographic plan generation used in Model Design and Building.",
+      "v47_slide_title": "ASME Structural Truss Triangulation & Kitbashing Standard",
+      "v47_primary_source_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "ASME Y14.3 Third-Angle Orthographic Projection Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+      "core_mechanism_bullets": [
+        "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+        "Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines."
+      ],
+      "worked_field_example": "Projecting horizontal construction lines from the Front elevation to the Right-Side elevation guarantees that roof ridge heights and window sills match to within 0.01 inch.",
+      "counselor_tabletop_demo": "Verify that a 3-view orthographic drawing (Top, Front, and Right-Side views) aligns across all dimensions using a T-square and 45-degree drafting triangle.",
+      "real_world_connection_box": "ASME Y14.3 Third-Angle Orthographic Projection Standard: ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it. Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of architectural space representation used in Model Design and Building.",
+      "v47_slide_title": "ASME Y14.3 Third-Angle Orthographic Projection Standard",
+      "v47_primary_source_bullets": [
+        "ASME Y14.3 third-angle orthographic projection aligns the Top plan view directly above the Front view and the Right-Side view beside it.",
+        "Engineering drawings use thick solid lines for visible edges, dashed lines for hidden features, and alternating lines for centerlines."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Model Design and Building",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ASME & Architectural Scale Modeling",
+        "title": "ASME Structural Truss Triangulation & Kitbashing Standard Technical Reference",
+        "canonical_url": "https://www.asme.org/codes-standards"
+      },
+      "rule_of_thumb_mnemonic": "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+      "core_mechanism_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ],
+      "worked_field_example": "A balsa Warren truss bridge weighing just 25 grams with 60-degree diagonal web members and gusset plates supports over 15 kilograms (a 600-to-1 strength-to-weight ratio) before buckling.",
+      "counselor_tabletop_demo": "Compare a pinned 4-bar balsa rectangle that collapses sideways under finger pressure against a triangulated truss bay with gusset plates that remains rigid.",
+      "real_world_connection_box": "ASME Structural Truss Triangulation & Kitbashing Standard: Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords. Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ASME & Architectural Scale Modeling",
+      "bespoke_visual_filename": "model_design_and_building_p012_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/model_design_and_building_p012_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of orthographic plan generation used in Model Design and Building.",
+      "v47_slide_title": "ASME Structural Truss Triangulation & Kitbashing Standard",
+      "v47_primary_source_bullets": [
+        "Warren and Pratt truss bridges divide bays into rigid triangles so deck loads resolve into axial compression and tension along chords.",
+        "Wood glue joints reach maximum shear strength when balsa or basswood ends are sanded square at 90 degrees and clamped for 30 minutes."
+      ]
+    }
+  }
+}

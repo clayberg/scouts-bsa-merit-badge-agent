@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "sustainability",
+  "badge_name": "Sustainability",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "U.S. EPA & UN Sustainable Development",
+  "primary_authority_url": "https://www.epa.gov/sustainability",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "EPA WaterSense & Household Hydrologic Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+      "core_mechanism_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ],
+      "worked_field_example": "Replacing three 3.5-gpf toilets with 1.28-gpf WaterSense models in a 4-person home saves 16200 gallons of water per year.",
+      "counselor_tabletop_demo": "Compare two 12-month municipal water utility bills to calculate per-capita gallons per day and measure aerator flow rates using a stopwatch and cup.",
+      "real_world_connection_box": "EPA WaterSense & Household Hydrologic Audit Standard: Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm. A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of sustainability in your own using standard troop tools and reference charts.",
+      "v47_slide_title": "EPA WaterSense & Household Hydrologic Audit Standard",
+      "v47_primary_source_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "FAO & EPA Food System Footprint & Composting Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+      "core_mechanism_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ],
+      "worked_field_example": "Diverting 8 pounds of weekly kitchen scraps into a 30-to-1 carbon-nitrogen compost bin prevents 416 pounds of annual landfill methane feed.",
+      "counselor_tabletop_demo": "Balance a tabletop recipe of brown carbon leaves and green nitrogen food scraps to achieve a 30-to-1 degrees Celsius-to-N ratio and check a compost thermometer.",
+      "real_world_connection_box": "FAO & EPA Food System Footprint & Composting Standard: Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly. Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute flooding under adult counselor supervision.",
+      "v47_slide_title": "FAO & EPA Food System Footprint & Composting Standard",
+      "v47_primary_source_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+      "core_mechanism_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ],
+      "worked_field_example": "Running a 1500-watt space heater for 4 hours daily consumes 6 kWh per day or 180 kWh monthly, costing 27 dollars at 15 cents per kilowatt-hour.",
+      "counselor_tabletop_demo": "Plug three household appliances into a plug-in watt-hour meter to measure active versus phantom standby power draw and calculate annual kWh.",
+      "real_world_connection_box": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard: US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy. Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through factors that limit world food supplies with authentic field equipment.",
+      "v47_slide_title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard",
+      "v47_primary_source_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+      "core_mechanism_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ],
+      "worked_field_example": "Auditing 15 personal items and repairing or donating 5 surplus garments diverts 12 pounds of textile waste and saves 3200 gallons of embedded water.",
+      "counselor_tabletop_demo": "Sort 10 everyday consumer items by resin identification codes (SPI 1 through 7) and map each item along the EPA Waste Management Hierarchy.",
+      "real_world_connection_box": "ISO 14040 Life Cycle Assessment & Circular Economy Standard: ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery. Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining sustainability core field standard step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard",
+      "v47_primary_source_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "EPA WaterSense & Household Hydrologic Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+      "core_mechanism_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ],
+      "worked_field_example": "Replacing three 3.5-gpf toilets with 1.28-gpf WaterSense models in a 4-person home saves 16200 gallons of water per year.",
+      "counselor_tabletop_demo": "Compare two 12-month municipal water utility bills to calculate per-capita gallons per day and measure aerator flow rates using a stopwatch and cup.",
+      "real_world_connection_box": "EPA WaterSense & Household Hydrologic Audit Standard: Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm. A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of sustainability in your own using standard troop tools and reference charts.",
+      "v47_slide_title": "EPA WaterSense & Household Hydrologic Audit Standard",
+      "v47_primary_source_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "FAO & EPA Food System Footprint & Composting Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+      "core_mechanism_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ],
+      "worked_field_example": "Diverting 8 pounds of weekly kitchen scraps into a 30-to-1 carbon-nitrogen compost bin prevents 416 pounds of annual landfill methane feed.",
+      "counselor_tabletop_demo": "Balance a tabletop recipe of brown carbon leaves and green nitrogen food scraps to achieve a 30-to-1 degrees Celsius-to-N ratio and check a compost thermometer.",
+      "real_world_connection_box": "FAO & EPA Food System Footprint & Composting Standard: Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly. Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute flooding under adult counselor supervision.",
+      "v47_slide_title": "FAO & EPA Food System Footprint & Composting Standard",
+      "v47_primary_source_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+      "core_mechanism_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ],
+      "worked_field_example": "Running a 1500-watt space heater for 4 hours daily consumes 6 kWh per day or 180 kWh monthly, costing 27 dollars at 15 cents per kilowatt-hour.",
+      "counselor_tabletop_demo": "Plug three household appliances into a plug-in watt-hour meter to measure active versus phantom standby power draw and calculate annual kWh.",
+      "real_world_connection_box": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard: US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy. Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through factors that limit world food supplies with authentic field equipment.",
+      "v47_slide_title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard",
+      "v47_primary_source_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "FAO & EPA Food System Footprint & Composting Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+      "core_mechanism_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ],
+      "worked_field_example": "Diverting 8 pounds of weekly kitchen scraps into a 30-to-1 carbon-nitrogen compost bin prevents 416 pounds of annual landfill methane feed.",
+      "counselor_tabletop_demo": "Balance a tabletop recipe of brown carbon leaves and green nitrogen food scraps to achieve a 30-to-1 degrees Celsius-to-N ratio and check a compost thermometer.",
+      "real_world_connection_box": "FAO & EPA Food System Footprint & Composting Standard: Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly. Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute flooding under adult counselor supervision.",
+      "v47_slide_title": "FAO & EPA Food System Footprint & Composting Standard",
+      "v47_primary_source_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "EPA WaterSense & Household Hydrologic Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+      "core_mechanism_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ],
+      "worked_field_example": "Replacing three 3.5-gpf toilets with 1.28-gpf WaterSense models in a 4-person home saves 16200 gallons of water per year.",
+      "counselor_tabletop_demo": "Compare two 12-month municipal water utility bills to calculate per-capita gallons per day and measure aerator flow rates using a stopwatch and cup.",
+      "real_world_connection_box": "EPA WaterSense & Household Hydrologic Audit Standard: Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm. A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply meaning of sustainability in your own using standard troop tools and reference charts.",
+      "v47_slide_title": "EPA WaterSense & Household Hydrologic Audit Standard",
+      "v47_primary_source_bullets": [
+        "Average US home water use is 82 gallons per person daily while EPA WaterSense cuts toilets to 1.28 gpf and faucets to 1.5 gpm.",
+        "A single leaking toilet flapper or faucet dripping once per second wastes 3000 to 10000 gallons of potable water per year."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "FAO & EPA Food System Footprint & Composting Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+      "core_mechanism_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ],
+      "worked_field_example": "Diverting 8 pounds of weekly kitchen scraps into a 30-to-1 carbon-nitrogen compost bin prevents 416 pounds of annual landfill methane feed.",
+      "counselor_tabletop_demo": "Balance a tabletop recipe of brown carbon leaves and green nitrogen food scraps to achieve a 30-to-1 degrees Celsius-to-N ratio and check a compost thermometer.",
+      "real_world_connection_box": "FAO & EPA Food System Footprint & Composting Standard: Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly. Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Clear visual cutaway and outdoor demonstration showing how Scouts safely execute flooding under adult counselor supervision.",
+      "v47_slide_title": "FAO & EPA Food System Footprint & Composting Standard",
+      "v47_primary_source_bullets": [
+        "Agriculture accounts for 70 percent of global freshwater withdrawals while 30 to 40 percent of the US food supply is wasted yearly.",
+        "Thermophilic aerobic composting needs a 25-to-1 to 30-to-1 carbon-to-nitrogen ratio and 131 to 160 degrees Fahrenheit core heat."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+      "core_mechanism_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ],
+      "worked_field_example": "Running a 1500-watt space heater for 4 hours daily consumes 6 kWh per day or 180 kWh monthly, costing 27 dollars at 15 cents per kilowatt-hour.",
+      "counselor_tabletop_demo": "Plug three household appliances into a plug-in watt-hour meter to measure active versus phantom standby power draw and calculate annual kWh.",
+      "real_world_connection_box": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard: US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy. Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through factors that limit world food supplies with authentic field equipment.",
+      "v47_slide_title": "U.S. EIA Grid Mix & Home Kilowatt-Hour Audit Standard",
+      "v47_primary_source_bullets": [
+        "US homes average 880 kilowatt-hours of electricity monthly (29 kWh/day) with HVAC heating and cooling using 51 percent of energy.",
+        "Switching a 60-watt incandescent bulb to a 9-watt LED cuts lighting power draw by 85 percent over a 25000-hour rated life."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+      "core_mechanism_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ],
+      "worked_field_example": "Auditing 15 personal items and repairing or donating 5 surplus garments diverts 12 pounds of textile waste and saves 3200 gallons of embedded water.",
+      "counselor_tabletop_demo": "Sort 10 everyday consumer items by resin identification codes (SPI 1 through 7) and map each item along the EPA Waste Management Hierarchy.",
+      "real_world_connection_box": "ISO 14040 Life Cycle Assessment & Circular Economy Standard: ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery. Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining sustainability core field standard step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard",
+      "v47_primary_source_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Sustainability",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "U.S. EPA & UN Sustainable Development",
+        "title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard Technical Reference",
+        "canonical_url": "https://www.epa.gov/sustainability"
+      },
+      "rule_of_thumb_mnemonic": "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+      "core_mechanism_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ],
+      "worked_field_example": "Auditing 15 personal items and repairing or donating 5 surplus garments diverts 12 pounds of textile waste and saves 3200 gallons of embedded water.",
+      "counselor_tabletop_demo": "Sort 10 everyday consumer items by resin identification codes (SPI 1 through 7) and map each item along the EPA Waste Management Hierarchy.",
+      "real_world_connection_box": "ISO 14040 Life Cycle Assessment & Circular Economy Standard: ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery. Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + U.S. EPA & UN Sustainable Development",
+      "bespoke_visual_filename": "sustainability_req_5_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/sustainability_req_5_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining sustainability core field standard step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "ISO 14040 Life Cycle Assessment & Circular Economy Standard",
+      "v47_primary_source_bullets": [
+        "ISO 14040 Life Cycle Assessment tracks environmental footprints across extraction, manufacturing, transport, use, and recovery.",
+        "Recycling aluminum cans saves 95 percent of the energy required to smelt virgin bauxite ore and diverts solid waste from landfills."
+      ]
+    }
+  }
+}

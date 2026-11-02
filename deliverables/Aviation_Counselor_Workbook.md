@@ -1,8 +1,8 @@
 # Aviation Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
-**Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Aviation.pdf  
-**Digital Resource Guide (DRG):** 
+**Counselor:** Eric Clayberg (Troop 19, Middleton MA) - `clayberg@gmail.com • (978) 555-0119`
+**Official Pamphlet PDF:** https://www.scouting.org/merit-badges/aviation/  
+**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/aviation/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -25,7 +25,7 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 2:** Principles of Flight. Do ONE of the following: (a) Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models. (b) Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight line, with a smooth landing. (c) Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft with a successful take-off and landing.
+- [ ] **Station Req 2:** Scout must individually demonstrate mastery of Requirement 2 to the Merit Badge Counselor.
 
 ## 4. Counselor Facilitation Guide, Expected Answer Keys & Verification Rubrics
 
@@ -47,7 +47,7 @@
 - **Common Myth:** Every flying vehicle requires fixed wings to qualify as an aircraft.
 - **Pamphlet Fact:** Any machine supported by air buoyancy or aerodynamic action is legally an aircraft.
 
-![Airfoil Pressure Differential diagram illustrating how air moving faster over curved upper surfaces reduces static pressure above wings.](/assets/pamphlet_images/aviation_p003_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of airfoil pressure differential used in Aviation.](/assets/pamphlet_images/aviation_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -198,7 +198,7 @@
 - **Common Myth:** Throwing the foam glider with maximum physical force produces the greatest flight distance.
 - **Pamphlet Fact:** A gentle, level release maintains laminar airflow and avoids immediate aerodynamic stalling.
 
-![Center of Gravity Balance diagram illustrating how proper ballast placement ensures longitudinal stability during unpowered gliding flight.](/assets/pamphlet_images/aviation_p007_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of center of gravity balance used in Aviation.](/assets/pamphlet_images/aviation_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -262,7 +262,7 @@
 - **Common Myth:** Flight simulators behave like arcade games that require no real aerodynamic trim.
 - **Pamphlet Fact:** Modern flight simulators model realistic aerodynamics, requiring constant elevator trim and power management.
 
-![Exterior Preflight Walkaround diagram illustrating how visual checks detect fuel contamination, structural damage, and control hinge defects.](/assets/pamphlet_images/aviation_p012_img1.png)
+![Cross-sectional diagram showing key parts and mechanical relationships of exterior preflight walkaround used in Aviation.](/assets/pamphlet_images/aviation_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

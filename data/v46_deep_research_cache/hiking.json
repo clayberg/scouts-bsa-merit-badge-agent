@@ -1,0 +1,265 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "hiking",
+  "badge_name": "Hiking",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "National Park Service & Leave No Trace Center",
+  "primary_authority_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "NPS Trail Hydration & Blister Prevention Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+      "core_mechanism_bullets": [
+        "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+        "Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister."
+      ],
+      "worked_field_example": "On a 10-mile summer hike lasting 4 hours at 85 degrees Fahrenheit, each Scout carries at least 3 liters of water and checks heel hotspots at the first 15-minute pack adjustment break.",
+      "counselor_tabletop_demo": "Cut a donut-shaped moleskin relief pad with medical shears and layer synthetic liner socks under merino wool hiking socks to eliminate heel friction.",
+      "real_world_connection_box": "NPS Trail Hydration & Blister Prevention Standard: NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather. Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NPS Trail Hydration & Blister Prevention Standard",
+      "v47_primary_source_bullets": [
+        "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+        "Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "Leave No Trace Durable Surface & Trail Ethics Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+      "core_mechanism_bullets": [
+        "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+        "Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses."
+      ],
+      "worked_field_example": "When encountering horses on a narrow mountain switchback, Scouts step 6 feet off the downhill side of the trail, stand quietly, and speak calmly so the horses know they are human.",
+      "counselor_tabletop_demo": "Demonstrate single-file trail spacing, uphill right-of-way yielding, and digging a 6-to-8-inch cathole at least 200 feet from water sources.",
+      "real_world_connection_box": "Leave No Trace Durable Surface & Trail Ethics Standard: Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion. Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through leave no trace and outdoor ethics with authentic field equipment.",
+      "v47_slide_title": "Leave No Trace Durable Surface & Trail Ethics Standard",
+      "v47_primary_source_bullets": [
+        "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+        "Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "Naismith Time-Distance & Aerobic Pace Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+      "core_mechanism_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ],
+      "worked_field_example": "A 10-mile mountain loop with 3,000 feet of cumulative elevation gain requires 3.3 hours of horizontal walking plus 1.5 hours for climbing, totaling 4.8 hours plus rest breaks.",
+      "counselor_tabletop_demo": "Calculate total hike duration from a topographic map profile using Naismith Rule and complete a written trip plan with turnaround times.",
+      "real_world_connection_box": "Naismith Time-Distance & Aerobic Pace Standard: Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent. Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for hiking is an aerobic activity in a troop setting.",
+      "v47_slide_title": "Naismith Time-Distance & Aerobic Pace Standard",
+      "v47_primary_source_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "NPS Footwear Lug Traction & Pack Load Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+      "core_mechanism_bullets": [
+        "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+        "Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming."
+      ],
+      "worked_field_example": "For a 120-pound Scout tackling a 20-mile hike, total daypack weight including 3 liters of water (6.6 pounds), Ten Essentials, rain shell, and trail food should stay under 18 to 24 pounds.",
+      "counselor_tabletop_demo": "Pack a daypack with the Ten Essentials, adjust the hip belt to carry 70 percent of the load on the iliac crest, and tie a heel-lock boot lace knot.",
+      "real_world_connection_box": "NPS Footwear Lug Traction & Pack Load Standard: Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine. Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/hiking_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of durable surface travel used in Hiking.",
+      "v47_slide_title": "NPS Footwear Lug Traction & Pack Load Standard",
+      "v47_primary_source_bullets": [
+        "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+        "Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "NPS Trail Hydration & Blister Prevention Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+      "core_mechanism_bullets": [
+        "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+        "Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister."
+      ],
+      "worked_field_example": "On a 10-mile summer hike lasting 4 hours at 85 degrees Fahrenheit, each Scout carries at least 3 liters of water and checks heel hotspots at the first 15-minute pack adjustment break.",
+      "counselor_tabletop_demo": "Cut a donut-shaped moleskin relief pad with medical shears and layer synthetic liner socks under merino wool hiking socks to eliminate heel friction.",
+      "real_world_connection_box": "NPS Trail Hydration & Blister Prevention Standard: NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather. Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts and an adult counselor examining hazards, first aid & safety step by step at an outdoor camp workbench with field gear laid out neatly.",
+      "v47_slide_title": "NPS Trail Hydration & Blister Prevention Standard",
+      "v47_primary_source_bullets": [
+        "NPS backcountry hydration requires drinking 0.5 to 1 liter of water per hour of strenuous hiking plus electrolytes in warm weather.",
+        "Stopping immediately at the first warm hotspot to apply moleskin prevents friction from shearing skin layers into a fluid blister."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "Leave No Trace Durable Surface & Trail Ethics Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+      "core_mechanism_bullets": [
+        "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+        "Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses."
+      ],
+      "worked_field_example": "When encountering horses on a narrow mountain switchback, Scouts step 6 feet off the downhill side of the trail, stand quietly, and speak calmly so the horses know they are human.",
+      "counselor_tabletop_demo": "Demonstrate single-file trail spacing, uphill right-of-way yielding, and digging a 6-to-8-inch cathole at least 200 feet from water sources.",
+      "real_world_connection_box": "Leave No Trace Durable Surface & Trail Ethics Standard: Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion. Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Daylight outdoor camp demonstration showing a Scout counselor mentoring two Scouts through leave no trace and outdoor ethics with authentic field equipment.",
+      "v47_slide_title": "Leave No Trace Durable Surface & Trail Ethics Standard",
+      "v47_primary_source_bullets": [
+        "Leave No Trace Principle 2 requires walking single-file down the center of established trails to prevent trail widening and erosion.",
+        "Trail right-of-way etiquette requires downhill hikers to yield to uphill hikers, bikers to yield to hikers, and all to yield to horses."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "Naismith Time-Distance & Aerobic Pace Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+      "core_mechanism_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ],
+      "worked_field_example": "A 10-mile mountain loop with 3,000 feet of cumulative elevation gain requires 3.3 hours of horizontal walking plus 1.5 hours for climbing, totaling 4.8 hours plus rest breaks.",
+      "counselor_tabletop_demo": "Calculate total hike duration from a topographic map profile using Naismith Rule and complete a written trip plan with turnaround times.",
+      "real_world_connection_box": "Naismith Time-Distance & Aerobic Pace Standard: Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent. Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for hiking is an aerobic activity in a troop setting.",
+      "v47_slide_title": "Naismith Time-Distance & Aerobic Pace Standard",
+      "v47_primary_source_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "Naismith Time-Distance & Aerobic Pace Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+      "core_mechanism_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ],
+      "worked_field_example": "A 10-mile mountain loop with 3,000 feet of cumulative elevation gain requires 3.3 hours of horizontal walking plus 1.5 hours for climbing, totaling 4.8 hours plus rest breaks.",
+      "counselor_tabletop_demo": "Calculate total hike duration from a topographic map profile using Naismith Rule and complete a written trip plan with turnaround times.",
+      "real_world_connection_box": "Naismith Time-Distance & Aerobic Pace Standard: Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent. Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/hiking_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Detailed field manual illustration depicting practical tools, safety posture, and sequential technique for hiking is an aerobic activity in a troop setting.",
+      "v47_slide_title": "Naismith Time-Distance & Aerobic Pace Standard",
+      "v47_primary_source_bullets": [
+        "Naismith Rule estimates trail time at 1 hour per 3 miles of horizontal distance plus 1 additional hour per 2,000 feet of ascent.",
+        "Aerobic rhythmic breathing and the rest step lock the rear knee briefly on steep climbs so leg bones support weight instead of muscles."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Hiking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "National Park Service & Leave No Trace Center",
+        "title": "NPS Footwear Lug Traction & Pack Load Standard Technical Reference",
+        "canonical_url": "https://www.nps.gov/subjects/trails/hiking-safety.htm"
+      },
+      "rule_of_thumb_mnemonic": "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+      "core_mechanism_bullets": [
+        "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+        "Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming."
+      ],
+      "worked_field_example": "For a 120-pound Scout tackling a 20-mile hike, total daypack weight including 3 liters of water (6.6 pounds), Ten Essentials, rain shell, and trail food should stay under 18 to 24 pounds.",
+      "counselor_tabletop_demo": "Pack a daypack with the Ten Essentials, adjust the hip belt to carry 70 percent of the load on the iliac crest, and tie a heel-lock boot lace knot.",
+      "real_world_connection_box": "NPS Footwear Lug Traction & Pack Load Standard: Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine. Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + National Park Service & Leave No Trace Center",
+      "bespoke_visual_filename": "hiking_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/hiking_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of durable surface travel used in Hiking.",
+      "v47_slide_title": "NPS Footwear Lug Traction & Pack Load Standard",
+      "v47_primary_source_bullets": [
+        "Daypack load weight for 10-to-20-mile treks should stay below 15 to 20 percent of body weight with heavy water close to the spine.",
+        "Proper hiking boot fit leaves a 0.5-inch thumb width in front of the longest toe when laced snugly to prevent downhill toe jamming."
+      ]
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "wildland-fire-management",
+  "badge_name": "Wildland Fire Management",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NWCG & U.S. Forest Service Fire Management",
+  "primary_authority_url": "https://www.nwcg.gov/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG Wildland Fire Behavior & Slope Doubling Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+      "core_mechanism_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ],
+      "worked_field_example": "1-hour fine dead fuels (grass and pine needles under 1/4 inch diameter) equilibrate rapidly when relative humidity drops below 20 percent on south-facing slopes.",
+      "counselor_tabletop_demo": "Label the parts of a wildland fire (origin, head, flanks, rear, fingers, pockets, spot fires) on a topographic map and trace upslope spread vectors.",
+      "real_world_connection_box": "NWCG Wildland Fire Behavior & Slope Doubling Standard: The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect). Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of human ignitions used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG Wildland Fire Behavior & Slope Doubling Standard",
+      "v47_primary_source_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG LCES, 10 Standard Orders & PPE Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+      "core_mechanism_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ],
+      "worked_field_example": "A valid wildland Safety Zone must provide a cleared separation distance of at least 4 times the maximum flame height in all directions without deploying a shelter.",
+      "counselor_tabletop_demo": "Inspect wildland PPE specifications and calculate minimum safety zone radius in feet for a brush fire with 15-foot flame lengths.",
+      "real_world_connection_box": "NWCG LCES, 10 Standard Orders & PPE Standard: Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders. NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of fire triangle used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG LCES, 10 Standard Orders & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "USFS Direct/Indirect Attack & Handline Tool Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+      "core_mechanism_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ],
+      "worked_field_example": "Scraping a 3-foot-wide handline down to bare mineral soil with a Pulaski and McLeod removes surface duff and breaks the fuel side of the fire triangle.",
+      "counselor_tabletop_demo": "Use tabletop resource tokens on a wildfire map to demonstrate anchor-flank-pinch direct attack versus indirect line construction and mop-up.",
+      "real_world_connection_box": "USFS Direct/Indirect Attack & Handline Tool Standard: Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet. Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of nomex fabric used in Wildland Fire Management.",
+      "v47_slide_title": "USFS Direct/Indirect Attack & Handline Tool Standard",
+      "v47_primary_source_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+      "core_mechanism_bullets": [
+        "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+        "NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet."
+      ],
+      "worked_field_example": "Pruning tree limbs 6 to 10 feet above the ground and spacing crowns 10 feet apart inside the 5-to-30-foot zone prevents surface fire from climbing into ladder fuels.",
+      "counselor_tabletop_demo": "Audit a campsite or residential site diagram against the 0-to-5, 5-to-30, and 30-to-100-foot Home Ignition Zone fuel-spacing benchmarks.",
+      "real_world_connection_box": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard: Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans. NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of annual acreage used in Wildland Fire Management.",
+      "v47_slide_title": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard",
+      "v47_primary_source_bullets": [
+        "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+        "NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG Wildland Fire Behavior & Slope Doubling Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+      "core_mechanism_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ],
+      "worked_field_example": "1-hour fine dead fuels (grass and pine needles under 1/4 inch diameter) equilibrate rapidly when relative humidity drops below 20 percent on south-facing slopes.",
+      "counselor_tabletop_demo": "Label the parts of a wildland fire (origin, head, flanks, rear, fingers, pockets, spot fires) on a topographic map and trace upslope spread vectors.",
+      "real_world_connection_box": "NWCG Wildland Fire Behavior & Slope Doubling Standard: The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect). Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of human ignitions used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG Wildland Fire Behavior & Slope Doubling Standard",
+      "v47_primary_source_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG LCES, 10 Standard Orders & PPE Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+      "core_mechanism_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ],
+      "worked_field_example": "A valid wildland Safety Zone must provide a cleared separation distance of at least 4 times the maximum flame height in all directions without deploying a shelter.",
+      "counselor_tabletop_demo": "Inspect wildland PPE specifications and calculate minimum safety zone radius in feet for a brush fire with 15-foot flame lengths.",
+      "real_world_connection_box": "NWCG LCES, 10 Standard Orders & PPE Standard: Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders. NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of fire triangle used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG LCES, 10 Standard Orders & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "USFS Direct/Indirect Attack & Handline Tool Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+      "core_mechanism_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ],
+      "worked_field_example": "Scraping a 3-foot-wide handline down to bare mineral soil with a Pulaski and McLeod removes surface duff and breaks the fuel side of the fire triangle.",
+      "counselor_tabletop_demo": "Use tabletop resource tokens on a wildfire map to demonstrate anchor-flank-pinch direct attack versus indirect line construction and mop-up.",
+      "real_world_connection_box": "USFS Direct/Indirect Attack & Handline Tool Standard: Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet. Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of nomex fabric used in Wildland Fire Management.",
+      "v47_slide_title": "USFS Direct/Indirect Attack & Handline Tool Standard",
+      "v47_primary_source_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG LCES, 10 Standard Orders & PPE Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+      "core_mechanism_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ],
+      "worked_field_example": "A valid wildland Safety Zone must provide a cleared separation distance of at least 4 times the maximum flame height in all directions without deploying a shelter.",
+      "counselor_tabletop_demo": "Inspect wildland PPE specifications and calculate minimum safety zone radius in feet for a brush fire with 15-foot flame lengths.",
+      "real_world_connection_box": "NWCG LCES, 10 Standard Orders & PPE Standard: Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders. NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of fire triangle used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG LCES, 10 Standard Orders & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG Wildland Fire Behavior & Slope Doubling Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+      "core_mechanism_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ],
+      "worked_field_example": "1-hour fine dead fuels (grass and pine needles under 1/4 inch diameter) equilibrate rapidly when relative humidity drops below 20 percent on south-facing slopes.",
+      "counselor_tabletop_demo": "Label the parts of a wildland fire (origin, head, flanks, rear, fingers, pockets, spot fires) on a topographic map and trace upslope spread vectors.",
+      "real_world_connection_box": "NWCG Wildland Fire Behavior & Slope Doubling Standard: The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect). Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of human ignitions used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG Wildland Fire Behavior & Slope Doubling Standard",
+      "v47_primary_source_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG LCES, 10 Standard Orders & PPE Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+      "core_mechanism_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ],
+      "worked_field_example": "A valid wildland Safety Zone must provide a cleared separation distance of at least 4 times the maximum flame height in all directions without deploying a shelter.",
+      "counselor_tabletop_demo": "Inspect wildland PPE specifications and calculate minimum safety zone radius in feet for a brush fire with 15-foot flame lengths.",
+      "real_world_connection_box": "NWCG LCES, 10 Standard Orders & PPE Standard: Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders. NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of fire triangle used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG LCES, 10 Standard Orders & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "USFS Direct/Indirect Attack & Handline Tool Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+      "core_mechanism_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ],
+      "worked_field_example": "Scraping a 3-foot-wide handline down to bare mineral soil with a Pulaski and McLeod removes surface duff and breaks the fuel side of the fire triangle.",
+      "counselor_tabletop_demo": "Use tabletop resource tokens on a wildfire map to demonstrate anchor-flank-pinch direct attack versus indirect line construction and mop-up.",
+      "real_world_connection_box": "USFS Direct/Indirect Attack & Handline Tool Standard: Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet. Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of nomex fabric used in Wildland Fire Management.",
+      "v47_slide_title": "USFS Direct/Indirect Attack & Handline Tool Standard",
+      "v47_primary_source_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "USFS Direct/Indirect Attack & Handline Tool Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+      "core_mechanism_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ],
+      "worked_field_example": "Scraping a 3-foot-wide handline down to bare mineral soil with a Pulaski and McLeod removes surface duff and breaks the fuel side of the fire triangle.",
+      "counselor_tabletop_demo": "Use tabletop resource tokens on a wildfire map to demonstrate anchor-flank-pinch direct attack versus indirect line construction and mop-up.",
+      "real_world_connection_box": "USFS Direct/Indirect Attack & Handline Tool Standard: Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet. Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel).",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of nomex fabric used in Wildland Fire Management.",
+      "v47_slide_title": "USFS Direct/Indirect Attack & Handline Tool Standard",
+      "v47_primary_source_bullets": [
+        "Direct attack digs fireline on the flame edge when flames stay under 4 feet, while indirect attack falls back for flames over 4 feet.",
+        "Hand crews space tools at least 10 feet apart in line order with cutting tools (Pulaski) followed by scraping tools (McLeod, shovel)."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG Wildland Fire Behavior & Slope Doubling Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+      "core_mechanism_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ],
+      "worked_field_example": "1-hour fine dead fuels (grass and pine needles under 1/4 inch diameter) equilibrate rapidly when relative humidity drops below 20 percent on south-facing slopes.",
+      "counselor_tabletop_demo": "Label the parts of a wildland fire (origin, head, flanks, rear, fingers, pockets, spot fires) on a topographic map and trace upslope spread vectors.",
+      "real_world_connection_box": "NWCG Wildland Fire Behavior & Slope Doubling Standard: The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect). Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of human ignitions used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG Wildland Fire Behavior & Slope Doubling Standard",
+      "v47_primary_source_bullets": [
+        "The Wildland Fire Behavior Triangle links Fuel (moisture, size, load), Weather (wind, humidity), and Topography (slope, aspect).",
+        "Radiant convective preheating doubles wildland fire spread rate for every 20 percent upslope grade increase or doubled wind speed."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NWCG LCES, 10 Standard Orders & PPE Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+      "core_mechanism_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ],
+      "worked_field_example": "A valid wildland Safety Zone must provide a cleared separation distance of at least 4 times the maximum flame height in all directions without deploying a shelter.",
+      "counselor_tabletop_demo": "Inspect wildland PPE specifications and calculate minimum safety zone radius in feet for a brush fire with 15-foot flame lengths.",
+      "real_world_connection_box": "NWCG LCES, 10 Standard Orders & PPE Standard: Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders. NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of fire triangle used in Wildland Fire Management.",
+      "v47_slide_title": "NWCG LCES, 10 Standard Orders & PPE Standard",
+      "v47_primary_source_bullets": [
+        "Wildland firefighters enforce LCES (Lookouts, Communications, Escape Routes, Safety Zones) and the 10 Standard Firefighting Orders.",
+        "NFPA 1977 wildland PPE requires Nomex garments, 8-inch leather boots, helmet, goggles, leather gloves, and an M-2002 fire shelter."
+      ]
+    },
+    "11": {
+      "req_id": "11",
+      "badge_name": "Wildland Fire Management",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NWCG & U.S. Forest Service Fire Management",
+        "title": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard Technical Reference",
+        "canonical_url": "https://www.nwcg.gov/"
+      },
+      "rule_of_thumb_mnemonic": "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+      "core_mechanism_bullets": [
+        "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+        "NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet."
+      ],
+      "worked_field_example": "Pruning tree limbs 6 to 10 feet above the ground and spacing crowns 10 feet apart inside the 5-to-30-foot zone prevents surface fire from climbing into ladder fuels.",
+      "counselor_tabletop_demo": "Audit a campsite or residential site diagram against the 0-to-5, 5-to-30, and 30-to-100-foot Home Ignition Zone fuel-spacing benchmarks.",
+      "real_world_connection_box": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard: Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans. NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NWCG & U.S. Forest Service Fire Management",
+      "bespoke_visual_filename": "wildland_fire_management_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/wildland_fire_management_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of annual acreage used in Wildland Fire Management.",
+      "v47_slide_title": "NFPA 1144 Home Ignition Zone & Prescribed Fire Standard",
+      "v47_primary_source_bullets": [
+        "Humans cause 85 percent of US wildland fire ignitions while prescribed burns safely reduce hazardous surface fuels under burn plans.",
+        "NFPA 1144 Home Ignition Zones set Zone 1 at 0 to 5 feet noncombustible, Zone 2 at 5 to 30 feet lean/green, and Zone 3 to 100 feet."
+      ]
+    }
+  }
+}

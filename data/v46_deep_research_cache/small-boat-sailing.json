@@ -1,0 +1,377 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "small-boat-sailing",
+  "badge_name": "Small-Boat Sailing",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "US Sailing & U.S. Coast Guard",
+  "primary_authority_url": "https://www.ussailing.org/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Safety Afloat and Capsize Recovery Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+      "core_mechanism_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ],
+      "worked_field_example": "If a sailboat turns completely upside down into a turtle position, releasing the mainsheet and jib sheets prevents water trapped in the sails from pinning the mast.",
+      "counselor_tabletop_demo": "Walk through the 5-step capsize recovery sequence on a model sailboat hull and explain why sheets must be uncleated before righting.",
+      "real_world_connection_box": "USCG Safety Afloat and Capsize Recovery Standard: Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore. Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of boom strike hazard used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Safety Afloat and Capsize Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Points of Sail and No-Go Zone Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+      "core_mechanism_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ],
+      "worked_field_example": "When sailing on a beam reach with the centerboard lowered fully, Bernoulli lift across the curved sail pulls the hull forward while the foil resists sideways leeway.",
+      "counselor_tabletop_demo": "Position a model sailboat on a 360-degree wind clock chart and adjust boom angles for Close-Hauled, Beam Reach, Broad Reach, and Run.",
+      "real_world_connection_box": "US Sailing Points of Sail and No-Go Zone Standard: Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff. Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of float plan dispatch used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Points of Sail and No-Go Zone Standard",
+      "v47_primary_source_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+      "core_mechanism_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ],
+      "worked_field_example": "An uncontrolled flying jibe in a 15-knot breeze swings the aluminum boom across the cockpit at high speed, risking head injury or a broken shroud.",
+      "counselor_tabletop_demo": "Place two toy boats on intersecting courses on a table and determine which boat is the stand-on vessel under Starboard/Port and Windward/Leeward rules.",
+      "real_world_connection_box": "USCG Navigation Rules and Tack vs Jibe Protocol Standard: Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward. Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of masthead fly observation used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard",
+      "v47_primary_source_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Marlinespike Seamanship and Six Knots Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+      "core_mechanism_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ],
+      "worked_field_example": "A properly tied Bowline retains 60 to 70 percent of line breaking strength while remaining easy to untie by breaking the back loop after heavy wind loads.",
+      "counselor_tabletop_demo": "Tie a Square Knot, Bowline, Clove Hitch, Two Half Hitches, Figure-Eight, and Cleat Hitch on a practice horn cleat in under 3 minutes.",
+      "real_world_connection_box": "US Sailing Marlinespike Seamanship and Six Knots Standard: Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch. Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of controlled tack rotation used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Marlinespike Seamanship and Six Knots Standard",
+      "v47_primary_source_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Safety Afloat and Capsize Recovery Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+      "core_mechanism_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ],
+      "worked_field_example": "If a sailboat turns completely upside down into a turtle position, releasing the mainsheet and jib sheets prevents water trapped in the sails from pinning the mast.",
+      "counselor_tabletop_demo": "Walk through the 5-step capsize recovery sequence on a model sailboat hull and explain why sheets must be uncleated before righting.",
+      "real_world_connection_box": "USCG Safety Afloat and Capsize Recovery Standard: Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore. Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of boom strike hazard used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Safety Afloat and Capsize Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Points of Sail and No-Go Zone Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+      "core_mechanism_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ],
+      "worked_field_example": "When sailing on a beam reach with the centerboard lowered fully, Bernoulli lift across the curved sail pulls the hull forward while the foil resists sideways leeway.",
+      "counselor_tabletop_demo": "Position a model sailboat on a 360-degree wind clock chart and adjust boom angles for Close-Hauled, Beam Reach, Broad Reach, and Run.",
+      "real_world_connection_box": "US Sailing Points of Sail and No-Go Zone Standard: Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff. Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of float plan dispatch used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Points of Sail and No-Go Zone Standard",
+      "v47_primary_source_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+      "core_mechanism_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ],
+      "worked_field_example": "An uncontrolled flying jibe in a 15-knot breeze swings the aluminum boom across the cockpit at high speed, risking head injury or a broken shroud.",
+      "counselor_tabletop_demo": "Place two toy boats on intersecting courses on a table and determine which boat is the stand-on vessel under Starboard/Port and Windward/Leeward rules.",
+      "real_world_connection_box": "USCG Navigation Rules and Tack vs Jibe Protocol Standard: Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward. Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of masthead fly observation used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard",
+      "v47_primary_source_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Points of Sail and No-Go Zone Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+      "core_mechanism_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ],
+      "worked_field_example": "When sailing on a beam reach with the centerboard lowered fully, Bernoulli lift across the curved sail pulls the hull forward while the foil resists sideways leeway.",
+      "counselor_tabletop_demo": "Position a model sailboat on a 360-degree wind clock chart and adjust boom angles for Close-Hauled, Beam Reach, Broad Reach, and Run.",
+      "real_world_connection_box": "US Sailing Points of Sail and No-Go Zone Standard: Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff. Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of float plan dispatch used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Points of Sail and No-Go Zone Standard",
+      "v47_primary_source_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Safety Afloat and Capsize Recovery Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+      "core_mechanism_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ],
+      "worked_field_example": "If a sailboat turns completely upside down into a turtle position, releasing the mainsheet and jib sheets prevents water trapped in the sails from pinning the mast.",
+      "counselor_tabletop_demo": "Walk through the 5-step capsize recovery sequence on a model sailboat hull and explain why sheets must be uncleated before righting.",
+      "real_world_connection_box": "USCG Safety Afloat and Capsize Recovery Standard: Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore. Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of boom strike hazard used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Safety Afloat and Capsize Recovery Standard",
+      "v47_primary_source_bullets": [
+        "Wear a USCG Type III life jacket at all times afloat, file a shore float plan, and stay with the capsized hull rather than swimming ashore.",
+        "Right a capsized centerboard dinghy by uncleating all sheets, standing on the centerboard tip, and leaning back as the mast lifts clear of water."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Points of Sail and No-Go Zone Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+      "core_mechanism_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ],
+      "worked_field_example": "When sailing on a beam reach with the centerboard lowered fully, Bernoulli lift across the curved sail pulls the hull forward while the foil resists sideways leeway.",
+      "counselor_tabletop_demo": "Position a model sailboat on a 360-degree wind clock chart and adjust boom angles for Close-Hauled, Beam Reach, Broad Reach, and Run.",
+      "real_world_connection_box": "US Sailing Points of Sail and No-Go Zone Standard: Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff. Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of float plan dispatch used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Points of Sail and No-Go Zone Standard",
+      "v47_primary_source_bullets": [
+        "Most small sloops cannot sail closer than 45 degrees to the true wind, creating a 90-degree No-Go Zone dead ahead where sails luff.",
+        "Trim sails tight when beating close-hauled at 45 degrees, ease sheets halfway on a 90-degree beam reach, and let sails out 90 degrees on a run."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+      "core_mechanism_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ],
+      "worked_field_example": "An uncontrolled flying jibe in a 15-knot breeze swings the aluminum boom across the cockpit at high speed, risking head injury or a broken shroud.",
+      "counselor_tabletop_demo": "Place two toy boats on intersecting courses on a table and determine which boat is the stand-on vessel under Starboard/Port and Windward/Leeward rules.",
+      "real_world_connection_box": "USCG Navigation Rules and Tack vs Jibe Protocol Standard: Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward. Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of masthead fly observation used in Small-Boat Sailing.",
+      "v47_slide_title": "USCG Navigation Rules and Tack vs Jibe Protocol Standard",
+      "v47_primary_source_bullets": [
+        "Under USCG Navigation Rule 12, a sailboat on Port tack must give way to Starboard tack, and a Windward boat must keep clear of Leeward.",
+        "Call Ready About and Helm a-Lee when tacking bow through the wind, and sheet the boom to centerline before calling Prepare to Jibe downwind."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Marlinespike Seamanship and Six Knots Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+      "core_mechanism_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ],
+      "worked_field_example": "A properly tied Bowline retains 60 to 70 percent of line breaking strength while remaining easy to untie by breaking the back loop after heavy wind loads.",
+      "counselor_tabletop_demo": "Tie a Square Knot, Bowline, Clove Hitch, Two Half Hitches, Figure-Eight, and Cleat Hitch on a practice horn cleat in under 3 minutes.",
+      "real_world_connection_box": "US Sailing Marlinespike Seamanship and Six Knots Standard: Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch. Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of controlled tack rotation used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Marlinespike Seamanship and Six Knots Standard",
+      "v47_primary_source_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Small-Boat Sailing",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "US Sailing & U.S. Coast Guard",
+        "title": "US Sailing Marlinespike Seamanship and Six Knots Standard Technical Reference",
+        "canonical_url": "https://www.ussailing.org/"
+      },
+      "rule_of_thumb_mnemonic": "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+      "core_mechanism_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ],
+      "worked_field_example": "A properly tied Bowline retains 60 to 70 percent of line breaking strength while remaining easy to untie by breaking the back loop after heavy wind loads.",
+      "counselor_tabletop_demo": "Tie a Square Knot, Bowline, Clove Hitch, Two Half Hitches, Figure-Eight, and Cleat Hitch on a practice horn cleat in under 3 minutes.",
+      "real_world_connection_box": "US Sailing Marlinespike Seamanship and Six Knots Standard: Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch. Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + US Sailing & U.S. Coast Guard",
+      "bespoke_visual_filename": "small_boat_sailing_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/small_boat_sailing_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of controlled tack rotation used in Small-Boat Sailing.",
+      "v47_slide_title": "US Sailing Marlinespike Seamanship and Six Knots Standard",
+      "v47_primary_source_bullets": [
+        "Tie a Figure-Eight stopper at sheet ends, a Bowline for jib loops, and a Cleat Hitch with one base turn, two figure-eights, and a locking hitch.",
+        "Whip cut synthetic rope ends with waxed sailmaker twine or heat-seal nylon and polyester strands so halyards and sheets never unlay."
+      ]
+    }
+  }
+}

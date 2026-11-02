@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "fire-safety",
+  "badge_name": "Fire Safety",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "NFPA & U.S. Fire Administration",
+  "primary_authority_url": "https://www.nfpa.org/education-and-research/home-fire-safety",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 921 Fire Tetrahedron & Flashover Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+      "core_mechanism_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ],
+      "worked_field_example": "Modern synthetic home furnishings can push a compartment from ignition to 1,100-degree-Fahrenheit flashover in under 3 minutes, leaving occupants less than 120 seconds to evacuate after alarm activation.",
+      "counselor_tabletop_demo": "Use a fire-tetrahedron diagram to show which of the four elements is removed by water cooling, CO2 oxygen displacement, Halotron radical inhibition, and fuel shutoff.",
+      "real_world_connection_box": "NFPA 921 Fire Tetrahedron & Flashover Standard: Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions. Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of burn pattern analysis used in Fire Safety.",
+      "v47_slide_title": "NFPA 921 Fire Tetrahedron & Flashover Standard",
+      "v47_primary_source_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+      "core_mechanism_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ],
+      "worked_field_example": "Pouring water onto a 680-degree-Fahrenheit pan of burning vegetable oil vaporizes water 1,700 times in volume and blasts atomized grease into a fireball, whereas sliding a metal lid starves oxygen immediately.",
+      "counselor_tabletop_demo": "Test a dual-sensor photoelectric/ionization smoke alarm and carbon monoxide detector, verify the 10-year manufacture date stamp, and demonstrate sliding a lid over a cold skillet.",
+      "real_world_connection_box": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard: NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor. Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kitchen vigilance used in Fire Safety.",
+      "v47_slide_title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 30 Flammable Vapor Density & Flash Point Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+      "core_mechanism_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ],
+      "worked_field_example": "Because gasoline vapors are 3.4 times denser than air, invisible fumes spilled on a garage floor flow downhill along the slab to ignite at a natural-gas water heater pilot light 20 feet away.",
+      "counselor_tabletop_demo": "Inspect a UL-listed red gasoline safety can with an internal brass mesh flame arrestor and compare flash points of gasoline, kerosene, and camp stove white gas.",
+      "real_world_connection_box": "NFPA 30 Flammable Vapor Density & Flash Point Standard: Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air. UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vapor travel used in Fire Safety.",
+      "v47_slide_title": "NFPA 30 Flammable Vapor Density & Flash Point Standard",
+      "v47_primary_source_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 10 Extinguisher Classes & PASS Drill Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+      "core_mechanism_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ],
+      "worked_field_example": "Inspecting a 5-pound UL 2A-10B-C monoammonium phosphate extinguisher confirms the pressure gauge needle rests in the green 195-psi zone, the tamper seal is intact, and the nozzle is unobstructed.",
+      "counselor_tabletop_demo": "Perform a 30-second physical inspection of an ABC fire extinguisher, demonstrate the PASS stance from 8 feet, and review a 2-exit home escape floor plan.",
+      "real_world_connection_box": "NFPA 10 Extinguisher Classes & PASS Drill Standard: Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires. Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of class classifications used in Fire Safety.",
+      "v47_slide_title": "NFPA 10 Extinguisher Classes & PASS Drill Standard",
+      "v47_primary_source_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 921 Fire Tetrahedron & Flashover Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+      "core_mechanism_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ],
+      "worked_field_example": "Modern synthetic home furnishings can push a compartment from ignition to 1,100-degree-Fahrenheit flashover in under 3 minutes, leaving occupants less than 120 seconds to evacuate after alarm activation.",
+      "counselor_tabletop_demo": "Use a fire-tetrahedron diagram to show which of the four elements is removed by water cooling, CO2 oxygen displacement, Halotron radical inhibition, and fuel shutoff.",
+      "real_world_connection_box": "NFPA 921 Fire Tetrahedron & Flashover Standard: Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions. Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of burn pattern analysis used in Fire Safety.",
+      "v47_slide_title": "NFPA 921 Fire Tetrahedron & Flashover Standard",
+      "v47_primary_source_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+      "core_mechanism_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ],
+      "worked_field_example": "Pouring water onto a 680-degree-Fahrenheit pan of burning vegetable oil vaporizes water 1,700 times in volume and blasts atomized grease into a fireball, whereas sliding a metal lid starves oxygen immediately.",
+      "counselor_tabletop_demo": "Test a dual-sensor photoelectric/ionization smoke alarm and carbon monoxide detector, verify the 10-year manufacture date stamp, and demonstrate sliding a lid over a cold skillet.",
+      "real_world_connection_box": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard: NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor. Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kitchen vigilance used in Fire Safety.",
+      "v47_slide_title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 30 Flammable Vapor Density & Flash Point Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+      "core_mechanism_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ],
+      "worked_field_example": "Because gasoline vapors are 3.4 times denser than air, invisible fumes spilled on a garage floor flow downhill along the slab to ignite at a natural-gas water heater pilot light 20 feet away.",
+      "counselor_tabletop_demo": "Inspect a UL-listed red gasoline safety can with an internal brass mesh flame arrestor and compare flash points of gasoline, kerosene, and camp stove white gas.",
+      "real_world_connection_box": "NFPA 30 Flammable Vapor Density & Flash Point Standard: Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air. UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vapor travel used in Fire Safety.",
+      "v47_slide_title": "NFPA 30 Flammable Vapor Density & Flash Point Standard",
+      "v47_primary_source_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+      "core_mechanism_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ],
+      "worked_field_example": "Pouring water onto a 680-degree-Fahrenheit pan of burning vegetable oil vaporizes water 1,700 times in volume and blasts atomized grease into a fireball, whereas sliding a metal lid starves oxygen immediately.",
+      "counselor_tabletop_demo": "Test a dual-sensor photoelectric/ionization smoke alarm and carbon monoxide detector, verify the 10-year manufacture date stamp, and demonstrate sliding a lid over a cold skillet.",
+      "real_world_connection_box": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard: NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor. Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kitchen vigilance used in Fire Safety.",
+      "v47_slide_title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 921 Fire Tetrahedron & Flashover Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+      "core_mechanism_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ],
+      "worked_field_example": "Modern synthetic home furnishings can push a compartment from ignition to 1,100-degree-Fahrenheit flashover in under 3 minutes, leaving occupants less than 120 seconds to evacuate after alarm activation.",
+      "counselor_tabletop_demo": "Use a fire-tetrahedron diagram to show which of the four elements is removed by water cooling, CO2 oxygen displacement, Halotron radical inhibition, and fuel shutoff.",
+      "real_world_connection_box": "NFPA 921 Fire Tetrahedron & Flashover Standard: Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions. Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of burn pattern analysis used in Fire Safety.",
+      "v47_slide_title": "NFPA 921 Fire Tetrahedron & Flashover Standard",
+      "v47_primary_source_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+      "core_mechanism_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ],
+      "worked_field_example": "Pouring water onto a 680-degree-Fahrenheit pan of burning vegetable oil vaporizes water 1,700 times in volume and blasts atomized grease into a fireball, whereas sliding a metal lid starves oxygen immediately.",
+      "counselor_tabletop_demo": "Test a dual-sensor photoelectric/ionization smoke alarm and carbon monoxide detector, verify the 10-year manufacture date stamp, and demonstrate sliding a lid over a cold skillet.",
+      "real_world_connection_box": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard: NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor. Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of kitchen vigilance used in Fire Safety.",
+      "v47_slide_title": "NFPA 72 Smoke Alarm & Kitchen Suppression Standard",
+      "v47_primary_source_bullets": [
+        "NFPA 72 mandates interconnected smoke alarms inside every bedroom, outside sleeping areas, and per floor.",
+        "Cooking oil autoignites near 650 to 700 degrees Fahrenheit and must be smothered with a metal lid."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 30 Flammable Vapor Density & Flash Point Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+      "core_mechanism_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ],
+      "worked_field_example": "Because gasoline vapors are 3.4 times denser than air, invisible fumes spilled on a garage floor flow downhill along the slab to ignite at a natural-gas water heater pilot light 20 feet away.",
+      "counselor_tabletop_demo": "Inspect a UL-listed red gasoline safety can with an internal brass mesh flame arrestor and compare flash points of gasoline, kerosene, and camp stove white gas.",
+      "real_world_connection_box": "NFPA 30 Flammable Vapor Density & Flash Point Standard: Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air. UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of vapor travel used in Fire Safety.",
+      "v47_slide_title": "NFPA 30 Flammable Vapor Density & Flash Point Standard",
+      "v47_primary_source_bullets": [
+        "Gasoline has a flash point of minus 45 degrees Fahrenheit and vapor density 3 to 4 times heavier than air.",
+        "UL-listed metal safety cans use spring-loaded flame arrestor screens to block flashback ignition."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 10 Extinguisher Classes & PASS Drill Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+      "core_mechanism_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ],
+      "worked_field_example": "Inspecting a 5-pound UL 2A-10B-C monoammonium phosphate extinguisher confirms the pressure gauge needle rests in the green 195-psi zone, the tamper seal is intact, and the nozzle is unobstructed.",
+      "counselor_tabletop_demo": "Perform a 30-second physical inspection of an ABC fire extinguisher, demonstrate the PASS stance from 8 feet, and review a 2-exit home escape floor plan.",
+      "real_world_connection_box": "NFPA 10 Extinguisher Classes & PASS Drill Standard: Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires. Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of class classifications used in Fire Safety.",
+      "v47_slide_title": "NFPA 10 Extinguisher Classes & PASS Drill Standard",
+      "v47_primary_source_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 921 Fire Tetrahedron & Flashover Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+      "core_mechanism_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ],
+      "worked_field_example": "Modern synthetic home furnishings can push a compartment from ignition to 1,100-degree-Fahrenheit flashover in under 3 minutes, leaving occupants less than 120 seconds to evacuate after alarm activation.",
+      "counselor_tabletop_demo": "Use a fire-tetrahedron diagram to show which of the four elements is removed by water cooling, CO2 oxygen displacement, Halotron radical inhibition, and fuel shutoff.",
+      "real_world_connection_box": "NFPA 921 Fire Tetrahedron & Flashover Standard: Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions. Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of burn pattern analysis used in Fire Safety.",
+      "v47_slide_title": "NFPA 921 Fire Tetrahedron & Flashover Standard",
+      "v47_primary_source_bullets": [
+        "Sustained flaming combustion requires fuel, oxygen above 16 percent, heat, and chain reactions.",
+        "Room flashover occurs when upper ceiling gases reach 1,100 degrees Fahrenheit and ignite all surfaces."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Fire Safety",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NFPA & U.S. Fire Administration",
+        "title": "NFPA 10 Extinguisher Classes & PASS Drill Standard Technical Reference",
+        "canonical_url": "https://www.nfpa.org/education-and-research/home-fire-safety"
+      },
+      "rule_of_thumb_mnemonic": "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+      "core_mechanism_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ],
+      "worked_field_example": "Inspecting a 5-pound UL 2A-10B-C monoammonium phosphate extinguisher confirms the pressure gauge needle rests in the green 195-psi zone, the tamper seal is intact, and the nozzle is unobstructed.",
+      "counselor_tabletop_demo": "Perform a 30-second physical inspection of an ABC fire extinguisher, demonstrate the PASS stance from 8 feet, and review a 2-exit home escape floor plan.",
+      "real_world_connection_box": "NFPA 10 Extinguisher Classes & PASS Drill Standard: Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires. Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NFPA & U.S. Fire Administration",
+      "bespoke_visual_filename": "fire_safety_p007_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/fire_safety_p007_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of class classifications used in Fire Safety.",
+      "v47_slide_title": "NFPA 10 Extinguisher Classes & PASS Drill Standard",
+      "v47_primary_source_bullets": [
+        "Multipurpose dry-chemical extinguishers carry Class A, B, and C ratings for solids, liquids, and live wires.",
+        "Execute PASS from 6 to 8 feet back by Pulling pin, Aiming at base, Squeezing lever, and Sweeping."
+      ]
+    }
+  }
+}

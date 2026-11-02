@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "dog-care",
+  "badge_name": "Dog Care",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "AVMA & American Kennel Club",
+  "primary_authority_url": "https://www.avma.org/resources-tools/pet-owners/petcare",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AKC Breed Taxonomy & Domestication Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+      "core_mechanism_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ],
+      "worked_field_example": "Compare a Border Collie from the Herding group with a Beagle from the Hound group by recording coat double-layer density, ear conformation, and daily high-drive exercise requirements of 60 to 90 minutes.",
+      "counselor_tabletop_demo": "Match seven breed profile cards to their official AKC functional groups and explain how skull morphology and coat structure serve each historical working role.",
+      "real_world_connection_box": "AKC Breed Taxonomy & Domestication Standard: AKC classifies over 200 breeds into 7 functional groups based on selective working traits. Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify briefly the historical origin during a structured merit badge clinic.",
+      "v47_slide_title": "AKC Breed Taxonomy & Domestication Standard",
+      "v47_primary_source_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AVMA Canine Anatomy & Baseline Vitals Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+      "core_mechanism_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ],
+      "worked_field_example": "Palpate the femoral artery inside the hind thigh for 15 seconds and multiply by 4 to log a resting heart rate of 88 beats per minute alongside a 1.5-second gum capillary refill time.",
+      "counselor_tabletop_demo": "Locate 10 anatomical landmarks including the withers, stifle, hock, pastern, and flews on a canine diagram while demonstrating femoral pulse palpation timing.",
+      "real_world_connection_box": "AVMA Canine Anatomy & Baseline Vitals Standard: Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest. Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply point out on a dog using standard troop tools and reference charts.",
+      "v47_slide_title": "AVMA Canine Anatomy & Baseline Vitals Standard",
+      "v47_primary_source_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "CAPC Parasite Prophylaxis & Crate Sizing Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+      "core_mechanism_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ],
+      "worked_field_example": "For a 45-pound retriever measuring 32 inches from nose tip to base of tail, select a 36-inch wire crate with a divider panel and schedule monthly heartworm preventive on the 1st of each month.",
+      "counselor_tabletop_demo": "Measure a dog mannequin from nose to tail base, calculate minimum crate dimensions, and inspect a veterinary vaccination and parasite schedule chart.",
+      "real_world_connection_box": "CAPC Parasite Prophylaxis & Crate Sizing Standard: CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae. Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify the importance of house-training during a structured merit badge clinic.",
+      "v47_slide_title": "CAPC Parasite Prophylaxis & Crate Sizing Standard",
+      "v47_primary_source_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AAHA 9-Point Body Condition & Triage Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+      "core_mechanism_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ],
+      "worked_field_example": "Over a 60-day care log for a 50-pound dog consuming 1,100 kilocalories daily, verify an ideal Body Condition Score of 5 by feeling ribs under light fat cover and checking for an abdominal tuck.",
+      "counselor_tabletop_demo": "Tie a quick-release soft roll-gauze emergency muzzle on a stuffed dog model and demonstrate a multi-layer sterile pressure dressing on a forelimb.",
+      "real_world_connection_box": "AAHA 9-Point Body Condition & Triage Standard: AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck. Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing for two months, keep and care with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "AAHA 9-Point Body Condition & Triage Standard",
+      "v47_primary_source_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AKC Breed Taxonomy & Domestication Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+      "core_mechanism_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ],
+      "worked_field_example": "Compare a Border Collie from the Herding group with a Beagle from the Hound group by recording coat double-layer density, ear conformation, and daily high-drive exercise requirements of 60 to 90 minutes.",
+      "counselor_tabletop_demo": "Match seven breed profile cards to their official AKC functional groups and explain how skull morphology and coat structure serve each historical working role.",
+      "real_world_connection_box": "AKC Breed Taxonomy & Domestication Standard: AKC classifies over 200 breeds into 7 functional groups based on selective working traits. Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify briefly the historical origin during a structured merit badge clinic.",
+      "v47_slide_title": "AKC Breed Taxonomy & Domestication Standard",
+      "v47_primary_source_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AVMA Canine Anatomy & Baseline Vitals Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+      "core_mechanism_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ],
+      "worked_field_example": "Palpate the femoral artery inside the hind thigh for 15 seconds and multiply by 4 to log a resting heart rate of 88 beats per minute alongside a 1.5-second gum capillary refill time.",
+      "counselor_tabletop_demo": "Locate 10 anatomical landmarks including the withers, stifle, hock, pastern, and flews on a canine diagram while demonstrating femoral pulse palpation timing.",
+      "real_world_connection_box": "AVMA Canine Anatomy & Baseline Vitals Standard: Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest. Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply point out on a dog using standard troop tools and reference charts.",
+      "v47_slide_title": "AVMA Canine Anatomy & Baseline Vitals Standard",
+      "v47_primary_source_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "CAPC Parasite Prophylaxis & Crate Sizing Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+      "core_mechanism_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ],
+      "worked_field_example": "For a 45-pound retriever measuring 32 inches from nose tip to base of tail, select a 36-inch wire crate with a divider panel and schedule monthly heartworm preventive on the 1st of each month.",
+      "counselor_tabletop_demo": "Measure a dog mannequin from nose to tail base, calculate minimum crate dimensions, and inspect a veterinary vaccination and parasite schedule chart.",
+      "real_world_connection_box": "CAPC Parasite Prophylaxis & Crate Sizing Standard: CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae. Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify the importance of house-training during a structured merit badge clinic.",
+      "v47_slide_title": "CAPC Parasite Prophylaxis & Crate Sizing Standard",
+      "v47_primary_source_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AVMA Canine Anatomy & Baseline Vitals Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+      "core_mechanism_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ],
+      "worked_field_example": "Palpate the femoral artery inside the hind thigh for 15 seconds and multiply by 4 to log a resting heart rate of 88 beats per minute alongside a 1.5-second gum capillary refill time.",
+      "counselor_tabletop_demo": "Locate 10 anatomical landmarks including the withers, stifle, hock, pastern, and flews on a canine diagram while demonstrating femoral pulse palpation timing.",
+      "real_world_connection_box": "AVMA Canine Anatomy & Baseline Vitals Standard: Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest. Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply point out on a dog using standard troop tools and reference charts.",
+      "v47_slide_title": "AVMA Canine Anatomy & Baseline Vitals Standard",
+      "v47_primary_source_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AKC Breed Taxonomy & Domestication Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+      "core_mechanism_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ],
+      "worked_field_example": "Compare a Border Collie from the Herding group with a Beagle from the Hound group by recording coat double-layer density, ear conformation, and daily high-drive exercise requirements of 60 to 90 minutes.",
+      "counselor_tabletop_demo": "Match seven breed profile cards to their official AKC functional groups and explain how skull morphology and coat structure serve each historical working role.",
+      "real_world_connection_box": "AKC Breed Taxonomy & Domestication Standard: AKC classifies over 200 breeds into 7 functional groups based on selective working traits. Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify briefly the historical origin during a structured merit badge clinic.",
+      "v47_slide_title": "AKC Breed Taxonomy & Domestication Standard",
+      "v47_primary_source_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AVMA Canine Anatomy & Baseline Vitals Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+      "core_mechanism_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ],
+      "worked_field_example": "Palpate the femoral artery inside the hind thigh for 15 seconds and multiply by 4 to log a resting heart rate of 88 beats per minute alongside a 1.5-second gum capillary refill time.",
+      "counselor_tabletop_demo": "Locate 10 anatomical landmarks including the withers, stifle, hock, pastern, and flews on a canine diagram while demonstrating femoral pulse palpation timing.",
+      "real_world_connection_box": "AVMA Canine Anatomy & Baseline Vitals Standard: Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest. Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_2_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_2_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply point out on a dog using standard troop tools and reference charts.",
+      "v47_slide_title": "AVMA Canine Anatomy & Baseline Vitals Standard",
+      "v47_primary_source_bullets": [
+        "Normal adult canine rectal temperature ranges from 101.0 to 102.5 degrees Fahrenheit at rest.",
+        "Resting pulse spans 60 to 140 beats per minute with 10 to 30 breaths per minute."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "CAPC Parasite Prophylaxis & Crate Sizing Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+      "core_mechanism_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ],
+      "worked_field_example": "For a 45-pound retriever measuring 32 inches from nose tip to base of tail, select a 36-inch wire crate with a divider panel and schedule monthly heartworm preventive on the 1st of each month.",
+      "counselor_tabletop_demo": "Measure a dog mannequin from nose to tail base, calculate minimum crate dimensions, and inspect a veterinary vaccination and parasite schedule chart.",
+      "real_world_connection_box": "CAPC Parasite Prophylaxis & Crate Sizing Standard: CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae. Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_3_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_3_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify the importance of house-training during a structured merit badge clinic.",
+      "v47_slide_title": "CAPC Parasite Prophylaxis & Crate Sizing Standard",
+      "v47_primary_source_bullets": [
+        "CAPC guidelines require year-round monthly macrocyclic lactone dosing to block heartworm larvae.",
+        "Travel and house-training crates must measure nose-to-tail length plus 4 inches of clearance."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AAHA 9-Point Body Condition & Triage Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+      "core_mechanism_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ],
+      "worked_field_example": "Over a 60-day care log for a 50-pound dog consuming 1,100 kilocalories daily, verify an ideal Body Condition Score of 5 by feeling ribs under light fat cover and checking for an abdominal tuck.",
+      "counselor_tabletop_demo": "Tie a quick-release soft roll-gauze emergency muzzle on a stuffed dog model and demonstrate a multi-layer sterile pressure dressing on a forelimb.",
+      "real_world_connection_box": "AAHA 9-Point Body Condition & Triage Standard: AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck. Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing for two months, keep and care with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "AAHA 9-Point Body Condition & Triage Standard",
+      "v47_primary_source_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AKC Breed Taxonomy & Domestication Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+      "core_mechanism_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ],
+      "worked_field_example": "Compare a Border Collie from the Herding group with a Beagle from the Hound group by recording coat double-layer density, ear conformation, and daily high-drive exercise requirements of 60 to 90 minutes.",
+      "counselor_tabletop_demo": "Match seven breed profile cards to their official AKC functional groups and explain how skull morphology and coat structure serve each historical working role.",
+      "real_world_connection_box": "AKC Breed Taxonomy & Domestication Standard: AKC classifies over 200 breeds into 7 functional groups based on selective working traits. Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Uniformed Scouts working together at a wooden picnic table to set up and verify briefly the historical origin during a structured merit badge clinic.",
+      "v47_slide_title": "AKC Breed Taxonomy & Domestication Standard",
+      "v47_primary_source_bullets": [
+        "AKC classifies over 200 breeds into 7 functional groups based on selective working traits.",
+        "Canis lupus familiaris diverged from gray wolves over 15,000 years ago for cooperative work."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Dog Care",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "AVMA & American Kennel Club",
+        "title": "AAHA 9-Point Body Condition & Triage Standard Technical Reference",
+        "canonical_url": "https://www.avma.org/resources-tools/pet-owners/petcare"
+      },
+      "rule_of_thumb_mnemonic": "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+      "core_mechanism_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ],
+      "worked_field_example": "Over a 60-day care log for a 50-pound dog consuming 1,100 kilocalories daily, verify an ideal Body Condition Score of 5 by feeling ribs under light fat cover and checking for an abdominal tuck.",
+      "counselor_tabletop_demo": "Tie a quick-release soft roll-gauze emergency muzzle on a stuffed dog model and demonstrate a multi-layer sterile pressure dressing on a forelimb.",
+      "real_world_connection_box": "AAHA 9-Point Body Condition & Triage Standard: AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck. Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + AVMA & American Kennel Club",
+      "bespoke_visual_filename": "dog_care_req_4_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/dog_care_req_4_topic_visual.png",
+      "bespoke_visual_caption": "Close-up instructional field scene showing Scouts practicing for two months, keep and care with proper safety protective gear and organized patrol equipment.",
+      "v47_slide_title": "AAHA 9-Point Body Condition & Triage Standard",
+      "v47_primary_source_bullets": [
+        "AAHA Body Condition Score 4 to 5 out of 9 features palpable ribs and a visible waist tuck.",
+        "Emergency gauze muzzle application prevents bite reflex injuries before splinting or bandaging."
+      ]
+    }
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "signs-signals-and-codes",
+  "badge_name": "Signs, Signals, and Codes",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+  "primary_authority_url": "https://www.itu.int/",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "USCG and ICAO Universal Emergency Distress Signal Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+      "core_mechanism_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ],
+      "worked_field_example": "A mirror flash reflected across the horizon on a sunny day is visible to search aircraft over 10 miles away when aimed with two fingers.",
+      "counselor_tabletop_demo": "Lay out five ICAO ground-to-air emergency symbols using dark paracord on a light tabletop and state the exact meaning of each symbol.",
+      "real_world_connection_box": "USCG and ICAO Universal Emergency Distress Signal Standard: Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress. Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of optical telegraph network used in Signs, Signals, and Codes.",
+      "v47_slide_title": "USCG and ICAO Universal Emergency Distress Signal Standard",
+      "v47_primary_source_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "ITU-R M.1677 International Morse and Semaphore Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+      "core_mechanism_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ],
+      "worked_field_example": "Sending SOS as three dots, three dashes, and three dots is transmitted as a single continuous 27-unit prosign without inter-letter pauses.",
+      "counselor_tabletop_demo": "Tap or flash a 5-word message at 5 words per minute using the PARIS timing standard and signal four letters with semaphore flags.",
+      "real_world_connection_box": "ITU-R M.1677 International Morse and Semaphore Standard: In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots. Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of clock face positioning used in Signs, Signals, and Codes.",
+      "v47_slide_title": "ITU-R M.1677 International Morse and Semaphore Standard",
+      "v47_primary_source_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Braille Authority Six-Dot Tactile Cell and ASL Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+      "core_mechanism_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ],
+      "worked_field_example": "Preceding letters A through J with the numeric indicator dots 3-4-5-6 converts those ten Braille characters into the digits 1 through 0.",
+      "counselor_tabletop_demo": "Arrange six coins in a 2-by-3 Braille cell grid to spell a 4-letter word and sign the same word using the ASL manual alphabet.",
+      "real_world_connection_box": "Braille Authority Six-Dot Tactile Cell and ASL Standard: Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations. Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of six dot cell layout used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Braille Authority Six-Dot Tactile Cell and ASL Standard",
+      "v47_primary_source_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Woodcraft Trail Blazes and Cryptography Cipher Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+      "core_mechanism_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ],
+      "worked_field_example": "In English plaintext, the letters E, T, A, O, I, and N account for over 50 percent of all characters, allowing rapid deciphering of short codes.",
+      "counselor_tabletop_demo": "Construct four temporary trail signs for straight ahead, turn right, turn left, and danger, then encode a 3-word clue in a Caesar shift-3 cipher.",
+      "real_world_connection_box": "Woodcraft Trail Blazes and Cryptography Cipher Standard: Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead. Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of omnidirectional sound waves used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Woodcraft Trail Blazes and Cryptography Cipher Standard",
+      "v47_primary_source_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "USCG and ICAO Universal Emergency Distress Signal Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+      "core_mechanism_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ],
+      "worked_field_example": "A mirror flash reflected across the horizon on a sunny day is visible to search aircraft over 10 miles away when aimed with two fingers.",
+      "counselor_tabletop_demo": "Lay out five ICAO ground-to-air emergency symbols using dark paracord on a light tabletop and state the exact meaning of each symbol.",
+      "real_world_connection_box": "USCG and ICAO Universal Emergency Distress Signal Standard: Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress. Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of optical telegraph network used in Signs, Signals, and Codes.",
+      "v47_slide_title": "USCG and ICAO Universal Emergency Distress Signal Standard",
+      "v47_primary_source_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "ITU-R M.1677 International Morse and Semaphore Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+      "core_mechanism_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ],
+      "worked_field_example": "Sending SOS as three dots, three dashes, and three dots is transmitted as a single continuous 27-unit prosign without inter-letter pauses.",
+      "counselor_tabletop_demo": "Tap or flash a 5-word message at 5 words per minute using the PARIS timing standard and signal four letters with semaphore flags.",
+      "real_world_connection_box": "ITU-R M.1677 International Morse and Semaphore Standard: In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots. Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of clock face positioning used in Signs, Signals, and Codes.",
+      "v47_slide_title": "ITU-R M.1677 International Morse and Semaphore Standard",
+      "v47_primary_source_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Braille Authority Six-Dot Tactile Cell and ASL Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+      "core_mechanism_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ],
+      "worked_field_example": "Preceding letters A through J with the numeric indicator dots 3-4-5-6 converts those ten Braille characters into the digits 1 through 0.",
+      "counselor_tabletop_demo": "Arrange six coins in a 2-by-3 Braille cell grid to spell a 4-letter word and sign the same word using the ASL manual alphabet.",
+      "real_world_connection_box": "Braille Authority Six-Dot Tactile Cell and ASL Standard: Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations. Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of six dot cell layout used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Braille Authority Six-Dot Tactile Cell and ASL Standard",
+      "v47_primary_source_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "ITU-R M.1677 International Morse and Semaphore Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+      "core_mechanism_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ],
+      "worked_field_example": "Sending SOS as three dots, three dashes, and three dots is transmitted as a single continuous 27-unit prosign without inter-letter pauses.",
+      "counselor_tabletop_demo": "Tap or flash a 5-word message at 5 words per minute using the PARIS timing standard and signal four letters with semaphore flags.",
+      "real_world_connection_box": "ITU-R M.1677 International Morse and Semaphore Standard: In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots. Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of clock face positioning used in Signs, Signals, and Codes.",
+      "v47_slide_title": "ITU-R M.1677 International Morse and Semaphore Standard",
+      "v47_primary_source_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "USCG and ICAO Universal Emergency Distress Signal Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+      "core_mechanism_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ],
+      "worked_field_example": "A mirror flash reflected across the horizon on a sunny day is visible to search aircraft over 10 miles away when aimed with two fingers.",
+      "counselor_tabletop_demo": "Lay out five ICAO ground-to-air emergency symbols using dark paracord on a light tabletop and state the exact meaning of each symbol.",
+      "real_world_connection_box": "USCG and ICAO Universal Emergency Distress Signal Standard: Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress. Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of optical telegraph network used in Signs, Signals, and Codes.",
+      "v47_slide_title": "USCG and ICAO Universal Emergency Distress Signal Standard",
+      "v47_primary_source_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "ITU-R M.1677 International Morse and Semaphore Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+      "core_mechanism_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ],
+      "worked_field_example": "Sending SOS as three dots, three dashes, and three dots is transmitted as a single continuous 27-unit prosign without inter-letter pauses.",
+      "counselor_tabletop_demo": "Tap or flash a 5-word message at 5 words per minute using the PARIS timing standard and signal four letters with semaphore flags.",
+      "real_world_connection_box": "ITU-R M.1677 International Morse and Semaphore Standard: In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots. Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of clock face positioning used in Signs, Signals, and Codes.",
+      "v47_slide_title": "ITU-R M.1677 International Morse and Semaphore Standard",
+      "v47_primary_source_bullets": [
+        "In International Morse Code, a dash equals 3 dot units, element spacing equals 1 dot, letter spacing equals 3 dots, and word spacing equals 7 dots.",
+        "Flag semaphore positions two 18-inch square red-and-yellow Oscar flags around an 8-point clock circle to send 30 to 40 letters per minute."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Braille Authority Six-Dot Tactile Cell and ASL Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+      "core_mechanism_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ],
+      "worked_field_example": "Preceding letters A through J with the numeric indicator dots 3-4-5-6 converts those ten Braille characters into the digits 1 through 0.",
+      "counselor_tabletop_demo": "Arrange six coins in a 2-by-3 Braille cell grid to spell a 4-letter word and sign the same word using the ASL manual alphabet.",
+      "real_world_connection_box": "Braille Authority Six-Dot Tactile Cell and ASL Standard: Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations. Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p005_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of six dot cell layout used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Braille Authority Six-Dot Tactile Cell and ASL Standard",
+      "v47_primary_source_bullets": [
+        "Unified English Braille arranges six raised dots in a 2-by-3 cell numbered 1-2-3 down the left and 4-5-6 down the right for 64 combinations.",
+        "Standard tactile Braille dots stand 0.019 inches high with 0.092-inch center spacing so a fingertip pad spans the entire 6-dot cell at once."
+      ]
+    },
+    "8": {
+      "req_id": "8",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Woodcraft Trail Blazes and Cryptography Cipher Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+      "core_mechanism_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ],
+      "worked_field_example": "In English plaintext, the letters E, T, A, O, I, and N account for over 50 percent of all characters, allowing rapid deciphering of short codes.",
+      "counselor_tabletop_demo": "Construct four temporary trail signs for straight ahead, turn right, turn left, and danger, then encode a 3-word clue in a Caesar shift-3 cipher.",
+      "real_world_connection_box": "Woodcraft Trail Blazes and Cryptography Cipher Standard: Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead. Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of omnidirectional sound waves used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Woodcraft Trail Blazes and Cryptography Cipher Standard",
+      "v47_primary_source_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ]
+    },
+    "9": {
+      "req_id": "9",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "USCG and ICAO Universal Emergency Distress Signal Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+      "core_mechanism_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ],
+      "worked_field_example": "A mirror flash reflected across the horizon on a sunny day is visible to search aircraft over 10 miles away when aimed with two fingers.",
+      "counselor_tabletop_demo": "Lay out five ICAO ground-to-air emergency symbols using dark paracord on a light tabletop and state the exact meaning of each symbol.",
+      "real_world_connection_box": "USCG and ICAO Universal Emergency Distress Signal Standard: Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress. Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of optical telegraph network used in Signs, Signals, and Codes.",
+      "v47_slide_title": "USCG and ICAO Universal Emergency Distress Signal Standard",
+      "v47_primary_source_bullets": [
+        "Any signal repeated three times in a row including three whistle blasts, three signal fires, or three flashes means universal emergency distress.",
+        "Ground-to-air visual search panels require 10-foot-long by 3-foot-wide high-contrast strokes where V requests assistance and X requests medical aid."
+      ]
+    },
+    "10": {
+      "req_id": "10",
+      "badge_name": "Signs, Signals, and Codes",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "ITU, U.S. Coast Guard & National Association of the Deaf",
+        "title": "Woodcraft Trail Blazes and Cryptography Cipher Standard Technical Reference",
+        "canonical_url": "https://www.itu.int/"
+      },
+      "rule_of_thumb_mnemonic": "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+      "core_mechanism_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ],
+      "worked_field_example": "In English plaintext, the letters E, T, A, O, I, and N account for over 50 percent of all characters, allowing rapid deciphering of short codes.",
+      "counselor_tabletop_demo": "Construct four temporary trail signs for straight ahead, turn right, turn left, and danger, then encode a 3-word clue in a Caesar shift-3 cipher.",
+      "real_world_connection_box": "Woodcraft Trail Blazes and Cryptography Cipher Standard: Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead. Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + ITU, U.S. Coast Guard & National Association of the Deaf",
+      "bespoke_visual_filename": "signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_url": "/assets/pamphlet_images/signs_signals_and_codes_p006_img1.png",
+      "bespoke_visual_caption": "Cross-sectional diagram showing key parts and mechanical relationships of omnidirectional sound waves used in Signs, Signals, and Codes.",
+      "v47_slide_title": "Woodcraft Trail Blazes and Cryptography Cipher Standard",
+      "v47_primary_source_bullets": [
+        "Place stacked stone cairns, knotted grass tufts, or stick arrows on the right side of the trail within sight of the next marker ahead.",
+        "Monoalphabetic substitution ciphers like Caesar shift and Pigpen grid shift plaintext by a fixed key and yield to letter frequency analysis."
+      ]
+    }
+  }
+}

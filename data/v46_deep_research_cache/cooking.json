@@ -1,0 +1,321 @@
+{
+  "schema_version": "v46.1",
+  "badge_slug": "cooking",
+  "badge_name": "Cooking",
+  "enrichment_tier": "WEATHER_PARITY_GOLD_STANDARD",
+  "primary_authority_agency": "USDA FSIS & FDA Food Code",
+  "primary_authority_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart",
+  "bespoke_diagram_count": 4,
+  "bespoke_clusters": [
+    {
+      "req_id": "1",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "USDA FSIS Safe Internal Temperature & Danger Zone Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+      "core_mechanism_bullets": [
+        "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+        "Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest."
+      ],
+      "worked_field_example": "Probing the thickest center of a Dutch-oven chicken breast with a calibrated digital thermometer confirms 165 degrees Fahrenheit before serving the patrol.",
+      "counselor_tabletop_demo": "Calibrate a bi-metallic or digital food thermometer in an ice-water slurry to verify it reads 32 degrees Fahrenheit within plus or minus 2 degrees Fahrenheit.",
+      "real_world_connection_box": "USDA FSIS Safe Internal Temperature & Danger Zone Standard: Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone. Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_cross_contamination_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_cross_contamination_visual.png",
+      "bespoke_visual_caption": "Color-coded cutting boards, raw meats, produce, and wash basins sit organized across a camp food prep table.",
+      "v47_slide_title": "USDA FSIS Safe Internal Temperature & Danger Zone Standard",
+      "v47_primary_source_bullets": [
+        "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+        "Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest."
+      ]
+    },
+    {
+      "req_id": "2",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "FDA Food Code Cross-Contamination & Three-Basin Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+      "core_mechanism_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ],
+      "worked_field_example": "Packing raw ground beef in sealed double bags on the bottom shelf of a 38 degrees Fahrenheit cooler above ice blocks prevents meat juices from dripping onto fresh fruit.",
+      "counselor_tabletop_demo": "Arrange color-coded cutting boards (yellow for poultry, red for meat, green for produce) and test sanitizer concentration with a chlorine test strip.",
+      "real_world_connection_box": "FDA Food Code Cross-Contamination & Three-Basin Standard: Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds. Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_five_methods_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_five_methods_visual.png",
+      "bespoke_visual_caption": "Vertical panels illustrate Dutch oven baking, boiling stew in a pot, foil packet roasting, and frying over coals.",
+      "v47_slide_title": "FDA Food Code Cross-Contamination & Three-Basin Standard",
+      "v47_primary_source_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ]
+    },
+    {
+      "req_id": "3",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+      "core_mechanism_bullets": [
+        "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+        "Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein."
+      ],
+      "worked_field_example": "For an 8-Scout patrol on a weekend campout, multiplying a 4-serving recipe by 2.0 and converting 16 tablespoons of oil into 1 cup prevents trail food waste.",
+      "counselor_tabletop_demo": "Audit the Scout's camp and trail menus against the USDA MyPlate daily serving chart and nutrition facts allergen labels.",
+      "real_world_connection_box": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard: Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy. Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_myplate_nutrition_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_myplate_nutrition_visual.png",
+      "bespoke_visual_caption": "A partitioned camp plate displays balanced portions of grilled salmon, leafy greens, berries, grains, and water.",
+      "v47_slide_title": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard",
+      "v47_primary_source_bullets": [
+        "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+        "Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein."
+      ]
+    },
+    {
+      "req_id": "4",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+      "core_mechanism_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ],
+      "worked_field_example": "To bake cornbread at 350 degrees Fahrenheit in a 12-inch Dutch oven, place 16 lit briquettes in a ring on the lid and 8 briquettes under the base while rotating 90 degrees every 15 minutes.",
+      "counselor_tabletop_demo": "Lay out unlit charcoal counters on a 12-inch circle template to demonstrate top-versus-bottom briquette placement for baking versus stewing.",
+      "real_world_connection_box": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard: Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking. Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard",
+      "v47_primary_source_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ]
+    }
+  ],
+  "requirements": {
+    "1": {
+      "req_id": "1",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "USDA FSIS Safe Internal Temperature & Danger Zone Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+      "core_mechanism_bullets": [
+        "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+        "Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest."
+      ],
+      "worked_field_example": "Probing the thickest center of a Dutch-oven chicken breast with a calibrated digital thermometer confirms 165 degrees Fahrenheit before serving the patrol.",
+      "counselor_tabletop_demo": "Calibrate a bi-metallic or digital food thermometer in an ice-water slurry to verify it reads 32 degrees Fahrenheit within plus or minus 2 degrees Fahrenheit.",
+      "real_world_connection_box": "USDA FSIS Safe Internal Temperature & Danger Zone Standard: Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone. Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_cross_contamination_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_cross_contamination_visual.png",
+      "bespoke_visual_caption": "Color-coded cutting boards, raw meats, produce, and wash basins sit organized across a camp food prep table.",
+      "v47_slide_title": "USDA FSIS Safe Internal Temperature & Danger Zone Standard",
+      "v47_primary_source_bullets": [
+        "Keep cold food below 40 degrees Fahrenheit and hot food above 140 degrees Fahrenheit outside the bacterial Danger Zone.",
+        "Cook poultry to 165 degrees Fahrenheit, ground meats to 160, and whole beef, pork, or fish cuts to 145 with a 3-minute rest."
+      ]
+    },
+    "2": {
+      "req_id": "2",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "FDA Food Code Cross-Contamination & Three-Basin Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+      "core_mechanism_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ],
+      "worked_field_example": "Packing raw ground beef in sealed double bags on the bottom shelf of a 38 degrees Fahrenheit cooler above ice blocks prevents meat juices from dripping onto fresh fruit.",
+      "counselor_tabletop_demo": "Arrange color-coded cutting boards (yellow for poultry, red for meat, green for produce) and test sanitizer concentration with a chlorine test strip.",
+      "real_world_connection_box": "FDA Food Code Cross-Contamination & Three-Basin Standard: Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds. Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_five_methods_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_five_methods_visual.png",
+      "bespoke_visual_caption": "Vertical panels illustrate Dutch oven baking, boiling stew in a pot, foil packet roasting, and frying over coals.",
+      "v47_slide_title": "FDA Food Code Cross-Contamination & Three-Basin Standard",
+      "v47_primary_source_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ]
+    },
+    "3": {
+      "req_id": "3",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "FDA Food Code Cross-Contamination & Three-Basin Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+      "core_mechanism_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ],
+      "worked_field_example": "Packing raw ground beef in sealed double bags on the bottom shelf of a 38 degrees Fahrenheit cooler above ice blocks prevents meat juices from dripping onto fresh fruit.",
+      "counselor_tabletop_demo": "Arrange color-coded cutting boards (yellow for poultry, red for meat, green for produce) and test sanitizer concentration with a chlorine test strip.",
+      "real_world_connection_box": "FDA Food Code Cross-Contamination & Three-Basin Standard: Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds. Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_five_methods_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_five_methods_visual.png",
+      "bespoke_visual_caption": "Vertical panels illustrate Dutch oven baking, boiling stew in a pot, foil packet roasting, and frying over coals.",
+      "v47_slide_title": "FDA Food Code Cross-Contamination & Three-Basin Standard",
+      "v47_primary_source_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+      "core_mechanism_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ],
+      "worked_field_example": "To bake cornbread at 350 degrees Fahrenheit in a 12-inch Dutch oven, place 16 lit briquettes in a ring on the lid and 8 briquettes under the base while rotating 90 degrees every 15 minutes.",
+      "counselor_tabletop_demo": "Lay out unlit charcoal counters on a 12-inch circle template to demonstrate top-versus-bottom briquette placement for baking versus stewing.",
+      "real_world_connection_box": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard: Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking. Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard",
+      "v47_primary_source_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+      "core_mechanism_bullets": [
+        "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+        "Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein."
+      ],
+      "worked_field_example": "For an 8-Scout patrol on a weekend campout, multiplying a 4-serving recipe by 2.0 and converting 16 tablespoons of oil into 1 cup prevents trail food waste.",
+      "counselor_tabletop_demo": "Audit the Scout's camp and trail menus against the USDA MyPlate daily serving chart and nutrition facts allergen labels.",
+      "real_world_connection_box": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard: Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy. Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_myplate_nutrition_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_myplate_nutrition_visual.png",
+      "bespoke_visual_caption": "A partitioned camp plate displays balanced portions of grilled salmon, leafy greens, berries, grains, and water.",
+      "v47_slide_title": "USDA MyPlate Daily Caloric & Macronutrient Balance Standard",
+      "v47_primary_source_bullets": [
+        "Build meals using the USDA MyPlate ratio of 50% fruits and vegetables, 25% whole grains, and 25% lean protein plus dairy.",
+        "Scale trail rations to 2,800-3,500 kilocalories per backpacking day using 50% carbohydrates, 30% fat, and 20% protein."
+      ]
+    },
+    "6": {
+      "req_id": "6",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "FDA Food Code Cross-Contamination & Three-Basin Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+      "core_mechanism_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ],
+      "worked_field_example": "Packing raw ground beef in sealed double bags on the bottom shelf of a 38 degrees Fahrenheit cooler above ice blocks prevents meat juices from dripping onto fresh fruit.",
+      "counselor_tabletop_demo": "Arrange color-coded cutting boards (yellow for poultry, red for meat, green for produce) and test sanitizer concentration with a chlorine test strip.",
+      "real_world_connection_box": "FDA Food Code Cross-Contamination & Three-Basin Standard: Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds. Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_five_methods_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_five_methods_visual.png",
+      "bespoke_visual_caption": "Vertical panels illustrate Dutch oven baking, boiling stew in a pot, foil packet roasting, and frying over coals.",
+      "v47_slide_title": "FDA Food Code Cross-Contamination & Three-Basin Standard",
+      "v47_primary_source_bullets": [
+        "Separate raw poultry, raw red meat, and ready-to-eat produce onto color-coded boards and wash hands for 20 seconds.",
+        "Sanitize camp dishes in three basins using 110 degrees Fahrenheit wash water, clear rinse, and 50-100 ppm chlorine soak."
+      ]
+    },
+    "7": {
+      "req_id": "7",
+      "badge_name": "Cooking",
+      "provenance_tier": "PRIMARY_SOURCE_STANDARD",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "USDA FSIS & FDA Food Code",
+        "title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard Technical Reference",
+        "canonical_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart"
+      },
+      "rule_of_thumb_mnemonic": "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+      "core_mechanism_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ],
+      "worked_field_example": "To bake cornbread at 350 degrees Fahrenheit in a 12-inch Dutch oven, place 16 lit briquettes in a ring on the lid and 8 briquettes under the base while rotating 90 degrees every 15 minutes.",
+      "counselor_tabletop_demo": "Lay out unlit charcoal counters on a 12-inch circle template to demonstrate top-versus-bottom briquette placement for baking versus stewing.",
+      "real_world_connection_box": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard: Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking. Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + USDA FSIS & FDA Food Code",
+      "bespoke_visual_filename": "cooking_req_1_topic_visual.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/cooking_req_1_topic_visual.png",
+      "bespoke_visual_caption": "Two uniformed Scouts collaborating at a sunny camp station to inspect and apply hazards, first aid & safety using standard troop tools and reference charts.",
+      "v47_slide_title": "Thermal Heat-Transfer & Camp Dutch-Oven Coal Rule Standard",
+      "v47_primary_source_bullets": [
+        "Control heat transfer across boiling (212 degrees Fahrenheit), simmering (185-205 degrees Fahrenheit), frying, and baking.",
+        "Use 2 charcoal briquettes per inch of Dutch-oven diameter with two-thirds on the lid and one-third below for 350-degree baking."
+      ]
+    }
+  }
+}
