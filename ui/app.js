@@ -12,7 +12,7 @@
 
 const COUNSELOR_STORAGE_KEY = "scouts_bsa_counselor_profile_v1";
 const BLUECARD_STORAGE_PREFIX = "scouts_bsa_bluecard_roster_v1_";
-const V44_VISUAL_CACHE_EPOCH = "v44_20261031";
+const V44_VISUAL_CACHE_EPOCH = "v47_20261102";
 try {
   if (window.localStorage && localStorage.getItem("mbc_visual_cache_epoch") !== V44_VISUAL_CACHE_EPOCH) {
     Object.keys(localStorage).forEach((k) => {
@@ -5773,7 +5773,7 @@ function renderActiveSlide(idx) {
     if (rightZone) rightZone.style.display = "flex";
     if (splitContainer) splitContainer.style.gridTemplateColumns = "1fr";
     if (imgEl) {
-      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=44`;
+      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=47`;
       imgEl.alt = slide.visual_caption || slide.title || "Merit Badge Diagram";
       imgEl.style.maxHeight = "310px";
       imgEl.style.objectFit = "contain";
@@ -5788,7 +5788,7 @@ function renderActiveSlide(idx) {
     if (rightZone) rightZone.style.display = "flex";
     if (splitContainer) splitContainer.style.gridTemplateColumns = "minmax(0, 1.15fr) minmax(0, 0.85fr)";
     if (imgEl) {
-      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=44`;
+      const targetSrc = `${slide.diagram_url}${slide.diagram_url.includes("?") ? "&" : "?"}v=47`;
       imgEl.alt = slide.visual_caption || slide.title || "Merit Badge Diagram";
       imgEl.style.maxHeight = "250px";
       imgEl.style.objectFit = "contain";

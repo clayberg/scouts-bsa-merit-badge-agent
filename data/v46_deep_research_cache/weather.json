@@ -24,13 +24,17 @@
         "Upper Right: Sea-Level Pressure: Standard sea-level pressure equals 1,013.25 mb (29.92 inHg or 14.7 psi).",
         "Wind Shaft & Knot Feathers: Shaft points into the wind; short barb = 5 kt, long barb = 10 kt, pennant = 50 kt."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.). Step 3: Verify each measurement or checkpoint against NOAA NWS JetStream reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display weather_synoptic_station_decoder_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Surface Synoptic Station Model & Barometer Decoder', and have each pair state the key threshold (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.) in their own words before sign-off.",
+      "worked_field_example": "At 62 F air temperature and 60 F dew point (a 2 F spread) under clear calm skies, expect dense ground fog by dawn.",
+      "counselor_tabletop_demo": "Compare two NWS surface station plots and decode the temperature, dew point spread, sea-level pressure, and wind barb knots.",
       "real_world_connection_box": "NOAA NWS JetStream Field Standard: When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA NWS JetStream",
       "bespoke_visual_filename": "weather_synoptic_station_decoder_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_synoptic_station_decoder_v46_diagram.png",
-      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots."
+      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots.",
+      "v47_slide_title": "NOAA NWS JetStream Field Standard",
+      "v47_primary_source_bullets": [
+        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+      ]
     },
     "2": {
       "req_id": "2",
@@ -42,73 +46,28 @@
         "title": "NOAA National Severe Storms Lab Technical Reference: Supercell Charge Separation, Hail Growth & 30/30 Safety",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
+      "rule_of_thumb_mnemonic": "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
       "core_mechanism_bullets": [
         "Stage 1: Condensation Nucleus (0.0002 mm): Water vapor condenses onto microscopic dust and sea-salt aerosols above lifting level.",
         "Stage 2: Bergeron Raindrop Growth (2.0 mm): One 2.0 mm raindrop combines roughly 1,000,000 microscopic cloud droplets.",
         "Stage 3: Graupel-Ice Charge Split: Supercooled water and ice crystal collisions build 100-million-volt potential.",
         "Stage 4: Severe Updraft Hail (>55 mph): 25 mm quarter-size hail requires sustained updraft speeds exceeding 55 mph."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.). Step 3: Verify each measurement or checkpoint against NOAA National Severe Storms Lab reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display weather_lightning_hail_physics_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Supercell Charge Separation, Hail Growth & 30/30 Safety', and have each pair state the key threshold (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA National Severe Storms Lab Field Standard: 5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
+      "worked_field_example": "A fifteen-second flash-to-bang count means the lightning strike is three miles away and already within immediate shelter range.",
+      "counselor_tabletop_demo": "Use a stopwatch to time a simulated flash-to-bang interval and divide the seconds by five to calculate storm distance in miles.",
+      "real_world_connection_box": "NOAA National Severe Storms Lab Standard: Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less. Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA National Severe Storms Lab",
       "bespoke_visual_filename": "weather_lightning_hail_physics_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_lightning_hail_physics_v46_diagram.png",
-      "bespoke_visual_caption": "Vertical thunderstorm charge separation diagram linking graupel-ice collisions, hailstone updraft cycling, and the 5-second per mile flash-to-bang rule."
+      "bespoke_visual_caption": "Vertical supercell cutaway showing warm updrafts, cool downdrafts, hailstone cycling above the freezing line, and cloud-to-ground lightning.",
+      "v47_slide_title": "NOAA National Severe Storms Lab Standard",
+      "v47_primary_source_bullets": [
+        "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
+        "Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers."
+      ]
     },
     "3": {
       "req_id": "3",
-      "badge_name": "Weather",
-      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
-      "freshness_ttl_days": 365,
-      "primary_source_citation": {
-        "source_agency": "NOAA Cooperative Observer Program",
-        "title": "NOAA Cooperative Observer Program Technical Reference: Four Field Weather Instruments & Calibration Principles",
-        "canonical_url": "https://www.weather.gov/jetstream/"
-      },
-      "rule_of_thumb_mnemonic": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
-      "core_mechanism_bullets": [
-        "Wind Vane (True North): Larger tail fin catches wind so pointer faces directly into incoming airflow; align with magnetic declination.",
-        "4-Cup Anemometer (RPM): Count colored-cup revolutions in 60 seconds and multiply by circumference and calibration factor.",
-        "10:1 Magnifying Rain Gauge: Narrow inner measuring tube expands vertical water height 10x so 0.01 inch is easy to read.",
-        "Hair Hygrometer (Humidity): Human hair lengthens by 2.5 percent as relative humidity rises from 0 percent to 100 percent."
-      ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.). Step 3: Verify each measurement or checkpoint against NOAA Cooperative Observer Program reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display weather_synoptic_station_decoder_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Four Field Weather Instruments & Calibration Principles', and have each pair state the key threshold (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Cooperative Observer Program Field Standard: Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Cooperative Observer Program",
-      "bespoke_visual_filename": "weather_synoptic_station_decoder_v46_diagram.png",
-      "bespoke_visual_url": "/assets/ai_illustrations/weather_synoptic_station_decoder_v46_diagram.png",
-      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots."
-    },
-    "4": {
-      "req_id": "4",
-      "badge_name": "Weather",
-      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
-      "freshness_ttl_days": 365,
-      "primary_source_citation": {
-        "source_agency": "NOAA Storm Prediction Center",
-        "title": "NOAA Storm Prediction Center Technical Reference: Watch vs. Warning Action Ladder & Outdoor Backcountry Rules",
-        "canonical_url": "https://www.weather.gov/jetstream/"
-      },
-      "rule_of_thumb_mnemonic": "Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
-      "core_mechanism_bullets": [
-        "Tier 1: NWS Forecast Discussion (48 Hr): Check local NWS Weather Forecast Office hourly graph before departing on any campout.",
-        "Tier 2: Severe Weather WATCH: Atmospheric ingredients are present across a multi-county zone; review shelter plan and gear.",
-        "Tier 3: Severe Weather WARNING: Doppler radar or spotters confirm imminent hazard; move immediately to designated hard shelter.",
-        "Tier 4: Backcountry Execution: Turn Around Dont Drown (6 in moving water knocks down an adult); wait 30 min after last thunder."
-      ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).). Step 3: Verify each measurement or checkpoint against NOAA Storm Prediction Center reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display weather_severe_watch_vs_warning_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watch vs. Warning Action Ladder & Outdoor Backcountry Rules', and have each pair state the key threshold (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Storm Prediction Center",
-      "bespoke_visual_filename": "weather_severe_watch_vs_warning_v46_diagram.png",
-      "bespoke_visual_url": "/assets/ai_illustrations/weather_severe_watch_vs_warning_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered emergency action framework contrasting severe weather Watch preparation against immediate Warning shelter execution across lightning, flash floods, and tornadoes."
-    },
-    "5": {
-      "req_id": "5",
       "badge_name": "Weather",
       "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
       "freshness_ttl_days": 365,
@@ -124,13 +83,77 @@
         "Upper Right: Sea-Level Pressure: Standard sea-level pressure equals 1,013.25 mb (29.92 inHg or 14.7 psi).",
         "Wind Shaft & Knot Feathers: Shaft points into the wind; short barb = 5 kt, long barb = 10 kt, pennant = 50 kt."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.). Step 3: Verify each measurement or checkpoint against NOAA NWS JetStream reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display weather_lightning_hail_physics_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Surface Synoptic Station Model & Barometer Decoder', and have each pair state the key threshold (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.) in their own words before sign-off.",
+      "worked_field_example": "At 62 F air temperature and 60 F dew point (a 2 F spread) under clear calm skies, expect dense ground fog by dawn.",
+      "counselor_tabletop_demo": "Compare two NWS surface station plots and decode the temperature, dew point spread, sea-level pressure, and wind barb knots.",
       "real_world_connection_box": "NOAA NWS JetStream Field Standard: When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA NWS JetStream",
+      "bespoke_visual_filename": "weather_synoptic_station_decoder_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/weather_synoptic_station_decoder_v46_diagram.png",
+      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots.",
+      "v47_slide_title": "NOAA NWS JetStream Field Standard",
+      "v47_primary_source_bullets": [
+        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+      ]
+    },
+    "4": {
+      "req_id": "4",
+      "badge_name": "Weather",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NOAA Storm Prediction Center",
+        "title": "NOAA Storm Prediction Center Technical Reference: Watch vs. Warning Action Ladder & Outdoor Backcountry Rules",
+        "canonical_url": "https://www.weather.gov/jetstream/"
+      },
+      "rule_of_thumb_mnemonic": "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
+      "core_mechanism_bullets": [
+        "Tier 1: NWS Forecast Discussion (48 Hr): Check local NWS Weather Forecast Office hourly graph before departing on any campout.",
+        "Tier 2: Severe Weather WATCH: Atmospheric ingredients are present across a multi-county zone; review shelter plan and gear.",
+        "Tier 3: Severe Weather WARNING: Doppler radar or spotters confirm imminent hazard; move immediately to designated hard shelter.",
+        "Tier 4: Backcountry Execution: Turn Around Dont Drown (6 in moving water knocks down an adult); wait 30 min after last thunder."
+      ],
+      "worked_field_example": "When a Tornado Watch upgrades to a Tornado Warning at camp, move patrols immediately from tents to a reinforced masonry building.",
+      "counselor_tabletop_demo": "Sort four real NWS alert bulletins into Watch preparation actions versus immediate Warning shelter execution.",
+      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early. A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Storm Prediction Center",
+      "bespoke_visual_filename": "weather_severe_watch_vs_warning_v46_diagram.png",
+      "bespoke_visual_url": "/assets/ai_illustrations/weather_severe_watch_vs_warning_v46_diagram.png",
+      "bespoke_visual_caption": "Side-by-side field comparison contrasting calm Watch gear preparation against immediate Warning evacuation into a sturdy stone shelter.",
+      "v47_slide_title": "NOAA Storm Prediction Center Field Standard",
+      "v47_primary_source_bullets": [
+        "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
+        "A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter."
+      ]
+    },
+    "5": {
+      "req_id": "5",
+      "badge_name": "Weather",
+      "provenance_tier": "FEDERAL_PRIMARY_SOURCE",
+      "freshness_ttl_days": 365,
+      "primary_source_citation": {
+        "source_agency": "NOAA NWS JetStream",
+        "title": "NOAA NWS JetStream Technical Reference: Surface Synoptic Station Model & Barometer Decoder",
+        "canonical_url": "https://www.weather.gov/jetstream/"
+      },
+      "rule_of_thumb_mnemonic": "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
+      "core_mechanism_bullets": [
+        "Upper Left: Air Temperature (F): Measured inside a shaded Stevenson screen at 2 meters above ground level.",
+        "Lower Left: Dew Point (Td): Measures exact atmospheric moisture; spread under 4 F signals saturation and fog.",
+        "Upper Right: Sea-Level Pressure: Standard sea-level pressure equals 1,013.25 mb (29.92 inHg or 14.7 psi).",
+        "Wind Shaft & Knot Feathers: Shaft points into the wind; short barb = 5 kt, long barb = 10 kt, pennant = 50 kt."
+      ],
+      "worked_field_example": "A fifteen-second flash-to-bang count means the lightning strike is three miles away and already within immediate shelter range.",
+      "counselor_tabletop_demo": "Use a stopwatch to time a simulated flash-to-bang interval and divide the seconds by five to calculate storm distance in miles.",
+      "real_world_connection_box": "NOAA National Severe Storms Lab Standard: Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less. Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA National Severe Storms Lab",
       "bespoke_visual_filename": "weather_lightning_hail_physics_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_lightning_hail_physics_v46_diagram.png",
-      "bespoke_visual_caption": "Vertical thunderstorm charge separation diagram linking graupel-ice collisions, hailstone updraft cycling, and the 5-second per mile flash-to-bang rule."
+      "bespoke_visual_caption": "Vertical supercell cutaway showing warm updrafts, cool downdrafts, hailstone cycling above the freezing line, and cloud-to-ground lightning.",
+      "v47_slide_title": "NOAA National Severe Storms Lab Standard",
+      "v47_primary_source_bullets": [
+        "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
+        "Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers."
+      ]
     },
     "6": {
       "req_id": "6",
@@ -142,20 +165,25 @@
         "title": "NOAA National Severe Storms Lab Technical Reference: Supercell Charge Separation, Hail Growth & 30/30 Safety",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
+      "rule_of_thumb_mnemonic": "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
       "core_mechanism_bullets": [
         "Stage 1: Condensation Nucleus (0.0002 mm): Water vapor condenses onto microscopic dust and sea-salt aerosols above lifting level.",
         "Stage 2: Bergeron Raindrop Growth (2.0 mm): One 2.0 mm raindrop combines roughly 1,000,000 microscopic cloud droplets.",
         "Stage 3: Graupel-Ice Charge Split: Supercooled water and ice crystal collisions build 100-million-volt potential.",
         "Stage 4: Severe Updraft Hail (>55 mph): 25 mm quarter-size hail requires sustained updraft speeds exceeding 55 mph."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.). Step 3: Verify each measurement or checkpoint against NOAA National Severe Storms Lab reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display weather_lightning_hail_physics_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Supercell Charge Separation, Hail Growth & 30/30 Safety', and have each pair state the key threshold (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA National Severe Storms Lab Field Standard: 5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
+      "worked_field_example": "A fifteen-second flash-to-bang count means the lightning strike is three miles away and already within immediate shelter range.",
+      "counselor_tabletop_demo": "Use a stopwatch to time a simulated flash-to-bang interval and divide the seconds by five to calculate storm distance in miles.",
+      "real_world_connection_box": "NOAA National Severe Storms Lab Standard: Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less. Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA National Severe Storms Lab",
       "bespoke_visual_filename": "weather_lightning_hail_physics_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_lightning_hail_physics_v46_diagram.png",
-      "bespoke_visual_caption": "Vertical thunderstorm charge separation diagram linking graupel-ice collisions, hailstone updraft cycling, and the 5-second per mile flash-to-bang rule."
+      "bespoke_visual_caption": "Vertical supercell cutaway showing warm updrafts, cool downdrafts, hailstone cycling above the freezing line, and cloud-to-ground lightning.",
+      "v47_slide_title": "NOAA National Severe Storms Lab Standard",
+      "v47_primary_source_bullets": [
+        "Five seconds from lightning flash to thunder equals one mile, so seek shelter at thirty seconds or less.",
+        "Strong thunderstorm updrafts cycle ice pellets across the freezing level to build concentric hailstone layers."
+      ]
     },
     "7": {
       "req_id": "7",
@@ -167,20 +195,24 @@
         "title": "NOAA Cooperative Observer Program Technical Reference: Four Field Weather Instruments & Calibration Principles",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
+      "rule_of_thumb_mnemonic": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision.",
       "core_mechanism_bullets": [
         "Wind Vane (True North): Larger tail fin catches wind so pointer faces directly into incoming airflow; align with magnetic declination.",
         "4-Cup Anemometer (RPM): Count colored-cup revolutions in 60 seconds and multiply by circumference and calibration factor.",
         "10:1 Magnifying Rain Gauge: Narrow inner measuring tube expands vertical water height 10x so 0.01 inch is easy to read.",
         "Hair Hygrometer (Humidity): Human hair lengthens by 2.5 percent as relative humidity rises from 0 percent to 100 percent."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.). Step 3: Verify each measurement or checkpoint against NOAA Cooperative Observer Program reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display weather_diy_instruments_quadrant_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Four Field Weather Instruments & Calibration Principles', and have each pair state the key threshold (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Cooperative Observer Program Field Standard: Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
+      "worked_field_example": "Collecting 2.50 inches of water inside a 10x magnified inner measuring tube records exactly 0.25 inches of actual rainfall.",
+      "counselor_tabletop_demo": "Pour 10 milliliters of water through a 4-inch funnel into a narrow graduated tube to demonstrate 10x depth magnification.",
+      "real_world_connection_box": "NOAA Cooperative Observer Program Standard: Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Cooperative Observer Program",
       "bespoke_visual_filename": "weather_diy_instruments_quadrant_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_diy_instruments_quadrant_v46_diagram.png",
-      "bespoke_visual_caption": "Engineering calibration guide for building a wind vane, four-cup anemometer, graduated rain gauge, and human-hair hygrometer."
+      "bespoke_visual_caption": "Handcrafted meteorological instruments showing a wind vane, four-cup anemometer, graduated rain collector, and wet-and-dry-bulb psychrometer.",
+      "v47_slide_title": "NOAA Cooperative Observer Program Standard",
+      "v47_primary_source_bullets": [
+        "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision."
+      ]
     },
     "8": {
       "req_id": "8",
@@ -192,20 +224,25 @@
         "title": "NOAA Storm Prediction Center Technical Reference: Watch vs. Warning Action Ladder & Outdoor Backcountry Rules",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
+      "rule_of_thumb_mnemonic": "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
       "core_mechanism_bullets": [
         "Tier 1: NWS Forecast Discussion (48 Hr): Check local NWS Weather Forecast Office hourly graph before departing on any campout.",
         "Tier 2: Severe Weather WATCH: Atmospheric ingredients are present across a multi-county zone; review shelter plan and gear.",
         "Tier 3: Severe Weather WARNING: Doppler radar or spotters confirm imminent hazard; move immediately to designated hard shelter.",
         "Tier 4: Backcountry Execution: Turn Around Dont Drown (6 in moving water knocks down an adult); wait 30 min after last thunder."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).). Step 3: Verify each measurement or checkpoint against NOAA Storm Prediction Center reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display weather_severe_watch_vs_warning_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watch vs. Warning Action Ladder & Outdoor Backcountry Rules', and have each pair state the key threshold (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
+      "worked_field_example": "When a Tornado Watch upgrades to a Tornado Warning at camp, move patrols immediately from tents to a reinforced masonry building.",
+      "counselor_tabletop_demo": "Sort four real NWS alert bulletins into Watch preparation actions versus immediate Warning shelter execution.",
+      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early. A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Storm Prediction Center",
       "bespoke_visual_filename": "weather_severe_watch_vs_warning_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_severe_watch_vs_warning_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered emergency action framework contrasting severe weather Watch preparation against immediate Warning shelter execution across lightning, flash floods, and tornadoes."
+      "bespoke_visual_caption": "Side-by-side field comparison contrasting calm Watch gear preparation against immediate Warning evacuation into a sturdy stone shelter.",
+      "v47_slide_title": "NOAA Storm Prediction Center Field Standard",
+      "v47_primary_source_bullets": [
+        "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
+        "A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter."
+      ]
     },
     "9": {
       "req_id": "9",
@@ -224,13 +261,17 @@
         "Upper Right: Sea-Level Pressure: Standard sea-level pressure equals 1,013.25 mb (29.92 inHg or 14.7 psi).",
         "Wind Shaft & Knot Feathers: Shaft points into the wind; short barb = 5 kt, long barb = 10 kt, pennant = 50 kt."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.). Step 3: Verify each measurement or checkpoint against NOAA NWS JetStream reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display weather_synoptic_station_decoder_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Surface Synoptic Station Model & Barometer Decoder', and have each pair state the key threshold (When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.) in their own words before sign-off.",
+      "worked_field_example": "At 62 F air temperature and 60 F dew point (a 2 F spread) under clear calm skies, expect dense ground fog by dawn.",
+      "counselor_tabletop_demo": "Compare two NWS surface station plots and decode the temperature, dew point spread, sea-level pressure, and wind barb knots.",
       "real_world_connection_box": "NOAA NWS JetStream Field Standard: When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA NWS JetStream",
       "bespoke_visual_filename": "weather_synoptic_station_decoder_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_synoptic_station_decoder_v46_diagram.png",
-      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots."
+      "bespoke_visual_caption": "NOAA surface station plot decoder showing temperature, dew point depression, sea-level pressure in millibars, and wind speed barbs in knots.",
+      "v47_slide_title": "NOAA NWS JetStream Field Standard",
+      "v47_primary_source_bullets": [
+        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+      ]
     },
     "10": {
       "req_id": "10",
@@ -242,20 +283,24 @@
         "title": "NOAA National Severe Storms Lab Technical Reference: Supercell Charge Separation, Hail Growth & 30/30 Safety",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
+      "rule_of_thumb_mnemonic": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision.",
       "core_mechanism_bullets": [
         "Stage 1: Condensation Nucleus (0.0002 mm): Water vapor condenses onto microscopic dust and sea-salt aerosols above lifting level.",
         "Stage 2: Bergeron Raindrop Growth (2.0 mm): One 2.0 mm raindrop combines roughly 1,000,000 microscopic cloud droplets.",
         "Stage 3: Graupel-Ice Charge Split: Supercooled water and ice crystal collisions build 100-million-volt potential.",
         "Stage 4: Severe Updraft Hail (>55 mph): 25 mm quarter-size hail requires sustained updraft speeds exceeding 55 mph."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 10 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.). Step 3: Verify each measurement or checkpoint against NOAA National Severe Storms Lab reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 10): Display weather_diy_instruments_quadrant_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Supercell Charge Separation, Hail Growth & 30/30 Safety', and have each pair state the key threshold (5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA National Severe Storms Lab Field Standard: 5 seconds from lightning flash to thunder equals 1 mile distance; shelter immediately at 30 seconds or less.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA National Severe Storms Lab",
+      "worked_field_example": "Collecting 2.50 inches of water inside a 10x magnified inner measuring tube records exactly 0.25 inches of actual rainfall.",
+      "counselor_tabletop_demo": "Pour 10 milliliters of water through a 4-inch funnel into a narrow graduated tube to demonstrate 10x depth magnification.",
+      "real_world_connection_box": "NOAA Cooperative Observer Program Standard: Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Cooperative Observer Program",
       "bespoke_visual_filename": "weather_diy_instruments_quadrant_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_diy_instruments_quadrant_v46_diagram.png",
-      "bespoke_visual_caption": "Engineering calibration guide for building a wind vane, four-cup anemometer, graduated rain gauge, and human-hair hygrometer."
+      "bespoke_visual_caption": "Handcrafted meteorological instruments showing a wind vane, four-cup anemometer, graduated rain collector, and wet-and-dry-bulb psychrometer.",
+      "v47_slide_title": "NOAA Cooperative Observer Program Standard",
+      "v47_primary_source_bullets": [
+        "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth tenfold for 0.01-inch precision."
+      ]
     },
     "11": {
       "req_id": "11",
@@ -267,20 +312,25 @@
         "title": "NOAA Cooperative Observer Program Technical Reference: Four Field Weather Instruments & Calibration Principles",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
+      "rule_of_thumb_mnemonic": "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
       "core_mechanism_bullets": [
         "Wind Vane (True North): Larger tail fin catches wind so pointer faces directly into incoming airflow; align with magnetic declination.",
         "4-Cup Anemometer (RPM): Count colored-cup revolutions in 60 seconds and multiply by circumference and calibration factor.",
         "10:1 Magnifying Rain Gauge: Narrow inner measuring tube expands vertical water height 10x so 0.01 inch is easy to read.",
         "Hair Hygrometer (Humidity): Human hair lengthens by 2.5 percent as relative humidity rises from 0 percent to 100 percent."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 11 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.). Step 3: Verify each measurement or checkpoint against NOAA Cooperative Observer Program reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 11): Display weather_severe_watch_vs_warning_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Four Field Weather Instruments & Calibration Principles', and have each pair state the key threshold (Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Cooperative Observer Program Field Standard: Funneling a 4-inch collector into a 1.26-inch cylinder magnifies rainfall depth by exactly 10x for 0.01-inch precision.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Cooperative Observer Program",
+      "worked_field_example": "When a Tornado Watch upgrades to a Tornado Warning at camp, move patrols immediately from tents to a reinforced masonry building.",
+      "counselor_tabletop_demo": "Sort four real NWS alert bulletins into Watch preparation actions versus immediate Warning shelter execution.",
+      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early. A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Storm Prediction Center",
       "bespoke_visual_filename": "weather_severe_watch_vs_warning_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_severe_watch_vs_warning_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered emergency action framework contrasting severe weather Watch preparation against immediate Warning shelter execution across lightning, flash floods, and tornadoes."
+      "bespoke_visual_caption": "Side-by-side field comparison contrasting calm Watch gear preparation against immediate Warning evacuation into a sturdy stone shelter.",
+      "v47_slide_title": "NOAA Storm Prediction Center Field Standard",
+      "v47_primary_source_bullets": [
+        "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
+        "A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter."
+      ]
     },
     "12": {
       "req_id": "12",
@@ -292,20 +342,25 @@
         "title": "NOAA Storm Prediction Center Technical Reference: Watch vs. Warning Action Ladder & Outdoor Backcountry Rules",
         "canonical_url": "https://www.weather.gov/jetstream/"
       },
-      "rule_of_thumb_mnemonic": "Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
+      "rule_of_thumb_mnemonic": "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
       "core_mechanism_bullets": [
         "Tier 1: NWS Forecast Discussion (48 Hr): Check local NWS Weather Forecast Office hourly graph before departing on any campout.",
         "Tier 2: Severe Weather WATCH: Atmospheric ingredients are present across a multi-county zone; review shelter plan and gear.",
         "Tier 3: Severe Weather WARNING: Doppler radar or spotters confirm imminent hazard; move immediately to designated hard shelter.",
         "Tier 4: Backcountry Execution: Turn Around Dont Drown (6 in moving water knocks down an adult); wait 30 min after last thunder."
       ],
-      "worked_field_example": "Step 1: Read the official Weather Requirement 12 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).). Step 3: Verify each measurement or checkpoint against NOAA Storm Prediction Center reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 12): Display weather_severe_watch_vs_warning_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Watch vs. Warning Action Ladder & Outdoor Backcountry Rules', and have each pair state the key threshold (Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).) in their own words before sign-off.",
-      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: Watch means ingredients are ready (prepare now); Warning means hazard is active or on radar (act immediately).",
+      "worked_field_example": "When a Tornado Watch upgrades to a Tornado Warning at camp, move patrols immediately from tents to a reinforced masonry building.",
+      "counselor_tabletop_demo": "Sort four real NWS alert bulletins into Watch preparation actions versus immediate Warning shelter execution.",
+      "real_world_connection_box": "NOAA Storm Prediction Center Field Standard: A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early. A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NOAA Storm Prediction Center",
       "bespoke_visual_filename": "weather_severe_watch_vs_warning_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/weather_severe_watch_vs_warning_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered emergency action framework contrasting severe weather Watch preparation against immediate Warning shelter execution across lightning, flash floods, and tornadoes."
+      "bespoke_visual_caption": "Side-by-side field comparison contrasting calm Watch gear preparation against immediate Warning evacuation into a sturdy stone shelter.",
+      "v47_slide_title": "NOAA Storm Prediction Center Field Standard",
+      "v47_primary_source_bullets": [
+        "A Severe Weather Watch means atmospheric ingredients are present so patrols should prepare early.",
+        "A Severe Weather Warning means hazardous weather is active on radar and requires immediate shelter."
+      ]
     }
   }
 }

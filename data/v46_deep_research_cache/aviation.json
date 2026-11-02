@@ -17,20 +17,25 @@
         "title": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) Technical Reference: Four Forces of Flight & Three-Axis Primary Flight Controls",
         "canonical_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
       },
-      "rule_of_thumb_mnemonic": "In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.",
+      "rule_of_thumb_mnemonic": "In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag.",
       "core_mechanism_bullets": [
         "1. Lift vs. Weight (Vertical Axis): Curved upper camber accelerates airflow (Bernoulli lower pressure) while downward trailing wash (Newton 3rd Law) generates upward Lift.",
         "2. Thrust vs. Drag (Longitudinal Axis): Propeller or turbofan accelerates air rearward to overcome parasite form drag and lift-induced wingtip vortex drag.",
         "3. Roll (Ailerons) & Pitch (Elevator): Moving yoke left/right moves outboard wing ailerons oppositely to Roll; pulling yoke aft raises tail Elevator to Pitch nose up.",
         "4. Yaw (Rudder Pedals) & Coordinated Turn: Foot pedals deflect vertical tail Rudder left/right around the vertical axis to counter adverse yaw and keep the inclinometer ball centered."
       ],
-      "worked_field_example": "Step 1: Read the official Aviation Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.). Step 3: Verify each measurement or checkpoint against FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display aviation_four_forces_three_axes_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Four Forces of Flight & Three-Axis Primary Flight Controls', and have each pair state the key threshold (In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.) in their own words before sign-off.",
-      "real_world_connection_box": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) Field Standard: In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.",
+      "worked_field_example": "Exceeding the wing's critical angle of attack near 16 to 18 degrees separates smooth airflow over the upper camber and triggers a stall.",
+      "counselor_tabletop_demo": "Use a model airplane to demonstrate how opposite aileron deflection rolls the wings while elevator and rudder control pitch and yaw.",
+      "real_world_connection_box": "FAA Pilot's Handbook Aerodynamics Standard: In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag. Ailerons control Roll around the longitudinal axis, the elevator controls Pitch around the lateral axis, and the rudder controls Yaw.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5)",
       "bespoke_visual_filename": "aviation_four_forces_three_axes_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/aviation_four_forces_three_axes_v46_diagram.png",
-      "bespoke_visual_caption": "FAA aerodynamic balance diagram pairing Lift vs. Weight and Thrust vs. Drag with Aileron (Roll), Elevator (Pitch), and Rudder (Yaw) control surfaces."
+      "bespoke_visual_caption": "Aerodynamic balance diagram pairing Lift, Weight, Thrust, and Drag vectors with aileron roll, elevator pitch, and rudder yaw axes.",
+      "v47_slide_title": "FAA Pilot's Handbook Aerodynamics Standard",
+      "v47_primary_source_bullets": [
+        "In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag.",
+        "Ailerons control Roll around the longitudinal axis, the elevator controls Pitch around the lateral axis, and the rudder controls Yaw."
+      ]
     },
     "2": {
       "req_id": "2",
@@ -42,20 +47,25 @@
         "title": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 8) Technical Reference: The Cockpit 'Six-Pack': Pitot-Static vs. Gyroscopic Instruments",
         "canonical_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
       },
-      "rule_of_thumb_mnemonic": "3 Pitot-Static instruments measure air pressure (ASI, Altimeter, VSI); 3 Gyroscopic instruments measure spin inertia (Attitude, Heading, Turn Coordinator).",
+      "rule_of_thumb_mnemonic": "Three Pitot-Static instruments measure air pressure to display Airspeed, Altitude, and Vertical Speed.",
       "core_mechanism_bullets": [
         "Pitot + Static: Airspeed Indicator (Knots): Subtracts static port pressure from forward ram-air Pitot pressure; color arcs mark white flap range, green normal, yellow caution, red Vne.",
         "Static Pressure: Altimeter & VSI: Aneroid wafers expand as ambient pressure drops with altitude (~1 inHg per 1,000 ft), driving the 3-pointer Altimeter and ft/min VSI.",
         "Gyroscopic: Attitude & Heading Indicators: Artificial horizon shows real-time bank angle and pitch relative to horizon; Heading Indicator tracks magnetic compass heading.",
         "Engine & Tachometer Monitoring: RPM tachometer, oil temperature, and oil pressure gauges give immediate early warning of powerplant anomalies."
       ],
-      "worked_field_example": "Step 1: Read the official Aviation Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (3 Pitot-Static instruments measure air pressure (ASI, Altimeter, VSI); 3 Gyroscopic instruments measure spin inertia (Attitude, Heading, Turn Coordinator).). Step 3: Verify each measurement or checkpoint against FAA Pilot's Handbook (FAA-H-8083-25C Ch. 8) reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display aviation_cockpit_six_pack_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'The Cockpit 'Six-Pack': Pitot-Static vs. Gyroscopic Instruments', and have each pair state the key threshold (3 Pitot-Static instruments measure air pressure (ASI, Altimeter, VSI); 3 Gyroscopic instruments measure spin inertia (Attitude, Heading, Turn Coordinator).) in their own words before sign-off.",
-      "real_world_connection_box": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 8) Field Standard: 3 Pitot-Static instruments measure air pressure (ASI, Altimeter, VSI); 3 Gyroscopic instruments measure spin inertia (Attitude, Heading, Turn Coordinator).",
+      "worked_field_example": "If the wing pitot tube blocks while the static port stays open, the Airspeed Indicator fails while the Altimeter and VSI continue operating.",
+      "counselor_tabletop_demo": "Trace the red ram-air pitot line and blue static line to the three pressure gauges, then identify the three gyroscopic gauges.",
+      "real_world_connection_box": "FAA Flight Instruments (FAA-H-8083-25C Ch. 8) Standard: Three Pitot-Static instruments measure air pressure to display Airspeed, Altitude, and Vertical Speed. Three Gyroscopic instruments use spinning rotor rigidity to display Attitude, Magnetic Heading, and Rate of Turn.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA Pilot's Handbook (FAA-H-8083-25C Ch. 8)",
       "bespoke_visual_filename": "aviation_cockpit_six_pack_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/aviation_cockpit_six_pack_v46_diagram.png",
-      "bespoke_visual_caption": "Engineering breakdown distinguishing the three Pitot-Static pressure instruments (Airspeed, Altimeter, Vertical Speed) from the three Gyroscopic attitude/heading instruments."
+      "bespoke_visual_caption": "Cockpit six-pack cutaway linking the Airspeed Indicator, Altimeter, and VSI to pitot-static pressure and the remaining three gauges to gyroscopes.",
+      "v47_slide_title": "FAA Flight Instruments (FAA-H-8083-25C Ch. 8) Standard",
+      "v47_primary_source_bullets": [
+        "Three Pitot-Static instruments measure air pressure to display Airspeed, Altitude, and Vertical Speed.",
+        "Three Gyroscopic instruments use spinning rotor rigidity to display Attitude, Magnetic Heading, and Rate of Turn."
+      ]
     },
     "3": {
       "req_id": "3",
@@ -67,20 +77,25 @@
         "title": "FAA Airplane Flying Handbook (FAA-H-8083-3C) Technical Reference: Cessna 172 Walk-Around Preflight & Runway Magnetic Numbering",
         "canonical_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
       },
-      "rule_of_thumb_mnemonic": "Runway numbers drop the last digit of magnetic compass heading: Runway 27 points due West (270 degrees magnetic); planes take off and land INTO the wind.",
+      "rule_of_thumb_mnemonic": "Runway numbers drop the last digit of magnetic compass heading so aircraft can take off and land directly into the wind.",
       "core_mechanism_bullets": [
         "Cockpit Safety & A-R-R-O-W Check: Verify Magnetos OFF, Master switch OFF, control lock removed, and Airworthiness, Registration, Radio, Operating Handbook, Weight & Balance.",
         "Fuel Sump Drain & Quantity Check: Visually dip both wing tanks and drain low-point fuel sumps into a clear tester cup to verify zero water globules or debris.",
         "Airframe, Hinges, Pitot & Prop Walk-Around: Remove red 'Remove Before Flight' Pitot cover, inspect propeller leading edge for nicks, check tire inflation, and test all control hinges.",
         "Runway Markings, Windsock & Phonetic ATC: Read windsock direction to pick the headwind runway, hold short of double solid/dashed yellow lines, and use ICAO Alpha-Bravo-Charlie radio calls."
       ],
-      "worked_field_example": "Step 1: Read the official Aviation Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Runway numbers drop the last digit of magnetic compass heading: Runway 27 points due West (270 degrees magnetic); planes take off and land INTO the wind.). Step 3: Verify each measurement or checkpoint against FAA Airplane Flying Handbook (FAA-H-8083-3C) reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display aviation_preflight_airport_ops_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Cessna 172 Walk-Around Preflight & Runway Magnetic Numbering', and have each pair state the key threshold (Runway numbers drop the last digit of magnetic compass heading: Runway 27 points due West (270 degrees magnetic); planes take off and land INTO the wind.) in their own words before sign-off.",
-      "real_world_connection_box": "FAA Airplane Flying Handbook (FAA-H-8083-3C) Field Standard: Runway numbers drop the last digit of magnetic compass heading: Runway 27 points due West (270 degrees magnetic); planes take off and land INTO the wind.",
+      "worked_field_example": "When the airport windsock indicates wind blowing from 270 degrees magnetic (due West), pilots depart and land on Runway 27.",
+      "counselor_tabletop_demo": "Inspect a clear fuel-tester cup sample to see how heavier water settles below aviation fuel at the bottom of the cylinder.",
+      "real_world_connection_box": "FAA Airplane Flying Handbook Preflight Standard: Runway numbers drop the last digit of magnetic compass heading so aircraft can take off and land directly into the wind. A walk-around preflight inspection verifies water-free fuel sump samples, control hinges, landing gear tires, and pitot covers.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA Airplane Flying Handbook (FAA-H-8083-3C)",
       "bespoke_visual_filename": "aviation_preflight_airport_ops_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/aviation_preflight_airport_ops_v46_diagram.png",
-      "bespoke_visual_caption": "Four-quadrant flight-line operations reference covering A-R-R-O-W aircraft documents, fuel sump water checks, Pitot tube cover removal, and magnetic runway headings."
+      "bespoke_visual_caption": "Airfield ramp walk-around showing a flight instructor and Scouts inspecting a fuel tester, landing gear, and red pitot cover near a windsock.",
+      "v47_slide_title": "FAA Airplane Flying Handbook Preflight Standard",
+      "v47_primary_source_bullets": [
+        "Runway numbers drop the last digit of magnetic compass heading so aircraft can take off and land directly into the wind.",
+        "A walk-around preflight inspection verifies water-free fuel sump samples, control hinges, landing gear tires, and pitot covers."
+      ]
     },
     "4": {
       "req_id": "4",
@@ -92,20 +107,25 @@
         "title": "FAA STEM AVSED & EAA Young Eagles Technical Reference: Aviation & Aerospace Career Pathways, FAA Certificates & STEM Roles",
         "canonical_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
       },
-      "rule_of_thumb_mnemonic": "You can solo a glider at age 14, solo a powered airplane at age 16, and take an EAA Young Eagles introductory flight today for $0.",
+      "rule_of_thumb_mnemonic": "Student pilots can solo a glider at age 14 and a powered aircraft at age 16 before earning a Private Pilot Certificate at age 17.",
       "core_mechanism_bullets": [
         "1. FAA Pilot Certificate Ladder: Student Pilot solo at 16 (glider at 14) -> Private Pilot (PPL) at 17 -> Instrument Rating (IFR) -> Commercial (CPL) -> Airline Transport (ATP).",
         "2. Airframe & Powerplant (A&P) Mechanic: FAA-certificated aviation maintenance technicians inspect turbines, avionics, hydraulics, and structural composites before every flight.",
         "3. FAA Air Traffic Controller (ATC): Tower, TRACON approach, and En Route center controllers sequence thousands of daily flights safely through radar and ADS-B separation.",
         "4. Aerospace & Unmanned Systems Engineer: Designs wings, propulsion, fly-by-wire avionics, autonomous Part 107 drones, and spacecraft in wind tunnels and CFD simulators."
       ],
-      "worked_field_example": "Step 1: Read the official Aviation Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (You can solo a glider at age 14, solo a powered airplane at age 16, and take an EAA Young Eagles introductory flight today for $0.). Step 3: Verify each measurement or checkpoint against FAA STEM AVSED & EAA Young Eagles reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display aviation_careers_aeronautical_path_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Aviation & Aerospace Career Pathways, FAA Certificates & STEM Roles', and have each pair state the key threshold (You can solo a glider at age 14, solo a powered airplane at age 16, and take an EAA Young Eagles introductory flight today for $0.) in their own words before sign-off.",
-      "real_world_connection_box": "FAA STEM AVSED & EAA Young Eagles Field Standard: You can solo a glider at age 14, solo a powered airplane at age 16, and take an EAA Young Eagles introductory flight today for $0.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA STEM AVSED & EAA Young Eagles",
+      "worked_field_example": "Through the EAA Young Eagles program, Scouts ages 8 to 17 can log an introductory flight with a certificated pilot at zero cost.",
+      "counselor_tabletop_demo": "Compare the training pathways and daily responsibilities of a cockpit pilot, tower controller, FAA A&P technician, and wind-tunnel engineer.",
+      "real_world_connection_box": "FAA Airman Certification & STEM AVSED Standard: Student pilots can solo a glider at age 14 and a powered aircraft at age 16 before earning a Private Pilot Certificate at age 17. Safe flight operations depend equally on FAA Airframe and Powerplant mechanics, Air Traffic Controllers, and aerospace engineers.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA STEM AVSED & 14 CFR Part 61",
       "bespoke_visual_filename": "aviation_careers_aeronautical_path_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/aviation_careers_aeronautical_path_v46_diagram.png",
-      "bespoke_visual_caption": "Structured progression across pilot certificates (Student at age 16, Private Pilot at 17, Instrument, Commercial, ATP), FAA A&P mechanics, Air Traffic Control, and Aerospace Engineering."
+      "bespoke_visual_caption": "Four-panel aviation career vignette depicting an airline pilot, tower air traffic controller, turbofan A&P mechanic, and wind-tunnel engineer.",
+      "v47_slide_title": "FAA Airman Certification & STEM AVSED Standard",
+      "v47_primary_source_bullets": [
+        "Student pilots can solo a glider at age 14 and a powered aircraft at age 16 before earning a Private Pilot Certificate at age 17.",
+        "Safe flight operations depend equally on FAA Airframe and Powerplant mechanics, Air Traffic Controllers, and aerospace engineers."
+      ]
     },
     "5": {
       "req_id": "5",
@@ -117,20 +137,25 @@
         "title": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) Technical Reference: Four Forces of Flight & Three-Axis Primary Flight Controls",
         "canonical_url": "https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak"
       },
-      "rule_of_thumb_mnemonic": "In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.",
+      "rule_of_thumb_mnemonic": "In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag.",
       "core_mechanism_bullets": [
         "1. Lift vs. Weight (Vertical Axis): Curved upper camber accelerates airflow (Bernoulli lower pressure) while downward trailing wash (Newton 3rd Law) generates upward Lift.",
         "2. Thrust vs. Drag (Longitudinal Axis): Propeller or turbofan accelerates air rearward to overcome parasite form drag and lift-induced wingtip vortex drag.",
         "3. Roll (Ailerons) & Pitch (Elevator): Moving yoke left/right moves outboard wing ailerons oppositely to Roll; pulling yoke aft raises tail Elevator to Pitch nose up.",
         "4. Yaw (Rudder Pedals) & Coordinated Turn: Foot pedals deflect vertical tail Rudder left/right around the vertical axis to counter adverse yaw and keep the inclinometer ball centered."
       ],
-      "worked_field_example": "Step 1: Read the official Aviation Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.). Step 3: Verify each measurement or checkpoint against FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display aviation_four_forces_three_axes_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Four Forces of Flight & Three-Axis Primary Flight Controls', and have each pair state the key threshold (In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.) in their own words before sign-off.",
-      "real_world_connection_box": "FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5) Field Standard: In steady unaccelerated level flight, Lift equals Weight and Thrust equals Drag; exceeding critical angle of attack (~16-18 deg) triggers an aerodynamic stall.",
+      "worked_field_example": "Exceeding the wing's critical angle of attack near 16 to 18 degrees separates smooth airflow over the upper camber and triggers a stall.",
+      "counselor_tabletop_demo": "Use a model airplane to demonstrate how opposite aileron deflection rolls the wings while elevator and rudder control pitch and yaw.",
+      "real_world_connection_box": "FAA Pilot's Handbook Aerodynamics Standard: In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag. Ailerons control Roll around the longitudinal axis, the elevator controls Pitch around the lateral axis, and the rudder controls Yaw.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + FAA Pilot's Handbook (FAA-H-8083-25C Ch. 5)",
       "bespoke_visual_filename": "aviation_four_forces_three_axes_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/aviation_four_forces_three_axes_v46_diagram.png",
-      "bespoke_visual_caption": "FAA aerodynamic balance diagram pairing Lift vs. Weight and Thrust vs. Drag with Aileron (Roll), Elevator (Pitch), and Rudder (Yaw) control surfaces."
+      "bespoke_visual_caption": "Aerodynamic balance diagram pairing Lift, Weight, Thrust, and Drag vectors with aileron roll, elevator pitch, and rudder yaw axes.",
+      "v47_slide_title": "FAA Pilot's Handbook Aerodynamics Standard",
+      "v47_primary_source_bullets": [
+        "In steady unaccelerated level flight, upward Lift equals downward Weight and forward Thrust equals rearward Drag.",
+        "Ailerons control Roll around the longitudinal axis, the elevator controls Pitch around the lateral axis, and the rudder controls Yaw."
+      ]
     }
   }
 }

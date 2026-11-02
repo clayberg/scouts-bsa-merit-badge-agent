@@ -1671,11 +1671,13 @@ def _apply_v46_deep_research_masterclass_slides(
     from pathlib import Path
     from src.agents.planner import _sanitize_no_ellipsis_or_emdash
 
-    # Avoid double-injection if called more than once (check persistent `title` prefix preserved by Pydantic SlideSpec)
+    # Avoid double-injection if called more than once (check persistent fields preserved by Pydantic SlideSpec)
     if any(
         isinstance(s, dict)
         and (
             s.get("is_v46_deep_research_slide")
+            or str(s.get("slide_id") or "").startswith("v46_deep_research_")
+            or "Primary Source Grounding" in str(s.get("subtitle") or "")
             or str(s.get("title") or "").startswith("Deep-Research Field Lab:")
         )
         for s in slides
@@ -1755,36 +1757,48 @@ def _apply_v46_deep_research_masterclass_slides(
             # Proportional fallback across deck quarters
             insert_pos = min(len(slides), max(1, int(round((cluster_idx / 4.0) * len(slides)))))
 
-        # Clean concise title grounded in the requirement domain
-        short_cite = cite_txt.split(",")[0].split("(")[0].strip()[:48] or f"{badge_name} Field Guide"
-        slide_title = f"Deep-Research Field Lab: Req {rnum} Applied Science & Practice"
-        slide_subtitle = f"Req {rnum} Masterclass Enrichment • {short_cite}"
+        # Primary Source Grounding title and succinct non-redundant bullet(s)
+        explicit_v47_title = _sanitize_no_ellipsis_or_emdash(str(item.get("v47_slide_title") or "").strip())
+        if explicit_v47_title:
+            slide_title = explicit_v47_title
+        elif ":" in conn_txt and len(conn_txt.split(":", 1)[0].strip()) <= 64:
+            slide_title = conn_txt.split(":", 1)[0].strip()
+        else:
+            short_cite = (
+                cite_txt.replace("Verified: Scouting America Pamphlet +", "")
+                .replace("Verified:", "")
+                .split(",")[0]
+                .strip()[:56]
+                or f"{badge_name} Field Standard"
+            )
+            slide_title = f"{short_cite} Field Standard" if "Standard" not in short_cite else short_cite
+        slide_subtitle = f"{badge_name} • Requirement {rnum} Primary Source Grounding"
 
-        bullets = [
-            f"Quantitative Rule of Thumb: {rule_txt}",
-            f"Worked Field Example: {worked_txt}",
-            f"Primary Source Grounding: {conn_txt} ({cite_txt})",
-        ]
+        raw_v47_bullets = item.get("v47_primary_source_bullets")
+        if isinstance(raw_v47_bullets, list) and raw_v47_bullets:
+            bullets = [
+                _sanitize_no_ellipsis_or_emdash(str(b).strip())
+                for b in raw_v47_bullets
+                if str(b or "").strip()
+            ]
+        else:
+            primary_statement = (
+                conn_txt.split(":", 1)[1].strip()
+                if ":" in conn_txt and len(conn_txt.split(":", 1)[1].strip()) >= 12
+                else rule_txt
+            )
+            bullets = [_sanitize_no_ellipsis_or_emdash(primary_statement)]
         cards = [
             {
-                "badge": "RULE OF THUMB",
-                "title": "Quantitative Field Rule",
-                "body": rule_txt,
-            },
-            {
-                "badge": "WORKED EXAMPLE",
-                "title": "Applied Step-by-Step Calculation",
-                "body": worked_txt,
-            },
-            {
                 "badge": "PRIMARY SOURCE",
-                "title": short_cite,
-                "body": f"{conn_txt} Source: {cite_txt}.",
-            },
+                "title": slide_title,
+                "body": b_item,
+            }
+            for b_item in bullets
         ]
         presenter_notes = _sanitize_no_ellipsis_or_emdash(
-            f"[PACING & MODALITY] 3 min • Interactive Deep-Research Field Lab (Requirement {rnum})\n"
-            f"[SAY] [Point to the field cutaway diagram] Let us apply the real-world science behind Requirement {rnum}: {rule_txt}\n"
+            f"[PACING & MODALITY] 3 min • Primary Source Field Standard (Requirement {rnum})\n"
+            f"[SAY] [Point to the field cutaway diagram] {slide_title}: {' '.join(bullets)}\n"
             f"[DEMONSTRATE] {demo_txt}\n"
             f"[EXPECTED PAMPHLET ANSWER KEY] {worked_txt} Primary reference: {cite_txt}."
         )

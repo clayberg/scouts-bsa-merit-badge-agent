@@ -17,20 +17,24 @@
         "title": "NASA Night Sky Network Technical Reference: Refracting vs. Reflecting Telescopes & Optical Power Formulas",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
+      "rule_of_thumb_mnemonic": "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
       "core_mechanism_bullets": [
         "1. Refractor (Objective Lens at Front): Convex glass objective bends starlight to a rear focus; sealed low-maintenance tube ideal for lunar and planetary crispness.",
         "2. Newtonian Reflector (Primary Mirror): Parabolic rear mirror reflects light to a 45-degree flat diagonal mirror and side eyepiece; zero chromatic color fringe.",
         "3. Catadioptric (Compound Lens + Mirror): Folds a long focal length into a compact portable tube using a front corrector plate and curved secondary mirror.",
         "4. Magnification Formula: M = F_obj / F_eye: A 1,200 mm focal-length Dobsonian with a 25 mm eyepiece yields 48x wide-field views (swap to 10 mm for 120x)."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 1 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).). Step 3: Verify each measurement or checkpoint against NASA Night Sky Network reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 1): Display astronomy_bortle_dark_sky_prep_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Refracting vs. Reflecting Telescopes & Optical Power Formulas', and have each pair state the key threshold (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Night Sky Network Field Standard: Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network",
+      "worked_field_example": "A single 1-second glance at an unfiltered white smartphone screen bleaches rod photopigments and resets the 30-minute adaptation clock.",
+      "counselor_tabletop_demo": "Cover a flashlight lens with red filter tape and practice reading a circular star planisphere without using white light.",
+      "real_world_connection_box": "NASA Night Sky Network & DarkSky Field Standard: Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network & DarkSky International",
       "bespoke_visual_filename": "astronomy_bortle_dark_sky_prep_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_bortle_dark_sky_prep_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered night-sky field observing protocol covering 20-minute scotopic rod dark adaptation, dim red headlamp preservation, Bortle sky glow, and dew control."
+      "bespoke_visual_caption": "Night-sky observing scene showing a red-beam headlamp, handheld star planisphere, tripod binoculars, and Northern Hemisphere constellations.",
+      "v47_slide_title": "NASA Night Sky Network & DarkSky Field Standard",
+      "v47_primary_source_bullets": [
+        "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation."
+      ]
     },
     "2": {
       "req_id": "2",
@@ -42,20 +46,25 @@
         "title": "NASA Astrophysics & IAU Technical Reference: Hertzsprung-Russell (O-B-A-F-G-K-M) Color-Temperature Scale",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).",
+      "rule_of_thumb_mnemonic": "Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K.",
       "core_mechanism_bullets": [
         "Class O & B: Hot Blue-White (10,000-40,000 K): Massive short-lived supergiants like Rigel and Spica that fuse fuel rapidly and end as core-collapse supernovae.",
         "Class A & F: Crisp White (6,000-10,000 K): Bright familiar guideposts including Sirius (brightest night star at 8.6 light-years), Vega, and Procyon.",
         "Class G: Yellow Main Sequence (5,200-6,000 K): Our Sun (G2V, 5,778 K photosphere) steadily fuses hydrogen into helium across a 10-billion-year lifespan.",
         "Class K & M: Orange-Red Stars (2,400-5,200 K): Includes cool red supergiants (Betelgeuse, Antares) and long-lived red dwarfs like Proxima Centauri (4.24 ly)."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 2 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).). Step 3: Verify each measurement or checkpoint against NASA Astrophysics & IAU reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 2): Display astronomy_hr_stellar_lifecycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Hertzsprung-Russell (O-B-A-F-G-K-M) Color-Temperature Scale', and have each pair state the key threshold (Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Astrophysics & IAU Field Standard: Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Astrophysics & IAU",
+      "worked_field_example": "In Orion, blue-white Rigel burns near 12,000 K while red supergiant Betelgeuse glows cooler near 3,500 K.",
+      "counselor_tabletop_demo": "Point out hot blue-white Rigel and cool orange-red Betelgeuse on a winter sky chart to see stellar surface temperature with the naked eye.",
+      "real_world_connection_box": "NASA Astrophysics & IAU Stellar Classification Standard: Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K. Sun-like stars evolve into red giants and white dwarfs, whereas massive stars end in core-collapse supernovae.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Astrophysics & International Astronomical Union",
       "bespoke_visual_filename": "astronomy_hr_stellar_lifecycle_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_hr_stellar_lifecycle_v46_diagram.png",
-      "bespoke_visual_caption": "Stellar spectral classification chart connecting surface temperature in Kelvin and star color to main-sequence mass, red giant expansion, and white dwarf or supernova endpoints."
+      "bespoke_visual_caption": "Hertzsprung-Russell and stellar lifecycle panorama tracing a molecular nebula through main-sequence stars, red giants, and supernovae.",
+      "v47_slide_title": "NASA Astrophysics & IAU Stellar Classification Standard",
+      "v47_primary_source_bullets": [
+        "Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K.",
+        "Sun-like stars evolve into red giants and white dwarfs, whereas massive stars end in core-collapse supernovae."
+      ]
     },
     "3": {
       "req_id": "3",
@@ -67,20 +76,25 @@
         "title": "NASA Eclipse Web Site & AAS Technical Reference: Lunar Phases, 5-Degree Orbital Tilt & Solar vs. Lunar Eclipses",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.",
+      "rule_of_thumb_mnemonic": "Light-gathering power scales with the square of objective aperture diameter.",
       "core_mechanism_bullets": [
         "Synodic Lunar Cycle (29.53 Days): New -> Waxing Crescent -> First Quarter -> Waxing Gibbous -> Full -> Waning Gibbous -> Third Quarter -> Waning Crescent.",
         "Solar Eclipse (New Moon Alignment): Moon's dark Umbra cone traces a narrow ~100-mile path of totality across Earth; Penumbra sees a partial eclipse.",
         "Lunar Eclipse (Full Moon in Earth Shadow): Earth's atmosphere refracts sunset-red wavelengths onto the eclipsed Moon ('copper Moon'); 100 percent safe with naked eyes.",
         "CRITICAL ISO 12312-2 Solar Eye Safety: NEVER look at the un-eclipsed or partially eclipsed Sun through unfiltered binoculars, telescopes, or sunglasses!"
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 3 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.). Step 3: Verify each measurement or checkpoint against NASA Eclipse Web Site & AAS reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 3): Display astronomy_telescope_optics_math_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Lunar Phases, 5-Degree Orbital Tilt & Solar vs. Lunar Eclipses', and have each pair state the key threshold (Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Eclipse Web Site & AAS Field Standard: Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Eclipse Web Site & AAS",
+      "worked_field_example": "An 8-inch reflector collects four times as much starlight as a 4-inch lens, and a 1,200 mm focal length with a 25 mm eyepiece yields 48x power.",
+      "counselor_tabletop_demo": "Trace light rays through the refractor lens, Newtonian parabolic mirror, and Schmidt-Cassegrain folded tube on the optical cutaway.",
+      "real_world_connection_box": "NASA & Astronomical League Telescope Optics Standard: Light-gathering power scales with the square of objective aperture diameter. Telescope magnification equals objective focal length divided by eyepiece focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & Astronomical League Observing Guide",
       "bespoke_visual_filename": "astronomy_telescope_optics_math_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_telescope_optics_math_v46_diagram.png",
-      "bespoke_visual_caption": "Four-step optical engineering guide comparing refractor lenses, Newtonian concave mirrors, compound Schmidt-Cassegrain paths, and magnification math (M = Fo / Fe)."
+      "bespoke_visual_caption": "Three-tube optical cutaway comparing light paths inside an achromatic refractor, a Newtonian reflector, and a catadioptric telescope.",
+      "v47_slide_title": "NASA & Astronomical League Telescope Optics Standard",
+      "v47_primary_source_bullets": [
+        "Light-gathering power scales with the square of objective aperture diameter.",
+        "Telescope magnification equals objective focal length divided by eyepiece focal length."
+      ]
     },
     "4": {
       "req_id": "4",
@@ -92,20 +106,24 @@
         "title": "NASA Night Sky Network & DarkSky International Technical Reference: Dark-Sky Observing Hygiene: Red Light Adaptation & Light Pollution",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.",
+      "rule_of_thumb_mnemonic": "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
       "core_mechanism_bullets": [
         "1. Protect Dark Adaptation (Red LED Only): Cover flashlights with deep red film and switch phones to red-filter mode so rhodopsin chemical sensitivity stays intact.",
         "2. Cut Skyglow & Trespass Light (Req 1c): Use full-cutoff downward outdoor fixtures with warm 2700K bulbs and motion timers to preserve starry skies and wildlife.",
         "3. Star-Hopping Angular Hand Gauge: At arm's length: pinky tip = 1 deg, 3 middle fingers = 5 deg, closed fist = 10 deg, outstretched handspan = 20 deg.",
         "4. Thermal Acclimation & Dew Shield: Set telescope outdoors 30 minutes before observing so tube currents stabilize, and extend dew shield against lens fogging."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 4 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.). Step 3: Verify each measurement or checkpoint against NASA Night Sky Network & DarkSky International reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 4): Display astronomy_bortle_dark_sky_prep_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Dark-Sky Observing Hygiene: Red Light Adaptation & Light Pollution', and have each pair state the key threshold (Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Night Sky Network & DarkSky International Field Standard: Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.",
+      "worked_field_example": "A single 1-second glance at an unfiltered white smartphone screen bleaches rod photopigments and resets the 30-minute adaptation clock.",
+      "counselor_tabletop_demo": "Cover a flashlight lens with red filter tape and practice reading a circular star planisphere without using white light.",
+      "real_world_connection_box": "NASA Night Sky Network & DarkSky Field Standard: Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network & DarkSky International",
       "bespoke_visual_filename": "astronomy_bortle_dark_sky_prep_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_bortle_dark_sky_prep_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered night-sky field observing protocol covering 20-minute scotopic rod dark adaptation, dim red headlamp preservation, Bortle sky glow, and dew control."
+      "bespoke_visual_caption": "Night-sky observing scene showing a red-beam headlamp, handheld star planisphere, tripod binoculars, and Northern Hemisphere constellations.",
+      "v47_slide_title": "NASA Night Sky Network & DarkSky Field Standard",
+      "v47_primary_source_bullets": [
+        "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation."
+      ]
     },
     "5": {
       "req_id": "5",
@@ -117,20 +135,25 @@
         "title": "NASA Night Sky Network Technical Reference: Refracting vs. Reflecting Telescopes & Optical Power Formulas",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
+      "rule_of_thumb_mnemonic": "Light-gathering power scales with the square of objective aperture diameter.",
       "core_mechanism_bullets": [
         "1. Refractor (Objective Lens at Front): Convex glass objective bends starlight to a rear focus; sealed low-maintenance tube ideal for lunar and planetary crispness.",
         "2. Newtonian Reflector (Primary Mirror): Parabolic rear mirror reflects light to a 45-degree flat diagonal mirror and side eyepiece; zero chromatic color fringe.",
         "3. Catadioptric (Compound Lens + Mirror): Folds a long focal length into a compact portable tube using a front corrector plate and curved secondary mirror.",
         "4. Magnification Formula: M = F_obj / F_eye: A 1,200 mm focal-length Dobsonian with a 25 mm eyepiece yields 48x wide-field views (swap to 10 mm for 120x)."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 5 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).). Step 3: Verify each measurement or checkpoint against NASA Night Sky Network reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 5): Display astronomy_telescope_optics_math_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Refracting vs. Reflecting Telescopes & Optical Power Formulas', and have each pair state the key threshold (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Night Sky Network Field Standard: Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network",
+      "worked_field_example": "An 8-inch reflector collects four times as much starlight as a 4-inch lens, and a 1,200 mm focal length with a 25 mm eyepiece yields 48x power.",
+      "counselor_tabletop_demo": "Trace light rays through the refractor lens, Newtonian parabolic mirror, and Schmidt-Cassegrain folded tube on the optical cutaway.",
+      "real_world_connection_box": "NASA & Astronomical League Telescope Optics Standard: Light-gathering power scales with the square of objective aperture diameter. Telescope magnification equals objective focal length divided by eyepiece focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & Astronomical League Observing Guide",
       "bespoke_visual_filename": "astronomy_telescope_optics_math_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_telescope_optics_math_v46_diagram.png",
-      "bespoke_visual_caption": "Four-step optical engineering guide comparing refractor lenses, Newtonian concave mirrors, compound Schmidt-Cassegrain paths, and magnification math (M = Fo / Fe)."
+      "bespoke_visual_caption": "Three-tube optical cutaway comparing light paths inside an achromatic refractor, a Newtonian reflector, and a catadioptric telescope.",
+      "v47_slide_title": "NASA & Astronomical League Telescope Optics Standard",
+      "v47_primary_source_bullets": [
+        "Light-gathering power scales with the square of objective aperture diameter.",
+        "Telescope magnification equals objective focal length divided by eyepiece focal length."
+      ]
     },
     "6": {
       "req_id": "6",
@@ -142,20 +165,25 @@
         "title": "NASA Astrophysics & IAU Technical Reference: Hertzsprung-Russell (O-B-A-F-G-K-M) Color-Temperature Scale",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).",
+      "rule_of_thumb_mnemonic": "Solar eclipses occur at New Moon inside the lunar umbra, and lunar eclipses occur at Full Moon inside Earth's shadow.",
       "core_mechanism_bullets": [
         "Class O & B: Hot Blue-White (10,000-40,000 K): Massive short-lived supergiants like Rigel and Spica that fuse fuel rapidly and end as core-collapse supernovae.",
         "Class A & F: Crisp White (6,000-10,000 K): Bright familiar guideposts including Sirius (brightest night star at 8.6 light-years), Vega, and Procyon.",
         "Class G: Yellow Main Sequence (5,200-6,000 K): Our Sun (G2V, 5,778 K photosphere) steadily fuses hydrogen into helium across a 10-billion-year lifespan.",
         "Class K & M: Orange-Red Stars (2,400-5,200 K): Includes cool red supergiants (Betelgeuse, Antares) and long-lived red dwarfs like Proxima Centauri (4.24 ly)."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 6 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).). Step 3: Verify each measurement or checkpoint against NASA Astrophysics & IAU reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 6): Display astronomy_eclipse_moon_phases_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Hertzsprung-Russell (O-B-A-F-G-K-M) Color-Temperature Scale', and have each pair state the key threshold (Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Astrophysics & IAU Field Standard: Blue stars burn hottest (30,000+ K, Rigel), yellow stars are medium (5,800 K, our Sun G2V), and red stars are coolest (3,000 K, Betelgeuse).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Astrophysics & IAU",
+      "worked_field_example": "Over each 29.5-day synodic cycle, the Moon progresses through eight sunlit phases without an eclipse on most months due to its 5-degree tilt.",
+      "counselor_tabletop_demo": "Use a flashlight (Sun), baseball (Earth), and marble (Moon) tilted 5 degrees to model all eight lunar phases and nodal eclipses.",
+      "real_world_connection_box": "NASA Eclipse Science & AAS Orbital Standard: Solar eclipses occur at New Moon inside the lunar umbra, and lunar eclipses occur at Full Moon inside Earth's shadow. Because the Moon's orbit is tilted 5 degrees to Earth's ecliptic plane, eclipses happen only when syzygy aligns with an orbital node.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Eclipse Web Site & American Astronomical Society",
       "bespoke_visual_filename": "astronomy_eclipse_moon_phases_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_eclipse_moon_phases_v46_diagram.png",
-      "bespoke_visual_caption": "Four-quadrant celestial mechanics guide explaining the 29.5-day synodic lunar cycle, Umbra vs. Penumbra shadow geometry, and mandatory ISO 12312-2 solar filter safety."
+      "bespoke_visual_caption": "Orbital geometry diagram showing Sun-Moon-Earth solar and lunar eclipse shadow cones alongside the eight synodic phases of the Moon.",
+      "v47_slide_title": "NASA Eclipse Science & AAS Orbital Standard",
+      "v47_primary_source_bullets": [
+        "Solar eclipses occur at New Moon inside the lunar umbra, and lunar eclipses occur at Full Moon inside Earth's shadow.",
+        "Because the Moon's orbit is tilted 5 degrees to Earth's ecliptic plane, eclipses happen only when syzygy aligns with an orbital node."
+      ]
     },
     "7": {
       "req_id": "7",
@@ -167,20 +195,25 @@
         "title": "NASA Eclipse Web Site & AAS Technical Reference: Lunar Phases, 5-Degree Orbital Tilt & Solar vs. Lunar Eclipses",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.",
+      "rule_of_thumb_mnemonic": "Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K.",
       "core_mechanism_bullets": [
         "Synodic Lunar Cycle (29.53 Days): New -> Waxing Crescent -> First Quarter -> Waxing Gibbous -> Full -> Waning Gibbous -> Third Quarter -> Waning Crescent.",
         "Solar Eclipse (New Moon Alignment): Moon's dark Umbra cone traces a narrow ~100-mile path of totality across Earth; Penumbra sees a partial eclipse.",
         "Lunar Eclipse (Full Moon in Earth Shadow): Earth's atmosphere refracts sunset-red wavelengths onto the eclipsed Moon ('copper Moon'); 100 percent safe with naked eyes.",
         "CRITICAL ISO 12312-2 Solar Eye Safety: NEVER look at the un-eclipsed or partially eclipsed Sun through unfiltered binoculars, telescopes, or sunglasses!"
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 7 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.). Step 3: Verify each measurement or checkpoint against NASA Eclipse Web Site & AAS reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 7): Display astronomy_hr_stellar_lifecycle_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Lunar Phases, 5-Degree Orbital Tilt & Solar vs. Lunar Eclipses', and have each pair state the key threshold (Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Eclipse Web Site & AAS Field Standard: Solar eclipse = Sun-Moon-Earth (New Moon); Lunar eclipse = Sun-Earth-Moon (Full Moon); Moon's 5-degree tilt prevents eclipses every month.",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Eclipse Web Site & AAS",
+      "worked_field_example": "In Orion, blue-white Rigel burns near 12,000 K while red supergiant Betelgeuse glows cooler near 3,500 K.",
+      "counselor_tabletop_demo": "Point out hot blue-white Rigel and cool orange-red Betelgeuse on a winter sky chart to see stellar surface temperature with the naked eye.",
+      "real_world_connection_box": "NASA Astrophysics & IAU Stellar Classification Standard: Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K. Sun-like stars evolve into red giants and white dwarfs, whereas massive stars end in core-collapse supernovae.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Astrophysics & International Astronomical Union",
       "bespoke_visual_filename": "astronomy_hr_stellar_lifecycle_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_hr_stellar_lifecycle_v46_diagram.png",
-      "bespoke_visual_caption": "Stellar spectral classification chart connecting surface temperature in Kelvin and star color to main-sequence mass, red giant expansion, and white dwarf or supernova endpoints."
+      "bespoke_visual_caption": "Hertzsprung-Russell and stellar lifecycle panorama tracing a molecular nebula through main-sequence stars, red giants, and supernovae.",
+      "v47_slide_title": "NASA Astrophysics & IAU Stellar Classification Standard",
+      "v47_primary_source_bullets": [
+        "Surface temperature governs star color across the O-B-A-F-G-K-M sequence from hot blue stars above 30,000 K to cool red stars near 3,000 K.",
+        "Sun-like stars evolve into red giants and white dwarfs, whereas massive stars end in core-collapse supernovae."
+      ]
     },
     "8": {
       "req_id": "8",
@@ -192,20 +225,24 @@
         "title": "NASA Night Sky Network & DarkSky International Technical Reference: Dark-Sky Observing Hygiene: Red Light Adaptation & Light Pollution",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.",
+      "rule_of_thumb_mnemonic": "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
       "core_mechanism_bullets": [
         "1. Protect Dark Adaptation (Red LED Only): Cover flashlights with deep red film and switch phones to red-filter mode so rhodopsin chemical sensitivity stays intact.",
         "2. Cut Skyglow & Trespass Light (Req 1c): Use full-cutoff downward outdoor fixtures with warm 2700K bulbs and motion timers to preserve starry skies and wildlife.",
         "3. Star-Hopping Angular Hand Gauge: At arm's length: pinky tip = 1 deg, 3 middle fingers = 5 deg, closed fist = 10 deg, outstretched handspan = 20 deg.",
         "4. Thermal Acclimation & Dew Shield: Set telescope outdoors 30 minutes before observing so tube currents stabilize, and extend dew shield against lens fogging."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 8 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.). Step 3: Verify each measurement or checkpoint against NASA Night Sky Network & DarkSky International reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 8): Display astronomy_bortle_dark_sky_prep_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Dark-Sky Observing Hygiene: Red Light Adaptation & Light Pollution', and have each pair state the key threshold (Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Night Sky Network & DarkSky International Field Standard: Human retinas need 20 to 30 minutes in darkness to build rhodopsin night vision; one flash of white phone light resets it in 1 second.",
+      "worked_field_example": "A single 1-second glance at an unfiltered white smartphone screen bleaches rod photopigments and resets the 30-minute adaptation clock.",
+      "counselor_tabletop_demo": "Cover a flashlight lens with red filter tape and practice reading a circular star planisphere without using white light.",
+      "real_world_connection_box": "NASA Night Sky Network & DarkSky Field Standard: Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation.",
       "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network & DarkSky International",
       "bespoke_visual_filename": "astronomy_bortle_dark_sky_prep_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_bortle_dark_sky_prep_v46_diagram.png",
-      "bespoke_visual_caption": "Tiered night-sky field observing protocol covering 20-minute scotopic rod dark adaptation, dim red headlamp preservation, Bortle sky glow, and dew control."
+      "bespoke_visual_caption": "Night-sky observing scene showing a red-beam headlamp, handheld star planisphere, tripod binoculars, and Northern Hemisphere constellations.",
+      "v47_slide_title": "NASA Night Sky Network & DarkSky Field Standard",
+      "v47_primary_source_bullets": [
+        "Human retinas require 20 to 30 minutes in darkness to build rhodopsin night vision, while red LED light preserves dark adaptation."
+      ]
     },
     "9": {
       "req_id": "9",
@@ -217,20 +254,25 @@
         "title": "NASA Night Sky Network Technical Reference: Refracting vs. Reflecting Telescopes & Optical Power Formulas",
         "canonical_url": "https://science.nasa.gov/astronomy/"
       },
-      "rule_of_thumb_mnemonic": "Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
+      "rule_of_thumb_mnemonic": "Light-gathering power scales with the square of objective aperture diameter.",
       "core_mechanism_bullets": [
         "1. Refractor (Objective Lens at Front): Convex glass objective bends starlight to a rear focus; sealed low-maintenance tube ideal for lunar and planetary crispness.",
         "2. Newtonian Reflector (Primary Mirror): Parabolic rear mirror reflects light to a 45-degree flat diagonal mirror and side eyepiece; zero chromatic color fringe.",
         "3. Catadioptric (Compound Lens + Mirror): Folds a long focal length into a compact portable tube using a front corrector plate and curved secondary mirror.",
         "4. Magnification Formula: M = F_obj / F_eye: A 1,200 mm focal-length Dobsonian with a 25 mm eyepiece yields 48x wide-field views (swap to 10 mm for 120x)."
       ],
-      "worked_field_example": "Step 1: Read the official Astronomy Requirement 9 prompt carefully and underline every action verb. Step 2: Apply the field rule of thumb (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).). Step 3: Verify each measurement or checkpoint against NASA Night Sky Network reference criteria and record your findings in your Scout Workbook.",
-      "counselor_tabletop_demo": "3-Minute Troop Tabletop Demo (Req 9): Display astronomy_telescope_optics_math_v46_diagram.png on screen, divide Scouts into buddy pairs for a 90-second hands-on walkthrough of 'Refracting vs. Reflecting Telescopes & Optical Power Formulas', and have each pair state the key threshold (Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).) in their own words before sign-off.",
-      "real_world_connection_box": "NASA Night Sky Network Field Standard: Aperture is king: light-gathering power scales with the SQUARE of objective diameter (an 8-inch mirror collects 4x the light of a 4-inch lens).",
-      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA Night Sky Network",
+      "worked_field_example": "An 8-inch reflector collects four times as much starlight as a 4-inch lens, and a 1,200 mm focal length with a 25 mm eyepiece yields 48x power.",
+      "counselor_tabletop_demo": "Trace light rays through the refractor lens, Newtonian parabolic mirror, and Schmidt-Cassegrain folded tube on the optical cutaway.",
+      "real_world_connection_box": "NASA & Astronomical League Telescope Optics Standard: Light-gathering power scales with the square of objective aperture diameter. Telescope magnification equals objective focal length divided by eyepiece focal length.",
+      "grounded_citation_label": "Verified: Scouting America Pamphlet + NASA & Astronomical League Observing Guide",
       "bespoke_visual_filename": "astronomy_telescope_optics_math_v46_diagram.png",
       "bespoke_visual_url": "/assets/ai_illustrations/astronomy_telescope_optics_math_v46_diagram.png",
-      "bespoke_visual_caption": "Four-step optical engineering guide comparing refractor lenses, Newtonian concave mirrors, compound Schmidt-Cassegrain paths, and magnification math (M = Fo / Fe)."
+      "bespoke_visual_caption": "Three-tube optical cutaway comparing light paths inside an achromatic refractor, a Newtonian reflector, and a catadioptric telescope.",
+      "v47_slide_title": "NASA & Astronomical League Telescope Optics Standard",
+      "v47_primary_source_bullets": [
+        "Light-gathering power scales with the square of objective aperture diameter.",
+        "Telescope magnification equals objective focal length divided by eyepiece focal length."
+      ]
     }
   }
 }

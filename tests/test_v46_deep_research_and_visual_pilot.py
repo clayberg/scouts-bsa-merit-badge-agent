@@ -126,3 +126,65 @@ def test_v46_runtime_overlay_and_ui_enrichment_mode_wiring() -> None:
     assert "window.setContentEnrichmentMode" in app_js
     assert "ENRICHED_MASTERCLASS" in app_js
     assert "PAMPHLET_CORE" in app_js
+
+
+def test_v47_primary_source_slide_titles_and_single_clean_bullets() -> None:
+    """Verifies V47 primary-source slide titles and 1-2 clean, non-repetitive, boilerplate-free bullets."""
+    from src.agents.beautifier import _apply_v46_deep_research_masterclass_slides
+
+    banned_substrings = (
+        "Deep-Research Field Lab",
+        "Step 1:",
+        "Quantitative Rule of Thumb:",
+        "Worked Field Example:",
+        "Primary Source Grounding:",
+        "underline every action verb",
+    )
+
+    for slug in PILOT_10_SLUGS:
+        cache_path = V46_DIR / f"{slug}.json"
+        payload = json.loads(cache_path.read_text(encoding="utf-8"))
+        for rnum, item in payload["requirements"].items():
+            title = str(item.get("v47_slide_title") or "").strip()
+            assert len(title) >= 12, f"Missing v47_slide_title in {slug} Req {rnum}"
+            assert "Deep-Research Field Lab" not in title, f"Old title in {slug} Req {rnum}: {title}"
+
+            bullets = item.get("v47_primary_source_bullets")
+            assert isinstance(bullets, list) and 1 <= len(bullets) <= 2, (
+                f"Expected 1-2 clean bullets in {slug} Req {rnum}, got {bullets}"
+            )
+            for b in bullets:
+                assert isinstance(b, str) and 20 <= len(b) <= 165, f"Bad bullet length in {slug} Req {rnum}: {b}"
+                assert ":" not in b and ";" not in b, f"Colon/semicolon found in {slug} Req {rnum} bullet: {b}"
+                for banned in banned_substrings:
+                    assert banned not in b, f"Banned boilerplate '{banned}' in {slug} Req {rnum}: {b}"
+
+    # Verify exact Weather primary-source slide title and single bullet requested by user
+    weather_cache = json.loads((V46_DIR / "weather.json").read_text(encoding="utf-8"))
+    req1 = weather_cache["requirements"]["1"]
+    assert req1["v47_slide_title"] == "NOAA NWS JetStream Field Standard"
+    assert req1["v47_primary_source_bullets"] == [
+        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+    ]
+
+    # Verify runtime injection produces the exact title and single bullet
+    mock_deck = [
+        {"title": "Weather", "layout": "HERO_TITLE", "bullet_points": [], "speaker_notes": ""},
+        {
+            "title": "Requirement 1: Meteorology and Dew Point",
+            "layout": "CONCEPT_GRID",
+            "req_number": "1",
+            "base_req_number": "1",
+            "bullet_points": ["Define meteorology. Explain what weather is and what climate is."],
+            "speaker_notes": "Official requirement slide.",
+        },
+    ]
+    _apply_v46_deep_research_masterclass_slides("Weather", mock_deck)
+    v46_slides = [s for s in mock_deck if s.get("is_v46_deep_research_slide")]
+    assert len(v46_slides) == 4
+    w_req1_slide = [s for s in v46_slides if str(s.get("req_number")) == "1"][0]
+    assert w_req1_slide["title"] == "NOAA NWS JetStream Field Standard"
+    assert w_req1_slide["bullet_points"] == [
+        "When temperature and dew point converge within 4 F at sunset, radiation fog forms overnight."
+    ]
+
