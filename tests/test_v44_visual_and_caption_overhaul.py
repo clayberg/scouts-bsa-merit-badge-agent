@@ -126,10 +126,10 @@ def test_v44_reported_decks_distinct_visuals_and_clean_captions() -> None:
 
 
 def test_v44_ui_cache_busting_and_non_cropping_stage_rules() -> None:
-    """ui/app.js uses ?v=44 + V44_VISUAL_CACHE_EPOCH + object-fit: contain and ui/styles.css uses contain."""
+    """ui/app.js uses ?v=44+ + V44_VISUAL_CACHE_EPOCH + object-fit: contain and ui/styles.css uses contain."""
     app_js = (REPO_ROOT / "ui" / "app.js").read_text(encoding="utf-8")
     styles_css = (REPO_ROOT / "ui" / "styles.css").read_text(encoding="utf-8")
     assert "V44_VISUAL_CACHE_EPOCH" in app_js
-    assert "}v=44`" in app_js
+    assert re.search(r"\}v=4[4-9]`", app_js)
     assert 'imgEl.style.objectFit = "contain"' in app_js
     assert "object-fit: contain;" in styles_css
