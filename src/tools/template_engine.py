@@ -3013,7 +3013,9 @@ def _render_nano_template_variant_assets(
         cov_im.alpha_composite(c_logo, (cov_w - c_logo.width - 48, cov_h - c_logo.height - 28))
 
     cov_path = CUSTOM_TEMPLATES_DIR / f"{variant_id}_cover_bg.png"
-    cov_im.save(cov_path)
+    cov_im.quantize(colors=256, method=Image.Quantize.FASTOCTREE).save(
+        cov_path, format="PNG", optimize=True, compress_level=9
+    )
 
     return {
         "top_banner_url": f"/assets/templates/custom/{top_path.name}",

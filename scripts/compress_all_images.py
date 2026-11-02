@@ -59,14 +59,12 @@ def compress_single_image(path: Path) -> Tuple[int, int, bool]:
                     path.write_bytes(new_bytes)
                     return orig_size, new_size, True
             elif suffix in (".jpg", ".jpeg"):
-                if orig_size <= 350 * 1024 and im.width <= 1280 and im.height <= 720:
+                if orig_size <= 350 * 1024:
                     return orig_size, orig_size, False
                 im.load()
                 rgb = im.convert("RGB")
-                if rgb.width > 1280 or rgb.height > 720:
-                    rgb.thumbnail((1280, 720), Image.Resampling.LANCZOS)
                 buf = io.BytesIO()
-                rgb.save(buf, format="JPEG", quality=82, optimize=True, progressive=True)
+                rgb.save(buf, format="JPEG", quality=74, optimize=True, progressive=True)
                 new_bytes = buf.getvalue()
                 new_size = len(new_bytes)
                 if new_size < orig_size * 0.90:

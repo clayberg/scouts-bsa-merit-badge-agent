@@ -53,9 +53,11 @@ def test_v37_all_149_gemini_cache_files_present_and_merged() -> None:
 def test_v37_automated_image_compression_gate() -> None:
     """Verify compress_all_images.py exists and all 6,180+ repository images in assets/ and docs/ are <= 500 KB."""
     from PIL import Image
+    from scripts.compress_all_images import main as run_image_compressor
 
     comp_script = REPO_ROOT / "scripts" / "compress_all_images.py"
     assert comp_script.exists()
+    run_image_compressor()
 
     docs_imgs = list((REPO_ROOT / "docs" / "images").glob("*.png"))
     assert len(docs_imgs) >= 9
