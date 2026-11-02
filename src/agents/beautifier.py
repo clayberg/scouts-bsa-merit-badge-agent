@@ -1783,11 +1783,10 @@ def _apply_v46_deep_research_masterclass_slides(
             },
         ]
         presenter_notes = _sanitize_no_ellipsis_or_emdash(
-            f"[V46 DEEP-RESEARCH MASTERCLASS MODULE | Req {rnum}]\n"
-            f"3-Minute Counselor Tabletop Demo: {demo_txt}\n"
-            f"Quantitative Rule of Thumb: {rule_txt}\n"
-            f"Worked Field Example: {worked_txt}\n"
-            f"Primary Reference Citation: {cite_txt}"
+            f"[PACING & MODALITY] 3 min • Interactive Deep-Research Field Lab (Requirement {rnum})\n"
+            f"[SAY] [Point to the field cutaway diagram] Let us apply the real-world science behind Requirement {rnum}: {rule_txt}\n"
+            f"[DEMONSTRATE] {demo_txt}\n"
+            f"[EXPECTED PAMPHLET ANSWER KEY] {worked_txt} Primary reference: {cite_txt}."
         )
 
         new_slide: Dict[str, Any] = {
