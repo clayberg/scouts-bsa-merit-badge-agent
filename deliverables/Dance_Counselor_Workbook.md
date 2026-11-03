@@ -49,7 +49,7 @@
 - **Common Myth:** Dancers can rely entirely on natural flexibility without conditioning to avoid acute injuries.
 - **Pamphlet Fact:** Proper conditioning, spatial awareness, and scheduled hydration breaks significantly mitigate acute dancing injuries.
 
-![Technical diagram of dynamic preparation principles and field relationships in Dance (Requirement 1).](/assets/pamphlet_images/dance_p003_img1.png)
+![Annotated Dance instructional diagram illustrating dynamic preparation techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/dance_p003_img1.png)
 
 | Condition / Emergency | Recognizable Signs & Symptoms | Step-by-Step First-Aid Care | Field Prevention Standard |
 | :--- | :--- | :--- | :--- |
@@ -125,7 +125,7 @@
 - **Common Myth:** Dance elements only apply to classical theatrical ballet rather than social or street styles.
 - **Pamphlet Fact:** The five core dance elements combine in varying proportions across every traditional and contemporary genre.
 
-![Technical diagram of somatic body principles and field relationships in Dance (Requirement 2).](/assets/pamphlet_images/dance_p007_img1.png)
+![Annotated Dance instructional diagram illustrating somatic body techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/dance_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -151,7 +151,7 @@
 - **Common Myth:** Acro dance consists solely of unconnected floor gymnastics tricks performed without music.
 - **Pamphlet Fact:** Acro dance blends smooth lyricism and dance musicality with gymnastic tumbling passes.
 
-![Comparison of ballet, hip-hop, folk, tap, and partner ballroom dance techniques.](/assets/pamphlet_images/dance_p008_img1.png)
+![Four full-body dancers in a sunlit hardwood rehearsal studio demonstrating classical ballet posture, tap footwork, folk line step.](/assets/pamphlet_images/dance_p008_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -429,7 +429,7 @@
 - **Common Myth:** Most popular dance styles originated spontaneously within the modern United States media landscape.
 - **Pamphlet Fact:** Dance styles migrate across international borders through human travel, trade, and cultural preservation.
 
-![Technical diagram of historical lineage principles and field relationships in Dance (Requirement 4).](/assets/pamphlet_images/dance_p004_img1.png)
+![Annotated Dance instructional diagram illustrating historical lineage techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/dance_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -559,7 +559,7 @@
 - **Common Myth:** One quick wrist shake constitutes a complete warmup for high energy dance choreography.
 - **Pamphlet Fact:** Targeted warmups activate motor units and lubricate articular cartilage across specific targeted regions.
 
-![Technical diagram of phased rehearsals principles and field relationships in Dance (Requirement 5).](/assets/pamphlet_images/dance_p005_img1.png)
+![Annotated Dance instructional diagram illustrating phased rehearsals techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/dance_p005_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -652,7 +652,7 @@
 - **Common Myth:** Evaluation surveys are scored tests that determine whether a Scout passes or fails.
 - **Pamphlet Fact:** Standard merit badge testing surveys capture Scout feedback to improve future curriculum and safety guidelines.
 
-![Uniformed Scout and counselor reviewing Dance Test Lab performance reflections and submitting survey feedback.](/assets/ai_illustrations/dance_req_7_nano_hero.png)
+![Ensemble of dancers completing a coordinated final stage formation on a warm hardwood theater floor.](/assets/ai_illustrations/dance_req_7_nano_hero.png)
 
 | Req 7 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

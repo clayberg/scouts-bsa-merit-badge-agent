@@ -36,7 +36,7 @@ This repository is governed by an automated AI-Assisted Engineering Harness desi
 - **Tiered Model Routing**:
   - `gemini-2.5-pro`: Complex multi-requirement curriculum synthesis and 12-archetype pedagogical storyboarding (`PamphletResearchAgent`, `SlideContentPlannerAgent`).
   - `gemini-2.5-flash`: High-throughput regional grounding, visual styling, PowerPoint assembly, and critic verification (`WebSearchGroundingAgent`, `ResearchCoverageCriticAgent`, `SlideBeautifierAgent`, `PowerPointBuilderAgent`, `BSABrandAndSafetyReviewAgent`).
-- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `5,625` pre-bundled visual assets across all `149` badges (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
+- **FinOps Ceiling**: Enforce `FinOpsBudgetPlugin` (`max_budget_usd = $1.00` hard ceiling) and prefer the `5,652` pre-bundled visual assets across all `149` badges (`$0.00` runtime image cost, with automatic on-demand GitHub Raw batch hydration via `src/tools/asset_hydrator.py` if local media is absent).
 
 ---
 

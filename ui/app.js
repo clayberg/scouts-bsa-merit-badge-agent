@@ -12,7 +12,7 @@
 
 const COUNSELOR_STORAGE_KEY = "scouts_bsa_counselor_profile_v1";
 const BLUECARD_STORAGE_PREFIX = "scouts_bsa_bluecard_roster_v1_";
-const V44_VISUAL_CACHE_EPOCH = "v47_149_20261102";
+const V44_VISUAL_CACHE_EPOCH = "v48_149_20261103";
 try {
   if (window.localStorage && localStorage.getItem("mbc_visual_cache_epoch") !== V44_VISUAL_CACHE_EPOCH) {
     Object.keys(localStorage).forEach((k) => {

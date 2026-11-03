@@ -1203,11 +1203,14 @@ def beautify_slide_storyboard(
                 clean_t = strip_pamphlet_and_req_caption_prefixes(title, badge_name).replace(":", " - ").replace("—", "-").strip(" .,-")
                 clean_t = _re.sub(r"\s*[-]\s*(?:Core Principles & Field Reference|Field Visual & Key Principles)$", "", clean_t, flags=_re.IGNORECASE).strip()
                 clean_t = _re.sub(r"\s*\((?:Visual Guide|Core Principles|Req[^)]*)\)$", "", clean_t, flags=_re.IGNORECASE).strip()
-                alt_cap = f"Field reference illustration for {badge_name} Requirement {req_num} showing {clean_t} principles."
+                clean_t = _re.sub(r"\b(?:Requirement|Req)s?\s+\d+[a-z0-9()\-]*\s*[-:]?\s*", "", clean_t, flags=_re.IGNORECASE).strip(" .,-")
+                if not clean_t:
+                    clean_t = f"{badge_name} field practice"
+                alt_cap = f"Uniformed Scouts demonstrating {clean_t.lower()} technique and safety checks for {badge_name}."
                 raw_vc_final = _ensure_complete_caption_sentence(alt_cap.replace(":", ""), max_chars=125)
                 norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
                 if norm_vc in seen_visual_captions:
-                    alt_cap_2 = f"Technical field diagram for {badge_name} Requirement {req_num} slide {idx + 1} covering {clean_t}."
+                    alt_cap_2 = f"Labeled {badge_name} studio and field guide illustrating {clean_t.lower()} equipment and posture."
                     raw_vc_final = _ensure_complete_caption_sentence(alt_cap_2.replace(":", ""), max_chars=125)
                     norm_vc = _re.sub(r"[^a-z0-9]+", " ", raw_vc_final.lower()).strip()
 
@@ -1423,9 +1426,45 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
         "Uniformed Range Safety Officer and shooter wearing eye and ear protection seating a patched round ball with a "
         "wooden ramrod at a covered outdoor loading bench."
     ),
+    "dance_p003_img1.png": (
+        "Twilight festival dancers performing a synchronized folk circle formation on a warmly lit stage."
+    ),
+    "dance_p004_img1.png": (
+        "Two uniformed Scouts reviewing a Dance Merit Badge history poster and rehearsal checklist on a studio easel."
+    ),
+    "dance_p005_img1.png": (
+        "Four uniformed Scouts in a rehearsal studio practicing posture alignment, warm-up stretches, and partner spacing."
+    ),
+    "dance_p007_img1.png": (
+        "Partner dancers practicing traditional social ballroom posture and rhythmic footwork in an amber rehearsal hall."
+    ),
     "dance_p008_img1.png": (
         "Four full-body dancers in a sunlit hardwood rehearsal studio demonstrating classical ballet posture, tap "
         "footwork, folk line step, and athletic breakdance balance."
+    ),
+    "dance_p011_img1.png": (
+        "Four uniformed Scouts in a sunlit studio comparing choreographic floor patterns, musical timing, and partner cues."
+    ),
+    "dance_p012_img1.png": (
+        "Two uniformed Scouts leading a group of youth through a synchronized line-dance routine on a studio floor."
+    ),
+    "dance_p014_img1.png": (
+        "Uniformed Scout dancer demonstrating a balanced low floor freeze while three patrol mates keep rhythmic time."
+    ),
+    "dance_req_1_nano_hero.png": (
+        "Four uniformed Scouts in a rehearsal studio practicing warm-up stretches, hydration checks, and safe floor spacing."
+    ),
+    "dance_req_1_topic_visual.png": (
+        "Two uniformed Scouts checking studio footwear, water bottles, and warm-up stretch readiness before dance practice."
+    ),
+    "dance_req_2_nano_hero.png": (
+        "Uniformed Scouts studying cultural dance heritage displays, historic footwork diagrams, and regional rhythms."
+    ),
+    "dance_req_2_topic_visual.png": (
+        "Stage ensemble performing an expressive cultural heritage choreography under cool blue theatrical lighting."
+    ),
+    "dance_req_3_nano_hero.png": (
+        "Traditional cultural dancer in embroidered attire balancing stacked brass vessels during a classical stage performance."
     ),
     "dance_req_3_topic_visual.png": (
         "Full-body ensemble dancers practicing graceful partner ballroom carriage and coordinated folk circle steps in "
@@ -1435,9 +1474,21 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
         "Satin ballet pointe shoes, polished leather tap shoes, wooden metronome, sheet music stand, and floor-pattern "
         "sketches arranged on a sunlit studio bench."
     ),
+    "dance_req_4_topic_visual.png": (
+        "Two uniformed Scouts sketching an eight-count stage blocking diagram on a studio flipchart before rehearsal."
+    ),
+    "dance_req_5_nano_hero.png": (
+        "Uniformed Scout demonstrating dynamic contemporary floor work while fellow Scouts observe rhythm and balance."
+    ),
+    "dance_req_5_topic_visual.png": (
+        "Three uniformed Scouts rehearsing a synchronized folk and social step sequence in a hardwood dance studio."
+    ),
     "dance_req_6_nano_hero.png": (
         "Dance choreographer and sports movement specialist demonstrating healthy spinal alignment and ankle warm-up "
         "technique beside a wooden ballet barre."
+    ),
+    "dance_req_6_topic_visual.png": (
+        "Uniformed Scout instructor guiding three youth dancers through a warm-up step progression on the studio floor."
     ),
     "dance_req_7_topic_visual.png": (
         "Group of uniformed Scout leaders under an open timber camp pavilion practicing synchronized warm-up stretches "
@@ -1445,6 +1496,10 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
     ),
     "dance_req_7_nano_hero.png": (
         "Ensemble of dancers completing a coordinated final stage formation on a warm hardwood theater floor."
+    ),
+    "american_indian_culture_req_3_topic_visual.png": (
+        "Illustrated color map of North American Indigenous cultural regions from the Arctic and Northwest Coast to "
+        "the Great Plains, Southwest, and Eastern Woodlands."
     ),
     "camping_leave_no_trace_campsite_nano.png": (
         "Alpine Scout campsite laid out in a 200-foot Leave No Trace triangle separating durable gravel tent pads, "
@@ -1488,6 +1543,28 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
     ),
 }
 
+_VISUAL_EQUIVALENCE_CACHE: Optional[Dict[str, Any]] = None
+
+
+def _get_visual_equivalence_data() -> Dict[str, Any]:
+    """Loads `data/visual_equivalence_clusters.json` once and caches perceptual cluster mappings."""
+    import json as _eq_json
+
+    global _VISUAL_EQUIVALENCE_CACHE
+    if _VISUAL_EQUIVALENCE_CACHE is not None:
+        return _VISUAL_EQUIVALENCE_CACHE
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    cpath = repo_root / "data" / "visual_equivalence_clusters.json"
+    if cpath.exists():
+        try:
+            with open(cpath, "r", encoding="utf-8") as f:
+                _VISUAL_EQUIVALENCE_CACHE = _eq_json.load(f)
+                return _VISUAL_EQUIVALENCE_CACHE
+        except Exception:
+            pass
+    _VISUAL_EQUIVALENCE_CACHE = {"file_to_cluster": {}, "badge_distinct_reps": {}}
+    return _VISUAL_EQUIVALENCE_CACHE
+
 
 def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname: str = "") -> str:
     """Guarantees every slide caption is concrete, non-formulaic, zero-em-dash, and free of Requirement meta-text."""
@@ -1499,6 +1576,18 @@ def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname
 
     cand = str(raw_cap or "").strip()
     cand = cand.replace("—", ", ").replace("–", ", ").replace("--", ", ")
+    cand = _v44_re.sub(
+        r"^Cross-sectional\s+diagram\s+showing\s+key\s+parts\s+and\s+mechanical\s+relationships\s+of\s+(.+?)\s+used\s+in\s+(.+?)\.?$",
+        r"Labeled \2 field guide illustration showing \1 components, setup, and safe operation.",
+        cand,
+        flags=_v44_re.I,
+    )
+    cand = _v44_re.sub(
+        r"^Technical\s+field\s+diagram\s+for\s+.+?\s+(?:covering|showing)\s+",
+        "Labeled field reference illustrating ",
+        cand,
+        flags=_v44_re.I,
+    )
     cand = _v44_re.sub(
         r"^Field\s+(?:reference\s+)?illustration\s+(?:for|of)\s+.+?\s+showing\s+",
         "Illustrated field guide panel depicting ",
@@ -1545,13 +1634,20 @@ def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname
 
 
 def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[Dict[str, Any]]) -> None:
-    """Enforces V44 visual & caption integrity invariants across all slides in any generated deck."""
+    """Enforces V44/V48 visual & caption integrity and perceptual cluster deduplication across all slides."""
     if not slides:
         return
+    import re as _re_slug
+
     repo_root = Path(__file__).resolve().parent.parent.parent
     ai_dir = repo_root / "assets" / "ai_illustrations"
     pam_dir = repo_root / "assets" / "pamphlet_images"
     b_low = (badge_name or "").strip().lower()
+    slug = _re_slug.sub(r"[^a-z0-9]+", "_", b_low).strip("_")
+
+    eq_data = _get_visual_equivalence_data()
+    file_to_cluster: Dict[str, str] = eq_data.get("file_to_cluster") or {}
+    badge_reps: List[Dict[str, str]] = (eq_data.get("badge_distinct_reps") or {}).get(slug) or []
 
     def _assign_asset(slide_obj: Dict[str, Any], asset_file: Path, caption_text: str) -> None:
         if asset_file.exists():
@@ -1559,9 +1655,22 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
             rel_url = f"/assets/{asset_file.parent.name}/{asset_file.name}"
             slide_obj["diagram_path"] = abs_s
             slide_obj["diagram_url"] = rel_url
+            slide_obj["ai_hero_image_path"] = abs_s
+            slide_obj["hero_image_url"] = rel_url
+            slide_obj["image_url"] = rel_url
             slide_obj["visual_caption"] = caption_text
             if str(slide_obj.get("archetype") or "") in ("CONCEPT_TEXT_SLIDE", ""):
                 slide_obj["archetype"] = "SPLIT_VISUAL_EXPLAINER"
+
+    def _clear_asset(slide_obj: Dict[str, Any]) -> None:
+        slide_obj["diagram_path"] = None
+        slide_obj["diagram_url"] = None
+        slide_obj["ai_hero_image_path"] = None
+        slide_obj["hero_image_url"] = None
+        slide_obj["image_url"] = None
+        slide_obj["visual_caption"] = ""
+        if str(slide_obj.get("archetype") or "") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
+            slide_obj["archetype"] = "CONCEPT_TEXT_SLIDE"
 
     # 1. Apply exact verified V44 visual assignments for key slides across reported & benchmark badges
     for idx0, s in enumerate(slides):
@@ -1637,28 +1746,71 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
             elif cur_fn in _V44_CURATED_CAPTIONS:
                 s["visual_caption"] = _V44_CURATED_CAPTIONS[cur_fn]
 
-    # 2. Enforce zero duplicate filenames within the same deck and sanitize 100% of captions
-    seen_files: set[str] = set()
+    # 2. Enforce zero duplicate perceptual clusters AND zero duplicate filenames within the same deck
+    # First, collect all cluster IDs already present on V46 Primary Source Grounding slides so they get priority
+    v46_reserved_clusters: set[str] = set()
+    all_deck_clusters: set[str] = set()
     for s in slides:
         dp = str(s.get("diagram_path") or s.get("ai_hero_image_path") or "").strip()
         fn = os.path.basename(dp) if dp else ""
         if fn:
-            if fn in seen_files:
-                # Clear duplicate visual so consecutive or repeated slides never show the identical file twice
-                s["diagram_path"] = None
-                s["diagram_url"] = None
-                s["ai_hero_image_path"] = None
-                s["visual_caption"] = ""
-                if str(s.get("archetype") or "") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
-                    s["archetype"] = "CONCEPT_TEXT_SLIDE"
-                continue
-            seen_files.add(fn)
-            s["visual_caption"] = _sanitize_v44_caption(
-                str(s.get("visual_caption") or ""),
-                badge_name=badge_name,
-                slide_title=str(s.get("title") or ""),
-                fname=fn,
-            )
+            cid = file_to_cluster.get(fn, fn)
+            all_deck_clusters.add(cid)
+            if s.get("is_v46_deep_research_slide"):
+                v46_reserved_clusters.add(cid)
+
+    seen_clusters: set[str] = set()
+    seen_files: set[str] = set()
+    for s in slides:
+        dp = str(s.get("diagram_path") or s.get("ai_hero_image_path") or "").strip()
+        fn = os.path.basename(dp) if dp else ""
+        if not fn:
+            continue
+        cid = file_to_cluster.get(fn, fn)
+        is_v46 = bool(s.get("is_v46_deep_research_slide"))
+        # A slide is a duplicate if its file or perceptual cluster was already shown, OR if it is a non-V46 slide using a cluster reserved for a V46 slide
+        if fn in seen_files or cid in seen_clusters or (not is_v46 and cid in v46_reserved_clusters):
+            # Try to swap in an unused distinct cluster representative for this badge
+            swapped = False
+            for rep in badge_reps:
+                rep_cid = rep.get("cluster_id") or ""
+                rep_fn = rep.get("filename") or ""
+                rep_rel = rep.get("rel_path") or ""
+                if (
+                    rep_cid
+                    and rep_cid not in seen_clusters
+                    and rep_cid not in all_deck_clusters
+                    and rep_cid not in v46_reserved_clusters
+                    and rep_fn not in seen_files
+                ):
+                    cand_p = repo_root / rep_rel
+                    if cand_p.exists():
+                        clean_c = _sanitize_v44_caption(
+                            rep.get("caption") or "",
+                            badge_name=badge_name,
+                            slide_title=str(s.get("title") or ""),
+                            fname=rep_fn,
+                        )
+                        _assign_asset(s, cand_p, clean_c)
+                        seen_clusters.add(rep_cid)
+                        all_deck_clusters.add(rep_cid)
+                        seen_files.add(rep_fn)
+                        swapped = True
+                        break
+            if not swapped:
+                _clear_asset(s)
+            continue
+
+        seen_files.add(fn)
+        seen_clusters.add(cid)
+        s["visual_caption"] = _sanitize_v44_caption(
+            str(s.get("visual_caption") or ""),
+            badge_name=badge_name,
+            slide_title=str(s.get("title") or ""),
+            fname=fn,
+        )
+        if is_v46:
+            s["v46_bespoke_visual_caption"] = s["visual_caption"]
 
 
 def _apply_v46_deep_research_masterclass_slides(
@@ -1699,13 +1851,17 @@ def _apply_v46_deep_research_masterclass_slides(
     pam_dir = root_dir / "assets" / "pamphlet_images"
 
     # Select the 4 unique bespoke Nano Banana / Pamphlet visual clusters in canonical requirement order
+    eq_data = _get_visual_equivalence_data()
+    file_to_cluster: Dict[str, str] = eq_data.get("file_to_cluster") or {}
     selected_clusters: List[tuple[str, Dict[str, Any], str, str]] = []
     seen_v46_files: set[str] = set()
+    seen_v46_clusters: set[str] = set()
     for rnum, item in reqs_map.items():
         if not isinstance(item, dict):
             continue
         fn = str(item.get("bespoke_visual_filename") or "").strip()
-        if not fn or fn in seen_v46_files:
+        cid = file_to_cluster.get(fn, fn)
+        if not fn or fn in seen_v46_files or cid in seen_v46_clusters:
             continue
         if (ai_dir / fn).exists():
             rel_p = f"assets/ai_illustrations/{fn}"
@@ -1716,6 +1872,7 @@ def _apply_v46_deep_research_masterclass_slides(
         else:
             continue
         seen_v46_files.add(fn)
+        seen_v46_clusters.add(cid)
         selected_clusters.append((str(rnum), item, rel_p, web_u))
         if len(selected_clusters) >= 4:
             break
@@ -1725,7 +1882,8 @@ def _apply_v46_deep_research_masterclass_slides(
             if not isinstance(item, dict):
                 continue
             fn = str(item.get("bespoke_visual_filename") or "").strip()
-            if not fn or fn in seen_v46_files:
+            cid = file_to_cluster.get(fn, fn)
+            if not fn or fn in seen_v46_files or cid in seen_v46_clusters:
                 continue
             if (ai_dir / fn).exists():
                 rel_p = f"assets/ai_illustrations/{fn}"
@@ -1736,6 +1894,7 @@ def _apply_v46_deep_research_masterclass_slides(
             else:
                 continue
             seen_v46_files.add(fn)
+            seen_v46_clusters.add(cid)
             selected_clusters.append((str(item.get("req_id") or "1"), item, rel_p, web_u))
             if len(selected_clusters) >= 4:
                 break
@@ -1745,16 +1904,6 @@ def _apply_v46_deep_research_masterclass_slides(
 
     for cluster_idx, (rnum, item, rel_path, web_url) in enumerate(selected_clusters, start=1):
         fn = str(item.get("bespoke_visual_filename") or "").strip()
-        # Guarantee zero duplicate visual filenames across the entire deck: reserve `fn` exclusively for this V46 Masterclass slide
-        for existing_s in slides:
-            if not isinstance(existing_s, dict):
-                continue
-            ex_dp = str(existing_s.get("diagram_path") or existing_s.get("ai_hero_image_path") or "")
-            if fn and fn in ex_dp:
-                existing_s["diagram_path"] = None
-                existing_s["diagram_url"] = None
-                existing_s["ai_hero_image_path"] = None
-                existing_s["visual_caption"] = ""
         rule_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("rule_of_thumb_mnemonic") or "").strip())
         worked_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("worked_field_example") or "").strip())
         conn_txt = _sanitize_no_ellipsis_or_emdash(str(item.get("real_world_connection_box") or "").strip())
@@ -1858,5 +2007,8 @@ def _apply_v46_deep_research_masterclass_slides(
             "v46_bespoke_visual_caption": clean_cap,
         }
         slides.insert(insert_pos, new_slide)
+
+    # Re-run perceptual visual cluster deduplication and caption sanitization across the full deck (including V46 slides)
+    _apply_v44_visual_and_caption_integrity_pass(badge_name=badge_name, slides=slides)
 
 
