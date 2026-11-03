@@ -1051,6 +1051,8 @@ def beautify_slide_storyboard(
                             if (
                                 nc_fname.startswith(f"{badge_slug_check}_")
                                 and isinstance(nc_entry, dict)
+                                and "_v46_diagram" not in nc_fname
+                                and "_v47_diagram" not in nc_fname
                                 and str(nc_entry.get("req_number") or "").strip() in (str(req_num).strip(), str(base_req_num).strip())
                             ):
                                 cand_ai_files.append(AI_ILLUSTRATIONS_DIR / nc_fname)
@@ -1145,7 +1147,12 @@ def beautify_slide_storyboard(
                             break
             if not promoted_opt3b and nc_map_opt:
                 for nc_fn_opt, nc_en_opt in nc_map_opt.items():
-                    if not nc_fn_opt.startswith(f"{badge_slug_check}_") or not isinstance(nc_en_opt, dict):
+                    if (
+                        not nc_fn_opt.startswith(f"{badge_slug_check}_")
+                        or not isinstance(nc_en_opt, dict)
+                        or "_v46_diagram" in nc_fn_opt
+                        or "_v47_diagram" in nc_fn_opt
+                    ):
                         continue
                     if str(nc_en_opt.get("req_number") or "").strip() in (str(req_num).strip(), str(base_req_num).strip()):
                         cand_nc_opt = AI_ILLUSTRATIONS_DIR / nc_fn_opt
@@ -1314,8 +1321,8 @@ def beautify_slide_storyboard(
         )
         slide_specs.append(spec)
 
-    _apply_v44_visual_and_caption_integrity_pass(badge_name=badge_name, slides=slides)
     _apply_v46_deep_research_masterclass_slides(badge_name=badge_name, slides=slides)
+    _apply_v44_visual_and_caption_integrity_pass(badge_name=badge_name, slides=slides)
     storyboard["slides"] = slides
 
     blueprint = DeckVisualBlueprint(
@@ -1426,17 +1433,21 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
         "Uniformed Range Safety Officer and shooter wearing eye and ear protection seating a patched round ball with a "
         "wooden ramrod at a covered outdoor loading bench."
     ),
+    "dance_choreography_stage_blocking_v47_diagram.png": (
+        "Isometric proscenium stage floor divided into nine choreographic blocking zones with three dancers moving "
+        "along curved golden floor pathways."
+    ),
     "dance_p003_img1.png": (
-        "Twilight festival dancers performing a synchronized folk circle formation on a warmly lit stage."
+        "Dancers practicing upright posture alignment and balance exercises at a wooden barre in front of a studio mirror."
     ),
     "dance_p004_img1.png": (
-        "Two uniformed Scouts reviewing a Dance Merit Badge history poster and rehearsal checklist on a studio easel."
+        "Uniformed Scout dancer performing an athletic one-handed breakdance freeze with balanced core and shoulder control."
     ),
     "dance_p005_img1.png": (
-        "Four uniformed Scouts in a rehearsal studio practicing posture alignment, warm-up stretches, and partner spacing."
+        "Three uniformed Scouts at a library table researching historical dance books, archival photographs, and sheet music."
     ),
     "dance_p007_img1.png": (
-        "Partner dancers practicing traditional social ballroom posture and rhythmic footwork in an amber rehearsal hall."
+        "Uniformed Scout practicing dynamic knee-lift and ankle mobility warm-up exercises before dance rehearsal."
     ),
     "dance_p008_img1.png": (
         "Four full-body dancers in a sunlit hardwood rehearsal studio demonstrating classical ballet posture, tap "
@@ -1446,56 +1457,130 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
         "Four uniformed Scouts in a sunlit studio comparing choreographic floor patterns, musical timing, and partner cues."
     ),
     "dance_p012_img1.png": (
-        "Two uniformed Scouts leading a group of youth through a synchronized line-dance routine on a studio floor."
+        "Three uniformed Scouts practicing a coordinated partner dance turn and social ballroom frame."
     ),
     "dance_p014_img1.png": (
-        "Uniformed Scout dancer demonstrating a balanced low floor freeze while three patrol mates keep rhythmic time."
+        "Four uniformed Scouts holding hands while rehearsing a synchronized folk and country line dance step."
     ),
     "dance_req_1_nano_hero.png": (
-        "Four uniformed Scouts in a rehearsal studio practicing warm-up stretches, hydration checks, and safe floor spacing."
+        "Four uniformed Scouts in a rehearsal studio practicing warm-up leg stretches, hydration checks, and safe floor spacing."
     ),
     "dance_req_1_topic_visual.png": (
-        "Two uniformed Scouts checking studio footwear, water bottles, and warm-up stretch readiness before dance practice."
+        "Two uniformed Scouts holding hands to practice balanced partner posture, arm frame, and studio floor spacing."
     ),
     "dance_req_2_nano_hero.png": (
-        "Uniformed Scouts studying cultural dance heritage displays, historic footwork diagrams, and regional rhythms."
+        "Uniformed Scouts and a dance instructor in a sunlit arched-window studio demonstrating the five elements "
+        "of dance across high, middle, and low levels."
     ),
     "dance_req_2_topic_visual.png": (
-        "Stage ensemble performing an expressive cultural heritage choreography under cool blue theatrical lighting."
+        "Dancers in historical period attire performing a traditional court and social ballroom dance formation in a timbered hall."
     ),
     "dance_req_3_nano_hero.png": (
-        "Traditional cultural dancer in embroidered attire balancing stacked brass vessels during a classical stage performance."
+        "Three uniformed Scouts in a rehearsal hall demonstrating traditional folk skirt work, rhythmic hand "
+        "gestures, and upright partner posture."
     ),
     "dance_req_3_topic_visual.png": (
-        "Full-body ensemble dancers practicing graceful partner ballroom carriage and coordinated folk circle steps in "
-        "a sunlit studio."
+        "Full-body ensemble dancers practicing partner ballroom carriage and coordinated folk circle steps in a "
+        "sunlit hardwood hall."
     ),
     "dance_req_4_nano_hero.png": (
-        "Satin ballet pointe shoes, polished leather tap shoes, wooden metronome, sheet music stand, and floor-pattern "
-        "sketches arranged on a sunlit studio bench."
+        "Satin ballet pointe shoes, polished leather tap shoes, wooden metronome, sheet music stand, and choreographic "
+        "floor-pattern sketches arranged on a sunlit studio bench."
     ),
     "dance_req_4_topic_visual.png": (
-        "Two uniformed Scouts sketching an eight-count stage blocking diagram on a studio flipchart before rehearsal."
+        "Four uniformed Scouts practicing a synchronized four-hand star square and folk dance formation in a rehearsal studio."
     ),
     "dance_req_5_nano_hero.png": (
-        "Uniformed Scout demonstrating dynamic contemporary floor work while fellow Scouts observe rhythm and balance."
+        "Three uniformed Scouts in a sunlit studio practicing an energetic contemporary step sequence while keeping rhythmic time."
     ),
     "dance_req_5_topic_visual.png": (
-        "Three uniformed Scouts rehearsing a synchronized folk and social step sequence in a hardwood dance studio."
+        "Uniformed Scouts and a movement coach practicing partner swing frame and coordinated footwork in front of a studio mirror."
     ),
     "dance_req_6_nano_hero.png": (
-        "Dance choreographer and sports movement specialist demonstrating healthy spinal alignment and ankle warm-up "
-        "technique beside a wooden ballet barre."
+        "Dance instructors in a mirrored sprung-floor studio demonstrating vertical spinal alignment and ballet barre "
+        "warm-up posture."
     ),
     "dance_req_6_topic_visual.png": (
-        "Uniformed Scout instructor guiding three youth dancers through a warm-up step progression on the studio floor."
+        "Uniformed Scout instructor guiding three youth dancers through a rhythmic warm-up and step progression in a rehearsal room."
     ),
     "dance_req_7_topic_visual.png": (
-        "Group of uniformed Scout leaders under an open timber camp pavilion practicing synchronized warm-up stretches "
-        "and group rhythm steps on a wooden deck."
+        "Five uniformed Scouts under an open timber camp pavilion practicing a synchronized group line dance routine "
+        "on a wooden deck."
     ),
     "dance_req_7_nano_hero.png": (
-        "Ensemble of dancers completing a coordinated final stage formation on a warm hardwood theater floor."
+        "Ensemble of dancers completing a coordinated multi-level stage formation on a warm hardwood theater floor."
+    ),
+    "robotics_req_1_nano_hero.png": (
+        "Two uniformed Scouts wearing safety glasses and protective gloves inspecting a wheeled robot chassis on a workbench."
+    ),
+    "robotics_req_1_topic_visual.png": (
+        "Hand-drawn engineering notebook concept sketch illustrating ultrasonic distance sensor wave propagation and "
+        "obstacle reflection."
+    ),
+    "robotics_p032_img1.png": (
+        "Hand-drawn engineering notebook concept sketch illustrating ultrasonic distance sensor wave propagation and "
+        "obstacle reflection."
+    ),
+    "robotics_p032_img4.png": (
+        "Hand-drawn engineering notebook concept sketch illustrating ultrasonic distance sensor wave propagation and "
+        "obstacle reflection."
+    ),
+    "robotics_p032_img2.png": (
+        "Hand-drawn engineering notebook concept sketch showing GPS satellite triangulation and orbital range vectors."
+    ),
+    "robotics_p032_img3.png": (
+        "Hand-drawn engineering notebook concept sketch showing GPS satellite triangulation and orbital range vectors."
+    ),
+    "robotics_req_2_nano_hero.png": (
+        "Adult counselor and two uniformed Scouts examining an articulated robotic arm and mobile sensor platform in camp."
+    ),
+    "robotics_p007_img1.png": (
+        "Adult counselor and two uniformed Scouts examining an articulated robotic arm and mobile sensor platform in camp."
+    ),
+    "robotics_req_7_topic_visual.png": (
+        "Adult counselor and two uniformed Scouts examining an articulated robotic arm and mobile sensor platform in camp."
+    ),
+    "robotics_req_2_topic_visual.png": (
+        "The NASA and GM Robonaut humanoid robot demonstrating upper-body dexterity and human-scale tool manipulation."
+    ),
+    "robotics_p017_img2.png": (
+        "The NASA and GM Robonaut humanoid robot demonstrating upper-body dexterity and human-scale tool manipulation."
+    ),
+    "robotics_req_3_nano_hero.png": (
+        "Uniformed Scouts and an instructor testing a tracked robotic vehicle and sensor array at a field workbench."
+    ),
+    "robotics_p012_img1.png": (
+        "Uniformed Scouts and an instructor testing a tracked robotic vehicle and sensor array at a field workbench."
+    ),
+    "robotics_req_4_topic_visual.png": (
+        "Uniformed Scouts and an instructor testing a tracked robotic vehicle and sensor array at a field workbench."
+    ),
+    "robotics_req_3_topic_visual.png": (
+        "NASA Mars Curiosity rover mobility subsystem showing the rocker-bogie suspension and cleated aluminum wheels."
+    ),
+    "robotics_req_6_topic_visual.png": (
+        "NASA Mars Curiosity rover mobility subsystem showing the rocker-bogie suspension and cleated aluminum wheels."
+    ),
+    "robotics_p020_img1.png": (
+        "NASA Mars Curiosity rover mobility subsystem showing the rocker-bogie suspension and cleated aluminum wheels."
+    ),
+    "robotics_req_4_nano_hero.png": (
+        "Uniformed Scouts writing microcontroller code on a laptop beside a tabletop robotics test arena."
+    ),
+    "robotics_req_5_nano_hero.png": (
+        "Uniformed Scouts reviewing an engineering notebook schematic while calibrating their custom-built robot on a workbench."
+    ),
+    "robotics_req_5_topic_visual.png": (
+        "Youth competition robot #604 positioned on a bordered tournament field during autonomous and teleoperated match testing."
+    ),
+    "robotics_p071_img1.png": (
+        "Youth competition robot #604 positioned on a bordered tournament field during autonomous and teleoperated match testing."
+    ),
+    "robotics_req_6_nano_hero.png": (
+        "Uniformed Scouts inspecting drivetrain wiring and manipulator linkages on a competition robot in an outdoor pit station."
+    ),
+    "robotics_req_7_nano_hero.png": (
+        "Uniformed Scouts comparing underwater ROV, space exploration rover, and domestic robotics engineering displays."
     ),
     "american_indian_culture_req_3_topic_visual.png": (
         "Illustrated color map of North American Indigenous cultural regions from the Arctic and Northwest Coast to "
@@ -1544,6 +1629,8 @@ _V44_CURATED_CAPTIONS: Dict[str, str] = {
 }
 
 _VISUAL_EQUIVALENCE_CACHE: Optional[Dict[str, Any]] = None
+_CATALOG_CAPTION_MAP: Optional[Dict[str, str]] = None
+_DISCARDED_PAMPHLET_SET: Optional[set[str]] = None
 
 
 def _get_visual_equivalence_data() -> Dict[str, Any]:
@@ -1562,8 +1649,39 @@ def _get_visual_equivalence_data() -> Dict[str, Any]:
                 return _VISUAL_EQUIVALENCE_CACHE
         except Exception:
             pass
-    _VISUAL_EQUIVALENCE_CACHE = {"file_to_cluster": {}, "badge_distinct_reps": {}}
+    _VISUAL_EQUIVALENCE_CACHE = {"file_to_cluster": {}, "clone_to_pamphlet": {}, "badge_distinct_reps": {}}
     return _VISUAL_EQUIVALENCE_CACHE
+
+
+def _get_catalog_caption_and_discard_maps() -> tuple[Dict[str, str], set[str]]:
+    """Loads authoritative captions and discarded file set from `pamphlet_image_catalog.json` & `nano_banana_image_catalog.json`."""
+    import json as _cat_json
+
+    global _CATALOG_CAPTION_MAP, _DISCARDED_PAMPHLET_SET
+    if _CATALOG_CAPTION_MAP is not None and _DISCARDED_PAMPHLET_SET is not None:
+        return _CATALOG_CAPTION_MAP, _DISCARDED_PAMPHLET_SET
+    repo_root = Path(__file__).resolve().parent.parent.parent
+    cap_map: Dict[str, str] = {}
+    disc_set: set[str] = set()
+    for rel_c in ("data/nano_banana_image_catalog.json", "data/pamphlet_image_catalog.json"):
+        p = repo_root / rel_c
+        if p.exists():
+            try:
+                with open(p, "r", encoding="utf-8") as f:
+                    data = _cat_json.load(f)
+                if isinstance(data, dict):
+                    for k, v in data.items():
+                        if isinstance(v, dict):
+                            if v.get("discard") or (v.get("is_synthetic_hero_clone") and not k.startswith("dance_")):
+                                disc_set.add(k)
+                            c = str(v.get("caption") or "").strip()
+                            if c:
+                                cap_map[k] = c
+            except Exception:
+                pass
+    _CATALOG_CAPTION_MAP = cap_map
+    _DISCARDED_PAMPHLET_SET = disc_set
+    return _CATALOG_CAPTION_MAP, _DISCARDED_PAMPHLET_SET
 
 
 def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname: str = "") -> str:
@@ -1574,7 +1692,20 @@ def _sanitize_v44_caption(raw_cap: str, badge_name: str, slide_title: str, fname
     if bname in _V44_CURATED_CAPTIONS:
         return _V44_CURATED_CAPTIONS[bname]
 
+    cap_map, _ = _get_catalog_caption_and_discard_maps()
     cand = str(raw_cap or "").strip()
+    # Prefer authoritative catalog caption if raw_cap is empty or uses a legacy Mad-Libs / Annotated template
+    if bname in cap_map and (
+        not cand
+        or "Annotated " in cand
+        or "wooden picnic table" in cand
+        or "Detailed field manual illustration of Scouts demonstrating" in cand
+        or "Daylight outdoor camp demonstration of" in cand
+        or "Clear visual cutaway and outdoor demonstration of" in cand
+        or "Close-up instructional field scene showing Scouts practicing" in cand
+    ):
+        cand = cap_map[bname]
+
     cand = cand.replace("—", ", ").replace("–", ", ").replace("--", ", ")
     cand = _v44_re.sub(
         r"^Cross-sectional\s+diagram\s+showing\s+key\s+parts\s+and\s+mechanical\s+relationships\s+of\s+(.+?)\s+used\s+in\s+(.+?)\.?$",
@@ -1647,7 +1778,9 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
 
     eq_data = _get_visual_equivalence_data()
     file_to_cluster: Dict[str, str] = eq_data.get("file_to_cluster") or {}
+    clone_to_pamphlet: Dict[str, Any] = eq_data.get("clone_to_pamphlet") or {}
     badge_reps: List[Dict[str, str]] = (eq_data.get("badge_distinct_reps") or {}).get(slug) or []
+    cap_map, discarded_pam_set = _get_catalog_caption_and_discard_maps()
 
     def _assign_asset(slide_obj: Dict[str, Any], asset_file: Path, caption_text: str) -> None:
         if asset_file.exists():
@@ -1672,12 +1805,23 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
         if str(slide_obj.get("archetype") or "") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
             slide_obj["archetype"] = "CONCEPT_TEXT_SLIDE"
 
-    # 1. Apply exact verified V44 visual assignments for key slides across reported & benchmark badges
+    # 1. Upgrade any center-cropped ai_illustrations pamphlet clone to its uncropped pamphlet_images original,
+    #    clear discarded pamphlet emblems, and apply verified V44/V48 curated assignments.
     for idx0, s in enumerate(slides):
         s_num = idx0 + 1
         title_l = str(s.get("title") or "").lower()
         cur_p = str(s.get("diagram_path") or s.get("ai_hero_image_path") or "")
         cur_fn = os.path.basename(cur_p)
+
+        if cur_fn in discarded_pam_set:
+            _clear_asset(s)
+            cur_fn = ""
+        elif cur_fn in clone_to_pamphlet:
+            c_info = clone_to_pamphlet[cur_fn]
+            pam_fn = str(c_info.get("pamphlet_filename") or "")
+            if pam_fn and (pam_dir / pam_fn).exists():
+                _assign_asset(s, pam_dir / pam_fn, str(c_info.get("caption") or cap_map.get(pam_fn) or ""))
+                cur_fn = pam_fn
 
         if b_low == "first aid":
             if cur_fn == "first_aid_p023_img1.png":
@@ -1746,8 +1890,8 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
             elif cur_fn in _V44_CURATED_CAPTIONS:
                 s["visual_caption"] = _V44_CURATED_CAPTIONS[cur_fn]
 
-    # 2. Enforce zero duplicate perceptual clusters AND zero duplicate filenames within the same deck
-    # First, collect all cluster IDs already present on V46 Primary Source Grounding slides so they get priority
+    # 2. Enforce zero duplicate perceptual clusters AND zero duplicate filenames within the same deck.
+    #    Only reserve V46 clusters when they use dedicated *_v46_diagram / *_v47_diagram assets (or on Dance).
     v46_reserved_clusters: set[str] = set()
     all_deck_clusters: set[str] = set()
     for s in slides:
@@ -1756,7 +1900,9 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
         if fn:
             cid = file_to_cluster.get(fn, fn)
             all_deck_clusters.add(cid)
-            if s.get("is_v46_deep_research_slide"):
+            if s.get("is_v46_deep_research_slide") and (
+                "_v46_diagram" in fn or "_v47_diagram" in fn or b_low == "dance"
+            ):
                 v46_reserved_clusters.add(cid)
 
     seen_clusters: set[str] = set()
@@ -1768,25 +1914,34 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
             continue
         cid = file_to_cluster.get(fn, fn)
         is_v46 = bool(s.get("is_v46_deep_research_slide"))
-        # A slide is a duplicate if its file or perceptual cluster was already shown, OR if it is a non-V46 slide using a cluster reserved for a V46 slide
+        s_req_raw = str(s.get("base_req_number") or s.get("req_number") or "").strip()
+        s_req_m = _re_slug.match(r"^(\d+)", s_req_raw)
+        s_req_base = s_req_m.group(1) if s_req_m else s_req_raw
+
         if fn in seen_files or cid in seen_clusters or (not is_v46 and cid in v46_reserved_clusters):
-            # Try to swap in an unused distinct cluster representative for this badge
+            # Try to swap in an unused distinct cluster representative matching the same requirement (or Dance studio pool)
             swapped = False
             for rep in badge_reps:
                 rep_cid = rep.get("cluster_id") or ""
                 rep_fn = rep.get("filename") or ""
                 rep_rel = rep.get("rel_path") or ""
+                rep_req_raw = str(rep.get("req_number") or "").strip()
+                rep_req_m = _re_slug.match(r"^(\d+)", rep_req_raw)
+                rep_req_base = rep_req_m.group(1) if rep_req_m else rep_req_raw
+                req_ok = (b_low == "dance") or (bool(s_req_base) and rep_req_base == s_req_base)
                 if (
-                    rep_cid
+                    req_ok
+                    and rep_cid
                     and rep_cid not in seen_clusters
                     and rep_cid not in all_deck_clusters
                     and rep_cid not in v46_reserved_clusters
                     and rep_fn not in seen_files
+                    and rep_fn not in discarded_pam_set
                 ):
                     cand_p = repo_root / rep_rel
                     if cand_p.exists():
                         clean_c = _sanitize_v44_caption(
-                            rep.get("caption") or "",
+                            rep.get("caption") or cap_map.get(rep_fn) or "",
                             badge_name=badge_name,
                             slide_title=str(s.get("title") or ""),
                             fname=rep_fn,
@@ -1804,7 +1959,7 @@ def _apply_v44_visual_and_caption_integrity_pass(badge_name: str, slides: List[D
         seen_files.add(fn)
         seen_clusters.add(cid)
         s["visual_caption"] = _sanitize_v44_caption(
-            str(s.get("visual_caption") or ""),
+            str(s.get("visual_caption") or cap_map.get(fn) or ""),
             badge_name=badge_name,
             slide_title=str(s.get("title") or ""),
             fname=fn,
@@ -1817,7 +1972,7 @@ def _apply_v46_deep_research_masterclass_slides(
     badge_name: str,
     slides: List[Dict[str, Any]],
 ) -> None:
-    """Inject 4 dedicated V46 Deep-Research & Nano Banana Cutaway Masterclass slides per Pilot Badge."""
+    """Inject up to 4 dedicated V46 Deep-Research & Primary Source Grounding Masterclass slides per badge."""
     if not isinstance(slides, list) or not slides:
         return
     import re
@@ -1842,7 +1997,7 @@ def _apply_v46_deep_research_masterclass_slides(
         v46_ov = _load_v46_deep_research_overlay(badge_name)
     except Exception:
         return
-    if not isinstance(v46_ov, dict) or not v46_ov.get("requirements"):
+    if not isinstance(v46_ov, dict) or not (v46_ov.get("bespoke_clusters") or v46_ov.get("requirements")):
         return
 
     reqs_map: Dict[str, Any] = v46_ov.get("requirements") or {}
@@ -1850,18 +2005,29 @@ def _apply_v46_deep_research_masterclass_slides(
     ai_dir = root_dir / "assets" / "ai_illustrations"
     pam_dir = root_dir / "assets" / "pamphlet_images"
 
-    # Select the 4 unique bespoke Nano Banana / Pamphlet visual clusters in canonical requirement order
+    # Select up to 4 unique Primary Source Grounding clusters (unique title, unique file, unique perceptual cluster)
     eq_data = _get_visual_equivalence_data()
     file_to_cluster: Dict[str, str] = eq_data.get("file_to_cluster") or {}
     selected_clusters: List[tuple[str, Dict[str, Any], str, str]] = []
     seen_v46_files: set[str] = set()
     seen_v46_clusters: set[str] = set()
+    seen_v46_titles: set[str] = set()
+
+    candidate_sources: List[tuple[str, Dict[str, Any]]] = []
+    # Prefer bespoke_clusters first if any cluster has a v47_diagram, otherwise reqs_map then bespoke_clusters
+    if isinstance(v46_ov.get("bespoke_clusters"), list):
+        for item in v46_ov["bespoke_clusters"]:
+            if isinstance(item, dict):
+                candidate_sources.append((str(item.get("req_id") or "1"), item))
     for rnum, item in reqs_map.items():
-        if not isinstance(item, dict):
-            continue
+        if isinstance(item, dict):
+            candidate_sources.append((str(rnum), item))
+
+    for rnum, item in candidate_sources:
         fn = str(item.get("bespoke_visual_filename") or "").strip()
         cid = file_to_cluster.get(fn, fn)
-        if not fn or fn in seen_v46_files or cid in seen_v46_clusters:
+        t_key = str(item.get("v47_slide_title") or item.get("rule_of_thumb_mnemonic") or "").strip().lower()
+        if not fn or fn in seen_v46_files or cid in seen_v46_clusters or (t_key and t_key in seen_v46_titles):
             continue
         if (ai_dir / fn).exists():
             rel_p = f"assets/ai_illustrations/{fn}"
@@ -1873,31 +2039,11 @@ def _apply_v46_deep_research_masterclass_slides(
             continue
         seen_v46_files.add(fn)
         seen_v46_clusters.add(cid)
+        if t_key:
+            seen_v46_titles.add(t_key)
         selected_clusters.append((str(rnum), item, rel_p, web_u))
         if len(selected_clusters) >= 4:
             break
-
-    if len(selected_clusters) < 4 and isinstance(v46_ov.get("bespoke_clusters"), list):
-        for item in v46_ov["bespoke_clusters"]:
-            if not isinstance(item, dict):
-                continue
-            fn = str(item.get("bespoke_visual_filename") or "").strip()
-            cid = file_to_cluster.get(fn, fn)
-            if not fn or fn in seen_v46_files or cid in seen_v46_clusters:
-                continue
-            if (ai_dir / fn).exists():
-                rel_p = f"assets/ai_illustrations/{fn}"
-                web_u = f"/assets/ai_illustrations/{fn}"
-            elif (pam_dir / fn).exists():
-                rel_p = f"assets/pamphlet_images/{fn}"
-                web_u = f"/assets/pamphlet_images/{fn}"
-            else:
-                continue
-            seen_v46_files.add(fn)
-            seen_v46_clusters.add(cid)
-            selected_clusters.append((str(item.get("req_id") or "1"), item, rel_p, web_u))
-            if len(selected_clusters) >= 4:
-                break
 
     if not selected_clusters:
         return

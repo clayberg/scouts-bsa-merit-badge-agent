@@ -49,7 +49,7 @@
 - **Common Myth:** Golf carts provide complete protection from lightning strikes during sudden thunderstorms on open fairways.
 - **Pamphlet Fact:** Golf carts lack rubber enclosed insulation and offer zero protection against direct lightning strikes.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of lightning evacuation protocol used in Golf.](/assets/pamphlet_images/golf_p003_img1.png)
+![Annotated Golf instructional diagram illustrating lightning evacuation protocol techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/golf_p003_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -74,7 +74,7 @@
 - **Common Myth:** A disc golf player may take as much time as desired to line up and execute any throw on the course.
 - **Pamphlet Fact:** PDGA courtesy rules require players to throw within thirty seconds once they reach their lie and the area is clear.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of governance authority alignment used in Golf.](/assets/pamphlet_images/golf_p007_img1.png)
+![Annotated Golf instructional diagram illustrating governance authority alignment techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/golf_p007_img1.png)
 
 | Req 2b(1)(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -49,7 +49,7 @@
 - **Common Myth:** Robotic hazards only exist while electric drive motors receive active operational current.
 - **Pamphlet Fact:** Stored kinetic energy in mechanical linkages and pneumatic cylinders persists after main power loss.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of pinch point hazards used in Robotics.](/assets/pamphlet_images/robotics_p003_img1.png)
+![Annotated Robotics instructional diagram illustrating pinch point hazards techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/robotics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -96,7 +96,7 @@
 - **Common Myth:** Robots provide superior economic value when assigned to unpredictable custom artisan repairs.
 - **Pamphlet Fact:** Robotic systems handle dangerous repetitive tasks like chemical tank inspection and radioactive waste sorting.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of industrial work cells used in Robotics.](/assets/pamphlet_images/robotics_p007_img1.png)
+![Annotated Robotics instructional diagram illustrating industrial work cells techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/robotics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

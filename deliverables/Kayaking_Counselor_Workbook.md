@@ -53,7 +53,7 @@
 - **Common Myth:** Small river dams are safe to paddle over during normal water flow.
 - **Pamphlet Fact:** Low head dams create powerful reverse roller currents that trap kayaks beneath the surface.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of weather assessment used in Kayaking.](/assets/pamphlet_images/kayaking_p003_img1.png)
+![Annotated Kayaking instructional diagram illustrating weather assessment techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/kayaking_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -120,7 +120,7 @@
 - **Common Myth:** Paddlers wearing life jackets do not need to pass aquatics swimming tests.
 - **Pamphlet Fact:** The jump into deep water proves a swimmer can handle disorienting accidental immersion.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of entry assessment used in Kayaking.](/assets/pamphlet_images/kayaking_p007_img1.png)
+![Annotated Kayaking instructional diagram illustrating entry assessment techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/kayaking_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -147,7 +147,7 @@
 - **Common Myth:** Bulky offshore Type I life jackets are ideal for maneuvering nimble recreational kayaks.
 - **Pamphlet Fact:** Type III life jackets offer freedom of arm rotation needed for continuous paddling.
 
-![Cross-sectional diagram showing key parts and mechanical relationships of jacket fitting used in Kayaking.](/assets/pamphlet_images/kayaking_p012_img1.png)
+![Annotated Kayaking instructional diagram illustrating jacket fitting techniques, equipment setup, and safety checkpoints.](/assets/pamphlet_images/kayaking_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

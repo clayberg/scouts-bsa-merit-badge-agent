@@ -133,3 +133,43 @@ def test_v44_ui_cache_busting_and_non_cropping_stage_rules() -> None:
     assert re.search(r"\}v=4[4-9]`", app_js)
     assert 'imgEl.style.objectFit = "contain"' in app_js
     assert "object-fit: contain;" in styles_css
+
+
+def test_v48_2_dance_and_robotics_masterclass_zero_duplicates_and_matched_captions() -> None:
+    """Verifies Dance and Robotics Masterclass decks have zero duplicate clusters, zero clones, and exact captions."""
+    from src.tools.scouting_scraper import fetch_merit_badge_pamphlet_pdf
+
+    eq = json.loads((DATA_DIR / "visual_equivalence_clusters.json").read_text(encoding="utf-8"))
+    file_to_cluster = eq["file_to_cluster"]
+    clone_to_pamphlet = eq["clone_to_pamphlet"]
+
+    for bname in ("Dance", "Robotics"):
+        reqs = fetch_merit_badge_pamphlet_pdf({"badge_name": bname})["requirements"]
+        sb = generate_slide_storyboard(bname, reqs, depth_mode="Comprehensive Masterclass")
+        slides = beautify_slide_storyboard(sb, beautification_tier="BEAUTIFIED", max_ai_images=20)["storyboard"]["slides"]
+
+        seen_files: set[str] = set()
+        seen_clusters: set[str] = set()
+        seen_v46_titles: set[str] = set()
+
+        for idx, s in enumerate(slides):
+            ui_slide = idx + 2
+            if s.get("is_v46_deep_research_slide"):
+                t = str(s.get("title") or "").strip()
+                assert t not in seen_v46_titles, f"Duplicate V46 title {t} on {bname} UI Slide {ui_slide}"
+                seen_v46_titles.add(t)
+
+            dp = (s.get("diagram_path") or s.get("diagram_url") or "").split("?")[0]
+            if not dp:
+                continue
+            fn = os.path.basename(dp)
+            cid = file_to_cluster.get(fn, fn)
+            cap = str(s.get("visual_caption") or "").strip()
+
+            assert fn not in seen_files, f"Duplicate image {fn} on {bname} UI Slide {ui_slide}"
+            assert cid not in seen_clusters, f"Duplicate perceptual cluster {cid} ({fn}) on {bname} UI Slide {ui_slide}"
+            assert fn not in clone_to_pamphlet, f"Center-cropped clone {fn} used on {bname} UI Slide {ui_slide}"
+            assert len(cap) >= 20 and "—" not in cap and "Annotated " not in cap
+            seen_files.add(fn)
+            seen_clusters.add(cid)
+

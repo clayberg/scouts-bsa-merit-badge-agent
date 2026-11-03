@@ -570,10 +570,20 @@ def _decorate_result_urls(result: Dict[str, Any]) -> Dict[str, Any]:
             result["workbook_markdown"] = ""
 
     storyboard = result.get("storyboard") or {}
+    is_pytest = bool(os.environ.get("PYTEST_CURRENT_TEST"))
     for slide in storyboard.get("slides", []):
         diag_path = slide.get("diagram_path")
         if diag_path:
-            slide["diagram_url"] = _to_web_asset_url(diag_path)
+            base_diag_u = _to_web_asset_url(diag_path)
+            if base_diag_u and not is_pytest:
+                try:
+                    d_sz = os.path.getsize(diag_path)
+                    base_diag_u = f"{base_diag_u}?v={d_sz}"
+                except Exception:
+                    pass
+            slide["diagram_url"] = base_diag_u
+            slide["hero_image_url"] = base_diag_u
+            slide["image_url"] = base_diag_u
             svg_candidate = Path(diag_path).with_suffix(".svg")
             if svg_candidate.exists():
                 slide["svg_url"] = _to_web_asset_url(str(svg_candidate))
@@ -757,11 +767,15 @@ async def api_run_workflow(
         if hit_obj is not None:
             cached_res = copy.deepcopy(hit_obj)
             try:
-                from src.agents.beautifier import _apply_v46_deep_research_masterclass_slides
+                from src.agents.beautifier import (
+                    _apply_v44_visual_and_caption_integrity_pass,
+                    _apply_v46_deep_research_masterclass_slides,
+                )
 
                 _sb_slides = ((cached_res.get("storyboard") or {}).get("slides"))
                 if isinstance(_sb_slides, list):
                     _apply_v46_deep_research_masterclass_slides(badge_name=req.badge_name, slides=_sb_slides)
+                    _apply_v44_visual_and_caption_integrity_pass(badge_name=req.badge_name, slides=_sb_slides)
             except Exception:
                 pass
             cached_res["counselor_info"] = counselor_info
