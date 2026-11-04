@@ -67,7 +67,7 @@
 - **Common Myth:** Burn treatment for alkaline battery contact involves applying petroleum jelly over exposed skin.
 - **Pamphlet Fact:** Flushing chemical burns from ruptured cells requires continuous running tap water for fifteen minutes.
 
-![A multi-wheeled mobile robotic rover shows drive actuators and independent suspension linkages.](/assets/pamphlet_images/robotics_p020_img1.png)
+![NASA Mars Curiosity rover mobility subsystem showing the rocker-bogie suspension and cleated aluminum wheels.](/assets/pamphlet_images/robotics_p020_img1.png)
 
 | Req 1b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -161,7 +161,7 @@
 - **Common Myth:** Software programming alone can compensate for missing physical sensor inputs on a mobile chassis.
 - **Pamphlet Fact:** Robotic sensors translate physical analog environmental properties into digital microvolt readings for processing.
 
-![Scouts and counselors collaborate around a wooden picnic table to assemble an all-terrain tracked rover.](/assets/ai_illustrations/robotics_req_3_nano_hero.png)
+![Uniformed Scouts and an instructor testing a tracked robotic vehicle and sensor array at a field workbench.](/assets/ai_illustrations/robotics_req_3_nano_hero.png)
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -191,7 +191,7 @@
 - **Common Myth:** Choosing a broad generic goal like navigating a room provides sufficient engineering project criteria.
 - **Pamphlet Fact:** A viable engineering task specification contains measurable success criteria rather than subjective performance goals.
 
-![A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.](/assets/pamphlet_images/robotics_p032_img1.png)
+![Hand-drawn engineering notebook concept sketch illustrating ultrasonic distance sensor wave propagation and obstacle reflection.](/assets/pamphlet_images/robotics_p032_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -308,7 +308,7 @@
 - **Common Myth:** Demonstrating bench top motor rotation without completing the physical task fulfills the requirement.
 - **Pamphlet Fact:** Live demonstrations prove whether real world sensor calibration matches the programmed environmental thresholds.
 
-![An engineering notebook sketch diagrams GPS satellite triangulation for autonomous navigation.](/assets/pamphlet_images/robotics_p032_img2.png)
+![Hand-drawn engineering notebook concept sketch showing GPS satellite triangulation and orbital range vectors.](/assets/pamphlet_images/robotics_p032_img2.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -353,7 +353,7 @@
 - **Common Myth:** Tournament attendance involves merely watching matches from bleachers without studying team technical workflows.
 - **Pamphlet Fact:** Competitive pit areas operate like real world engineering test bays under tight schedule pressures.
 
-![A student competition robot equipped with bumpers and intake mechanisms awaits its arena match.](/assets/pamphlet_images/robotics_p071_img1.png)
+![Youth competition robot #604 positioned on a bordered tournament field during autonomous and teleoperated match testing.](/assets/pamphlet_images/robotics_p071_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
